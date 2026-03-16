@@ -556,8 +556,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     cta: {
       headline: "Klaar om meer tuinprojecten binnen te halen?",
       subheadline: "Plan een gratis gesprek en ontdek hoe ons systeem hoveniersbedrijven helpt groeien — het hele jaar door.",
-      buttonText: "Plan een Gesprek",
-      buttonUrl: "/contact",
+      buttonText: "Boek een Demo",
+      buttonUrl: "/demo",
     },
   },
   klusbedrijven: createPlaceholderTrade("klusbedrijven", "klusjesman", "klusbedrijven", "klusbedrijf", [
