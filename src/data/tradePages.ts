@@ -126,8 +126,8 @@ const schildersData: TradeData = {
   cta: {
     headline: "Klaar om meer schilderklussen binnen te halen?",
     subheadline: "Boek een gratis gesprek en we laten zien hoe het systeem werkt voor schildersbedrijven in jouw regio.",
-    buttonText: "Plan een Gesprek",
-    buttonUrl: "/contact",
+    buttonText: "Boek een Demo",
+    buttonUrl: "/demo",
   },
 };
 
