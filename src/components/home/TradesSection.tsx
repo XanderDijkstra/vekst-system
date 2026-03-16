@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { fadeInUp, systemEase } from "@/lib/animations";
+import { CheckCircle2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 import dakdekkersImg from "@/assets/trades/dakdekkers.jpg";
 import loodgieterImg from "@/assets/trades/loodgieter.jpg";
@@ -23,6 +26,17 @@ const trades = [
   { name: "Tegelzetters", image: tegelzetterImg },
 ];
 
+const allTrades = [
+  "Badkamer renovatie", "Beglazing", "Bestrating", "Beton & Cement",
+  "Cv-ketel montage", "Dakgoten", "Domotica", "Gevelreiniging",
+  "Glaszetter", "Hekwerk & Poorten", "Hoveniers", "Interieurontwerp",
+  "Isolatie", "Keukenmontage", "Kozijnen & Ramen", "Metselwerk",
+  "Ontruiming", "Opruimservice", "Parketvloeren", "Rioolservice",
+  "Rolluiken & Zonwering", "Schoonmaakbedrijf", "Stukadoor",
+  "Timmerwerk", "Vloerlegger", "Voegwerk", "Warmtepomp installatie",
+  "Zonnepanelen",
+];
+
 const TradesSection = () => {
   return (
     <section className="py-20 md:py-28 bg-secondary">
@@ -40,6 +54,12 @@ const TradesSection = () => {
           En nog veel meer…
         </motion.p>
 
+        <motion.div {...fadeInUp} className="mt-8 flex justify-center">
+          <Button asChild size="lg">
+            <Link to="/contact">Bekijk alle vakdiensten</Link>
+          </Button>
+        </motion.div>
+
         <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {trades.map((trade, i) => (
             <motion.div
@@ -54,9 +74,7 @@ const TradesSection = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
               />
-              {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
-              {/* Label */}
               <div className="absolute bottom-0 left-0 right-0 p-5">
                 <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">
                   {trade.name}
@@ -65,6 +83,27 @@ const TradesSection = () => {
             </motion.div>
           ))}
         </div>
+
+        {/* All trades list */}
+        <motion.div {...fadeInUp} className="mt-16">
+          <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground text-center mb-10">
+            Alle vakgebieden
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-4 max-w-4xl mx-auto">
+            {allTrades.map((trade) => (
+              <div key={trade} className="flex items-center gap-2.5">
+                <CheckCircle2 className="h-5 w-5 text-accent shrink-0" />
+                <span className="text-sm md:text-base text-foreground">{trade}</span>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+        <motion.div {...fadeInUp} className="mt-12 flex justify-center">
+          <Button asChild size="lg">
+            <Link to="/contact">Start vandaag nog</Link>
+          </Button>
+        </motion.div>
       </div>
     </section>
   );
