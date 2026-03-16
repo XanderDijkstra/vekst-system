@@ -390,8 +390,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     cta: {
       headline: "Klaar om de loodgieter te zijn die ze als eerste bellen?",
       subheadline: "Plan een gratis gesprek en we laten zien hoe ons systeem werkt voor loodgietersbedrijven in jouw regio.",
-      buttonText: "Plan een Gesprek",
-      buttonUrl: "/contact",
+      buttonText: "Boek een Demo",
+      buttonUrl: "/demo",
     },
   },
   stukadoors: {
