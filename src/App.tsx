@@ -18,6 +18,7 @@ import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
 import CaseStudiesOverview from "./pages/CaseStudiesOverview";
 import ContactPage from "./pages/ContactPage";
+import VakgebiedenPage from "./pages/VakgebiedenPage";
 
 const queryClient = new QueryClient();
 
@@ -42,6 +43,7 @@ const App = () => (
           <Route path="/kennisbank/:slug" element={<KennisbankArticle />} />
           <Route path="/case-studies" element={<CaseStudiesOverview />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/vakgebieden" element={<VakgebiedenPage />} />
           {/* Redirects from old /systemen routes */}
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
           <Route path="/systemen/:slug" element={<Navigate to="/diensten" replace />} />

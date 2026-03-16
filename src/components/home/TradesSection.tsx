@@ -56,7 +56,7 @@ const TradesSection = () => {
 
         <motion.div {...fadeInUp} className="mt-8 flex justify-center">
           <Button asChild size="lg">
-            <Link to="/contact">Bekijk alle vakdiensten</Link>
+            <Link to="/vakgebieden">Bekijk alle vakdiensten</Link>
           </Button>
         </motion.div>
 
