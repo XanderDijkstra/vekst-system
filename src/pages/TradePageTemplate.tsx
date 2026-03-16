@@ -44,6 +44,7 @@ function injectJsonLd(id: string, data: object) {
   script.text = JSON.stringify(data);
   document.head.appendChild(script);
 }
+const SITE_URL = "https://groei-systeem.com";
 
 
 
