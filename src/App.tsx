@@ -20,6 +20,7 @@ import CaseStudiesOverview from "./pages/CaseStudiesOverview";
 import ContactPage from "./pages/ContactPage";
 import VakgebiedenPage from "./pages/VakgebiedenPage";
 import TradePageWrapper from "./pages/TradePageWrapper";
+import DemoPage from "./pages/DemoPage";
 
 const queryClient = new QueryClient();
 
