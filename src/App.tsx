@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import DienstenOverview from "./pages/DienstenOverview";
 import DienstDetail from "./pages/DienstDetail";
 import LeadGeneratie from "./pages/systemen/LeadGeneratie";
+import Klantcommunicatie from "./pages/systemen/Klantcommunicatie";
 import SectorPage from "./pages/SectorPage";
 import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
