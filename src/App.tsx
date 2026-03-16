@@ -19,6 +19,7 @@ import KennisbankArticle from "./pages/KennisbankArticle";
 import CaseStudiesOverview from "./pages/CaseStudiesOverview";
 import ContactPage from "./pages/ContactPage";
 import VakgebiedenPage from "./pages/VakgebiedenPage";
+import TradePageWrapper from "./pages/TradePageWrapper";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/case-studies" element={<CaseStudiesOverview />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
+          <Route path="/voor-:slug" element={<TradePageWrapper />} />
           {/* Redirects from old /systemen routes */}
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
           <Route path="/systemen/:slug" element={<Navigate to="/diensten" replace />} />
