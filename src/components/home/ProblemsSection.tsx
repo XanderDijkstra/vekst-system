@@ -1,12 +1,6 @@
 import { motion } from "framer-motion";
 import { Clock, PhoneMissed, CalendarX, FileStack } from "lucide-react";
-
-const fadeInUp = {
-  initial: { opacity: 0, y: 12 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true },
-  transition: { duration: 0.4, ease: [0.2, 0, 0, 1] },
-};
+import { fadeInUp, systemEase } from "@/lib/animations";
 
 const problems = [
   {
@@ -56,7 +50,7 @@ const ProblemsSection = () => {
             <motion.div
               key={problem.title}
               {...fadeInUp}
-              transition={{ ...fadeInUp.transition, delay: i * 0.05 }}
+              transition={{ duration: 0.4, ease: systemEase, delay: i * 0.05 }}
               className="bg-card rounded-2xl p-6 shadow-system-card"
             >
               <div className="flex items-start gap-4">

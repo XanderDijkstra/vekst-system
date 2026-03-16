@@ -2,13 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-
-const fadeInUp = {
-  initial: { opacity: 0, y: 12 },
-  whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true },
-  transition: { duration: 0.4, ease: [0.2, 0, 0, 1] },
-};
+import { fadeInUp, systemEase } from "@/lib/animations";
 
 const HeroSection = () => {
   return (
@@ -24,7 +18,7 @@ const HeroSection = () => {
 
           <motion.h1
             {...fadeInUp}
-            transition={{ ...fadeInUp.transition, delay: 0.05 }}
+            transition={{ duration: 0.4, ease: systemEase, delay: 0.05 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.1]"
           >
             Minder administratie.{" "}
@@ -33,7 +27,7 @@ const HeroSection = () => {
 
           <motion.p
             {...fadeInUp}
-            transition={{ ...fadeInUp.transition, delay: 0.1 }}
+            transition={{ duration: 0.4, ease: systemEase, delay: 0.1 }}
             className="mt-6 text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl"
           >
             Wij bouwen digitale systemen die aannemers helpen hun processen te
@@ -42,7 +36,7 @@ const HeroSection = () => {
 
           <motion.div
             {...fadeInUp}
-            transition={{ ...fadeInUp.transition, delay: 0.15 }}
+            transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
             className="mt-10 flex flex-wrap gap-4"
           >
             <Button
@@ -70,7 +64,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Subtle geometric accent */}
       <div className="absolute top-0 right-0 w-1/2 h-full opacity-[0.03] pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-bl from-primary to-transparent" />
       </div>
