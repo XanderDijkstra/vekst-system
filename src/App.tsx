@@ -12,6 +12,7 @@ import Klantcommunicatie from "./pages/systemen/Klantcommunicatie";
 import ReviewFunnel from "./pages/systemen/ReviewFunnel";
 import AllInOneInbox from "./pages/systemen/AllInOneInbox";
 import MarketingCampagnes from "./pages/systemen/MarketingCampagnes";
+import LeadFollowUp from "./pages/systemen/LeadFollowUp";
 import SectorPage from "./pages/SectorPage";
 import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/diensten/review-funnel" element={<ReviewFunnel />} />
           <Route path="/diensten/all-in-one-inbox" element={<AllInOneInbox />} />
           <Route path="/diensten/marketing-campagnes" element={<MarketingCampagnes />} />
+          <Route path="/diensten/lead-follow-up" element={<LeadFollowUp />} />
           <Route path="/diensten/:slug" element={<DienstDetail />} />
           <Route path="/sector/digitalisering-voor-aannemers" element={<SectorPage />} />
           <Route path="/kennisbank" element={<KennisbankOverview />} />
