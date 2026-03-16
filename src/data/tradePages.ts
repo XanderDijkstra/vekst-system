@@ -214,8 +214,8 @@ function createPlaceholderTrade(
     cta: {
       headline: `Klaar om meer klussen binnen te halen?`,
       subheadline: `Boek een gratis gesprek en we laten zien hoe het systeem werkt voor ${bedrijf}en in jouw regio.`,
-      buttonText: "Plan een Gesprek",
-      buttonUrl: "/contact",
+      buttonText: "Boek een Demo",
+      buttonUrl: "/demo",
     },
   };
 }
