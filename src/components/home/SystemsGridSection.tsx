@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
-  Globe, PhoneOff, FileText, Star, BarChart3, Calendar, FolderKanban, Plug,
+  Globe, PhoneOff, FileText, Star, BarChart3, Calendar, Settings, Plug,
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const systems = [
-  { icon: Globe, title: "Lead Generatie Website", description: "Een website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt.", href: "/systemen/lead-generatie" },
-  { icon: PhoneOff, title: "Gemiste Oproep → SMS", description: "Automatisch een bericht sturen wanneer je een oproep mist.", href: "/systemen/klantcommunicatie" },
-  { icon: FileText, title: "Offerte Automatisering", description: "Maak offertes sneller en volg ze automatisch op.", href: "/systemen/offerte-systeem" },
-  { icon: Star, title: "Review Systeem", description: "Verzamel automatisch Google reviews van tevreden klanten.", href: "/systemen/review-systeem" },
-  { icon: BarChart3, title: "Marketing Automatisering", description: "Bereik je doelgroep automatisch met de juiste boodschap op het juiste moment.", href: "/systemen/marketing-automatisering" },
-  { icon: Calendar, title: "Planning Systeem", description: "Beheer projecten en planning op één centrale plek.", href: "/systemen/planning-systeem" },
-  { icon: FolderKanban, title: "Project Management", description: "Houd overzicht over al je projecten, taken en deadlines.", href: "/systemen/planning-systeem" },
+  { icon: Globe, title: "Lead Generatie Website", description: "Een website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt.", href: "/diensten/lead-generatie" },
+  { icon: PhoneOff, title: "Gemiste Oproep → SMS", description: "Automatisch een bericht sturen wanneer je een oproep mist.", href: "/diensten/klantcommunicatie" },
+  { icon: FileText, title: "Offerte Automatisering", description: "Maak offertes sneller en volg ze automatisch op.", href: "/diensten/offerte-systeem" },
+  { icon: Star, title: "Review Systeem", description: "Verzamel automatisch Google reviews van tevreden klanten.", href: "/diensten/review-systeem" },
+  { icon: BarChart3, title: "Marketing Automatisering", description: "Bereik je doelgroep automatisch met de juiste boodschap op het juiste moment.", href: "/diensten/marketing-automatisering" },
+  { icon: Calendar, title: "Planning Systeem", description: "Beheer projecten en planning op één centrale plek.", href: "/diensten/planning-systeem" },
+  { icon: Settings, title: "Digitalisering", description: "Van papier naar digitaal. Wij helpen je bedrijf moderniseren.", href: "/diensten/digitalisering-bouwbedrijf" },
   { icon: Plug, title: "Integraties & Automatisering", description: "Koppel je bestaande tools en laat ze naadloos samenwerken.", href: "/diensten/software-integraties" },
 ];
 
@@ -21,7 +21,7 @@ const SystemsGridSection = () => {
     <section className="py-20 md:py-28 bg-card">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Onze systemen
+          Onze diensten
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground max-w-2xl">
           Digitale systemen die voor je werken
