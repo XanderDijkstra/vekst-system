@@ -306,8 +306,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     cta: {
       headline: "Klaar om de eerste dakdekker te zijn die ze bellen?",
       subheadline: "Plan een gratis gesprek en we laten zien hoe het systeem werkt voor dakdekkersbedrijven in jouw regio.",
-      buttonText: "Plan een Gesprek",
-      buttonUrl: "/contact",
+      buttonText: "Boek een Demo",
+      buttonUrl: "/demo",
     },
   },
   loodgieters: {
