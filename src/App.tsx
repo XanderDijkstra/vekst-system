@@ -12,6 +12,7 @@ import Klantcommunicatie from "./pages/systemen/Klantcommunicatie";
 import ReviewFunnel from "./pages/systemen/ReviewFunnel";
 import AllInOneInbox from "./pages/systemen/AllInOneInbox";
 import MarketingCampagnes from "./pages/systemen/MarketingCampagnes";
+import LeadFollowUp from "./pages/systemen/LeadFollowUp";
 import SectorPage from "./pages/SectorPage";
 import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
