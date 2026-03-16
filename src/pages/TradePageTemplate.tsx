@@ -25,7 +25,27 @@ interface TradePageTemplateProps {
   data: TradeData;
 }
 
-const SITE_URL = "https://groei-systeem.com";
+function setMeta(name: string, content: string, isProperty = false) {
+  const attr = isProperty ? "property" : "name";
+  let el = document.querySelector(`meta[${attr}="${name}"]`) as HTMLMetaElement | null;
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attr, name);
+    document.head.appendChild(el);
+  }
+  el.content = content;
+}
+
+function injectJsonLd(id: string, data: object) {
+  document.getElementById(id)?.remove();
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.id = id;
+  script.text = JSON.stringify(data);
+  document.head.appendChild(script);
+}
+
+
 
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
   // SEO: Set document title, meta, canonical, OG, and JSON-LD schemas
