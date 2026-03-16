@@ -177,8 +177,8 @@ const ReviewFunnel = () => {
               size="lg"
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
             >
-              <Link to="/contact">
-                Plan een gesprek
+              <Link to="/demo">
+                Boek een demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
