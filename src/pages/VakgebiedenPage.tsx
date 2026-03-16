@@ -17,15 +17,15 @@ import aannemerImg from "@/assets/trades/aannemer.jpg";
 import tegelzetterImg from "@/assets/trades/tegelzetter.jpg";
 
 const trades = [
-  { name: "Dakdekkers", image: dakdekkersImg },
-  { name: "Loodgieters", image: loodgieterImg },
-  { name: "Elektriciens", image: elektricienImg },
-  { name: "Klusbedrijven", image: klusbedrijfImg },
-  { name: "Schilders", image: schilderImg },
-  { name: "Tuinmannen", image: tuinmanImg },
-  { name: "HVAC", image: hvacImg },
-  { name: "Aannemers", image: aannemerImg },
-  { name: "Tegelzetters", image: tegelzetterImg },
+  { name: "Dakdekkers", image: dakdekkersImg, slug: "dakdekkers" },
+  { name: "Loodgieters", image: loodgieterImg, slug: "loodgieters" },
+  { name: "Elektriciens", image: elektricienImg, slug: "elektriciens" },
+  { name: "Klusbedrijven", image: klusbedrijfImg, slug: "klusbedrijven" },
+  { name: "Schilders", image: schilderImg, slug: "schilders" },
+  { name: "Tuinmannen", image: tuinmanImg, slug: "hoveniers" },
+  { name: "HVAC", image: hvacImg, slug: "hvac" },
+  { name: "Aannemers", image: aannemerImg, slug: null },
+  { name: "Tegelzetters", image: tegelzetterImg, slug: "tegelzetters" },
 ];
 
 const allTrades = [
