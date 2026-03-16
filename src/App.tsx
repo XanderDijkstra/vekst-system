@@ -18,6 +18,7 @@ import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
 import CaseStudiesOverview from "./pages/CaseStudiesOverview";
 import ContactPage from "./pages/ContactPage";
+import VakgebiedenPage from "./pages/VakgebiedenPage";
 
 const queryClient = new QueryClient();
 
