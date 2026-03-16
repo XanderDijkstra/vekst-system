@@ -1,5 +1,21 @@
 import { Link } from "react-router-dom";
 
+const footerDiensten = [
+  { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+  { label: "Klantcommunicatie", href: "/diensten/klantcommunicatie" },
+  { label: "Offerte Systeem", href: "/diensten/offerte-systeem" },
+  { label: "Review Systeem", href: "/diensten/review-systeem" },
+  { label: "Planning Systeem", href: "/diensten/planning-systeem" },
+  { label: "Marketing", href: "/diensten/marketing-automatisering" },
+];
+
+const footerServices = [
+  { label: "Digitalisering", href: "/diensten/digitalisering-bouwbedrijf" },
+  { label: "Automatisering", href: "/diensten/automatisering-bouwbedrijf" },
+  { label: "Software Integraties", href: "/diensten/software-integraties" },
+  { label: "AI Oplossingen", href: "/diensten/ai-oplossingen" },
+];
+
 const Footer = () => {
   return (
     <footer className="border-t border-border bg-card py-16">
@@ -17,10 +33,10 @@ const Footer = () => {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Systemen</h4>
             <ul className="space-y-2">
-              {["Lead Generatie", "Klantcommunicatie", "Offerte Systeem", "Review Systeem", "Planning Systeem"].map((s) => (
-                <li key={s}>
-                  <Link to={`/systemen/${s.toLowerCase().replace(/ /g, "-")}`} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                    {s}
+              {footerDiensten.map((item) => (
+                <li key={item.href}>
+                  <Link to={item.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -28,12 +44,12 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Diensten</h4>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Services</h4>
             <ul className="space-y-2">
-              {["Digitalisering", "Automatisering", "Software Integraties", "AI Oplossingen"].map((s) => (
-                <li key={s}>
-                  <Link to={`/diensten/${s.toLowerCase().replace(/ /g, "-")}`} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                    {s}
+              {footerServices.map((item) => (
+                <li key={item.href}>
+                  <Link to={item.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}

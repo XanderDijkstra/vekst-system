@@ -254,7 +254,7 @@ const LeadGeneratie = () => {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg">
-              <Link to="/systemen">Bekijk alle systemen</Link>
+              <Link to="/diensten">Bekijk alle diensten</Link>
             </Button>
           </motion.div>
         </div>

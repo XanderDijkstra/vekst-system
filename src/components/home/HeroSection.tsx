@@ -55,9 +55,9 @@ const HeroSection = () => {
               size="lg"
               className="rounded-lg text-base px-8"
             >
-              <Link to="/systemen">
+              <Link to="/diensten">
                 <Play className="mr-2 h-4 w-4" />
-                Bekijk onze systemen
+                Bekijk onze diensten
               </Link>
             </Button>
           </motion.div>
