@@ -473,8 +473,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     cta: {
       headline: "Klaar om meer particuliere stukadoorsklussen binnen te halen?",
       subheadline: "Plan een gratis gesprek en ontdek hoe ons systeem stukadoorsbedrijven helpt groeien.",
-      buttonText: "Plan een Gesprek",
-      buttonUrl: "/contact",
+      buttonText: "Boek een Demo",
+      buttonUrl: "/demo",
     },
   },
   hoveniers: {
