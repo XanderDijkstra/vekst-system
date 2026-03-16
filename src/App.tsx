@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import DienstenOverview from "./pages/DienstenOverview";
 import DienstDetail from "./pages/DienstDetail";
 import LeadGeneratie from "./pages/systemen/LeadGeneratie";
+import Klantcommunicatie from "./pages/systemen/Klantcommunicatie";
 import SectorPage from "./pages/SectorPage";
 import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/diensten" element={<DienstenOverview />} />
           <Route path="/diensten/lead-generatie" element={<LeadGeneratie />} />
+          <Route path="/diensten/klantcommunicatie" element={<Klantcommunicatie />} />
           <Route path="/diensten/:slug" element={<DienstDetail />} />
           <Route path="/sector/digitalisering-voor-aannemers" element={<SectorPage />} />
           <Route path="/kennisbank" element={<KennisbankOverview />} />
