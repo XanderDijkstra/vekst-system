@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SystemenOverview from "./pages/SystemenOverview";
 import SystemDetail from "./pages/SystemDetail";
+import LeadGeneratie from "./pages/systemen/LeadGeneratie";
 import DienstenOverview from "./pages/DienstenOverview";
 import DienstDetail from "./pages/DienstDetail";
 import SectorPage from "./pages/SectorPage";
@@ -26,6 +27,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/systemen" element={<SystemenOverview />} />
+          <Route path="/systemen/lead-generatie" element={<LeadGeneratie />} />
           <Route path="/systemen/:slug" element={<SystemDetail />} />
           <Route path="/diensten" element={<DienstenOverview />} />
           <Route path="/diensten/:slug" element={<DienstDetail />} />
