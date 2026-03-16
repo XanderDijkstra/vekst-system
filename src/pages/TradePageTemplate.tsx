@@ -51,7 +51,7 @@ const SITE_URL = "https://groei-systeem.com";
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
   // SEO: Set document title, meta, canonical, OG, and JSON-LD schemas
   useEffect(() => {
-    const pageUrl = `${SITE_URL}/voor-${d.slug}`;
+    const pageUrl = `${SITE_URL}/voor/${d.slug}`;
 
     // Title
     document.title = d.metaTitle;
@@ -359,7 +359,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
             {d.relatedTrades.map((trade, i) => (
               <Link
                 key={i}
-                to={`/voor-${trade.slug}`}
+                to={`/voor/${trade.slug}`}
                 className="rounded-xl border border-border px-4 py-2 text-sm font-medium text-muted-foreground hover:border-accent hover:text-accent transition-colors duration-200"
               >
                 Website voor {trade.label} →
