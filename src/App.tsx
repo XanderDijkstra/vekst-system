@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import SystemenOverview from "./pages/SystemenOverview";
 import SystemDetail from "./pages/SystemDetail";
+import LeadGeneratie from "./pages/systemen/LeadGeneratie";
 import DienstenOverview from "./pages/DienstenOverview";
 import DienstDetail from "./pages/DienstDetail";
 import SectorPage from "./pages/SectorPage";
