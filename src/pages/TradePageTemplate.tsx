@@ -51,7 +51,7 @@ const SITE_URL = "https://groei-systeem.com";
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
   // SEO: Set document title, meta, canonical, OG, and JSON-LD schemas
   useEffect(() => {
-    const pageUrl = `${SITE_URL}/voor-${d.slug}`;
+    const pageUrl = `${SITE_URL}/voor/${d.slug}`;
 
     // Title
     document.title = d.metaTitle;
