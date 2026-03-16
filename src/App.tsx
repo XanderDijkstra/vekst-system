@@ -29,6 +29,7 @@ const App = () => (
           <Route path="/diensten" element={<DienstenOverview />} />
           <Route path="/diensten/lead-generatie" element={<LeadGeneratie />} />
           <Route path="/diensten/klantcommunicatie" element={<Klantcommunicatie />} />
+          <Route path="/diensten/review-funnel" element={<ReviewFunnel />} />
           <Route path="/diensten/:slug" element={<DienstDetail />} />
           <Route path="/sector/digitalisering-voor-aannemers" element={<SectorPage />} />
           <Route path="/kennisbank" element={<KennisbankOverview />} />
