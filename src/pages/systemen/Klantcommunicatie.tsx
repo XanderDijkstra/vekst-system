@@ -91,53 +91,46 @@ const Klantcommunicatie = () => {
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">
-          <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Dienst
-          </motion.p>
           <motion.h1
             {...fadeInUp}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center max-w-3xl mx-auto"
           >
             Gemiste Oproep → SMS Bericht
           </motion.h1>
-          <motion.p
-            {...fadeInUp}
-            className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
-          >
-            Op de werf kun je niet altijd opnemen. Ons systeem zorgt dat elke gemiste oproep automatisch
-            wordt opgevolgd via SMS, zodat je geen klant meer mist.
-          </motion.p>
 
-          {/* Video - Now higher up */}
-          <motion.div
-            {...fadeInUp}
-            transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
-            className="mt-10"
-          >
-            <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10 max-w-4xl">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="Gemiste Oproep SMS Demo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+          <div className="mt-14 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
+            {/* Stats left */}
+            <div className="lg:col-span-2 space-y-6">
+              {stats.map((stat, i) => (
+                <motion.div
+                  key={stat.value}
+                  {...fadeInUp}
+                  transition={{ duration: 0.4, ease: systemEase, delay: 0.1 + i * 0.08 }}
+                  className="border border-primary-foreground/10 rounded-xl p-5"
+                >
+                  <span className="text-3xl md:text-4xl font-bold text-accent">{stat.value}</span>
+                  <p className="mt-2 text-sm text-primary-foreground/70 leading-relaxed">{stat.description}</p>
+                </motion.div>
+              ))}
             </div>
-          </motion.div>
 
-          {/* Stats below video */}
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl">
-            {stats.map((stat, i) => (
-              <motion.div
-                key={stat.value}
-                {...fadeInUp}
-                transition={{ duration: 0.4, ease: systemEase, delay: 0.25 + i * 0.08 }}
-                className="border border-primary-foreground/10 rounded-xl p-5"
-              >
-                <span className="text-3xl md:text-4xl font-bold text-accent">{stat.value}</span>
-                <p className="mt-2 text-sm text-primary-foreground/70 leading-relaxed">{stat.description}</p>
-              </motion.div>
-            ))}
+            {/* Video right */}
+            <motion.div
+              {...fadeInUp}
+              transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
+              className="lg:col-span-3"
+            >
+              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
+              <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Gemiste Oproep SMS Demo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
