@@ -241,12 +241,12 @@ const ReviewFunnel = () => {
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Plan een vrijblijvend kennismakingsgesprek en ontdek hoe onze review funnel jouw bedrijf laat groeien op Google.
+            Boek een gratis demo en ontdek hoe onze review funnel jouw bedrijf laat groeien op Google.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link to="/contact">
-                Plan een gesprek
+              <Link to="/demo">
+                Boek een demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

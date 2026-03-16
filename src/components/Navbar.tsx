@@ -158,7 +158,7 @@ const Navbar = () => {
             ))}
           </div>
           <Button asChild className="w-full rounded-lg">
-            <Link to="/contact" onClick={() => setMobileOpen(false)}>Plan een gesprek</Link>
+            <Link to="/demo" onClick={() => setMobileOpen(false)}>Boek een demo</Link>
           </Button>
         </div>
       )}

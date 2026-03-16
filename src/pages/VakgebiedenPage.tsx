@@ -59,7 +59,7 @@ const VakgebiedenPage = () => {
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8">
             <Button asChild size="lg" variant="secondary">
-              <Link to="/contact">Plan een gesprek</Link>
+              <Link to="/demo">Boek een demo</Link>
             </Button>
           </motion.div>
         </div>
