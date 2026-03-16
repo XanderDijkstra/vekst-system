@@ -19,6 +19,7 @@ import KennisbankArticle from "./pages/KennisbankArticle";
 import CaseStudiesOverview from "./pages/CaseStudiesOverview";
 import ContactPage from "./pages/ContactPage";
 import VakgebiedenPage from "./pages/VakgebiedenPage";
+import TradePageWrapper from "./pages/TradePageWrapper";
 
 const queryClient = new QueryClient();
 
