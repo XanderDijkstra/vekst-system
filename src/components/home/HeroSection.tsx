@@ -44,8 +44,8 @@ const HeroSection = () => {
               size="lg"
               className="rounded-lg text-base px-8 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98]"
             >
-              <Link to="/contact">
-                Plan een kennismakingsgesprek
+              <Link to="/demo">
+                Boek een demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

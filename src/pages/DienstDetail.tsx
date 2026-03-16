@@ -30,7 +30,7 @@ const DienstDetail = () => {
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">{data.description}</p>
           <div className="mt-12">
             <Button asChild size="lg" className="rounded-lg">
-              <Link to="/contact">Plan een gesprek <ArrowRight className="ml-2 h-4 w-4" /></Link>
+              <Link to="/demo">Boek een demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
           </div>
         </div>

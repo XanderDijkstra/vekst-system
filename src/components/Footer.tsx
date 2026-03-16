@@ -60,8 +60,8 @@ const Footer = () => {
             <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Contact</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Plan een gesprek
+                <Link to="/demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Boek een demo
                 </Link>
               </li>
               <li>

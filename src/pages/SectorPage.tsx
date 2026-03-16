@@ -35,7 +35,7 @@ const SectorPage = () => (
 
         <div className="mt-12">
           <Button asChild size="lg" className="rounded-lg">
-            <Link to="/contact">Ontdek wat wij voor jou kunnen doen <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            <Link to="/demo">Boek een demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
         </div>
       </div>
