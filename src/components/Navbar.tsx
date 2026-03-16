@@ -112,7 +112,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild className="rounded-lg">
-            <Link to="/contact">Plan een gesprek</Link>
+            <Link to="/demo">Boek een demo</Link>
           </Button>
         </div>
 
