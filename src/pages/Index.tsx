@@ -4,6 +4,7 @@ import HeroSection from "@/components/home/HeroSection";
 import ProblemsSection from "@/components/home/ProblemsSection";
 import FeatureShowcaseSection from "@/components/home/FeatureShowcaseSection";
 import TradesSection from "@/components/home/TradesSection";
+import WhyUniqueSection from "@/components/home/WhyUniqueSection";
 import SystemsGridSection from "@/components/home/SystemsGridSection";
 import CaseStudySection from "@/components/home/CaseStudySection";
 import HowItWorksSection from "@/components/home/HowItWorksSection";
