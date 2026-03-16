@@ -88,38 +88,60 @@ const steps = [
 const LeadGeneratie = () => {
   return (
     <PageShell>
-      {/* ═══ Hero with Stats ═══ */}
-      <section className="py-20 md:py-28">
+      {/* ═══ Hero with Stats + Video ═══ */}
+      <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">
           <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Systeem
+            Dienst
           </motion.p>
           <motion.h1
             {...fadeInUp}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground max-w-3xl"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
           >
             Lead Generatie Website
           </motion.h1>
           <motion.p
             {...fadeInUp}
-            className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed"
+            className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
             Een professionele website die niet alleen mooi is, maar daadwerkelijk nieuwe klanten aantrekt
             en automatisch offerte aanvragen voor je verzamelt.
           </motion.p>
 
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {stats.map((stat, i) => (
-              <motion.div
-                key={stat.value}
-                {...fadeInUp}
-                transition={{ duration: 0.4, ease: systemEase, delay: i * 0.08 }}
-                className="bg-card rounded-2xl p-6 shadow-system-card"
-              >
-                <span className="text-4xl md:text-5xl font-bold text-accent">{stat.value}</span>
-                <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{stat.description}</p>
-              </motion.div>
-            ))}
+          <div className="mt-12 grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
+            {/* Stats column */}
+            <div className="lg:col-span-2 space-y-4">
+              {stats.map((stat, i) => (
+                <motion.div
+                  key={stat.value}
+                  {...fadeInUp}
+                  transition={{ duration: 0.4, ease: systemEase, delay: i * 0.08 }}
+                  className="border border-primary-foreground/10 rounded-2xl p-6"
+                >
+                  <span className="text-4xl md:text-5xl font-bold text-accent">{stat.value}</span>
+                  <p className="mt-3 text-sm text-primary-foreground/70 leading-relaxed">{stat.description}</p>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Video column */}
+            <motion.div
+              {...fadeInUp}
+              transition={{ duration: 0.4, ease: systemEase, delay: 0.2 }}
+              className="lg:col-span-3"
+            >
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">Bekijk een korte demo</h3>
+              <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
+                {/* Replace the src with your actual video URL or YouTube embed */}
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="Lead Generatie Website Demo"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -160,7 +182,7 @@ const LeadGeneratie = () => {
       </section>
 
       {/* ═══ CTA banner ═══ */}
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-secondary">
         <div className="container">
           <motion.div
             {...fadeInUp}
@@ -190,7 +212,7 @@ const LeadGeneratie = () => {
       </section>
 
       {/* ═══ How it works ═══ */}
-      <section className="py-20 md:py-28 bg-card">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container max-w-3xl">
           <motion.h2
             {...fadeInUp}
@@ -232,28 +254,28 @@ const LeadGeneratie = () => {
       </section>
 
       {/* ═══ Final CTA ═══ */}
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container text-center">
           <motion.h2
             {...fadeInUp}
-            className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground"
+            className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
             Klaar om meer leads te genereren?
           </motion.h2>
           <motion.p
             {...fadeInUp}
-            className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed"
+            className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
             Plan een vrijblijvend kennismakingsgesprek en ontdek wat een professionele website voor jouw bouwbedrijf kan betekenen.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="rounded-lg">
+            <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/contact">
                 Plan een gesprek
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-lg">
+            <Button asChild variant="outline" size="lg" className="rounded-lg border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
               <Link to="/diensten">Bekijk alle diensten</Link>
             </Button>
           </motion.div>
