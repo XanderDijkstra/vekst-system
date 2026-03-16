@@ -45,6 +45,7 @@ const App = () => (
           <Route path="/kennisbank/:slug" element={<KennisbankArticle />} />
           <Route path="/case-studies" element={<CaseStudiesOverview />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/demo" element={<DemoPage />} />
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
           <Route path="/voor-:slug" element={<TradePageWrapper />} />
           {/* Redirects from old /systemen routes */}
