@@ -254,7 +254,7 @@ const LeadGeneratie = () => {
       </section>
 
       {/* ═══ Final CTA ═══ */}
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container text-center">
           <motion.h2
             {...fadeInUp}
