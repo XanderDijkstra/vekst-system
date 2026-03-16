@@ -66,20 +66,27 @@ const TradesSection = () => {
               key={trade.name}
               {...fadeInUp}
               transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }}
-              className="group relative rounded-2xl overflow-hidden aspect-[5/4] cursor-default"
             >
-              <img
-                src={trade.image}
-                alt={trade.name}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-5">
-                <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">
-                  {trade.name}
-                </span>
-              </div>
+              {trade.slug ? (
+                <Link
+                  to={`/voor-${trade.slug}`}
+                  className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
+                >
+                  <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                    <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
+                  </div>
+                </Link>
+              ) : (
+                <div className="group relative rounded-2xl overflow-hidden aspect-[5/4] cursor-default">
+                  <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                    <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
+                  </div>
+                </div>
+              )}
             </motion.div>
           ))}
         </div>

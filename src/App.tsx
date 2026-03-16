@@ -45,6 +45,7 @@ const App = () => (
           <Route path="/case-studies" element={<CaseStudiesOverview />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
+          <Route path="/voor-:slug" element={<TradePageWrapper />} />
           {/* Redirects from old /systemen routes */}
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
           <Route path="/systemen/:slug" element={<Navigate to="/diensten" replace />} />
