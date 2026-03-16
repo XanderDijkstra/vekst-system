@@ -212,7 +212,7 @@ const LeadGeneratie = () => {
       </section>
 
       {/* ═══ How it works ═══ */}
-      <section className="py-20 md:py-28 bg-card">
+      <section className="py-20 md:py-28 bg-background">
         <div className="container max-w-3xl">
           <motion.h2
             {...fadeInUp}
