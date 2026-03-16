@@ -258,24 +258,24 @@ const LeadGeneratie = () => {
         <div className="container text-center">
           <motion.h2
             {...fadeInUp}
-            className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground"
+            className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
             Klaar om meer leads te genereren?
           </motion.h2>
           <motion.p
             {...fadeInUp}
-            className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed"
+            className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
             Plan een vrijblijvend kennismakingsgesprek en ontdek wat een professionele website voor jouw bouwbedrijf kan betekenen.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="rounded-lg">
+            <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/contact">
                 Plan een gesprek
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-lg">
+            <Button asChild variant="outline" size="lg" className="rounded-lg border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
               <Link to="/diensten">Bekijk alle diensten</Link>
             </Button>
           </motion.div>
