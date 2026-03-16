@@ -25,19 +25,56 @@ interface TradePageTemplateProps {
   data: TradeData;
 }
 
+function setMeta(name: string, content: string, isProperty = false) {
+  const attr = isProperty ? "property" : "name";
+  let el = document.querySelector(`meta[${attr}="${name}"]`) as HTMLMetaElement | null;
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(attr, name);
+    document.head.appendChild(el);
+  }
+  el.content = content;
+}
+
+function injectJsonLd(id: string, data: object) {
+  document.getElementById(id)?.remove();
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.id = id;
+  script.text = JSON.stringify(data);
+  document.head.appendChild(script);
+}
+const SITE_URL = "https://groei-systeem.com";
+
+
+
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
-  // SEO: Set document title & meta
+  // SEO: Set document title, meta, canonical, OG, and JSON-LD schemas
   useEffect(() => {
+    const pageUrl = `${SITE_URL}/voor-${d.slug}`;
+
+    // Title
     document.title = d.metaTitle;
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute("content", d.metaDescription);
-    } else {
-      const meta = document.createElement("meta");
-      meta.name = "description";
-      meta.content = d.metaDescription;
-      document.head.appendChild(meta);
+
+    // Meta description
+    setMeta("description", d.metaDescription);
+
+    // Canonical
+    let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.rel = "canonical";
+      document.head.appendChild(canonical);
     }
+    canonical.href = pageUrl;
+
+    // Open Graph
+    setMeta("og:title", d.metaTitle, true);
+    setMeta("og:description", d.metaDescription, true);
+    setMeta("og:url", pageUrl, true);
+    setMeta("og:type", "website", true);
+    setMeta("twitter:title", d.metaTitle);
+    setMeta("twitter:description", d.metaDescription);
 
     // JSON-LD: FAQPage
     const faqSchema = {
@@ -49,14 +86,53 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         acceptedAnswer: { "@type": "Answer", text: faq.answer },
       })),
     };
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.text = JSON.stringify(faqSchema);
-    script.id = "faq-schema";
-    document.head.appendChild(script);
+
+    // JSON-LD: Service
+    const serviceSchema = {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: `Website & Marketing Systeem voor ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`,
+      provider: {
+        "@type": "Organization",
+        name: "Groei Systeem",
+        url: SITE_URL,
+        telephone: "+4740185596",
+        email: "info@groei-systeem.com",
+      },
+      description: `Complete marketing systeem voor ${d.bedrijf}en: website, lokale SEO, reviews automatisering en lead opvolging.`,
+      areaServed: { "@type": "Country", name: "Nederland" },
+      offers: {
+        "@type": "Offer",
+        price: "279",
+        priceCurrency: "EUR",
+        priceSpecification: {
+          "@type": "UnitPriceSpecification",
+          price: "279",
+          priceCurrency: "EUR",
+          unitText: "maand",
+        },
+      },
+    };
+
+    // JSON-LD: BreadcrumbList
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: `Voor ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`, item: pageUrl },
+      ],
+    };
+
+    injectJsonLd("faq-schema", faqSchema);
+    injectJsonLd("service-schema", serviceSchema);
+    injectJsonLd("breadcrumb-schema", breadcrumbSchema);
 
     return () => {
       document.getElementById("faq-schema")?.remove();
+      document.getElementById("service-schema")?.remove();
+      document.getElementById("breadcrumb-schema")?.remove();
+      document.querySelector('link[rel="canonical"]')?.remove();
     };
   }, [d]);
 
