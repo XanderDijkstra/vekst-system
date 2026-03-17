@@ -96,6 +96,25 @@ const AllInOneInbox = () => {
             Alles-in-Één Inbox
           </motion.h1>
 
+          {/* Mobile video — after title */}
+          <motion.div
+            {...fadeInUp}
+            transition={{ duration: 0.4, ease: systemEase, delay: 0.1 }}
+            className="mt-8 lg:hidden"
+          >
+            <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
+              <video
+                className="w-full h-full object-cover"
+                controls
+                playsInline
+                preload="metadata"
+              >
+                <source src="/videos/all-in-one-inbox-demo.mp4" type="video/mp4" />
+                Je browser ondersteunt geen video.
+              </video>
+            </div>
+          </motion.div>
+
           <div className="mt-14 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
             {/* Stats left */}
             <div className="lg:col-span-2 space-y-6">
@@ -112,21 +131,23 @@ const AllInOneInbox = () => {
               ))}
             </div>
 
-            {/* Video right */}
+            {/* Video right — desktop only */}
             <motion.div
               {...fadeInUp}
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
-              className="lg:col-span-3"
+              className="hidden lg:block lg:col-span-3"
             >
               <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
               <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Alles-in-Één Inbox Demo"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  playsInline
+                  preload="metadata"
+                >
+                  <source src="/videos/all-in-one-inbox-demo.mp4" type="video/mp4" />
+                  Je browser ondersteunt geen video.
+                </video>
               </div>
             </motion.div>
           </div>
