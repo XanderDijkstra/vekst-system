@@ -66,6 +66,13 @@ const ProblemsSection = () => {
                   </p>
                 </div>
               </div>
+              {problem.image && (
+                <img
+                  src={problem.image}
+                  alt={problem.title}
+                  className="mt-4 w-full h-48 object-cover rounded-xl"
+                />
+              )}
             </motion.div>
           ))}
         </div>
