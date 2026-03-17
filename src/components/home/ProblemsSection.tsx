@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Clock, PhoneMissed, CalendarX, FileStack } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
+import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
 
 const problems = [
   {
