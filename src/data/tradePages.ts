@@ -231,7 +231,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "dakdekker",
     plural: "dakdekkers",
     bedrijf: "dakdekkersbedrijf",
-    metaTitle: "Website & Marketing voor Dakdekkers | Meer Klanten als Dakdekker — Groei Systeem",
+    metaTitle: "Website & Marketing voor Dakdekkers | Meer Klanten als Dakdekker — Aannemer Systeem",
     metaDescription: "Professionele website en marketing systeem voor dakdekkersbedrijven. Meer lokale vindbaarheid, automatische reviews en leads. Binnen 7 dagen live.",
     hero: {
       badge: "Speciaal voor Dakdekkersbedrijven",
