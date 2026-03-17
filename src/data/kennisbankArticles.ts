@@ -349,5 +349,180 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "De transitie van platform-leads naar eigen leads kost 3-6 maanden. Begin met het opzetten van een professionele website, optimaliseer je Google Mijn Bedrijf profiel, en start met het verzamelen van Google reviews. Investeer €300-€500 per maand in Google Ads voor direct resultaat. Na 6 maanden heb je een stabiele stroom eigen leads en kun je je platformkosten afbouwen."
       }
     ]
+  },
+  {
+    slug: "online-marketing-loodgieters",
+    title: "Online marketing voor loodgieters: meer klanten via internet",
+    description: "Hoe loodgieters hun online zichtbaarheid vergroten en een constante stroom leads genereren.",
+    category: "Vakgebied",
+    readTime: "7 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Loodgieters pagina", href: "/voor/loodgieters" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
+    sections: [
+      {
+        heading: "Waarom loodgieters online moeten zijn",
+        body: "Als iemand een lekkage heeft of een nieuwe badkamer wil, pakt hij zijn telefoon en zoekt op Google. 78% van de consumenten zoekt lokaal naar een loodgieter. Als je niet bovenaan staat — of helemaal niet vindbaar bent — gaat de klant naar je concurrent. Een sterke online aanwezigheid is voor loodgieters geen luxe meer, maar een noodzaak om te overleven in een competitieve markt."
+      },
+      {
+        heading: "Lokale SEO: de sleutel voor loodgieters",
+        body: "Lokale SEO is het belangrijkste marketingkanaal voor loodgieters. Optimaliseer je Google Business profiel met de juiste categorieën ('loodgieter', 'sanitair installateur'), voeg foto's toe van je werk en verzamel actief reviews. Zorg dat je website pagina's heeft voor elke dienst (lekkage reparatie, badkamer renovatie, riool ontstopping) én voor elke plaats waar je werkt. Zo verschijn je in de zoekresultaten wanneer iemand zoekt op 'loodgieter Amsterdam' of 'lekkage reparatie Utrecht'."
+      },
+      {
+        heading: "Spoedklussen: een goudmijn voor slimme loodgieters",
+        body: "Spoedklussen zoals lekkages en verstoppingen zijn uiterst winstgevend. De klant heeft geen tijd om 5 offertes te vergelijken — hij wil nú iemand. Zorg dat je website en Google Ads gericht zijn op spoedzoekopdrachten: 'spoedloodgieter', 'lekkage verhelpen nu', 'wc verstopt hulp'. Wie als eerste reageert, wint de klus. Een gemiste oproep SMS-systeem zorgt ervoor dat je ook klanten opvangt als je onder de douche staat — letterlijk."
+      },
+      {
+        heading: "Reviews: onmisbaar in de loodgietersbranche",
+        body: "Mensen laten een loodgieter in hun huis. Vertrouwen is essentieel. Klanten lezen gemiddeld 7 reviews voordat ze een loodgieter kiezen. Focus op het verzamelen van reviews die specifieke diensten benoemen: 'lekkage snel verholpen', 'nette badkamer renovatie', 'eerlijke prijzen'. Dit helpt niet alleen je reputatie, maar verbetert ook je SEO doordat Google deze reviews meeweegt in je ranking."
+      },
+      {
+        heading: "Van eenmanszaak naar groei",
+        body: "Veel loodgieters starten als eenmanszaak en willen groeien, maar worstelen met de overstap. De oplossing: systematiseer je marketing. Automatiseer je lead-opvolging zodat geen enkele aanvraag verloren gaat. Gebruik een CRM om je klanten bij te houden. En investeer €300-€500 per maand in Google Ads gericht op jouw regio. Binnen 3 maanden heb je een voorspelbare stroom klanten en kun je overwegen om personeel aan te nemen."
+      }
+    ]
+  },
+  {
+    slug: "meer-klanten-als-schilder",
+    title: "Meer klanten als schilder: online strategieën die werken",
+    description: "Praktische tips voor schildersbedrijven om online meer opdrachten binnen te halen.",
+    category: "Vakgebied",
+    readTime: "7 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Schilders pagina", href: "/voor/schilders" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+    ],
+    sections: [
+      {
+        heading: "De schildersbranche wordt steeds competitiever",
+        body: "Er zijn in Nederland meer dan 15.000 schildersbedrijven. Om op te vallen moet je meer doen dan een advertentie in de lokale krant. Klanten zoeken online, vergelijken bedrijven en kiezen op basis van reviews, portfolio en professionaliteit. Schildersbedrijven die hun marketing digitaliseren, groeien gemiddeld 2x sneller dan bedrijven die dat niet doen."
+      },
+      {
+        heading: "Laat je werk voor je spreken: visuele marketing",
+        body: "Schilderwerk leent zich perfect voor visuele marketing. Maak voor-en-na foto's van elk project — dit is je krachtigste marketingtool. Deel deze op je website, Instagram en Facebook. Een goed portfolio op je website overtuigt meer dan welke verkooppraatje dan ook. Tip: maak ook korte video's (30-60 seconden) van het schilderproces. Dit soort content scoort uitstekend op social media en laat je vakmanschap zien."
+      },
+      {
+        heading: "Seizoensgebonden marketing slim inzetten",
+        body: "De schildersbranche kent duidelijke seizoenen. Buitenschilderwerk piekt in lente en zomer, binnenschilderwerk in herfst en winter. Pas je marketing hierop aan: adverteer vanaf februari voor buitenwerk en vanaf september voor binnenwerk. Stuur bestaande klanten een seizoenstip: 'Het is weer tijd om uw kozijnen te controleren.' Deze proactieve benadering levert herhaalopdrachten op zonder extra marketingkosten."
+      },
+      {
+        heading: "Offertesnelheid als concurrentievoordeel",
+        body: "In de schildersbranche wint de snelste reageerder vaak de klus. Klanten vragen meestal bij 3-4 bedrijven een offerte aan. Wie als eerste een professionele offerte stuurt, heeft 50% meer kans op de opdracht. Gebruik digitale offertetools en templates om binnen 24 uur een nette offerte te sturen. Combineer dit met automatische opvolging en je conversie stijgt met minstens 25%."
+      },
+      {
+        heading: "Langdurige klantrelaties opbouwen",
+        body: "Schilderwerk is terugkerend: buitenschilderwerk moet elke 5-7 jaar opnieuw. Bouw een klantenbestand op en houd contact. Stuur jaarlijks een inspectie-aanbieding of onderhoudstip. Gebruik een CRM om bij te houden wanneer klanten voor het laatst zijn geschilderd. Deze proactieve aanpak zorgt voor een stabiele stroom herhaalopdrachten die veel winstgevender zijn dan nieuwe klanten werven."
+      }
+    ]
+  },
+  {
+    slug: "dakdekker-website-leads",
+    title: "Als dakdekker meer leads via je website: zo doe je dat",
+    description: "Hoe dakdekkers hun website inzetten als leadmachine voor dakreparaties en renovaties.",
+    category: "Vakgebied",
+    readTime: "7 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Dakdekkers pagina", href: "/voor/dakdekkers" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
+    sections: [
+      {
+        heading: "Waarom een goede website essentieel is voor dakdekkers",
+        body: "Dakwerk is een van de meest gezochte diensten online. Zoektermen als 'daklekkage repareren', 'nieuwe dakpannen' en 'dakdekker in de buurt' worden duizenden keren per maand gezocht. Een professionele website die bovenaan Google verschijnt, kan maandelijks 10-30 gekwalificeerde leads opleveren. Zonder website mis je deze klanten en gaan ze naar concurrenten die wél online zichtbaar zijn."
+      },
+      {
+        heading: "De perfecte dakdekker-website",
+        body: "Een effectieve website voor dakdekkers bevat: een duidelijke hero-sectie met je werkgebied en specialisaties, foto's van uitgevoerde dakprojecten (platdak, schuin dak, dakgoten, schoorstenen), een overzicht van al je diensten met aparte pagina's per dienst, klantreviews met naam en plaats, een prominent telefoonnummer en contactformulier, en een pagina per regio waar je actief bent. Elke pagina moet geoptimaliseerd zijn voor relevante zoekwoorden."
+      },
+      {
+        heading: "Spoed-leads: de meest waardevolle klanten",
+        body: "Daklekkages zijn spoedklussen — de klant wil direct iemand. Deze leads zijn extreem waardevol omdat er geen prijsvergelijking plaatsvindt. Zorg dat je website een duidelijke 'spoed' sectie heeft met een direct telefoonnummer. Gebruik Google Ads op zoektermen als 'daklekkage spoed' en 'nood dakdekker'. En implementeer een gemiste oproep systeem: als je niet kunt opnemen, ontvangt de klant automatisch een SMS dat je zo terugbelt. Dit voorkomt dat spoedklanten doorzoeken naar je concurrent."
+      },
+      {
+        heading: "Seizoensmarketing voor dakdekkers",
+        body: "Na storm- en hagelseizoenen exploderen de zoekopdrachten voor dakwerk. Wees hierop voorbereid met specifieke landingspagina's voor stormschade en hagelschade. Verhoog je Google Ads-budget direct na extreme weersomstandigheden. Stuur bestaande klanten een check-up aanbod: 'Na de storm van vorige week — laat uw dak gratis inspecteren.' Deze proactieve benadering levert zowel nieuwe als terugkerende klanten op."
+      },
+      {
+        heading: "Van losse klussen naar structurele groei",
+        body: "Veel dakdekkers leven van klus naar klus zonder voorspelbare inkomsten. De oplossing: bouw een digitaal systeem dat continu leads genereert. Combineer een geoptimaliseerde website met Google Ads, actief reviewbeheer en automatische lead-opvolging. Binnen 3-6 maanden heb je een voorspelbare pijplijn van opdrachten. Dit geeft je de vrijheid om selectiever te zijn in welke klussen je aanneemt en betere marges te realiseren."
+      }
+    ]
+  },
+  {
+    slug: "elektricien-online-zichtbaarheid",
+    title: "Online zichtbaarheid voor elektriciens: van onzichtbaar naar onmisbaar",
+    description: "Hoe elektriciens online meer klanten aantrekken voor installatie- en storingswerk.",
+    category: "Vakgebied",
+    readTime: "6 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Elektriciens pagina", href: "/voor/elektriciens" },
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "De digitale kans voor elektriciens",
+        body: "Elektriciens hebben een uniek voordeel: hun diensten zijn altijd nodig. Van nieuwbouw installaties tot storingen en uitbreidingen met laadpalen of zonnepanelen — de vraag groeit. Toch zijn veel elektriciens online nauwelijks zichtbaar. Dit is een enorme gemiste kans. Klanten zoeken steeds vaker online naar 'elektricien in de buurt' en kiezen het bedrijf dat het meest professioneel en betrouwbaar overkomt."
+      },
+      {
+        heading: "Specialisatie als marketingstrategie",
+        body: "Elektriciens die zich specialiseren in trending diensten zoals laadpalen, zonnepanelen of smart home installaties, hebben een enorm marketingvoordeel. Maak voor elke specialisatie een aparte pagina op je website met gerichte content. Zoektermen als 'laadpaal installateur [stad]' en 'zonnepanelen aansluiten [regio]' hebben weinig concurrentie en hoge conversie. Door je te profileren als specialist, kun je hogere tarieven vragen én trek je de juiste klanten aan."
+      },
+      {
+        heading: "Vertrouwen opbouwen als elektricien",
+        body: "Elektriciteit is gevaarlijk — klanten willen zeker weten dat ze een gecertificeerde professional inhuren. Toon prominent je NEN-certificeringen, verzekeringen en lidmaatschappen op je website. Deel reviews waarin klanten je vakmanschap en veiligheid benadrukken. Voeg foto's toe van nette meterkastvernieuwingen en professionele installaties. Dit visuele bewijs van kwaliteit overtuigt twijfelende klanten."
+      },
+      {
+        heading: "Storingsdienst als leadmagneet",
+        body: "Net als bij loodgieters zijn spoedklussen voor elektriciens bijzonder waardevol. Kortsluiting, stroomuitval of een kapotte groep — klanten willen direct geholpen worden. Adverteer actief op spoedzoektermen en zorg dat je 24/7 bereikbaar bent via je website. Een gemiste oproep systeem met automatische SMS is essentieel: 'We hebben uw oproep ontvangen en bellen u binnen 15 minuten terug.' Dit wekt vertrouwen en voorkomt dat de klant doorbelt."
+      },
+      {
+        heading: "Onderhoudcontracten als stabiele inkomstenbron",
+        body: "Slimme elektriciens verkopen naast losse klussen ook periodieke keuringen en onderhoudcontracten aan bedrijven. Dit zorgt voor voorspelbare, terugkerende inkomsten. Promoot dit actief op je website: 'Periodieke NEN 3140 keuring voor bedrijven.' Gebruik je CRM om klanten automatisch te herinneren wanneer hun keuring verloopt. Dit levert herhaalopdrachten op zonder marketingkosten."
+      }
+    ]
+  },
+  {
+    slug: "hoveniers-digitale-groei",
+    title: "Digitale groei voor hoveniers: van tuinontwerp tot online leadgeneratie",
+    description: "Hoe hoveniersbedrijven online meer klanten werven en hun bedrijf laten groeien.",
+    category: "Vakgebied",
+    readTime: "7 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Hoveniers pagina", href: "/voor/hoveniers" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+    ],
+    sections: [
+      {
+        heading: "Waarom hoveniers online moeten groeien",
+        body: "De hovenierssector groeit, maar de concurrentie ook. Steeds meer hoveniers ontdekken de kracht van online marketing. Klanten zoeken op Google naar 'hovenier in de buurt', bekijken portfolio's op Instagram en lezen reviews voordat ze iemand uitnodigen voor een tuinontwerp. Wie online niet zichtbaar is, mist een groot deel van de markt — vooral de hogere segmenten waar klanten bereid zijn te investeren in een mooie tuin."
+      },
+      {
+        heading: "Instagram en Pinterest: jouw digitale etalage",
+        body: "Hoveniers hebben een enorm voordeel ten opzichte van andere bouwvakken: hun werk is visueel prachtig. Maak van elke tuin een fotoshoot. Deel voor-en-na foto's, timelapse video's van tuinaanleg, en seizoensfoto's van dezelfde tuin. Instagram en Pinterest zijn ideale platformen om potentiële klanten te inspireren. Gebruik hashtags als #tuinontwerp, #hovenierwerk en #tuininspiratie gecombineerd met je plaatsnaam."
+      },
+      {
+        heading: "Seizoensgebonden leadgeneratie",
+        body: "Hoveniers kennen sterke seizoenspatronen. Tuinaanleg piekt in het voorjaar, onderhoud in de zomer, en snoeiwerk in het najaar. Stem je marketing af op deze seizoenen: adverteer tuinontwerpen vanaf januari wanneer mensen beginnen te dromen over hun nieuwe tuin. Bied winterklaar-pakketten aan in oktober. Door vooruit te plannen heb je het hele jaar door een gevulde agenda in plaats van pieken en dalen."
+      },
+      {
+        heading: "De kracht van tuinontwerp-visualisaties",
+        body: "Klanten vinden het lastig om zich een eindresultaat voor te stellen. Bied gratis een eenvoudige tuinschets aan als leadmagneet op je website. In ruil voor hun contactgegevens krijgen ze een eerste impressie van hun droomtuin. Dit levert gekwalificeerde leads op die al serieus nadenken over hun tuin. De conversie van schets naar opdracht ligt vaak boven de 40% — veel hoger dan bij koude leads."
+      },
+      {
+        heading: "Onderhoudcontracten als fundament",
+        body: "De meest succesvolle hoveniersbedrijven bouwen hun omzet op een basis van onderhoudcontracten. Dit geeft financiële stabiliteit en een voorspelbare werkplanning. Promoot onderhoudcontracten actief op je website en bij elke oplevering. Gebruik automatische herinneringen om klanten seizoensgebonden onderhoud aan te bieden. Een bestand van 50 onderhoudklanten kan al €5.000-€10.000 per maand aan stabiele omzet opleveren."
+      }
+    ]
   }
 ];
