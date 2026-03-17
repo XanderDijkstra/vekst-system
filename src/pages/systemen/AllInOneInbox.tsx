@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
@@ -75,6 +76,16 @@ const steps = [
 const AllInOneInbox = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>All-in-One Inbox | Aannemer Systeem</title>
+        <meta name="description" content="Al je berichten op één plek — SMS, e-mail, WhatsApp en social media. Reageer sneller en mis nooit een bericht." />
+        <link rel="canonical" href="https://aannemersysteem.com/diensten/all-in-one-inbox" />
+        <meta property="og:title" content="All-in-One Inbox | Aannemer Systeem" />
+        <meta property="og:description" content="Al je berichten op één plek — SMS, e-mail, WhatsApp en social media." />
+        <meta property="og:url" content="https://aannemersysteem.com/diensten/all-in-one-inbox" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">

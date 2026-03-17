@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
@@ -74,6 +75,16 @@ const steps = [
 const MarketingCampagnes = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>Marketing Campagnes | Aannemer Systeem</title>
+        <meta name="description" content="Bereik je doelgroep automatisch met SMS en e-mail campagnes. Lead revival, review requests en seizoensgebonden promoties." />
+        <link rel="canonical" href="https://aannemersysteem.com/diensten/marketing-campagnes" />
+        <meta property="og:title" content="Marketing Campagnes | Aannemer Systeem" />
+        <meta property="og:description" content="Bereik je doelgroep automatisch met SMS en e-mail campagnes." />
+        <meta property="og:url" content="https://aannemersysteem.com/diensten/marketing-campagnes" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">

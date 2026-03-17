@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -5,10 +6,21 @@ import { fadeInUp } from "@/lib/animations";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 import { Clock, ArrowRight } from "lucide-react";
 
+const SITE_URL = "https://aannemersysteem.com";
 const categories = [...new Set(kennisbankArticles.map((a) => a.category))];
 
 const KennisbankOverview = () => (
   <PageShell>
+    <Helmet>
+      <title>Kennisbank | Aannemer Systeem</title>
+      <meta name="description" content="Praktische artikelen over digitalisering, marketing en automatisering in de bouwsector. Leer hoe je meer klanten aantrekt." />
+      <link rel="canonical" href={`${SITE_URL}/kennisbank`} />
+      <meta property="og:title" content="Kennisbank | Aannemer Systeem" />
+      <meta property="og:description" content="Praktische artikelen over digitalisering, marketing en automatisering in de bouwsector." />
+      <meta property="og:url" content={`${SITE_URL}/kennisbank`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+    </Helmet>
     <section className="py-20 md:py-28 bg-primary">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Kennisbank</motion.p>

@@ -1,16 +1,11 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 
 const DemoPage = () => {
   useEffect(() => {
-    document.title = "Boek een Demo — Aannemer Systeem";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute("content", "Plan een gratis demo gesprek en ontdek hoe Aannemer Systeem jouw bedrijf helpt groeien met slimme digitale systemen.");
-    }
-
     // Load the embed script
     const script = document.createElement("script");
     script.src = "https://link.msgsndr.com/js/form_embed.js";
@@ -24,6 +19,16 @@ const DemoPage = () => {
 
   return (
     <PageShell>
+      <Helmet>
+        <title>Boek een Demo | Aannemer Systeem</title>
+        <meta name="description" content="Plan een gratis demo gesprek en ontdek hoe Aannemer Systeem jouw bedrijf helpt groeien met slimme digitale systemen." />
+        <link rel="canonical" href="https://aannemersysteem.com/demo" />
+        <meta property="og:title" content="Boek een Demo | Aannemer Systeem" />
+        <meta property="og:description" content="Plan een gratis demo gesprek en ontdek hoe Aannemer Systeem jouw bedrijf helpt groeien." />
+        <meta property="og:url" content="https://aannemersysteem.com/demo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       <section className="pt-32 pb-8 md:pt-40 md:pb-12 bg-primary">
         <div className="container text-center">
           <motion.p

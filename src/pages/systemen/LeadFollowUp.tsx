@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
@@ -74,6 +75,16 @@ const steps = [
 const LeadFollowUp = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>Lead Follow-Up Systeem | Aannemer Systeem</title>
+        <meta name="description" content="Automatische opvolging van nieuwe leads via SMS en e-mail. Verhoog je conversie met snelle, persoonlijke follow-ups." />
+        <link rel="canonical" href="https://aannemersysteem.com/diensten/lead-follow-up" />
+        <meta property="og:title" content="Lead Follow-Up Systeem | Aannemer Systeem" />
+        <meta property="og:description" content="Automatische opvolging van nieuwe leads via SMS en e-mail." />
+        <meta property="og:url" content="https://aannemersysteem.com/diensten/lead-follow-up" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">

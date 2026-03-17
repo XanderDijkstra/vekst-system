@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
@@ -88,6 +89,16 @@ const steps = [
 const LeadGeneratie = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>Lead Generatie Website | Aannemer Systeem</title>
+        <meta name="description" content="Een professionele website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt. Gebouwd voor aannemers." />
+        <link rel="canonical" href="https://aannemersysteem.com/diensten/lead-generatie" />
+        <meta property="og:title" content="Lead Generatie Website | Aannemer Systeem" />
+        <meta property="og:description" content="Een professionele website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt." />
+        <meta property="og:url" content="https://aannemersysteem.com/diensten/lead-generatie" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* ═══ Hero with Stats + Video ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -5,8 +6,20 @@ import { Textarea } from "@/components/ui/textarea";
 import { ArrowRight, Calendar } from "lucide-react";
 import { Link } from "react-router-dom";
 
+const SITE_URL = "https://aannemersysteem.com";
+
 const ContactPage = () => (
   <PageShell>
+    <Helmet>
+      <title>Contact | Aannemer Systeem</title>
+      <meta name="description" content="Neem contact op met Aannemer Systeem. Stel je vraag of plan direct een gratis demo gesprek." />
+      <link rel="canonical" href={`${SITE_URL}/contact`} />
+      <meta property="og:title" content="Contact | Aannemer Systeem" />
+      <meta property="og:description" content="Neem contact op met Aannemer Systeem. Stel je vraag of plan direct een gratis demo gesprek." />
+      <meta property="og:url" content={`${SITE_URL}/contact`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+    </Helmet>
     <section className="py-20 md:py-28">
       <div className="container max-w-2xl">
         <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Contact</p>

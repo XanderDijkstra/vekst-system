@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
@@ -6,6 +7,8 @@ import {
   Settings, Zap, Plug, Bot,
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 const sections = [
   {
@@ -34,6 +37,16 @@ const sections = [
 
 const DienstenOverview = () => (
   <PageShell>
+    <Helmet>
+      <title>Diensten | Aannemer Systeem</title>
+      <meta name="description" content="Ontdek onze digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes, automatisering en meer." />
+      <link rel="canonical" href={`${SITE_URL}/diensten`} />
+      <meta property="og:title" content="Diensten | Aannemer Systeem" />
+      <meta property="og:description" content="Ontdek onze digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes, automatisering en meer." />
+      <meta property="og:url" content={`${SITE_URL}/diensten`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+    </Helmet>
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Onze diensten</motion.p>

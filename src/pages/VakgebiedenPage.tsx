@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { CheckCircle2 } from "lucide-react";
@@ -5,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 import dakdekkersImg from "@/assets/trades/dakdekkers.jpg";
 import loodgieterImg from "@/assets/trades/loodgieter.jpg";
@@ -42,6 +45,16 @@ const allTrades = [
 const VakgebiedenPage = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>Vakgebieden | Aannemer Systeem</title>
+        <meta name="description" content="Van dakdekker tot tuinman — ontdek voor welke vakgebieden wij digitale systemen bouwen. Bekijk onze specialisaties." />
+        <link rel="canonical" href={`${SITE_URL}/vakgebieden`} />
+        <meta property="og:title" content="Vakgebieden | Aannemer Systeem" />
+        <meta property="og:description" content="Van dakdekker tot tuinman — ontdek voor welke vakgebieden wij digitale systemen bouwen." />
+        <meta property="og:url" content={`${SITE_URL}/vakgebieden`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* Hero */}
       <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-primary">
         <div className="container text-center">

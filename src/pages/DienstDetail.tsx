@@ -1,8 +1,11 @@
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import PageShell from "@/components/PageShell";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 const dienstData: Record<string, { title: string; description: string }> = {
   "digitalisering-bouwbedrijf": { title: "Digitalisering Bouwbedrijf", description: "Wij helpen bouwbedrijven de stap te maken van papieren processen naar digitale systemen die tijd besparen en fouten voorkomen." },
@@ -23,6 +26,16 @@ const DienstDetail = () => {
 
   return (
     <PageShell>
+      <Helmet>
+        <title>{data.title} | Aannemer Systeem</title>
+        <meta name="description" content={data.description} />
+        <link rel="canonical" href={`${SITE_URL}/diensten/${slug}`} />
+        <meta property="og:title" content={`${data.title} | Aannemer Systeem`} />
+        <meta property="og:description" content={data.description} />
+        <meta property="og:url" content={`${SITE_URL}/diensten/${slug}`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       <section className="py-20 md:py-28">
         <div className="container max-w-3xl">
           <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Dienst</p>

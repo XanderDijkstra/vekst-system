@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
@@ -88,6 +89,16 @@ const steps = [
 const Klantcommunicatie = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>Gemiste Oproep → SMS Bericht | Aannemer Systeem</title>
+        <meta name="description" content="Mis nooit meer een klant. Automatisch een SMS sturen wanneer je een oproep mist op de werf. Speciaal voor aannemers." />
+        <link rel="canonical" href="https://aannemersysteem.com/diensten/klantcommunicatie" />
+        <meta property="og:title" content="Gemiste Oproep → SMS Bericht | Aannemer Systeem" />
+        <meta property="og:description" content="Automatisch een SMS sturen wanneer je een oproep mist op de werf." />
+        <meta property="og:url" content="https://aannemersysteem.com/diensten/klantcommunicatie" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">

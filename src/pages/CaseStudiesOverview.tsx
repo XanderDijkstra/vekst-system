@@ -1,8 +1,11 @@
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 const cases = [
   {
@@ -37,6 +40,16 @@ const cases = [
 
 const CaseStudiesOverview = () => (
   <PageShell>
+    <Helmet>
+      <title>Case Studies | Aannemer Systeem</title>
+      <meta name="description" content="Ontdek hoe andere aannemers hun bedrijf hebben getransformeerd met onze digitale systemen en automatisering." />
+      <link rel="canonical" href={`${SITE_URL}/case-studies`} />
+      <meta property="og:title" content="Case Studies | Aannemer Systeem" />
+      <meta property="og:description" content="Ontdek hoe andere aannemers hun bedrijf hebben getransformeerd met onze digitale systemen." />
+      <meta property="og:url" content={`${SITE_URL}/case-studies`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+    </Helmet>
     <section className="py-20 md:py-28 bg-primary">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Case Studies</motion.p>
