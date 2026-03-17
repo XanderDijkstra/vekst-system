@@ -6,7 +6,7 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 const HeroSection = () => {
   return (
-    <section className="relative py-24 md:py-32 overflow-hidden">
+    <section className="relative py-24 md:py-32 overflow-hidden bg-primary">
       <div className="container relative z-10">
         <div className="max-w-3xl">
           <motion.p
