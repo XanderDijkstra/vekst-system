@@ -77,6 +77,19 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
 
   return (
     <PageShell>
+      <Helmet>
+        <title>{d.metaTitle}</title>
+        <meta name="description" content={d.metaDescription} />
+        <link rel="canonical" href={pageUrl} />
+        <meta property="og:title" content={d.metaTitle} />
+        <meta property="og:description" content={d.metaDescription} />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      </Helmet>
       {/* ── HERO ── */}
       <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-primary">
         <div className="container text-center">
