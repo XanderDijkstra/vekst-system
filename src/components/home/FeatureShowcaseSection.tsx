@@ -146,64 +146,6 @@ const showcases: FeatureShowcase[] = [
     image: marketingCampagnesImg,
   },
   {
-    title: "Automatische SMS Lead Follow-Up",
-    subtitle:
-      "Elke lead — via je website, chat, telefoon of social media — wordt automatisch opgevolgd. Geen lead valt meer tussen wal en schip.",
-    features: [
-      {
-        title: "Website offerte formulieren",
-        description:
-          "Klant vult je formulier in? Wij sturen automatisch een sms om het verzoek te bevestigen en het gesprek te starten.",
-      },
-      {
-        title: "Chat widget",
-        description:
-          "Klant gebruikt je chat widget? Wij bevestigen via sms dat het verzoek is ontvangen en jij krijgt direct een melding.",
-      },
-      {
-        title: "Gemiste oproep sms",
-        description:
-          "Kun je niet opnemen? Wij sturen automatisch een sms zodat de klant weet dat je terugkomt.",
-      },
-      {
-        title: "Instagram & Facebook auto responder",
-        description:
-          "Bericht via social media? Wij reageren automatisch zodat de klant weet dat je zo snel mogelijk terugkomt.",
-      },
-    ],
-    demoLink: "/diensten/lead-follow-up",
-    imagePosition: "left",
-  },
-  {
-    title: "Alles-in-Één Inbox",
-    subtitle:
-      "Stop met schakelen tussen 4 apps. Al je berichten — Facebook, Instagram, SMS en e-mail — op één plek.",
-    features: [
-      {
-        title: "4-in-1 unified inbox",
-        description:
-          "Bundel al je communicatiekanalen in één overzichtelijke inbox. Nooit meer een bericht missen.",
-      },
-      {
-        title: "Sneller reageren",
-        description:
-          "Geen tabbladen meer wisselen. Reageer sneller en verlies geen klanten aan de concurrent.",
-      },
-      {
-        title: "Niets meer missen",
-        description:
-          "Elke aanvraag — ongeacht het kanaal — wordt automatisch op één plek verzameld.",
-      },
-      {
-        title: "Alle kanalen gekoppeld",
-        description:
-          "Koppel al je kanalen in enkele minuten. Geen technische kennis nodig.",
-      },
-    ],
-    demoLink: "/diensten/all-in-one-inbox",
-    imagePosition: "right",
-  },
-  {
     title: "Lokale SEO",
     subtitle:
       "\"Nummer 1 op Google binnen een week!\" — Grapje, SEO kost tijd... maar het is het waard.",
