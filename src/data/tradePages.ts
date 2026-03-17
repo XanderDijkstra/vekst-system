@@ -399,7 +399,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "stukadoor",
     plural: "stukadoors",
     bedrijf: "stukadoorsbedrijf",
-    metaTitle: "Website & Marketing voor Stukadoors | Meer Klanten als Stukadoor — Groei Systeem",
+    metaTitle: "Website & Marketing voor Stukadoors | Meer Klanten als Stukadoor — Aannemer Systeem",
     metaDescription: "Marketing systeem voor stukadoorsbedrijven: professionele website, lokale SEO en automatische reviews. Word de stukadoor die klanten kiezen.",
     hero: {
       badge: "Speciaal voor Stukadoorsbedrijven",
