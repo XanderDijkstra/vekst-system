@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
 import functioneleWebsiteImg from "@/assets/showcases/functionele-website.webp";
+import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
 
 /* ───── Feature showcase data ───── */
 interface FeatureItem {
