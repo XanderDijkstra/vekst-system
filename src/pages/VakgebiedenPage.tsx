@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { CheckCircle2 } from "lucide-react";
@@ -5,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 import dakdekkersImg from "@/assets/trades/dakdekkers.jpg";
 import loodgieterImg from "@/assets/trades/loodgieter.jpg";
