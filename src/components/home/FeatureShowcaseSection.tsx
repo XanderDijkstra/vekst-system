@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
 import functioneleWebsiteImg from "@/assets/showcases/functionele-website.webp";
+import reviewFunnelImg from "@/assets/showcases/review-funnel.webp";
 import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
 
 /* ───── Feature showcase data ───── */
@@ -81,6 +82,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/review-funnel",
     imagePosition: "right",
+    image: reviewFunnelImg,
   },
   {
     title: "Gemiste Oproep → SMS Bericht",
