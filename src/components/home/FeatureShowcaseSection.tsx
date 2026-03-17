@@ -18,6 +18,7 @@ interface FeatureShowcase {
   features: FeatureItem[];
   demoLink: string;
   imagePosition: "left" | "right";
+  image?: string;
 }
 
 const showcases: FeatureShowcase[] = [
