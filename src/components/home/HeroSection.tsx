@@ -6,12 +6,12 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 const HeroSection = () => {
   return (
-    <section className="relative py-24 md:py-32 overflow-hidden">
+    <section className="relative py-24 md:py-32 overflow-hidden bg-primary">
       <div className="container relative z-10">
         <div className="max-w-3xl">
           <motion.p
             {...fadeInUp}
-            className="text-xs font-bold uppercase tracking-widest text-accent mb-6"
+            className="text-xs font-bold uppercase tracking-widest text-accent mb-6 text-accent"
           >
             Digitale systemen voor aannemers
           </motion.p>
@@ -19,16 +19,16 @@ const HeroSection = () => {
           <motion.h1
             {...fadeInUp}
             transition={{ duration: 0.4, ease: systemEase, delay: 0.05 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.1]"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary-foreground leading-[1.1]"
           >
             Minder administratie.{" "}
-            <span className="text-primary">Meer tijd op de werf.</span>
+            <span className="text-accent">Meer tijd op de werf.</span>
           </motion.h1>
 
           <motion.p
             {...fadeInUp}
             transition={{ duration: 0.4, ease: systemEase, delay: 0.1 }}
-            className="mt-6 text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl"
+            className="mt-6 text-lg md:text-xl leading-relaxed text-primary-foreground/70 max-w-2xl"
           >
             Wij bouwen digitale systemen die aannemers helpen hun processen te
             automatiseren en hun bedrijf efficiënter te laten draaien.
