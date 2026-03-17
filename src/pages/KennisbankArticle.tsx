@@ -34,8 +34,48 @@ const KennisbankArticle = () => {
   const nextArticle = kennisbankArticles[currentIndex + 1];
   const prevArticle = kennisbankArticles[currentIndex - 1];
 
+  const canonicalUrl = `${SITE_URL}/kennisbank/${article.slug}`;
+  const wordCount = article.sections.reduce((sum, s) => sum + s.body.split(" ").length, 0);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.description,
+    url: canonicalUrl,
+    wordCount,
+    articleSection: article.category,
+    inLanguage: "nl",
+    publisher: {
+      "@type": "Organization",
+      name: "BouwFlow Boost",
+      url: SITE_URL,
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "Kennisbank", item: `${SITE_URL}/kennisbank` },
+        { "@type": "ListItem", position: 3, name: article.title, item: canonicalUrl },
+      ],
+    },
+  };
+
   return (
     <PageShell>
+      <Helmet>
+        <title>{article.title} | Kennisbank | BouwFlow Boost</title>
+        <meta name="description" content={article.description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="nl_NL" />
+        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      </Helmet>
+
       {/* Hero */}
       <section className="py-20 md:py-28 bg-primary">
         <div className="container max-w-3xl">
