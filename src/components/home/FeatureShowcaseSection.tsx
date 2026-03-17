@@ -143,6 +143,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/marketing-campagnes",
     imagePosition: "right",
+    image: marketingCampagnesImg,
   },
   {
     title: "Automatische SMS Lead Follow-Up",
