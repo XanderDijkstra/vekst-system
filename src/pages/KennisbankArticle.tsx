@@ -7,7 +7,7 @@ import { fadeInUp } from "@/lib/animations";
 import { Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const SITE_URL = "https://bouw-flow-boost.lovable.app";
+const SITE_URL = "https://aannemersysteem.com";
 
 const KennisbankArticle = () => {
   const { slug } = useParams<{ slug: string }>();
