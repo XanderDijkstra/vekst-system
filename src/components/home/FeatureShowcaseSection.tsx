@@ -82,6 +82,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/review-funnel",
     imagePosition: "right",
+    image: reviewFunnelImg,
   },
   {
     title: "Gemiste Oproep → SMS Bericht",
