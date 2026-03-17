@@ -94,10 +94,10 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
       name: `Website & Marketing Systeem voor ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`,
       provider: {
         "@type": "Organization",
-        name: "Groei Systeem",
+        name: "Aannemer Systeem",
         url: SITE_URL,
         telephone: "+4740185596",
-        email: "info@groei-systeem.com",
+        email: "info@aannemersysteem.com",
       },
       description: `Complete marketing systeem voor ${d.bedrijf}en: website, lokale SEO, reviews automatisering en lead opvolging.`,
       areaServed: { "@type": "Country", name: "Nederland" },
