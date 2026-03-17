@@ -19,7 +19,16 @@ const DemoPage = () => {
 
   return (
     <PageShell>
-      <section className="pt-32 pb-8 md:pt-40 md:pb-12 bg-primary">
+      <Helmet>
+        <title>Boek een Demo | Aannemer Systeem</title>
+        <meta name="description" content="Plan een gratis demo gesprek en ontdek hoe Aannemer Systeem jouw bedrijf helpt groeien met slimme digitale systemen." />
+        <link rel="canonical" href="https://aannemersysteem.com/demo" />
+        <meta property="og:title" content="Boek een Demo | Aannemer Systeem" />
+        <meta property="og:description" content="Plan een gratis demo gesprek en ontdek hoe Aannemer Systeem jouw bedrijf helpt groeien." />
+        <meta property="og:url" content="https://aannemersysteem.com/demo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
         <div className="container text-center">
           <motion.p
             {...fadeInUp}

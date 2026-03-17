@@ -75,6 +75,16 @@ const steps = [
 const ReviewFunnel = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>5-Sterren Review Funnel | Aannemer Systeem</title>
+        <meta name="description" content="Verzamel automatisch Google reviews van tevreden klanten. Bescherm je reputatie met ons slimme review systeem." />
+        <link rel="canonical" href="https://aannemersysteem.com/diensten/review-funnel" />
+        <meta property="og:title" content="5-Sterren Review Funnel | Aannemer Systeem" />
+        <meta property="og:description" content="Verzamel automatisch Google reviews van tevreden klanten." />
+        <meta property="og:url" content="https://aannemersysteem.com/diensten/review-funnel" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">
