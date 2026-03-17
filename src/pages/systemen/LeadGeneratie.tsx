@@ -143,14 +143,16 @@ const LeadGeneratie = () => {
             >
               <h3 className="text-xl md:text-2xl font-semibold mb-4">Bekijk een korte demo</h3>
               <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
-                {/* Replace the src with your actual video URL or YouTube embed */}
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Lead Generatie Website Demo"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster=""
+                >
+                  <source src="/videos/lead-generatie-demo.mp4" type="video/mp4" />
+                  Je browser ondersteunt geen video.
+                </video>
               </div>
             </motion.div>
           </div>
