@@ -28,7 +28,7 @@ const HeroSection = () => {
           <motion.p
             {...fadeInUp}
             transition={{ duration: 0.4, ease: systemEase, delay: 0.1 }}
-            className="mt-6 text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl"
+            className="mt-6 text-lg md:text-xl leading-relaxed text-primary-foreground/70 max-w-2xl"
           >
             Wij bouwen digitale systemen die aannemers helpen hun processen te
             automatiseren en hun bedrijf efficiënter te laten draaien.
