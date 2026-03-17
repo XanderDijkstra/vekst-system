@@ -37,6 +37,16 @@ const sections = [
 
 const DienstenOverview = () => (
   <PageShell>
+    <Helmet>
+      <title>Diensten | Aannemer Systeem</title>
+      <meta name="description" content="Ontdek onze digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes, automatisering en meer." />
+      <link rel="canonical" href={`${SITE_URL}/diensten`} />
+      <meta property="og:title" content="Diensten | Aannemer Systeem" />
+      <meta property="og:description" content="Ontdek onze digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes, automatisering en meer." />
+      <meta property="og:url" content={`${SITE_URL}/diensten`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+    </Helmet>
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Onze diensten</motion.p>

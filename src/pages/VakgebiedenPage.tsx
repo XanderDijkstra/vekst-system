@@ -45,6 +45,16 @@ const allTrades = [
 const VakgebiedenPage = () => {
   return (
     <PageShell>
+      <Helmet>
+        <title>Vakgebieden | Aannemer Systeem</title>
+        <meta name="description" content="Van dakdekker tot tuinman — ontdek voor welke vakgebieden wij digitale systemen bouwen. Bekijk onze specialisaties." />
+        <link rel="canonical" href={`${SITE_URL}/vakgebieden`} />
+        <meta property="og:title" content="Vakgebieden | Aannemer Systeem" />
+        <meta property="og:description" content="Van dakdekker tot tuinman — ontdek voor welke vakgebieden wij digitale systemen bouwen." />
+        <meta property="og:url" content={`${SITE_URL}/vakgebieden`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       {/* Hero */}
       <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-primary">
         <div className="container text-center">

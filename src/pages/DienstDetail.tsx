@@ -26,6 +26,16 @@ const DienstDetail = () => {
 
   return (
     <PageShell>
+      <Helmet>
+        <title>{data.title} | Aannemer Systeem</title>
+        <meta name="description" content={data.description} />
+        <link rel="canonical" href={`${SITE_URL}/diensten/${slug}`} />
+        <meta property="og:title" content={`${data.title} | Aannemer Systeem`} />
+        <meta property="og:description" content={data.description} />
+        <meta property="og:url" content={`${SITE_URL}/diensten/${slug}`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
+      </Helmet>
       <section className="py-20 md:py-28">
         <div className="container max-w-3xl">
           <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Dienst</p>

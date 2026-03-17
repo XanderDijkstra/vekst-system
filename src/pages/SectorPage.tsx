@@ -1,10 +1,23 @@
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
+const SITE_URL = "https://aannemersysteem.com";
+
 const SectorPage = () => (
   <PageShell>
+    <Helmet>
+      <title>Digitalisering voor Aannemers | Aannemer Systeem</title>
+      <meta name="description" content="De bouwsector digitaliseert. Ontdek hoe aannemers tijd besparen en sneller groeien met slimme digitale systemen." />
+      <link rel="canonical" href={`${SITE_URL}/sector/digitalisering-voor-aannemers`} />
+      <meta property="og:title" content="Digitalisering voor Aannemers | Aannemer Systeem" />
+      <meta property="og:description" content="De bouwsector digitaliseert. Ontdek hoe aannemers tijd besparen en sneller groeien met slimme digitale systemen." />
+      <meta property="og:url" content={`${SITE_URL}/sector/digitalisering-voor-aannemers`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+    </Helmet>
     <section className="py-20 md:py-28">
       <div className="container max-w-3xl">
         <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Sector</p>
