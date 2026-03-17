@@ -19,10 +19,10 @@ const HeroSection = () => {
           <motion.h1
             {...fadeInUp}
             transition={{ duration: 0.4, ease: systemEase, delay: 0.05 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.1]"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary-foreground leading-[1.1]"
           >
             Minder administratie.{" "}
-            <span className="text-primary">Meer tijd op de werf.</span>
+            <span className="text-accent">Meer tijd op de werf.</span>
           </motion.h1>
 
           <motion.p
