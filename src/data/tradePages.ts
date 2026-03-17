@@ -205,7 +205,7 @@ function createPlaceholderTrade(
       ],
     },
     faqs: [
-      { question: `Hoeveel kost een website voor een ${bedrijf}?`, answer: `Bij Groei Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live.` },
+      { question: `Hoeveel kost een website voor een ${bedrijf}?`, answer: `Bij Aannemer Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live.` },
       { question: `Hoe krijg ik als ${singular} meer klanten via internet?`, answer: `De drie belangrijkste stappen: (1) Een professionele website geoptimaliseerd voor lokale zoekopdrachten. (2) Actief Google reviews opbouwen. (3) Je Google Mijn Bedrijf profiel optimaliseren. Ons systeem automatiseert al deze drie stappen.` },
       { question: `Werkt SEO echt voor ${plural}?`, answer: `Ja. Wanneer iemand zoekt naar '${singular} in de buurt', heeft die persoon direct behoefte aan jouw dienst. Met SEO bereik je mensen op het exacte moment dat ze jou zoeken. Het kost 2-6 maanden, maar daarna is het een constante stroom van gratis aanvragen.` },
       { question: `Moet ik zelf iets doen?`, answer: `Wij regelen 95% — de website, de SEO, de automatiseringen en het technische onderhoud. Het enige wat wij vragen: lever foto's aan van je werk en gebruik de app om met één klik een reviewverzoek te sturen.` },
