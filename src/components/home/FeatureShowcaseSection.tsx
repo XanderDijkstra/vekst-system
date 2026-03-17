@@ -4,6 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
+import functioneleWebsiteImg from "@/assets/showcases/functionele-website.webp";
 
 /* ───── Feature showcase data ───── */
 interface FeatureItem {
