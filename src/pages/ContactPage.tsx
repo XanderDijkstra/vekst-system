@@ -23,7 +23,7 @@ const ContactPage = () => (
               Liever direct een gesprek plannen?
             </h2>
             <p className="mt-1 text-sm text-muted-foreground">
-              Boek een gratis demo en ontdek wat Groei Systeem voor jou kan betekenen.
+              Boek een gratis demo en ontdek wat Aannemer Systeem voor jou kan betekenen.
             </p>
           </div>
           <Button asChild size="lg" className="shrink-0 bg-accent text-accent-foreground hover:bg-accent/90">

@@ -282,7 +282,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
                   <TableHead className="w-1/4"></TableHead>
                   <TableHead>Werkspot / Platforms</TableHead>
                   <TableHead>Traditioneel Bureau</TableHead>
-                  <TableHead className="text-accent font-semibold">Groei Systeem</TableHead>
+                  <TableHead className="text-accent font-semibold">Aannemer Systeem</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>

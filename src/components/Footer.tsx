@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Groei Systeem. Alle rechten voorbehouden.
+          © {new Date().getFullYear()} Aannemer Systeem. Alle rechten voorbehouden.
         </div>
       </div>
     </footer>
