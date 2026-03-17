@@ -482,7 +482,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "hovenier",
     plural: "hoveniers",
     bedrijf: "hoveniersbedrijf",
-    metaTitle: "Website & Marketing voor Hoveniers | Meer Klanten als Hovenier — Groei Systeem",
+    metaTitle: "Website & Marketing voor Hoveniers | Meer Klanten als Hovenier — Aannemer Systeem",
     metaDescription: "Marketing systeem voor hoveniersbedrijven: professionele website met portfolio, lokale SEO en automatische reviews. Meer tuinklanten binnenhalen.",
     hero: {
       badge: "Speciaal voor Hoveniersbedrijven",
