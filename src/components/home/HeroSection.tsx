@@ -31,18 +31,17 @@ const HeroSection = () => {
     setIsSubmitting(true);
 
     try {
-      await fetch(WEBHOOK_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+      const { data, error } = await supabase.functions.invoke('webhook-proxy', {
+        body: {
           name: form.name.trim(),
           phone: form.phone.trim(),
           email: form.email.trim(),
           businessName: form.businessName.trim(),
           message: form.message.trim(),
-        }),
-        mode: "no-cors",
+        },
       });
+
+      if (error) throw error;
 
       setIsSubmitted(true);
       toast({
