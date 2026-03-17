@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Globe, PhoneOff, FileText, Star, BarChart3, Calendar, Settings, Zap, Plug, Bot } from "lucide-react";
+import { Menu, X, Globe, PhoneOff, Star, BarChart3, MessageSquare, UserCheck, Settings, Zap, Plug, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const dienstenColumns = [
@@ -9,10 +9,10 @@ const dienstenColumns = [
     items: [
       { icon: Globe, label: "Lead Generatie Website", href: "/diensten/lead-generatie", desc: "Website die klanten aantrekt" },
       { icon: PhoneOff, label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie", desc: "Automatisch bericht bij gemiste oproep" },
-      { icon: FileText, label: "Offerte Automatisering", href: "/diensten/offerte-systeem", desc: "Sneller offertes, automatisch opvolgen" },
-      { icon: Star, label: "Review Systeem", href: "/diensten/review-systeem", desc: "Automatisch Google reviews verzamelen" },
-      { icon: BarChart3, label: "Marketing Automatisering", href: "/diensten/marketing-automatisering", desc: "Bereik klanten op het juiste moment" },
-      { icon: Calendar, label: "Planning Systeem", href: "/diensten/planning-systeem", desc: "Centrale planning voor je projecten" },
+      { icon: UserCheck, label: "Lead Follow-Up", href: "/diensten/lead-follow-up", desc: "Automatische opvolging van leads" },
+      { icon: Star, label: "Review Systeem", href: "/diensten/review-funnel", desc: "Automatisch Google reviews verzamelen" },
+      { icon: BarChart3, label: "Marketing Campagnes", href: "/diensten/marketing-campagnes", desc: "Bereik klanten op het juiste moment" },
+      { icon: MessageSquare, label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox", desc: "Al je berichten op één plek" },
     ],
   },
   {
@@ -55,7 +55,6 @@ const Navbar = () => {
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
-          {/* Diensten dropdown */}
           <div
             className="relative"
             onMouseEnter={openDropdown}

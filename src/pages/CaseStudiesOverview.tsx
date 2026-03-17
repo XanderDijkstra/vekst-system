@@ -2,11 +2,37 @@ import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
+import { ArrowRight } from "lucide-react";
 
 const cases = [
-  { title: "Offerte automatisering voor aannemer", slug: "offerte-automatisering-aannemer", result: "10 uur per week bespaard" },
-  { title: "Planning systeem voor installatiebedrijf", slug: "planning-systeem-installatiebedrijf", result: "30% efficiëntere planning" },
-  { title: "CRM implementatie voor bouwbedrijf", slug: "crm-implementatie-bouwbedrijf", result: "50% snellere klantopvolging" },
+  {
+    title: "Offerte automatisering voor aannemer",
+    slug: "offerte-automatisering-aannemer",
+    result: "10 uur per week bespaard",
+    relatedLinks: [
+      { label: "Lead Follow-Up", href: "/diensten/lead-follow-up" },
+      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+    ],
+  },
+  {
+    title: "Van 0 naar 80+ Google reviews in 3 maanden",
+    slug: "review-systeem-installatiebedrijf",
+    result: "80+ Google reviews",
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
+  },
+  {
+    title: "CRM en lead-opvolging voor bouwbedrijf",
+    slug: "crm-implementatie-bouwbedrijf",
+    result: "50% snellere klantopvolging",
+    relatedLinks: [
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+    ],
+  },
 ];
 
 const CaseStudiesOverview = () => (
@@ -24,15 +50,28 @@ const CaseStudiesOverview = () => (
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {cases.map((c) => (
-            <Link
+            <div
               key={c.slug}
-              to={`/case-studies/${c.slug}`}
-              className="group bg-card rounded-2xl p-6 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-1 transition-all duration-250 ease-system-ease"
+              className="group bg-card rounded-2xl p-6 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-1 transition-all duration-250 ease-system-ease flex flex-col"
             >
               <h3 className="font-semibold text-foreground">{c.title}</h3>
               <p className="mt-2 text-sm font-medium text-accent tabular-nums">{c.result}</p>
-              <p className="mt-2 text-sm text-muted-foreground">Lees meer →</p>
-            </Link>
+
+              {c.relatedLinks.length > 0 && (
+                <div className="mt-4 pt-4 border-t border-border flex flex-wrap gap-2">
+                  {c.relatedLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="inline-flex items-center gap-1 rounded-md bg-muted/50 px-2.5 py-1 text-xs font-medium text-muted-foreground hover:text-accent transition-colors"
+                    >
+                      {link.label}
+                      <ArrowRight className="h-3 w-3" />
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
         </div>
       </div>

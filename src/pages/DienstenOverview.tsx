@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import {
-  Globe, PhoneOff, FileText, Star, BarChart3, Calendar,
+  Globe, PhoneOff, Star, BarChart3, MessageSquare, UserCheck,
   Settings, Zap, Plug, Bot,
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -14,10 +14,10 @@ const sections = [
     items: [
       { icon: Globe, title: "Lead Generatie Website", href: "/diensten/lead-generatie", description: "Een website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt." },
       { icon: PhoneOff, title: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie", description: "Automatisch een bericht sturen wanneer je een oproep mist." },
-      { icon: FileText, title: "Offerte Automatisering", href: "/diensten/offerte-systeem", description: "Maak offertes sneller en volg ze automatisch op." },
-      { icon: Star, title: "Review Systeem", href: "/diensten/review-systeem", description: "Verzamel automatisch Google reviews van tevreden klanten." },
-      { icon: BarChart3, title: "Marketing Automatisering", href: "/diensten/marketing-automatisering", description: "Bereik je doelgroep automatisch met de juiste boodschap." },
-      { icon: Calendar, title: "Planning Systeem", href: "/diensten/planning-systeem", description: "Beheer projecten en planning op één centrale plek." },
+      { icon: UserCheck, title: "Lead Follow-Up", href: "/diensten/lead-follow-up", description: "Automatische opvolging van nieuwe leads via SMS en e-mail." },
+      { icon: Star, title: "Review Systeem", href: "/diensten/review-funnel", description: "Verzamel automatisch Google reviews van tevreden klanten." },
+      { icon: BarChart3, title: "Marketing Campagnes", href: "/diensten/marketing-campagnes", description: "Bereik je doelgroep automatisch met de juiste boodschap." },
+      { icon: MessageSquare, title: "All-in-One Inbox", href: "/diensten/all-in-one-inbox", description: "Al je berichten op één plek — SMS, e-mail, WhatsApp en meer." },
     ],
   },
   {

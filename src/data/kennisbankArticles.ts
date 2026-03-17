@@ -5,6 +5,7 @@ export interface KennisbankArticle {
   category: string;
   readTime: string;
   sections: { heading: string; body: string }[];
+  relatedLinks: { label: string; href: string }[];
 }
 
 export const kennisbankArticles: KennisbankArticle[] = [
@@ -14,6 +15,12 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Ontdek hoe automatisering je bouwbedrijf efficiënter maakt, van offertes tot klantopvolging.",
     category: "Automatisering",
     readTime: "7 min",
+    relatedLinks: [
+      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+    ],
     sections: [
       {
         heading: "Waarom automatisering essentieel is",
@@ -43,6 +50,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Leer waarom een CRM-systeem onmisbaar is voor aannemers en hoe je het effectief inzet.",
     category: "CRM",
     readTime: "6 min",
+    relatedLinks: [
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+    ],
     sections: [
       {
         heading: "Wat is een CRM en waarom heb je het nodig?",
@@ -72,6 +84,10 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Vergelijk de beste planningstools voor bouwbedrijven en ontdek welke bij jou past.",
     category: "Planning",
     readTime: "5 min",
+    relatedLinks: [
+      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Software Integraties", href: "/diensten/software-integraties" },
+    ],
     sections: [
       {
         heading: "Waarom Excel niet meer volstaat",
@@ -97,6 +113,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Stuur sneller offertes en verhoog je conversie met deze praktische tips.",
     category: "Sales",
     readTime: "6 min",
+    relatedLinks: [
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+    ],
     sections: [
       {
         heading: "Snelheid wint de klant",
@@ -126,6 +147,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Ontdek hoe kunstmatige intelligentie de bouwsector transformeert.",
     category: "Innovatie",
     readTime: "7 min",
+    relatedLinks: [
+      { label: "AI Oplossingen", href: "/diensten/ai-oplossingen" },
+      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+    ],
     sections: [
       {
         heading: "AI is geen toekomstmuziek meer",
@@ -155,6 +181,12 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Van mond-tot-mondreclame tot online marketing: zo werf je meer klanten als aannemer.",
     category: "Marketing",
     readTime: "8 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+    ],
     sections: [
       {
         heading: "Waarom mond-tot-mondreclame niet meer genoeg is",
@@ -188,6 +220,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Maximaliseer je lokale vindbaarheid met een geoptimaliseerd Google Business profiel.",
     category: "SEO",
     readTime: "5 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
     sections: [
       {
         heading: "Waarom Google Mijn Bedrijf cruciaal is",
@@ -217,6 +254,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Waarom reviews je belangrijkste marketingtool zijn en hoe je er meer verzamelt.",
     category: "Reputatie",
     readTime: "5 min",
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
     sections: [
       {
         heading: "Reviews bepalen wie de opdracht krijgt",
@@ -246,6 +288,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Een eerlijk overzicht van de kosten en wat je ervoor terugkrijgt.",
     category: "Website",
     readTime: "6 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Software Integraties", href: "/diensten/software-integraties" },
+    ],
     sections: [
       {
         heading: "De investering in perspectief",
@@ -275,6 +322,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Een eerlijke vergelijking tussen leads via platforms en via je eigen kanalen.",
     category: "Strategie",
     readTime: "6 min",
+    relatedLinks: [
+      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
     sections: [
       {
         heading: "Hoe Werkspot werkt voor aannemers",
