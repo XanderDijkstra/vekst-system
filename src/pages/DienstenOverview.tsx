@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
@@ -6,6 +7,8 @@ import {
   Settings, Zap, Plug, Bot,
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 const sections = [
   {
