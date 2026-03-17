@@ -41,8 +41,8 @@ const Navbar = () => {
   };
 
   const navLinks = [
+    { label: "Vakgebieden", href: "/vakgebieden" },
     { label: "Kennisbank", href: "/kennisbank" },
-    { label: "Case Studies", href: "/case-studies" },
     { label: "Contact", href: "/contact" },
   ];
 
