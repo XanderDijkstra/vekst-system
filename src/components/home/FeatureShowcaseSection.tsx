@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
 import functioneleWebsiteImg from "@/assets/showcases/functionele-website.webp";
+import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
 
 /* ───── Feature showcase data ───── */
 interface FeatureItem {
@@ -109,6 +110,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/klantcommunicatie",
     imagePosition: "left",
+    image: gemisteOproepImg,
   },
   {
     title: "One-Click Marketing Campagnes",
@@ -256,23 +258,25 @@ const FeatureShowcaseSection = () => {
                   showcase.imagePosition === "right" ? "lg:order-2" : "lg:order-1"
                 }`}
               >
-                <div className="aspect-[4/3] rounded-2xl bg-muted/50 border border-border flex items-center justify-center overflow-hidden">
+                <div className="rounded-2xl bg-muted/50 border border-border flex items-center justify-center overflow-hidden">
                   {showcase.image ? (
                     <img
                       src={showcase.image}
                       alt={showcase.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-auto object-contain"
                     />
                   ) : (
-                    <div className="text-center p-8">
-                      <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mx-auto mb-4">
-                        <span className="text-2xl font-bold text-accent">
-                          {String(idx + 1).padStart(2, "0")}
-                        </span>
+                    <div className="aspect-[4/3] w-full flex items-center justify-center text-center p-8">
+                      <div>
+                        <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mx-auto mb-4">
+                          <span className="text-2xl font-bold text-accent">
+                            {String(idx + 1).padStart(2, "0")}
+                          </span>
+                        </div>
+                        <p className="text-sm text-muted-foreground font-medium">
+                          Demo video binnenkort beschikbaar
+                        </p>
                       </div>
-                      <p className="text-sm text-muted-foreground font-medium">
-                        Demo video binnenkort beschikbaar
-                      </p>
                     </div>
                   )}
                 </div>
