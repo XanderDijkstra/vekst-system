@@ -272,7 +272,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor dakdekkers",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor dakdekkers",
       rows: [
         { aspect: "Kosten per lead", werkspot: "€20-€40 per lead, veel no-shows", bureau: "€800-€2500/maand + opstart", groeisysteem: "€279/maand, onbeperkte leads" },
         { aspect: "Spoed-zichtbaarheid", werkspot: "Geen prioriteit bij urgente zoekopdrachten", bureau: "Afhankelijk van hun SEO-inspanning", groeisysteem: "Google Maps optimalisatie inbegrepen" },
