@@ -51,7 +51,7 @@ const schildersData: TradeData = {
   singular: "schilder",
   plural: "schilders",
   bedrijf: "schildersbedrijf",
-  metaTitle: "Website & Marketing voor Schilders | Meer Klanten — Groei Systeem",
+  metaTitle: "Website & Marketing voor Schilders | Meer Klanten — Aannemer Systeem",
   metaDescription: "Speciaal voor schildersbedrijven: een professionele website, automatische reviews en lokale SEO. Wij helpen schilders meer klanten te krijgen zonder gedoe.",
   hero: {
     badge: "Speciaal voor Schildersbedrijven",
