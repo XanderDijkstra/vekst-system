@@ -50,6 +50,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/lead-generatie",
     imagePosition: "left",
+    image: functioneleWebsiteImg,
   },
   {
     title: "5-Sterren Review Funnel",
