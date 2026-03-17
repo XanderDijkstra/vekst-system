@@ -440,7 +440,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor stukadoors",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor stukadoors",
       rows: [
         { aspect: "Kosten", werkspot: "€10-€25 per lead", bureau: "€500-€1500/maand", groeisysteem: "€279/maand vast" },
         { aspect: "Portfolio mogelijkheden", werkspot: "Beperkt, geen eigen website", bureau: "Website op maat, wel duur", groeisysteem: "Visuele portfolio, makkelijk bij te werken" },
