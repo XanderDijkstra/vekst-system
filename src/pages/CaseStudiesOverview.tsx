@@ -1,5 +1,7 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { fadeInUp } from "@/lib/animations";
 
 const cases = [
   { title: "Offerte automatisering voor aannemer", slug: "offerte-automatisering-aannemer", result: "10 uur per week bespaard" },
@@ -9,14 +11,18 @@ const cases = [
 
 const CaseStudiesOverview = () => (
   <PageShell>
-    <section className="py-20 md:py-28">
+    <section className="py-20 md:py-28 bg-primary">
       <div className="container">
-        <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Case Studies</p>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">Case Studies</h1>
-        <p className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed">
+        <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Case Studies</motion.p>
+        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Case Studies</motion.h1>
+        <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
           Ontdek hoe andere aannemers hun bedrijf hebben getransformeerd met onze systemen.
-        </p>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+        </motion.p>
+      </div>
+    </section>
+    <section className="py-20 md:py-28 bg-background">
+      <div className="container">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {cases.map((c) => (
             <Link
               key={c.slug}

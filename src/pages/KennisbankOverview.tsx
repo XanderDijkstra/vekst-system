@@ -1,5 +1,7 @@
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { fadeInUp } from "@/lib/animations";
 
 const articles = [
   { title: "Automatisering voor bouwbedrijven: een praktische gids", slug: "automatisering-bouwbedrijf" },
@@ -11,14 +13,18 @@ const articles = [
 
 const KennisbankOverview = () => (
   <PageShell>
-    <section className="py-20 md:py-28">
+    <section className="py-20 md:py-28 bg-primary">
       <div className="container">
-        <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Kennisbank</p>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">Kennisbank</h1>
-        <p className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed">
+        <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Kennisbank</motion.p>
+        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Kennisbank</motion.h1>
+        <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
           Praktische artikelen over digitalisering en automatisering in de bouwsector.
-        </p>
-        <div className="mt-12 space-y-4">
+        </motion.p>
+      </div>
+    </section>
+    <section className="py-20 md:py-28 bg-background">
+      <div className="container">
+        <div className="space-y-4">
           {articles.map((a) => (
             <Link
               key={a.slug}
