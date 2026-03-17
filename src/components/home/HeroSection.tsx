@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="max-w-3xl">
           <motion.p
             {...fadeInUp}
-            className="text-xs font-bold uppercase tracking-widest text-accent mb-6"
+            className="text-xs font-bold uppercase tracking-widest text-accent mb-6 text-accent"
           >
             Digitale systemen voor aannemers
           </motion.p>
