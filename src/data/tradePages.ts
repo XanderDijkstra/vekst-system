@@ -147,7 +147,7 @@ function createPlaceholderTrade(
     singular,
     plural,
     bedrijf,
-    metaTitle: `Website & Marketing voor ${plural.charAt(0).toUpperCase() + plural.slice(1)} | Meer Klanten — Groei Systeem`,
+    metaTitle: `Website & Marketing voor ${plural.charAt(0).toUpperCase() + plural.slice(1)} | Meer Klanten — Aannemer Systeem`,
     metaDescription: `Speciaal voor ${bedrijf}en: een professionele website, automatische reviews en lokale SEO. Wij helpen ${plural} meer klanten te krijgen zonder gedoe.`,
     hero: {
       badge: `Speciaal voor ${bedrijf.charAt(0).toUpperCase() + bedrijf.slice(1)}en`,
