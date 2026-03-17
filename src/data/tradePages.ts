@@ -315,7 +315,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "loodgieter",
     plural: "loodgieters",
     bedrijf: "loodgietersbedrijf",
-    metaTitle: "Website & Marketing voor Loodgieters | Meer Klanten als Loodgieter — Groei Systeem",
+    metaTitle: "Website & Marketing voor Loodgieters | Meer Klanten als Loodgieter — Aannemer Systeem",
     metaDescription: "Complete marketing systeem voor loodgietersbedrijven: professionele website, lokale SEO, automatische reviews. Start binnen 7 dagen. Vanaf €279/maand.",
     hero: {
       badge: "Speciaal voor Loodgietersbedrijven",
