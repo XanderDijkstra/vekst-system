@@ -110,6 +110,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/klantcommunicatie",
     imagePosition: "left",
+    image: gemisteOproepImg,
   },
   {
     title: "One-Click Marketing Campagnes",
