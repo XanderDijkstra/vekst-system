@@ -7,6 +7,7 @@ import { ArrowRight } from "lucide-react";
 import functioneleWebsiteImg from "@/assets/showcases/functionele-website.webp";
 import reviewFunnelImg from "@/assets/showcases/review-funnel.webp";
 import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
+import marketingCampagnesImg from "@/assets/showcases/marketing-campagnes.webp";
 
 /* ───── Feature showcase data ───── */
 interface FeatureItem {
@@ -142,6 +143,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/diensten/marketing-campagnes",
     imagePosition: "right",
+    image: marketingCampagnesImg,
   },
   {
     title: "Automatische SMS Lead Follow-Up",
