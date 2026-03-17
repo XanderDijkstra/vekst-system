@@ -20,7 +20,11 @@ const KennisbankOverview = () => (
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
           Praktische artikelen over digitalisering en automatisering in de bouwsector.
         </motion.p>
-        <div className="mt-12 space-y-4">
+      </div>
+    </section>
+    <section className="py-20 md:py-28 bg-background">
+      <div className="container">
+        <div className="space-y-4">
           {articles.map((a) => (
             <Link
               key={a.slug}
