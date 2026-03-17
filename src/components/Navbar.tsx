@@ -50,7 +50,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="text-xl font-bold tracking-tight text-foreground">
-          Groei <span className="text-accent">Systeem</span>
+          Aannemer <span className="text-accent">Systeem</span>
         </Link>
 
         {/* Desktop */}

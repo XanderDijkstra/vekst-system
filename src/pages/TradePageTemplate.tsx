@@ -44,7 +44,7 @@ function injectJsonLd(id: string, data: object) {
   script.text = JSON.stringify(data);
   document.head.appendChild(script);
 }
-const SITE_URL = "https://groei-systeem.com";
+const SITE_URL = "https://aannemersysteem.com";
 
 
 
@@ -94,10 +94,10 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
       name: `Website & Marketing Systeem voor ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`,
       provider: {
         "@type": "Organization",
-        name: "Groei Systeem",
+        name: "Aannemer Systeem",
         url: SITE_URL,
         telephone: "+4740185596",
-        email: "info@groei-systeem.com",
+        email: "info@aannemersysteem.com",
       },
       description: `Complete marketing systeem voor ${d.bedrijf}en: website, lokale SEO, reviews automatisering en lead opvolging.`,
       areaServed: { "@type": "Country", name: "Nederland" },
@@ -282,7 +282,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
                   <TableHead className="w-1/4"></TableHead>
                   <TableHead>Werkspot / Platforms</TableHead>
                   <TableHead>Traditioneel Bureau</TableHead>
-                  <TableHead className="text-accent font-semibold">Groei Systeem</TableHead>
+                  <TableHead className="text-accent font-semibold">Aannemer Systeem</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>

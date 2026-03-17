@@ -51,7 +51,7 @@ const schildersData: TradeData = {
   singular: "schilder",
   plural: "schilders",
   bedrijf: "schildersbedrijf",
-  metaTitle: "Website & Marketing voor Schilders | Meer Klanten — Groei Systeem",
+  metaTitle: "Website & Marketing voor Schilders | Meer Klanten — Aannemer Systeem",
   metaDescription: "Speciaal voor schildersbedrijven: een professionele website, automatische reviews en lokale SEO. Wij helpen schilders meer klanten te krijgen zonder gedoe.",
   hero: {
     badge: "Speciaal voor Schildersbedrijven",
@@ -110,10 +110,10 @@ const schildersData: TradeData = {
     ],
   },
   faqs: [
-    { question: "Hoeveel kost een website voor een schildersbedrijf?", answer: "Bij Groei Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live. Bij traditionele bureaus betaal je vaak €3.000-€8.000 voor een website plus maandelijkse hostingkosten." },
+    { question: "Hoeveel kost een website voor een schildersbedrijf?", answer: "Bij Aannemer Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live. Bij traditionele bureaus betaal je vaak €3.000-€8.000 voor een website plus maandelijkse hostingkosten." },
     { question: "Hoe krijg ik als schilder meer klanten via internet?", answer: "De drie belangrijkste stappen: (1) Zorg voor een professionele website die geoptimaliseerd is voor lokale zoekopdrachten zoals 'schilder [jouw stad]'. (2) Bouw actief aan Google reviews — bedrijven met 20+ reviews en een score boven 4.5 krijgen aanzienlijk meer klikken. (3) Optimaliseer je Google Mijn Bedrijf profiel met foto's, diensten en je werkgebied. Ons systeem automatiseert al deze drie stappen." },
     { question: "Werkt SEO echt voor schildersbedrijven?", answer: "Ja, en het is één van de meest kosteneffectieve manieren om klanten te werven. Wanneer iemand zoekt naar 'buitenschilderwerk offerte' of 'schilder in de buurt', heeft die persoon direct behoefte aan jouw dienst. In tegenstelling tot social media of flyers, bereik je met SEO mensen op het exacte moment dat ze een schilder zoeken. Het kost 2-6 maanden om resultaten te zien, maar daarna is het een constante stroom van gratis aanvragen." },
-    { question: "Wat is het verschil tussen Groei Systeem en Werkspot?", answer: "Bij Werkspot betaal je per lead en concurreer je direct met andere schilders om dezelfde klant. Bij Groei Systeem investeer je in je eigen online aanwezigheid. Klanten die via jouw website binnenkomen hebben al voor jou gekozen — ze hebben je reviews gelezen, je werk gezien en bellen jou specifiek. De conversieratio is daarom veel hoger en de kosten per klant lager op de lange termijn." },
+    { question: "Wat is het verschil tussen Aannemer Systeem en Werkspot?", answer: "Bij Werkspot betaal je per lead en concurreer je direct met andere schilders om dezelfde klant. Bij Aannemer Systeem investeer je in je eigen online aanwezigheid. Klanten die via jouw website binnenkomen hebben al voor jou gekozen — ze hebben je reviews gelezen, je werk gezien en bellen jou specifiek. De conversieratio is daarom veel hoger en de kosten per klant lager op de lange termijn." },
     { question: "Hoe lang duurt het voordat mijn schildersbedrijf gevonden wordt in Google?", answer: "Dit hangt af van je huidige online aanwezigheid, de concurrentie in jouw regio en je Google reviewscore. Gemiddeld zien onze klanten binnen 2-4 maanden verbetering in lokale zoekresultaten. Voor minder competitieve regio's kan dit sneller gaan. Het Google Mijn Bedrijf kaartresultaat reageert vaak al binnen weken op optimalisaties en nieuwe reviews." },
     { question: "Moet ik zelf iets doen of wordt alles voor mij geregeld?", answer: "Wij regelen 95% — de website, de SEO, de automatiseringen en het technische onderhoud. Het enige wat wij van jou vragen: lever foto's aan van je werk (voor/na), en gebruik de app om na een klus met één klik een reviewverzoek te sturen. Dat is letterlijk twee tikken op je telefoon." },
   ],
@@ -147,7 +147,7 @@ function createPlaceholderTrade(
     singular,
     plural,
     bedrijf,
-    metaTitle: `Website & Marketing voor ${plural.charAt(0).toUpperCase() + plural.slice(1)} | Meer Klanten — Groei Systeem`,
+    metaTitle: `Website & Marketing voor ${plural.charAt(0).toUpperCase() + plural.slice(1)} | Meer Klanten — Aannemer Systeem`,
     metaDescription: `Speciaal voor ${bedrijf}en: een professionele website, automatische reviews en lokale SEO. Wij helpen ${plural} meer klanten te krijgen zonder gedoe.`,
     hero: {
       badge: `Speciaal voor ${bedrijf.charAt(0).toUpperCase() + bedrijf.slice(1)}en`,
@@ -205,7 +205,7 @@ function createPlaceholderTrade(
       ],
     },
     faqs: [
-      { question: `Hoeveel kost een website voor een ${bedrijf}?`, answer: `Bij Groei Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live.` },
+      { question: `Hoeveel kost een website voor een ${bedrijf}?`, answer: `Bij Aannemer Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live.` },
       { question: `Hoe krijg ik als ${singular} meer klanten via internet?`, answer: `De drie belangrijkste stappen: (1) Een professionele website geoptimaliseerd voor lokale zoekopdrachten. (2) Actief Google reviews opbouwen. (3) Je Google Mijn Bedrijf profiel optimaliseren. Ons systeem automatiseert al deze drie stappen.` },
       { question: `Werkt SEO echt voor ${plural}?`, answer: `Ja. Wanneer iemand zoekt naar '${singular} in de buurt', heeft die persoon direct behoefte aan jouw dienst. Met SEO bereik je mensen op het exacte moment dat ze jou zoeken. Het kost 2-6 maanden, maar daarna is het een constante stroom van gratis aanvragen.` },
       { question: `Moet ik zelf iets doen?`, answer: `Wij regelen 95% — de website, de SEO, de automatiseringen en het technische onderhoud. Het enige wat wij vragen: lever foto's aan van je werk en gebruik de app om met één klik een reviewverzoek te sturen.` },
@@ -231,7 +231,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "dakdekker",
     plural: "dakdekkers",
     bedrijf: "dakdekkersbedrijf",
-    metaTitle: "Website & Marketing voor Dakdekkers | Meer Klanten als Dakdekker — Groei Systeem",
+    metaTitle: "Website & Marketing voor Dakdekkers | Meer Klanten als Dakdekker — Aannemer Systeem",
     metaDescription: "Professionele website en marketing systeem voor dakdekkersbedrijven. Meer lokale vindbaarheid, automatische reviews en leads. Binnen 7 dagen live.",
     hero: {
       badge: "Speciaal voor Dakdekkersbedrijven",
@@ -272,7 +272,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor dakdekkers",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor dakdekkers",
       rows: [
         { aspect: "Kosten per lead", werkspot: "€20-€40 per lead, veel no-shows", bureau: "€800-€2500/maand + opstart", groeisysteem: "€279/maand, onbeperkte leads" },
         { aspect: "Spoed-zichtbaarheid", werkspot: "Geen prioriteit bij urgente zoekopdrachten", bureau: "Afhankelijk van hun SEO-inspanning", groeisysteem: "Google Maps optimalisatie inbegrepen" },
@@ -290,12 +290,12 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     faqs: [
-      { question: "Hoeveel kost een website voor een dakdekkersbedrijf?", answer: "Bij Groei Systeem betaal je €279/maand voor een complete website met alle diensten uitgelicht, portfolio, lokale SEO, reviews automatisering en lead opvolging. Geen opstart- of ontwikkelkosten. Traditionele bureaus rekenen €4.000-€10.000 voor een vergelijkbare website, plus maandelijkse kosten." },
+      { question: "Hoeveel kost een website voor een dakdekkersbedrijf?", answer: "Bij Aannemer Systeem betaal je €279/maand voor een complete website met alle diensten uitgelicht, portfolio, lokale SEO, reviews automatisering en lead opvolging. Geen opstart- of ontwikkelkosten. Traditionele bureaus rekenen €4.000-€10.000 voor een vergelijkbare website, plus maandelijkse kosten." },
       { question: "Hoe snel word ik gevonden als dakdekker in Google?", answer: "Google Maps resultaten reageren vaak al binnen 2-4 weken op optimalisaties en nieuwe reviews. De organische zoekresultaten (onder de kaart) duren gemiddeld 2-4 maanden. Voor spoed-gerelateerde zoekwoorden zoals 'daklekkage reparatie' kan het sneller gaan omdat er minder concurrentie op deze specifieke termen is." },
       { question: "Werkt dit ook voor een eenmanszaak dakdekker?", answer: "Juist dan. Als eenmanszaak heb je geen marketingafdeling en beperkt budget. Ons systeem is gebouwd om met minimale tijdsinvestering (5 minuten per dag) maximaal resultaat te behalen. De automatische reviews, gemiste oproep-opvolging en lokale SEO draaien op de achtergrond terwijl jij op het dak staat." },
       { question: "Kan ik meerdere werkgebieden targeten?", answer: "Ja. Wij optimaliseren je website en Google profiel voor je volledige werkgebied — niet alleen je vestigingsplaats. Voor een dakdekker in Utrecht betekent dat ook zichtbaarheid in De Bilt, Houten, Nieuwegein en andere omliggende gemeenten." },
       { question: "Wat als ik al een website heb?", answer: "Dan beoordelen we eerst je huidige website op snelheid, SEO en conversie. Vaak is het effectiever om een nieuwe website te bouwen binnen ons systeem, omdat alles dan direct gekoppeld is aan de reviews automatisering, lead opvolging en analytics. Je bestaande domein nemen we gewoon over." },
-      { question: "Hoe verschilt dit van een Werkspot profiel?", answer: "Op Werkspot betaal je per lead en concurreer je met andere dakdekkers om dezelfde klant. Met Groei Systeem bouw je aan je eigen online merk. Klanten die via Google op jouw website komen, hebben jou al gekozen op basis van je reviews, portfolio en website. De conversie is hoger en de kosten per klant lager." },
+      { question: "Hoe verschilt dit van een Werkspot profiel?", answer: "Op Werkspot betaal je per lead en concurreer je met andere dakdekkers om dezelfde klant. Met Aannemer Systeem bouw je aan je eigen online merk. Klanten die via Google op jouw website komen, hebben jou al gekozen op basis van je reviews, portfolio en website. De conversie is hoger en de kosten per klant lager." },
     ],
     relatedTrades: [
       { label: "Schilders", slug: "schilders" },
@@ -315,7 +315,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "loodgieter",
     plural: "loodgieters",
     bedrijf: "loodgietersbedrijf",
-    metaTitle: "Website & Marketing voor Loodgieters | Meer Klanten als Loodgieter — Groei Systeem",
+    metaTitle: "Website & Marketing voor Loodgieters | Meer Klanten als Loodgieter — Aannemer Systeem",
     metaDescription: "Complete marketing systeem voor loodgietersbedrijven: professionele website, lokale SEO, automatische reviews. Start binnen 7 dagen. Vanaf €279/maand.",
     hero: {
       badge: "Speciaal voor Loodgietersbedrijven",
@@ -356,7 +356,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor loodgieters",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor loodgieters",
       rows: [
         { aspect: "Kosten", werkspot: "€15-€35 per lead", bureau: "€600-€2000/maand", groeisysteem: "€279/maand vast" },
         { aspect: "Spoed-zichtbaarheid", werkspot: "Je bent één van velen", bureau: "Kan, maar aparte meerprijs", groeisysteem: "Google Maps spoed-optimalisatie inbegrepen" },
@@ -374,7 +374,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     faqs: [
-      { question: "Hoeveel kost online marketing voor een loodgietersbedrijf?", answer: "Bij Groei Systeem betaal je €279/maand voor alles: website, lokale SEO, reviews automatisering en lead opvolging. Geen opstart- of extra kosten. Vergelijk dat met Werkspot waar je €15-€35 per lead betaalt — bij 10 leads per maand ben je al duurder uit, met minder controle." },
+      { question: "Hoeveel kost online marketing voor een loodgietersbedrijf?", answer: "Bij Aannemer Systeem betaal je €279/maand voor alles: website, lokale SEO, reviews automatisering en lead opvolging. Geen opstart- of extra kosten. Vergelijk dat met Werkspot waar je €15-€35 per lead betaalt — bij 10 leads per maand ben je al duurder uit, met minder controle." },
       { question: "Hoe word ik als loodgieter gevonden bij spoedopdrachten?", answer: "Het belangrijkste is je Google Mijn Bedrijf profiel. Wij optimaliseren dit voor spoed-gerelateerde zoekwoorden, stellen je 24/7 beschikbaarheid in, en zorgen dat je bel-knop direct zichtbaar is. Gecombineerd met sterke reviews verschijn je in het Google Maps kaartblok bij spoedzoekopdrachten." },
       { question: "Ik heb al een Werkspot profiel. Heb ik dit nog nodig?", answer: "Werkspot kan prima naast ons systeem bestaan. Het verschil: op Werkspot concurreer je op prijs met andere loodgieters om dezelfde lead. Via je eigen website komen klanten die jou al vertrouwen op basis van je reviews en portfolio. De conversieratio is 3-5x hoger." },
       { question: "Kan ik als eenmanszaak concurreren met grotere loodgietersbedrijven?", answer: "Absoluut. In lokale zoekresultaten telt je bedrijfsgrootte niet — je reviewscore, profielkwaliteit en relevantie voor de zoekopdracht wel. Een eenmanszaak met 40 reviews en een goede website verslaat een groot bedrijf met 5 reviews en een verouderde site." },
@@ -399,7 +399,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "stukadoor",
     plural: "stukadoors",
     bedrijf: "stukadoorsbedrijf",
-    metaTitle: "Website & Marketing voor Stukadoors | Meer Klanten als Stukadoor — Groei Systeem",
+    metaTitle: "Website & Marketing voor Stukadoors | Meer Klanten als Stukadoor — Aannemer Systeem",
     metaDescription: "Marketing systeem voor stukadoorsbedrijven: professionele website, lokale SEO en automatische reviews. Word de stukadoor die klanten kiezen.",
     hero: {
       badge: "Speciaal voor Stukadoorsbedrijven",
@@ -440,7 +440,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor stukadoors",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor stukadoors",
       rows: [
         { aspect: "Kosten", werkspot: "€10-€25 per lead", bureau: "€500-€1500/maand", groeisysteem: "€279/maand vast" },
         { aspect: "Portfolio mogelijkheden", werkspot: "Beperkt, geen eigen website", bureau: "Website op maat, wel duur", groeisysteem: "Visuele portfolio, makkelijk bij te werken" },
@@ -482,7 +482,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     singular: "hovenier",
     plural: "hoveniers",
     bedrijf: "hoveniersbedrijf",
-    metaTitle: "Website & Marketing voor Hoveniers | Meer Klanten als Hovenier — Groei Systeem",
+    metaTitle: "Website & Marketing voor Hoveniers | Meer Klanten als Hovenier — Aannemer Systeem",
     metaDescription: "Marketing systeem voor hoveniersbedrijven: professionele website met portfolio, lokale SEO en automatische reviews. Meer tuinklanten binnenhalen.",
     hero: {
       badge: "Speciaal voor Hoveniersbedrijven",
@@ -523,7 +523,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor hoveniers",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor hoveniers",
       rows: [
         { aspect: "Kosten", werkspot: "€15-€30 per lead", bureau: "€800-€2500/maand", groeisysteem: "€279/maand vast" },
         { aspect: "Visuele portfolio", werkspot: "Beperkt, geen eigen website", bureau: "Op maat maar statisch", groeisysteem: "Visuele galerij, zelf bijwerken" },

@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
             <Link to="/" className="text-lg font-bold tracking-tight text-foreground">
-              Groei <span className="text-accent">Systeem</span>
+              Aannemer <span className="text-accent">Systeem</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               Wij bouwen het digitale fundament voor de moderne aannemer.
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Groei Systeem. Alle rechten voorbehouden.
+          © {new Date().getFullYear()} Aannemer Systeem. Alle rechten voorbehouden.
         </div>
       </div>
     </footer>

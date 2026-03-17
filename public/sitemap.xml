@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main pages -->
-  <url><loc>https://groei-systeem.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://groei-systeem.com/diensten</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/diensten/lead-generatie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/diensten/klantcommunicatie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/diensten/review-funnel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/diensten/all-in-one-inbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/diensten/marketing-campagnes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/diensten/lead-follow-up</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/vakgebieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/kennisbank</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://groei-systeem.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://groei-systeem.com/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://groei-systeem.com/sector/digitalisering-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/lead-generatie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/klantcommunicatie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/review-funnel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/all-in-one-inbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/marketing-campagnes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/lead-follow-up</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/sector/digitalisering-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Trade pages (SEO priority) -->
-  <url><loc>https://groei-systeem.com/voor/schilders</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://groei-systeem.com/voor/dakdekkers</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://groei-systeem.com/voor/loodgieters</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://groei-systeem.com/voor/stukadoors</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://groei-systeem.com/voor/hoveniers</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://groei-systeem.com/voor/klusbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/tegelzetters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/elektriciens</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/timmerlieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/schoonmaakbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/glazenwassers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/keukenmonteurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/badkamerrenovatie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/isolatiebedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://groei-systeem.com/voor/hvac</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/schilders</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/dakdekkers</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/loodgieters</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/stukadoors</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/hoveniers</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/klusbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/tegelzetters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/elektriciens</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/timmerlieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/schoonmaakbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/glazenwassers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/keukenmonteurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/badkamerrenovatie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/isolatiebedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/voor/hvac</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
