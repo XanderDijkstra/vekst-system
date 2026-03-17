@@ -1,8 +1,11 @@
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 const cases = [
   {
