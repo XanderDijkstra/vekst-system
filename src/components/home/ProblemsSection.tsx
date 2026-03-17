@@ -13,6 +13,7 @@ const problems = [
     icon: PhoneMissed,
     title: "Gemiste oproepen van potentiële klanten",
     description: "Op de werf kun je niet altijd opnemen. Elke gemiste oproep is een gemiste kans.",
+    image: gemisteOproepImg,
   },
   {
     icon: CalendarX,
