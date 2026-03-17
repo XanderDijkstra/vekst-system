@@ -1,10 +1,14 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+const SITE_URL = "https://bouw-flow-boost.lovable.app";
 
 const KennisbankArticle = () => {
   const { slug } = useParams<{ slug: string }>();
