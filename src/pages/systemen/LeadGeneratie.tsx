@@ -119,6 +119,25 @@ const LeadGeneratie = () => {
             en automatisch offerte aanvragen voor je verzamelt.
           </motion.p>
 
+          {/* Video — shown here on mobile, hidden on lg */}
+          <motion.div
+            {...fadeInUp}
+            transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
+            className="mt-8 lg:hidden"
+          >
+            <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
+              <video
+                className="w-full h-full object-cover"
+                controls
+                playsInline
+                preload="metadata"
+              >
+                <source src="/videos/lead-generatie-demo.mp4" type="video/mp4" />
+                Je browser ondersteunt geen video.
+              </video>
+            </div>
+          </motion.div>
+
           <div className="mt-12 grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
             {/* Stats column */}
             <div className="lg:col-span-2 space-y-4">
@@ -135,11 +154,11 @@ const LeadGeneratie = () => {
               ))}
             </div>
 
-            {/* Video column */}
+            {/* Video column — hidden on mobile, shown on lg */}
             <motion.div
               {...fadeInUp}
               transition={{ duration: 0.4, ease: systemEase, delay: 0.2 }}
-              className="lg:col-span-3"
+              className="hidden lg:block lg:col-span-3"
             >
               <h3 className="text-xl md:text-2xl font-semibold mb-4">Bekijk een korte demo</h3>
               <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
@@ -148,7 +167,6 @@ const LeadGeneratie = () => {
                   controls
                   playsInline
                   preload="metadata"
-                  poster=""
                 >
                   <source src="/videos/lead-generatie-demo.mp4" type="video/mp4" />
                   Je browser ondersteunt geen video.
