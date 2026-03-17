@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Clock, PhoneMissed, CalendarX, FileStack } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
+import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
 
 const problems = [
   {
@@ -12,6 +13,7 @@ const problems = [
     icon: PhoneMissed,
     title: "Gemiste oproepen van potentiële klanten",
     description: "Op de werf kun je niet altijd opnemen. Elke gemiste oproep is een gemiste kans.",
+    image: gemisteOproepImg,
   },
   {
     icon: CalendarX,
@@ -64,6 +66,13 @@ const ProblemsSection = () => {
                   </p>
                 </div>
               </div>
+              {problem.image && (
+                <img
+                  src={problem.image}
+                  alt={problem.title}
+                  className="mt-4 w-full h-48 object-cover rounded-xl"
+                />
+              )}
             </motion.div>
           ))}
         </div>
