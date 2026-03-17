@@ -1,8 +1,11 @@
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import PageShell from "@/components/PageShell";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+
+const SITE_URL = "https://aannemersysteem.com";
 
 const dienstData: Record<string, { title: string; description: string }> = {
   "digitalisering-bouwbedrijf": { title: "Digitalisering Bouwbedrijf", description: "Wij helpen bouwbedrijven de stap te maken van papieren processen naar digitale systemen die tijd besparen en fouten voorkomen." },
