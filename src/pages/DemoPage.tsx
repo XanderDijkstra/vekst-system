@@ -1,16 +1,11 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 
 const DemoPage = () => {
   useEffect(() => {
-    document.title = "Boek een Demo — Aannemer Systeem";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute("content", "Plan een gratis demo gesprek en ontdek hoe Aannemer Systeem jouw bedrijf helpt groeien met slimme digitale systemen.");
-    }
-
     // Load the embed script
     const script = document.createElement("script");
     script.src = "https://link.msgsndr.com/js/form_embed.js";
