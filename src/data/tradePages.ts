@@ -523,7 +523,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor hoveniers",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor hoveniers",
       rows: [
         { aspect: "Kosten", werkspot: "€15-€30 per lead", bureau: "€800-€2500/maand", groeisysteem: "€279/maand vast" },
         { aspect: "Visuele portfolio", werkspot: "Beperkt, geen eigen website", bureau: "Op maat maar statisch", groeisysteem: "Visuele galerij, zelf bijwerken" },

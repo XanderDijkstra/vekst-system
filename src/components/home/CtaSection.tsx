@@ -13,7 +13,7 @@ const CtaSection = () => {
           className="bg-primary rounded-2xl p-10 md:p-16 text-center"
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-primary-foreground">
-            Ontdek hoe jouw bouwbedrijf slimmer kan werken
+            Ontdek hoe jouw bedrijf slimmer kan werken
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
             Boek een gratis demo en ontdek welke systemen jouw bedrijf kunnen transformeren.
