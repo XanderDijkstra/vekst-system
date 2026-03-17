@@ -34,14 +34,18 @@ const sections = [
 
 const DienstenOverview = () => (
   <PageShell>
-    <section className="py-20 md:py-28">
+    <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Onze diensten</motion.p>
-        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">Alles wat je nodig hebt om te groeien</motion.h1>
-        <motion.p {...fadeInUp} className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed">
+        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Alles wat je nodig hebt om te groeien</motion.h1>
+        <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
           Van slimme systemen tot volledige implementatie — ontdek hoe wij bouwbedrijven helpen digitaliseren en automatiseren.
         </motion.p>
+      </div>
+    </section>
 
+    <section className="py-20 md:py-28 bg-background">
+      <div className="container">
         {sections.map((section, sIdx) => (
           <div key={section.heading} className={sIdx === 0 ? "mt-16" : "mt-20"}>
             <motion.h2 {...fadeInUp} className="text-2xl font-semibold tracking-tight text-foreground mb-2">
