@@ -356,7 +356,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       ],
     },
     comparison: {
-      sectionTitle: "Groei Systeem vs. alternatieven voor loodgieters",
+      sectionTitle: "Aannemer Systeem vs. alternatieven voor loodgieters",
       rows: [
         { aspect: "Kosten", werkspot: "€15-€35 per lead", bureau: "€600-€2000/maand", groeisysteem: "€279/maand vast" },
         { aspect: "Spoed-zichtbaarheid", werkspot: "Je bent één van velen", bureau: "Kan, maar aparte meerprijs", groeisysteem: "Google Maps spoed-optimalisatie inbegrepen" },
