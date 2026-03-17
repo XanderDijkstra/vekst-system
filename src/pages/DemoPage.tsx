@@ -29,6 +29,7 @@ const DemoPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
       </Helmet>
+      <section className="pt-32 pb-8 md:pt-40 md:pb-12 bg-primary">
         <div className="container text-center">
           <motion.p
             {...fadeInUp}
