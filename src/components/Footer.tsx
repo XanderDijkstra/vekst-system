@@ -74,6 +74,16 @@ const Footer = () => {
                   Case Studies
                 </Link>
               </li>
+              <li>
+                <Link to="/vakgebieden" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Vakgebieden
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
