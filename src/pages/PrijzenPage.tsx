@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 const SITE_URL = "https://aannemersysteem.com";
@@ -141,7 +141,99 @@ const PrijzenPage = () => (
       </div>
     </section>
 
-    {/* FAQ-achtig blok */}
+    {/* Vergelijking */}
+    <section className="pb-24 md:pb-32">
+      <div className="container max-w-4xl">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-12"
+        >
+          <span className="inline-block text-xs font-bold uppercase tracking-widest text-accent border border-accent/30 rounded-full px-4 py-1.5 mb-5">
+            Vergelijking
+          </span>
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">
+            Waarom Aannemer Systeem?
+          </h2>
+          <p className="mt-3 text-muted-foreground max-w-lg mx-auto">
+            Een 'mooie' website is tegenwoordig niet meer genoeg. Je hebt een digitaal fundament nodig dat je tijd bespaart en daadwerkelijk nieuwe klussen oplevert.
+          </p>
+        </motion.div>
+
+        <div className="grid md:grid-cols-[1fr_auto_1fr] gap-6 md:gap-4 items-center">
+          {/* Gewone webbouwers */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.5 }}
+            className="rounded-2xl bg-card border border-border p-8 shadow-system-card h-full"
+          >
+            <h3 className="text-sm font-bold uppercase tracking-widest text-foreground mb-6">
+              Gewone webbouwers
+            </h3>
+            <div className="space-y-5">
+              {[
+                "Vraagt direct €3.000+ vooraf voor een simpele site",
+                "Levert een statisch 'online visitekaartje' af",
+                "Jij moet zelf alle teksten bedenken en aanleveren",
+                "Doet helemaal niets als jij op de steiger een telefoontje mist",
+              ].map((item, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <div className="mt-0.5 flex-shrink-0 h-7 w-7 rounded-full bg-destructive/10 flex items-center justify-center">
+                    <X className="h-3.5 w-3.5 text-destructive" strokeWidth={2.5} />
+                  </div>
+                  <span className="text-sm text-muted-foreground leading-snug">{item}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+
+          {/* VS badge */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.4, delay: 0.2 }}
+            className="hidden md:flex items-center justify-center"
+          >
+            <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground bg-muted rounded-lg px-3 py-2">
+              VS
+            </span>
+          </motion.div>
+
+          {/* Aannemer Systeem */}
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.5 }}
+            className="rounded-2xl bg-accent text-accent-foreground p-8 shadow-system-card-hover h-full"
+          >
+            <h3 className="text-sm font-bold uppercase tracking-widest mb-6">
+              Aannemer Systeem
+            </h3>
+            <div className="space-y-5">
+              {[
+                "Geen opstartkosten, gewoon een vast laag maandbedrag",
+                "Levert een compleet systeem dat bezoekers omzet in klanten",
+                "Wij regelen de techniek én schrijven de teksten voor je",
+                "Vangt gemiste oproepen direct automatisch op via SMS",
+              ].map((item, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <div className="mt-0.5 flex-shrink-0 h-7 w-7 rounded-full bg-accent-foreground/20 flex items-center justify-center">
+                    <Check className="h-3.5 w-3.5" strokeWidth={2.5} />
+                  </div>
+                  <span className="text-sm font-medium leading-snug">{item}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
     <section className="pb-24 md:pb-32">
       <div className="container max-w-2xl space-y-12">
         <motion.h2
