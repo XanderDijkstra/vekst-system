@@ -60,6 +60,7 @@ const AdminConfiguratorPage = () => {
             title: f.title,
             description: f.description,
             individual_price: f.individual_price,
+            project_price: f.project_price,
             sort_order: f.sort_order,
             is_active: f.is_active,
             slug: f.slug,
