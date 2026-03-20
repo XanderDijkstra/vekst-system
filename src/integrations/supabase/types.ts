@@ -21,6 +21,7 @@ export type Database = {
           id: string
           individual_price: number
           is_active: boolean
+          project_price: number
           slug: string
           sort_order: number
           title: string
@@ -32,6 +33,7 @@ export type Database = {
           id?: string
           individual_price?: number
           is_active?: boolean
+          project_price?: number
           slug: string
           sort_order?: number
           title: string
@@ -43,6 +45,7 @@ export type Database = {
           id?: string
           individual_price?: number
           is_active?: boolean
+          project_price?: number
           slug?: string
           sort_order?: number
           title?: string

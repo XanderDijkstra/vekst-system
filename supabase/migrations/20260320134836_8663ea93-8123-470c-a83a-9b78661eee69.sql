@@ -1,0 +1,1 @@
+ALTER TABLE public.configurator_features ADD COLUMN project_price NUMERIC(10,2) NOT NULL DEFAULT 0;
