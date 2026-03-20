@@ -11,6 +11,7 @@ interface Feature {
   title: string;
   description: string;
   individual_price: number;
+  project_price: number;
   sort_order: number;
   is_active: boolean;
 }
@@ -59,6 +60,7 @@ const AdminConfiguratorPage = () => {
             title: f.title,
             description: f.description,
             individual_price: f.individual_price,
+            project_price: f.project_price,
             sort_order: f.sort_order,
             is_active: f.is_active,
             slug: f.slug,
@@ -175,13 +177,21 @@ const AdminConfiguratorPage = () => {
                       className="flex w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                     />
                   </div>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                     <div>
-                      <label className="text-xs font-medium text-muted-foreground mb-1 block">Prijs (€/mo)</label>
+                      <label className="text-xs font-medium text-muted-foreground mb-1 block">Maandprijs (€)</label>
                       <Input
                         type="number"
                         value={f.individual_price}
                         onChange={(e) => updateFeature(f.id, "individual_price", Number(e.target.value))}
+                      />
+                    </div>
+                    <div>
+                      <label className="text-xs font-medium text-muted-foreground mb-1 block">Projectprijs (€)</label>
+                      <Input
+                        type="number"
+                        value={f.project_price}
+                        onChange={(e) => updateFeature(f.id, "project_price", Number(e.target.value))}
                       />
                     </div>
                     <div>

@@ -15,6 +15,7 @@ interface Feature {
   title: string;
   description: string;
   individual_price: number;
+  project_price: number;
   sort_order: number;
 }
 
@@ -60,6 +61,10 @@ const ConfiguratorPage = () => {
   const selectedTotal = features
     .filter((f) => selections[f.slug])
     .reduce((sum, f) => sum + f.individual_price, 0);
+
+  const selectedProjectTotal = features
+    .filter((f) => selections[f.slug])
+    .reduce((sum, f) => sum + f.project_price, 0);
 
   const selectedCount = features.filter((f) => selections[f.slug]).length;
 
@@ -146,6 +151,9 @@ const ConfiguratorPage = () => {
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Normaal: <span className="font-semibold text-foreground">€{currentFeature.individual_price}</span>/maand
+                      {currentFeature.project_price > 0 && (
+                        <span className="ml-2">· Projectprijs: <span className="font-semibold text-foreground">€{currentFeature.project_price}</span> eenmalig</span>
+                      )}
                     </p>
 
                     <div className="flex items-center justify-center gap-4 pt-4">
@@ -226,18 +234,33 @@ const ConfiguratorPage = () => {
                                 </span>
                               </div>
                               {selections[f.slug] && (
-                                <span className="text-sm text-muted-foreground line-through">
-                                  €{f.individual_price}/mo
-                                </span>
+                                <div className="text-right">
+                                  {f.project_price > 0 && (
+                                    <span className="text-xs text-muted-foreground line-through block">€{f.project_price} eenmalig</span>
+                                  )}
+                                  <span className="text-sm text-muted-foreground line-through">
+                                    €{f.individual_price}/mo
+                                  </span>
+                                </div>
                               )}
                             </div>
                           ))}
 
                           {/* Totaal */}
-                          <div className="border-t-2 border-border pt-4 mt-2">
+                          <div className="border-t-2 border-border pt-4 mt-2 space-y-1">
+                            {selectedProjectTotal > 0 && (
+                              <div className="flex items-center justify-between">
+                                <span className="text-sm text-muted-foreground">
+                                  Eenmalige projectkosten
+                                </span>
+                                <span className="text-base font-bold text-muted-foreground line-through">
+                                  €{selectedProjectTotal}
+                                </span>
+                              </div>
+                            )}
                             <div className="flex items-center justify-between">
                               <span className="text-sm font-semibold text-muted-foreground">
-                                Losse onderdelen
+                                Maandelijks los
                               </span>
                               <span className="text-lg font-bold text-muted-foreground line-through">
                                 €{selectedTotal}/mo
