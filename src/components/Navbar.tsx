@@ -42,7 +42,7 @@ const Navbar = () => {
 
   const navLinks = [
     { label: "Vakgebieden", href: "/vakgebieden" },
-    { label: "Prijzen", href: "/prijzen", sub: [{ label: "Configurator", href: "/configurator" }] },
+    { label: "Prijzen", href: "/prijzen" },
     { label: "Kennisbank", href: "/kennisbank" },
     { label: "Contact", href: "/contact" },
   ];
