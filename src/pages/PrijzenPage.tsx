@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import PageShell from "@/components/PageShell";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 const SITE_URL = "https://aannemersysteem.com";
