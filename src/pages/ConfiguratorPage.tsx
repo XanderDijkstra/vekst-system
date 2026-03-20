@@ -234,9 +234,14 @@ const ConfiguratorPage = () => {
                                 </span>
                               </div>
                               {selections[f.slug] && (
-                                <span className="text-sm text-muted-foreground line-through">
-                                  €{f.individual_price}/mo
-                                </span>
+                                <div className="text-right">
+                                  {f.project_price > 0 && (
+                                    <span className="text-xs text-muted-foreground line-through block">€{f.project_price} eenmalig</span>
+                                  )}
+                                  <span className="text-sm text-muted-foreground line-through">
+                                    €{f.individual_price}/mo
+                                  </span>
+                                </div>
                               )}
                             </div>
                           ))}
