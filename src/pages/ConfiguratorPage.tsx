@@ -15,6 +15,7 @@ interface Feature {
   title: string;
   description: string;
   individual_price: number;
+  project_price: number;
   sort_order: number;
 }
 
