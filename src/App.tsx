@@ -22,6 +22,8 @@ import ContactPage from "./pages/ContactPage";
 import VakgebiedenPage from "./pages/VakgebiedenPage";
 import TradePageWrapper from "./pages/TradePageWrapper";
 import DemoPage from "./pages/DemoPage";
+import ConfiguratorPage from "./pages/ConfiguratorPage";
+import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
 import PrijzenPage from "./pages/PrijzenPage";
 
 const queryClient = new QueryClient();
