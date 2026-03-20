@@ -247,10 +247,20 @@ const ConfiguratorPage = () => {
                           ))}
 
                           {/* Totaal */}
-                          <div className="border-t-2 border-border pt-4 mt-2">
+                          <div className="border-t-2 border-border pt-4 mt-2 space-y-1">
+                            {selectedProjectTotal > 0 && (
+                              <div className="flex items-center justify-between">
+                                <span className="text-sm text-muted-foreground">
+                                  Eenmalige projectkosten
+                                </span>
+                                <span className="text-base font-bold text-muted-foreground line-through">
+                                  €{selectedProjectTotal}
+                                </span>
+                              </div>
+                            )}
                             <div className="flex items-center justify-between">
                               <span className="text-sm font-semibold text-muted-foreground">
-                                Losse onderdelen
+                                Maandelijks los
                               </span>
                               <span className="text-lg font-bold text-muted-foreground line-through">
                                 €{selectedTotal}/mo
