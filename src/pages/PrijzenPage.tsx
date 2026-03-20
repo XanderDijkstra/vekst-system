@@ -86,6 +86,25 @@ const PrijzenPage = () => (
       </div>
     </section>
 
+    {/* Configurator CTA */}
+    <section className="pb-12 md:pb-16">
+      <div className="container max-w-3xl text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <Link
+            to="/configurator"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline underline-offset-4 transition-colors"
+          >
+            Stel je eigen pakket samen met onze configurator
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </motion.div>
+      </div>
+    </section>
+
     {/* Pricing card */}
     <section className="pb-24 md:pb-32">
       <div className="container flex justify-center">
