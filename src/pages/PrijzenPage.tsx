@@ -1,0 +1,193 @@
+import { Helmet } from "react-helmet-async";
+import PageShell from "@/components/PageShell";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { Check, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
+
+const SITE_URL = "https://aannemersysteem.com";
+
+const features = [
+  "Functionele website (10–20 pagina's)",
+  "Automatische lead follow-up",
+  "Gemiste oproep → SMS",
+  "5-sterren review funnel",
+  "One-click marketing campagnes",
+  "All-in-one inbox",
+  "On-site SEO",
+  "Hosting & onderhoud inbegrepen",
+];
+
+const PrijzenPage = () => (
+  <PageShell>
+    <Helmet>
+      <title>Prijzen | Aannemer Systeem</title>
+      <meta
+        name="description"
+        content="Eén helder tarief, alles inbegrepen. Website, automatisering en marketing voor €279 per maand. Geen verborgen kosten."
+      />
+      <link rel="canonical" href={`${SITE_URL}/prijzen`} />
+      <meta property="og:title" content="Prijzen | Aannemer Systeem" />
+      <meta
+        property="og:description"
+        content="Eén helder tarief, alles inbegrepen. Website, automatisering en marketing voor €279 per maand."
+      />
+      <meta property="og:url" content={`${SITE_URL}/prijzen`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="nl_NL" />
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: "Aannemer Systeem – Compleet Pakket",
+          description:
+            "Website, automatisering en marketing voor aannemers in één maandelijks abonnement.",
+          brand: { "@type": "Brand", name: "Aannemer Systeem" },
+          offers: {
+            "@type": "Offer",
+            price: "279",
+            priceCurrency: "EUR",
+            priceValidUntil: "2027-12-31",
+            availability: "https://schema.org/InStock",
+            url: `${SITE_URL}/prijzen`,
+          },
+        })}
+      </script>
+    </Helmet>
+
+    {/* Hero */}
+    <section className="py-20 md:py-28">
+      <div className="container max-w-3xl text-center">
+        <motion.p
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
+        >
+          Prijzen
+        </motion.p>
+        <motion.h1
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.05 }}
+          className="text-4xl md:text-5xl font-bold tracking-tight text-foreground"
+        >
+          Eén helder tarief. Alles inbegrepen.
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.12 }}
+          className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto"
+        >
+          Geen verborgen kosten, geen losse modules. Je krijgt het complete
+          digitale systeem voor jouw aannemersbedrijf.
+        </motion.p>
+      </div>
+    </section>
+
+    {/* Pricing card */}
+    <section className="pb-24 md:pb-32">
+      <div className="container flex justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.6 }}
+          className="relative w-full max-w-md"
+        >
+          {/* Card */}
+          <div className="rounded-2xl bg-accent text-accent-foreground shadow-system-card-hover overflow-hidden">
+            {/* Header */}
+            <div className="px-8 pt-10 pb-8 text-center">
+              <span className="inline-block text-xs font-bold uppercase tracking-widest text-primary bg-primary-foreground/90 rounded-full px-4 py-1.5 mb-5">
+                Meest gekozen
+              </span>
+              <h2 className="text-2xl font-bold">Compleet Pakket</h2>
+              <p className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight leading-none">
+                €279
+                <span className="text-lg font-medium opacity-80">/maand</span>
+              </p>
+            </div>
+
+            {/* Features */}
+            <div className="px-8 pb-10 space-y-0">
+              {features.map((f) => (
+                <div
+                  key={f}
+                  className="flex items-center gap-3 py-3.5 border-t border-accent-foreground/20"
+                >
+                  <Check className="h-4 w-4 flex-shrink-0 opacity-90" strokeWidth={2.5} />
+                  <span className="text-sm font-medium">{f}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* CTA */}
+            <div className="px-8 pb-10">
+              <Button
+                asChild
+                size="lg"
+                className="w-full rounded-xl bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-bold text-base h-12"
+              >
+                <Link to="/demo">
+                  Boek een gesprek
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+
+    {/* FAQ-achtig blok */}
+    <section className="pb-24 md:pb-32">
+      <div className="container max-w-2xl space-y-12">
+        <motion.h2
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.5 }}
+          className="text-2xl md:text-3xl font-bold tracking-tight text-foreground text-center"
+        >
+          Veelgestelde vragen over onze prijzen
+        </motion.h2>
+
+        <div className="space-y-8">
+          {[
+            {
+              q: "Zijn er opstartkosten?",
+              a: "Nee. Je betaalt alleen het maandelijkse tarief. We bouwen je volledige systeem zonder opstartkosten.",
+            },
+            {
+              q: "Zit er een contract aan vast?",
+              a: "Nee, je zit nergens aan vast. Je kunt maandelijks opzeggen. We geloven dat je blijft omdat het werkt, niet omdat het moet.",
+            },
+            {
+              q: "Wat als ik maar één systeem nodig heb?",
+              a: "Ons pakket is ontworpen als compleet systeem. De onderdelen versterken elkaar — daarom bieden we alles samen aan voor één prijs.",
+            },
+            {
+              q: "Is de website echt inbegrepen?",
+              a: "Ja. Een professionele, SEO-geoptimaliseerde website met 10 tot 20 pagina's, volledig op maat voor jouw bedrijf. Hosting en onderhoud zitten erbij.",
+            },
+          ].map((item, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 14 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.5, delay: i * 0.08 }}
+            >
+              <h3 className="text-base font-semibold text-foreground">{item.q}</h3>
+              <p className="mt-1.5 text-sm text-muted-foreground leading-relaxed">{item.a}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </PageShell>
+);
+
+export default PrijzenPage;

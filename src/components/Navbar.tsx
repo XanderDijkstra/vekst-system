@@ -42,6 +42,7 @@ const Navbar = () => {
 
   const navLinks = [
     { label: "Vakgebieden", href: "/vakgebieden" },
+    { label: "Prijzen", href: "/prijzen" },
     { label: "Kennisbank", href: "/kennisbank" },
     { label: "Contact", href: "/contact" },
   ];
