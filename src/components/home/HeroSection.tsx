@@ -77,7 +77,8 @@ const HeroSection = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.05 }}
               className="text-4xl md:text-5xl lg:text-[3.25rem] xl:text-6xl font-bold tracking-tight text-primary-foreground leading-[1.1]">
               
-              Minder administratie.{" "}
+              Websites & Marketing{" "}
+              <br />
               <span className="text-accent">Systemen voor Aannemers</span>
             </motion.h1>
 
