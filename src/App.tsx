@@ -22,6 +22,8 @@ import ContactPage from "./pages/ContactPage";
 import VakgebiedenPage from "./pages/VakgebiedenPage";
 import TradePageWrapper from "./pages/TradePageWrapper";
 import DemoPage from "./pages/DemoPage";
+import ConfiguratorPage from "./pages/ConfiguratorPage";
+import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
 import PrijzenPage from "./pages/PrijzenPage";
 
 const queryClient = new QueryClient();
@@ -50,6 +52,8 @@ const App = () => (
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/demo" element={<DemoPage />} />
           <Route path="/prijzen" element={<PrijzenPage />} />
+          <Route path="/configurator" element={<ConfiguratorPage />} />
+          <Route path="/admin/configurator" element={<AdminConfiguratorPage />} />
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
           <Route path="/voor/:slug" element={<TradePageWrapper />} />
           {/* Redirects from old /systemen routes */}
