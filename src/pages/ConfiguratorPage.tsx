@@ -151,6 +151,9 @@ const ConfiguratorPage = () => {
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Normaal: <span className="font-semibold text-foreground">€{currentFeature.individual_price}</span>/maand
+                      {currentFeature.project_price > 0 && (
+                        <span className="ml-2">· Projectprijs: <span className="font-semibold text-foreground">€{currentFeature.project_price}</span> eenmalig</span>
+                      )}
                     </p>
 
                     <div className="flex items-center justify-center gap-4 pt-4">
