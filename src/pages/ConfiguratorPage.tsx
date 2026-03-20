@@ -62,6 +62,10 @@ const ConfiguratorPage = () => {
     .filter((f) => selections[f.slug])
     .reduce((sum, f) => sum + f.individual_price, 0);
 
+  const selectedProjectTotal = features
+    .filter((f) => selections[f.slug])
+    .reduce((sum, f) => sum + f.project_price, 0);
+
   const selectedCount = features.filter((f) => selections[f.slug]).length;
 
   const goNext = () => {
