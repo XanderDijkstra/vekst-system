@@ -132,14 +132,8 @@ const Klantcommunicatie = () => {
               className="lg:col-span-3"
             >
               <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
-              <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Gemiste Oproep SMS Demo"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+              <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center">
+                <p className="text-muted-foreground text-sm font-medium">Video binnenkort beschikbaar</p>
               </div>
             </motion.div>
           </div>
