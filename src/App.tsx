@@ -22,6 +22,7 @@ import ContactPage from "./pages/ContactPage";
 import VakgebiedenPage from "./pages/VakgebiedenPage";
 import TradePageWrapper from "./pages/TradePageWrapper";
 import DemoPage from "./pages/DemoPage";
+import PrijzenPage from "./pages/PrijzenPage";
 
 const queryClient = new QueryClient();
 
