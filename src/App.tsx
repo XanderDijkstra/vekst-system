@@ -27,6 +27,7 @@ import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
 import PrijzenPage from "./pages/PrijzenPage";
 import WikiOverview from "./pages/WikiOverview";
 import WikiTerm from "./pages/WikiTerm";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/diensten" element={<DienstenOverview />} />
