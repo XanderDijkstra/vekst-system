@@ -95,7 +95,7 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Een conversie is het moment waarop een bezoeker van je website doet wat jij wilt. In de bouw is dat meestal: bellen, een contactformulier invullen, of een offerte aanvragen. Elke keer dat iemand dat doet, heb je een 'conversie'. Het is eigenlijk gewoon een chique woord voor: iemand heeft interesse getoond.",
+        body: "Een conversie is het moment waarop een bezoeker van je website doet wat jij wilt. Voor aannemers is dat meestal: bellen, een contactformulier invullen, of een offerte aanvragen. Elke keer dat iemand dat doet, heb je een 'conversie'. Het is eigenlijk gewoon een chique woord voor: iemand heeft interesse getoond.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
@@ -174,7 +174,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Veel aannemerwebsites hebben ergens onderaan een contactpagina, en dat is het. Geen duidelijke knop, geen urgentie, geen richting. Het resultaat: mensen bekijken je site en vertrekken weer. Een goede CTA is als een bord op de bouwplaats dat zegt 'Hier naar binnen'. Zonder dat bord loopt iedereen voorbij.",
+        body: "Veel aannemerwebsites hebben ergens onderaan een contactpagina, en dat is het. Geen duidelijke knop, geen urgentie, geen richting. Het resultaat: mensen bekijken je site en vertrekken weer. Een goede CTA is als een bord op de werf dat zegt 'Hier naar binnen'. Zonder dat bord loopt iedereen voorbij.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -300,7 +300,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "Een goed CRM voor aannemers registreert elk contact automatisch: via je website, telefoon of e-mail. Je ziet alle communicatie per klant terug — elk telefoontje, elke offerte, elke factuur. Je stelt herinneringen in ('Klant nog niet teruggebeld') en volgt je verkooppijplijn ('aanvraag → bezichtiging → offerte → akkoord → uitvoering'). Het beste: op je telefoon, zodat je ook vanaf de bouwplaats je zaken kunt regelen.",
+        body: "Een goed CRM voor aannemers registreert elk contact automatisch: via je website, telefoon of e-mail. Je ziet alle communicatie per klant terug — elk telefoontje, elke offerte, elke factuur. Je stelt herinneringen in ('Klant nog niet teruggebeld') en volgt je verkooppijplijn ('aanvraag → bezichtiging → offerte → akkoord → uitvoering'). Het beste: op je telefoon, zodat je ook vanaf de werf je zaken kunt regelen.",
       },
     ],
   },
@@ -341,7 +341,7 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Automatisering betekent dat je taken die je normaal handmatig doet, laat uitvoeren door software. Denk aan: automatisch een SMS sturen als je een telefoontje mist, automatisch een herinnering sturen als een offerte niet beantwoord is, automatisch een review-verzoek sturen na een afgeronde klus. Het systeem draait op de achtergrond terwijl jij op de bouw staat.",
+        body: "Automatisering betekent dat je taken die je normaal handmatig doet, laat uitvoeren door software. Denk aan: automatisch een SMS sturen als je een telefoontje mist, automatisch een herinnering sturen als een offerte niet beantwoord is, automatisch een review-verzoek sturen na een afgeronde klus. Het systeem draait op de achtergrond terwijl jij op de werf staat.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
@@ -361,8 +361,8 @@ export const wikiTerms: WikiTerm[] = [
     category: "Regelgeving",
     relatedTerms: ["automatisering", "crm"],
     relatedLinks: [
-      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
-      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
+      { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
     ],
     sections: [
       {

@@ -87,7 +87,7 @@ const HeroSection = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.1 }}
               className="mt-6 text-lg md:text-xl leading-relaxed text-primary-foreground/70 max-w-xl">
               
-              Wij bouwen digitale systemen die aannemers helpen hun processen te
+              Wij maken digitale systemen die aannemers helpen hun processen te
               automatiseren en hun bedrijf efficiënter te laten draaien. Meer
               groei, Meer tijd voor jezelf, Minder Moeite en Gedoe
             </motion.p>

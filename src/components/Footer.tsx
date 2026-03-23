@@ -10,8 +10,8 @@ const footerDiensten = [
 ];
 
 const footerServices = [
-  { label: "Digitalisering", href: "/diensten/digitalisering-bouwbedrijf" },
-  { label: "Automatisering", href: "/diensten/automatisering-bouwbedrijf" },
+  { label: "Digitalisering", href: "/diensten/digitalisering-aannemers" },
+  { label: "Automatisering", href: "/diensten/automatisering-aannemers" },
   { label: "Software Integraties", href: "/diensten/software-integraties" },
   { label: "AI Oplossingen", href: "/diensten/ai-oplossingen" },
 ];
@@ -26,7 +26,7 @@ const Footer = () => {
               Aannemer <span className="text-accent">Systeem</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Wij bouwen het digitale fundament voor de moderne aannemer.
+              Wij maken het digitale fundament voor de moderne aannemer.
             </p>
           </div>
 

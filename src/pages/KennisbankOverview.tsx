@@ -13,10 +13,10 @@ const KennisbankOverview = () => (
   <PageShell>
     <Helmet>
       <title>Kennisbank | Aannemer Systeem</title>
-      <meta name="description" content="Praktische artikelen over digitalisering, marketing en automatisering in de bouwsector. Leer hoe je meer klanten aantrekt." />
+      <meta name="description" content="Praktische artikelen over digitalisering, marketing en automatisering voor aannemers. Leer hoe je meer klanten aantrekt." />
       <link rel="canonical" href={`${SITE_URL}/kennisbank`} />
       <meta property="og:title" content="Kennisbank | Aannemer Systeem" />
-      <meta property="og:description" content="Praktische artikelen over digitalisering, marketing en automatisering in de bouwsector." />
+      <meta property="og:description" content="Praktische artikelen over digitalisering, marketing en automatisering voor aannemers." />
       <meta property="og:url" content={`${SITE_URL}/kennisbank`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nl_NL" />
@@ -26,7 +26,7 @@ const KennisbankOverview = () => (
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Kennisbank</motion.p>
         <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Kennisbank</motion.h1>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-          Praktische artikelen over digitalisering, marketing en automatisering in de bouwsector.
+          Praktische artikelen over digitalisering, marketing en automatisering voor aannemers.
         </motion.p>
       </div>
     </section>

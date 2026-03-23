@@ -72,10 +72,10 @@ const steps = [
   },
   {
     step: "02",
-    title: "Wij bouwen je website",
+    title: "Wij maken je website",
     duration: "7–10 dagen",
     description:
-      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna gaan wij aan de slag met het bouwen van je nieuwe website en lead generatie systeem.",
+      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna gaan wij aan de slag met het maken van je nieuwe website en lead generatie systeem.",
   },
   {
     step: "03",
@@ -225,7 +225,7 @@ const LeadGeneratie = () => {
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
                 Plan een kort gesprek en we laten je precies zien hoe een lead generatie website eruitziet
-                voor jouw type bouwbedrijf.
+                voor jouw type aannemersbedrijf.
               </p>
             </div>
             <Button
@@ -297,7 +297,7 @@ const LeadGeneratie = () => {
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Boek een gratis demo en ontdek wat een professionele website voor jouw bouwbedrijf kan betekenen.
+            Boek een gratis demo en ontdek wat een professionele website voor jouw aannemersbedrijf kan betekenen.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">

@@ -4,7 +4,7 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 const steps = [
   { icon: Search, step: "01", title: "Analyse van je huidige processen", description: "We brengen in kaart waar je tijd verliest en welke processen geautomatiseerd kunnen worden." },
-  { icon: Wrench, step: "02", title: "We bouwen je digitale systemen", description: "Op maat gemaakte systemen die naadloos aansluiten bij hoe jij werkt." },
+  { icon: Wrench, step: "02", title: "We maken je digitale systemen", description: "Op maat gemaakte systemen die naadloos aansluiten bij hoe jij werkt." },
   { icon: Rocket, step: "03", title: "Automatisering bespaart tijd en werk", description: "Meer focus op de werf, minder tijd achter het bureau." },
 ];
 

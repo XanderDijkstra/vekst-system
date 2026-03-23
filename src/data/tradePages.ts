@@ -56,7 +56,7 @@ const schildersData: TradeData = {
   hero: {
     badge: "Speciaal voor Schildersbedrijven",
     headline: "Meer Klanten als Schilder — Zonder Marketing Gedoe",
-    subheadline: "Wij bouwen het complete online systeem zodat huiseigenaren jou vinden, vertrouwen en bellen. Jij schildert. Wij regelen de rest.",
+    subheadline: "Wij maken het complete online systeem zodat huiseigenaren jou vinden, vertrouwen en bellen. Jij schildert. Wij regelen de rest.",
     stats: [
       { value: "78%", label: "van klanten zoekt online naar een schilder" },
       { value: "3x", label: "meer aanvragen met een goede Google positie" },
@@ -111,7 +111,7 @@ const schildersData: TradeData = {
   },
   faqs: [
     { question: "Hoeveel kost een website voor een schildersbedrijf?", answer: "Bij Aannemer Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstart- of ontwikkelkosten. Je website staat binnen 7 dagen live. Bij traditionele bureaus betaal je vaak €3.000-€8.000 voor een website plus maandelijkse hostingkosten." },
-    { question: "Hoe krijg ik als schilder meer klanten via internet?", answer: "De drie belangrijkste stappen: (1) Zorg voor een professionele website die geoptimaliseerd is voor lokale zoekopdrachten zoals 'schilder [jouw stad]'. (2) Bouw actief aan Google reviews — bedrijven met 20+ reviews en een score boven 4.5 krijgen aanzienlijk meer klikken. (3) Optimaliseer je Google Mijn Bedrijf profiel met foto's, diensten en je werkgebied. Ons systeem automatiseert al deze drie stappen." },
+    { question: "Hoe krijg ik als schilder meer klanten via internet?", answer: "De drie belangrijkste stappen: (1) Zorg voor een professionele website die geoptimaliseerd is voor lokale zoekopdrachten zoals 'schilder [jouw stad]'. (2) Werk actief aan Google reviews — bedrijven met 20+ reviews en een score boven 4.5 krijgen aanzienlijk meer klikken. (3) Optimaliseer je Google Mijn Bedrijf profiel met foto's, diensten en je werkgebied. Ons systeem automatiseert al deze drie stappen." },
     { question: "Werkt SEO echt voor schildersbedrijven?", answer: "Ja, en het is één van de meest kosteneffectieve manieren om klanten te werven. Wanneer iemand zoekt naar 'buitenschilderwerk offerte' of 'schilder in de buurt', heeft die persoon direct behoefte aan jouw dienst. In tegenstelling tot social media of flyers, bereik je met SEO mensen op het exacte moment dat ze een schilder zoeken. Het kost 2-6 maanden om resultaten te zien, maar daarna is het een constante stroom van gratis aanvragen." },
     { question: "Wat is het verschil tussen Aannemer Systeem en Werkspot?", answer: "Bij Werkspot betaal je per lead en concurreer je direct met andere schilders om dezelfde klant. Bij Aannemer Systeem investeer je in je eigen online aanwezigheid. Klanten die via jouw website binnenkomen hebben al voor jou gekozen — ze hebben je reviews gelezen, je werk gezien en bellen jou specifiek. De conversieratio is daarom veel hoger en de kosten per klant lager op de lange termijn." },
     { question: "Hoe lang duurt het voordat mijn schildersbedrijf gevonden wordt in Google?", answer: "Dit hangt af van je huidige online aanwezigheid, de concurrentie in jouw regio en je Google reviewscore. Gemiddeld zien onze klanten binnen 2-4 maanden verbetering in lokale zoekresultaten. Voor minder competitieve regio's kan dit sneller gaan. Het Google Mijn Bedrijf kaartresultaat reageert vaak al binnen weken op optimalisaties en nieuwe reviews." },
@@ -152,7 +152,7 @@ function createPlaceholderTrade(
     hero: {
       badge: `Speciaal voor ${bedrijf.charAt(0).toUpperCase() + bedrijf.slice(1)}en`,
       headline: `Meer Klanten als ${singular.charAt(0).toUpperCase() + singular.slice(1)} — Zonder Marketing Gedoe`,
-      subheadline: `Wij bouwen het complete online systeem zodat klanten jou vinden, vertrouwen en bellen. Jij doet waar je goed in bent. Wij regelen de rest.`,
+      subheadline: `Wij maken het complete online systeem zodat klanten jou vinden, vertrouwen en bellen. Jij doet waar je goed in bent. Wij regelen de rest.`,
       stats: [
         { value: "80%", label: `van klanten zoekt online naar een ${singular}` },
         { value: "3x", label: "meer aanvragen met een goede Google positie" },
@@ -254,7 +254,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     },
     solution: {
       sectionTitle: "Hoe wij dakdekkersbedrijven laten groeien",
-      intro: "Dakwerk is urgent. Klanten zoeken snel en beslissen snel. Ons systeem is gebouwd om jou als eerste te tonen én om de lead direct om te zetten in een gesprek.",
+      intro: "Dakwerk is urgent. Klanten zoeken snel en beslissen snel. Ons systeem is ontworpen om jou als eerste te tonen én om de lead direct om te zetten in een gesprek.",
       items: [
         { title: "Website met alle diensten uitgelicht", description: "Aparte pagina's voor daklekkage reparatie, dakrenovatie, plat dak, pannendak, dakgoten, dakisolatie en zonnepanelen op dak. Elke pagina is geoptimaliseerd voor de zoekterm die klanten gebruiken. Inclusief portfolio met voor/na foto's van je dakprojecten.", keywords: ["daklekkage reparatie", "dakrenovatie", "plat dak", "pannendak", "dakisolatie"] },
         { title: "Spoed-vindbaar in Google Maps", description: "Wij optimaliseren je Google Mijn Bedrijf profiel zodat je verschijnt bij 'dakdekker in de buurt' en 'dakdekker spoed [stad]'. Inclusief correcte categorieën, werkgebied, diensten en wekelijkse updates met foto's van je projecten.", keywords: ["dakdekker in de buurt", "dakdekker spoed", "google maps"] },
@@ -292,10 +292,10 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     faqs: [
       { question: "Hoeveel kost een website voor een dakdekkersbedrijf?", answer: "Bij Aannemer Systeem betaal je €279/maand voor een complete website met alle diensten uitgelicht, portfolio, lokale SEO, reviews automatisering en lead opvolging. Geen opstart- of ontwikkelkosten. Traditionele bureaus rekenen €4.000-€10.000 voor een vergelijkbare website, plus maandelijkse kosten." },
       { question: "Hoe snel word ik gevonden als dakdekker in Google?", answer: "Google Maps resultaten reageren vaak al binnen 2-4 weken op optimalisaties en nieuwe reviews. De organische zoekresultaten (onder de kaart) duren gemiddeld 2-4 maanden. Voor spoed-gerelateerde zoekwoorden zoals 'daklekkage reparatie' kan het sneller gaan omdat er minder concurrentie op deze specifieke termen is." },
-      { question: "Werkt dit ook voor een eenmanszaak dakdekker?", answer: "Juist dan. Als eenmanszaak heb je geen marketingafdeling en beperkt budget. Ons systeem is gebouwd om met minimale tijdsinvestering (5 minuten per dag) maximaal resultaat te behalen. De automatische reviews, gemiste oproep-opvolging en lokale SEO draaien op de achtergrond terwijl jij op het dak staat." },
+      { question: "Werkt dit ook voor een eenmanszaak dakdekker?", answer: "Juist dan. Als eenmanszaak heb je geen marketingafdeling en beperkt budget. Ons systeem is ontworpen om met minimale tijdsinvestering (5 minuten per dag) maximaal resultaat te behalen. De automatische reviews, gemiste oproep-opvolging en lokale SEO draaien op de achtergrond terwijl jij op het dak staat." },
       { question: "Kan ik meerdere werkgebieden targeten?", answer: "Ja. Wij optimaliseren je website en Google profiel voor je volledige werkgebied — niet alleen je vestigingsplaats. Voor een dakdekker in Utrecht betekent dat ook zichtbaarheid in De Bilt, Houten, Nieuwegein en andere omliggende gemeenten." },
-      { question: "Wat als ik al een website heb?", answer: "Dan beoordelen we eerst je huidige website op snelheid, SEO en conversie. Vaak is het effectiever om een nieuwe website te bouwen binnen ons systeem, omdat alles dan direct gekoppeld is aan de reviews automatisering, lead opvolging en analytics. Je bestaande domein nemen we gewoon over." },
-      { question: "Hoe verschilt dit van een Werkspot profiel?", answer: "Op Werkspot betaal je per lead en concurreer je met andere dakdekkers om dezelfde klant. Met Aannemer Systeem bouw je aan je eigen online merk. Klanten die via Google op jouw website komen, hebben jou al gekozen op basis van je reviews, portfolio en website. De conversie is hoger en de kosten per klant lager." },
+      { question: "Wat als ik al een website heb?", answer: "Dan beoordelen we eerst je huidige website op snelheid, SEO en conversie. Vaak is het effectiever om een nieuwe website te maken binnen ons systeem, omdat alles dan direct gekoppeld is aan de reviews automatisering, lead opvolging en analytics. Je bestaande domein nemen we gewoon over." },
+      { question: "Hoe verschilt dit van een Werkspot profiel?", answer: "Op Werkspot betaal je per lead en concurreer je met andere dakdekkers om dezelfde klant. Met Aannemer Systeem werk je aan je eigen online merk. Klanten die via Google op jouw website komen, hebben jou al gekozen op basis van je reviews, portfolio en website. De conversie is hoger en de kosten per klant lager." },
     ],
     relatedTrades: [
       { label: "Schilders", slug: "schilders" },
@@ -332,7 +332,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       items: [
         { title: "Alleen spoed, weinig gepland werk", description: "Je leeft van telefoontjes voor lekkages en verstoppingen. Maar de grotere klussen — badkamerrenovaties, cv-installaties, nieuwbouw — gaan naar bedrijven die beter vindbaar zijn online." },
         { title: "Telefoontjes die je mist op de klus", description: "Als loodgieter sta je met je handen in de leidingen. Telefoon opnemen is niet altijd mogelijk. Elke gemiste oproep is potentieel een klant van €500+ die naar de concurrent gaat." },
-        { title: "Concurrentie van platforms groeit", description: "Zoofy, Werkspot en zelfs Bol.com bieden loodgietersdiensten aan. Je betaalt per lead of werkt voor een marge die niet de moeite waard is. Ondertussen bouw je niks op voor jezelf." },
+        { title: "Concurrentie van platforms groeit", description: "Zoofy, Werkspot en zelfs Bol.com bieden loodgietersdiensten aan. Je betaalt per lead of werkt voor een marge die niet de moeite waard is. Ondertussen werk je niks op voor jezelf." },
         { title: "Geen tijd om reviews te verzamelen", description: "Je weet dat reviews cruciaal zijn — een loodgieter met 50 reviews wint altijd van eentje met 3. Maar na een klus wil je door naar de volgende, niet achter reviews aanzitten." },
       ],
     },
@@ -414,7 +414,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     problems: {
       sectionTitle: "Herken je dit als stukadoor?",
       items: [
-        { title: "Afhankelijk van onderaanneming", description: "Je werkt veel als onderaannemer voor bouwbedrijven, maar wilt meer eigen klanten. Particulieren die rechtstreeks bij jou aankloppen betalen beter en zijn leuker werk." },
+        { title: "Afhankelijk van onderaanneming", description: "Je werkt veel als onderaannemer voor andere aannemers, maar wilt meer eigen klanten. Particulieren die rechtstreeks bij jou aankloppen betalen beter en zijn leuker werk." },
         { title: "Je werk spreekt voor zich, maar niemand ziet het", description: "Je levert prachtig stucwerk af, maar hebt geen portfolio online. Potentiële klanten kunnen niet zien wat je kunt voordat ze contact opnemen." },
         { title: "Onduidelijk wat marketing kost en oplevert", description: "Je hebt gehoord van SEO, Google Ads en social media maar weet niet waar je moet beginnen. Het voelt als geld in een bodemloze put gooien." },
         { title: "Reviews vragen bij stucwerk is lastig", description: "Bij stukadoorswerk ben je vaak onderdeel van een groter project. De klant ziet het eindresultaat pas weken later als alles geschilderd is. Dan is het moment voor een review al voorbij." },
@@ -433,7 +433,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     industryContent: {
       sectionTitle: "Online marketing voor stukadoors: de kansen in 2026",
       paragraphs: [
-        "De stukadoorsbranche is een van de minst gedigitaliseerde vakgebieden in de bouw. Dat klinkt als een nadeel, maar het is juist een enorme kans: de concurrentie online is laag. Met een goede website en 20 Google reviews ben je in veel steden al de best vindbare stukadoor.",
+        "De stukadoorsbranche is een van de minst gedigitaliseerde vakgebieden. Dat klinkt als een nadeel, maar het is juist een enorme kans: de concurrentie online is laag. Met een goede website en 20 Google reviews ben je in veel steden al de best vindbare stukadoor.",
         "Zoekvolumes voor stukadoors-gerelateerde termen groeien. 'Stukadoor in de buurt', 'wanden glad laten maken', 'sierpleister kosten' — dit zijn allemaal zoekopdrachten van mensen die actief op zoek zijn naar een vakman. En omdat weinig stukadoors investeren in online marketing, is de concurrentie een fractie van wat schilders of loodgieters ervaren.",
         "Een bijzondere kans ligt in trendy afwerkingen zoals betonlook, microcement en kaleiwerk. Deze termen worden steeds vaker gezocht door huiseigenaren die inspiratie hebben opgedaan op Pinterest of Instagram. Een website met mooie portfolio-foto's van dit type werk trekt precies de klanten aan die bereid zijn meer te betalen voor kwaliteit.",
         "Voor stukadoors die nu voornamelijk als onderaannemer werken, is een eigen website de eerste stap naar meer directe particuliere klanten. Het gemiddelde project voor een particulier (complete woning stucen) ligt al snel boven de €2.000 — een paar extra klanten per maand maakt een significant verschil.",
@@ -460,7 +460,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     faqs: [
       { question: "Is online marketing zinvol voor stukadoors?", answer: "Zeer zinvol. Juist omdat weinig stukadoors investeren in online marketing, is de concurrentie laag. In veel steden zijn er minder dan 5 stukadoors met een goede website en Google reviews. Met ons systeem sta je binnen weken op pagina 1 voor 'stukadoor [jouw stad]'." },
       { question: "Ik werk voornamelijk als onderaannemer. Helpt dit mij?", answer: "Ja. Een eigen website en Google profiel trekken particuliere klanten aan die direct bij jou willen werken. De marge is hoger en je bent niet afhankelijk van één opdrachtgever. Je kunt onderaanneming en directe klanten prima combineren." },
-      { question: "Hoeveel kost een website voor een stukadoorsbedrijf?", answer: "Bij ons €279/maand, alles inbegrepen. Geen opstart- of bouwkosten. Een stukadoorswebsite bij een traditioneel bureau kost €2.500-€6.000 eenmalig plus €50-€100/maand hosting. Plus dan heb je nog geen reviews automatisering of SEO." },
+      { question: "Hoeveel kost een website voor een stukadoorsbedrijf?", answer: "Bij ons €279/maand, alles inbegrepen. Geen opstartkosten. Een stukadoorswebsite bij een traditioneel bureau kost €2.500-€6.000 eenmalig plus €50-€100/maand hosting. Plus dan heb je nog geen reviews automatisering of SEO." },
       { question: "Hoe belangrijk zijn portfolio-foto's voor stukadoors?", answer: "Essentieel. Stukadoorswerk is visueel — klanten willen het resultaat zien voordat ze kiezen. Goede voor/na foto's van glad stucwerk, sierpleister of betonlook projecten overtuigen meer dan elke tekst. Ons systeem maakt het makkelijk om foto's toe te voegen vanaf je telefoon." },
       { question: "Werkt dit ook voor specialistische afwerkingen?", answer: "Juist daarvoor. Wij maken aparte pagina's voor betonlook, microcement, kaleiwerk, sierpleister en andere niche-afwerkingen. Deze pagina's ranken vaak snel omdat er nauwelijks concurrentie op is, en trekken klanten aan die bereid zijn meer te betalen voor kwaliteit." },
     ],
@@ -510,7 +510,7 @@ export const TRADE_PAGES: Record<string, TradeData> = {
         { title: "Visuele website met projectgalerij", description: "Een website met ruimte voor tuinontwerp, tuinaanleg, tuinonderhoud, bestrating, schuttingen, vijvers en beplanting. Grote voor/na foto's die je vakmanschap laten zien. Geoptimaliseerd voor 'hovenier [stad]' en dienst-specifieke zoektermen.", keywords: ["tuinaanleg", "tuinonderhoud", "bestrating", "schuttingen", "tuinontwerp"] },
         { title: "Lokale SEO voor seizoen én off-season", description: "In het voorjaar zoeken mensen naar 'tuinaanleg'. In het najaar naar 'tuin winterklaar maken' en 'snoeiwerk'. Wij optimaliseren je vindbaarheid voor het hele jaar, zodat je agenda ook in rustige maanden gevuld raakt.", keywords: ["tuinaanleg laten doen", "tuin winterklaar", "hovenier in de buurt"] },
         { title: "Reviews die het verschil maken", description: "Bij hoveniersopdrachten wegen reviews zwaar — klanten laten iemand in hun tuin werken die ze vertrouwen. Ons automatisch reviewsysteem stuurt na oplevering een verzoek. Tevreden klanten delen graag een foto van hun nieuwe tuin erbij.", keywords: ["hovenier reviews", "klantervaringen", "google beoordeling"] },
-        { title: "Seizoensgebonden marketing campagnes", description: "Met één klik activeer je campagnes voor het voorjaar ('nieuwe tuin laten aanleggen?'), de zomer ('tuinonderhoud abonnement') of het najaar ('tuin winterklaar'). Wij bouwen deze campagnes voor je, jij klikt op start.", keywords: ["seizoensmarketing", "tuinonderhoud abonnement", "marketing campagnes"] },
+        { title: "Seizoensgebonden marketing campagnes", description: "Met één klik activeer je campagnes voor het voorjaar ('nieuwe tuin laten aanleggen?'), de zomer ('tuinonderhoud abonnement') of het najaar ('tuin winterklaar'). Wij maken deze campagnes voor je, jij klikt op start.", keywords: ["seizoensmarketing", "tuinonderhoud abonnement", "marketing campagnes"] },
       ],
     },
     industryContent: {

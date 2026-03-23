@@ -10,13 +10,13 @@ export interface KennisbankArticle {
 
 export const kennisbankArticles: KennisbankArticle[] = [
   {
-    slug: "automatisering-bouwbedrijf",
-    title: "Automatisering voor bouwbedrijven: een praktische gids",
-    description: "Ontdek hoe automatisering je bouwbedrijf efficiënter maakt, van offertes tot klantopvolging.",
+    slug: "automatisering-aannemers",
+    title: "Automatisering voor aannemers: een praktische gids",
+    description: "Ontdek hoe automatisering je aannemersbedrijf efficiënter maakt, van offertes tot klantopvolging.",
     category: "Automatisering",
     readTime: "7 min",
     relatedLinks: [
-      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },
@@ -24,23 +24,23 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom automatisering essentieel is",
-        body: "In de bouwsector draait alles om tijd. Elke minuut die je besteedt aan administratie is een minuut die je niet op de bouwplaats doorbrengt. Automatisering helpt je om repetitieve taken — zoals het versturen van offertes, opvolgen van leads en plannen van afspraken — uit handen te geven aan slimme systemen. Het resultaat: minder fouten, snellere opvolging en meer omzet."
+        body: "Als aannemer draait alles om tijd. Elke minuut die je besteedt aan administratie is een minuut die je niet op de werf doorbrengt. Automatisering helpt je om repetitieve taken — zoals het versturen van offertes, opvolgen van leads en plannen van afspraken — uit handen te geven aan slimme systemen. Het resultaat: minder fouten, snellere opvolging en meer omzet."
       },
       {
-        heading: "De grootste tijdvreters in de bouw",
-        body: "Uit onderzoek blijkt dat bouwbedrijven gemiddeld 30% van hun tijd besteden aan administratieve taken. Denk aan het handmatig invoeren van klantgegevens, het bijhouden van planningen in spreadsheets, het versturen van herinneringen voor betalingen en het opvolgen van offertes per telefoon. Al deze processen kunnen geautomatiseerd worden zonder dat je de persoonlijke touch verliest."
+        heading: "De grootste tijdvreters voor aannemers",
+        body: "Uit onderzoek blijkt dat aannemers gemiddeld 30% van hun tijd besteden aan administratieve taken. Denk aan het handmatig invoeren van klantgegevens, het bijhouden van planningen in spreadsheets, het versturen van herinneringen voor betalingen en het opvolgen van offertes per telefoon. Al deze processen kunnen geautomatiseerd worden zonder dat je de persoonlijke touch verliest."
       },
       {
         heading: "Welke processen kun je automatiseren?",
-        body: "De meest impactvolle automatiseringen voor bouwbedrijven zijn: (1) Lead opvolging — automatische SMS of e-mail binnen 5 minuten na een aanvraag. (2) Offerte-opvolging — herinneringen als een offerte niet binnen 48 uur is geaccepteerd. (3) Review-verzoeken — automatisch reviews vragen na oplevering van een project. (4) Afspraakbevestigingen — automatische bevestigingen en herinneringen voor bezichtigingen. (5) Factuurherinneringen — geautomatiseerde betalingsherinneringen."
+        body: "De meest impactvolle automatiseringen voor aannemers zijn: (1) Lead opvolging — automatische SMS of e-mail binnen 5 minuten na een aanvraag. (2) Offerte-opvolging — herinneringen als een offerte niet binnen 48 uur is geaccepteerd. (3) Review-verzoeken — automatisch reviews vragen na oplevering van een project. (4) Afspraakbevestigingen — automatische bevestigingen en herinneringen voor bezichtigingen. (5) Factuurherinneringen — geautomatiseerde betalingsherinneringen."
       },
       {
         heading: "De ROI van automatisering",
-        body: "Bouwbedrijven die automatisering inzetten zien gemiddeld 40% meer conversie uit leads doordat er sneller wordt opgevolgd. Daarnaast bespaar je gemiddeld 10-15 uur per week aan administratief werk. Bij een gemiddeld uurtarief van €50 is dat €2.000-€3.000 per maand aan besparing — puur door slimmer te werken."
+        body: "Aannemers die automatisering inzetten zien gemiddeld 40% meer conversie uit leads doordat er sneller wordt opgevolgd. Daarnaast bespaar je gemiddeld 10-15 uur per week aan administratief werk. Bij een gemiddeld uurtarief van €50 is dat €2.000-€3.000 per maand aan besparing — puur door slimmer te werken."
       },
       {
         heading: "Hoe begin je met automatiseren?",
-        body: "Begin klein. Kies één proces dat je het meeste tijd kost en automatiseer dat eerst. Voor de meeste bouwbedrijven is dat de lead-opvolging: zodra iemand een aanvraag doet via je website, wordt er automatisch een SMS en e-mail gestuurd. Dit alleen al kan je conversie met 25% verhogen. Daarna kun je stap voor stap meer processen toevoegen."
+        body: "Begin klein. Kies één proces dat je het meeste tijd kost en automatiseer dat eerst. Voor de meeste aannemers is dat de lead-opvolging: zodra iemand een aanvraag doet via je website, wordt er automatisch een SMS en e-mail gestuurd. Dit alleen al kan je conversie met 25% verhogen. Daarna kun je stap voor stap meer processen toevoegen."
       }
     ]
   },
@@ -53,7 +53,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     relatedLinks: [
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
-      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
     ],
     sections: [
       {
@@ -62,15 +62,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "De kosten van geen CRM",
-        body: "Zonder CRM verlies je gemiddeld 20-30% van je leads simpelweg omdat ze door de mazen van het net glippen. Een klant belt, je bent op de bouwplaats, je vergeet terug te bellen. Of je stuurt een offerte maar vergeet op te volgen. Dit zijn gemiste kansen die je direct omzet kosten. Met een CRM wordt elke lead automatisch vastgelegd en krijg je herinneringen voor opvolging."
+        body: "Zonder CRM verlies je gemiddeld 20-30% van je leads simpelweg omdat ze door de mazen van het net glippen. Een klant belt, je bent op de werf, je vergeet terug te bellen. Of je stuurt een offerte maar vergeet op te volgen. Dit zijn gemiste kansen die je direct omzet kosten. Met een CRM wordt elke lead automatisch vastgelegd en krijg je herinneringen voor opvolging."
       },
       {
         heading: "Welke functies zijn belangrijk voor aannemers?",
-        body: "Een goed CRM voor aannemers moet minimaal bieden: contactbeheer met volledige klanthistorie, pipeline-overzicht van leads tot opgeleverde projecten, offerte-tracking met statusupdates, geïntegreerde communicatie (bellen, SMS, e-mail vanuit één plek), en mobiele toegang zodat je ook vanaf de bouwplaats je zaken kunt regelen."
+        body: "Een goed CRM voor aannemers moet minimaal bieden: contactbeheer met volledige klanthistorie, pipeline-overzicht van leads tot opgeleverde projecten, offerte-tracking met statusupdates, geïntegreerde communicatie (bellen, SMS, e-mail vanuit één plek), en mobiele toegang zodat je ook vanaf de werf je zaken kunt regelen."
       },
       {
         heading: "CRM kiezen: waar let je op?",
-        body: "Kies een CRM dat specifiek ontworpen is voor de bouwsector of eenvoudig aan te passen is aan jouw werkproces. Vermijd te complexe systemen met honderden functies die je nooit gebruikt. Belangrijk: het systeem moet makkelijk te gebruiken zijn op je telefoon, want daar werk je het meest mee. En het moet integreren met je bestaande tools zoals je agenda en boekhoudsoftware."
+        body: "Kies een CRM dat specifiek ontworpen is voor aannemers of eenvoudig aan te passen is aan jouw werkproces. Vermijd te complexe systemen met honderden functies die je nooit gebruikt. Belangrijk: het systeem moet makkelijk te gebruiken zijn op je telefoon, want daar werk je het meest mee. En het moet integreren met je bestaande tools zoals je agenda en boekhoudsoftware."
       },
       {
         heading: "In 3 stappen starten met een CRM",
@@ -79,27 +79,27 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
-    slug: "planning-software-bouw",
-    title: "Planning software voor de bouw",
-    description: "Vergelijk de beste planningstools voor bouwbedrijven en ontdek welke bij jou past.",
+    slug: "planning-software-aannemers",
+    title: "Planning software voor aannemers",
+    description: "Vergelijk de beste planningstools voor aannemers en ontdek welke bij jou past.",
     category: "Planning",
     readTime: "5 min",
     relatedLinks: [
-      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
       { label: "Software Integraties", href: "/diensten/software-integraties" },
     ],
     sections: [
       {
         heading: "Waarom Excel niet meer volstaat",
-        body: "Veel bouwbedrijven plannen nog steeds met Excel of zelfs op papier. Bij kleine projecten werkt dat, maar zodra je met meerdere ploegen, onderaannemers en projecten tegelijk werkt, wordt het chaotisch. Dubbele boekingen, vergeten afspraken en miscommunicatie kosten je tijd en geld. Moderne planningssoftware lost dit op met real-time overzichten en automatische conflictdetectie."
+        body: "Veel aannemers plannen nog steeds met Excel of zelfs op papier. Bij kleine projecten werkt dat, maar zodra je met meerdere ploegen, onderaannemers en projecten tegelijk werkt, wordt het chaotisch. Dubbele boekingen, vergeten afspraken en miscommunicatie kosten je tijd en geld. Moderne planningssoftware lost dit op met real-time overzichten en automatische conflictdetectie."
       },
       {
         heading: "Essentiële functies van goede planningssoftware",
-        body: "Voor bouwbedrijven zijn de belangrijkste functies: drag-and-drop planning per medewerker of ploeg, automatische meldingen bij wijzigingen, inzicht in beschikbaarheid van personeel en materieel, koppeling met je CRM zodat projectinformatie automatisch wordt overgenomen, en een mobiele app waarmee medewerkers hun dagplanning kunnen bekijken."
+        body: "Voor aannemers zijn de belangrijkste functies: drag-and-drop planning per medewerker of ploeg, automatische meldingen bij wijzigingen, inzicht in beschikbaarheid van personeel en materieel, koppeling met je CRM zodat projectinformatie automatisch wordt overgenomen, en een mobiele app waarmee medewerkers hun dagplanning kunnen bekijken."
       },
       {
         heading: "De impact op je bedrijfsvoering",
-        body: "Bouwbedrijven die overstappen op digitale planning rapporteren gemiddeld 20% minder stilstandtijd, 35% minder planningsconflicten en een hogere medewerkerstevredenheid doordat iedereen weet waar hij moet zijn. Bovendien heb je als ondernemer direct overzicht over de komende weken, waardoor je beter kunt inschatten of je nieuwe projecten kunt aannemen."
+        body: "Aannemers die overstappen op digitale planning rapporteren gemiddeld 20% minder stilstandtijd, 35% minder planningsconflicten en een hogere medewerkerstevredenheid doordat iedereen weet waar hij moet zijn. Bovendien heb je als ondernemer direct overzicht over de komende weken, waardoor je beter kunt inschatten of je nieuwe projecten kunt aannemen."
       },
       {
         heading: "Tips voor een soepele overgang",
@@ -108,20 +108,20 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
-    slug: "offerte-proces-bouw",
+    slug: "offerte-proces-aannemers",
     title: "Het offerte proces optimaliseren",
     description: "Stuur sneller offertes en verhoog je conversie met deze praktische tips.",
     category: "Sales",
     readTime: "6 min",
     relatedLinks: [
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
-      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
     ],
     sections: [
       {
         heading: "Snelheid wint de klant",
-        body: "In de bouwsector geldt: wie het eerst komt, het eerst maalt. Onderzoek toont aan dat de aannemer die als eerste een offerte stuurt, 50% meer kans heeft om de opdracht te krijgen. Toch duurt het bij veel bouwbedrijven dagen of zelfs weken voordat een offerte de deur uit gaat. Met de juiste tools en processen kun je dit terugbrengen tot dezelfde dag."
+        body: "Voor aannemers geldt: wie het eerst komt, het eerst maalt. Onderzoek toont aan dat de aannemer die als eerste een offerte stuurt, 50% meer kans heeft om de opdracht te krijgen. Toch duurt het bij veel aannemers dagen of zelfs weken voordat een offerte de deur uit gaat. Met de juiste tools en processen kun je dit terugbrengen tot dezelfde dag."
       },
       {
         heading: "De perfecte offerte: wat moet erin staan?",
@@ -142,24 +142,24 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
-    slug: "ai-voor-bouwbedrijven",
-    title: "AI voor bouwbedrijven: kansen en toepassingen",
-    description: "Ontdek hoe kunstmatige intelligentie de bouwsector transformeert.",
+    slug: "ai-voor-aannemers",
+    title: "AI voor aannemers: kansen en toepassingen",
+    description: "Ontdek hoe kunstmatige intelligentie het werk van aannemers transformeert.",
     category: "Innovatie",
     readTime: "7 min",
     relatedLinks: [
       { label: "AI Oplossingen", href: "/diensten/ai-oplossingen" },
-      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
     ],
     sections: [
       {
         heading: "AI is geen toekomstmuziek meer",
-        body: "Kunstmatige intelligentie klinkt misschien als iets voor techbedrijven, maar het is al volop beschikbaar voor de bouwsector. Van chatbots die 24/7 vragen van potentiële klanten beantwoorden tot slimme algoritmes die je helpen bij het inschatten van projectkosten — AI maakt je bedrijf slimmer en efficiënter zonder dat je er een IT-afdeling voor nodig hebt."
+        body: "Kunstmatige intelligentie klinkt misschien als iets voor techbedrijven, maar het is al volop beschikbaar voor aannemers. Van chatbots die 24/7 vragen van potentiële klanten beantwoorden tot slimme algoritmes die je helpen bij het inschatten van projectkosten — AI maakt je bedrijf slimmer en efficiënter zonder dat je er een IT-afdeling voor nodig hebt."
       },
       {
         heading: "Praktische AI-toepassingen voor aannemers",
-        body: "De meest directe toepassingen van AI voor bouwbedrijven zijn: (1) Chatbots op je website die leads kwalificeren en afspraken inplannen terwijl jij op de bouwplaats staat. (2) AI-gestuurde kostenramingen op basis van historische projectdata. (3) Automatische herkenning van bouwfouten via foto-analyse. (4) Slimme routeplanning voor je servicemonteurs. (5) Voorspellende analyses om te bepalen welke leads de hoogste conversiekans hebben."
+        body: "De meest directe toepassingen van AI voor aannemers zijn: (1) Chatbots op je website die leads kwalificeren en afspraken inplannen terwijl jij op de werf staat. (2) AI-gestuurde kostenramingen op basis van historische projectdata. (3) Automatische herkenning van bouwfouten via foto-analyse. (4) Slimme routeplanning voor je servicemonteurs. (5) Voorspellende analyses om te bepalen welke leads de hoogste conversiekans hebben."
       },
       {
         heading: "AI-chatbots: je 24/7 medewerker",
@@ -167,11 +167,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Kostenbesparingen door AI",
-        body: "Bouwbedrijven die AI inzetten voor lead-kwalificatie besparen gemiddeld 5-8 uur per week aan telefoontjes met ongekwalificeerde leads. AI kan op basis van de aanvraag al inschatten of het een serieuze lead is en de juiste prioriteit toekennen. Daarnaast helpt AI bij het optimaliseren van je marketingbudget door te analyseren welke kanalen de beste leads opleveren."
+        body: "Aannemers die AI inzetten voor lead-kwalificatie besparen gemiddeld 5-8 uur per week aan telefoontjes met ongekwalificeerde leads. AI kan op basis van de aanvraag al inschatten of het een serieuze lead is en de juiste prioriteit toekennen. Daarnaast helpt AI bij het optimaliseren van je marketingbudget door te analyseren welke kanalen de beste leads opleveren."
       },
       {
         heading: "Starten met AI: praktische eerste stappen",
-        body: "Je hoeft niet meteen een volledig AI-systeem te implementeren. Begin met één toepassing die direct waarde oplevert. Voor de meeste bouwbedrijven is dat een AI-chatbot op de website of een slim systeem voor automatische lead-opvolging. De investering is minimaal en het rendement zie je vaak al binnen de eerste maand. Belangrijker nog: je klanten ervaren een professionelere service."
+        body: "Je hoeft niet meteen een volledig AI-systeem te implementeren. Begin met één toepassing die direct waarde oplevert. Voor de meeste aannemers is dat een AI-chatbot op de website of een slim systeem voor automatische lead-opvolging. De investering is minimaal en het rendement zie je vaak al binnen de eerste maand. Belangrijker nog: je klanten ervaren een professionelere service."
       }
     ]
   },
@@ -201,7 +201,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "Met Google Ads kun je direct bovenaan verschijnen als iemand zoekt op 'aannemer in [jouw stad]'. Het voordeel: onmiddellijk resultaat. Het nadeel: je betaalt per klik (€3-€15 per klik afhankelijk van je regio). Organisch verkeer via SEO kost meer tijd om op te bouwen, maar levert gratis bezoekers op de lange termijn. De ideale strategie combineert beide: Google Ads voor direct resultaat en SEO voor duurzame groei."
       },
       {
-        heading: "Social media voor bouwbedrijven",
+        heading: "Social media voor aannemers",
         body: "Instagram en Facebook zijn uitstekende kanalen om je werk te tonen. Deel voor-en-na foto's van projecten, geef een kijkje achter de schermen en deel tips over onderhoud. Je hoeft geen social media expert te zijn — 2-3 posts per week is voldoende. Het belangrijkste is consistentie. Na 3-6 maanden bouw je een volgersbestand op dat regelmatig leads oplevert."
       },
       {
@@ -215,8 +215,8 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
-    slug: "google-mijn-bedrijf-bouw",
-    title: "Google Mijn Bedrijf optimaliseren voor bouwbedrijven",
+    slug: "google-mijn-bedrijf-aannemers",
+    title: "Google Mijn Bedrijf optimaliseren voor aannemers",
     description: "Maximaliseer je lokale vindbaarheid met een geoptimaliseerd Google Business profiel.",
     category: "SEO",
     readTime: "5 min",
@@ -240,17 +240,17 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Posts en updates plaatsen",
-        body: "Weinig bouwbedrijven maken gebruik van Google Posts, terwijl het een krachtige functie is. Deel wekelijks een update: een opgeleverd project, een seizoenstip, of een aanbieding. Dit houdt je profiel actief en geeft Google een signaal dat je bedrijf actief is. Posts verschijnen direct in je bedrijfsprofiel en kunnen doorklikken naar je website genereren."
+        body: "Weinig aannemers maken gebruik van Google Posts, terwijl het een krachtige functie is. Deel wekelijks een update: een opgeleverd project, een seizoenstip, of een aanbieding. Dit houdt je profiel actief en geeft Google een signaal dat je bedrijf actief is. Posts verschijnen direct in je bedrijfsprofiel en kunnen doorklikken naar je website genereren."
       },
       {
         heading: "Veelgemaakte fouten vermijden",
-        body: "De grootste fouten die bouwbedrijven maken: inconsistente NAW-gegevens (naam, adres, telefoon) op verschillende platforms, te weinig foto's, niet reageren op reviews, en het profiel niet up-to-date houden. Zorg dat je bedrijfsgegevens overal exact hetzelfde zijn — dit is cruciaal voor je lokale SEO. En verwijder verouderde foto's en voeg regelmatig nieuwe toe."
+        body: "De grootste fouten die aannemers maken: inconsistente NAW-gegevens (naam, adres, telefoon) op verschillende platforms, te weinig foto's, niet reageren op reviews, en het profiel niet up-to-date houden. Zorg dat je bedrijfsgegevens overal exact hetzelfde zijn — dit is cruciaal voor je lokale SEO. En verwijder verouderde foto's en voeg regelmatig nieuwe toe."
       }
     ]
   },
   {
-    slug: "belang-van-reviews-bouw",
-    title: "Het belang van online reviews voor bouwbedrijven",
+    slug: "belang-van-reviews-aannemers",
+    title: "Het belang van online reviews voor aannemers",
     description: "Waarom reviews je belangrijkste marketingtool zijn en hoe je er meer verzamelt.",
     category: "Reputatie",
     readTime: "5 min",
@@ -266,7 +266,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "De cijfers spreken voor zich",
-        body: "Bouwbedrijven met een gemiddelde score van 4.5 sterren of hoger ontvangen 270% meer aanvragen dan bedrijven met minder dan 4 sterren. Elk extra review verhoogt je conversie met gemiddeld 0.5%. En bedrijven die actief reviews verzamelen, groeien 2x sneller dan bedrijven die dat niet doen. Reviews zijn geen nice-to-have — ze zijn essentieel voor groei."
+        body: "Aannemers met een gemiddelde score van 4.5 sterren of hoger ontvangen 270% meer aanvragen dan bedrijven met minder dan 4 sterren. Elk extra review verhoogt je conversie met gemiddeld 0.5%. En bedrijven die actief reviews verzamelen, groeien 2x sneller dan bedrijven die dat niet doen. Reviews zijn geen nice-to-have — ze zijn essentieel voor groei."
       },
       {
         heading: "Hoe vraag je om reviews zonder opdringerig te zijn?",
@@ -283,32 +283,32 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
-    slug: "website-kosten-bouwbedrijf",
-    title: "Wat kost een website voor een bouwbedrijf?",
+    slug: "website-kosten-aannemer",
+    title: "Wat kost een website voor een aannemer?",
     description: "Een eerlijk overzicht van de kosten en wat je ervoor terugkrijgt.",
     category: "Website",
     readTime: "6 min",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
-      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
       { label: "Software Integraties", href: "/diensten/software-integraties" },
     ],
     sections: [
       {
         heading: "De investering in perspectief",
-        body: "Een professionele website voor een bouwbedrijf kost tussen de €1.500 en €10.000, afhankelijk van de complexiteit. Dat klinkt misschien als veel, maar vergelijk het met andere bedrijfsinvesteringen: een bestelbusje kost €30.000+, gereedschap duizenden euro's. Je website is 24/7 je digitale visitekaartje en kan maandelijks meerdere opdrachten opleveren die de investering ruimschoots terugverdienen."
+        body: "Een professionele website voor een aannemersbedrijf kost tussen de €1.500 en €10.000, afhankelijk van de complexiteit. Dat klinkt misschien als veel, maar vergelijk het met andere bedrijfsinvesteringen: een bestelbusje kost €30.000+, gereedschap duizenden euro's. Je website is 24/7 je digitale visitekaartje en kan maandelijks meerdere opdrachten opleveren die de investering ruimschoots terugverdienen."
       },
       {
         heading: "Waar betaal je voor?",
         body: "De kosten van een website bestaan uit: ontwerp en ontwikkeling (eenmalig), hosting en domein (jaarlijks €100-€300), onderhoud en updates (maandelijks €50-€150), en optioneel SEO-optimalisatie en content (maandelijks €200-€500). Een goedkope website van €500 ziet er vaak ook goedkoop uit en mist essentiële functies. Investeer liever iets meer in kwaliteit — het verschil in conversie is enorm."
       },
       {
-        heading: "Wat moet een goede bouwwebsite bevatten?",
-        body: "De must-haves voor een bouwwebsite: een duidelijke homepage die vertrouwen wekt, een portfolio met projectfoto's, klantreviews en testimonials, een dienstenpagina per specialisme, een contactformulier dat makkelijk te vinden is, mobiel-responsief ontwerp, snelle laadtijd, en basis-SEO zodat je vindbaar bent in Google. Nice-to-haves zijn een blog, online offerte-aanvraag en chatfunctie."
+        heading: "Wat moet een goede aannemer-website bevatten?",
+        body: "De must-haves voor een aannemer-website: een duidelijke homepage die vertrouwen wekt, een portfolio met projectfoto's, klantreviews en testimonials, een dienstenpagina per specialisme, een contactformulier dat makkelijk te vinden is, mobiel-responsief ontwerp, snelle laadtijd, en basis-SEO zodat je vindbaar bent in Google. Nice-to-haves zijn een blog, online offerte-aanvraag en chatfunctie."
       },
       {
         heading: "Zelf bouwen vs. laten bouwen",
-        body: "Met website-bouwers zoals Wix of Squarespace kun je voor €20-€50 per maand zelf een website maken. Het voordeel: lage kosten. Het nadeel: je besteedt uren aan iets waar je geen expert in bent, en het resultaat oogt vaak als een doe-het-zelf project. Voor een professioneel bouwbedrijf dat serieus wil overkomen, is een op maat gemaakte website een betere investering. Je krijgt een uniek ontwerp dat aansluit bij je merk en doelgroep."
+        body: "Met website-bouwers zoals Wix of Squarespace kun je voor €20-€50 per maand zelf een website maken. Het voordeel: lage kosten. Het nadeel: je besteedt uren aan iets waar je geen expert in bent, en het resultaat oogt vaak als een doe-het-zelf project. Voor een professioneel aannemersbedrijf dat serieus wil overkomen, is een op maat gemaakte website een betere investering. Je krijgt een uniek ontwerp dat aansluit bij je merk en doelgroep."
       },
       {
         heading: "De ROI van een goede website",
@@ -509,7 +509,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Instagram en Pinterest: jouw digitale etalage",
-        body: "Hoveniers hebben een enorm voordeel ten opzichte van andere bouwvakken: hun werk is visueel prachtig. Maak van elke tuin een fotoshoot. Deel voor-en-na foto's, timelapse video's van tuinaanleg, en seizoensfoto's van dezelfde tuin. Instagram en Pinterest zijn ideale platformen om potentiële klanten te inspireren. Gebruik hashtags als #tuinontwerp, #hovenierwerk en #tuininspiratie gecombineerd met je plaatsnaam."
+        body: "Hoveniers hebben een enorm voordeel ten opzichte van andere vakgebieden: hun werk is visueel prachtig. Maak van elke tuin een fotoshoot. Deel voor-en-na foto's, timelapse video's van tuinaanleg, en seizoensfoto's van dezelfde tuin. Instagram en Pinterest zijn ideale platformen om potentiële klanten te inspireren. Gebruik hashtags als #tuinontwerp, #hovenierwerk en #tuininspiratie gecombineerd met je plaatsnaam."
       },
       {
         heading: "Seizoensgebonden leadgeneratie",
@@ -526,14 +526,14 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
-    slug: "wet-kwaliteitsborging-bouw",
-    title: "Wet kwaliteitsborging (Wkb): wat betekent dit voor jouw bouwbedrijf in 2026?",
-    description: "Alles over de Wet kwaliteitsborging voor het bouwen: nieuwe verplichtingen, het opleverdossier en hoe je je bedrijf voorbereid.",
+    slug: "wet-kwaliteitsborging-aannemers",
+    title: "Wet kwaliteitsborging (Wkb): wat betekent dit voor jouw aannemersbedrijf in 2026?",
+    description: "Alles over de Wet kwaliteitsborging voor aannemers: nieuwe verplichtingen, het opleverdossier en hoe je je bedrijf voorbereid.",
     category: "Regelgeving",
     readTime: "7 min",
     relatedLinks: [
-      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
-      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
+      { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
     ],
     sections: [
       {

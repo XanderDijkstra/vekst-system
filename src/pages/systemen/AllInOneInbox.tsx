@@ -59,7 +59,7 @@ const steps = [
   },
   {
     step: "02",
-    title: "Wij bouwen je systeem",
+    title: "Wij maken je systeem",
     duration: "7–10 dagen",
     description:
       "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna koppelen wij al je communicatiekanalen aan één centrale inbox.",
@@ -202,7 +202,7 @@ const AllInOneInbox = () => {
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
                 Plan een kort gesprek en we laten je precies zien hoe de unified inbox
-                werkt voor jouw type bouwbedrijf.
+                werkt voor jouw type aannemersbedrijf.
               </p>
             </div>
             <Button

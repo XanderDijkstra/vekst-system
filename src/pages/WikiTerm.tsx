@@ -164,7 +164,7 @@ const WikiTerm = () => {
               Klaar om te starten?
             </h3>
             <p className="mt-3 text-primary-foreground/70 max-w-lg mx-auto">
-              Ontdek hoe wij jouw bouwbedrijf kunnen helpen met automatisering
+              Ontdek hoe wij jouw aannemersbedrijf kunnen helpen met automatisering
               en digitalisering.
             </p>
             <Button

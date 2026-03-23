@@ -94,7 +94,7 @@ const PrijzenPage = () => (
             >
               Een professionele website, automatische lead opvolging, gemiste
               oproepen die direct worden afgevangen en een slimme review funnel
-              — alles draait vanaf dag één. Jij focust op het werk op de bouw,
+              — alles draait vanaf dag één. Jij focust op het werk op de werf,
               wij zorgen dat de klussen blijven binnenkomen.
             </motion.p>
             <motion.div
@@ -274,7 +274,7 @@ const PrijzenPage = () => (
           {[
             {
               q: "Zijn er opstartkosten?",
-              a: "Nee. Je betaalt alleen het maandelijkse tarief. We bouwen je volledige systeem zonder opstartkosten.",
+              a: "Nee. Je betaalt alleen het maandelijkse tarief. We maken je volledige systeem zonder opstartkosten.",
             },
             {
               q: "Zit er een contract aan vast?",

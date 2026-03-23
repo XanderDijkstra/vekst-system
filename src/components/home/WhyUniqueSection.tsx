@@ -7,13 +7,13 @@ const usps = [
     icon: Zap,
     title: "Eenvoudig in gebruik",
     description:
-      "Wij bouwen systemen die makkelijk te begrijpen zijn. Geen technische kennis nodig — alles is klik-en-klaar.",
+      "Wij maken systemen die makkelijk te begrijpen zijn. Geen technische kennis nodig — alles is klik-en-klaar.",
   },
   {
     icon: BadgeEuro,
     title: "Betaalbaar",
     description:
-      "Onze abonnementen zijn gebouwd voor groei op lange termijn, niet voor snelle winst. Transparante prijzen, geen verrassingen.",
+      "Onze abonnementen zijn ontworpen voor groei op lange termijn, niet voor snelle winst. Transparante prijzen, geen verrassingen.",
   },
   {
     icon: FileX2,

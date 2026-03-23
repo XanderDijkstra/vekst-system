@@ -48,7 +48,7 @@ const KennisbankArticle = () => {
     inLanguage: "nl",
     publisher: {
       "@type": "Organization",
-      name: "BouwFlow Boost",
+      name: "Aannemer Systeem",
       url: SITE_URL,
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
@@ -65,7 +65,7 @@ const KennisbankArticle = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>{article.title} | Kennisbank | BouwFlow Boost</title>
+        <title>{article.title} | Kennisbank | Aannemer Systeem</title>
         <meta name="description" content={article.description} />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:title" content={article.title} />
@@ -142,7 +142,7 @@ const KennisbankArticle = () => {
           <div className="mt-12 rounded-2xl bg-primary p-8 md:p-12 text-center">
             <h3 className="text-2xl font-bold text-primary-foreground">Klaar om te starten?</h3>
             <p className="mt-3 text-primary-foreground/70 max-w-lg mx-auto">
-              Ontdek hoe wij jouw bouwbedrijf kunnen helpen met automatisering en digitalisering.
+              Ontdek hoe wij jouw aannemersbedrijf kunnen helpen met automatisering en digitalisering.
             </p>
             <Button asChild size="lg" className="mt-6 bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">Plan een gratis demo</Link>

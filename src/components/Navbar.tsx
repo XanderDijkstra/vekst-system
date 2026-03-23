@@ -18,8 +18,8 @@ const dienstenColumns = [
   {
     heading: "Services",
     items: [
-      { icon: Settings, label: "Digitalisering", href: "/diensten/digitalisering-bouwbedrijf", desc: "Van papier naar digitaal" },
-      { icon: Zap, label: "Automatisering", href: "/diensten/automatisering-bouwbedrijf", desc: "Repetitieve taken automatiseren" },
+      { icon: Settings, label: "Digitalisering", href: "/diensten/digitalisering-aannemers", desc: "Van papier naar digitaal" },
+      { icon: Zap, label: "Automatisering", href: "/diensten/automatisering-aannemers", desc: "Repetitieve taken automatiseren" },
       { icon: Plug, label: "Software Integraties", href: "/diensten/software-integraties", desc: "Tools aan elkaar koppelen" },
       { icon: Bot, label: "AI Oplossingen", href: "/diensten/ai-oplossingen", desc: "Slimmer werken met AI" },
     ],

@@ -18,10 +18,10 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>Aannemer Systeem — Digitale systemen voor moderne aannemers</title>
-        <meta name="description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem bouwt digitale systemen die aannemers helpen hun processen te automatiseren." />
+        <meta name="description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
         <link rel="canonical" href={SITE_URL} />
         <meta property="og:title" content="Aannemer Systeem — Digitale systemen voor moderne aannemers" />
-        <meta property="og:description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem bouwt digitale systemen die aannemers helpen hun processen te automatiseren." />
+        <meta property="og:description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />

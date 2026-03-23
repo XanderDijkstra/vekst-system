@@ -10,10 +10,10 @@ const SectorPage = () => (
   <PageShell>
     <Helmet>
       <title>Digitalisering voor Aannemers | Aannemer Systeem</title>
-      <meta name="description" content="De bouwsector digitaliseert. Ontdek hoe aannemers tijd besparen en sneller groeien met slimme digitale systemen." />
+      <meta name="description" content="De aannemerssector digitaliseert. Ontdek hoe aannemers tijd besparen en sneller groeien met slimme digitale systemen." />
       <link rel="canonical" href={`${SITE_URL}/sector/digitalisering-voor-aannemers`} />
       <meta property="og:title" content="Digitalisering voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="De bouwsector digitaliseert. Ontdek hoe aannemers tijd besparen en sneller groeien met slimme digitale systemen." />
+      <meta property="og:description" content="De aannemerssector digitaliseert. Ontdek hoe aannemers tijd besparen en sneller groeien met slimme digitale systemen." />
       <meta property="og:url" content={`${SITE_URL}/sector/digitalisering-voor-aannemers`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nl_NL" />
@@ -23,14 +23,14 @@ const SectorPage = () => (
         <p className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Sector</p>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground">Digitalisering voor Aannemers</h1>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-          De bouwsector digitaliseert. Aannemers die nu investeren in slimme systemen besparen tijd, verlagen kosten en groeien sneller dan de concurrentie.
+          De aannemerssector digitaliseert. Aannemers die nu investeren in slimme systemen besparen tijd, verlagen kosten en groeien sneller dan de concurrentie.
         </p>
 
         <div className="mt-12 space-y-8">
           <div>
-            <h2 className="text-2xl font-semibold tracking-tight text-foreground">Problemen in de bouwsector</h2>
+            <h2 className="text-2xl font-semibold tracking-tight text-foreground">Problemen die aannemers herkennen</h2>
             <p className="mt-3 text-muted-foreground leading-relaxed">
-              Veel aannemers besteden meer tijd aan administratie dan aan bouwen. Offertes worden handmatig gemaakt, planning gaat via WhatsApp en Excel, en klantcommunicatie is reactief in plaats van proactief.
+              Veel aannemers besteden meer tijd aan administratie dan aan het echte werk. Offertes worden handmatig gemaakt, planning gaat via WhatsApp en Excel, en klantcommunicatie is reactief in plaats van proactief.
             </p>
           </div>
           <div>

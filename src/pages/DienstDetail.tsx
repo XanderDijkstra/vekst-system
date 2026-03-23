@@ -8,8 +8,8 @@ import { ArrowRight } from "lucide-react";
 const SITE_URL = "https://aannemersysteem.com";
 
 const dienstData: Record<string, { title: string; description: string }> = {
-  "digitalisering-bouwbedrijf": { title: "Digitalisering Bouwbedrijf", description: "Wij helpen bouwbedrijven de stap te maken van papieren processen naar digitale systemen die tijd besparen en fouten voorkomen." },
-  "automatisering-bouwbedrijf": { title: "Automatisering Bouwbedrijf", description: "Automatiseer repetitieve taken zoals offertes, follow-ups en planning zodat je team zich kan focussen op wat ertoe doet." },
+  "digitalisering-aannemers": { title: "Digitalisering Aannemers", description: "Wij helpen aannemers de stap te maken van papieren processen naar digitale systemen die tijd besparen en fouten voorkomen." },
+  "automatisering-aannemers": { title: "Automatisering Aannemers", description: "Automatiseer repetitieve taken zoals offertes, follow-ups en planning zodat je team zich kan focussen op wat ertoe doet." },
   "software-integraties": { title: "Software Integraties", description: "Koppel je bestaande software tools aan elkaar zodat data automatisch doorstroomt en je niet meer dubbel werk doet." },
   "ai-oplossingen": { title: "AI Oplossingen", description: "Gebruik kunstmatige intelligentie om slimmer te werken: van automatische offertes tot intelligente planning." },
   // Former systemen pages

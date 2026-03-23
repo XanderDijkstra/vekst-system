@@ -42,7 +42,7 @@ const ProblemsSection = () => {
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed"
         >
-          Wij begrijpen de bouwsector. Dit zijn de problemen die wij dagelijks zien — en oplossen.
+          Wij begrijpen aannemers. Dit zijn de problemen die wij dagelijks zien — en oplossen.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">

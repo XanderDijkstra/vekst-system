@@ -14,7 +14,7 @@ const cases = [
     result: "10 uur per week bespaard",
     relatedLinks: [
       { label: "Lead Follow-Up", href: "/diensten/lead-follow-up" },
-      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
     ],
   },
   {
@@ -27,8 +27,8 @@ const cases = [
     ],
   },
   {
-    title: "CRM en lead-opvolging voor bouwbedrijf",
-    slug: "crm-implementatie-bouwbedrijf",
+    title: "CRM en lead-opvolging voor aannemer",
+    slug: "crm-implementatie-aannemer",
     result: "50% snellere klantopvolging",
     relatedLinks: [
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
