@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/table";
 import PageShell from "@/components/PageShell";
 import type { TradeData } from "@/data/tradePages";
+import { SERVICE_PAGES } from "@/data/servicePages";
 
 interface TradePageTemplateProps {
   data: TradeData;
@@ -28,7 +29,8 @@ interface TradePageTemplateProps {
 const SITE_URL = "https://aannemersysteem.com";
 
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
-  const pageUrl = `${SITE_URL}/voor/${d.slug}`;
+  const pageUrl = `${SITE_URL}/vakgebieden/${d.slug}`;
+  const servicePageSlug = Object.values(SERVICE_PAGES).find((sp) => sp.trade === d.slug)?.slug;
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -301,6 +303,30 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         </div>
       </section>
 
+      {/* ── SERVICE PAGE LINK ── */}
+      {servicePageSlug && (
+        <section className="py-12 bg-card">
+          <div className="container max-w-4xl text-center">
+            <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
+              Meer over websites
+            </p>
+            <h3 className="text-2xl font-bold text-foreground">
+              Professionele website voor {d.plural}?
+            </h3>
+            <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
+              Bekijk wat wij maken voor {d.plural} — van ontwerp tot SEO-optimalisatie.
+            </p>
+            <div className="mt-6">
+              <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+                <Link to={`/${servicePageSlug}`}>
+                  Websites voor {d.plural} <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ── RELATED TRADES (SEO interlinking) ── */}
       <section className="py-12 bg-background">
         <div className="container max-w-4xl">
@@ -311,7 +337,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
             {d.relatedTrades.map((trade, i) => (
               <Link
                 key={i}
-                to={`/voor/${trade.slug}`}
+                to={`/vakgebieden/${trade.slug}`}
                 className="rounded-xl border border-border px-4 py-2 text-sm font-medium text-muted-foreground hover:border-accent hover:text-accent transition-colors duration-200"
               >
                 Website voor {trade.label} →

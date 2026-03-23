@@ -358,7 +358,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     readTime: "7 min",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
-      { label: "Loodgieters pagina", href: "/voor/loodgieters" },
+      { label: "Loodgieters pagina", href: "/vakgebieden/loodgieters" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
     ],
@@ -393,7 +393,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     readTime: "7 min",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
-      { label: "Schilders pagina", href: "/voor/schilders" },
+      { label: "Schilders pagina", href: "/vakgebieden/schilders" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
     ],
@@ -428,7 +428,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     readTime: "7 min",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
-      { label: "Dakdekkers pagina", href: "/voor/dakdekkers" },
+      { label: "Dakdekkers pagina", href: "/vakgebieden/dakdekkers" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
       { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
     ],
@@ -463,7 +463,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     readTime: "6 min",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
-      { label: "Elektriciens pagina", href: "/voor/elektriciens" },
+      { label: "Elektriciens pagina", href: "/vakgebieden/elektriciens" },
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },
     ],
@@ -498,7 +498,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     readTime: "7 min",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
-      { label: "Hoveniers pagina", href: "/voor/hoveniers" },
+      { label: "Hoveniers pagina", href: "/vakgebieden/hoveniers" },
       { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
     ],

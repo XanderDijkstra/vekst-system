@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, useParams } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
@@ -27,7 +27,14 @@ import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
 import PrijzenPage from "./pages/PrijzenPage";
 import WikiOverview from "./pages/WikiOverview";
 import WikiTerm from "./pages/WikiTerm";
+import ServicePageWrapper from "./pages/ServicePageWrapper";
 import ScrollToTop from "./components/ScrollToTop";
+
+/** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
+const VoorRedirect = () => {
+  const { slug } = useParams();
+  return <Navigate to={`/vakgebieden/${slug}`} replace />;
+};
 
 const queryClient = new QueryClient();
 
@@ -61,10 +68,12 @@ const App = () => (
           <Route path="/configurator" element={<ConfiguratorPage />} />
           <Route path="/admin/configurator" element={<AdminConfiguratorPage />} />
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
-          <Route path="/voor/:slug" element={<TradePageWrapper />} />
-          {/* Redirects from old /systemen routes */}
+          <Route path="/vakgebieden/:slug" element={<TradePageWrapper />} />
+          {/* Redirects from old routes */}
+          <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
           <Route path="/systemen/:slug" element={<Navigate to="/diensten" replace />} />
+          <Route path="/:slug" element={<ServicePageWrapper />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

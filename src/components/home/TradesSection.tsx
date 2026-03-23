@@ -69,7 +69,7 @@ const TradesSection = () => {
             >
               {trade.slug ? (
                 <Link
-                  to={`/voor/${trade.slug}`}
+                  to={`/vakgebieden/${trade.slug}`}
                   className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
                 >
                   <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
