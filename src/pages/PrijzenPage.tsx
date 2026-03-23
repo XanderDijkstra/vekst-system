@@ -55,108 +55,102 @@ const PrijzenPage = () => (
       </script>
     </Helmet>
 
-    {/* Hero */}
-    <section className="py-20 md:py-28">
-      <div className="container max-w-3xl text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
-        >
-          Prijzen
-        </motion.p>
-        <motion.h1
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }}
-          className="text-4xl md:text-5xl font-bold tracking-tight text-foreground"
-        >
-          Eén helder tarief. Alles inbegrepen.
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.12 }}
-          className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto"
-        >
-          Geen verborgen kosten, geen losse modules. Je krijgt het complete
-          digitale systeem voor jouw aannemersbedrijf.
-        </motion.p>
-      </div>
-    </section>
-
-    {/* Configurator CTA */}
-    <section className="pb-12 md:pb-16">
-      <div className="container max-w-3xl text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-        >
-          <Link
-            to="/configurator"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline underline-offset-4 transition-colors"
-          >
-            Stel je eigen pakket samen met onze configurator
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-        </motion.div>
-      </div>
-    </section>
-
-    {/* Pricing card */}
-    <section className="pb-24 md:pb-32">
-      <div className="container flex justify-center">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6 }}
-          className="relative w-full max-w-md"
-        >
-          {/* Card */}
-          <div className="rounded-2xl bg-accent text-accent-foreground shadow-system-card-hover overflow-hidden">
-            {/* Header */}
-            <div className="px-8 pt-10 pb-8 text-center">
-              <span className="inline-block text-xs font-bold uppercase tracking-widest text-primary bg-primary-foreground/90 rounded-full px-4 py-1.5 mb-5">
-                Meest gekozen
-              </span>
-              <h2 className="text-2xl font-bold">Compleet Pakket</h2>
-              <p className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight leading-none">
-                €279
-                <span className="text-lg font-medium opacity-80">/maand</span>
-              </p>
-            </div>
-
-            {/* Features */}
-            <div className="px-8 pb-10 space-y-0">
-              {features.map((f) => (
-                <div
-                  key={f}
-                  className="flex items-center gap-3 py-3.5 border-t border-accent-foreground/20"
-                >
-                  <Check className="h-4 w-4 flex-shrink-0 opacity-90" strokeWidth={2.5} />
-                  <span className="text-sm font-medium">{f}</span>
-                </div>
-              ))}
-            </div>
-
-            {/* CTA */}
-            <div className="px-8 pb-10">
-              <Button
-                asChild
-                size="lg"
-                className="w-full rounded-xl bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-bold text-base h-12"
+    {/* Hero — title left, pricing card right */}
+    <section className="py-16 md:py-24 pb-24 md:pb-32">
+      <div className="container max-w-6xl">
+        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+          {/* Left — Title & copy */}
+          <div>
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
+            >
+              Prijzen
+            </motion.p>
+            <motion.h1
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.05 }}
+              className="text-4xl md:text-5xl font-bold tracking-tight text-foreground"
+            >
+              Eén helder tarief. Alles inbegrepen.
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.12 }}
+              className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl"
+            >
+              Geen verborgen kosten, geen losse modules. Je krijgt het complete
+              digitale systeem voor jouw aannemersbedrijf.
+            </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="mt-6"
+            >
+              <Link
+                to="/configurator"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline underline-offset-4 transition-colors"
               >
-                <Link to="/demo">
-                  Boek een gesprek
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
+                Stel je eigen pakket samen met onze configurator
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </motion.div>
           </div>
-        </motion.div>
+
+          {/* Right — Pricing card */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="relative w-full max-w-md md:ml-auto"
+          >
+            <div className="rounded-2xl bg-accent text-accent-foreground shadow-system-card-hover overflow-hidden">
+              {/* Header */}
+              <div className="px-8 pt-10 pb-8 text-center">
+                <span className="inline-block text-xs font-bold uppercase tracking-widest text-primary bg-primary-foreground/90 rounded-full px-4 py-1.5 mb-5">
+                  Meest gekozen
+                </span>
+                <h2 className="text-2xl font-bold">Compleet Pakket</h2>
+                <p className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight leading-none">
+                  €279
+                  <span className="text-lg font-medium opacity-80">/maand</span>
+                </p>
+              </div>
+
+              {/* Features */}
+              <div className="px-8 pb-10 space-y-0">
+                {features.map((f) => (
+                  <div
+                    key={f}
+                    className="flex items-center gap-3 py-3.5 border-t border-accent-foreground/20"
+                  >
+                    <Check className="h-4 w-4 flex-shrink-0 opacity-90" strokeWidth={2.5} />
+                    <span className="text-sm font-medium">{f}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* CTA */}
+              <div className="px-8 pb-10">
+                <Button
+                  asChild
+                  size="lg"
+                  className="w-full rounded-xl bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-bold text-base h-12"
+                >
+                  <Link to="/demo">
+                    Boek een gesprek
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
 
