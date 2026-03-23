@@ -18,16 +18,18 @@ const wikiKeywords: { pattern: RegExp; slug: string; label: string }[] = [
       const shortForms: Record<string, string[]> = {
         seo: ["SEO", "zoekmachineoptimalisatie"],
         "local-seo": ["Local SEO", "lokale SEO"],
-        "google-mijn-bedrijf": ["Google Bedrijfsprofiel", "Google Mijn Bedrijf"],
+        "google-mijn-bedrijf": ["Google Bedrijfsprofiel", "Google Mijn Bedrijf", "Google Business profiel", "Google Business Profile"],
         conversie: ["conversie", "conversies"],
         lead: ["leads", "lead"],
-        "lead-opvolging": ["lead opvolging", "lead follow-up", "follow-up", "opvolging"],
+        "lead-opvolging": ["lead opvolging", "lead follow-up", "lead-opvolging"],
         cta: ["CTA", "call to action", "call-to-action"],
         conversieratio: ["conversieratio", "conversiepercentage"],
-        "organisch-verkeer": ["organisch verkeer", "organische bezoekers"],
+        "organisch-verkeer": ["organisch verkeer", "organische bezoekers", "organisch zoekverkeer"],
         reviews: ["reviews", "review", "beoordelingen"],
         "social-proof": ["social proof", "sociaal bewijs"],
         automatisering: ["automatisering", "automatiseren", "geautomatiseerd"],
+        crm: ["CRM", "klantenbeheersysteem"],
+        "google-ads": ["Google Ads", "Google AdWords"],
       };
 
       const forms = shortForms[t.slug] || [];

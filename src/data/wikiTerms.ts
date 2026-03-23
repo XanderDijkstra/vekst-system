@@ -279,6 +279,55 @@ export const wikiTerms: WikiTerm[] = [
     ],
   },
   {
+    slug: "crm",
+    term: "CRM (Klantenbeheersysteem)",
+    shortDescription:
+      "Een digitaal systeem waar je al je klantcontacten, offertes en projecten bijhoudt — op één centrale plek.",
+    category: "Automatisering",
+    relatedTerms: ["lead", "lead-opvolging", "automatisering"],
+    relatedLinks: [
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+      { label: "Lead Follow-Up", href: "/diensten/lead-follow-up" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "CRM staat voor Customer Relationship Management — oftewel: klantenbeheersysteem. Het is een digitaal overzicht van al je klantcontacten, aanvragen, offertes en lopende projecten. In plaats van contactgegevens verspreid over WhatsApp, e-mail en papieren mappen heb je alles op één plek. Je ziet in één oogopslag wie wat heeft aangevraagd, welke offerte nog openstaat en welke klus wanneer gepland staat.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Zonder CRM glippen leads door de mazen van het net. Je bent op de steiger, iemand belt, je vergeet terug te bellen — en die klus gaat naar de concurrent. Met een CRM wordt elke aanvraag automatisch vastgelegd en krijg je herinneringen voor opvolging. Onderzoek toont aan dat aannemers zonder CRM gemiddeld 20-30% van hun leads kwijtraken simpelweg doordat ze niets terughoorden.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een goed CRM voor aannemers registreert elk contact automatisch: via je website, telefoon of e-mail. Je ziet alle communicatie per klant terug — elk telefoontje, elke offerte, elke factuur. Je stelt herinneringen in ('Klant nog niet teruggebeld') en volgt je verkooppijplijn ('aanvraag → bezichtiging → offerte → akkoord → uitvoering'). Het beste: op je telefoon, zodat je ook vanaf de bouwplaats je zaken kunt regelen.",
+      },
+    ],
+  },
+  {
+    slug: "google-ads",
+    term: "Google Ads",
+    shortDescription:
+      "Betaalde advertenties in Google waarmee je direct bovenaan de zoekresultaten verschijnt voor zoekopdrachten zoals 'aannemer in [jouw stad]'.",
+    category: "Marketing",
+    relatedTerms: ["seo", "local-seo", "lead", "organisch-verkeer"],
+    relatedLinks: [],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Google Ads (vroeger Google AdWords) zijn betaalde advertenties die bovenaan de zoekresultaten verschijnen. Je kiest zoektermen — zoals 'aannemer Rotterdam' of 'dakdekker spoed' — en betaalt een bedrag per klik. Je advertentie verschijnt alleen als iemand op die exacte termen zoekt. Je bepaalt zelf je dagbudget, dus je hebt volledige controle over de kosten.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Google Ads geven direct resultaat — binnen een dag kun je bovenaan staan. Dat is het grote voordeel ten opzichte van SEO, waarbij je maanden moet wachten. Voor aannemers zijn Google Ads bijzonder effectief voor spoedklussen (lekkage, verstopping) en seizoenspieken. Je betaalt alleen als iemand klikt, en die persoon is al actief op zoek naar jouw dienst — dat zijn warme leads.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een gemiddelde klik kost €3 tot €15, afhankelijk van hoe competitief de regio en het vakgebied is. Als je €300 per maand uitgeeft en €10 per klik betaalt, zijn dat 30 bezoekers. Bij een conversieratio van 10% zijn dat 3 leads — en als je 2 van die 3 converteert naar een klus van €2.000, heb je €4.000 omzet uit €300 investering. Slimme Google Ads combineer je altijd met een goede landingspagina en snelle opvolging.",
+      },
+    ],
+  },
+  {
     slug: "automatisering",
     term: "Automatisering",
     shortDescription:
