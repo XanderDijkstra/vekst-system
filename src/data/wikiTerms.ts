@@ -353,6 +353,36 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "opleverdossier",
+    term: "Opleverdossier",
+    shortDescription:
+      "Een verzameling documenten die bewijst dat een bouwwerk voldoet aan alle bouwtechnische eisen bij oplevering.",
+    category: "Regelgeving",
+    relatedTerms: ["automatisering", "crm"],
+    relatedLinks: [
+      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een opleverdossier is een complete set documenten die je als aannemer samenstelt tijdens en na een bouwproject. Het dossier bewijst dat het opgeleverde bouwwerk voldoet aan de bouwtechnische eisen uit het Besluit bouwwerken leefomgeving (Bbl). Sinds de invoering van de Wet kwaliteitsborging (Wkb) is het opleverdossier verplicht bij de oplevering van nieuwbouw en bepaalde verbouwingen.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Het opleverdossier is niet alleen een wettelijke verplichting — het beschermt je ook als aannemer. Bij eventuele klachten of juridische geschillen na oplevering is het dossier jouw bewijs dat je werk deugdelijk was. Zonder goed dossier sta je zwak bij de verzwaarde aansprakelijkheid onder de Wkb. Daarnaast toont een professioneel opleverdossier aan klanten dat je kwaliteit levert, wat je reputatie versterkt en tot meer reviews en aanbevelingen leidt.",
+      },
+      {
+        heading: "Wat zit er in een opleverdossier?",
+        body: "Een compleet opleverdossier bevat onder andere: bouwtekeningen en constructieberekeningen, foto's van verborgen constructies (fundering, wapening, leidingwerk), certificaten en keurmerken van gebruikte materialen, keuringsrapporten van installaties (elektra, gas, water), meetrapporten (luchtdichtheid, energieprestatie) en een verklaring van de onafhankelijke kwaliteitsborger. Het exacte vereiste verschilt per type bouwwerk.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Begin met het opleverdossier op dag één van het project, niet pas bij de oplevering. Maak het onderdeel van je dagelijkse werkroutine: fotografeer elke bouwfase voordat deze wordt afgedekt, sla materiaalcertificaten direct digitaal op en laat keuringen tijdig uitvoeren. Met een digitaal systeem of CRM kun je per project alles gestructureerd bijhouden. Zo heb je bij oplevering een compleet dossier klaarliggen zonder last-minute stress.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

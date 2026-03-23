@@ -30,6 +30,7 @@ const wikiKeywords: { pattern: RegExp; slug: string; label: string }[] = [
         automatisering: ["automatisering", "automatiseren", "geautomatiseerd"],
         crm: ["CRM", "klantenbeheersysteem"],
         "google-ads": ["Google Ads", "Google AdWords"],
+        opleverdossier: ["opleverdossier", "opleverdossiers"],
       };
 
       const forms = shortForms[t.slug] || [];

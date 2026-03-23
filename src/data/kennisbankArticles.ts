@@ -524,5 +524,38 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "De meest succesvolle hoveniersbedrijven bouwen hun omzet op een basis van onderhoudcontracten. Dit geeft financiële stabiliteit en een voorspelbare werkplanning. Promoot onderhoudcontracten actief op je website en bij elke oplevering. Gebruik automatische herinneringen om klanten seizoensgebonden onderhoud aan te bieden. Een bestand van 50 onderhoudklanten kan al €5.000-€10.000 per maand aan stabiele omzet opleveren."
       }
     ]
+  },
+  {
+    slug: "wet-kwaliteitsborging-bouw",
+    title: "Wet kwaliteitsborging (Wkb): wat betekent dit voor jouw bouwbedrijf in 2026?",
+    description: "Alles over de Wet kwaliteitsborging voor het bouwen: nieuwe verplichtingen, het opleverdossier en hoe je je bedrijf voorbereid.",
+    category: "Regelgeving",
+    readTime: "7 min",
+    relatedLinks: [
+      { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
+      { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
+    ],
+    sections: [
+      {
+        heading: "Wat is de Wet kwaliteitsborging?",
+        body: "De Wet kwaliteitsborging voor het bouwen (Wkb) verandert hoe de bouwkwaliteit in Nederland wordt gecontroleerd. Waar voorheen de gemeente toezicht hield via een bouwvergunning, wordt die rol nu overgenomen door een onafhankelijke kwaliteitsborger. Dit betekent dat jij als aannemer aantoonbaar moet maken dat je werk voldoet aan de bouwtechnische eisen uit het Besluit bouwwerken leefomgeving (Bbl). De wet is sinds 2024 van kracht voor eenvoudige bouwwerken en wordt in 2026 uitgebreid naar meer projecttypen."
+      },
+      {
+        heading: "Wat verandert er concreet voor aannemers?",
+        body: "De grootste verandering is de verplichte aanlevering van een opleverdossier bij elke oplevering. Dit dossier bevat alle bewijsstukken dat het bouwwerk voldoet aan de regelgeving: constructieberekeningen, tekeningen, foto's van verborgen constructies, certificaten van gebruikte materialen en keuringsrapporten van installaties. Daarnaast geldt een verzwaarde aansprakelijkheid: ook na oplevering blijf je als aannemer aansprakelijk voor gebreken, tenzij je kunt aantonen dat ze niet aan jou te wijten zijn."
+      },
+      {
+        heading: "Het opleverdossier: jouw nieuwe standaard",
+        body: "Het opleverdossier is het hart van de Wkb. Tijdens het hele bouwproces leg je vast wat je hebt gedaan en welke materialen je hebt gebruikt. Denk aan: foto's van de fundering vóór het storten van beton, certificaten van isolatiemateriaal, keuringsverslagen van de elektra en leidingwerk, en meetrapporten van de luchtdichtheid. Begin hier niet pas mee bij de oplevering — bouw het dossier op vanaf dag één. Digitale tools en een CRM-systeem helpen je om dit gestructureerd bij te houden."
+      },
+      {
+        heading: "De rol van de kwaliteitsborger",
+        body: "De onafhankelijke kwaliteitsborger controleert jouw werk op basis van een borgingsplan. Hij of zij beoordeelt het ontwerp vooraf, doet steekproefsgewijze controles tijdens de bouw en beoordeelt het opleverdossier aan het einde. Als er afwijkingen zijn, moet je die herstellen voordat het bouwwerk in gebruik mag worden genomen. Kies daarom je kwaliteitsborger vroeg in het proces en stem je werkwijze op elkaar af. Goede communicatie voorkomt verrassingen."
+      },
+      {
+        heading: "Hoe bereid je je bedrijf voor?",
+        body: "Begin vandaag met drie stappen: (1) Digitaliseer je documentatie — gebruik een systeem waarin je per project foto's, certificaten en rapporten opslaat. Papieren mappen voldoen niet meer. (2) Train je team — iedereen op de bouwplaats moet weten wat er vastgelegd moet worden en wanneer. (3) Bouw een standaard opleverdossier-template dat je bij elk project gebruikt. Dit kost je nu een paar uur, maar bespaart je straks dagen aan stress en discussie bij de oplevering. Automatisering maakt het verschil: met de juiste tools kost het bijhouden van je dossier minimale extra tijd."
+      }
+    ]
   }
 ];
