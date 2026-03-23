@@ -86,6 +86,17 @@ const PrijzenPage = () => (
               Geen verborgen kosten, geen losse modules. Je krijgt het complete
               digitale systeem voor jouw aannemersbedrijf.
             </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.18 }}
+              className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl"
+            >
+              Een professionele website, automatische lead opvolging, gemiste
+              oproepen die direct worden afgevangen en een slimme review funnel
+              — alles draait vanaf dag één. Jij focust op het werk op de bouw,
+              wij zorgen dat de klussen blijven binnenkomen.
+            </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
