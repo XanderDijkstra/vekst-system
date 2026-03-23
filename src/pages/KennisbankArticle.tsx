@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { Clock, ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import WikiLinkedText from "@/components/WikiLinkedText";
 
 const SITE_URL = "https://aannemersysteem.com";
 
@@ -113,7 +114,7 @@ const KennisbankArticle = () => {
                 transition={{ duration: 0.5, delay: i * 0.05 }}
               >
                 <h2 className="text-2xl font-bold text-foreground mb-4">{section.heading}</h2>
-                <p className="text-muted-foreground leading-relaxed">{section.body}</p>
+                <WikiLinkedText text={section.body} className="text-muted-foreground leading-relaxed" />
               </motion.div>
             ))}
           </div>
