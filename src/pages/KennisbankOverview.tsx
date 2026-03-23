@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
-import { Clock, ArrowRight } from "lucide-react";
+import { Clock, ArrowRight, BookOpen } from "lucide-react";
 
 const SITE_URL = "https://aannemersysteem.com";
 const categories = [...new Set(kennisbankArticles.map((a) => a.category))];
@@ -30,6 +30,29 @@ const KennisbankOverview = () => (
         </motion.p>
       </div>
     </section>
+    {/* Wiki banner */}
+    <section className="py-12 md:py-16 bg-muted/40 border-b border-border">
+      <div className="container">
+        <Link
+          to="/wiki"
+          className="group flex items-center justify-between rounded-2xl bg-card border border-border p-6 md:p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250 ease-system-ease"
+        >
+          <div className="flex items-start gap-4">
+            <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-accent/10 flex items-center justify-center">
+              <BookOpen className="h-5 w-5 text-accent" />
+            </div>
+            <div>
+              <h2 className="font-semibold text-foreground text-lg">Marketing Wiki</h2>
+              <p className="mt-1 text-sm text-muted-foreground leading-relaxed max-w-lg">
+                SEO, leads, conversie — wat betekent het allemaal? Alle marketing begrippen uitgelegd in gewoon Nederlands.
+              </p>
+            </div>
+          </div>
+          <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0 ml-4" />
+        </Link>
+      </div>
+    </section>
+
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

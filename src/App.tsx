@@ -25,6 +25,8 @@ import DemoPage from "./pages/DemoPage";
 import ConfiguratorPage from "./pages/ConfiguratorPage";
 import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
 import PrijzenPage from "./pages/PrijzenPage";
+import WikiOverview from "./pages/WikiOverview";
+import WikiTerm from "./pages/WikiTerm";
 
 const queryClient = new QueryClient();
 
@@ -52,6 +54,8 @@ const App = () => (
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/demo" element={<DemoPage />} />
           <Route path="/prijzen" element={<PrijzenPage />} />
+          <Route path="/wiki" element={<WikiOverview />} />
+          <Route path="/wiki/:slug" element={<WikiTerm />} />
           <Route path="/configurator" element={<ConfiguratorPage />} />
           <Route path="/admin/configurator" element={<AdminConfiguratorPage />} />
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
