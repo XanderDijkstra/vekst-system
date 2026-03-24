@@ -409,6 +409,31 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "bounce-rate",
+    term: "Bounce Rate",
+    shortDescription:
+      "Het percentage bezoekers dat je website direct weer verlaat zonder iets te doen — alsof ze binnenlopen en meteen weer weggaan.",
+    category: "Technisch",
+    relatedTerms: ["conversie", "conversieratio", "seo"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Bounce rate (uitvalpercentage) is het percentage bezoekers dat op je website landt en direct weer vertrekt, zonder door te klikken of contact op te nemen. Vergelijk het met iemand die je werkplaats inloopt, rondkijkt en zonder iets te zeggen weer wegloopt. Hoe hoger het percentage, hoe meer bezoekers afhaken.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Een hoge bounce rate betekent dat je website bezoekers niet vasthoudt. Als 70% van je bezoekers meteen weer vertrekt, haal je maar een fractie uit je online aanwezigheid. Voor een metselaar of timmerman die investeert in gevonden worden via Google is dat zonde: je krijgt wel bezoekers, maar ze worden geen klanten. Google let er ook op: een hoge bounce rate kan je positie in zoekresultaten verslechteren.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een goede bounce rate voor aannemerswebsites ligt tussen de 30% en 50%. Zit je daarboven, dan is er werk aan de winkel. De meest voorkomende oorzaken: je site laadt te langzaam op mobiel, het ontwerp ziet er niet professioneel uit, of bezoekers vinden niet snel wat ze zoeken. De oplossing is een snelle, overzichtelijke website met duidelijke contactmogelijkheden en foto's van echt werk. Zo hou je bezoekers vast en maak je er klanten van.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

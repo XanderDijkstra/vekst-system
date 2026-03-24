@@ -636,5 +636,47 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "Heb je al een paar reviews staan? Reageer erop. Een kort bedankje laat zien dat je betrokken bent. En het laat nieuwe klanten zien dat er een echt persoon achter het bedrijf zit — niet een onpersoonlijk bouwbedrijf. Google waardeert het ook: actief reageren op reviews helpt je positie in de zoekresultaten."
       }
     ]
+  },
+  {
+    slug: "wat-klanten-checken-voor-ze-bellen",
+    title: "Wat klanten online checken voordat ze een aannemer bellen",
+    description: "Ontdek welke stappen potentiele klanten online zetten voordat ze jou bellen, en hoe je daarop inspeelt.",
+    category: "Online zichtbaarheid",
+    readTime: "6 min",
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+    ],
+    sections: [
+      {
+        heading: "De klant begint online, niet bij jou",
+        body: "Vroeger belde iemand de eerste de beste stukadoor uit de Gouden Gids. Tegenwoordig pakt iedereen zijn telefoon en zoekt op Google voordat er ook maar een telefoontje gepleegd wordt. Onderzoek laat zien dat 87% van de mensen die een vakman zoeken eerst online vergelijkt. Of je nu metselaar, tegelzetter of stukadoor bent: je klant heeft al een beeld van jou voordat je de telefoon opneemt."
+      },
+      {
+        heading: "Stap 1: Google-reviews bekijken",
+        body: "Het eerste wat mensen doen is naar je sterren kijken. Hoeveel reviews heb je, en wat is je gemiddelde score? Een stukadoor met 4,8 sterren en 35 reviews wordt eerder gebeld dan eentje met 3 sterren en 4 reviews. Klanten lezen ook de tekst van reviews. Ze zoeken naar bevestiging dat je betrouwbaar bent, op tijd komt en netjes werkt. Geen reviews hebben is bijna net zo slecht als slechte reviews: het wekt wantrouwen."
+      },
+      {
+        heading: "Stap 2: Je website beoordelen",
+        body: "Na de reviews klikt de klant door naar je website. En dan gaat het snel: binnen 3 seconden beslissen mensen of je site er professioneel uitziet. Een verouderde site met een stockfoto en een contactformulier dat half werkt? Dan ben je de klant kwijt. Ze willen foto's van echt werk zien, een duidelijk overzicht van je diensten, en een manier om snel contact op te nemen. Geen website hebben is nog erger: dan besta je simpelweg niet voor deze klant."
+      },
+      {
+        heading: "Stap 3: Vergelijken met concurrenten",
+        body: "De gemiddelde klant vergelijkt minstens drie aannemers voordat hij belt. Ze kijken naar reviews, website, bereikbaarheid en uitstraling. Als jouw concurrent een strakke website heeft met projectfoto's en 50 reviews, en jij hebt alleen een Facebook-pagina die sinds 2021 niet is bijgewerkt, weet je wie er gebeld wordt. Het goede nieuws: de meeste vakmensen in jouw regio doen dit nog niet goed. Met een paar verbeteringen spring je er direct tussenuit."
+      },
+      {
+        heading: "Stap 4: Bereikbaarheid testen",
+        body: "Veel klanten bellen gewoon om te kijken of je opneemt. Neem je niet op en horen ze niks meer? Dan bellen ze de volgende op het lijstje. Uit onderzoek blijkt dat 62% van de klanten die niet worden teruggebeld nooit meer contact opneemt. Een gemist telefoontje op de steiger hoeft geen gemiste klant te zijn, maar alleen als je er snel op reageert. Een automatische SMS na een gemiste oproep laat de klant weten dat je bestaat en dat je terugbelt."
+      },
+      {
+        heading: "Stap 5: Social media en foto's checken",
+        body: "Steeds meer klanten bekijken ook je social media. Niet om je posts te lezen, maar om foto's van je werk te zien. Een tegelzetter die regelmatig een voor-en-na foto deelt op Instagram of Facebook bouwt vertrouwen op. Het hoeft niet perfect te zijn. Gewoon eerlijk je werk laten zien. Klanten willen bewijs dat je kunt wat je belooft."
+      },
+      {
+        heading: "Zorg dat je er klaar voor bent",
+        body: "De klant heeft zijn keuze al voor 80% gemaakt voordat hij jou belt. Dat betekent dat je online aanwezigheid het zware werk doet. Goede reviews, een professionele website, snel reageren op gemiste oproepen en eerlijke foto's van je werk. Dat is geen luxe, dat is de basis. Bij AannemerSysteem.com helpen we vakmensen precies hiermee: een website die vertrouwen wekt, een reviewsysteem dat automatisch werkt, en een gemiste-oproep-opvang zodat je nooit meer een klant misloopt."
+      }
+    ]
   }
 ];
