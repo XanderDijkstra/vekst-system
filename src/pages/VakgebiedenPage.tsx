@@ -31,15 +31,36 @@ const trades = [
   { name: "Tegelzetters", image: tegelzetterImg, slug: "tegelzetters" },
 ];
 
-const allTrades = [
-  "Badkamer renovatie", "Beglazing", "Bestrating", "Beton & Cement",
-  "Cv-ketel montage", "Dakgoten", "Domotica", "Gevelreiniging",
-  "Glaszetter", "Hekwerk & Poorten", "Hoveniers", "Interieurontwerp",
-  "Isolatie", "Keukenmontage", "Kozijnen & Ramen", "Metselwerk",
-  "Ontruiming", "Opruimservice", "Parketvloeren", "Rioolservice",
-  "Rolluiken & Zonwering", "Schoonmaakbedrijf", "Stukadoor",
-  "Timmerwerk", "Vloerlegger", "Voegwerk", "Warmtepomp installatie",
-  "Zonnepanelen",
+const allTrades: { name: string; slug: string | null }[] = [
+  { name: "Badkamer renovatie", slug: "badkamerrenovatie" },
+  { name: "Beglazing", slug: null },
+  { name: "Bestrating", slug: null },
+  { name: "Beton & Cement", slug: null },
+  { name: "Cv-ketel montage", slug: null },
+  { name: "Dakgoten", slug: null },
+  { name: "Domotica", slug: null },
+  { name: "Gevelreiniging", slug: null },
+  { name: "Glazenwassers", slug: "glazenwassers" },
+  { name: "Hekwerk & Poorten", slug: null },
+  { name: "Hoveniers", slug: "hoveniers" },
+  { name: "Interieurontwerp", slug: null },
+  { name: "Isolatie", slug: "isolatiebedrijven" },
+  { name: "Keukenmontage", slug: "keukenmonteurs" },
+  { name: "Kozijnen & Ramen", slug: null },
+  { name: "Metselwerk", slug: null },
+  { name: "Ontruiming", slug: null },
+  { name: "Opruimservice", slug: null },
+  { name: "Parketvloeren", slug: null },
+  { name: "Rioolservice", slug: null },
+  { name: "Rolluiken & Zonwering", slug: null },
+  { name: "Schoonmaakbedrijf", slug: "schoonmaakbedrijven" },
+  { name: "Stukadoor", slug: "stukadoors" },
+  { name: "Timmerwerk", slug: "timmerlieden" },
+  { name: "Verhuisbedrijven", slug: "verhuisbedrijven" },
+  { name: "Vloerlegger", slug: null },
+  { name: "Voegwerk", slug: null },
+  { name: "Warmtepomp installatie", slug: null },
+  { name: "Zonnepanelen", slug: null },
 ];
 
 const VakgebiedenPage = () => {
@@ -133,12 +154,18 @@ const VakgebiedenPage = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-4 max-w-4xl mx-auto">
             {allTrades.map((trade) => (
               <motion.div
-                key={trade}
+                key={trade.name}
                 {...fadeInUp}
                 className="flex items-center gap-2.5"
               >
                 <CheckCircle2 className="h-5 w-5 text-accent shrink-0" />
-                <span className="text-sm md:text-base text-foreground">{trade}</span>
+                {trade.slug ? (
+                  <Link to={`/vakgebieden/${trade.slug}`} className="text-sm md:text-base text-foreground hover:text-accent transition-colors underline underline-offset-2 decoration-accent/30 hover:decoration-accent">
+                    {trade.name}
+                  </Link>
+                ) : (
+                  <span className="text-sm md:text-base text-foreground">{trade.name}</span>
+                )}
               </motion.div>
             ))}
           </div>
