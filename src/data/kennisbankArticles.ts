@@ -4,6 +4,7 @@ export interface KennisbankArticle {
   description: string;
   category: string;
   readTime: string;
+  date: string;
   sections: { heading: string; body: string }[];
   relatedLinks: { label: string; href: string }[];
 }
@@ -15,6 +16,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Ontdek hoe automatisering je aannemersbedrijf efficiënter maakt, van offertes tot klantopvolging.",
     category: "Automatisering",
     readTime: "7 min",
+    date: "2025-06-12",
     relatedLinks: [
       { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
@@ -50,6 +52,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Leer waarom een CRM-systeem onmisbaar is voor aannemers en hoe je het effectief inzet.",
     category: "CRM",
     readTime: "6 min",
+    date: "2025-07-03",
     relatedLinks: [
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
@@ -84,6 +87,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Vergelijk de beste planningstools voor aannemers en ontdek welke bij jou past.",
     category: "Planning",
     readTime: "5 min",
+    date: "2025-07-18",
     relatedLinks: [
       { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
       { label: "Software Integraties", href: "/diensten/software-integraties" },
@@ -113,6 +117,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Stuur sneller offertes en verhoog je conversie met deze praktische tips.",
     category: "Sales",
     readTime: "6 min",
+    date: "2025-08-05",
     relatedLinks: [
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
       { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
@@ -147,6 +152,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Ontdek hoe kunstmatige intelligentie het werk van aannemers transformeert.",
     category: "Innovatie",
     readTime: "7 min",
+    date: "2025-08-22",
     relatedLinks: [
       { label: "AI Oplossingen", href: "/diensten/ai-oplossingen" },
       { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
@@ -181,6 +187,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Van mond-tot-mondreclame tot online marketing: zo werf je meer klanten als aannemer.",
     category: "Marketing",
     readTime: "8 min",
+    date: "2025-09-10",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
@@ -220,6 +227,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Maximaliseer je lokale vindbaarheid met een geoptimaliseerd Google Business profiel.",
     category: "SEO",
     readTime: "5 min",
+    date: "2025-09-28",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },
@@ -254,6 +262,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Waarom reviews je belangrijkste marketingtool zijn en hoe je er meer verzamelt.",
     category: "Reputatie",
     readTime: "5 min",
+    date: "2025-10-15",
     relatedLinks: [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
@@ -288,6 +297,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Een eerlijk overzicht van de kosten en wat je ervoor terugkrijgt.",
     category: "Website",
     readTime: "6 min",
+    date: "2025-10-30",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
@@ -322,6 +332,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Een eerlijke vergelijking tussen leads via platforms en via je eigen kanalen.",
     category: "Strategie",
     readTime: "6 min",
+    date: "2025-11-14",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
@@ -356,6 +367,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Hoe loodgieters hun online zichtbaarheid vergroten en een constante stroom leads genereren.",
     category: "Vakgebied",
     readTime: "7 min",
+    date: "2025-11-29",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Loodgieters pagina", href: "/vakgebieden/loodgieters" },
@@ -391,6 +403,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Praktische tips voor schildersbedrijven om online meer opdrachten binnen te halen.",
     category: "Vakgebied",
     readTime: "7 min",
+    date: "2025-12-12",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Schilders pagina", href: "/vakgebieden/schilders" },
@@ -426,6 +439,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Hoe dakdekkers hun website inzetten als leadmachine voor dakreparaties en renovaties.",
     category: "Vakgebied",
     readTime: "7 min",
+    date: "2025-12-28",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Dakdekkers pagina", href: "/vakgebieden/dakdekkers" },
@@ -461,6 +475,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Hoe elektriciens online meer klanten aantrekken voor installatie- en storingswerk.",
     category: "Vakgebied",
     readTime: "6 min",
+    date: "2026-01-10",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Elektriciens pagina", href: "/vakgebieden/elektriciens" },
@@ -496,6 +511,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Hoe hoveniersbedrijven online meer klanten werven en hun bedrijf laten groeien.",
     category: "Vakgebied",
     readTime: "7 min",
+    date: "2026-01-25",
     relatedLinks: [
       { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
       { label: "Hoveniers pagina", href: "/vakgebieden/hoveniers" },
@@ -531,6 +547,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Alles over de Wet kwaliteitsborging voor aannemers: nieuwe verplichtingen, het opleverdossier en hoe je je bedrijf voorbereid.",
     category: "Regelgeving",
     readTime: "7 min",
+    date: "2026-02-07",
     relatedLinks: [
       { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
       { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
@@ -564,6 +581,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Leer hoe je als aannemer of ZZP'er seizoensgebonden marketing inzet om het hele jaar door opdrachten binnen te halen. Praktische tips per seizoen.",
     category: "Marketing",
     readTime: "8 min",
+    date: "2026-02-21",
     relatedLinks: [
       { label: "Website voor aannemers", href: "/diensten" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },
@@ -606,6 +624,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "5 praktische manieren om als aannemer of ZZP'er tevreden klanten in te zetten voor meer opdrachten. Direct toepasbaar.",
     category: "Reputatie",
     readTime: "4 min",
+    date: "2026-03-06",
     relatedLinks: [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Website voor aannemers", href: "/diensten" },
@@ -643,6 +662,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "Ontdek welke stappen potentiele klanten online zetten voordat ze jou bellen, en hoe je daarop inspeelt.",
     category: "Online zichtbaarheid",
     readTime: "6 min",
+    date: "2026-03-18",
     relatedLinks: [
       { label: "Professionele Website", href: "/diensten/lead-generatie" },
       { label: "Review Systeem", href: "/diensten/review-funnel" },

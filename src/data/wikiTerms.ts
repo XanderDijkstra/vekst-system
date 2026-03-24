@@ -3,6 +3,7 @@ export interface WikiTerm {
   term: string;
   shortDescription: string;
   category: string;
+  date: string;
   sections: { heading: string; body: string }[];
   relatedTerms: string[]; // slugs of related wiki terms
   relatedLinks: { label: string; href: string }[];
@@ -15,6 +16,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Zorgen dat jouw bedrijf bovenaan in Google verschijnt wanneer iemand zoekt op bijvoorbeeld 'aannemer in [jouw regio]'.",
     category: "Marketing",
+    date: "2025-06-05",
     relatedTerms: ["local-seo", "organisch-verkeer", "conversie"],
     relatedLinks: [
       { label: "Website voor aannemers", href: "/diensten" },
@@ -40,6 +42,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Een specifiek onderdeel van SEO gericht op klanten in jouw regio. Denk aan de kaartresultaten in Google.",
     category: "Marketing",
+    date: "2025-06-20",
     relatedTerms: ["seo", "google-mijn-bedrijf"],
     relatedLinks: [
       { label: "Website voor aannemers", href: "/diensten" },
@@ -65,6 +68,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Jouw gratis bedrijfsvermelding op Google, inclusief reviews, foto's, openingstijden en contactgegevens.",
     category: "Marketing",
+    date: "2025-07-08",
     relatedTerms: ["local-seo", "seo", "reviews"],
     relatedLinks: [],
     sections: [
@@ -88,6 +92,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Wanneer een websitebezoeker daadwerkelijk actie onderneemt: bellen, een formulier invullen, of een offerte aanvragen.",
     category: "Marketing",
+    date: "2025-07-22",
     relatedTerms: ["lead", "cta", "conversieratio"],
     relatedLinks: [
       { label: "Lead Generatie", href: "/diensten/lead-generatie" },
@@ -113,6 +118,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Een potentiële klant die interesse heeft getoond in jouw diensten — bijvoorbeeld door te bellen of een formulier in te vullen.",
     category: "Marketing",
+    date: "2025-08-08",
     relatedTerms: ["conversie", "lead-opvolging", "cta"],
     relatedLinks: [
       { label: "Lead Generatie", href: "/diensten/lead-generatie" },
@@ -139,6 +145,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Het proces van contact opnemen met potentiële klanten nadat ze interesse hebben getoond.",
     category: "Automatisering",
+    date: "2025-08-25",
     relatedTerms: ["lead", "conversie", "automatisering"],
     relatedLinks: [
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
@@ -165,6 +172,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Een knop of tekst die de bezoeker vertelt wat de volgende stap is, zoals 'Bel nu' of 'Vraag een offerte aan'.",
     category: "Marketing",
+    date: "2025-09-05",
     relatedTerms: ["conversie", "lead"],
     relatedLinks: [],
     sections: [
@@ -188,6 +196,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Het percentage bezoekers dat daadwerkelijk contact opneemt. Als 100 mensen je site bezoeken en 3 bellen, is je conversieratio 3%.",
     category: "Marketing",
+    date: "2025-09-20",
     relatedTerms: ["conversie", "lead", "organisch-verkeer"],
     relatedLinks: [
       { label: "Lead Generatie", href: "/diensten/lead-generatie" },
@@ -213,6 +222,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Bezoekers die je website vinden via Google zonder dat je betaalt voor advertenties.",
     category: "Marketing",
+    date: "2025-10-08",
     relatedTerms: ["seo", "local-seo", "betaald-verkeer"],
     relatedLinks: [],
     sections: [
@@ -236,6 +246,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Beoordelingen van klanten op Google, die nieuwe klanten helpen beslissen of ze jou vertrouwen.",
     category: "Reputatie",
+    date: "2025-10-22",
     relatedTerms: ["google-mijn-bedrijf", "social-proof"],
     relatedLinks: [
       { label: "Review Funnel", href: "/diensten/review-funnel" },
@@ -261,6 +272,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Het principe dat mensen eerder iets doen als ze zien dat anderen het ook doen — zoals reviews, logo's van klanten, of 'al 100+ projecten afgerond'.",
     category: "Marketing",
+    date: "2025-11-05",
     relatedTerms: ["reviews", "conversie"],
     relatedLinks: [],
     sections: [
@@ -284,6 +296,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Een digitaal systeem waar je al je klantcontacten, offertes en projecten bijhoudt — op één centrale plek.",
     category: "Automatisering",
+    date: "2025-11-20",
     relatedTerms: ["lead", "lead-opvolging", "automatisering"],
     relatedLinks: [
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
@@ -310,6 +323,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Betaalde advertenties in Google waarmee je direct bovenaan de zoekresultaten verschijnt voor zoekopdrachten zoals 'aannemer in [jouw stad]'.",
     category: "Marketing",
+    date: "2025-12-05",
     relatedTerms: ["seo", "local-seo", "lead", "organisch-verkeer"],
     relatedLinks: [],
     sections: [
@@ -333,6 +347,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Taken die normaal handmatig zijn — zoals e-mails sturen of leads opvolgen — automatisch laten verlopen door slimme software.",
     category: "Automatisering",
+    date: "2025-12-18",
     relatedTerms: ["lead-opvolging", "lead"],
     relatedLinks: [
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
@@ -359,6 +374,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Een verzameling documenten die bewijst dat een bouwwerk voldoet aan alle bouwtechnische eisen bij oplevering.",
     category: "Regelgeving",
+    date: "2026-01-08",
     relatedTerms: ["automatisering", "crm"],
     relatedLinks: [
       { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
@@ -389,6 +405,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Advertenties laten zien aan mensen die eerder jouw website bezochten maar geen contact opnamen — als geheugensteuntje.",
     category: "Marketing",
+    date: "2026-01-28",
     relatedTerms: ["google-ads", "conversie", "lead"],
     relatedLinks: [
       { label: "Website voor aannemers", href: "/diensten" },
@@ -415,6 +432,7 @@ export const wikiTerms: WikiTerm[] = [
     shortDescription:
       "Het percentage bezoekers dat je website direct weer verlaat zonder iets te doen — alsof ze binnenlopen en meteen weer weggaan.",
     category: "Technisch",
+    date: "2026-02-15",
     relatedTerms: ["conversie", "conversieratio", "seo"],
     relatedLinks: [
       { label: "Professionele Website", href: "/diensten/lead-generatie" },

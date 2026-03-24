@@ -4,7 +4,7 @@ import PageShell from "@/components/PageShell";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
-import { Clock, ArrowLeft, ArrowRight } from "lucide-react";
+import { Clock, ArrowLeft, ArrowRight, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WikiLinkedText from "@/components/WikiLinkedText";
 
@@ -89,6 +89,10 @@ const KennisbankArticle = () => {
             {article.title}
           </motion.h1>
           <motion.div {...fadeInUp} className="mt-6 flex items-center gap-4">
+            <span className="flex items-center gap-1.5 text-sm text-primary-foreground/60">
+              <Calendar className="h-4 w-4" />
+              {new Date(article.date).toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" })}
+            </span>
             <span className="flex items-center gap-1.5 text-sm text-primary-foreground/60">
               <Clock className="h-4 w-4" />
               {article.readTime} leestijd
