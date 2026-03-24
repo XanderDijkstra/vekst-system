@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { ArrowRight, Send, CheckCircle2 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
+import { submitToWebhook } from "@/lib/webhook";
 
 const HeroSection = () => {
   const { toast } = useToast();
@@ -31,17 +31,14 @@ const HeroSection = () => {
     setIsSubmitting(true);
 
     try {
-      const { data, error } = await supabase.functions.invoke('webhook-proxy', {
-        body: {
-          name: form.name.trim(),
-          phone: form.phone.trim(),
-          email: form.email.trim(),
-          businessName: form.businessName.trim(),
-          message: form.message.trim()
-        }
+      await submitToWebhook({
+        name: form.name.trim(),
+        phone: form.phone.trim(),
+        email: form.email.trim(),
+        businessName: form.businessName.trim(),
+        message: form.message.trim(),
+        source: "homepage",
       });
-
-      if (error) throw error;
 
       setIsSubmitted(true);
       toast({
