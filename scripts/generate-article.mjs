@@ -8,31 +8,52 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.join(__dirname, "..");
 const ARTICLES_FILE = path.join(REPO_ROOT, "src/data/kennisbankArticles.ts");
 
-// Rotating topics: marketing & materials for contractors in Belgium & Netherlands
+// Topics aligned with AannemerSysteem.com services:
+// websites, online zichtbaarheid, Google-reviews, gemiste oproepen, lokale SEO, meer klanten
 const TOPICS = [
-  { category: "Marketing", topic: "Google Ads voor aannemers in België en Nederland: hoe je meer offerteaanvragen krijgt" },
-  { category: "Marketing", topic: "SEO voor bouwbedrijven: zo scoor je hoger in Google zonder duur bureau" },
-  { category: "Marketing", topic: "WhatsApp Business voor aannemers: klanten sneller bereiken en meer omzet" },
-  { category: "Marketing", topic: "Facebook en Instagram advertenties voor aannemers in België en Nederland" },
-  { category: "Marketing", topic: "Google reviews voor aannemers: hoe je ze verzamelt en meer klanten krijgt" },
-  { category: "Marketing", topic: "E-mail marketing voor bouwbedrijven: klanten terughalen en aanbevelingen genereren" },
-  { category: "Marketing", topic: "Je website als verkooptool: hoe aannemers meer leads genereren via hun site" },
-  { category: "Marketing", topic: "Referral marketing voor aannemers: mond-tot-mondreclame digitaal inzetten" },
-  { category: "Marketing", topic: "Video marketing voor bouwbedrijven: projecten vastleggen en klanten overtuigen" },
-  { category: "Marketing", topic: "Prijsstrategie voor aannemers: hoe positioneer je jezelf in de Belgische en Nederlandse markt" },
-  { category: "Materialen", topic: "Duurzame bouwmaterialen in 2025: wat werkt en wat loont voor aannemers in BE en NL" },
-  { category: "Materialen", topic: "Isolatiematerialen vergelijken: wat kiezen aannemers in België versus Nederland" },
-  { category: "Materialen", topic: "Inkoop van bouwmaterialen: hoe bespaar je als aannemer zonder in te leveren op kwaliteit" },
-  { category: "Materialen", topic: "Houtbouw versus traditioneel bouwen: trends en kansen voor aannemers" },
-  { category: "Materialen", topic: "Prefab en modulair bouwen: wat betekent dit voor aannemers in BE en NL" },
-  { category: "Digitalisering", topic: "Digitale offertes voor aannemers: sneller offreren en meer opdrachten binnenhalen" },
-  { category: "Digitalisering", topic: "Projectplanning software voor bouwbedrijven: tools die echt werken op de bouwplaats" },
-  { category: "Digitalisering", topic: "Facturen en betalingen digitaliseren als aannemer: minder wanbetaling, meer cashflow" },
-  { category: "Automatisering", topic: "Gemiste oproepen automatisch opvolgen als aannemer: nooit meer een lead missen" },
-  { category: "Automatisering", topic: "Automatische afspraakbevestigingen voor aannemers: klanten beter informeren zonder extra werk" },
-  { category: "Bedrijfsvoering", topic: "Personeel werven als aannemer in België en Nederland: uitdagingen en slimme aanpak" },
-  { category: "Bedrijfsvoering", topic: "Prijzen berekenen als aannemer: zo stel je een winstgevende offerte op" },
-  { category: "Bedrijfsvoering", topic: "Klachtenafhandeling voor aannemers: hoe je van een ontevreden klant een ambassadeur maakt" },
+  { category: "Website", topic: "Waarom een professionele website essentieel is als aannemer of ZZP'er" },
+  { category: "Website", topic: "Hoeveel klanten loop je mis door een slechte of geen website?" },
+  { category: "Website", topic: "Website vs. Facebook-pagina: wat werkt beter voor aannemers?" },
+  { category: "Website", topic: "Offerte-aanvragen verhogen via je website als aannemer" },
+  { category: "Website", topic: "Van visitekaartje naar digitale aanwezigheid: de eerste stap voor vakmensen" },
+  { category: "Website", topic: "Je website als verkooptool: hoe aannemers meer leads genereren via hun site" },
+  { category: "Reputatie", topic: "Hoe je als aannemer meer Google-reviews krijgt (en waarom dat klanten oplevert)" },
+  { category: "Reputatie", topic: "Online reputatie opbouwen als vakman: van nul naar vertrouwd" },
+  { category: "Reputatie", topic: "Reviews vs. advertenties: wat werkt beter voor aannemers?" },
+  { category: "Reputatie", topic: "Wat klanten online checken voordat ze een aannemer bellen" },
+  { category: "Reputatie", topic: "Referral marketing voor aannemers: mond-tot-mondreclame digitaal inzetten" },
+  { category: "Lokale SEO", topic: "Lokale SEO voor aannemers: gevonden worden in jouw regio" },
+  { category: "Lokale SEO", topic: "Google Bedrijfsprofiel optimaliseren als aannemer: stap voor stap" },
+  { category: "Lokale SEO", topic: "Google Maps voor aannemers: zo kom je bovenaan in de kaartresultaten" },
+  { category: "Lokale SEO", topic: "Waarom je concurrenten wél online investeren (en jij niet)" },
+  { category: "Gemiste oproepen", topic: "Gemiste oproepen = gemiste omzet: hoe je dat als aannemer oplost" },
+  { category: "Gemiste oproepen", topic: "Nooit meer een lead missen: automatische opvolging van gemiste oproepen" },
+  { category: "Online zichtbaarheid", topic: "De kosten van GEEN online aanwezigheid als aannemer" },
+  { category: "Online zichtbaarheid", topic: "Waarom mond-tot-mondreclame alleen niet meer genoeg is voor aannemers" },
+  { category: "Online zichtbaarheid", topic: "Social media voor aannemers: wel of niet doen?" },
+  { category: "Online zichtbaarheid", topic: "Hoe je als ZZP'er opvalt tussen de concurrentie online" },
+  { category: "Vakgebied", topic: "Hoe schilders meer werk binnenhalen via internet" },
+  { category: "Vakgebied", topic: "Online marketing voor loodgieters: meer klanten via je website" },
+  { category: "Vakgebied", topic: "Als dakdekker meer leads via je website: zo doe je dat" },
+  { category: "Vakgebied", topic: "Online zichtbaarheid voor elektriciens: van onzichtbaar naar onmisbaar" },
+  { category: "Vakgebied", topic: "Meer klanten als stukadoor: online strategieën die werken" },
+  { category: "Vakgebied", topic: "Als tegelzetter gevonden worden op Google: praktische gids" },
+  { category: "Vakgebied", topic: "Online marketing voor timmerlieden en metselaars" },
+  { category: "Tips", topic: "Automatisering voor kleine aannemers: tijd besparen, meer verdienen" },
+  { category: "Tips", topic: "Seizoensgebonden marketing voor aannemers: het hele jaar door werk" },
+  { category: "Tips", topic: "De simpelste manier om als aannemer online te starten" },
+  { category: "Tips", topic: "X snelle wins voor je online zichtbaarheid als ZZP'er" },
+];
+
+// Actual service pages on aannemersysteem.com
+const RELATED_LINKS = [
+  { label: "Professionele Website", href: "/diensten/lead-generatie" },
+  { label: "Review Systeem", href: "/diensten/review-funnel" },
+  { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+  { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+  { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+  { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+  { label: "Onze Diensten", href: "/diensten" },
 ];
 
 function slugify(text) {
@@ -86,6 +107,7 @@ async function main() {
 
   // Read existing articles file
   const existingContent = fs.readFileSync(ARTICLES_FILE, "utf-8");
+  const existingSlugs = [...existingContent.matchAll(/slug: "([^"]+)"/g)].map((m) => m[1]);
 
   // Pick topic based on day of year to rotate
   const start = new Date(new Date().getFullYear(), 0, 0);
@@ -94,24 +116,23 @@ async function main() {
 
   console.log(`Generating article for topic: "${topicEntry.topic}"`);
 
-  const RELATED_LINKS = [
-    { label: "Automatisering Bouwbedrijf", href: "/diensten/automatisering-bouwbedrijf" },
-    { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
-    { label: "Klantcommunicatie & SMS", href: "/diensten/klantcommunicatie" },
-    { label: "Review Systeem", href: "/diensten/review-funnel" },
-    { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
-    { label: "Digitalisering Bouwbedrijf", href: "/diensten/digitalisering-bouwbedrijf" },
-    { label: "CRM voor Aannemers", href: "/diensten/crm" },
-    { label: "Professionele Website", href: "/diensten/website" },
-  ];
+  const prompt = `Je bent een content writer voor AannemerSysteem.com. AannemerSysteem helpt aannemers, ZZP'ers en vakmensen (schilders, loodgieters, dakdekkers, elektriciens, timmerlieden, stukadoors, tegelzetters, metselaars) aan meer klanten via digitale marketing.
 
-  const prompt = `Je bent een content writer voor BouwFlow Boost, een Nederlands/Belgisch SaaS-platform dat aannemers (bouwbedrijven) helpt met digitalisering, automatisering en marketing.
+Wij leveren:
+1. Professionele websites — snelle, mobiele websites die bezoekers omzetten in aanvragen
+2. Review funnel — automatisch Google-reviews verzamelen van tevreden klanten
+3. Missed Call Text Back — gemiste oproepen automatisch opvolgen met een sms
 
-Schrijf een informatief kennisbank-artikel in het Nederlands over het volgende onderwerp:
+Wij leveren GEEN bouwsoftware, ERP, calculatie, planning tools, urenregistratie, BIM of projectadministratie.
+
+Schrijf een informatief kennisbank-artikel in het Nederlands over:
 "${topicEntry.topic}"
 
-Doelgroep: eigenaren van bouwbedrijven en aannemers in België en Nederland.
-Toon: praktisch, direct, no-nonsense. Geef concrete tips en cijfers waar mogelijk.
+Doelgroep: ZZP'ers, eenmanszaken en kleine aannemersbedrijven (2-10 man) in Nederland.
+Toon: direct, no-nonsense. Vakman spreekt vakman. Geen marketingjargon of buzzwords.
+Schrijf alsof je een collega-vakman adviseert. Gebruik concrete voorbeelden herkenbaar voor vakmensen.
+Wissel vakgebieden af in voorbeelden: schilder, loodgieter, dakdekker, elektricien, timmerman, stukadoor, metselaar, tegelzetter.
+Sluit af met een sectie die subtiel verwijst naar AannemerSysteem.com.
 
 Geef je antwoord ALLEEN als JSON (geen markdown, geen uitleg erbuiten):
 {
@@ -121,11 +142,11 @@ Geef je antwoord ALLEEN als JSON (geen markdown, geen uitleg erbuiten):
   "category": "${topicEntry.category}",
   "readTime": "X min",
   "sections": [
-    { "heading": "Sectietitel", "body": "2-3 zinnen inhoud. Praktisch en concreet." },
-    { "heading": "Sectietitel", "body": "2-3 zinnen inhoud." },
-    { "heading": "Sectietitel", "body": "2-3 zinnen inhoud." },
-    { "heading": "Sectietitel", "body": "2-3 zinnen inhoud." },
-    { "heading": "Sectietitel", "body": "2-3 zinnen inhoud." }
+    { "heading": "Sectietitel", "body": "Paragraaf van 3-5 zinnen. Praktisch en concreet." },
+    { "heading": "Sectietitel", "body": "Paragraaf van 3-5 zinnen." },
+    { "heading": "Sectietitel", "body": "Paragraaf van 3-5 zinnen." },
+    { "heading": "Sectietitel", "body": "Paragraaf van 3-5 zinnen." },
+    { "heading": "Sectietitel", "body": "Paragraaf van 3-5 zinnen." }
   ],
   "relatedLinks": [
     { "label": "Label", "href": "/diensten/..." },
@@ -135,12 +156,11 @@ Geef je antwoord ALLEEN als JSON (geen markdown, geen uitleg erbuiten):
 }
 
 Kies de relatedLinks ALLEEN uit deze opties: ${JSON.stringify(RELATED_LINKS)}
-Zorg dat de slug uniek is en niet voorkomt in deze lijst: ${JSON.stringify(
-    [...existingContent.matchAll(/slug: "([^"]+)"/g)].map((m) => m[1])
-  )}`;
+Kies 2-3 links die het meest relevant zijn voor het onderwerp.
+Zorg dat de slug uniek is en NIET voorkomt in deze lijst: ${JSON.stringify(existingSlugs)}`;
 
   const response = await client.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-sonnet-4-20250514",
     max_tokens: 2500,
     messages: [{ role: "user", content: prompt }],
   });
@@ -181,15 +201,15 @@ Zorg dat de slug uniek is en niet voorkomt in deze lijst: ${JSON.stringify(
   fs.writeFileSync(ARTICLES_FILE, updatedContent, "utf-8");
   console.log(`Article "${article.title}" written to kennisbankArticles.ts`);
 
-  // Git commit and push
+  // Git commit and push to main
   try {
     execSync(`git -C "${REPO_ROOT}" add src/data/kennisbankArticles.ts`);
     execSync(
       `git -C "${REPO_ROOT}" commit -m "blog: add daily article - ${article.title}"`,
       { stdio: "inherit" }
     );
-    execSync(`git -C "${REPO_ROOT}" push`, { stdio: "inherit" });
-    console.log("Pushed to GitHub. Vercel will auto-deploy.");
+    execSync(`git -C "${REPO_ROOT}" push origin main`, { stdio: "inherit" });
+    console.log("Pushed to main on GitHub. Vercel will auto-deploy.");
   } catch (err) {
     console.error("Git error:", err.message);
     process.exit(1);
