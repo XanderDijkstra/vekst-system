@@ -74,7 +74,7 @@ const KennisbankOverview = () => (
           </Link>
 
           <Link
-            to="/kennisbank"
+            to="/blog"
             className="group flex items-center justify-between rounded-2xl bg-card border border-border p-6 md:p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250 ease-system-ease"
           >
             <div className="flex items-start gap-4">

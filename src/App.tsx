@@ -25,6 +25,7 @@ import DemoPage from "./pages/DemoPage";
 import ConfiguratorPage from "./pages/ConfiguratorPage";
 import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
 import PrijzenPage from "./pages/PrijzenPage";
+import BlogOverview from "./pages/BlogOverview";
 import WikiOverview from "./pages/WikiOverview";
 import WikiTerm from "./pages/WikiTerm";
 import ServicePageWrapper from "./pages/ServicePageWrapper";
@@ -63,6 +64,7 @@ const App = () => (
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/demo" element={<DemoPage />} />
           <Route path="/prijzen" element={<PrijzenPage />} />
+          <Route path="/blog" element={<BlogOverview />} />
           <Route path="/wiki" element={<WikiOverview />} />
           <Route path="/wiki/:slug" element={<WikiTerm />} />
           <Route path="/configurator" element={<ConfiguratorPage />} />
