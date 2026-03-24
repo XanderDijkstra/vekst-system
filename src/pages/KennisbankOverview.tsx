@@ -6,6 +6,7 @@ import { fadeInUp } from "@/lib/animations";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 import { wikiTerms } from "@/data/wikiTerms";
 import { Clock, ArrowRight, BookOpen, Lightbulb, Calendar } from "lucide-react";
+import authorImg from "@/assets/xander-dijkstra.png";
 
 const SITE_URL = "https://aannemersysteem.com";
 
@@ -111,20 +112,17 @@ const KennisbankOverview = () => (
               </span>
               <h3 className="font-semibold text-foreground text-lg leading-snug">{a.title}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed flex-1">{a.description}</p>
-              <div className="mt-4 flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
-                    <Calendar className="h-3.5 w-3.5" />
-                    {formatDate(a.date)}
-                  </span>
-                  <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
-                    <Clock className="h-3.5 w-3.5" />
-                    {a.readTime}
-                  </span>
+              <div className="mt-4 flex items-center gap-3 pt-4 border-t border-border">
+                <img src={authorImg} alt="Xander Dijkstra" className="h-8 w-8 rounded-full object-cover" />
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs font-medium text-foreground">Xander Dijkstra</p>
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                    <span>{formatDate(a.date)}</span>
+                    <span>·</span>
+                    <span>{a.readTime}</span>
+                  </div>
                 </div>
-                <span className="flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
-                  Lees meer <ArrowRight className="h-4 w-4" />
-                </span>
+                <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0" />
               </div>
             </Link>
           ))}
@@ -158,14 +156,13 @@ const KennisbankOverview = () => (
               </span>
               <h3 className="font-semibold text-foreground text-lg leading-snug">{t.term}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed flex-1">{t.shortDescription}</p>
-              <div className="mt-4 flex items-center justify-between">
-                <span className="flex items-center gap-1.5 text-xs text-muted-foreground">
-                  <Calendar className="h-3.5 w-3.5" />
-                  {formatDate(t.date)}
-                </span>
-                <span className="flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
-                  Lees meer <ArrowRight className="h-4 w-4" />
-                </span>
+              <div className="mt-4 flex items-center gap-3 pt-4 border-t border-border">
+                <img src={authorImg} alt="Xander Dijkstra" className="h-8 w-8 rounded-full object-cover" />
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs font-medium text-foreground">Xander Dijkstra</p>
+                  <span className="text-xs text-muted-foreground">{formatDate(t.date)}</span>
+                </div>
+                <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0" />
               </div>
             </Link>
           ))}
