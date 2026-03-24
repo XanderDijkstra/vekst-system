@@ -54,14 +54,16 @@ const wikiKeywords: { pattern: RegExp; slug: string; label: string }[] = [
 interface Props {
   text: string;
   className?: string;
+  excludeSlug?: string;
 }
 
 /**
  * Renders text with wiki term keywords automatically linked to their wiki pages.
  * Only links the first occurrence of each term per text block.
  */
-export default function WikiLinkedText({ text, className }: Props) {
+export default function WikiLinkedText({ text, className, excludeSlug }: Props) {
   const linkedSlugs = new Set<string>();
+  if (excludeSlug) linkedSlugs.add(excludeSlug);
   const parts: { start: number; end: number; slug: string; match: string }[] = [];
 
   for (const { pattern, slug } of wikiKeywords) {

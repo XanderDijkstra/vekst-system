@@ -111,7 +111,7 @@ const WikiTerm = () => {
                   {section.heading}
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  <WikiLinkedText text={section.body} />
+                  <WikiLinkedText text={section.body} excludeSlug={term.slug} />
                 </p>
               </motion.div>
             ))}
