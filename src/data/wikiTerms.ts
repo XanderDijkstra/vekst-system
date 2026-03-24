@@ -383,6 +383,32 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "retargeting",
+    term: "Retargeting",
+    shortDescription:
+      "Advertenties laten zien aan mensen die eerder jouw website bezochten maar geen contact opnamen — als geheugensteuntje.",
+    category: "Marketing",
+    relatedTerms: ["google-ads", "conversie", "lead"],
+    relatedLinks: [
+      { label: "Website voor aannemers", href: "/diensten" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Retargeting betekent dat je online advertenties laat zien aan mensen die eerder jouw website hebben bezocht, maar geen actie hebben ondernomen. Stel: iemand zoekt op 'loodgieter Amsterdam', klikt op jouw site, maar belt niet. Met retargeting ziet diegene daarna jouw advertentie terug op andere websites of op social media — als geheugensteuntje om alsnog contact op te nemen.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "De meeste bezoekers van je website bellen niet meteen bij het eerste bezoek. Ze vergelijken, twijfelen, of worden afgeleid. Retargeting zorgt ervoor dat jouw bedrijfsnaam in hun hoofd blijft zitten. Voor aannemers en ZZP'ers kan dat het verschil maken tussen een gemiste klant en een nieuwe opdracht — zonder dat je steeds opnieuw hoeft te betalen om gevonden te worden.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Je plaatst een klein stukje code (een 'pixel') op je website. Wanneer iemand je site bezoekt, onthoudt die pixel dat. Vervolgens kun je via Google Ads of Facebook die persoon je advertentie laten zien terwijl hij andere sites bekijkt. Je betaalt alleen als iemand klikt. Het mooie is: je richt je op mensen die al interesse toonden, dus de kans op een opdracht is veel groter dan bij willekeurige advertenties.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

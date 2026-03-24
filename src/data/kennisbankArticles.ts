@@ -557,5 +557,84 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "Begin vandaag met drie stappen: (1) Digitaliseer je documentatie — gebruik een systeem waarin je per project foto's, certificaten en rapporten opslaat. Papieren mappen voldoen niet meer. (2) Train je team — iedereen op de bouwplaats moet weten wat er vastgelegd moet worden en wanneer. (3) Bouw een standaard opleverdossier-template dat je bij elk project gebruikt. Dit kost je nu een paar uur, maar bespaart je straks dagen aan stress en discussie bij de oplevering. Automatisering maakt het verschil: met de juiste tools kost het bijhouden van je dossier minimale extra tijd."
       }
     ]
+  },
+  {
+    slug: "seizoensgebonden-marketing-aannemers",
+    title: "Seizoensgebonden marketing voor aannemers: het hele jaar door werk",
+    description: "Leer hoe je als aannemer of ZZP'er seizoensgebonden marketing inzet om het hele jaar door opdrachten binnen te halen. Praktische tips per seizoen.",
+    category: "Marketing",
+    readTime: "8 min",
+    relatedLinks: [
+      { label: "Website voor aannemers", href: "/diensten" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+    ],
+    sections: [
+      {
+        heading: "Waarom seizoensgebonden marketing werkt",
+        body: "Veel aannemers en ZZP'ers kennen het probleem: in het voorjaar en de zomer sta je te springen om personeel, maar in de wintermaanden wordt het stil. Je agenda loopt leeg, de telefoon gaat minder vaak, en je begint je af te vragen of je genoeg werk hebt om de vaste lasten te dekken. Klanten denken niet het hele jaar aan hetzelfde. In het voorjaar wil iemand zijn gevel laten schilderen. In de herfst wordt dat lekkende dak ineens urgent. En in de winter? Dan zoeken mensen naar binnenwerk: een nieuwe badkamer, stucwerk, of leidingwerk. Als jij op het juiste moment online zichtbaar bent met de juiste boodschap, ben jij de eerste die ze bellen."
+      },
+      {
+        heading: "Voorjaar (maart – mei): buitenwerk pakt de kop",
+        body: "Het voorjaar is dé piek voor buitenwerk. Schilders, dakdekkers en metselaars kunnen nu het hardst groeien. Maar juist omdat iedereen druk is, vergeten veel vakmensen om zichtbaar te blijven. Dit is het moment om je Google Bedrijfsprofiel bij te werken met actuele foto's van recent buitenwerk, tevreden klanten te vragen om een review — ze zijn nu net blij met het resultaat — en je website te voorzien van seizoensgerichte teksten: 'Gevel laten schilderen dit voorjaar?' of 'Dakonderhoud na de winter'. Een schilder uit Breda haalde vorig voorjaar drie extra opdrachten binnen puur doordat zijn Google-profiel bovenaan stond met recente foto's van gevelwerk. Zijn concurrent had sinds 2023 niets meer geüpdatet."
+      },
+      {
+        heading: "Zomer (juni – augustus): grote projecten en vooruit plannen",
+        body: "De zomer is ideaal voor grotere projecten: aanbouwen, dakvernieuwingen, terrassen. Timmerlieden en aannemers draaien overuren. Maar let op: dit is ook het moment om alvast te zaaien voor het najaar. Plaats foto's en updates van lopende projecten op je website en Google-profiel. Verzamel reviews van zomerprojecten — die heb je nodig als het rustiger wordt. En denk alvast na over je winteraanbod: welke diensten kun je promoten als het buiten kouder wordt?"
+      },
+      {
+        heading: "Herfst (september – november): het kantelmoment",
+        body: "De herfst is een kantelmoment. Buitenwerk loopt af, binnenwerk begint. Dit is het seizoen waarin slimme vakmensen het verschil maken. Een loodgieter die nu adverteert met 'CV-ketel laten nakijken voor de winter' pakt klanten die anders naar de concurrent gaan. Pas je websiteteksten aan: focus op binnenwerk, onderhoud, winterklaar maken. Stuur een bericht naar eerdere klanten: 'De winter komt eraan — is je installatie nog in orde?' Zet je Missed Call Text Back aan als je dat nog niet deed — juist nu bellen mensen impulsief als de verwarming het niet doet. Een elektricien uit Utrecht zette vorig najaar een simpele pagina op zijn website: 'Elektrische vloerverwarming laten aanleggen.' Die ene pagina leverde hem vier opdrachten op in twee maanden, puur via Google."
+      },
+      {
+        heading: "Winter (december – februari): binnenwerk en voorbereiding",
+        body: "De winter is voor veel aannemers de moeilijkste periode. Maar het is ook de periode waarin je je online basis op orde brengt voor het komende jaar. Stukadoors, tegelzetters en loodgieters hebben volop werk met binnenprojecten. Update je website met wintergerichte content: 'Badkamer renovatie in de winter? Nu is het ideale moment.' Werk aan je reviews — bel klanten van afgelopen seizoen en vraag of ze een review willen achterlaten. Optimaliseer je Google Bedrijfsprofiel: voeg nieuwe diensten toe, werk openingstijden bij. Dit is ook het perfecte moment om je website te laten verbeteren. Je hebt de tijd, en als het voorjaar begint sta je er klaar voor."
+      },
+      {
+        heading: "De grootste fout: alleen zichtbaar zijn als je het druk hebt",
+        body: "De meeste aannemers doen aan marketing als ze het druk hebben — want dan zijn de resultaten zichtbaar en voelt het goed. Maar het echte rendement zit in de stille maanden. Als jij in oktober je website optimaliseert voor winterwerk, pluk je daar in november en december de vruchten van. Een klant die in januari een nieuwe badkamer wil, zoekt in november op Google. Als jij dan niet vindbaar bent, gaat die opdracht naar een concurrent die wél zichtbaar is."
+      },
+      {
+        heading: "Praktisch: hoe begin je?",
+        body: "Je hoeft geen marketingexpert te zijn. Begin met drie stappen: (1) Maak een seizoenskalender — schrijf per kwartaal op welke diensten je aanbiedt en waar klanten naar zoeken. Pas je websiteteksten daar vier keer per jaar op aan. (2) Verzamel het hele jaar door reviews — niet alleen als je eraan denkt, maar structureel. Een review funnel automatiseert dit: na elke klus krijgt je klant een berichtje met de vraag om een Google-review. (3) Zorg dat je bereikbaar bent — klinkt logisch, maar juist in drukke periodes missen aannemers telefoontjes. Een Missed Call Text Back stuurt automatisch een sms naar gemiste bellers zodat je geen enkele lead verliest."
+      }
+    ]
+  },
+  {
+    slug: "tevreden-klanten-beste-verkopers",
+    title: "Zo maak je van tevreden klanten je beste verkopers",
+    description: "5 praktische manieren om als aannemer of ZZP'er tevreden klanten in te zetten voor meer opdrachten. Direct toepasbaar.",
+    category: "Reputatie",
+    readTime: "4 min",
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Website voor aannemers", href: "/diensten" },
+    ],
+    sections: [
+      {
+        heading: "Waarom tevreden klanten je beste marketing zijn",
+        body: "Je levert goed werk. Klanten zijn blij. Maar hoeveel van die tevreden klanten leveren jou ook daadwerkelijk nieuwe opdrachten op? Waarschijnlijk minder dan je denkt. Nieuwe klanten willen weten of je betrouwbaar bent voordat ze bellen. Reviews, foto's en aanbevelingen zijn het bewijs. Elke tevreden klant die dat bevestigt, is een verkoper die 24/7 voor je werkt — zonder dat het je iets kost."
+      },
+      {
+        heading: "1. Vraag om een Google-review direct na de klus",
+        body: "Het beste moment om een review te vragen is vlak na oplevering, als de klant nog enthousiast is. Wacht je een week, dan is het moment voorbij. Een stukadoor uit Den Haag vertelde ons dat hij van tien tevreden klanten er maar één een review kreeg — totdat hij het meteen bij oplevering begon te vragen. Nu krijgt hij van de helft een review. Gebruik een review funnel die automatisch een berichtje stuurt na de klus. Dan hoef je er zelf niet meer aan te denken."
+      },
+      {
+        heading: "2. Maak het makkelijk",
+        body: "De meeste klanten willen best een review schrijven, maar haken af als ze zelf moeten zoeken waar dat moet. Stuur een directe link naar jouw Google-reviewpagina via WhatsApp of sms. Eén klik, review schrijven, klaar. Hoe minder stappen, hoe meer reviews je krijgt."
+      },
+      {
+        heading: "3. Deel je beste werk op je website",
+        body: "Foto's van een net betegelde badkamer of een strak geschilderde gevel zeggen meer dan honderd woorden. Vraag je klant of je foto's mag plaatsen op je website. De meeste mensen vinden dat prima — en het geeft nieuwe bezoekers direct vertrouwen."
+      },
+      {
+        heading: "4. Vraag of ze je willen aanbevelen",
+        body: "Klinkt ouderwets, maar het werkt nog steeds. Het verschil: vroeger was mond-tot-mondreclame beperkt tot de buurman. Nu kan één positieve aanbeveling op Facebook of in een buurtapp tientallen potentiële klanten bereiken. Een dakdekker uit Eindhoven kreeg vorig jaar drie opdrachten uit één bericht in een buurt-WhatsAppgroep. Zeg gewoon: 'Als je tevreden bent, zou je me dan willen aanbevelen als iemand in je omgeving een dakdekker zoekt?' Simpel, direct, en niemand vindt het raar."
+      },
+      {
+        heading: "5. Reageer op reviews die je al hebt",
+        body: "Heb je al een paar reviews staan? Reageer erop. Een kort bedankje laat zien dat je betrokken bent. En het laat nieuwe klanten zien dat er een echt persoon achter het bedrijf zit — niet een onpersoonlijk bouwbedrijf. Google waardeert het ook: actief reageren op reviews helpt je positie in de zoekresultaten."
+      }
+    ]
   }
 ];
