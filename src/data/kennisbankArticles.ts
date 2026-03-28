@@ -698,5 +698,44 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "De klant heeft zijn keuze al voor 80% gemaakt voordat hij jou belt. Dat betekent dat je online aanwezigheid het zware werk doet. Goede reviews, een professionele website, snel reageren op gemiste oproepen en eerlijke foto's van je werk. Dat is geen luxe, dat is de basis. Bij AannemerSysteem.com helpen we vakmensen precies hiermee: een website die vertrouwen wekt, een reviewsysteem dat automatisch werkt, en een gemiste-oproep-opvang zodat je nooit meer een klant misloopt."
       }
     ]
+  },
+  {
+    slug: "gemiste-oproepen-gemiste-omzet",
+    title: "Gemiste oproepen = gemiste omzet: zo los je dat op als aannemer",
+    description: "Ontdek hoeveel klussen je misloopt door gemiste telefoontjes en wat je eraan kunt doen zonder je werkdag te onderbreken.",
+    category: "Gemiste oproepen",
+    readTime: "6 min",
+    date: "2026-03-28",
+    relatedLinks: [
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Het probleem: je telefoon gaat, maar je staat op de steiger",
+        body: "Elke aannemer kent het. Je staat met je handen vol op het dak, in de kruipruimte of achter de zaagmachine. Je telefoon gaat, je kunt niet opnemen. Tegen de tijd dat je pauze hebt, ben je het vergeten of durf je niet meer terug te bellen omdat het al uren geleden is. Die gemiste oproep was misschien een klus van duizenden euro's. En die potentiele klant? Die heeft inmiddels de volgende stukadoor op het lijstje gebeld."
+      },
+      {
+        heading: "De cijfers: wat een gemiste oproep je werkelijk kost",
+        body: "Uit onderzoek blijkt dat 62% van de bellers die niet worden teruggebeld nooit meer contact opneemt. Ze bellen simpelweg de concurrent. Stel je mist drie telefoontjes per week. Twee daarvan zijn potentiele klanten met een gemiddelde kluswaarde van 1.500 euro. Dat is 3.000 euro per week die je laat liggen, ofwel meer dan 12.000 euro per maand. Zelfs als je maar de helft van die klussen had binnengehaald, praat je over serieus geld."
+      },
+      {
+        heading: "Waarom terugbellen aan het eind van de dag niet werkt",
+        body: "Veel vakmensen denken: ik bel ze vanavond wel terug. Maar de realiteit is anders. Na een lange dag op de werf heb je geen zin meer om te bellen. En als je het wel doet, is het al te laat. De klant heeft allang iemand anders gevonden. Onderzoek toont aan dat je 80% meer kans hebt om een lead te winnen als je binnen 5 minuten reageert. Na een uur is die kans al gehalveerd. Snelheid wint het van kwaliteit als het gaat om dat eerste contact."
+      },
+      {
+        heading: "De oplossing: automatische SMS bij een gemiste oproep",
+        body: "De slimste oplossing is simpel: zodra je een telefoontje mist, stuurt het systeem automatisch een SMS naar de beller. Iets als: 'Bedankt voor je oproep. Ik sta momenteel op de werf en bel je zo snel mogelijk terug. Wil je alvast je vraag sturen? Dan kan ik me voorbereiden.' De klant weet dat je bestaat, dat je bezig bent met echt werk, en dat je terugbelt. Dat koopt je tijd zonder de klant te verliezen."
+      },
+      {
+        heading: "Hoe een stukadoor uit Breda er 4 klussen per maand bij kreeg",
+        body: "Een stukadoor die wij hielpen miste gemiddeld vijf telefoontjes per week. Na het inschakelen van automatische SMS-opvolging kreeg hij op drie van die vijf oproepen alsnog een reactie terug. Binnen een maand leverde dat vier extra klussen op met een totale waarde van ruim 8.000 euro. Zijn investering: een fractie daarvan. Het enige wat hij anders deed was een systeem laten draaien dat automatisch reageert als hij niet kan opnemen."
+      },
+      {
+        heading: "Wat je vandaag nog kunt doen",
+        body: "Je hoeft geen techneut te zijn om dit op te lossen. Stap een: realiseer je dat elke gemiste oproep potentieel geld kost. Stap twee: zorg dat er iets gebeurt als je niet opneemt. Geen voicemail die niemand afluistert, maar een directe SMS die de klant vasthoudt. Bij AannemerSysteem.com regelen we dit voor je: een automatisch systeem dat gemiste oproepen opvangt, de beller een bericht stuurt en jou een melding geeft. Zo verlies je nooit meer een klant omdat je aan het werk was."
+      }
+    ]
   }
 ];

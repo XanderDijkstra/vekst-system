@@ -452,6 +452,33 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "schema-markup",
+    term: "Schema Markup",
+    shortDescription:
+      "Een stukje onzichtbare code op je website dat Google vertelt wat je bedrijf doet, waar je zit en welke reviews je hebt — zodat je beter zichtbaar wordt in zoekresultaten.",
+    category: "Technisch",
+    date: "2026-03-28",
+    relatedTerms: ["seo", "local-seo", "google-mijn-bedrijf"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Schema markup is een stukje gestructureerde code dat je aan je website toevoegt, maar dat bezoekers niet zien. Het is bedoeld voor zoekmachines zoals Google. Het vertelt Google precies wat voor bedrijf je hebt, welke diensten je levert, in welk werkgebied je actief bent, en wat je reviews zijn. Vergelijk het met een etiket op een doos: de inhoud verandert niet, maar iedereen weet meteen wat erin zit.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Met schema markup kan Google jouw bedrijfsgegevens direct tonen in de zoekresultaten. Denk aan sterren uit reviews, je telefoonnummer, je werkgebied en je openingstijden — allemaal zichtbaar nog voordat iemand op je website klikt. Dat zorgt voor meer vertrouwen en meer klikken. Een dakdekker met vijf sterren direct zichtbaar in Google krijgt simpelweg meer telefoontjes dan een concurrent zonder die informatie.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Je webontwikkelaar voegt de schema markup toe aan de broncode van je website. Voor aannemers is vooral het type 'LocalBusiness' belangrijk, aangevuld met 'Service' voor je specifieke diensten en 'AggregateRating' voor je reviews. Bezoekers merken er niets van, maar Google leest die gegevens en gebruikt ze om jouw vermelding in de zoekresultaten te verrijken. Wij bouwen dit standaard in bij elke website die we opleveren.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
