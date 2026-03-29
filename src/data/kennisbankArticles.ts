@@ -737,5 +737,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "Je hoeft geen techneut te zijn om dit op te lossen. Stap een: realiseer je dat elke gemiste oproep potentieel geld kost. Stap twee: zorg dat er iets gebeurt als je niet opneemt. Geen voicemail die niemand afluistert, maar een directe SMS die de klant vasthoudt. Bij AannemerSysteem.com regelen we dit voor je: een automatisch systeem dat gemiste oproepen opvangt, de beller een bericht stuurt en jou een melding geeft. Zo verlies je nooit meer een klant omdat je aan het werk was."
       }
     ]
+  },
+  {
+    slug: "van-visitekaartje-naar-digitale-aanwezigheid",
+    title: "Van visitekaartje naar digitale aanwezigheid: de overstap die elke vakman moet maken",
+    description: "Waarom een stapel visitekaartjes niet meer genoeg is en hoe je als metselaar, tegelzetter of stukadoor de stap zet naar een professionele online aanwezigheid.",
+    category: "Strategie",
+    readTime: "6 min",
+    date: "2026-03-29",
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+    sections: [
+      {
+        heading: "Het visitekaartje werkt nog steeds, maar niet meer alleen",
+        body: "Natuurlijk, een visitekaartje op de bouwplaats uitdelen is niet verkeerd. Een tevreden klant die jouw kaartje doorgeeft aan de buurman heeft waarde. Maar hoeveel van die kaartjes belanden in een la of worden weggegooid bij het opruimen? Het probleem is niet dat visitekaartjes slecht zijn, maar dat ze slechts een klein deel van je potentiele klanten bereiken. De meeste mensen zoeken tegenwoordig online naar een vakman, niet in hun jaszak."
+      },
+      {
+        heading: "Hoe klanten vandaag de dag een metselaar of tegelzetter vinden",
+        body: "Als iemand een nieuwe badkamer wil of een tuinmuur moet laten metselen, pakt diegene de telefoon en googelt. Niet om te bellen, maar om te zoeken. Ze typen iets als 'tegelzetter regio Utrecht' of 'metselaar in de buurt'. Als jij daar niet verschijnt, besta je niet voor die klant. Het maakt niet uit hoe goed je werk is of hoeveel ervaring je hebt. Als je niet vindbaar bent, gaat de klus naar iemand die dat wel is."
+      },
+      {
+        heading: "Wat je minimaal nodig hebt als vakman in 2026",
+        body: "Je hebt geen ingewikkelde marketingmachine nodig. De basis is simpel: een professionele website met foto's van je eigen werk, een ingevuld Google Bedrijfsprofiel met je juiste gegevens en werkgebied, en een handvol echte Google-reviews van tevreden klanten. Met die drie dingen ben je al beter zichtbaar dan de helft van je concurrenten. De meeste vakmensen hebben namelijk nog steeds geen fatsoenlijke website."
+      },
+      {
+        heading: "Waarom een Facebook-pagina niet genoeg is",
+        body: "Veel ZZP'ers denken dat een Facebook-pagina voldoende is. Het is gratis en je kunt er foto's op zetten. Maar Facebook is geen zoekmachine. Mensen die actief op zoek zijn naar een stukadoor of metselaar zoeken op Google, niet op Facebook. Bovendien heb je op Facebook geen controle over hoe je gevonden wordt. Een eigen website geeft je die controle wel. Je bepaalt zelf welke informatie er staat, hoe het eruitziet en hoe makkelijk het is om contact op te nemen."
+      },
+      {
+        heading: "De overstap hoeft niet groot of duur te zijn",
+        body: "De stap van visitekaartje naar digitale aanwezigheid klinkt misschien als een groot project, maar dat hoeft het niet te zijn. Een goede website kun je in een paar dagen live hebben. Reviews verzamelen doe je door na elke klus een simpel linkje te sturen. En je Google Bedrijfsprofiel invullen kost je een uurtje. Het gaat niet om perfect beginnen, het gaat om beginnen. Elke dag dat je niet online zichtbaar bent, laat je klussen liggen."
+      },
+      {
+        heading: "Hoe een tegelzetter uit Eindhoven de switch maakte",
+        body: "Een tegelzetter die jarenlang alleen op mond-tot-mondreclame draaide, merkte dat het rustiger werd. Nieuwe klanten bleven uit. Na het opzetten van een professionele website en het actief verzamelen van reviews kreeg hij binnen zes weken zijn eerste online aanvraag. Drie maanden later kwam 40% van zijn nieuwe klussen via zijn website. Zijn visitekaartjes deelt hij nog steeds uit, maar nu staat er een website-adres op waar mensen zijn werk kunnen bekijken."
+      },
+      {
+        heading: "Zet vandaag nog de eerste stap",
+        body: "Je hoeft niet alles tegelijk te doen. Begin met een stap die bij je past. Vraag een klant om een Google-review, maak je Google Bedrijfsprofiel aan of laat een professionele website bouwen. Bij AannemerSysteem.com helpen we vakmensen zoals jij met precies deze overstap. Geen ingewikkelde systemen, geen marketingverhalen. Gewoon een sterke online basis zodat klanten jou vinden in plaats van andersom."
+      }
+    ]
   }
 ];

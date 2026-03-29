@@ -479,6 +479,33 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "naw-consistentie",
+    term: "NAW-consistentie",
+    shortDescription:
+      "Zorgen dat je bedrijfsnaam, adres en telefoonnummer overal op internet exact hetzelfde staan — zodat Google je vertrouwt en hoger toont.",
+    category: "Technisch",
+    date: "2026-03-29",
+    relatedTerms: ["local-seo", "google-mijn-bedrijf", "seo"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "NAW staat voor Naam, Adres en Woonplaats, maar in de praktijk gaat het om al je contactgegevens: bedrijfsnaam, adres, postcode, plaats en telefoonnummer. NAW-consistentie betekent dat deze gegevens overal op internet exact hetzelfde zijn. Op je website, op Google Mijn Bedrijf, op de Gouden Gids, op je Facebook-pagina en op elke andere plek waar je bedrijf vermeld staat.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Google checkt op tientallen plekken of jouw bedrijfsgegevens kloppen. Als je op je website 'Timmerwerken De Jong' heet, op Google 'Timmerbedrijf De Jong' en op de Gouden Gids 'De Jong Timmerwerk', dan weet Google niet zeker of het om hetzelfde bedrijf gaat. Dat kost je plekken in de zoekresultaten. Een loodgieter die overal exact dezelfde gegevens heeft, wordt door Google als betrouwbaarder gezien en komt hoger in de lokale zoekresultaten.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Maak een lijstje van alle plekken waar je bedrijf online vermeld staat: je eigen website, Google Bedrijfsprofiel, sociale media, branchegidsen en reviewsites. Controleer of je bedrijfsnaam, adres en telefoonnummer overal identiek zijn. Geen afkortingen op de ene plek en voluit op de andere. Geen oud adres op een vergeten profiel. Wij checken dit standaard voor onze klanten en zorgen dat alles klopt, zodat Google precies weet wie je bent en waar je zit.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
