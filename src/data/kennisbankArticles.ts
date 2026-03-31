@@ -780,5 +780,47 @@ export const kennisbankArticles: KennisbankArticle[] = [
         body: "Je hoeft niet alles tegelijk te doen. Begin met een stap die bij je past. Vraag een klant om een Google-review, maak je Google Bedrijfsprofiel aan of laat een professionele website bouwen. Bij AannemerSysteem.com helpen we vakmensen zoals jij met precies deze overstap. Geen ingewikkelde systemen, geen marketingverhalen. Gewoon een sterke online basis zodat klanten jou vinden in plaats van andersom."
       }
     ]
+  },
+  {
+    slug: "social-media-aannemers-wel-of-niet",
+    title: "Social media voor aannemers: wel of niet doen?",
+    description: "Is social media de moeite waard als aannemer of ZZP'er? We leggen uit wanneer het werkt, wanneer niet, en wat je minimaal moet doen om er klanten uit te halen.",
+    category: "Marketing",
+    readTime: "6 min",
+    sections: [
+      {
+        heading: "De vraag die elke vakman zich stelt",
+        body: "Je ziet collega-aannemers foto's plaatsen op Instagram en filmpjes maken op TikTok. Dan denk je: moet ik dat ook? Het eerlijke antwoord is: het hangt ervan af. Social media kan prima werken voor vakmensen, maar alleen als je het op de juiste manier aanpakt. Blindelings elke dag iets posten zonder plan levert je geen klanten op. Maar slim inzetten van een of twee kanalen kan wel degelijk werk opleveren."
+      },
+      {
+        heading: "Wanneer social media wel werkt",
+        body: "Social media werkt het beste als je visueel werk doet. Een stukadoor die een wand van ruw naar strak laat zien in een voor-en-na foto scoort altijd. Een timmerman die een maatwerk keuken deelt, trekt aandacht. Het gaat niet om perfecte foto's of dure video's. Een eerlijke telefoonopname van je werk in uitvoering is vaak genoeg. Mensen willen zien wat je kunt, niet hoe goed je kunt filmen."
+      },
+      {
+        heading: "Wanneer social media niet werkt",
+        body: "Als je geen tijd hebt om regelmatig te posten, heeft het weinig zin. Een Facebook-pagina met de laatste post van acht maanden geleden werkt eerder tegen je dan voor je. Potentiele klanten denken dan dat je niet meer actief bent. Ook als je alleen maar promotieposts plaatst zonder echte content, haken mensen snel af. Niemand wil elke dag lezen dat je de beste metselaar van de regio bent."
+      },
+      {
+        heading: "Welk platform past bij welk vak",
+        body: "Facebook werkt goed voor lokale zichtbaarheid. Veel mensen zoeken in buurtgroepen naar aanbevelingen voor een loodgieter of elektricien. Instagram is ideaal voor visueel werk: badkamerrenovaties, schilderwerk, dakprojecten. TikTok groeit snel en korte klus-video's doen het daar verrassend goed. LinkedIn is minder relevant tenzij je op zakelijke opdrachtgevers richt. Kies een platform dat bij je werk en doelgroep past in plaats van overal een beetje aanwezig te zijn."
+      },
+      {
+        heading: "Wat levert het concreet op",
+        body: "Social media levert zelden direct telefoontjes op zoals een goede website of Google-profiel dat doet. Het is meer een vertrouwenskanaal. Mensen zien je werk voorbijkomen, onthouden je naam en denken aan jou als ze iemand nodig hebben. Een dakdekker uit Breda deelde maandelijks een paar projectfoto's op Facebook. Na een half jaar kreeg hij regelmatig berichten van mensen die hem via een gedeelde post hadden gevonden. Niet tientallen per week, maar wel een paar extra klussen per maand."
+      },
+      {
+        heading: "De basis is belangrijker dan social media",
+        body: "Voordat je tijd steekt in social media, zorg dat je basis op orde is. Een professionele website waar mensen direct een aanvraag kunnen doen. Een Google Bedrijfsprofiel met goede reviews. Een systeem dat gemiste oproepen opvangt. Zonder die basis stuur je social media bezoekers naar een doodlopend straatje. Ze zien je mooie werk online, zoeken je op en vinden niets of kunnen je niet bereiken. Dat is zonde van je moeite."
+      },
+      {
+        heading: "Begin klein en bouw het op",
+        body: "Je hoeft geen contentkalender te maken of elke dag te posten. Begin met een foto van je volgende klus en plaats die op Facebook of Instagram. Vraag een tevreden klant of je een foto mag delen. Doe dat een keer per week en kijk wat het oplevert. Bij AannemerSysteem.com zorgen we eerst dat je digitale basis staat: een sterke website, reviews en bereikbaarheid. Social media is de kers op de taart, niet het fundament."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
   }
 ];

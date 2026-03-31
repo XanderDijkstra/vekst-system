@@ -506,6 +506,30 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "responsief-design",
+    term: "Responsief Design",
+    shortDescription: "Een website die zich automatisch aanpast aan het scherm waarop je hem bekijkt, of dat nou een telefoon, tablet of computer is.",
+    category: "Technisch",
+    relatedTerms: ["seo", "conversie", "bounce-rate"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Responsief design betekent dat je website er goed uitziet en goed werkt op elk apparaat. Of iemand je site nu opent op een iPhone, een iPad of een grote computermonitor, de tekst is leesbaar, de knoppen zijn klikbaar en de foto's passen op het scherm. De website past zich automatisch aan zonder dat je daar iets voor hoeft te doen.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Meer dan 70% van de mensen zoekt op hun telefoon naar een vakman. Als jouw website op een telefoon niet goed werkt, kleine lettertjes heeft of knoppen die je niet kunt raken, dan klikt iemand weg en belt je concurrent. Google geeft bovendien voorrang aan websites die goed werken op mobiel. Een schilder met een mobielvriendelijke site komt dus hoger in de zoekresultaten dan een collega met een verouderde site.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Als een loodgieter uit Utrecht een nieuwe website laat bouwen, wordt die automatisch responsief gemaakt. Een klant die onderweg is en op zijn telefoon zoekt naar een loodgieter, ziet dezelfde professionele site als iemand achter zijn laptop. De bel-knop is groot genoeg om aan te tikken en het contactformulier is makkelijk in te vullen. Zo verlies je geen enkele potentiele klant door een slecht werkende site.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
