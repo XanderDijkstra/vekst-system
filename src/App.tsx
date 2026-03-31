@@ -14,6 +14,14 @@ import ReviewFunnel from "./pages/systemen/ReviewFunnel";
 import AllInOneInbox from "./pages/systemen/AllInOneInbox";
 import MarketingCampagnes from "./pages/systemen/MarketingCampagnes";
 import LeadFollowUp from "./pages/systemen/LeadFollowUp";
+import DigitaliseringAannemers from "./pages/diensten/DigitaliseringAannemers";
+import AutomatiseringAannemers from "./pages/diensten/AutomatiseringAannemers";
+import SoftwareIntegraties from "./pages/diensten/SoftwareIntegraties";
+import AiOplossingen from "./pages/diensten/AiOplossingen";
+import OfferteSysteem from "./pages/diensten/OfferteSysteem";
+import ReviewSysteem from "./pages/diensten/ReviewSysteem";
+import PlanningSysteem from "./pages/diensten/PlanningSysteem";
+import MarketingAutomatisering from "./pages/diensten/MarketingAutomatisering";
 import SectorPage from "./pages/SectorPage";
 import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
@@ -55,6 +63,14 @@ const App = () => (
           <Route path="/diensten/all-in-one-inbox" element={<AllInOneInbox />} />
           <Route path="/diensten/marketing-campagnes" element={<MarketingCampagnes />} />
           <Route path="/diensten/lead-follow-up" element={<LeadFollowUp />} />
+          <Route path="/diensten/digitalisering-aannemers" element={<DigitaliseringAannemers />} />
+          <Route path="/diensten/automatisering-aannemers" element={<AutomatiseringAannemers />} />
+          <Route path="/diensten/software-integraties" element={<SoftwareIntegraties />} />
+          <Route path="/diensten/ai-oplossingen" element={<AiOplossingen />} />
+          <Route path="/diensten/offerte-systeem" element={<OfferteSysteem />} />
+          <Route path="/diensten/review-systeem" element={<ReviewSysteem />} />
+          <Route path="/diensten/planning-systeem" element={<PlanningSysteem />} />
+          <Route path="/diensten/marketing-automatisering" element={<MarketingAutomatisering />} />
           <Route path="/diensten/:slug" element={<DienstDetail />} />
           <Route path="/sector/digitalisering-voor-aannemers" element={<SectorPage />} />
           <Route path="/kennisbank" element={<KennisbankOverview />} />
