@@ -530,6 +530,31 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "ssl-certificaat",
+    term: "SSL-certificaat",
+    shortDescription: "Een digitaal beveiligingskeurmerk dat ervoor zorgt dat gegevens op je website versleuteld worden verstuurd, herkenbaar aan het slotje in de adresbalk.",
+    category: "Technisch",
+    date: "2026-04-01",
+    relatedTerms: ["seo", "responsief-design", "conversie"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een SSL-certificaat is een stukje techniek dat de verbinding tussen je website en de bezoeker beveiligt. Je herkent het aan het slotje naast je websiteadres en aan https in plaats van http. Het zorgt ervoor dat gegevens die iemand invult op je site, zoals een naam of telefoonnummer, versleuteld worden verstuurd zodat niemand anders ze kan onderscheppen.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Zonder SSL-certificaat toont Google Chrome een waarschuwing dat je website niet veilig is. Dat schrikt potentiele klanten direct af. Een elektricien die een contactformulier op zijn site heeft zonder SSL verliest bezoekers nog voordat ze hun gegevens invullen. Daarnaast geeft Google voorrang aan beveiligde websites in de zoekresultaten. Geen SSL betekent dus minder vertrouwen en een lagere positie in Google.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een schilder laat een nieuwe website bouwen en het SSL-certificaat wordt automatisch geactiveerd. Wanneer een klant via Google op zijn site komt en een offerteaanvraag invult, worden die gegevens veilig verstuurd. De bezoeker ziet het slotje in de browser en vertrouwt erop dat zijn informatie in goede handen is. Bij de meeste moderne hostingpakketten is SSL standaard inbegrepen, dus je hoeft er zelf niets voor te doen.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

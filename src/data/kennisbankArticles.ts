@@ -822,5 +822,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Onze Diensten", href: "/diensten" }
     ]
+  },
+  {
+    slug: "reviews-vs-advertenties-aannemers",
+    title: "Reviews vs. advertenties: wat werkt beter voor aannemers?",
+    description: "Moet je als aannemer investeren in Google Ads of juist inzetten op reviews? We vergelijken beide aanpakken en laten zien wat het meeste oplevert voor vakmensen.",
+    category: "Strategie",
+    readTime: "6 min",
+    date: "2026-04-01",
+    sections: [
+      {
+        heading: "Twee manieren om klanten te trekken",
+        body: "Als tegelzetter of stukadoor heb je grofweg twee manieren om online aan nieuwe klanten te komen. Je kunt betalen voor advertenties via Google Ads of je kunt investeren in goede reviews van tevreden klanten. Beide werken, maar ze werken heel anders. Welke aanpak het slimst is hangt af van je situatie, je budget en hoe snel je resultaat wilt zien."
+      },
+      {
+        heading: "Hoe Google Ads werkt voor vakmensen",
+        body: "Met Google Ads betaal je om bovenaan de zoekresultaten te verschijnen. Iemand zoekt op stukadoor Amsterdam en jouw advertentie staat er meteen. Het voordeel is snelheid: je kunt vandaag beginnen en morgen al gebeld worden. Het nadeel is dat het stopt zodra je stopt met betalen. Elke klik kost geld, of die persoon nu belt of niet. Voor een gemiddelde aannemer liggen de kosten tussen de drie en tien euro per klik."
+      },
+      {
+        heading: "Waarom reviews zo krachtig zijn",
+        body: "Reviews zijn het digitale equivalent van mond-tot-mondreclame. Als een loodgieter twintig vijfsterrenreviews heeft op Google, hoeft hij potentiele klanten niet meer te overtuigen. Dat doen die reviews voor hem. Mensen vertrouwen de ervaring van anderen meer dan welke advertentie dan ook. Bovendien helpen reviews je om hoger in Google te komen zonder dat je ervoor betaalt. Ze blijven werken, ook als je er even niet mee bezig bent."
+      },
+      {
+        heading: "De cijfers spreken voor zich",
+        body: "Onderzoek laat zien dat meer dan 80 procent van de mensen online reviews leest voordat ze een vakman bellen. Een metselaar met dertig goede reviews wordt vaker gekozen dan een concurrent met nul reviews en een advertentie. Advertenties trekken de aandacht, maar reviews sluiten de deal. Klanten willen weten of je goed werk levert en of je betrouwbaar bent. Dat lezen ze in reviews, niet in een advertentie."
+      },
+      {
+        heading: "Wanneer advertenties wel slim zijn",
+        body: "Advertenties zijn handig als je net begint en nog geen reviews hebt. Of als je een rustige periode hebt en snel je agenda wilt vullen. Een dakdekker die in het voorjaar zijn piek wil vullen kan met een korte Google Ads campagne snel extra aanvragen binnenhalen. Maar zie het als een sprint, niet als een marathon. Op de lange termijn wil je niet afhankelijk zijn van advertenties om werk te krijgen."
+      },
+      {
+        heading: "De beste aanpak is een combinatie",
+        body: "De slimste vakmensen combineren beide. Ze bouwen structureel aan hun reviews zodat ze organisch gevonden worden en vertrouwen uitstralen. En in rustige periodes zetten ze een gerichte advertentie in om de boel aan te vullen. Een timmerman uit Den Bosch gebruikte deze aanpak. Zijn reviews zorgden voor een stabiele stroom aanvragen en met een klein advertentiebudget in de wintermaanden hield hij zijn agenda vol."
+      },
+      {
+        heading: "Begin met je reviews op orde brengen",
+        body: "Ons advies: begin altijd bij je reviews. Vraag elke tevreden klant om een Google-review en maak het ze makkelijk. Bij AannemerSysteem.com helpen we je met een review funnel die dit automatisch regelt. Zodra je een stevige basis aan reviews hebt, kun je eventueel advertenties toevoegen als aanvulling. Zo bouw je aan een online reputatie die jarenlang klanten oplevert zonder dat je elke maand een advertentiebudget moet neerleggen."
+      }
+    ],
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+      { label: "Professionele Website", href: "/diensten/lead-generatie" }
+    ]
   }
 ];
