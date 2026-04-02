@@ -555,6 +555,31 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "google-analytics",
+    term: "Google Analytics",
+    shortDescription: "Een gratis tool van Google waarmee je kunt zien hoeveel mensen je website bezoeken, waar ze vandaan komen en wat ze op je site doen.",
+    category: "Technisch",
+    date: "2026-04-02",
+    relatedTerms: ["seo", "conversie", "bounce-rate"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Google Analytics is een gratis meetinstrument van Google dat bijhoudt wat er op je website gebeurt. Het laat zien hoeveel bezoekers je site heeft, via welke zoekwoorden ze binnenkomen en welke pagina's ze bekijken. Zie het als een teller bij de deur van je digitale winkel, maar dan veel slimmer.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als timmerman wil je weten of je website daadwerkelijk iets oplevert. Google Analytics laat zien of mensen je contactpagina bereiken of juist halverwege afhaken. Zonder die informatie is je website een zwart gat waar je geld in stopt zonder te weten wat eruit komt. Met de cijfers kun je gericht verbeteren en meer aanvragen binnenhalen.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een loodgieter uit Utrecht ziet in Google Analytics dat de meeste bezoekers via hun telefoon binnenkomen en dat 60 procent afhaakt op de offertepagina. Dat betekent waarschijnlijk dat het formulier niet goed werkt op mobiel. Door dat aan te passen stijgt het aantal aanvragen. Zonder die data had hij nooit geweten waar het probleem zat.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

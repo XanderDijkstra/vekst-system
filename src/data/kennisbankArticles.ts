@@ -865,5 +865,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
       { label: "Professionele Website", href: "/diensten/lead-generatie" }
     ]
+  },
+  {
+    slug: "mond-tot-mondreclame-niet-genoeg",
+    title: "Waarom mond-tot-mondreclame alleen niet meer genoeg is",
+    description: "Je krijgt werk via via en dat is prima. Maar wat als die stroom opdroogt? Ontdek waarom je als vakman niet meer alleen op mond-tot-mondreclame kunt leunen.",
+    category: "Strategie",
+    readTime: "6 min",
+    date: "2026-04-02",
+    sections: [
+      {
+        heading: "Het werkte altijd zo",
+        body: "Als stukadoor of metselaar ken je het verhaal. Je levert goed werk, de klant is tevreden en vertelt het door aan de buurman. Voor je het weet heb je weer een klus. Zo werkt het al jaren en eerlijk gezegd is het de fijnste manier om aan werk te komen. Geen gedoe, gewoon goed vakmanschap dat zichzelf verkoopt. Maar de wereld om je heen is veranderd."
+      },
+      {
+        heading: "Klanten zoeken tegenwoordig online",
+        body: "Zelfs als iemand jouw naam doorgekregen heeft van een kennis, pakt die persoon eerst zijn telefoon. Ze googelen je naam, zoeken naar reviews en bekijken je website. Heb je dat allemaal niet, dan belt een groot deel alsnog iemand anders. Onderzoek laat zien dat meer dan 70 procent van de mensen eerst online zoekt voordat ze een vakman bellen. De aanbeveling van de buurman is het startpunt, niet meer het eindpunt."
+      },
+      {
+        heading: "De beperkingen van alleen mond-tot-mond",
+        body: "Het probleem met mond-tot-mondreclame is dat je er geen grip op hebt. Je kunt niet voorspellen wanneer de volgende klus binnenkomt. Een metselaar uit Breda merkte dat hij na een drukke zomer ineens twee maanden weinig werk had. Niet omdat zijn werk niet goed was, maar simpelweg omdat niemand in zijn netwerk op dat moment iemand kende die iets nodig had. Je bent afhankelijk van toeval en timing."
+      },
+      {
+        heading: "Je concurrenten zijn je al voor",
+        body: "Kijk eens naar collega-vakmensen in jouw regio die het goed doen. Grote kans dat ze een nette website hebben, actief reviews verzamelen en vindbaar zijn op Google. Terwijl jij wacht op de volgende doorverwijzing, pikken zij de klanten op die online zoeken. En dat zijn er steeds meer. Een stukadoor die bovenaan Google staat voor stukadoor en dan je plaatsnaam krijgt dagelijks aanvragen binnen zonder dat hij ergens op hoeft te wachten."
+      },
+      {
+        heading: "Online zichtbaarheid versterkt je reputatie",
+        body: "Het mooie is dat online aanwezigheid mond-tot-mondreclame niet vervangt maar juist versterkt. Stel dat een tevreden klant je aanbeveelt. Als die nieuwe klant vervolgens jouw website bezoekt met foto's van je projecten en twintig goede Google-reviews leest, is hij al overtuigd voordat hij belt. Zonder die online bevestiging twijfelt hij misschien nog. Met een goede digitale basis maak je van elke aanbeveling een concrete opdracht."
+      },
+      {
+        heading: "Het hoeft niet ingewikkeld te zijn",
+        body: "Je hoeft geen marketingexpert te worden. Een professionele website, een Google Bedrijfsprofiel en een systeem om reviews te verzamelen is genoeg om naast mond-tot-mondreclame een tweede stroom aanvragen op te bouwen. Dat kost geen uren per week. Het meeste draait op de achtergrond terwijl jij gewoon bezig bent met je werk op de bouwplaats. Je legt eigenlijk een digitaal vangnet onder je bedrijf."
+      },
+      {
+        heading: "Zorg dat je vindbaar bent wanneer het ertoe doet",
+        body: "Bij AannemerSysteem.com helpen we vakmensen om naast mond-tot-mondreclame ook online zichtbaar te worden. Met een professionele website, een review funnel en automatische opvolging van gemiste oproepen zorg je ervoor dat je nooit meer afhankelijk bent van alleen dat ene telefoontje via via. Je blijft doen waar je goed in bent en wij zorgen dat klanten je ook online weten te vinden."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
+    ]
   }
 ];
