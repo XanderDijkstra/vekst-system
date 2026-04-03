@@ -580,6 +580,32 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "landingspagina",
+    term: "Landingspagina",
+    shortDescription: "Een speciale pagina op je website waar bezoekers terechtkomen na het klikken op een advertentie of zoekresultaat, ontworpen om ze een actie te laten uitvoeren zoals contact opnemen.",
+    category: "Marketing",
+    date: "2026-04-03",
+    relatedTerms: ["conversie", "cta", "google-ads"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een landingspagina is een gerichte pagina op je website die maar een doel heeft: de bezoeker een specifieke actie laten uitvoeren. Dat kan een offerteaanvraag zijn, een telefoontje of het invullen van een contactformulier. Anders dan je homepage die over van alles gaat, focust een landingspagina zich op een dienst of aanbod.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als je een Google-advertentie draait voor badkamerrenovatie en mensen komen op je algemene homepage terecht, raken ze de weg kwijt. Met een landingspagina specifiek over badkamerrenovatie met foto's, reviews en een duidelijk contactformulier is de kans veel groter dat ze daadwerkelijk contact opnemen. Je haalt meer resultaat uit elke euro die je aan advertenties besteedt.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een stukadoor uit Den Haag draait een advertentie voor stucwerk in de regio Haaglanden. In plaats van naar zijn homepage te linken, stuurt hij bezoekers naar een pagina die alleen over stucwerk gaat met voorbeeldfoto's en een knop om direct te bellen. Het resultaat is dat drie van de tien bezoekers contact opnemen in plaats van een op de tien via de homepage.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

@@ -908,5 +908,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
     ]
+  },
+  {
+    slug: "klanten-mislopen-slechte-website",
+    title: "Hoeveel klanten loop je mis door een slechte website?",
+    description: "Een trage of rommelige website kost je meer dan je denkt. Ontdek hoeveel potentiele klanten afhaken en wat je eraan kunt doen als tegelzetter of aannemer.",
+    category: "Website",
+    readTime: "6 min",
+    date: "2026-04-03",
+    sections: [
+      {
+        heading: "Je website is je digitale voordeur",
+        body: "Stel je voor dat een klant langsrijdt bij je bedrijf en de voordeur hangt scheef, de verf bladdert en er ligt rommel op de oprit. Die klant rijdt door. Precies hetzelfde gebeurt online. Als iemand op je website komt en het laadt traag, de tekst is onduidelijk of het ziet er niet verzorgd uit, dan klikt diegene weg. Binnen drie seconden beslist een bezoeker of hij blijft of vertrekt. En die bezoeker was misschien wel je volgende grote klus."
+      },
+      {
+        heading: "De cijfers liegen niet",
+        body: "Onderzoek laat zien dat meer dan de helft van alle websitebezoekers afhaakt als een pagina langer dan drie seconden laadt. Van de mensen die wel blijven, vertrekt een groot deel alsnog als de site er niet professioneel uitziet. Een tegelzetter uit Almere kreeg via zijn oude website misschien tien bezoekers per week, maar slechts een daarvan vulde het contactformulier in. De rest was al weg voordat ze zijn werk hadden gezien. Dat zijn negen potentiele klanten per week die je laat lopen."
+      },
+      {
+        heading: "Wat maakt een website slecht",
+        body: "Het gaat niet alleen om hoe het eruitziet. Een website die niet goed werkt op een telefoon is in 2026 een groot probleem, want meer dan 70 procent van je bezoekers komt via mobiel. Geen duidelijke contactgegevens, geen foto's van je werk, geen reviews van eerdere klanten. Of een contactformulier dat niet werkt. Het zijn allemaal redenen waarom mensen afhaken. En het vervelende is dat je het zelf vaak niet doorhebt, want jij kijkt er niet elke dag met verse ogen naar."
+      },
+      {
+        heading: "Je concurrent pikt die klanten op",
+        body: "Elke bezoeker die afhaakt op jouw website zoekt verder. En die komt terecht bij een collega-tegelzetter die wel een nette site heeft met duidelijke foto's van badkamers en keukenvloeren, een paar sterke reviews en een werkend contactformulier. Die klant belt niet meer terug naar jou. Je verliest hem niet omdat je slecht werk levert maar omdat je online presentatie niet meekan. En dat is zonde, want je vakmanschap verdient beter."
+      },
+      {
+        heading: "Reken het maar uit",
+        body: "Stel dat je website vijftig bezoekers per maand krijgt en slechts twee procent neemt contact op. Dat is een aanvraag per maand. Met een goede website haal je makkelijk vijf tot tien procent conversie. Dat zijn drie tot vijf extra aanvragen per maand. Als een gemiddelde tegelklus duizenden euro's waard is, praat je al snel over tienduizenden euro's aan misgelopen omzet per jaar. Een simpele rekensom die laat zien dat een goede website geen kostenpost is maar een investering die zichzelf terugverdient."
+      },
+      {
+        heading: "Het hoeft geen maanden te duren",
+        body: "Een professionele website laten maken hoeft niet ingewikkeld te zijn. Je hebt geen kennis van techniek nodig en het kost je niet weken aan tijd. De basis is simpel: een snelle site die goed werkt op mobiel, duidelijke foto's van je projecten, je contactgegevens prominent in beeld en een paar sterke reviews. Dat is genoeg om van bezoekers aanvragen te maken. En als dat eenmaal draait, werkt het dag en nacht voor je zonder dat je er iets voor hoeft te doen."
+      },
+      {
+        heading: "Laat geen klanten meer weglopen",
+        body: "Bij AannemerSysteem.com bouwen we websites die specifiek zijn ontworpen om bezoekers om te zetten in aanvragen. Snel, mobiel en met alles erop wat een potentiele klant wil zien. Combineer dat met een review funnel en automatische opvolging van gemiste oproepen en je hebt een systeem dat continu nieuwe klanten oplevert. Terwijl jij bezig bent met tegels leggen, werkt je website voor je."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
+    ]
   }
 ];
