@@ -951,5 +951,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
     ]
+  },
+  {
+    slug: "website-vs-facebook-pagina-aannemer",
+    title: "Website vs. Facebook-pagina: wat werkt beter als aannemer?",
+    description: "Veel timmerlieden en aannemers gebruiken alleen Facebook als online visitekaartje. Maar werkt dat echt of laat je klanten liggen? Een eerlijke vergelijking.",
+    category: "Online zichtbaarheid",
+    readTime: "6 min",
+    date: "2026-04-04",
+    sections: [
+      {
+        heading: "Veel vakmensen kiezen voor de makkelijke route",
+        body: "Een Facebook-pagina aanmaken kost vijf minuten en het is gratis. Geen wonder dat veel timmerlieden en aannemers hun online aanwezigheid beperken tot een Facebook-pagina met wat foto's van projecten. Het voelt voldoende en je bereikt er je vrienden en kennissen mee. Maar de vraag is of dat ook echt werkt voor het binnenhalen van nieuwe klanten. En daar wringt de schoen."
+      },
+      {
+        heading: "Wat een Facebook-pagina wel kan",
+        body: "Facebook is prima om te laten zien wat je doet aan mensen die je al kennen. Je plaatst een foto van een nieuwe keuken die je hebt gemaakt en je netwerk reageert enthousiast. Dat levert soms een klus op via via. Het is ook handig om contact te houden met bestaande klanten en af en toe iets onder de aandacht te brengen. Maar daar houdt het wel zo ongeveer op. Facebook is een sociaal platform, geen verkoopkanaal voor vakmensen."
+      },
+      {
+        heading: "Wat Facebook niet kan",
+        body: "Iemand die zoekt op Google naar een timmerman in zijn regio komt niet op jouw Facebook-pagina terecht. Facebook-pagina's ranken slecht in Google en de meeste mensen zoeken niet binnen Facebook als ze een aannemer nodig hebben. Daarnaast heb je geen controle over wat Facebook doet met je pagina. Vandaag staat je post bovenaan, morgen ziet niemand hem omdat het algoritme is veranderd. Je bouwt iets op grond die je niet bezit."
+      },
+      {
+        heading: "Wat een eigen website wel kan",
+        body: "Een eigen website is je digitale bedrijfspand. Hij staat er, hij is van jou en hij werkt dag en nacht voor je. Als iemand zoekt op timmerman plus jouw stad kan hij jouw site vinden. Je bepaalt zelf welke foto's erop staan, welke teksten erbij horen en waar het contactformulier staat. Je kunt reviews tonen, referenties laten zien en precies uitleggen welke klussen je doet. Het is het verschil tussen een flyer die rondzwerft en een winkel op een zichtbare locatie."
+      },
+      {
+        heading: "Een concreet voorbeeld",
+        body: "Een timmerman uit Zwolle had alleen een Facebook-pagina met driehonderd volgers. Hij kreeg af en toe een berichtje van iemand uit zijn netwerk. Toen hij een eenvoudige website liet maken met foto's van kasten en trappen die hij had gebouwd, begon hij binnen drie maanden aanvragen te krijgen van mensen die hij niet kende. Google stuurde mensen uit Zwolle en omgeving die zochten naar een timmerman rechtstreeks naar zijn site. Van drie aanvragen per maand via Facebook naar tien tot vijftien aanvragen per maand via de website."
+      },
+      {
+        heading: "Je hoeft niet te kiezen",
+        body: "Het slimste is om beide in te zetten maar elk voor wat het goed kan. Je website is je basis voor nieuwe klanten die je online zoeken. Je Facebook-pagina gebruik je om foto's te delen en contact te houden met je netwerk. Op Facebook link je door naar je website zodat mensen altijd daar terechtkomen voor een offerteaanvraag. Zo werkt alles samen in plaats van dat je afhankelijk bent van een platform waar je geen zeggenschap over hebt."
+      },
+      {
+        heading: "Bouw op eigen grond",
+        body: "Bij AannemerSysteem.com bouwen we websites die specifiek zijn gemaakt voor vakmensen die meer klanten willen binnenhalen. Snel, mobiel en gericht op het omzetten van bezoekers in aanvragen. Combineer dat met een review funnel die automatisch Google-reviews verzamelt en je staat binnen de kortste keren sterker online dan elke collega die nog steeds alleen op Facebook leunt. Zo bouw je iets op dat echt van jou is."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
   }
 ];

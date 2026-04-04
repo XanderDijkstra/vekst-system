@@ -606,6 +606,31 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "meta-title-en-meta-description",
+    term: "Meta Title en Meta Description",
+    shortDescription: "De titel en korte omschrijving die Google laat zien in de zoekresultaten. Dit is vaak het eerste wat een potentiele klant van jou ziet, nog voordat hij je website bezoekt.",
+    category: "Technisch",
+    date: "2026-04-04",
+    relatedTerms: ["seo", "local-seo", "organisch-verkeer"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "De meta title is de blauwe titel die je ziet in de zoekresultaten van Google. De meta description is de korte tekst van ongeveer anderhalve regel eronder die uitlegt waar de pagina over gaat. Samen bepalen ze of iemand op jouw resultaat klikt of op dat van een concurrent.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als iemand zoekt op dakdekker in Utrecht krijgt hij tien resultaten te zien. Degene met de duidelijkste titel en aantrekkelijkste omschrijving krijgt de meeste klikken. Staat er alleen de naam van je bedrijf zonder uitleg, dan klikken mensen door naar de volgende. Een goede meta title en description kan zomaar twee keer zoveel bezoekers opleveren voor dezelfde positie in Google.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een dakdekker uit Utrecht had als titel alleen zijn bedrijfsnaam staan. Na aanpassing naar Dakdekker Utrecht en omgeving - nieuwe daken en reparaties met meer dan vijftig reviews steeg het aantal klikken met zestig procent. Dezelfde positie in Google, maar een veel duidelijker signaal aan de zoeker dat hier precies staat wat hij nodig heeft.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
