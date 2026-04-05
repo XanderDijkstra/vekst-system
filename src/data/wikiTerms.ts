@@ -631,6 +631,32 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "missed-call-text-back",
+    term: "Missed Call Text Back",
+    shortDescription: "Een systeem dat automatisch een sms stuurt naar iedereen die je belt terwijl jij niet kunt opnemen. Zo verlies je nooit meer een klant omdat je op de steiger stond.",
+    category: "Automatisering",
+    date: "2026-04-05",
+    relatedTerms: ["automatisering", "lead-opvolging", "conversie"],
+    relatedLinks: [
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Missed Call Text Back is een simpel systeem dat herkent wanneer iemand je belt zonder dat jij opneemt. Binnen enkele seconden krijgt die beller automatisch een sms van jou met een korte boodschap dat je aan het werk bent en zo snel mogelijk terugbelt. De beller voelt zich gezien en zoekt niet meteen verder naar een andere vakman.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als elektricien of loodgieter sta je vaak met je handen in het werk en kun je niet opnemen. Onderzoek laat zien dat ongeveer zestig procent van de mensen die een bedrijf belt en niemand aan de lijn krijgt direct het volgende nummer belt. Een gemiste oproep is dus vaak een gemiste klus. Met een automatische sms houd je de beller warm totdat jij hem kunt terugbellen.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een loodgieter uit Eindhoven kreeg twintig gemiste oproepen per week en belde er misschien de helft terug. De rest ging naar een concurrent. Na het inschakelen van Missed Call Text Back kreeg elke beller binnen tien seconden een sms met de tekst dat hij later die dag werd teruggebeld. Het resultaat was dat bijna alle bellers wachtten en hij acht tot tien extra klussen per maand binnenhaalde die hij anders zou zijn kwijtgeraakt.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

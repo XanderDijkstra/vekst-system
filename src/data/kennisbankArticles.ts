@@ -994,5 +994,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Onze Diensten", href: "/diensten" }
     ]
+  },
+  {
+    slug: "offerte-aanvragen-verhogen-via-website",
+    title: "Meer offerte-aanvragen binnenhalen via je website: zo pak je het aan",
+    description: "Veel metselaars en tegelzetters krijgen bezoekers op hun website, maar nauwelijks aanvragen. Dit zijn de concrete aanpassingen die het verschil maken tussen kijken en bellen.",
+    category: "Website",
+    readTime: "6 min",
+    date: "2026-04-05",
+    sections: [
+      {
+        heading: "Bezoekers zijn niet hetzelfde als aanvragen",
+        body: "Je website kan honderd bezoekers per maand trekken en toch nul offerte-aanvragen opleveren. Dat voelt frustrerend want je hebt geld en tijd in die site gestoken. Het probleem zit bijna nooit in het aantal bezoekers maar in wat er gebeurt nadat iemand op je pagina belandt. Een bezoeker die binnen tien seconden weer wegklikt had net zo goed niet kunnen komen. De vraag is dus niet hoe je meer verkeer krijgt maar hoe je de mensen die al komen overtuigt om contact op te nemen."
+      },
+      {
+        heading: "Je telefoonnummer moet direct zichtbaar zijn",
+        body: "Een metselaar die zijn nummer pas op de contactpagina laat zien verliest klanten. Mensen zoeken vaak op hun mobiel terwijl ze iets nodig hebben en willen gewoon snel bellen. Zet je telefoonnummer bovenaan elke pagina, groot genoeg om aan te tikken en klikbaar zodat de telefoon direct belt. Dit klinkt simpel maar de meeste websites van aannemers hebben hun nummer verstopt in een klein lettertype ergens in de footer. Die kleine aanpassing alleen al kan het aantal belletjes verdubbelen."
+      },
+      {
+        heading: "Toon foto's van echt werk, geen stockbeelden",
+        body: "Een tegelzetter die foto's uit een catalogus gebruikt komt minder betrouwbaar over dan een collega die foto's van zijn eigen projecten toont. Mensen willen zien wat jij daadwerkelijk maakt voordat ze jou in hun huis laten. Maak met je telefoon foto's van elke klus die je doet, zowel voor als na. Plaats die op je website met een korte zin erbij over waar het was en wat je hebt gedaan. Dat werkt honderd keer beter dan mooie plaatjes die duidelijk niet van jou zijn."
+      },
+      {
+        heading: "Schrijf over wat je doet, niet wie je bent",
+        body: "Veel websites van vakmensen beginnen met een lange tekst over de oprichter en de geschiedenis van het bedrijf. Dat interesseert de bezoeker meestal niet. Wat hem wel interesseert is of jij het probleem kunt oplossen dat hij nu heeft. Schrijf per dienst een aparte pagina waarop staat welk werk je doet, in welke regio en wat klanten kunnen verwachten. Een pagina over badkamerbetegeling, een pagina over vloerbetegeling, een pagina over gevelmetselwerk. Zo vindt Google jou beter en weet de bezoeker meteen dat hij op de juiste plek is."
+      },
+      {
+        heading: "Maak het contactformulier kort",
+        body: "Een contactformulier met twaalf verplichte velden schrikt mensen af. Vraag alleen wat je echt nodig hebt om terug te bellen: naam, telefoonnummer en een kort bericht. Adres en postcode kun je later tijdens het telefoongesprek uitvragen. Hoe korter het formulier, hoe meer mensen het daadwerkelijk invullen. Een metselaar die zijn formulier terugbracht van tien velden naar drie zag zijn aanvragen verdrievoudigen zonder dat er meer bezoekers kwamen."
+      },
+      {
+        heading: "Laat reviews zien op elke pagina",
+        body: "Iemand die jouw website voor het eerst bezoekt heeft geen reden om je te vertrouwen. Reviews van eerdere klanten geven die reden wel. Plaats drie tot vijf echte Google-reviews op je homepage en bij je dienstpagina's. Liefst met naam en plaats erbij zodat het geloofwaardig is. Een bezoeker die leest dat Jan uit Assen heel tevreden was over jouw werk gaat eerder bellen dan iemand die alleen een anonieme tekst ziet. Vertrouwen is het fundament onder elke offerte-aanvraag."
+      },
+      {
+        heading: "Samen werkt het pas echt",
+        body: "Bij AannemerSysteem.com bouwen we websites die specifiek gemaakt zijn om bezoekers in aanvragen om te zetten. Direct zichtbaar telefoonnummer, korte formulieren, echte foto's en een review funnel die automatisch Google-reviews verzamelt van tevreden klanten. Zo werkt je website dag en nacht voor je en groeit het aantal aanvragen vanzelf mee. Je hoeft niet meer bezoekers te trekken, je hoeft alleen meer uit de bezoekers te halen die je al hebt."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
+    ]
   }
 ];
