@@ -1037,5 +1037,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
     ]
+  },
+  {
+    slug: "online-reputatie-opbouwen-vakman",
+    title: "Online reputatie opbouwen als vakman: zo word je de aannemer die iedereen aanbeveelt",
+    description: "Je vakmanschap spreekt niet vanzelf online. Ontdek hoe je als stukadoor, timmerman of andere vakman een sterke online reputatie opbouwt die klanten overtuigt voordat je ook maar een woord hebt gewisseld.",
+    category: "Reputatie",
+    readTime: "6 min",
+    date: "2026-04-06",
+    sections: [
+      {
+        heading: "Goed werk alleen is niet meer genoeg",
+        body: "Vroeger kon je als stukadoor op je vakmanschap vertrouwen en kwamen klanten vanzelf via via. Dat werkt nog steeds, maar het gaat langzamer dan nodig. Mensen zoeken tegenwoordig eerst online voordat ze iemand bellen, ook als ze een tip van een buurman hebben gekregen. Als ze dan niks over je vinden of alleen een lege Facebook-pagina zien, gaan ze twijfelen. Je reputatie offline is waardevol maar je moet die ook online zichtbaar maken."
+      },
+      {
+        heading: "Google-reviews zijn je digitale visitekaartje",
+        body: "Een timmerman met veertig Google-reviews en een gemiddelde van 4,8 sterren hoeft zich geen zorgen te maken over concurrentie. Die reviews doen het verkoopwerk al voordat je de telefoon opneemt. Het probleem is dat tevreden klanten niet vanzelf een review achterlaten. Je moet het vragen, en het liefst op het moment dat de klant het meest enthousiast is, namelijk vlak na oplevering. Eentje per week is al genoeg om binnen een jaar een indrukwekkend profiel op te bouwen."
+      },
+      {
+        heading: "Reageer op elke review, ook de negatieve",
+        body: "Een negatieve review voelt als een klap in je gezicht, maar hoe je erop reageert zegt meer dan de review zelf. Een rustig en professioneel antwoord waarin je uitlegt wat er is gebeurd en hoe je het hebt opgelost laat zien dat je betrouwbaar bent. Potentiele klanten lezen die reacties mee. Een stukadoor die netjes reageert op kritiek komt sterker over dan iemand die alleen vijfsterrenreviews heeft en nooit antwoordt."
+      },
+      {
+        heading: "Laat je werk zien met foto's en resultaten",
+        body: "Mensen vertrouwen wat ze kunnen zien. Een foto van een strak gestucte muur of een mooi afgewerkte dakkapel zegt meer dan honderd woorden tekst. Maak het een gewoonte om bij elke klus voor- en nafoto's te maken met je telefoon. Plaats die op je Google Bedrijfsprofiel en op je website. Dat kost je twee minuten per klus maar levert je maanden lang zichtbaarheid op bij iedereen die in jouw regio zoekt."
+      },
+      {
+        heading: "Wees consistent op alle plekken online",
+        body: "Je bedrijfsnaam, telefoonnummer en adres moeten overal hetzelfde staan. Of het nu op Google, je eigen website of een branchevermelding is. Als er verschillende nummers of adressen rondslingeren raakt Google in de war en scoor je lager in de zoekresultaten. Controleer een keer per maand of je gegevens kloppen op de plekken waar je vermeld staat. Die tien minuten werk kunnen het verschil maken tussen wel of niet gevonden worden."
+      },
+      {
+        heading: "Vraag bestaande klanten om je aan te bevelen",
+        body: "De makkelijkste manier om je online reputatie te versterken is het activeren van klanten die al blij met je zijn. Stuur na een klus een kort berichtje met een directe link naar je Google-reviewpagina. De meeste mensen willen je best helpen maar vergeten het simpelweg. Een vriendelijk sms'je op het juiste moment maakt het verschil tussen nul en vijf nieuwe reviews per maand. En die vijf reviews overtuigen weer tientallen nieuwe bezoekers."
+      },
+      {
+        heading: "Laat je reputatie voor je werken",
+        body: "Bij AannemerSysteem.com helpen we vakmensen om hun online reputatie structureel op te bouwen. Met onze review funnel krijgen je klanten automatisch een uitnodiging om een review achter te laten op het perfecte moment. Zo groeit je aantal reviews zonder dat je er elke keer aan hoeft te denken. Combineer dat met een professionele website en je hebt een online aanwezigheid die dag en nacht klanten voor je binnenhaalt."
+      }
+    ],
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
   }
 ];

@@ -657,6 +657,32 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "backlinks",
+    term: "Backlinks",
+    shortDescription: "Links van andere websites naar jouw website. Hoe meer betrouwbare sites naar jou verwijzen, hoe hoger Google je plaatst in de zoekresultaten.",
+    category: "Technisch",
+    date: "2026-04-06",
+    relatedTerms: ["seo", "local-seo", "organisch-verkeer"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een backlink is een link op een andere website die naar jouw website verwijst. Denk aan een vermelding op de site van een leverancier, een branchevereniging of een lokale nieuwssite die over jouw bedrijf schrijft. Google ziet elke backlink als een soort aanbeveling. Hoe meer betrouwbare websites naar jou linken, hoe relevanter Google jouw site vindt.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als timmerman of schilder concurreer je online met tientallen collega's in jouw regio. Backlinks zijn een van de belangrijkste factoren waarmee Google bepaalt wie bovenaan komt te staan. Een vakman met vijf goede backlinks van lokale bedrijven en branchesites scoort hoger dan iemand met een duurdere website maar zonder enkele verwijzing van buitenaf.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een schilder uit Breda vroeg zijn verfleverancier om een vermelding op hun website als aanbevolen vakman. Daarnaast schreef de lokale krant een kort stuk over een opvallend project dat hij had uitgevoerd. Die twee backlinks samen zorgden ervoor dat hij binnen drie maanden van pagina twee naar de top vijf van Google steeg voor de zoekterm schilder Breda. Zonder advertentiekosten, puur door zichtbaarheid op andere sites.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
