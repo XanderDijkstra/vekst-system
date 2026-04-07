@@ -683,6 +683,31 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "click-through-rate",
+    term: "Click-Through Rate (CTR)",
+    shortDescription: "Het percentage mensen dat op jouw link klikt nadat ze hem zien in Google of in een advertentie. Hoe hoger je CTR, hoe meer bezoekers op je website.",
+    category: "Marketing",
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Click-through rate, oftewel CTR, is het percentage mensen dat daadwerkelijk op jouw link klikt nadat ze hem hebben gezien. Als honderd mensen jouw bedrijf zien staan in Google en tien daarvan klikken door naar je website, dan is je CTR tien procent. Het is een simpele maar krachtige maatstaf voor hoe aantrekkelijk jouw online vermelding is."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als stukadoor of loodgieter wil je dat mensen die jou vinden in Google ook echt doorklikken naar je website. Een lage CTR betekent dat mensen je wel zien staan maar niet overtuigd genoeg zijn om te klikken. Dat kan komen door een saaie titel, het ontbreken van reviews in je zoekresultaat, of een onduidelijke omschrijving. Een hogere CTR betekent meer bezoekers en dus meer kans op opdrachten."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je bent dakdekker in Amersfoort en je Google-vermelding toont alleen je bedrijfsnaam zonder reviews of extra informatie. Een concurrent met vijf sterren en een duidelijke omschrijving zoals dakdekker gespecialiseerd in platte daken trekt veel meer klikken. Door je meta title, meta description en Google Bedrijfsprofiel te optimaliseren verbeter je je CTR zonder extra advertentiekosten."
+      }
+    ],
+    relatedTerms: ["meta-title-en-meta-description", "conversieratio", "organisch-verkeer"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

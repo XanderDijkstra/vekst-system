@@ -1080,5 +1080,47 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Professionele Website", href: "/diensten/lead-generatie" },
       { label: "Onze Diensten", href: "/diensten" }
     ]
+  },
+  {
+    slug: "waarom-concurrenten-wel-online-investeren",
+    title: "Waarom je concurrenten wel online investeren (en jij achterblijft)",
+    description: "Steeds meer stukadoors, metselaars en andere vakmensen investeren in hun online aanwezigheid. Ontdek waarom ze dat doen en wat het hen oplevert.",
+    category: "Strategie",
+    readTime: "6 min",
+    sections: [
+      {
+        heading: "De bouwwereld verandert sneller dan je denkt",
+        body: "Tien jaar geleden kon je als stukadoor of metselaar prima rondkomen met alleen mond-tot-mondreclame en een stapel visitekaartjes. Maar de wereld is veranderd. Klanten zoeken tegenwoordig eerst online voordat ze iemand bellen, zelfs als ze een naam via via hebben gekregen. Als jij daar niet zichtbaar bent, ben je voor veel potentiele klanten simpelweg onzichtbaar."
+      },
+      {
+        heading: "Wat je concurrent anders doet dan jij",
+        body: "Die collega-stukadoor uit de buurt die het altijd druk lijkt te hebben? Grote kans dat hij een nette website heeft met foto's van zijn werk en een paar sterke Google-reviews. Hij hoeft niet beter te zijn dan jij, hij is alleen makkelijker te vinden. Klanten kiezen niet altijd de beste vakman, ze kiezen de vakman die ze het snelst kunnen vinden en vertrouwen."
+      },
+      {
+        heading: "Online zichtbaarheid is geen luxe meer",
+        body: "Voor veel vakmensen voelt investeren in een website of reviews als een luxe-uitgave. Maar vergelijk het eens met je gereedschap: je koopt ook geen goedkope spullen omdat je weet dat kwaliteit zich terugverdient. Een professionele online aanwezigheid werkt precies zo. Het is een investering die elke maand nieuwe klanten oplevert, zonder dat je er steeds opnieuw voor hoeft te betalen."
+      },
+      {
+        heading: "De cijfers liegen niet",
+        body: "Onderzoek laat zien dat meer dan 80 procent van de mensen online zoekt naar een lokale vakman. Als metselaar of stukadoor zonder website mis je dus vier van de vijf potentiele klanten al voordat ze je nummer hebben kunnen vinden. Je concurrenten die wel online investeren, vangen die klanten op. Elke dag dat jij wacht, lopen er opdrachten naar een ander."
+      },
+      {
+        heading: "Het hoeft niet ingewikkeld te zijn",
+        body: "Je hoeft geen marketingexpert te worden om online gevonden te worden. Een professionele website, een goed ingevuld Google Bedrijfsprofiel en een handvol eerlijke reviews van tevreden klanten: dat is al genoeg om het verschil te maken. De truc is om het structureel aan te pakken in plaats van er eenmalig aandacht aan te besteden en het dan te laten versloffen."
+      },
+      {
+        heading: "Wat je vandaag nog kunt doen",
+        body: "Begin met het simpelste: vraag je laatste drie tevreden klanten om een Google-review. Check of je Google Bedrijfsprofiel up-to-date is met je juiste adres, telefoonnummer en openingstijden. En neem een keer eerlijk je eigen website onder de loep, of het gebrek daaraan. Kleine stappen maken al een groot verschil als je concurrent nog stil zit."
+      },
+      {
+        heading: "Laat je niet inhalen",
+        body: "Bij AannemerSysteem.com helpen we stukadoors, metselaars en andere vakmensen om hun online zichtbaarheid op orde te krijgen. Van een professionele website tot een review funnel die automatisch reviews voor je verzamelt. Terwijl jij bezig bent met je vak, zorgen wij ervoor dat nieuwe klanten jou vinden in plaats van je concurrent."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
   }
 ];
