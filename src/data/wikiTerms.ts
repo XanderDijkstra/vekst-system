@@ -708,6 +708,31 @@ export const wikiTerms: WikiTerm[] = [
       { label: "Onze Diensten", href: "/diensten" }
     ]
   },
+  {
+    slug: "funnel",
+    term: "Funnel",
+    shortDescription: "Een funnel is het pad dat een potentiele klant aflegt van eerste contact tot opdracht. Denk aan het als een trechter: bovenaan komen veel mensen binnen, onderaan houd je de echte klanten over.",
+    category: "Marketing",
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een funnel, oftewel trechter, beschrijft de stappen die iemand doorloopt van het moment dat hij jouw bedrijf ontdekt tot het moment dat hij daadwerkelijk klant wordt. Bovenaan de trechter zitten veel mensen die je website bezoeken of je nummer vinden. Onderaan blijven de mensen over die ook echt een offerte aanvragen of je bellen voor een klus."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als loodgieter of dakdekker wil je niet alleen veel bezoekers op je website, je wilt dat die bezoekers ook daadwerkelijk contact opnemen. Een goede funnel zorgt ervoor dat mensen in elke stap een reden hebben om door te gaan. Zonder funnel verlies je potentiele klanten halverwege, bijvoorbeeld omdat je website geen duidelijke bel-knop heeft of omdat je te laat reageert op een aanvraag."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, een huiseigenaar zoekt dakdekker lekkage Rotterdam en vindt jouw website. Dat is de bovenkant van je funnel. Hij leest je dienstpagina en ziet goede reviews, dat is het midden. Onderaan de funnel klikt hij op de offerteknop of belt hij je direct. Als je vervolgens snel reageert en een nette offerte stuurt, wordt hij klant. Elke stap in die trechter kun je verbeteren om meer bezoekers om te zetten in echte opdrachten."
+      }
+    ],
+    relatedTerms: ["conversie", "landingspagina", "cta"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

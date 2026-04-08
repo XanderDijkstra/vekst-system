@@ -1122,5 +1122,47 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Onze Diensten", href: "/diensten" }
     ]
+  },
+  {
+    slug: "lokale-seo-aannemers",
+    title: "Lokale SEO voor aannemers: zo word je gevonden in jouw regio",
+    description: "De meeste klanten zoeken een vakman in hun eigen omgeving. Ontdek hoe je als timmerman, tegelzetter of andere aannemer bovenaan verschijnt in lokale zoekresultaten.",
+    category: "Lokale SEO",
+    readTime: "7 min",
+    sections: [
+      {
+        heading: "Wat is lokale SEO en waarom zou je je er druk om maken?",
+        body: "Lokale SEO betekent dat je ervoor zorgt dat jouw bedrijf gevonden wordt wanneer iemand in jouw regio zoekt naar een vakman. Denk aan zoekopdrachten als timmerman Eindhoven of tegelzetter Utrecht. Google bepaalt op basis van afstand, relevantie en bekendheid welke bedrijven bovenaan verschijnen. Als jij daar niet tussen staat, gaat die klant naar de concurrent die wel zichtbaar is."
+      },
+      {
+        heading: "Het verschil tussen gewone SEO en lokale SEO",
+        body: "Bij gewone SEO draait het om overal in Nederland gevonden worden. Als timmerman of tegelzetter werk je meestal binnen een straal van dertig tot vijftig kilometer. Lokale SEO richt zich precies daarop: zichtbaar zijn voor mensen in jouw werkgebied. Google toont bij lokale zoekopdrachten een kaartje met drie bedrijven, het zogenaamde Local Pack. Daar wil je tussen staan, want die drie bedrijven krijgen verreweg de meeste klikken."
+      },
+      {
+        heading: "Je Google Bedrijfsprofiel is je digitale uithangbord",
+        body: "Het begint allemaal bij je Google Bedrijfsprofiel. Zorg dat je bedrijfsnaam, adres en telefoonnummer kloppen en overal hetzelfde zijn. Kies de juiste categorie, zoals timmerman of tegelzetter, en vul je profiel zo compleet mogelijk in met foto's van uitgevoerd werk. Een profiel met twintig foto's van echte projecten en actuele openingstijden scoort flink beter dan een kaal profiel met alleen een naam en nummer."
+      },
+      {
+        heading: "Reviews zijn je sterkste wapen in lokale zoekresultaten",
+        body: "Google weegt reviews zwaar mee bij het bepalen van lokale rangschikkingen. Een tegelzetter in Amersfoort met vijfentwintig reviews van gemiddeld 4,8 sterren verschijnt bijna altijd boven een collega met drie reviews. Vraag na elke klus actief om een review. De meeste tevreden klanten willen dat best doen, maar vergeten het als je het niet vraagt. Een geautomatiseerd reviewsysteem maakt dit makkelijk zonder dat je er steeds aan hoeft te denken."
+      },
+      {
+        heading: "Zorg dat je website lokale zoektermen bevat",
+        body: "Je website moet duidelijk maken waar je werkt en wat je doet. Vermeld je plaatsnaam en regio op je homepage, op je dienstpagina's en in je paginatitels. Een timmerman uit Haarlem doet er goed aan om teksten te schrijven als timmerman in Haarlem en omgeving voor kozijnen, dakkapellen en verbouwingen. Dat klinkt simpel, maar veel vakmensen vergeten hun locatie te noemen op hun eigen site."
+      },
+      {
+        heading: "Vermeldingen op andere websites versterken je positie",
+        body: "Google checkt of je bedrijfsgegevens op meerdere plekken op internet kloppen. Meld je aan bij lokale bedrijvengidsen zoals Telefoonboek.nl, De Gouden Gids en branche-specifieke platforms. Zorg dat je NAW-gegevens overal identiek zijn, want afwijkingen verwarren Google en kosten je posities. Dit kost een uurtje werk en hoef je maar een keer te doen."
+      },
+      {
+        heading: "Begin vandaag met lokaal gevonden worden",
+        body: "Bij AannemerSysteem.com helpen we timmerlieden, tegelzetters en andere vakmensen om lokaal beter vindbaar te worden. Van een professionele website met de juiste lokale zoektermen tot een review funnel die automatisch reviews voor je verzamelt. Zo zorg je ervoor dat klanten in jouw regio jou vinden, niet je concurrent drie straten verderop."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
   }
 ];
