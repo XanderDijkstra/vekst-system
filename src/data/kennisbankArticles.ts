@@ -1129,6 +1129,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     description: "De meeste klanten zoeken een vakman in hun eigen omgeving. Ontdek hoe je als timmerman, tegelzetter of andere aannemer bovenaan verschijnt in lokale zoekresultaten.",
     category: "Lokale SEO",
     readTime: "7 min",
+    date: "2026-04-09",
     sections: [
       {
         heading: "Wat is lokale SEO en waarom zou je je er druk om maken?",
