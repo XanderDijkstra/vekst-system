@@ -733,6 +733,31 @@ export const wikiTerms: WikiTerm[] = [
       { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
     ]
   },
+  {
+    slug: "a-b-test",
+    term: "A/B test",
+    shortDescription: "Een A/B test betekent dat je twee versies van iets naast elkaar uitprobeert om te zien welke beter werkt. Denk aan twee verschillende koppen op je website om te kijken welke meer aanvragen oplevert.",
+    category: "Marketing",
+    date: "2026-04-09",
+    relatedTerms: ["conversieratio", "conversie", "landingspagina"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Bij een A/B test maak je twee varianten van dezelfde pagina, knop of tekst op je website. De ene helft van je bezoekers ziet versie A, de andere helft ziet versie B. Na een tijdje vergelijk je welke versie meer resultaat oplevert, bijvoorbeeld meer telefoontjes of offerteaanvragen. Zo weet je zeker wat werkt in plaats van te gokken."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als metselaar of stukadoor wil je dat je website niet alleen bezocht wordt maar ook daadwerkelijk aanvragen oplevert. Met een A/B test ontdek je bijvoorbeeld of een groene belknop beter werkt dan een oranje, of dat de tekst Vraag gratis offerte aan meer klikken krijgt dan Neem contact op. Kleine verbeteringen kunnen het verschil maken tussen drie en zes aanvragen per week."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je hebt een website als schilder en je wilt meer offerteaanvragen. Je test twee versies van je homepage: eentje met een foto van een net geschilderd huis en eentje met een foto van jou aan het werk. Na twee weken blijkt dat de versie met jou in actie dertig procent meer aanvragen oplevert. Dan kies je die variant en kun je het volgende onderdeel gaan testen."
+      }
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

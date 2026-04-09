@@ -1165,5 +1165,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Onze Diensten", href: "/diensten" }
     ]
+  },
+  {
+    slug: "opvallen-als-stukadoor-tussen-concurrentie",
+    title: "Hoe je als stukadoor opvalt tussen de concurrentie",
+    description: "Als stukadoor ben je goed in je vak, maar hoe zorg je dat klanten jou vinden en niet de concurrent? Praktische tips om je te onderscheiden zonder marketingbudget over de balk te smijten.",
+    category: "Strategie",
+    readTime: "7 min",
+    date: "2026-04-09",
+    sections: [
+      {
+        heading: "Waarom vakmanschap alleen niet meer voldoende is",
+        body: "Je levert strak stucwerk, je klanten zijn altijd tevreden en je werkt netjes af. Toch merk je dat nieuwe klanten binnenhalen steeds lastiger wordt. Dat komt omdat de meeste mensen tegenwoordig eerst online zoeken voordat ze iemand bellen. Als jij daar niet vindbaar bent, besta je voor die klant simpelweg niet. De stukadoor die wel online zichtbaar is, pakt die klus terwijl jij nog zit te wachten op een telefoontje."
+      },
+      {
+        heading: "Laat je werk voor je spreken met foto's en reviews",
+        body: "Als stukadoor heb je een groot voordeel: je werk is visueel. Een gladde wand, sierpleister of een strak afgewerkt plafond spreken boekdelen. Maak na elke klus een paar goede foto's en zet die op je website en je Google Bedrijfsprofiel. Combineer dat met reviews van tevreden klanten en je bouwt een online portfolio op dat twijfelende klanten over de streep trekt. Mensen willen zien wat je kunt voordat ze je bellen."
+      },
+      {
+        heading: "Zorg dat je vindbaar bent in je eigen regio",
+        body: "De meeste stukadoors werken in een straal van dertig tot vijftig kilometer. Zorg dat je website en Google Bedrijfsprofiel duidelijk vermelden waar je actief bent. Als iemand zoekt op stukadoor Breda of stucwerk Den Bosch moet jouw naam naar boven komen. Dat bereik je door je plaatsnaam en werkgebied op je website te noemen en je bedrijfsprofiel goed in te vullen met de juiste categorie en actuele gegevens."
+      },
+      {
+        heading: "Reageer sneller dan je concurrent",
+        body: "Veel vakmensen beantwoorden aanvragen pas aan het einde van de dag of zelfs de volgende ochtend. Tegen die tijd heeft de klant allang een ander gebeld. Als jij binnen een uur reageert op een aanvraag of een gemiste oproep direct opvolgt met een sms, heb je een enorme voorsprong. Snelheid is misschien wel het makkelijkste onderscheidende punt dat je kunt hebben, en het kost je niks behalve een beetje aandacht."
+      },
+      {
+        heading: "Specialiseer je en maak dat zichtbaar",
+        body: "Ben je specialist in sierpleister, Venetiaans stucwerk of spuitwerk voor nieuwbouw? Maak dat dan duidelijk op je website. Hoe specifieker je je profileert, hoe makkelijker klanten je vinden die precies dat zoeken. Een klant die Venetiaans stucwerk wil, betaalt liever iets meer aan iemand die daar aantoonbaar goed in is dan aan een stukadoor die alles een beetje doet. Specialisatie is geen beperking maar een kracht."
+      },
+      {
+        heading: "Vergelijk jezelf niet met de goedkoopste aanbieder",
+        body: "Er is altijd iemand die het goedkoper doet. Op prijs concurreren is een race naar de bodem die je niet wilt winnen. Concurreer liever op kwaliteit, betrouwbaarheid en professionaliteit. Een nette website, goede reviews en snelle communicatie stralen uit dat je een serieuze vakman bent. Klanten die bereid zijn voor kwaliteit te betalen zoeken precies dat. Laat de prijsvechters hun ding doen en richt je op de klanten die waarde herkennen."
+      },
+      {
+        heading: "Zet de eerste stap naar meer zichtbaarheid",
+        body: "Bij AannemerSysteem.com helpen we stukadoors en andere vakmensen om online beter vindbaar te worden. Van een professionele website die je werk laat zien tot een review funnel die automatisch reviews verzamelt na elke klus. En met missed call text back loop je geen enkele klant meer mis, ook niet als je op de steiger staat. Zo val je op tussen de concurrentie zonder dat je er elke dag mee bezig hoeft te zijn."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
+    ]
   }
 ];
