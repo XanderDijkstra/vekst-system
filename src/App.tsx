@@ -32,6 +32,13 @@ import TradePageWrapper from "./pages/TradePageWrapper";
 import DemoPage from "./pages/DemoPage";
 import ConfiguratorPage from "./pages/ConfiguratorPage";
 import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
+import AdminLayout from "./pages/admin/AdminLayout";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminBraindump from "./pages/admin/AdminBraindump";
+import AdminKennisbank from "./pages/admin/AdminKennisbank";
+import AdminKennisbankEdit from "./pages/admin/AdminKennisbankEdit";
+import AdminWiki from "./pages/admin/AdminWiki";
+import AdminWikiEdit from "./pages/admin/AdminWikiEdit";
 import PrijzenPage from "./pages/PrijzenPage";
 import WikiOverview from "./pages/WikiOverview";
 import WikiTerm from "./pages/WikiTerm";
@@ -82,7 +89,15 @@ const App = () => (
           <Route path="/wiki" element={<WikiOverview />} />
           <Route path="/wiki/:slug" element={<WikiTerm />} />
           <Route path="/configurator" element={<ConfiguratorPage />} />
-          <Route path="/admin/configurator" element={<AdminConfiguratorPage />} />
+          <Route path="/admin" element={<AdminLayout />}>
+            <Route index element={<AdminDashboard />} />
+            <Route path="configurator" element={<AdminConfiguratorPage />} />
+            <Route path="braindump" element={<AdminBraindump />} />
+            <Route path="kennisbank" element={<AdminKennisbank />} />
+            <Route path="kennisbank/:slug" element={<AdminKennisbankEdit />} />
+            <Route path="wiki" element={<AdminWiki />} />
+            <Route path="wiki/:slug" element={<AdminWikiEdit />} />
+          </Route>
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
           <Route path="/vakgebieden/:slug" element={<TradePageWrapper />} />
           {/* Redirects from old routes */}

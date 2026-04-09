@@ -96,15 +96,14 @@ const AdminConfiguratorPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
+      <div className="flex items-center justify-center py-24">
         <div className="h-8 w-8 border-2 border-accent border-t-transparent rounded-full animate-spin" />
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container max-w-4xl py-12">
+    <div className="p-6 max-w-4xl">
         <div className="flex items-center justify-between mb-8">
           <div>
             <h1 className="text-2xl font-bold text-foreground">Configurator Admin</h1>
@@ -234,7 +233,6 @@ const AdminConfiguratorPage = () => {
           <Plus className="mr-2 h-4 w-4" />
           Onderdeel toevoegen
         </Button>
-      </div>
     </div>
   );
 };
