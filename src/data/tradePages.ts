@@ -9,6 +9,27 @@ import { BADKAMERRENOVATIE_DATA } from "./tradeData/badkamerrenovatie";
 import { ISOLATIEBEDRIJVEN_DATA } from "./tradeData/isolatiebedrijven";
 import { VERHUISBEDRIJVEN_DATA } from "./tradeData/verhuisbedrijven";
 import { HVAC_DATA } from "./tradeData/hvac";
+import { AANNEMERS_DATA } from "./tradeData/aannemers";
+import { GEVELREINIGING_DATA } from "./tradeData/gevelreiniging";
+import { PARKETVLOEREN_DATA } from "./tradeData/parketvloeren";
+import { BEGLAZING_DATA } from "./tradeData/beglazing";
+import { HEKWERK_POORTEN_DATA } from "./tradeData/hekwerk-poorten";
+import { RIOOLSERVICE_DATA } from "./tradeData/rioolservice";
+import { BESTRATING_DATA } from "./tradeData/bestrating";
+import { INTERIEURONTWERP_DATA } from "./tradeData/interieurontwerp";
+import { ROLLUIKEN_ZONWERING_DATA } from "./tradeData/rolluiken-zonwering";
+import { BETON_CEMENT_DATA } from "./tradeData/beton-cement";
+import { KOZIJNEN_RAMEN_DATA } from "./tradeData/kozijnen-ramen";
+import { VLOERLEGGER_DATA } from "./tradeData/vloerlegger";
+import { CV_KETEL_MONTAGE_DATA } from "./tradeData/cv-ketel-montage";
+import { METSELWERK_DATA } from "./tradeData/metselwerk";
+import { VOEGWERK_DATA } from "./tradeData/voegwerk";
+import { DAKGOTEN_DATA } from "./tradeData/dakgoten";
+import { ONTRUIMING_DATA } from "./tradeData/ontruiming";
+import { WARMTEPOMP_INSTALLATIE_DATA } from "./tradeData/warmtepomp-installatie";
+import { DOMOTICA_DATA } from "./tradeData/domotica";
+import { OPRUIMSERVICE_DATA } from "./tradeData/opruimservice";
+import { ZONNEPANELEN_DATA } from "./tradeData/zonnepanelen";
 
 export interface TradeData {
   slug: string;
@@ -510,6 +531,48 @@ export const TRADE_PAGES: Record<string, TradeData> = {
   verhuisbedrijven: VERHUISBEDRIJVEN_DATA,
   // ━━ HVAC ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   hvac: HVAC_DATA,
+  // ━━ AANNEMERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  aannemers: AANNEMERS_DATA,
+  // ━━ GEVELREINIGING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  gevelreiniging: GEVELREINIGING_DATA,
+  // ━━ PARKETVLOEREN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  parketvloeren: PARKETVLOEREN_DATA,
+  // ━━ BEGLAZING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  beglazing: BEGLAZING_DATA,
+  // ━━ HEKWERK & POORTEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  "hekwerk-poorten": HEKWERK_POORTEN_DATA,
+  // ━━ RIOOLSERVICE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  rioolservice: RIOOLSERVICE_DATA,
+  // ━━ BESTRATING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  bestrating: BESTRATING_DATA,
+  // ━━ INTERIEURONTWERP ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  interieurontwerp: INTERIEURONTWERP_DATA,
+  // ━━ ROLLUIKEN & ZONWERING ━━━━━━━━━━━━━━━━━━━━━━━
+  "rolluiken-zonwering": ROLLUIKEN_ZONWERING_DATA,
+  // ━━ BETON & CEMENT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  "beton-cement": BETON_CEMENT_DATA,
+  // ━━ KOZIJNEN & RAMEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  "kozijnen-ramen": KOZIJNEN_RAMEN_DATA,
+  // ━━ VLOERLEGGER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  vloerlegger: VLOERLEGGER_DATA,
+  // ━━ CV-KETEL MONTAGE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  "cv-ketel-montage": CV_KETEL_MONTAGE_DATA,
+  // ━━ METSELWERK ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  metselwerk: METSELWERK_DATA,
+  // ━━ VOEGWERK ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  voegwerk: VOEGWERK_DATA,
+  // ━━ DAKGOTEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  dakgoten: DAKGOTEN_DATA,
+  // ━━ ONTRUIMING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ontruiming: ONTRUIMING_DATA,
+  // ━━ WARMTEPOMP INSTALLATIE ━━━━━━━━━━━━━━━━━━━━━━
+  "warmtepomp-installatie": WARMTEPOMP_INSTALLATIE_DATA,
+  // ━━ DOMOTICA ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  domotica: DOMOTICA_DATA,
+  // ━━ OPRUIMSERVICE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  opruimservice: OPRUIMSERVICE_DATA,
+  // ━━ ZONNEPANELEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  zonnepanelen: ZONNEPANELEN_DATA,
 };
 
 export const TRADE_SLUGS = Object.keys(TRADE_PAGES);

@@ -14,6 +14,14 @@ import ReviewFunnel from "./pages/systemen/ReviewFunnel";
 import AllInOneInbox from "./pages/systemen/AllInOneInbox";
 import MarketingCampagnes from "./pages/systemen/MarketingCampagnes";
 import LeadFollowUp from "./pages/systemen/LeadFollowUp";
+import DigitaliseringAannemers from "./pages/diensten/DigitaliseringAannemers";
+import AutomatiseringAannemers from "./pages/diensten/AutomatiseringAannemers";
+import SoftwareIntegraties from "./pages/diensten/SoftwareIntegraties";
+import AiOplossingen from "./pages/diensten/AiOplossingen";
+import OfferteSysteem from "./pages/diensten/OfferteSysteem";
+import ReviewSysteem from "./pages/diensten/ReviewSysteem";
+import PlanningSysteem from "./pages/diensten/PlanningSysteem";
+import MarketingAutomatisering from "./pages/diensten/MarketingAutomatisering";
 import SectorPage from "./pages/SectorPage";
 import KennisbankOverview from "./pages/KennisbankOverview";
 import KennisbankArticle from "./pages/KennisbankArticle";
@@ -24,6 +32,13 @@ import TradePageWrapper from "./pages/TradePageWrapper";
 import DemoPage from "./pages/DemoPage";
 import ConfiguratorPage from "./pages/ConfiguratorPage";
 import AdminConfiguratorPage from "./pages/AdminConfiguratorPage";
+import AdminLayout from "./pages/admin/AdminLayout";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminBraindump from "./pages/admin/AdminBraindump";
+import AdminKennisbank from "./pages/admin/AdminKennisbank";
+import AdminKennisbankEdit from "./pages/admin/AdminKennisbankEdit";
+import AdminWiki from "./pages/admin/AdminWiki";
+import AdminWikiEdit from "./pages/admin/AdminWikiEdit";
 import PrijzenPage from "./pages/PrijzenPage";
 import BlogOverview from "./pages/BlogOverview";
 import WikiOverview from "./pages/WikiOverview";
@@ -56,6 +71,14 @@ const App = () => (
           <Route path="/diensten/all-in-one-inbox" element={<AllInOneInbox />} />
           <Route path="/diensten/marketing-campagnes" element={<MarketingCampagnes />} />
           <Route path="/diensten/lead-follow-up" element={<LeadFollowUp />} />
+          <Route path="/diensten/digitalisering-aannemers" element={<DigitaliseringAannemers />} />
+          <Route path="/diensten/automatisering-aannemers" element={<AutomatiseringAannemers />} />
+          <Route path="/diensten/software-integraties" element={<SoftwareIntegraties />} />
+          <Route path="/diensten/ai-oplossingen" element={<AiOplossingen />} />
+          <Route path="/diensten/offerte-systeem" element={<OfferteSysteem />} />
+          <Route path="/diensten/review-systeem" element={<ReviewSysteem />} />
+          <Route path="/diensten/planning-systeem" element={<PlanningSysteem />} />
+          <Route path="/diensten/marketing-automatisering" element={<MarketingAutomatisering />} />
           <Route path="/diensten/:slug" element={<DienstDetail />} />
           <Route path="/sector/digitalisering-voor-aannemers" element={<SectorPage />} />
           <Route path="/kennisbank" element={<KennisbankOverview />} />
@@ -68,7 +91,15 @@ const App = () => (
           <Route path="/wiki" element={<WikiOverview />} />
           <Route path="/wiki/:slug" element={<WikiTerm />} />
           <Route path="/configurator" element={<ConfiguratorPage />} />
-          <Route path="/admin/configurator" element={<AdminConfiguratorPage />} />
+          <Route path="/admin" element={<AdminLayout />}>
+            <Route index element={<AdminDashboard />} />
+            <Route path="configurator" element={<AdminConfiguratorPage />} />
+            <Route path="braindump" element={<AdminBraindump />} />
+            <Route path="kennisbank" element={<AdminKennisbank />} />
+            <Route path="kennisbank/:slug" element={<AdminKennisbankEdit />} />
+            <Route path="wiki" element={<AdminWiki />} />
+            <Route path="wiki/:slug" element={<AdminWikiEdit />} />
+          </Route>
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
           <Route path="/vakgebieden/:slug" element={<TradePageWrapper />} />
           {/* Redirects from old routes */}

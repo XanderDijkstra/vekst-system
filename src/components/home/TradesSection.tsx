@@ -22,19 +22,39 @@ const trades = [
   { name: "Schilders", image: schilderImg, slug: "schilders" },
   { name: "Tuinmannen", image: tuinmanImg, slug: "hoveniers" },
   { name: "HVAC", image: hvacImg, slug: "hvac" },
-  { name: "Aannemers", image: aannemerImg, slug: null },
+  { name: "Aannemers", image: aannemerImg, slug: "aannemers" },
   { name: "Tegelzetters", image: tegelzetterImg, slug: "tegelzetters" },
 ];
 
 const allTrades = [
-  "Badkamer renovatie", "Beglazing", "Bestrating", "Beton & Cement",
-  "Cv-ketel montage", "Dakgoten", "Domotica", "Gevelreiniging",
-  "Glaszetter", "Hekwerk & Poorten", "Hoveniers", "Interieurontwerp",
-  "Isolatie", "Keukenmontage", "Kozijnen & Ramen", "Metselwerk",
-  "Ontruiming", "Opruimservice", "Parketvloeren", "Rioolservice",
-  "Rolluiken & Zonwering", "Schoonmaakbedrijf", "Stukadoor",
-  "Timmerwerk", "Vloerlegger", "Voegwerk", "Warmtepomp installatie",
-  "Zonnepanelen",
+  { name: "Badkamer renovatie", slug: "badkamerrenovatie" },
+  { name: "Beglazing", slug: "beglazing" },
+  { name: "Bestrating", slug: "bestrating" },
+  { name: "Beton & Cement", slug: "beton-cement" },
+  { name: "Cv-ketel montage", slug: "cv-ketel-montage" },
+  { name: "Dakgoten", slug: "dakgoten" },
+  { name: "Domotica", slug: "domotica" },
+  { name: "Gevelreiniging", slug: "gevelreiniging" },
+  { name: "Glaszetter", slug: "glazenwassers" },
+  { name: "Hekwerk & Poorten", slug: "hekwerk-poorten" },
+  { name: "Hoveniers", slug: "hoveniers" },
+  { name: "Interieurontwerp", slug: "interieurontwerp" },
+  { name: "Isolatie", slug: "isolatiebedrijven" },
+  { name: "Keukenmontage", slug: "keukenmonteurs" },
+  { name: "Kozijnen & Ramen", slug: "kozijnen-ramen" },
+  { name: "Metselwerk", slug: "metselwerk" },
+  { name: "Ontruiming", slug: "ontruiming" },
+  { name: "Opruimservice", slug: "opruimservice" },
+  { name: "Parketvloeren", slug: "parketvloeren" },
+  { name: "Rioolservice", slug: "rioolservice" },
+  { name: "Rolluiken & Zonwering", slug: "rolluiken-zonwering" },
+  { name: "Schoonmaakbedrijf", slug: "schoonmaakbedrijven" },
+  { name: "Stukadoor", slug: "stukadoors" },
+  { name: "Timmerwerk", slug: "timmerlieden" },
+  { name: "Vloerlegger", slug: "vloerlegger" },
+  { name: "Voegwerk", slug: "voegwerk" },
+  { name: "Warmtepomp installatie", slug: "warmtepomp-installatie" },
+  { name: "Zonnepanelen", slug: "zonnepanelen" },
 ];
 
 const TradesSection = () => {
@@ -67,26 +87,16 @@ const TradesSection = () => {
               {...fadeInUp}
               transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }}
             >
-              {trade.slug ? (
-                <Link
-                  to={`/vakgebieden/${trade.slug}`}
-                  className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
-                >
-                  <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-5">
-                    <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
-                  </div>
-                </Link>
-              ) : (
-                <div className="group relative rounded-2xl overflow-hidden aspect-[5/4] cursor-default">
-                  <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-5">
-                    <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
-                  </div>
+              <Link
+                to={`/vakgebieden/${trade.slug}`}
+                className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
+              >
+                <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-5">
+                  <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
                 </div>
-              )}
+              </Link>
             </motion.div>
           ))}
         </div>
@@ -98,10 +108,10 @@ const TradesSection = () => {
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-4 max-w-4xl mx-auto">
             {allTrades.map((trade) => (
-              <div key={trade} className="flex items-center gap-2.5">
+              <Link key={trade.slug} to={`/vakgebieden/${trade.slug}`} className="flex items-center gap-2.5 group">
                 <CheckCircle2 className="h-5 w-5 text-accent shrink-0" />
-                <span className="text-sm md:text-base text-foreground">{trade}</span>
-              </div>
+                <span className="text-sm md:text-base text-foreground group-hover:text-accent transition-colors">{trade.name}</span>
+              </Link>
             ))}
           </div>
         </motion.div>
