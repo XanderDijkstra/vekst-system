@@ -452,6 +452,312 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "schema-markup",
+    term: "Schema Markup",
+    shortDescription:
+      "Een stukje onzichtbare code op je website dat Google vertelt wat je bedrijf doet, waar je zit en welke reviews je hebt — zodat je beter zichtbaar wordt in zoekresultaten.",
+    category: "Technisch",
+    date: "2026-03-28",
+    relatedTerms: ["seo", "local-seo", "google-mijn-bedrijf"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Schema markup is een stukje gestructureerde code dat je aan je website toevoegt, maar dat bezoekers niet zien. Het is bedoeld voor zoekmachines zoals Google. Het vertelt Google precies wat voor bedrijf je hebt, welke diensten je levert, in welk werkgebied je actief bent, en wat je reviews zijn. Vergelijk het met een etiket op een doos: de inhoud verandert niet, maar iedereen weet meteen wat erin zit.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Met schema markup kan Google jouw bedrijfsgegevens direct tonen in de zoekresultaten. Denk aan sterren uit reviews, je telefoonnummer, je werkgebied en je openingstijden — allemaal zichtbaar nog voordat iemand op je website klikt. Dat zorgt voor meer vertrouwen en meer klikken. Een dakdekker met vijf sterren direct zichtbaar in Google krijgt simpelweg meer telefoontjes dan een concurrent zonder die informatie.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Je webontwikkelaar voegt de schema markup toe aan de broncode van je website. Voor aannemers is vooral het type 'LocalBusiness' belangrijk, aangevuld met 'Service' voor je specifieke diensten en 'AggregateRating' voor je reviews. Bezoekers merken er niets van, maar Google leest die gegevens en gebruikt ze om jouw vermelding in de zoekresultaten te verrijken. Wij bouwen dit standaard in bij elke website die we opleveren.",
+      },
+    ],
+  },
+  {
+    slug: "naw-consistentie",
+    term: "NAW-consistentie",
+    shortDescription:
+      "Zorgen dat je bedrijfsnaam, adres en telefoonnummer overal op internet exact hetzelfde staan — zodat Google je vertrouwt en hoger toont.",
+    category: "Technisch",
+    date: "2026-03-29",
+    relatedTerms: ["local-seo", "google-mijn-bedrijf", "seo"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "NAW staat voor Naam, Adres en Woonplaats, maar in de praktijk gaat het om al je contactgegevens: bedrijfsnaam, adres, postcode, plaats en telefoonnummer. NAW-consistentie betekent dat deze gegevens overal op internet exact hetzelfde zijn. Op je website, op Google Mijn Bedrijf, op de Gouden Gids, op je Facebook-pagina en op elke andere plek waar je bedrijf vermeld staat.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Google checkt op tientallen plekken of jouw bedrijfsgegevens kloppen. Als je op je website 'Timmerwerken De Jong' heet, op Google 'Timmerbedrijf De Jong' en op de Gouden Gids 'De Jong Timmerwerk', dan weet Google niet zeker of het om hetzelfde bedrijf gaat. Dat kost je plekken in de zoekresultaten. Een loodgieter die overal exact dezelfde gegevens heeft, wordt door Google als betrouwbaarder gezien en komt hoger in de lokale zoekresultaten.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Maak een lijstje van alle plekken waar je bedrijf online vermeld staat: je eigen website, Google Bedrijfsprofiel, sociale media, branchegidsen en reviewsites. Controleer of je bedrijfsnaam, adres en telefoonnummer overal identiek zijn. Geen afkortingen op de ene plek en voluit op de andere. Geen oud adres op een vergeten profiel. Wij checken dit standaard voor onze klanten en zorgen dat alles klopt, zodat Google precies weet wie je bent en waar je zit.",
+      },
+    ],
+  },
+  {
+    slug: "responsief-design",
+    term: "Responsief Design",
+    shortDescription: "Een website die zich automatisch aanpast aan het scherm waarop je hem bekijkt, of dat nou een telefoon, tablet of computer is.",
+    category: "Technisch",
+    relatedTerms: ["seo", "conversie", "bounce-rate"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Responsief design betekent dat je website er goed uitziet en goed werkt op elk apparaat. Of iemand je site nu opent op een iPhone, een iPad of een grote computermonitor, de tekst is leesbaar, de knoppen zijn klikbaar en de foto's passen op het scherm. De website past zich automatisch aan zonder dat je daar iets voor hoeft te doen.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Meer dan 70% van de mensen zoekt op hun telefoon naar een vakman. Als jouw website op een telefoon niet goed werkt, kleine lettertjes heeft of knoppen die je niet kunt raken, dan klikt iemand weg en belt je concurrent. Google geeft bovendien voorrang aan websites die goed werken op mobiel. Een schilder met een mobielvriendelijke site komt dus hoger in de zoekresultaten dan een collega met een verouderde site.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Als een loodgieter uit Utrecht een nieuwe website laat bouwen, wordt die automatisch responsief gemaakt. Een klant die onderweg is en op zijn telefoon zoekt naar een loodgieter, ziet dezelfde professionele site als iemand achter zijn laptop. De bel-knop is groot genoeg om aan te tikken en het contactformulier is makkelijk in te vullen. Zo verlies je geen enkele potentiele klant door een slecht werkende site.",
+      },
+    ],
+  },
+  {
+    slug: "ssl-certificaat",
+    term: "SSL-certificaat",
+    shortDescription: "Een digitaal beveiligingskeurmerk dat ervoor zorgt dat gegevens op je website versleuteld worden verstuurd, herkenbaar aan het slotje in de adresbalk.",
+    category: "Technisch",
+    date: "2026-04-01",
+    relatedTerms: ["seo", "responsief-design", "conversie"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een SSL-certificaat is een stukje techniek dat de verbinding tussen je website en de bezoeker beveiligt. Je herkent het aan het slotje naast je websiteadres en aan https in plaats van http. Het zorgt ervoor dat gegevens die iemand invult op je site, zoals een naam of telefoonnummer, versleuteld worden verstuurd zodat niemand anders ze kan onderscheppen.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Zonder SSL-certificaat toont Google Chrome een waarschuwing dat je website niet veilig is. Dat schrikt potentiele klanten direct af. Een elektricien die een contactformulier op zijn site heeft zonder SSL verliest bezoekers nog voordat ze hun gegevens invullen. Daarnaast geeft Google voorrang aan beveiligde websites in de zoekresultaten. Geen SSL betekent dus minder vertrouwen en een lagere positie in Google.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een schilder laat een nieuwe website bouwen en het SSL-certificaat wordt automatisch geactiveerd. Wanneer een klant via Google op zijn site komt en een offerteaanvraag invult, worden die gegevens veilig verstuurd. De bezoeker ziet het slotje in de browser en vertrouwt erop dat zijn informatie in goede handen is. Bij de meeste moderne hostingpakketten is SSL standaard inbegrepen, dus je hoeft er zelf niets voor te doen.",
+      },
+    ],
+  },
+  {
+    slug: "google-analytics",
+    term: "Google Analytics",
+    shortDescription: "Een gratis tool van Google waarmee je kunt zien hoeveel mensen je website bezoeken, waar ze vandaan komen en wat ze op je site doen.",
+    category: "Technisch",
+    date: "2026-04-02",
+    relatedTerms: ["seo", "conversie", "bounce-rate"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Google Analytics is een gratis meetinstrument van Google dat bijhoudt wat er op je website gebeurt. Het laat zien hoeveel bezoekers je site heeft, via welke zoekwoorden ze binnenkomen en welke pagina's ze bekijken. Zie het als een teller bij de deur van je digitale winkel, maar dan veel slimmer.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als timmerman wil je weten of je website daadwerkelijk iets oplevert. Google Analytics laat zien of mensen je contactpagina bereiken of juist halverwege afhaken. Zonder die informatie is je website een zwart gat waar je geld in stopt zonder te weten wat eruit komt. Met de cijfers kun je gericht verbeteren en meer aanvragen binnenhalen.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een loodgieter uit Utrecht ziet in Google Analytics dat de meeste bezoekers via hun telefoon binnenkomen en dat 60 procent afhaakt op de offertepagina. Dat betekent waarschijnlijk dat het formulier niet goed werkt op mobiel. Door dat aan te passen stijgt het aantal aanvragen. Zonder die data had hij nooit geweten waar het probleem zat.",
+      },
+    ],
+  },
+  {
+    slug: "landingspagina",
+    term: "Landingspagina",
+    shortDescription: "Een speciale pagina op je website waar bezoekers terechtkomen na het klikken op een advertentie of zoekresultaat, ontworpen om ze een actie te laten uitvoeren zoals contact opnemen.",
+    category: "Marketing",
+    date: "2026-04-03",
+    relatedTerms: ["conversie", "cta", "google-ads"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een landingspagina is een gerichte pagina op je website die maar een doel heeft: de bezoeker een specifieke actie laten uitvoeren. Dat kan een offerteaanvraag zijn, een telefoontje of het invullen van een contactformulier. Anders dan je homepage die over van alles gaat, focust een landingspagina zich op een dienst of aanbod.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als je een Google-advertentie draait voor badkamerrenovatie en mensen komen op je algemene homepage terecht, raken ze de weg kwijt. Met een landingspagina specifiek over badkamerrenovatie met foto's, reviews en een duidelijk contactformulier is de kans veel groter dat ze daadwerkelijk contact opnemen. Je haalt meer resultaat uit elke euro die je aan advertenties besteedt.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een stukadoor uit Den Haag draait een advertentie voor stucwerk in de regio Haaglanden. In plaats van naar zijn homepage te linken, stuurt hij bezoekers naar een pagina die alleen over stucwerk gaat met voorbeeldfoto's en een knop om direct te bellen. Het resultaat is dat drie van de tien bezoekers contact opnemen in plaats van een op de tien via de homepage.",
+      },
+    ],
+  },
+  {
+    slug: "meta-title-en-meta-description",
+    term: "Meta Title en Meta Description",
+    shortDescription: "De titel en korte omschrijving die Google laat zien in de zoekresultaten. Dit is vaak het eerste wat een potentiele klant van jou ziet, nog voordat hij je website bezoekt.",
+    category: "Technisch",
+    date: "2026-04-04",
+    relatedTerms: ["seo", "local-seo", "organisch-verkeer"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "De meta title is de blauwe titel die je ziet in de zoekresultaten van Google. De meta description is de korte tekst van ongeveer anderhalve regel eronder die uitlegt waar de pagina over gaat. Samen bepalen ze of iemand op jouw resultaat klikt of op dat van een concurrent.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als iemand zoekt op dakdekker in Utrecht krijgt hij tien resultaten te zien. Degene met de duidelijkste titel en aantrekkelijkste omschrijving krijgt de meeste klikken. Staat er alleen de naam van je bedrijf zonder uitleg, dan klikken mensen door naar de volgende. Een goede meta title en description kan zomaar twee keer zoveel bezoekers opleveren voor dezelfde positie in Google.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een dakdekker uit Utrecht had als titel alleen zijn bedrijfsnaam staan. Na aanpassing naar Dakdekker Utrecht en omgeving - nieuwe daken en reparaties met meer dan vijftig reviews steeg het aantal klikken met zestig procent. Dezelfde positie in Google, maar een veel duidelijker signaal aan de zoeker dat hier precies staat wat hij nodig heeft.",
+      },
+    ],
+  },
+  {
+    slug: "missed-call-text-back",
+    term: "Missed Call Text Back",
+    shortDescription: "Een systeem dat automatisch een sms stuurt naar iedereen die je belt terwijl jij niet kunt opnemen. Zo verlies je nooit meer een klant omdat je op de steiger stond.",
+    category: "Automatisering",
+    date: "2026-04-05",
+    relatedTerms: ["automatisering", "lead-opvolging", "conversie"],
+    relatedLinks: [
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Missed Call Text Back is een simpel systeem dat herkent wanneer iemand je belt zonder dat jij opneemt. Binnen enkele seconden krijgt die beller automatisch een sms van jou met een korte boodschap dat je aan het werk bent en zo snel mogelijk terugbelt. De beller voelt zich gezien en zoekt niet meteen verder naar een andere vakman.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als elektricien of loodgieter sta je vaak met je handen in het werk en kun je niet opnemen. Onderzoek laat zien dat ongeveer zestig procent van de mensen die een bedrijf belt en niemand aan de lijn krijgt direct het volgende nummer belt. Een gemiste oproep is dus vaak een gemiste klus. Met een automatische sms houd je de beller warm totdat jij hem kunt terugbellen.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een loodgieter uit Eindhoven kreeg twintig gemiste oproepen per week en belde er misschien de helft terug. De rest ging naar een concurrent. Na het inschakelen van Missed Call Text Back kreeg elke beller binnen tien seconden een sms met de tekst dat hij later die dag werd teruggebeld. Het resultaat was dat bijna alle bellers wachtten en hij acht tot tien extra klussen per maand binnenhaalde die hij anders zou zijn kwijtgeraakt.",
+      },
+    ],
+  },
+  {
+    slug: "backlinks",
+    term: "Backlinks",
+    shortDescription: "Links van andere websites naar jouw website. Hoe meer betrouwbare sites naar jou verwijzen, hoe hoger Google je plaatst in de zoekresultaten.",
+    category: "Technisch",
+    date: "2026-04-06",
+    relatedTerms: ["seo", "local-seo", "organisch-verkeer"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een backlink is een link op een andere website die naar jouw website verwijst. Denk aan een vermelding op de site van een leverancier, een branchevereniging of een lokale nieuwssite die over jouw bedrijf schrijft. Google ziet elke backlink als een soort aanbeveling. Hoe meer betrouwbare websites naar jou linken, hoe relevanter Google jouw site vindt.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als timmerman of schilder concurreer je online met tientallen collega's in jouw regio. Backlinks zijn een van de belangrijkste factoren waarmee Google bepaalt wie bovenaan komt te staan. Een vakman met vijf goede backlinks van lokale bedrijven en branchesites scoort hoger dan iemand met een duurdere website maar zonder enkele verwijzing van buitenaf.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Een schilder uit Breda vroeg zijn verfleverancier om een vermelding op hun website als aanbevolen vakman. Daarnaast schreef de lokale krant een kort stuk over een opvallend project dat hij had uitgevoerd. Die twee backlinks samen zorgden ervoor dat hij binnen drie maanden van pagina twee naar de top vijf van Google steeg voor de zoekterm schilder Breda. Zonder advertentiekosten, puur door zichtbaarheid op andere sites.",
+      },
+    ],
+  },
+  {
+    slug: "click-through-rate",
+    term: "Click-Through Rate (CTR)",
+    shortDescription: "Het percentage mensen dat op jouw link klikt nadat ze hem zien in Google of in een advertentie. Hoe hoger je CTR, hoe meer bezoekers op je website.",
+    category: "Marketing",
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Click-through rate, oftewel CTR, is het percentage mensen dat daadwerkelijk op jouw link klikt nadat ze hem hebben gezien. Als honderd mensen jouw bedrijf zien staan in Google en tien daarvan klikken door naar je website, dan is je CTR tien procent. Het is een simpele maar krachtige maatstaf voor hoe aantrekkelijk jouw online vermelding is."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als stukadoor of loodgieter wil je dat mensen die jou vinden in Google ook echt doorklikken naar je website. Een lage CTR betekent dat mensen je wel zien staan maar niet overtuigd genoeg zijn om te klikken. Dat kan komen door een saaie titel, het ontbreken van reviews in je zoekresultaat, of een onduidelijke omschrijving. Een hogere CTR betekent meer bezoekers en dus meer kans op opdrachten."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je bent dakdekker in Amersfoort en je Google-vermelding toont alleen je bedrijfsnaam zonder reviews of extra informatie. Een concurrent met vijf sterren en een duidelijke omschrijving zoals dakdekker gespecialiseerd in platte daken trekt veel meer klikken. Door je meta title, meta description en Google Bedrijfsprofiel te optimaliseren verbeter je je CTR zonder extra advertentiekosten."
+      }
+    ],
+    relatedTerms: ["meta-title-en-meta-description", "conversieratio", "organisch-verkeer"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ]
+  },
+  {
+    slug: "funnel",
+    term: "Funnel",
+    shortDescription: "Een funnel is het pad dat een potentiele klant aflegt van eerste contact tot opdracht. Denk aan het als een trechter: bovenaan komen veel mensen binnen, onderaan houd je de echte klanten over.",
+    category: "Marketing",
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een funnel, oftewel trechter, beschrijft de stappen die iemand doorloopt van het moment dat hij jouw bedrijf ontdekt tot het moment dat hij daadwerkelijk klant wordt. Bovenaan de trechter zitten veel mensen die je website bezoeken of je nummer vinden. Onderaan blijven de mensen over die ook echt een offerte aanvragen of je bellen voor een klus."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als loodgieter of dakdekker wil je niet alleen veel bezoekers op je website, je wilt dat die bezoekers ook daadwerkelijk contact opnemen. Een goede funnel zorgt ervoor dat mensen in elke stap een reden hebben om door te gaan. Zonder funnel verlies je potentiele klanten halverwege, bijvoorbeeld omdat je website geen duidelijke bel-knop heeft of omdat je te laat reageert op een aanvraag."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, een huiseigenaar zoekt dakdekker lekkage Rotterdam en vindt jouw website. Dat is de bovenkant van je funnel. Hij leest je dienstpagina en ziet goede reviews, dat is het midden. Onderaan de funnel klikt hij op de offerteknop of belt hij je direct. Als je vervolgens snel reageert en een nette offerte stuurt, wordt hij klant. Elke stap in die trechter kun je verbeteren om meer bezoekers om te zetten in echte opdrachten."
+      }
+    ],
+    relatedTerms: ["conversie", "landingspagina", "cta"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
+    ]
+  },
+  {
+    slug: "a-b-test",
+    term: "A/B test",
+    shortDescription: "Een A/B test betekent dat je twee versies van iets naast elkaar uitprobeert om te zien welke beter werkt. Denk aan twee verschillende koppen op je website om te kijken welke meer aanvragen oplevert.",
+    category: "Marketing",
+    date: "2026-04-09",
+    relatedTerms: ["conversieratio", "conversie", "landingspagina"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Bij een A/B test maak je twee varianten van dezelfde pagina, knop of tekst op je website. De ene helft van je bezoekers ziet versie A, de andere helft ziet versie B. Na een tijdje vergelijk je welke versie meer resultaat oplevert, bijvoorbeeld meer telefoontjes of offerteaanvragen. Zo weet je zeker wat werkt in plaats van te gokken."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als metselaar of stukadoor wil je dat je website niet alleen bezocht wordt maar ook daadwerkelijk aanvragen oplevert. Met een A/B test ontdek je bijvoorbeeld of een groene belknop beter werkt dan een oranje, of dat de tekst Vraag gratis offerte aan meer klikken krijgt dan Neem contact op. Kleine verbeteringen kunnen het verschil maken tussen drie en zes aanvragen per week."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je hebt een website als schilder en je wilt meer offerteaanvragen. Je test twee versies van je homepage: eentje met een foto van een net geschilderd huis en eentje met een foto van jou aan het werk. Na twee weken blijkt dat de versie met jou in actie dertig procent meer aanvragen oplevert. Dan kies je die variant en kun je het volgende onderdeel gaan testen."
+      }
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
