@@ -27,47 +27,48 @@ const trades = [
   { name: "Schilders", image: schilderImg, slug: "schilders" },
   { name: "Tuinmannen", image: tuinmanImg, slug: "hoveniers" },
   { name: "HVAC", image: hvacImg, slug: "hvac" },
-  { name: "Aannemers", image: aannemerImg, slug: null },
+  { name: "Aannemers", image: aannemerImg, slug: "aannemers" },
   { name: "Tegelzetters", image: tegelzetterImg, slug: "tegelzetters" },
 ];
 
-const allTrades: { name: string; slug: string | null }[] = [
+const allTrades = [
+  { name: "Aannemers", slug: "aannemers" },
   { name: "Badkamerrenovatie", slug: "badkamerrenovatie" },
-  { name: "Beglazing", slug: null },
-  { name: "Bestrating", slug: null },
-  { name: "Beton & Cement", slug: null },
-  { name: "Cv-ketel montage", slug: null },
+  { name: "Beglazing", slug: "beglazing" },
+  { name: "Bestrating", slug: "bestrating" },
+  { name: "Beton & Cement", slug: "beton-cement" },
+  { name: "Cv-ketel montage", slug: "cv-ketel-montage" },
   { name: "Dakdekkers", slug: "dakdekkers" },
-  { name: "Dakgoten", slug: null },
-  { name: "Domotica", slug: null },
+  { name: "Dakgoten", slug: "dakgoten" },
+  { name: "Domotica", slug: "domotica" },
   { name: "Elektriciens", slug: "elektriciens" },
-  { name: "Gevelreiniging", slug: null },
+  { name: "Gevelreiniging", slug: "gevelreiniging" },
   { name: "Glazenwassers", slug: "glazenwassers" },
-  { name: "Hekwerk & Poorten", slug: null },
+  { name: "Hekwerk & Poorten", slug: "hekwerk-poorten" },
   { name: "Hoveniers", slug: "hoveniers" },
   { name: "HVAC", slug: "hvac" },
-  { name: "Interieurontwerp", slug: null },
+  { name: "Interieurontwerp", slug: "interieurontwerp" },
   { name: "Isolatiebedrijven", slug: "isolatiebedrijven" },
   { name: "Keukenmonteurs", slug: "keukenmonteurs" },
   { name: "Klusbedrijven", slug: "klusbedrijven" },
-  { name: "Kozijnen & Ramen", slug: null },
+  { name: "Kozijnen & Ramen", slug: "kozijnen-ramen" },
   { name: "Loodgieters", slug: "loodgieters" },
-  { name: "Metselwerk", slug: null },
-  { name: "Ontruiming", slug: null },
-  { name: "Opruimservice", slug: null },
-  { name: "Parketvloeren", slug: null },
-  { name: "Rioolservice", slug: null },
-  { name: "Rolluiken & Zonwering", slug: null },
+  { name: "Metselwerk", slug: "metselwerk" },
+  { name: "Ontruiming", slug: "ontruiming" },
+  { name: "Opruimservice", slug: "opruimservice" },
+  { name: "Parketvloeren", slug: "parketvloeren" },
+  { name: "Rioolservice", slug: "rioolservice" },
+  { name: "Rolluiken & Zonwering", slug: "rolluiken-zonwering" },
   { name: "Schilders", slug: "schilders" },
   { name: "Schoonmaakbedrijven", slug: "schoonmaakbedrijven" },
   { name: "Stukadoors", slug: "stukadoors" },
   { name: "Tegelzetters", slug: "tegelzetters" },
   { name: "Timmerlieden", slug: "timmerlieden" },
   { name: "Verhuisbedrijven", slug: "verhuisbedrijven" },
-  { name: "Vloerlegger", slug: null },
-  { name: "Voegwerk", slug: null },
-  { name: "Warmtepomp installatie", slug: null },
-  { name: "Zonnepanelen", slug: null },
+  { name: "Vloerlegger", slug: "vloerlegger" },
+  { name: "Voegwerk", slug: "voegwerk" },
+  { name: "Warmtepomp installatie", slug: "warmtepomp-installatie" },
+  { name: "Zonnepanelen", slug: "zonnepanelen" },
 ];
 
 const VakgebiedenPage = () => {
@@ -123,26 +124,16 @@ const VakgebiedenPage = () => {
                 {...fadeInUp}
                 transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }}
               >
-                {trade.slug ? (
-                  <Link
-                    to={`/vakgebieden/${trade.slug}`}
-                    className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
-                  >
-                    <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-5">
-                      <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
-                    </div>
-                  </Link>
-                ) : (
-                  <div className="group relative rounded-2xl overflow-hidden aspect-[5/4] cursor-default">
-                    <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-5">
-                      <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
-                    </div>
+                <Link
+                  to={`/vakgebieden/${trade.slug}`}
+                  className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
+                >
+                  <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-5">
+                    <span className="text-lg md:text-xl font-bold text-primary-foreground uppercase tracking-wide">{trade.name}</span>
                   </div>
-                )}
+                </Link>
               </motion.div>
             ))}
           </div>
@@ -166,13 +157,9 @@ const VakgebiedenPage = () => {
                 className="flex items-center gap-2.5"
               >
                 <CheckCircle2 className="h-5 w-5 text-accent shrink-0" />
-                {trade.slug ? (
-                  <Link to={`/vakgebieden/${trade.slug}`} className="text-sm md:text-base text-foreground hover:text-accent transition-colors underline underline-offset-2 decoration-accent/30 hover:decoration-accent">
-                    {trade.name}
-                  </Link>
-                ) : (
-                  <span className="text-sm md:text-base text-foreground">{trade.name}</span>
-                )}
+                <Link to={`/vakgebieden/${trade.slug}`} className="text-sm md:text-base text-foreground hover:text-accent transition-colors underline underline-offset-2 decoration-accent/30 hover:decoration-accent">
+                  {trade.name}
+                </Link>
               </motion.div>
             ))}
           </div>
