@@ -4,79 +4,177 @@
   <url><loc>https://aannemersysteem.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://aannemersysteem.com/diensten</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/vakgebieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vergelijk</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/blog</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/contact</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/demo</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/sector/digitalisering-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/prijzen</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/wiki</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/sector/digitalisering-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Diensten: Systemen -->
+  <!-- Diensten -->
   <url><loc>https://aannemersysteem.com/diensten/lead-generatie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/diensten/klantcommunicatie</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/diensten/review-funnel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/diensten/all-in-one-inbox</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/diensten/marketing-campagnes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/diensten/lead-follow-up</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/digitalisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/automatisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/software-integraties</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/ai-oplossingen</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/offerte-systeem</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/review-systeem</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/planning-systeem</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/diensten/marketing-automatisering</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Diensten: Services -->
-  <url><loc>https://aannemersysteem.com/diensten/digitalisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/diensten/automatisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/diensten/software-integraties</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/diensten/ai-oplossingen</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <!-- Vergelijkingen -->
+  <url><loc>https://aannemersysteem.com/vergelijk/werkspot-alternatief</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vergelijk/bouwnu-alternatief</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vergelijk/offerteadviseur-alternatief</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vergelijk/lokale-leads-genereren</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vergelijk/seo-vs-google-ads</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Trade pages (vakgebieden) -->
-  <url><loc>https://aannemersysteem.com/vakgebieden/schilders</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/dakdekkers</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/loodgieters</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/stukadoors</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/hoveniers</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/klusbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/tegelzetters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/elektriciens</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/timmerlieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/schoonmaakbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/glazenwassers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/keukenmonteurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Vakgebieden (55) -->
+  <url><loc>https://aannemersysteem.com/vakgebieden/aanbouw-uitbouw</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/aannemers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/airco-installateurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/asbestsanering</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/vakgebieden/badkamerrenovatie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/isolatiebedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/vakgebieden/verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/beglazing</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/bestrating</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/beton-cement</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/beveiligingsinstallateurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/binnenhuisarchitecten</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/cv-ketel-montage</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/dakdekkers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/dakgoten</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/dakkapellen</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/domotica</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/elektriciens</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/funderingsherstel</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/garagedeuren</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/gevelreiniging</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/gietvloeren</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/glazenwassers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/hekwerk-poorten</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/hoveniers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/vakgebieden/hvac</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/interieurontwerp</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/isolatiebedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/kelderbouw</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/keukenmonteurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/klusbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/kozijnen-ramen</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/laadpaal-installateurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/loodgieters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/metselwerk</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/meubelmakers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/ontruiming</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/opruimservice</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/parketvloeren</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/rietdekkers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/rioolservice</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/rolluiken-zonwering</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/schilders</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/schoonmaakbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/schoorsteenvegers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/serrebouwers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/stukadoors</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/tegelzetters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/timmerlieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/trapliften-thuisliften</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/vloerlegger</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/vochtbestrijding</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/voegwerk</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/warmtepomp-installatie</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/zonnepanelen</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/vakgebieden/zwembadbouwers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Service × Trade pages (websites) -->
-  <url><loc>https://aannemersysteem.com/websites-voor-schilders</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-dakdekkers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-loodgieters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-stukadoors</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-hoveniers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-klusbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-tegelzetters</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-elektriciens</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-timmerlieden</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-schoonmaakbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-glazenwassers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-keukenmonteurs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-badkamerrenovatie-bedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-isolatiebedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://aannemersysteem.com/websites-voor-hvac-bedrijven</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Service pages: websites-voor-* (16) -->
+  <url><loc>https://aannemersysteem.com/websites-voor-badkamerrenovatie-bedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-dakdekkers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-elektriciens</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-glazenwassers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-hoveniers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-hvac-bedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-isolatiebedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-keukenmonteurs</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-klusbedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-loodgieters</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-schilders</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-schoonmaakbedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-stukadoors</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-tegelzetters</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-timmerlieden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/websites-voor-verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Kennisbank articles -->
-  <url><loc>https://aannemersysteem.com/kennisbank/automatisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/crm-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/planning-software-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/offerte-proces-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <!-- Kennisbank articles (32) -->
   <url><loc>https://aannemersysteem.com/kennisbank/ai-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/klantenwerving-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/google-mijn-bedrijf-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/automatisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/belang-van-reviews-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/website-kosten-aannemer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/werkspot-vs-eigen-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/online-marketing-loodgieters</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aannemersysteem.com/kennisbank/meer-klanten-als-schilder</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/crm-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/dakdekker-website-leads</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/elektricien-online-zichtbaarheid</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/gemiste-oproepen-gemiste-omzet</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/google-mijn-bedrijf-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/hoveniers-digitale-groei</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/klanten-mislopen-slechte-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/klantenwerving-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/lokale-seo-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/meer-klanten-als-schilder</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/meer-werk-als-timmerman</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/mond-tot-mondreclame-niet-genoeg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/offerte-aanvragen-verhogen-via-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/offerte-proces-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/online-marketing-loodgieters</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/online-reputatie-opbouwen-vakman</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/opvallen-als-stukadoor-tussen-concurrentie</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/planning-software-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/reviews-vs-advertenties-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/seizoensgebonden-marketing-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/social-media-aannemers-wel-of-niet</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/tevreden-klanten-beste-verkopers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/van-visitekaartje-naar-digitale-aanwezigheid</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/waarom-concurrenten-wel-online-investeren</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/wat-klanten-checken-voor-ze-bellen</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/website-kosten-aannemer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/website-vs-facebook-pagina-aannemer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/werkspot-vs-eigen-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/wet-kwaliteitsborging-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Wiki terms (30) -->
+  <url><loc>https://aannemersysteem.com/wiki/a-b-test</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/automatisering</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/backlinks</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/bounce-rate</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/click-through-rate</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/conversie</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/conversieratio</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/crm</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/cta</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/funnel</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/google-ads</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/google-analytics</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/google-mijn-bedrijf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/landingspagina</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/lead</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/lead-opvolging</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/local-seo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/meta-title-en-meta-description</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/missed-call-text-back</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/mobiele-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/naw-consistentie</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/opleverdossier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/organisch-verkeer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/responsief-design</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/retargeting</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/reviews</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/schema-markup</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/seo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/social-proof</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/ssl-certificaat</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
