@@ -18,11 +18,32 @@ const comparisons = [
     tag: "Werkspot vs Eigen Systeem",
   },
   {
+    slug: "bouwnu-alternatief",
+    title: "Bouwnu alternatief",
+    description:
+      "Bouwnu werkt met credits — je betaalt voor elke lead die je inziet. Vergelijk Bouwnu en een eigen website naast elkaar.",
+    tag: "Bouwnu vs Eigen Systeem",
+  },
+  {
+    slug: "offerteadviseur-alternatief",
+    title: "Offerteadviseur alternatief",
+    description:
+      "Offerteadviseur zet je tegenover 3–5 andere aannemers in een prijzenoorlog. Lees hoe een eigen website dit doorbreekt.",
+    tag: "Offerteadviseur vs Eigen Systeem",
+  },
+  {
     slug: "lokale-leads-genereren",
     title: "Beste manieren om lokale leads te genereren",
     description:
       "Website, Google Mijn Bedrijf, Google Ads, Werkspot, social media — welk kanaal levert de meeste lokale leads op voor aannemers?",
     tag: "Kanalen vergelijken",
+  },
+  {
+    slug: "seo-vs-google-ads",
+    title: "SEO vs Google Ads voor aannemers",
+    description:
+      "Betaal je per klik of bouw je een fundament dat gratis blijft opleveren? Kosten, snelheid en rendement naast elkaar.",
+    tag: "SEO vs Ads",
   },
 ];
 

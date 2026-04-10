@@ -47,6 +47,9 @@ import ServicePageWrapper from "./pages/ServicePageWrapper";
 import VergelijkOverview from "./pages/vergelijk/VergelijkOverview";
 import WerkspotAlternatief from "./pages/vergelijk/WerkspotAlternatief";
 import LokaleLeadsGenereren from "./pages/vergelijk/LokaleLeadsGenereren";
+import BouwnuAlternatief from "./pages/vergelijk/BouwnuAlternatief";
+import OfferteadviseurAlternatief from "./pages/vergelijk/OfferteadviseurAlternatief";
+import SeoVsGoogleAds from "./pages/vergelijk/SeoVsGoogleAds";
 import ScrollToTop from "./components/ScrollToTop";
 
 /** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
@@ -107,7 +110,10 @@ const App = () => (
           <Route path="/vakgebieden/:slug" element={<TradePageWrapper />} />
           <Route path="/vergelijk" element={<VergelijkOverview />} />
           <Route path="/vergelijk/werkspot-alternatief" element={<WerkspotAlternatief />} />
+          <Route path="/vergelijk/bouwnu-alternatief" element={<BouwnuAlternatief />} />
+          <Route path="/vergelijk/offerteadviseur-alternatief" element={<OfferteadviseurAlternatief />} />
           <Route path="/vergelijk/lokale-leads-genereren" element={<LokaleLeadsGenereren />} />
+          <Route path="/vergelijk/seo-vs-google-ads" element={<SeoVsGoogleAds />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
