@@ -758,6 +758,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ],
   },
+  {
+    slug: "mobiele-website",
+    term: "Mobiele website",
+    shortDescription: "Een mobiele website is een website die er netjes uitziet en goed werkt op een telefoon. Omdat de meeste klanten je eerst op hun mobiel bekijken, is dit voor aannemers cruciaal.",
+    category: "Technisch",
+    date: "2026-04-10",
+    relatedTerms: ["responsief-design", "bounce-rate", "conversie"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een mobiele website is een versie van je site die automatisch past op het scherm van een telefoon of tablet. Knoppen zijn groot genoeg om met je duim aan te tikken, teksten zijn leesbaar zonder in te zoomen en foto's laden snel, ook op een matig 4G-signaal. Tegenwoordig wordt bijna elke nieuwe website mobiel eerst ontworpen en daarna pas voor desktop."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Meer dan zeventig procent van de mensen die een aannemer zoekt, doet dat vanaf hun telefoon. Als jouw website op mobiel traag is of er rommelig uitziet, klikt die klant binnen drie seconden weg en gaat hij naar de volgende. Google straft sites die niet mobielvriendelijk zijn bovendien af in de zoekresultaten, waardoor je minder vindbaar bent. Een slechte mobiele ervaring kost je dus direct klussen."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, een klant met een lekkend dak pakt 's avonds op de bank zijn telefoon en zoekt naar een dakdekker in de buurt. Hij klikt op jouw site, wil meteen je telefoonnummer zien en op één knop kunnen drukken om te bellen. Als dat werkt, ben je binnen vijftien seconden aan de lijn. Als hij eerst moet scrollen, inzoomen of wachten tot een foto laadt, tikt hij door naar de volgende dakdekker in de lijst."
+      }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

@@ -1208,5 +1208,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
     ]
+  },
+  {
+    slug: "meer-werk-als-timmerman",
+    title: "Hoe je als timmerman meer werk binnenhaalt",
+    description: "Als timmerman ben je goed met je handen, maar hoe zorg je dat de telefoon blijft rinkelen? Concrete tips om meer klussen binnen te halen zonder dat je hele dagen met marketing bezig bent.",
+    category: "Vakgebied",
+    readTime: "7 min",
+    date: "2026-04-10",
+    sections: [
+      {
+        heading: "Waarom mond-tot-mondreclame alleen niet meer volstaat",
+        body: "Vroeger was de beste marketing voor een timmerman een tevreden klant die je naam doorgaf op een verjaardag. Dat werkt nog steeds, maar het is niet genoeg meer. Mensen die een dakkapel, nieuwe kozijnen of een maatwerkkast willen, tikken tegenwoordig eerst even op hun telefoon. Als jij daar niet opduikt met een nette website en een paar goede reviews, gaat die klus naar iemand die wel vindbaar is. Dat heeft niks met vakmanschap te maken, maar alles met zichtbaarheid."
+      },
+      {
+        heading: "Laat je vakmanschap online zien met goede foto's",
+        body: "Timmerwerk is bij uitstek visueel werk. Een strakke inbouwkast, een massieve eiken trap of een perfect geplaatste schuifpui spreken voor zich. Maak na elke klus vijf minuten vrij om een paar foto's te maken met je telefoon. Zet die op je website en op je Google Bedrijfsprofiel. Een klant die twijfelt tussen jou en een collega kiest bijna altijd voor degene die kan laten zien wat hij maakt. Je hoeft geen fotograaf te zijn, gewoon helder licht en rechte lijnen is al genoeg."
+      },
+      {
+        heading: "Zorg dat je in jouw werkgebied gevonden wordt",
+        body: "De meeste timmerlieden werken binnen een uurtje rijden van huis. Zorg dat je website en Google-profiel duidelijk vermelden in welke plaatsen je actief bent. Als iemand zoekt op timmerman Utrecht of dakkapel plaatsen Amersfoort moet jouw naam tevoorschijn komen. Vul je Google Bedrijfsprofiel volledig in met openingstijden, telefoonnummer en werkgebied. Dat kost je een middag en levert jaren voordeel op."
+      },
+      {
+        heading: "Reageer sneller dan de rest",
+        body: "De meeste aanvragen worden gedaan door mensen die al drie of vier aannemers hebben aangeschreven. Wie als eerste reageert, zit het dichtst bij de opdracht. Als jij pas 's avonds tijd hebt om je mail te checken, ben je vaak al te laat. Met een systeem dat gemiste oproepen automatisch opvolgt met een sms, laat je nooit meer een aanvraag liggen. Die directe reactie alleen al maakt soms het verschil tussen een klus binnenhalen of misslaan."
+      },
+      {
+        heading: "Verzamel reviews systematisch na elke klus",
+        body: "Vraag iedere tevreden klant om een review op Google. Niet per toeval, maar als vast onderdeel van je proces. Een korte sms de dag na oplevering met een linkje werkt beter dan vragen aan de keukentafel. Hoe meer recente reviews je hebt, hoe hoger je in de kaartresultaten verschijnt en hoe sneller een twijfelende klant op je naam klikt. Tien goede reviews zijn meer waard dan de duurste advertentie."
+      },
+      {
+        heading: "Kies voor het werk dat je echt wilt doen",
+        body: "Als je online goed zichtbaar bent, krijg je op een gegeven moment meer aanvragen dan je aan kunt. Dat is het moment om te kiezen: wil je vooral kozijnen, keukens op maat, trappen, of grote verbouwingen? Richt je website en foto's op dat werk en je trekt vanzelf meer van dat soort klanten. Je tarief gaat omhoog omdat je je onderscheidt van de generalist die alles een beetje doet. Specialisatie is de snelste weg naar betere klussen en betere klanten."
+      },
+      {
+        heading: "Zet je online aanwezigheid in één keer goed neer",
+        body: "Bij AannemerSysteem.com helpen we timmerlieden en andere vakmensen om zonder gedoe online zichtbaar te worden. Een snelle website die jouw werk laat zien, een review funnel die automatisch reviews verzamelt na elke klus en missed call text back zodat je geen enkele klant meer misloopt als je in de werkplaats staat. Zo blijft je telefoon rinkelen terwijl jij je kunt richten op waar je goed in bent: strak timmerwerk afleveren."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
+    ]
   }
 ];
