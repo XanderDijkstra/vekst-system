@@ -14,6 +14,36 @@ export type Database = {
   }
   public: {
     Tables: {
+      braindumps: {
+        Row: {
+          content: string
+          created_at: string
+          id: string
+          status: string
+          tags: string[]
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          content?: string
+          created_at?: string
+          id?: string
+          status?: string
+          tags?: string[]
+          title?: string
+          updated_at?: string
+        }
+        Update: {
+          content?: string
+          created_at?: string
+          id?: string
+          status?: string
+          tags?: string[]
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       configurator_features: {
         Row: {
           created_at: string
