@@ -507,6 +507,7 @@ export const wikiTerms: WikiTerm[] = [
     ],
   },
   {
+    date: "2025-08-20",
     slug: "responsief-design",
     term: "Responsief Design",
     shortDescription: "Een website die zich automatisch aanpast aan het scherm waarop je hem bekijkt, of dat nou een telefoon, tablet of computer is.",
@@ -684,6 +685,7 @@ export const wikiTerms: WikiTerm[] = [
     ],
   },
   {
+    date: "2025-09-01",
     slug: "click-through-rate",
     term: "Click-Through Rate (CTR)",
     shortDescription: "Het percentage mensen dat op jouw link klikt nadat ze hem zien in Google of in een advertentie. Hoe hoger je CTR, hoe meer bezoekers op je website.",
@@ -709,6 +711,7 @@ export const wikiTerms: WikiTerm[] = [
     ]
   },
   {
+    date: "2025-09-05",
     slug: "funnel",
     term: "Funnel",
     shortDescription: "Een funnel is het pad dat een potentiele klant aflegt van eerste contact tot opdracht. Denk aan het als een trechter: bovenaan komen veel mensen binnen, onderaan houd je de echte klanten over.",
