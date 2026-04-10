@@ -27,6 +27,32 @@ const latestWikiTerms = [...wikiTerms]
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 6);
 
+const kennisbankSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Kennisbank | Aannemer Systeem",
+  url: `${SITE_URL}/kennisbank`,
+  description: "Praktische artikelen over digitalisering, marketing en automatisering voor aannemers.",
+  inLanguage: "nl-NL",
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Kennisbank", item: `${SITE_URL}/kennisbank` },
+    ],
+  },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: kennisbankArticles.length,
+    itemListElement: latestArticles.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: a.title,
+      url: `${SITE_URL}/kennisbank/${a.slug}`,
+    })),
+  },
+};
+
 const KennisbankOverview = () => (
   <PageShell>
     <Helmet>
@@ -38,6 +64,7 @@ const KennisbankOverview = () => (
       <meta property="og:url" content={`${SITE_URL}/kennisbank`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nl_NL" />
+      <script type="application/ld+json">{JSON.stringify(kennisbankSchema)}</script>
     </Helmet>
 
     {/* Hero */}

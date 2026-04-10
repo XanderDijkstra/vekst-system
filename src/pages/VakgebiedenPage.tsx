@@ -89,6 +89,31 @@ const allTrades = [
   { name: "Zwembadbouwers", slug: "zwembadbouwers" },
 ];
 
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Vakgebieden | Aannemer Systeem",
+  url: `${SITE_URL}/vakgebieden`,
+  description: "Alle vakgebieden waarvoor wij digitale systemen, websites en marketing automatisering leveren.",
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Vakgebieden", item: `${SITE_URL}/vakgebieden` },
+    ],
+  },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: allTrades.length,
+    itemListElement: allTrades.map((t, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: t.name,
+      url: `${SITE_URL}/vakgebieden/${t.slug}`,
+    })),
+  },
+};
+
 const VakgebiedenPage = () => {
   return (
     <PageShell>
@@ -101,6 +126,7 @@ const VakgebiedenPage = () => {
         <meta property="og:url" content={`${SITE_URL}/vakgebieden`} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
+        <script type="application/ld+json">{JSON.stringify(collectionSchema)}</script>
       </Helmet>
       {/* Hero */}
       <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-primary">

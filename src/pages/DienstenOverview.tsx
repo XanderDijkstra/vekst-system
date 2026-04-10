@@ -35,6 +35,33 @@ const sections = [
   },
 ];
 
+const allDiensten = sections.flatMap((s) => s.items);
+
+const dienstenSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Diensten | Aannemer Systeem",
+  url: `${SITE_URL}/diensten`,
+  description: "Digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes en automatisering.",
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Diensten", item: `${SITE_URL}/diensten` },
+    ],
+  },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: allDiensten.length,
+    itemListElement: allDiensten.map((d, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: d.title,
+      url: `${SITE_URL}${d.href}`,
+    })),
+  },
+};
+
 const DienstenOverview = () => (
   <PageShell>
     <Helmet>
@@ -46,6 +73,7 @@ const DienstenOverview = () => (
       <meta property="og:url" content={`${SITE_URL}/diensten`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nl_NL" />
+      <script type="application/ld+json">{JSON.stringify(dienstenSchema)}</script>
     </Helmet>
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
