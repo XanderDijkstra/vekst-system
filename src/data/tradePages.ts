@@ -36,6 +36,12 @@ import { ASBESTSANERING_DATA } from "./tradeData/asbestsanering";
 import { VOCHTBESTRIJDING_DATA } from "./tradeData/vochtbestrijding";
 import { SCHOORSTEENVEGERS_DATA } from "./tradeData/schoorsteenvegers";
 import { MEUBELMAKERS_DATA } from "./tradeData/meubelmakers";
+import { ZWEMBADBOUWERS_DATA } from "./tradeData/zwembadbouwers";
+import { SERREBOUWERS_DATA } from "./tradeData/serrebouwers";
+import { BINNENHUISARCHITECTEN_DATA } from "./tradeData/binnenhuisarchitecten";
+import { KELDERBOUW_DATA } from "./tradeData/kelderbouw";
+import { GARAGEDEUREN_DATA } from "./tradeData/garagedeuren";
+import { BEVEILIGINGSINSTALLATEURS_DATA } from "./tradeData/beveiligingsinstallateurs";
 
 export interface TradeData {
   slug: string;
@@ -591,6 +597,18 @@ export const TRADE_PAGES: Record<string, TradeData> = {
   schoorsteenvegers: SCHOORSTEENVEGERS_DATA,
   // ━━ MEUBELMAKERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   meubelmakers: MEUBELMAKERS_DATA,
+  // ━━ ZWEMBADBOUWERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  zwembadbouwers: ZWEMBADBOUWERS_DATA,
+  // ━━ SERREBOUWERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  serrebouwers: SERREBOUWERS_DATA,
+  // ━━ BINNENHUISARCHITECTEN ━━━━━━━━━━━━━━━━━━━━━━━
+  binnenhuisarchitecten: BINNENHUISARCHITECTEN_DATA,
+  // ━━ KELDERBOUW ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  kelderbouw: KELDERBOUW_DATA,
+  // ━━ GARAGEDEUREN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  garagedeuren: GARAGEDEUREN_DATA,
+  // ━━ BEVEILIGINGSINSTALLATEURS ━━━━━━━━━━━━━━━━━━━
+  beveiligingsinstallateurs: BEVEILIGINGSINSTALLATEURS_DATA,
 };
 
 export const TRADE_SLUGS = Object.keys(TRADE_PAGES);
