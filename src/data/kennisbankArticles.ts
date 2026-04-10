@@ -782,6 +782,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
+    date: "2025-09-10",
     slug: "social-media-aannemers-wel-of-niet",
     title: "Social media voor aannemers: wel of niet doen?",
     description: "Is social media de moeite waard als aannemer of ZZP'er? We leggen uit wanneer het werkt, wanneer niet, en wat je minimaal moet doen om er klanten uit te halen.",
@@ -1082,6 +1083,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ]
   },
   {
+    date: "2025-09-15",
     slug: "waarom-concurrenten-wel-online-investeren",
     title: "Waarom je concurrenten wel online investeren (en jij achterblijft)",
     description: "Steeds meer stukadoors, metselaars en andere vakmensen investeren in hun online aanwezigheid. Ontdek waarom ze dat doen en wat het hen oplevert.",
