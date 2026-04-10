@@ -42,6 +42,9 @@ import { BINNENHUISARCHITECTEN_DATA } from "./tradeData/binnenhuisarchitecten";
 import { KELDERBOUW_DATA } from "./tradeData/kelderbouw";
 import { GARAGEDEUREN_DATA } from "./tradeData/garagedeuren";
 import { BEVEILIGINGSINSTALLATEURS_DATA } from "./tradeData/beveiligingsinstallateurs";
+import { RIETDEKKERS_DATA } from "./tradeData/rietdekkers";
+import { AANBOUW_UITBOUW_DATA } from "./tradeData/aanbouw-uitbouw";
+import { LAADPAAL_INSTALLATEURS_DATA } from "./tradeData/laadpaal-installateurs";
 
 export interface TradeData {
   slug: string;
@@ -609,6 +612,12 @@ export const TRADE_PAGES: Record<string, TradeData> = {
   garagedeuren: GARAGEDEUREN_DATA,
   // ━━ BEVEILIGINGSINSTALLATEURS ━━━━━━━━━━━━━━━━━━━
   beveiligingsinstallateurs: BEVEILIGINGSINSTALLATEURS_DATA,
+  // ━━ RIETDEKKERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  rietdekkers: RIETDEKKERS_DATA,
+  // ━━ AANBOUW & UITBOUW ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  "aanbouw-uitbouw": AANBOUW_UITBOUW_DATA,
+  // ━━ LAADPAAL INSTALLATEURS ━━━━━━━━━━━━━━━━━━━━━━
+  "laadpaal-installateurs": LAADPAAL_INSTALLATEURS_DATA,
 };
 
 export const TRADE_SLUGS = Object.keys(TRADE_PAGES);

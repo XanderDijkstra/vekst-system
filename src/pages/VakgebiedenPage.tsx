@@ -32,6 +32,7 @@ const trades = [
 ];
 
 const allTrades = [
+  { name: "Aanbouw & Uitbouw", slug: "aanbouw-uitbouw" },
   { name: "Aannemers", slug: "aannemers" },
   { name: "Airco installateurs", slug: "airco-installateurs" },
   { name: "Asbestsanering", slug: "asbestsanering" },
@@ -59,12 +60,14 @@ const allTrades = [
   { name: "Keukenmonteurs", slug: "keukenmonteurs" },
   { name: "Klusbedrijven", slug: "klusbedrijven" },
   { name: "Kozijnen & Ramen", slug: "kozijnen-ramen" },
+  { name: "Laadpaal installateurs", slug: "laadpaal-installateurs" },
   { name: "Loodgieters", slug: "loodgieters" },
   { name: "Metselwerk", slug: "metselwerk" },
   { name: "Meubelmakers", slug: "meubelmakers" },
   { name: "Ontruiming", slug: "ontruiming" },
   { name: "Opruimservice", slug: "opruimservice" },
   { name: "Parketvloeren", slug: "parketvloeren" },
+  { name: "Rietdekkers", slug: "rietdekkers" },
   { name: "Rioolservice", slug: "rioolservice" },
   { name: "Rolluiken & Zonwering", slug: "rolluiken-zonwering" },
   { name: "Schilders", slug: "schilders" },
