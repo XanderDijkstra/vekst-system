@@ -44,6 +44,9 @@ import BlogOverview from "./pages/BlogOverview";
 import WikiOverview from "./pages/WikiOverview";
 import WikiTerm from "./pages/WikiTerm";
 import ServicePageWrapper from "./pages/ServicePageWrapper";
+import VergelijkOverview from "./pages/vergelijk/VergelijkOverview";
+import WerkspotAlternatief from "./pages/vergelijk/WerkspotAlternatief";
+import LokaleLeadsGenereren from "./pages/vergelijk/LokaleLeadsGenereren";
 import ScrollToTop from "./components/ScrollToTop";
 
 /** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
@@ -102,6 +105,9 @@ const App = () => (
           </Route>
           <Route path="/vakgebieden" element={<VakgebiedenPage />} />
           <Route path="/vakgebieden/:slug" element={<TradePageWrapper />} />
+          <Route path="/vergelijk" element={<VergelijkOverview />} />
+          <Route path="/vergelijk/werkspot-alternatief" element={<WerkspotAlternatief />} />
+          <Route path="/vergelijk/lokale-leads-genereren" element={<LokaleLeadsGenereren />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
