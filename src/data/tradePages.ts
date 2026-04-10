@@ -30,6 +30,12 @@ import { WARMTEPOMP_INSTALLATIE_DATA } from "./tradeData/warmtepomp-installatie"
 import { DOMOTICA_DATA } from "./tradeData/domotica";
 import { OPRUIMSERVICE_DATA } from "./tradeData/opruimservice";
 import { ZONNEPANELEN_DATA } from "./tradeData/zonnepanelen";
+import { DAKKAPELLEN_DATA } from "./tradeData/dakkapellen";
+import { AIRCO_INSTALLATEURS_DATA } from "./tradeData/airco-installateurs";
+import { ASBESTSANERING_DATA } from "./tradeData/asbestsanering";
+import { VOCHTBESTRIJDING_DATA } from "./tradeData/vochtbestrijding";
+import { SCHOORSTEENVEGERS_DATA } from "./tradeData/schoorsteenvegers";
+import { MEUBELMAKERS_DATA } from "./tradeData/meubelmakers";
 
 export interface TradeData {
   slug: string;
@@ -573,6 +579,18 @@ export const TRADE_PAGES: Record<string, TradeData> = {
   opruimservice: OPRUIMSERVICE_DATA,
   // ━━ ZONNEPANELEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   zonnepanelen: ZONNEPANELEN_DATA,
+  // ━━ DAKKAPELLEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  dakkapellen: DAKKAPELLEN_DATA,
+  // ━━ AIRCO INSTALLATEURS ━━━━━━━━━━━━━━━━━━━━━━━━━
+  "airco-installateurs": AIRCO_INSTALLATEURS_DATA,
+  // ━━ ASBESTSANERING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  asbestsanering: ASBESTSANERING_DATA,
+  // ━━ VOCHTBESTRIJDING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  vochtbestrijding: VOCHTBESTRIJDING_DATA,
+  // ━━ SCHOORSTEENVEGERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  schoorsteenvegers: SCHOORSTEENVEGERS_DATA,
+  // ━━ MEUBELMAKERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  meubelmakers: MEUBELMAKERS_DATA,
 };
 
 export const TRADE_SLUGS = Object.keys(TRADE_PAGES);
