@@ -1253,5 +1253,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
     ]
+  },
+  {
+    slug: "kosten-van-geen-online-aanwezigheid-metselaar",
+    title: "Wat het kost om als metselaar niet online zichtbaar te zijn",
+    description: "Veel metselaars denken dat mond-tot-mondreclame genoeg is. Maar wat loop je eigenlijk mis als je online onvindbaar bent? Een eerlijke rekensom voor vakmensen die twijfelen of een website de moeite waard is.",
+    category: "Online zichtbaarheid",
+    readTime: "7 min",
+    date: "2026-04-11",
+    sections: [
+      {
+        heading: "Het verhaal dat veel metselaars zichzelf vertellen",
+        body: "Ik heb geen website nodig, mijn klanten komen via via. Het is een uitspraak die je nog vaak hoort op de bouwplaats. En eerlijk is eerlijk, jarenlang klopte dat ook. Een goed stuk muurwerk spreekt zich rond en de telefoon bleef rinkelen. Maar die tijd is niet meer. Zelfs de klanten die jou via een kennis tippen, googelen je naam voordat ze bellen. Als er dan niks te vinden is, of alleen een verouderd Facebook-pagina uit 2019, ben je de helft van je geloofwaardigheid al kwijt."
+      },
+      {
+        heading: "De verborgen kosten die je niet op een factuur ziet",
+        body: "Wat je misloopt zie je niet terug in je boekhouding. Er komt geen aanvraag binnen die je kon afslaan. Er belt geen klant die zei dat hij je op internet had gevonden. Het blijft gewoon stil, en dat lijkt normaal. Maar ondertussen zoeken er in een gemiddelde gemeente elke week tientallen mensen op metselaar in mijn buurt. Als jij niet verschijnt, verdeelt dat werk zich over drie of vier concurrenten die wel zichtbaar zijn. Dat is geen theorie, dat gebeurt nu."
+      },
+      {
+        heading: "Een rekensom die pijn doet",
+        body: "Stel, in jouw werkgebied doen twintig mensen per maand een zoekopdracht naar een metselaar. Van die twintig klikken er misschien vijf door naar een website en vragen er twee een offerte aan. Als jij in die top niet voorkomt, gaan die twee klussen naar een ander. Bij een gemiddelde opdracht van drie- tot vijfduizend euro betekent dat al gauw zes- tot tienduizend euro omzet per maand die je niet eens weet dat je misloopt. Op jaarbasis loop je daarmee tegen getallen aan die vele keren hoger zijn dan wat een nette website je kost."
+      },
+      {
+        heading: "Wat een klant denkt als hij je naam googelt en niks vindt",
+        body: "Zet je eens in de schoenen van iemand die je naam via een buurman hoort. Hij komt thuis, tikt je bedrijfsnaam in en ziet niks. Geen website, geen foto's van eerder werk, geen reviews. Zijn vertrouwen zakt meteen. Niet omdat jij geen goede metselaar bent, maar omdat hij geen bewijs heeft. Dezelfde klant zou zonder aarzelen bellen als hij drie goede reviews en een paar foto's van strak schoonwerk zag. Online zichtbaar zijn is geen opschepperij, het is bewijslast voor twijfelaars."
+      },
+      {
+        heading: "De klussen die je wel binnenhaalt zijn vaak de verkeerde",
+        body: "Zonder online aanwezigheid kom je vooral bij klanten terecht die via kennissen of oude contacten bij je aankloppen. Dat is prettig, maar het zijn niet altijd de klussen waar je blij van wordt. De betere opdrachten, denk aan een complete gevelrenovatie of een nieuwbouwproject, gaan naar metselaars die online een professionele indruk maken. Opdrachtgevers die wat te besteden hebben kiezen zelden voor de onzichtbare vakman. Ze willen zien wat ze krijgen voordat ze de knoop doorhakken."
+      },
+      {
+        heading: "Waarom wachten steeds duurder wordt",
+        body: "Elk jaar dat je online afwezig blijft, groeit het verschil met je concurrenten. Zij verzamelen intussen reviews, bouwen een portfolio op en stapelen domeinhistorie op bij Google. Als jij over twee jaar alsnog besluit een website te laten maken, start je op achterstand. De beste tijd om dit te regelen was drie jaar geleden. De op een na beste tijd is vandaag. Niet omdat je meteen rijk wordt, maar omdat je positie alleen maar verslechtert als je blijft wachten."
+      },
+      {
+        heading: "Hoe je zonder gedoe de omslag maakt",
+        body: "Bij AannemerSysteem.com helpen we metselaars en andere vakmensen om zonder poespas online zichtbaar te worden. Een snelle website waarop je schoonwerk tot zijn recht komt, een review funnel die automatisch reviews verzamelt na oplevering en missed call text back zodat je nooit meer een aanvraag misloopt omdat je op de steiger stond. Je hoeft geen marketeer te worden, wij regelen het. Jij doet waar je goed in bent: strak muurwerk neerzetten."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
+    ]
   }
 ];

@@ -787,6 +787,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ]
   },
+  {
+    slug: "domein-en-hosting",
+    term: "Domein en hosting",
+    shortDescription: "Je domein is je adres op internet (bijvoorbeeld jouwbedrijf.nl) en hosting is de computer waarop je website draait. Zonder die twee staat er geen website online.",
+    category: "Technisch",
+    date: "2026-04-11",
+    relatedTerms: ["ssl-certificaat", "mobiele-website", "responsief-design"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een domein is de naam die mensen in hun browser typen om bij jouw website te komen, zoals metselaarjansen.nl. Hosting is de ruimte op een server, oftewel een computer die altijd aanstaat, waar de bestanden van je website staan. Je betaalt meestal een vast bedrag per jaar voor je domein en een maand- of jaartarief voor de hosting. Samen zorgen ze ervoor dat je website dag en nacht bereikbaar is voor klanten."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Een eigen domein maakt je professioneler dan een gratis Facebook-pagina of een adres dat eindigt op iets als wixsite.com. Klanten zien direct dat je een serieus bedrijf bent. Goede hosting zorgt bovendien dat je site snel laadt en niet offline is als er veel bezoek tegelijk komt. Een trage of onbereikbare website kost je aanvragen, want klanten klikken binnen drie seconden weg als het niet werkt."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je begint als zelfstandig loodgieter en kiest de domeinnaam loodgieterpieters.nl. Je registreert die eenmalig bij een provider en je huurt hosting waar je website op komt te staan. Zodra iemand jouw domein intypt, haalt de browser de website razendsnel op van die server. Bij AannemerSysteem.com regelen we domein en hosting voor vakmensen zodat je daar zelf geen omkijken naar hebt."
+      }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
