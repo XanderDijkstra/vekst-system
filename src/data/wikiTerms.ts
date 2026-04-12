@@ -813,6 +813,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ]
   },
+  {
+    slug: "review-funnel",
+    term: "Review funnel",
+    shortDescription: "Een review funnel is een automatisch systeem dat klanten na een klus uitnodigt om een Google-review achter te laten. Jij hoeft er niks voor te doen, het loopt vanzelf.",
+    category: "Automatisering",
+    date: "2026-04-12",
+    relatedTerms: ["reviews", "social-proof", "conversie"],
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een review funnel is een geautomatiseerd proces dat na afloop van een klus een bericht stuurt naar je klant met het verzoek om een review achter te laten. Meestal gaat dat via sms of WhatsApp, met een directe link naar je Google Bedrijfsprofiel. Het systeem stuurt eventueel een herinnering als de klant niet reageert, zodat je zonder zelf te hoeven vragen een gestage stroom aan beoordelingen opbouwt."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "De meeste tevreden klanten willen best een review schrijven, maar vergeten het simpelweg. Door dat verzoek te automatiseren mis je die kans niet meer. Google-reviews zijn voor aannemers een van de sterkste manieren om vertrouwen te wekken bij nieuwe klanten. Hoe meer recente, positieve reviews je hebt, hoe hoger je verschijnt in lokale zoekresultaten en hoe sneller iemand besluit om jou te bellen in plaats van de concurrent."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je hebt net een keuken betegeld en de klant is blij met het resultaat. Dezelfde avond krijgt hij automatisch een kort sms-bericht: Bedankt voor de opdracht! Zou je een review willen achterlaten? Met daarin een link die hem rechtstreeks naar het review-formulier van Google brengt. Twee klikken en het is gedaan. Bij AannemerSysteem.com zetten we zo een review funnel voor je op die na elke oplevering automatisch draait."
+      }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

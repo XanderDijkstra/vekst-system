@@ -1296,5 +1296,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
     ]
+  },
+  {
+    slug: "meer-werk-als-tegelzetter",
+    title: "Hoe je als tegelzetter meer opdrachten binnenhaalt via internet",
+    description: "Veel tegelzetters vertrouwen op vaste opdrachtgevers en mond-tot-mondreclame. Maar wat als die stroom opdroogt? Ontdek hoe je met een paar slimme stappen online zichtbaar wordt en een constante instroom van klussen opbouwt.",
+    category: "Vakgebied",
+    readTime: "7 min",
+    date: "2026-04-12",
+    sections: [
+      {
+        heading: "Het probleem dat je niet ziet aankomen",
+        body: "Als tegelzetter heb je het nu misschien druk genoeg. De vaste aannemer belt, een oud-klant heeft weer een badkamer en via de buurman komt er ook nog iets binnen. Maar die stroom is niet gegarandeerd. Als je vaste opdrachtgever stopt of even geen werk heeft, val je in een gat. Je hebt geen plan B, want je hebt nooit zelf klanten hoeven werven. Dat is het moment dat je beseft dat afhankelijk zijn van een paar contacten een risico is, geen strategie."
+      },
+      {
+        heading: "Waarom klanten tegenwoordig googelen in plaats van vragen",
+        body: "Tien jaar geleden vroeg iemand met een badkamerverbouwing aan de buurman of die een goede tegelzetter wist. Dat gebeurt nog steeds, maar er is een stap bijgekomen. Na die tip googelt de klant jouw naam om te kijken wat hij vindt. Geen website, geen reviews, geen foto's van eerder werk? Dan belt hij de volgende op het lijstje. En steeds vaker slaat die klant de buurman helemaal over en zoekt hij direct op tegelzetter in de buurt. Als jij daar niet verschijnt, besta je niet voor die klant."
+      },
+      {
+        heading: "Wat een eigen website je oplevert als tegelzetter",
+        body: "Een nette website is je digitale portfolio. Foto's van strak tegelwerk in een inloopdouche of een stijlvolle keukenvloer zeggen meer dan honderd woorden. Klanten willen zien wat ze krijgen en bij tegelwerk is dat juist zo belangrijk omdat het resultaat direct zichtbaar is. Een website met vijf tot tien goede projectfoto's, je werkgebied en een simpel contactformulier is genoeg om vertrouwen te wekken. Je hoeft geen roman te schrijven, laat je werk spreken."
+      },
+      {
+        heading: "Reviews zijn je beste visitekaartje",
+        body: "Een tegelzetter met twintig Google-reviews van tevreden klanten heeft een enorm voordeel op iemand zonder reviews. Klanten lezen die beoordelingen echt. Ze willen weten of je netjes werkt, op tijd komt en de boel schoon achterlaat. Het mooie is dat tevreden klanten best een review willen schrijven, ze weten alleen niet dat je het op prijs stelt. Met een simpel berichtje na oplevering, een linkje naar je Google-profiel, verzamel je binnen een paar maanden een reputatie die voor je werkt terwijl jij aan het voegen bent."
+      },
+      {
+        heading: "Gemiste oproepen kosten je meer dan je denkt",
+        body: "Je staat op je knieen tegels te snijden als je telefoon gaat. Je kunt niet opnemen, want je hebt allebei je handen vol. Die klant laat geen voicemail in en belt de volgende tegelzetter op Google. Weg opdracht, en je wist niet eens dat hij belde. Met een automatisch sms-bericht na een gemiste oproep houd je die klant vast. Hij krijgt meteen een bericht dat je bezig bent en zo snel mogelijk terugbelt. Dat kleine gebaar maakt het verschil tussen een klus binnenhalen en er eentje mislopen."
+      },
+      {
+        heading: "Lokaal gevonden worden zonder marketingkennis",
+        body: "Je hoeft geen expert in marketing te worden om online zichtbaar te zijn. De basis is simpel: een Google Bedrijfsprofiel met je juiste adres en telefoonnummer, een website die laat zien wat je doet en waar je werkt, en een handvol reviews. Google doet de rest. Als iemand in jouw regio zoekt op tegelzetter, wil Google een lokaal resultaat tonen. Met die drie elementen op orde sta jij in dat rijtje. Geen advertenties nodig, geen social media-gedoe, gewoon vindbaar zijn als iemand je zoekt."
+      },
+      {
+        heading: "Begin vandaag, niet volgend seizoen",
+        body: "Bij AannemerSysteem.com helpen we tegelzetters en andere vakmensen om zonder gedoe online zichtbaar te worden. Een snelle website met je mooiste projecten, een review funnel die automatisch reviews verzamelt na elke oplevering en missed call text back zodat je nooit meer een klant misloopt omdat je op de knieen zit. Je hoeft niks van marketing te weten, wij regelen het. Jij legt tegels, wij zorgen dat de volgende klant je vindt."
+      }
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
+    ]
   }
 ];
