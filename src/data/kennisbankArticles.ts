@@ -1339,5 +1339,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" }
     ]
+  },
+  {
+    slug: "snel-reageren-op-online-aanvragen-aannemer",
+    title: "Waarom snel reageren op een online aanvraag het verschil maakt tussen een klus en een gemiste kans",
+    description: "De meeste aannemers denken dat ze snel genoeg reageren op offerte-aanvragen via hun website. De realiteit is dat de klant allang bij de volgende zit. Dit is waarom reageersnelheid je onzichtbare leadkiller is en hoe je het oplost.",
+    category: "Lead opvolging",
+    readTime: "6 min",
+    date: "2026-04-13",
+    sections: [
+      {
+        heading: "De onzichtbare killer van je omzet",
+        body: "Je website staat online, je Google-profiel is netjes ingevuld en af en toe komt er een aanvraag binnen via het contactformulier. Je denkt dat je het goed doet. Maar er gebeurt iets waar je geen zicht op hebt: de helft van die aanvragen wordt al beantwoord door een concurrent voordat jij ze überhaupt hebt gezien. Niet omdat jij slecht werk levert, maar omdat je te laat bent. Reageersnelheid is de meest onderschatte reden waarom aannemers klussen mislopen die ze eigenlijk gewoon hadden kunnen binnenhalen."
+      },
+      {
+        heading: "Wat er echt gebeurt als iemand jouw formulier invult",
+        body: "Iemand met een lekkend dak of een kapotte cv-ketel gaat niet rustig een lijstje maken. Hij pakt zijn telefoon, opent Google en vult bij drie of vier aannemers tegelijk het contactformulier in. De eerste die terugbelt krijgt het gesprek, en in de meeste gevallen ook de opdracht. Dat heeft niks met kwaliteit te maken en alles met timing. Zodra hij iemand aan de lijn heeft, stopt het zoeken, want zijn probleem is half opgelost."
+      },
+      {
+        heading: "De vijf-minutenregel waar niemand je over vertelt",
+        body: "Studies laten keer op keer zien dat contact binnen vijf minuten na een aanvraag tot negen keer zo veel conversie leidt als contact na dertig minuten. Na een uur is de lead in de praktijk koud, na een dag bestaat hij eigenlijk niet meer. Voor aannemers is dat effect nog sterker, omdat mensen die een vakman zoeken vaak een acuut probleem hebben. Iemand met water door het plafond wacht geen avond op een terugbelverzoek, die gaat gewoon door met bellen tot er iemand opneemt."
+      },
+      {
+        heading: "Waarom vakmensen denken dat ze snel genoeg zijn",
+        body: "De meeste aannemers zeggen: ik reageer dezelfde dag nog, dus ik zit goed. Maar diezelfde dag betekent in de praktijk dat de aanvraag om tien uur 's ochtends binnenkomt en dat jij om half acht 's avonds thuis je mail checkt. In die tien uur heeft de klant zes anderen gebeld. Jouw antwoord is dan geen eerste contact meer, maar hooguit een back-up voor als de andere niet bevalt. Je dacht dat je meedeed, maar je was allang uitgeschakeld."
+      },
+      {
+        heading: "Hoe je snel reageert zonder de hele dag aan je telefoon te hangen",
+        body: "Het goede nieuws is dat die eerste reactie niet persoonlijk hoeft te komen om effect te hebben. Een automatisch sms'je dat binnen vijftien seconden na de aanvraag wordt verstuurd, bijvoorbeeld Bedankt voor je aanvraag, ik bel je zo snel mogelijk terug, meestal binnen een uur, houdt die klant vast. Hij weet dat hij gezien is en stopt met verder zoeken. Jij kunt rustig je klus afmaken en belt later terug zonder dat je de lead intussen bent kwijtgeraakt. Met het juiste systeem hoef je zelf helemaal niks te doen om die eerste indruk perfect te maken."
+      },
+      {
+        heading: "Wat automatische opvolging je concreet oplevert",
+        body: "Aannemers die een automatisch eerste contact instellen zien hun conversie uit online aanvragen gemiddeld met dertig tot veertig procent stijgen. Op twintig aanvragen per maand zijn dat zes tot acht extra klussen die je anders was kwijtgeraakt. Bij een gemiddelde opdrachtwaarde van een paar duizend euro praten we dan al snel over duizenden euro's per maand aan omzet die je nu simpelweg laat liggen. En het mooiste: het kost je geen extra werk, alleen een systeem dat voor je opvolgt op momenten dat jij niet kunt."
+      },
+      {
+        heading: "Begin morgenvroeg, niet volgend kwartaal",
+        body: "Bij AannemerSysteem.com zetten we voor vakmensen een lead-opvolgingssysteem op dat binnen seconden reageert op elke aanvraag via je website of gemiste oproep. Jij blijft op de werf, wij zorgen dat de klant altijd meteen antwoord krijgt. Geen app om te leren, geen instellingen om bij te houden, het loopt gewoon. Wil je weten hoeveel omzet jij nu laat liggen door te laat te reageren? Neem contact op en we laten het je zien."
+      }
+    ],
+    relatedLinks: [
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" }
+    ]
   }
 ];

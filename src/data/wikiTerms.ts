@@ -839,6 +839,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ]
   },
+  {
+    slug: "qr-code-voor-reviews",
+    term: "QR-code voor reviews",
+    shortDescription: "Een vierkant scanpatroon dat klanten met hun telefoon scannen en direct op de review-pagina van jouw Google Bedrijfsprofiel komen, zonder zoeken of typen.",
+    category: "Marketing",
+    date: "2026-04-13",
+    relatedTerms: ["reviews", "review-funnel", "google-mijn-bedrijf"],
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Een QR-code voor reviews is een klein zwart-wit vierkant dat gekoppeld is aan de review-link van jouw Google Bedrijfsprofiel. Zodra een klant de code met zijn telefooncamera scant, opent direct het formulier waar hij sterren en een beoordeling kan achterlaten. Je drukt zo'n code op je factuur, visitekaartje, bestelbusraampje of een kaartje dat je bij oplevering meegeeft. Zo maak je van elke klant een potentiële recensent in twee seconden."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "De grootste reden dat tevreden klanten geen review achterlaten is simpel: ze weten niet waar ze moeten klikken. Ze gaan niet vrijwillig zoeken naar jouw bedrijf op Google om vervolgens het juiste resultaat aan te tikken. Met een QR-code haal je die hele drempel weg. Voor aannemers die afhankelijk zijn van lokale zichtbaarheid is elke extra review pure winst, want meer reviews betekent meer vertrouwen bij nieuwe klanten en een hogere positie in de Google-kaartresultaten."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je bent loodgieter en hebt net een verstopping verholpen. Je overhandigt de factuur en onderaan staat een QR-code met de tekst: Tevreden? Scan en laat een review achter. De klant pakt zijn telefoon, richt de camera op de code en staat een tel later op jouw review-pagina. Je kunt dezelfde code ook op een sticker op je bus plakken of op een kaartje dat je achterlaat. Bij AannemerSysteem.com combineren we QR-codes met automatische review-verzoeken zodat je vanuit meerdere kanten beoordelingen binnenhaalt zonder ooit om een review te hoeven vragen."
+      }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
