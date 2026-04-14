@@ -1382,5 +1382,48 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
       { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" }
     ]
-  }
+  },
+  {
+    slug: "negatieve-review-omgaan-aannemer",
+    title: "Hoe ga je om met een negatieve review als aannemer (zonder paniek)",
+    description: "Een negatieve review voelt als een klap in je gezicht, vooral als je weet dat je je werk goed hebt gedaan. Maar je reactie erop bepaalt veel meer dan de review zelf. Zo draai je een slechte beoordeling om in een vertrouwensboost.",
+    category: "Reputatie",
+    readTime: "7 min",
+    date: "2026-04-14",
+    sections: [
+      {
+        heading: "Waarom een negatieve review zo hard binnenkomt",
+        body: "Je hebt drie weken keihard gewerkt aan een verbouwing, alles netjes opgeleverd, en dan zie je opeens een review van twee sterren staan. Misschien gaat het over een detail dat je niet eens onder controle had, of over iets waar je het oprecht oneens mee bent. Je eerste reactie is woede of teleurstelling, en dat is heel begrijpelijk. Maar voor je in de pen klimt: weet dat hoe jij reageert door honderden toekomstige klanten gelezen wordt. De review zelf is één moment, jouw reactie eronder blijft jaren staan.",
+      },
+      {
+        heading: "Wacht 24 uur voordat je reageert",
+        body: "De grootste fout die vakmensen maken is direct na het lezen van een negatieve review een verdedigend of boos antwoord typen. Sluit je telefoon, ga koffie halen, slaap er een nachtje over. De review loopt niet weg en jouw reactie wordt morgen tien keer beter dan vandaag. Een reactie geschreven vanuit boosheid kost je meer klanten dan de oorspronkelijke klacht ooit had gedaan. Geduld is hier letterlijk geld waard.",
+      },
+      {
+        heading: "Begin altijd met erkenning, niet met verdediging",
+        body: "Hoe onterecht je de klacht ook vindt, je opent je reactie nooit met maar of dat klopt niet. Begin met iets als bedankt voor je feedback en het spijt me dat je de samenwerking zo hebt ervaren. Dat klinkt misschien als toegeven, maar het is gewoon professioneel. Toekomstige klanten die meelezen zien een vakman die kalm blijft en de klant serieus neemt. Erkenning hoeft geen schuldbekentenis te zijn, maar het opent wel de deur naar een fatsoenlijk gesprek.",
+      },
+      {
+        heading: "Geef kort je kant van het verhaal, zonder te kibbelen",
+        body: "Na de erkenning mag je rustig je perspectief delen, maar houd het kort en feitelijk. Bijvoorbeeld: we hebben de afgesproken werkzaamheden binnen budget opgeleverd en de aanvullende wensen zijn op verzoek apart geoffreerd. Geen lange lap tekst, geen verwijten, geen drama. Wie meeleest moet denken: deze aannemer blijft professioneel onder druk. Dat zegt meer over je betrouwbaarheid dan tien vijfsterrenreviews.",
+      },
+      {
+        heading: "Bied een oplossing aan en haal het gesprek offline",
+        body: "Sluit je reactie af door uit te nodigen om er telefonisch op terug te komen. Schrijf bijvoorbeeld: ik bel je graag op om te kijken of we er samen alsnog uit kunnen komen, je kunt me bereiken op nul-zes en je nummer. Daarmee laat je zien dat je bereid bent verantwoordelijkheid te nemen. Vaak verzacht of verwijdert de klant zelf de review na zo'n gesprek. En zo niet, dan staat in elk geval voor iedereen zwart op wit dat jij geprobeerd hebt het op te lossen.",
+      },
+      {
+        heading: "Eén negatieve review is geen ramp, helemaal geen reviews wel",
+        body: "Veel aannemers worden lamgeslagen door een enkele slechte beoordeling, maar relativeer het. Een bedrijf met dertig vijfsterrenreviews en eentje van twee sterren komt menselijker en geloofwaardiger over dan een bedrijf met alleen maar perfecte scores. Klanten weten dat overal weleens iets misgaat. Wat ze willen zien is hoe je daarmee omgaat. Dat ene mindere review wordt eigenlijk een kans om je professionaliteit te etaleren, mits je goed reageert.",
+      },
+      {
+        heading: "Voorkomen is beter dan reageren",
+        body: "De beste verdediging tegen negatieve reviews is een stroom positieve reviews die er overheen rolt. Bij AannemerSysteem.com helpen we vakmensen met een review funnel die automatisch tevreden klanten uitnodigt om een Google-review achter te laten. Zo bouw je een buffer op die ene mindere ervaring snel weer in perspectief plaatst. Combineer dat met snelle reactie op gemiste oproepen via missed call text back en je geeft klachten gewoon minder kans om te ontstaan.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+  },
 ];

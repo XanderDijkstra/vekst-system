@@ -865,6 +865,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ]
   },
+  {
+    slug: "webchat",
+    term: "Webchat (chatbot)",
+    shortDescription: "Een klein chatvenster onderaan je website waarin bezoekers direct een vraag kunnen stellen. Vaak begint het automatisch met een paar standaardantwoorden en springt het over op jouw telefoon zodra iemand echt iets wil weten.",
+    category: "Automatisering",
+    date: "2026-04-14",
+    relatedTerms: ["lead", "missed-call-text-back", "conversie"],
+    relatedLinks: [
+      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Webchat is dat kleine knopje rechtsonder op een website waar je op kunt klikken om direct een vraag te stellen. Soms zit er een echt persoon achter, vaker een eenvoudig systeem dat de eerste vragen opvangt en de gegevens van de bezoeker doorstuurt naar jouw telefoon of e-mail. Voor aannemers wordt dit meestal gekoppeld aan sms, zodat een vraag op de website meteen op jouw mobiel binnenkomt en je vanaf daar het gesprek voortzet."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Veel mensen die op zoek zijn naar een loodgieter of dakdekker willen niet bellen, vooral 's avonds of in het weekend. Ze willen snel een vraag kwijt zonder een formulier in te vullen of een telefoongesprek te beginnen. Webchat verlaagt die drempel enorm. Voor jou betekent het dat je leads binnenhaalt die anders nooit contact hadden opgenomen, gewoon omdat het laagdrempeliger voelt dan andere manieren."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, een huiseigenaar zit 's avonds op de bank en ontdekt een vochtplek op het plafond. Hij googelt dakdekker in zijn buurt, klikt op jouw site en ziet rechtsonder een chatvenster met de tekst Vraag direct een dakdekker. Hij tikt zijn vraag in en zijn nummer, en binnen vijftien seconden krijg jij een sms op je telefoon met zijn bericht. Jij stuurt direct een persoonlijk berichtje terug en hebt de afspraak die avond nog rond, terwijl je concurrenten pas de volgende ochtend hun mail openen."
+      }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
