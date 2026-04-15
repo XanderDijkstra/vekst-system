@@ -97,6 +97,7 @@ const VERGELIJK_PAGES = [
 // Calculator / tool pages under /tools. Keep in sync with src/App.tsx.
 const TOOLS_PAGES = [
   "/tools",
+  "/tools/leadwaarde-calculator",
 ];
 
 // ---------- Build ----------

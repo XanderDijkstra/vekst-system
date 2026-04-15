@@ -39,6 +39,7 @@
 
   <!-- Tools / calculators -->
   <url><loc>https://aannemersysteem.com/tools</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/tools/leadwaarde-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Vakgebieden (55) -->
   <url><loc>https://aannemersysteem.com/vakgebieden/aanbouw-uitbouw</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -115,7 +116,7 @@
   <url><loc>https://aannemersysteem.com/websites-voor-timmerlieden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://aannemersysteem.com/websites-voor-verhuisbedrijven</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Kennisbank articles (32) -->
+  <!-- Kennisbank articles (37) -->
   <url><loc>https://aannemersysteem.com/kennisbank/ai-voor-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/automatisering-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/belang-van-reviews-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -127,10 +128,13 @@
   <url><loc>https://aannemersysteem.com/kennisbank/hoveniers-digitale-groei</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/klanten-mislopen-slechte-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/klantenwerving-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/kosten-van-geen-online-aanwezigheid-metselaar</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/lokale-seo-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/meer-klanten-als-schilder</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/meer-werk-als-tegelzetter</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/meer-werk-als-timmerman</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/mond-tot-mondreclame-niet-genoeg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/negatieve-review-omgaan-aannemer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/offerte-aanvragen-verhogen-via-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/offerte-proces-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/online-marketing-loodgieters</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -139,9 +143,11 @@
   <url><loc>https://aannemersysteem.com/kennisbank/planning-software-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/reviews-vs-advertenties-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/seizoensgebonden-marketing-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/snel-reageren-op-online-aanvragen-aannemer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/social-media-aannemers-wel-of-niet</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/tevreden-klanten-beste-verkopers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/van-visitekaartje-naar-digitale-aanwezigheid</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/kennisbank/voor-en-na-fotos-aannemer-marketing</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/waarom-concurrenten-wel-online-investeren</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/wat-klanten-checken-voor-ze-bellen</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/website-kosten-aannemer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -149,7 +155,7 @@
   <url><loc>https://aannemersysteem.com/kennisbank/werkspot-vs-eigen-website</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/kennisbank/wet-kwaliteitsborging-aannemers</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
-  <!-- Wiki terms (30) -->
+  <!-- Wiki terms (35) -->
   <url><loc>https://aannemersysteem.com/wiki/a-b-test</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/automatisering</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/backlinks</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -159,6 +165,7 @@
   <url><loc>https://aannemersysteem.com/wiki/conversieratio</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/crm</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/cta</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/domein-en-hosting</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/funnel</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/google-ads</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/google-analytics</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -173,11 +180,15 @@
   <url><loc>https://aannemersysteem.com/wiki/naw-consistentie</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/opleverdossier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/organisch-verkeer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/paginasnelheid</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/qr-code-voor-reviews</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/responsief-design</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/retargeting</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/review-funnel</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/reviews</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/schema-markup</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/seo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/social-proof</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/ssl-certificaat</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aannemersysteem.com/wiki/webchat</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
