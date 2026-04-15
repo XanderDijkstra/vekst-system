@@ -891,6 +891,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ]
   },
+  {
+    slug: "paginasnelheid",
+    term: "Paginasnelheid",
+    shortDescription: "Hoe snel jouw website oplaadt wanneer iemand erop klikt. Voor aannemers is dit cruciaal omdat bezoekers binnen drie seconden wegklikken als het te lang duurt.",
+    category: "Technisch",
+    date: "2026-04-15",
+    relatedTerms: ["mobiele-website", "bounce-rate", "seo"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Onze Diensten", href: "/diensten" }
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Paginasnelheid is de tijd die je website nodig heeft om volledig te laden nadat iemand op de link heeft geklikt. Die snelheid wordt beïnvloed door allerlei technische zaken: hoe zwaar de foto's zijn, hoeveel scripts er op de achtergrond draaien en hoe krachtig de server is waar je site op staat. Google meet dit tegenwoordig heel precies en gebruikt het als een van de factoren om te bepalen hoe hoog je in de zoekresultaten staat. Snel is gewoon beter, zowel voor Google als voor de klant die op je site belandt."
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Onderzoek laat zien dat meer dan de helft van de bezoekers een website verlaat als hij er langer dan drie seconden over doet om te laden. Voor jou als aannemer betekent dat letterlijk: elke trage seconde kost je aanvragen. Iemand die een lekkend dak heeft of een verstopte afvoer zit niet te wachten tot jouw homepage klaar is met laden, die tikt gewoon door naar de volgende dakdekker of loodgieter in de lijst. En omdat Google langzame sites lager zet in de zoekresultaten, word je bovendien minder gevonden. Snelheid is dus direct gekoppeld aan omzet."
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je hebt een mooie website met tien foto's van afgeronde projecten op je homepage. Als die foto's niet geoptimaliseerd zijn en elk vijf megabyte groot zijn, kan het laden op een matig 4G-signaal tien seconden duren. Een klant die om elf uur 's avonds op de bank naar een loodgieter zoekt geeft je die tijd niet. Bij AannemerSysteem.com bouwen we websites voor vakmensen die binnen één à twee seconden volledig in beeld staan, ook op mobiel. Foto's worden automatisch gecomprimeerd, overbodige code wordt weggelaten en de hosting is zo ingericht dat je site razendsnel reageert."
+      }
+    ]
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];

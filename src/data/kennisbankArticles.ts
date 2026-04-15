@@ -1426,4 +1426,43 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Onze Diensten", href: "/diensten" },
     ],
   },
+  {
+    slug: "voor-en-na-fotos-aannemer-marketing",
+    title: "Vóór-en-na foto's: je sterkste marketing als vakman",
+    description: "Een rij glimlachende klanten op je website is leuk, maar niets verkoopt je werk zo goed als een eerlijke vóór-en-na foto. Zo gebruik je ze om meer aanvragen binnen te halen zonder dat het je extra tijd kost.",
+    category: "Online zichtbaarheid",
+    readTime: "6 min",
+    date: "2026-04-15",
+    sections: [
+      {
+        heading: "Waarom een project zonder foto's half zo sterk verkoopt",
+        body: "Een potentiële klant die overweegt om jou in te huren, heeft één hele belangrijke vraag in zijn hoofd: kun jij dit écht waarmaken? Een tekstje op je website waarin staat dat je vakwerk levert neemt die twijfel niet weg, een echte foto van een verbouwde badkamer of een pas gestukadoorde gevel wel. Vóór-en-na foto's zijn bewijs, en bewijs is wat mensen overhaalt om te bellen. Het mooie is: je hoeft niks op te schrijven, de foto doet het werk voor je. Als timmerman, schilder of metselaar heb je elke werkdag materiaal in handen waar je concurrenten niets tegenin hebben te brengen.",
+      },
+      {
+        heading: "Wat maakt een vóór-en-na foto sterk?",
+        body: "Eerlijkheid en herkenbaarheid. Geen foto's met zware filters of overdreven belichting, want klanten voelen op kilometers afstand wanneer iets te mooi is om waar te zijn. Een goede vóór-foto toont de situatie zoals die was: scheve voegen, versleten kozijnen, een verrotte dakgoot. De na-foto neem je vanuit exact dezelfde hoek zodat het verschil meteen zichtbaar is. Probeer daglicht te gebruiken en zorg dat het beeld scherp is, maar verder hoeft het niet tot in de details te kloppen. Een simpele telefoonopname werkt beter dan een glossy persfoto die voelt alsof er iemand tussen zit.",
+      },
+      {
+        heading: "Waar zet je ze neer zodat ze werk opleveren?",
+        body: "Je website is de eerste plek: een projectenpagina met tien of vijftien vóór-en-na sets overtuigt nieuwe bezoekers binnen dertig seconden. Daarnaast hoort dit materiaal thuis op je Google Bedrijfsprofiel, waar klanten je vinden vóórdat ze ooit op je site klikken. Google beloont profielen met recente foto's door ze hoger in de lokale kaartresultaten te tonen. En tot slot: gebruik dezelfde beelden in offertes die je uitstuurt. Een klant die twijfelt tussen jou en een concurrent, maar in jouw offerte een vergelijkbaar afgerond project ziet, hoeft niet meer lang na te denken.",
+      },
+      {
+        heading: "Hoe verzamel je ze zonder er tijd in te stoppen?",
+        body: "De grootste drempel voor de meeste vakmensen is niet het fotograferen zelf, het is eraan denken. Maak er daarom een vaste stap van in je werkproces: voordat je met een klus begint, pak je drie seconden om een foto te schieten van de situatie. Sla hem op in een map op je telefoon met de klantnaam erbij. Bij oplevering herhaal je hetzelfde ritueel, bij voorkeur vanuit dezelfde hoek. Zo heb je na een maand werken vanzelf een portfolio dat tientallen klussen omvat, zonder dat het je op enig moment meer dan vijf minuten per dag heeft gekost.",
+      },
+      {
+        heading: "Wat klanten uit die foto's afleiden (en dus bij jou kopen)",
+        body: "Een klant die op zoek is naar een loodgieter of dakdekker is niet alleen op zoek naar een prijs. Hij wil weten of jij zorgvuldig bent, netjes werkt en of je resultaat oplevert waar hij straks niet beschaamd over hoeft te doen bij de buren. Vóór-en-na foto's vertellen dat verhaal zonder dat jij een woord hoeft te zeggen. Ze laten zien dat je oog hebt voor afwerking, dat je problemen oplost en dat je trots genoeg bent op je werk om het te tonen. Dat soort signalen maken het verschil tussen een telefoontje en een weggeklikte website.",
+      },
+      {
+        heading: "Maak het een vast onderdeel van je opleverproces",
+        body: "Het moment waarop je een klus oplevert is ook hét moment om het materiaal binnen te halen dat je voor de volgende tien klussen nodig hebt. Foto maken, review vragen, klant bedanken: drie stappen die samen vijf minuten kosten en je maandenlang werk opleveren. Bij AannemerSysteem.com helpen we vakmensen om die stappen te automatiseren. Wij zorgen voor een website waar jouw projecten mooi uitkomen, een review funnel die na elke klus automatisch een beoordeling vraagt, en een systeem dat gemiste oproepen direct opvangt met een sms. Zo benut je elk project maximaal, ook als je zelf alleen maar met je vak bezig wilt zijn.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Onze Diensten", href: "/diensten" },
+    ],
+  },
 ];
