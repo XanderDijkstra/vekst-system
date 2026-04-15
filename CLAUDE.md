@@ -47,3 +47,22 @@ Dashboard, Configurator, Braindump (Supabase), Kennisbank, Wiki.
 via de Anthropic API en pusht direct naar `main`. Houd hier rekening mee bij
 ingrijpende refactors van `src/data/kennisbankArticles.ts` — voorkom merge-conflicts
 door dat bestand niet tegelijkertijd lokaal te bewerken als de daily run.
+
+## Grote pagina's genereren — vermijd API errors
+
+Eén grote `Write` call van 400+ regels laat in een sessie veroorzaakt API
+response errors. De context is dan al gegroeid door eerdere file reads en tool
+results, en het output-token budget wordt overschreden.
+
+**Workaround**: bouw grote pagina's (calculators, pillar pages, lange vergelijk
+pagina's) op in stappen:
+
+1. Eerst een **skeleton file** schrijven met `Write` (~100-150 regels): imports,
+   types/interfaces, useState + useMemo, content-arrays met 1 dummy entry,
+   minimale JSX die alleen de hero + de interactieve kern rendert.
+2. Daarna per content-sectie een losse `Edit` call: benchmarks array, FAQ array,
+   elke JSX-sectie (explainer, tabel, "3 redenen", FAQ-accordion). Elk < 80 regels.
+3. Eindig met route-wiring, sitemap, tsc, commit, push.
+
+Dit is traag maar betrouwbaar. Het alternatief — één giant Write met retry na
+retry — kost juist meer tokens en frustreert de user.

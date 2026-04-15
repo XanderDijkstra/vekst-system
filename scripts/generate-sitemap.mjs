@@ -98,6 +98,7 @@ const VERGELIJK_PAGES = [
 const TOOLS_PAGES = [
   "/tools",
   "/tools/leadwaarde-calculator",
+  "/tools/uurtarief-calculator-aannemer",
 ];
 
 // ---------- Build ----------

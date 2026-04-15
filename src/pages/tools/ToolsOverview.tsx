@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp } from "lucide-react";
+import { Calculator, TrendingUp, Clock } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -23,6 +23,14 @@ const tools: Tool[] = [
       "Bereken wat een lead jouw aannemersbedrijf oplevert. Vul aanvragen per maand, scorings­percentage en projectwaarde in — krijg direct je omzet per maand.",
     href: "/tools/leadwaarde-calculator",
     icon: TrendingUp,
+    status: "live",
+  },
+  {
+    title: "Uurtarief calculator aannemer",
+    description:
+      "Bereken wat je minimaal per uur moet rekenen als aannemer. Op basis van je inkomensdoel, werkbare uren, overhead en belasting — geen giswerk meer.",
+    href: "/tools/uurtarief-calculator-aannemer",
+    icon: Clock,
     status: "live",
   },
 ];

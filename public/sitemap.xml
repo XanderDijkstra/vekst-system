@@ -40,6 +40,7 @@
   <!-- Tools / calculators -->
   <url><loc>https://aannemersysteem.com/tools</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/tools/leadwaarde-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://aannemersysteem.com/tools/uurtarief-calculator-aannemer</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Vakgebieden (55) -->
   <url><loc>https://aannemersysteem.com/vakgebieden/aanbouw-uitbouw</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>

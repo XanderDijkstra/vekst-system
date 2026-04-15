@@ -52,6 +52,7 @@ import OfferteadviseurAlternatief from "./pages/vergelijk/OfferteadviseurAlterna
 import SeoVsGoogleAds from "./pages/vergelijk/SeoVsGoogleAds";
 import ToolsOverview from "./pages/tools/ToolsOverview";
 import LeadwaardeCalculator from "./pages/tools/LeadwaardeCalculator";
+import UurtariefCalculator from "./pages/tools/UurtariefCalculator";
 import ScrollToTop from "./components/ScrollToTop";
 
 /** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
@@ -118,6 +119,7 @@ const App = () => (
           <Route path="/vergelijk/seo-vs-google-ads" element={<SeoVsGoogleAds />} />
           <Route path="/tools" element={<ToolsOverview />} />
           <Route path="/tools/leadwaarde-calculator" element={<LeadwaardeCalculator />} />
+          <Route path="/tools/uurtarief-calculator-aannemer" element={<UurtariefCalculator />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
