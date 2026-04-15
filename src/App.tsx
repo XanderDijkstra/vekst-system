@@ -50,6 +50,7 @@ import LokaleLeadsGenereren from "./pages/vergelijk/LokaleLeadsGenereren";
 import BouwnuAlternatief from "./pages/vergelijk/BouwnuAlternatief";
 import OfferteadviseurAlternatief from "./pages/vergelijk/OfferteadviseurAlternatief";
 import SeoVsGoogleAds from "./pages/vergelijk/SeoVsGoogleAds";
+import ToolsOverview from "./pages/tools/ToolsOverview";
 import ScrollToTop from "./components/ScrollToTop";
 
 /** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
@@ -114,6 +115,7 @@ const App = () => (
           <Route path="/vergelijk/offerteadviseur-alternatief" element={<OfferteadviseurAlternatief />} />
           <Route path="/vergelijk/lokale-leads-genereren" element={<LokaleLeadsGenereren />} />
           <Route path="/vergelijk/seo-vs-google-ads" element={<SeoVsGoogleAds />} />
+          <Route path="/tools" element={<ToolsOverview />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />

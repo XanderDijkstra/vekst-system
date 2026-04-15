@@ -94,6 +94,11 @@ const VERGELIJK_PAGES = [
   "/vergelijk/seo-vs-google-ads",
 ];
 
+// Calculator / tool pages under /tools. Keep in sync with src/App.tsx.
+const TOOLS_PAGES = [
+  "/tools",
+];
+
 // ---------- Build ----------
 
 function urlEntry(loc, priority, changefreq) {
@@ -124,6 +129,12 @@ function build() {
   lines.push("");
   lines.push("  <!-- Vergelijkingen -->");
   for (const loc of VERGELIJK_PAGES) {
+    lines.push(urlEntry(loc, "0.8", "monthly"));
+  }
+
+  lines.push("");
+  lines.push("  <!-- Tools / calculators -->");
+  for (const loc of TOOLS_PAGES) {
     lines.push(urlEntry(loc, "0.8", "monthly"));
   }
 
@@ -161,13 +172,14 @@ function build() {
     STATIC_PAGES.length +
     DIENSTEN_PAGES.length +
     VERGELIJK_PAGES.length +
+    TOOLS_PAGES.length +
     tradeSlugs.length +
     serviceSlugs.length +
     kennisbankSlugs.length +
     wikiSlugs.length;
   console.log(`sitemap.xml generated: ${totalUrls} URLs`);
   console.log(
-    `  static=${STATIC_PAGES.length} diensten=${DIENSTEN_PAGES.length} vergelijk=${VERGELIJK_PAGES.length} vakgebieden=${tradeSlugs.length} services=${serviceSlugs.length} kennisbank=${kennisbankSlugs.length} wiki=${wikiSlugs.length}`
+    `  static=${STATIC_PAGES.length} diensten=${DIENSTEN_PAGES.length} vergelijk=${VERGELIJK_PAGES.length} tools=${TOOLS_PAGES.length} vakgebieden=${tradeSlugs.length} services=${serviceSlugs.length} kennisbank=${kennisbankSlugs.length} wiki=${wikiSlugs.length}`
   );
 }
 
