@@ -1716,4 +1716,239 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-dakdekkers",
+    title: "Online marketing voor dakdekkers: meer leads, minder afhankelijk van platforms",
+    description: "Praktische online marketing strategie voor dakdekkers. Leer hoe je via Google, reviews en je eigen website structureel meer dakwerk-klussen binnenhaalt.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Dakdekkers", href: "/vakgebieden/dakdekkers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Dakdekkers en online marketing: waarom het nu moet",
+        body: "Dakwerk is urgent werk. Als iemand een lekkage heeft of een storm schade heeft veroorzaakt, googelen ze direct 'dakdekker in de buurt' of 'daklekkage reparatie spoed'. Dit zijn extreem waardevolle leads: hoge urgentie, weinig prijsvergelijking, snelle beslissing. Als je op dat moment niet vindbaar bent, gaat die klant naar je concurrent. Het goede nieuws: de meeste dakdekkers investeren niet in online marketing. Een basale aanpak brengt je al voor 80% van je concurrenten.",
+      },
+      {
+        heading: "Google Business: de belangrijkste investering (en hij is gratis)",
+        body: "Je Google Business profiel is waar lokale zoekopdrachten beginnen. 'Dakdekker Amsterdam', 'daklekkage reparatie Den Haag', 'plat dak vervangen' — bij al deze zoekopdrachten toont Google een kaart met lokale bedrijven. Vul je profiel 100% in: alle diensten (platte daken, pannendaken, dakisolatie, dakgoten, daklekkage reparatie, zinken werk), werkgebied per stad, foto's van je projecten. Upload minstens 15 foto's: voor-en-na, je team op het dak, materialen, afgeronde projecten. Actieve profielen met veel foto's en reviews scoren hoger.",
+      },
+      {
+        heading: "Spoed-zoekverkeer: het goud voor dakdekkers",
+        body: "In tegenstelling tot schilders of hoveniers hebben dakdekkers een groot voordeel: veel zoekopdrachten zijn spoed. Een lekkend dak wacht niet. Deze klanten vergelijken geen vijf offertes, ze bellen de eerste dakdekker die ze vinden. Zorg dat je website en Google Business profiel duidelijk vermelden dat je spoedservice biedt. Zet je telefoonnummer overal. Reageer snel op aanvragen. Een dakdekker die binnen een uur reageert op een spoedaanvraag wint de klus in 90% van de gevallen.",
+      },
+      {
+        heading: "Website en SEO voor dakdekkers",
+        body: "Maak aparte pagina's voor elke dienst: plat dak vernieuwen, pannendak repareren, dakisolatie, dakgoten vervangen, loodwerk. Elke pagina target een andere zoekopdracht. Schrijf in de taal van je klant: niet 'EPDM-dakbedekking' maar 'plat dak laten vernieuwen'. Benoem je werkgebied op elke pagina. Voeg prijsindicaties toe als je kunt, want 'dakdekker kosten' is een veelgezochte term. Een richtprijs wekt vertrouwen en filtert op serieuze klanten.",
+      },
+      {
+        heading: "Reviews verzamelen en inzetten",
+        body: "Dakwerk is een vertrouwenskwestie: klanten laten letterlijk iemand op hun huis klimmen. Reviews zijn daarom cruciaal. Een dakdekker met 40 positieve reviews krijgt het vertrouwen dat een concurrent zonder reviews nooit krijgt. Automatiseer je reviewverzoeken: stuur na elke klus een SMS met een bedankje en een directe link. Reageer op elke review, ook de negatieve. Dat laat zien dat je betrokken bent bij je klanten.",
+      },
+      {
+        heading: "Wat levert het concreet op?",
+        body: "Een dakdekker die goed vindbaar is op Google kan rekenen op 5-15 extra aanvragen per maand. Bij een gemiddelde kluswaarde van 4.000 euro en een conversie van 40% is dat 8.000 tot 24.000 euro extra omzet per maand. Spoedklussen leveren vaak hogere marges op. De investering in een goede website en reviewsysteem verdien je met één extra dakklus al terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-glazenwassers",
+    title: "Online marketing voor glazenwassers: meer vaste klanten via Google",
+    description: "Zo zet je als glazenwasser online marketing in om je klantenbestand structureel te laten groeien — van Google Business tot geautomatiseerde reviews.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Glazenwassers", href: "/vakgebieden/glazenwassers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Glazenwassers hebben een uniek voordeel: terugkerende klanten",
+        body: "In tegenstelling tot veel andere vakgebieden draaien glazenwassers op herhaalopdrachten. Een klant die tevreden is komt elke 4-8 weken terug. Dat maakt elke nieuwe klant extra waardevol: de lifetime value is hoog. Online marketing voor glazenwassers draait daarom niet om zoveel mogelijk eenmalige klussen, maar om het structureel vullen van je route met vaste klanten. Eén goede maand online marketing kan je route voor jaren vullen.",
+      },
+      {
+        heading: "Google Business voor glazenwassers",
+        body: "Als iemand zoekt op 'glazenwasser in de buurt' of 'ramen laten wassen kosten', toont Google de lokale resultaten. Hier wil je staan. Vul je profiel volledig in: diensten (particulier, zakelijk, hoogbouw, gevelreiniging, zonnepanelen reinigen), werkgebied per stad of wijk, en je frequentie-opties. Upload foto's van je werk en je uitrusting. Een glazenwasser met een professioneel profiel, goede foto's en 25+ reviews staat automatisch bovenaan in zijn werkgebied.",
+      },
+      {
+        heading: "Route-optimalisatie begint bij online marketing",
+        body: "Slimme glazenwassers denken in routes, niet in losse klanten. Online marketing kan je helpen om klanten te werven in specifieke wijken of postcodegebieden. Vermeld op je website en Google Business profiel welke wijken je bedient. Maak eventueel aparte landingspagina's per wijk of stad. Zo trek je klanten aan die dicht bij je bestaande route liggen, wat je reistijd verlaagt en je dagomzet verhoogt.",
+      },
+      {
+        heading: "Reviews zijn je beste verkoper",
+        body: "Glazenwassers concurreren lokaal en klanten kiezen op vertrouwen. Reviews zijn daarbij de doorslaggevende factor. Een glazenwasser met 50 reviews en 4,8 sterren hoeft niet de goedkoopste te zijn om gekozen te worden. Stuur na de eerste beurt een automatisch SMS-verzoek voor een review. De meeste klanten doen het graag als je het makkelijk maakt. Reageer altijd op reviews: het laat zien dat je betrokken bent.",
+      },
+      {
+        heading: "Een simpele website die werkt",
+        body: "Je hebt geen uitgebreide website nodig. Wat je wel nodig hebt: een homepage met je werkgebied en diensten, een tariefpagina met richtprijzen per type woning, een contactpagina met een belknop en een formulier waar klanten hun adres kunnen invullen. Optioneel: een pagina met veelgestelde vragen over frequentie, kosten en wat er inbegrepen is. Houd het simpel, zorg dat het op een telefoon goed werkt, en zet je telefoonnummer bovenaan.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een glazenwasser die lokaal goed vindbaar is kan rekenen op 10-25 nieuwe klantaanvragen per maand. Bij een gemiddelde jaaromzet per klant van 300 euro (6 beurten × 50 euro) is elke nieuwe klant 300 euro per jaar waard, en dat herhaalt zich jaar na jaar. Tien nieuwe vaste klanten per maand betekent 3.000 euro extra jaaromzet, structureel groeiend. Na een jaar heb je 120 extra vaste klanten en 36.000 euro extra jaaromzet.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-tegelzetters",
+    title: "Online marketing voor tegelzetters: meer projecten via Google",
+    description: "Zo krijg je als tegelzetter structureel meer klanten via Google, reviews en een professionele website — zonder te concurreren op prijs.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Tegelzetters", href: "/vakgebieden/tegelzetters" },
+      { label: "Website voor Tegelzetters", href: "/websites-voor-tegelzetters" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Tegelzetters die online zichtbaar zijn, winnen",
+        body: "De tegelzettersmarkt is lokaal en competitief. Klanten zoeken op Google naar 'tegelzetter in de buurt', 'badkamer betegelen kosten' of 'vloertegels laten leggen'. Als je daar niet verschijnt, missen ze je. De meeste tegelzetters zijn nog volledig afhankelijk van mond-tot-mondreclame of Werkspot. Dat werkt, maar het is onvoorspelbaar en bij platforms concurreer je altijd op prijs. Met een eigen online aanwezigheid trek je klanten aan die specifiek jou hebben gekozen.",
+      },
+      {
+        heading: "Google Business voor tegelzetters",
+        body: "Je Google Business profiel is je belangrijkste online tool. Vul het volledig in met al je diensten: badkamers betegelen, vloertegels, wandtegels, keukenspiegel, terrastegels, mozaiek, natuursteen, betonlook tegels. Upload minstens 15 projectfoto's, het liefst voor-en-na. Klanten willen zien wat je kunt voordat ze bellen. Benoem je werkgebied en zorg voor regelmatige reviews. Een tegelzetter met 30 reviews en 4,8 sterren staat in de meeste regio's al in de top 3 van lokale resultaten.",
+      },
+      {
+        heading: "Projectfoto's zijn je beste marketing",
+        body: "Tegelwerk is visueel: een mooie badkamer of strakke vloer verkoopt zichzelf. Maak van elk project goede foto's: voor het werk begint en na oplevering. Gebruik daglicht, ruim de boel op en fotografeer vanuit de hoek die het meest tot de verbeelding spreekt. Upload deze foto's naar je Google Business profiel, je website en eventueel Instagram. Projectfoto's doen meer voor je dan welke advertentie dan ook. Ze laten zien wat je kunt, en dat is precies wat potentiële klanten willen weten.",
+      },
+      {
+        heading: "Website met de juiste zoektermen",
+        body: "Maak aparte pagina's voor je belangrijkste diensten: badkamer tegelen, vloertegels leggen, terrastegels, keukenwand betegelen. Elke pagina target een andere zoekopdracht. Schrijf in de taal van je klant: niet 'keramische wandbekleding' maar 'badkamertegels laten zetten'. Benoem je werkgebied op elke pagina. Voeg richtprijzen toe als je kunt, want 'tegels leggen kosten per m2' is een veelgezochte term. Gebruik ook onze tegels berekenen calculator als hulpmiddel op je site.",
+      },
+      {
+        heading: "Reviews maken het verschil",
+        body: "Een nieuwe badkamer is een investering van duizenden euro's. Klanten nemen die beslissing niet licht: ze lezen reviews, bekijken projectfoto's en vergelijken. Een tegelzetter met veel positieve reviews wint het altijd van een goedkopere concurrent zonder reviews. Automatiseer je reviewverzoeken via SMS na oplevering. De meeste klanten zijn trots op hun nieuwe badkamer en laten graag een review achter als je het ze makkelijk maakt.",
+      },
+      {
+        heading: "Wat levert online marketing op voor tegelzetters?",
+        body: "Een tegelzetter die lokaal goed vindbaar is kan rekenen op 4-10 extra offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 3.500 euro en een conversie van 35% is dat 4.900 tot 12.250 euro extra omzet per maand. Zonder platformkosten, zonder prijsconcurrentie. De investering in een goede website en reviewsysteem verdien je met één extra badkamerproject al terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-badkamerrenovatie",
+    title: "Online marketing voor badkamerrenovatie: meer klanten voor je badkamerbedrijf",
+    description: "Zo genereer je structureel meer badkamerrenovatie-klanten via Google, reviews en een website die offerteaanvragen oplevert.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Badkamerrenovatie", href: "/vakgebieden/badkamerrenovatie" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Badkamerrenovatie: hoge projectwaarde, lange beslissingstijd",
+        body: "Een badkamerrenovatie kost al snel 8.000 tot 20.000 euro. Klanten nemen die beslissing niet licht: ze oriënteren zich weken tot maanden voordat ze een vakman kiezen. Dat betekent dat je meerdere contactmomenten nodig hebt om vertrouwen op te bouwen. Online marketing is daarvoor het perfecte kanaal: je bent vindbaar op het moment dat iemand begint te zoeken, bouwt vertrouwen op via reviews en projectfoto's, en bent er weer wanneer ze klaar zijn om een offerte aan te vragen.",
+      },
+      {
+        heading: "Google Business optimaliseren voor badkamerrenovatie",
+        body: "Wanneer iemand zoekt op 'badkamer renoveren' of 'badkamer verbouwen kosten' toont Google lokale resultaten. Je Google Business profiel moet schreeuwen dat jij de badkamerspecialist bent. Vul al je diensten in: complete badkamerrenovatie, inloopdouche plaatsen, badkamertegels, badmeubel installatie, vloerverwarming badkamer. Upload minstens 20 foto's van afgeronde projecten: voor-en-na foto's doen het hier extreem goed. Een luxe badkamer op foto verkoopt beter dan welke tekst dan ook.",
+      },
+      {
+        heading: "Een website die inspireert en converteert",
+        body: "Badkamerklanten willen geïnspireerd worden. Ze browsen op Pinterest, Instagram en Google Images voordat ze een vakman zoeken. Je website moet dat visuele element bieden: een projectgalerij met mooie badkamers, per project een korte beschrijving van wat er is gedaan en de stijl. Combineer dat met praktische informatie: richtprijzen per type renovatie, een tijdsindicatie en een helder stappenplan van eerste gesprek tot oplevering. Maak het aanvragen van een offerte makkelijk: een kort formulier met type badkamer, budget-indicatie en gewenste startdatum.",
+      },
+      {
+        heading: "Reviews zijn doorslaggevend bij grote projecten",
+        body: "Bij een investering van 10.000+ euro wil een klant zekerheid. Reviews zijn het krachtigste vertrouwenssignaal dat er is. Een badkamerbedrijf met 40 gedetailleerde reviews wint het altijd van een concurrent met twee reviews, ook als die concurrent goedkoper is. Moedig klanten aan om in hun review te beschrijven wat er is gedaan: 'Hele badkamer gestript en opnieuw betegeld, binnen 10 dagen klaar, netjes opgeleverd'. Dat soort reviews overtuigt meer dan een generiek 'goed werk'.",
+      },
+      {
+        heading: "Content marketing: antwoorden op klantvragen",
+        body: "Badkamerklanten zoeken veel informatie: 'badkamer renoveren kosten', 'hoelang duurt een badkamerrenovatie', 'inloopdouche of bad', 'badkamertegels trends'. Door hierover te schrijven op je website trek je bezoekers aan die in de oriëntatiefase zitten. Ze lezen je artikel, zien je projectfoto's, lezen je reviews en vragen uiteindelijk een offerte aan. Dit is een langetermijnstrategie die maand na maand meer verkeer oplevert.",
+      },
+      {
+        heading: "Wat levert het concreet op?",
+        body: "Een badkamerbedrijf dat goed vindbaar is op Google kan rekenen op 5-12 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 12.000 euro en een conversie van 30% is dat 18.000 tot 43.200 euro extra omzet per maand. Eén extra badkamerproject per maand betaalt je complete online marketing al terug. Met de juiste opzet groeit dit gestaag door naarmate je meer reviews verzamelt en je website beter gaat ranken.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-hoveniers",
+    title: "Online marketing voor hoveniers: meer tuinprojecten via Google",
+    description: "Praktische online marketing strategie voor hoveniers. Van Google Business tot reviews en seizoensgebonden marketing — zonder dure bureaus.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Hoveniers", href: "/vakgebieden/hoveniers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Hoveniers en online marketing: de kans die de meesten missen",
+        body: "Hoveniers zijn vakmensen die het liefst buiten werken en klanten krijgen via mond-tot-mond. Dat is prima, maar het schaalt niet. Online marketing geeft je de mogelijkheid om structureel nieuwe klanten aan te trekken, juist in de periodes dat mond-tot-mondreclame even stil valt. Het mooie is dat weinig hoveniers actief aan online marketing doen. Een basale aanpak brengt je al voor de meeste concurrenten in jouw werkgebied.",
+      },
+      {
+        heading: "Google Business voor hoveniers",
+        body: "Je Google Business profiel is je belangrijkste online etalage. Als iemand zoekt op 'hovenier in de buurt' of 'tuin laten aanleggen', toont Google de lokale resultaten. Vul alles in: diensten (tuinaanleg, tuinonderhoud, bestrating, schuttingen, beplanting, vijveraanleg, snoeien), werkgebied en foto's. Hoveniers hebben een enorm voordeel: je werk is visueel aantrekkelijk. Mooie tuinfoto's trekken direct de aandacht. Upload seizoensgebonden foto's: lentebloei, zomerse terrassen, herfstborders, winterharde beplanting.",
+      },
+      {
+        heading: "Seizoensgebonden marketing slim inzetten",
+        body: "Het hoveniersvak is seizoensgebonden: het voorjaar is piekseizoen voor tuinaanleg en het najaar voor onderhoud en snoeien. Speel hierop in met je website en Google Business profiel. Pas je teksten aan per seizoen: in januari schrijf je over tuinplannen maken, in maart over tuinaanleg, in september over herfstonderhoud. Zo ben je het hele jaar relevant voor zoekopdrachten. Begin twee maanden voor het piekseizoen met optimaliseren zodat je er staat wanneer de vraag aantrekt.",
+      },
+      {
+        heading: "Projectfoto's: je sterkste wapen",
+        body: "Een hovenier verkoopt een droom: een mooie tuin waar je graag in zit. Projectfoto's zijn daarom je belangrijkste marketingtool. Maak van elk project foto's in meerdere stadia: de oude situatie, het werk in uitvoering en het eindresultaat. Fotografeer bij mooi weer, bij daglicht. Toon diversiteit: kleine stadstuinen, grote landschappelijke tuinen, bestrating, beplanting, waterpartijen. Upload deze naar je Google Business, website en eventueel Instagram.",
+      },
+      {
+        heading: "Reviews en mond-tot-mondreclame versterken elkaar",
+        body: "Online reviews zijn de digitale versie van mond-tot-mondreclame. Ze werken 24/7 en bereiken klanten die je anders nooit had gevonden. Een hovenier met 30+ reviews en mooie projectfoto's heeft een onverslaanbaar online profiel. Stuur na elk afgerond project een automatisch reviewverzoek per SMS. De meeste klanten zijn trots op hun nieuwe tuin en schrijven graag een lovende review als je het ze makkelijk maakt.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een hovenier die lokaal goed vindbaar is kan rekenen op 5-15 extra offerteaanvragen per maand in het seizoen. Bij een gemiddelde projectwaarde van 5.000 euro en een conversie van 30% is dat 7.500 tot 22.500 euro extra omzet per maand. In het laagseizoen levert de onderhoudsstroom extra omzet op. De investering in online marketing verdien je met één tuinproject al terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-klusbedrijven",
+    title: "Online marketing voor klusbedrijven: zo vul je je agenda",
+    description: "Praktische online marketing tips voor klusbedrijven. Van Google vindbaar worden tot een website die klussen oplevert — zonder dure advertenties.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Klusbedrijven", href: "/vakgebieden/klusbedrijven" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Klusbedrijven en online marketing: breed aanbod, lokale vraag",
+        body: "Als klusbedrijf bied je een breed scala aan diensten: van een plank ophangen tot een zolder verbouwen. Dat is je kracht en je uitdaging tegelijk. Je concurreert met gespecialiseerde vakmensen én met andere klusbedrijven. Online marketing helpt je om gevonden te worden voor de klussen waar je goed in bent, in het gebied waar je werkt. De meeste klusbedrijven zijn online onzichtbaar: geen website, een kaal Google-profiel en nul reviews. Dat is jouw kans.",
+      },
+      {
+        heading: "Google Business: breed invullen",
+        body: "De kracht van een klusbedrijf is de breedte van je diensten. Benut dat in je Google Business profiel: vul elke dienst apart in. Timmerwerkzaamheden, schilderwerk, kleine verbouwingen, montagewerk, laminaat leggen, sanitair, elektra, meubels monteren, verhuishulp. Hoe meer diensten je toevoegt, hoe meer zoekopdrachten je kunt matchen. Upload foto's van verschillende type klussen. Een Google Business profiel met 30 diensten en goede foto's scoort significant beter dan een kaal profiel.",
+      },
+      {
+        heading: "Een website die al je diensten dekt",
+        body: "Maak voor je belangrijkste diensten aparte pagina's: 'kleine verbouwingen', 'meubels monteren', 'schilderwerk', 'laminaat leggen', 'badkamer renoveren'. Elke pagina target een andere zoekopdracht en vergroot je online bereik. Schrijf in klantentaal: niet 'wij verzorgen diverse werkzaamheden' maar 'Kast inbouwen, muur verwijderen of zolder verbouwen? Wij doen het binnen een week'. Benoem je werkgebied op elke pagina.",
+      },
+      {
+        heading: "Reviews: extra belangrijk voor klusbedrijven",
+        body: "Klanten aarzelen soms om een klusbedrijf in te huren omdat ze niet weten wat ze kunnen verwachten. Reviews nemen die twijfel weg. Een klusbedrijf met 50 positieve reviews is direct geloofwaardig, ook voor klanten die je nog nooit hebben ontmoet. Variatie in reviews helpt: laat klanten beschrijven welke klus je hebt gedaan. Zo zien nieuwe klanten dat je ervaring hebt met precies het type werk dat zij nodig hebben.",
+      },
+      {
+        heading: "Klein beginnen, snel groeien",
+        body: "Online marketing voor een klusbedrijf hoeft niet ingewikkeld te zijn. Start met drie dingen: een volledig Google Business profiel, een simpele website met je diensten en werkgebied, en een automatisch reviewsysteem. Dat kost je minder dan een dag om op te zetten en het werkt maanden door. Na drie maanden heb je een online aanwezigheid die je concurrent niet heeft en een stroom aanvragen waar je niet om hoeft te vragen.",
+      },
+      {
+        heading: "Wat levert het concreet op?",
+        body: "Een klusbedrijf met een goede online aanwezigheid kan rekenen op 8-20 extra aanvragen per maand. Bij een gemiddelde kluswaarde van 800 euro en een conversie van 40% is dat 2.560 tot 6.400 euro extra omzet per maand. Kleine klussen leiden vaak tot vervolgklussen: een tevreden klant die een plank liet ophangen, belt je terug voor een badkamerrenovatie. De lifetime value per klant is daardoor veel hoger dan de eerste klus doet vermoeden.",
+      },
+    ],
+  },
 ];
