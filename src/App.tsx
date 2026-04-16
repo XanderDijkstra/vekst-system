@@ -57,6 +57,8 @@ import ProjectmargeCalculator from "./pages/tools/ProjectmargeCalculator";
 import PersoneelskostenCalculator from "./pages/tools/PersoneelskostenCalculator";
 import TegelsBerekenen from "./pages/tools/TegelsBerekenen";
 import VerfBerekenen from "./pages/tools/VerfBerekenen";
+import BetonBerekenen from "./pages/tools/BetonBerekenen";
+import LaminaatBerekenen from "./pages/tools/LaminaatBerekenen";
 import BouwmaterialenHub from "./pages/tools/BouwmaterialenHub";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -130,6 +132,8 @@ const App = () => (
           <Route path="/tools/bouwmaterialen-berekenen" element={<BouwmaterialenHub />} />
           <Route path="/tools/tegels-berekenen" element={<TegelsBerekenen />} />
           <Route path="/tools/verf-berekenen" element={<VerfBerekenen />} />
+          <Route path="/tools/beton-berekenen" element={<BetonBerekenen />} />
+          <Route path="/tools/laminaat-berekenen" element={<LaminaatBerekenen />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />

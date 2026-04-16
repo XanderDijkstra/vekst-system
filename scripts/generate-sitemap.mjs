@@ -104,6 +104,8 @@ const TOOLS_PAGES = [
   "/tools/bouwmaterialen-berekenen",
   "/tools/tegels-berekenen",
   "/tools/verf-berekenen",
+  "/tools/beton-berekenen",
+  "/tools/laminaat-berekenen",
 ];
 
 // ---------- Build ----------

@@ -39,7 +39,7 @@ const materialTools: MaterialTool[] = [
       "Bereken hoeveel m³ beton, zakken cement, zand en grind je nodig hebt voor je project.",
     href: "/tools/beton-berekenen",
     icon: HardHat,
-    status: "soon",
+    status: "live",
   },
   {
     title: "Laminaat berekenen",
@@ -47,7 +47,7 @@ const materialTools: MaterialTool[] = [
       "Hoeveel pakken laminaat en ondervloer heb je nodig? Vul de m² in en reken snijverlies mee.",
     href: "/tools/laminaat-berekenen",
     icon: Layers,
-    status: "soon",
+    status: "live",
   },
   {
     title: "Behang berekenen",
