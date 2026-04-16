@@ -1465,4 +1465,47 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Onze Diensten", href: "/diensten" },
     ],
   },
+  {
+    slug: "website-teksten-schrijven-als-aannemer",
+    title: "Website-teksten schrijven als aannemer: zo overtuig je bezoekers om te bellen",
+    description: "Je website kan er prachtig uitzien, maar als de tekst niet klopt, belt niemand. Praktische schrijftips waarmee je als vakman bezoekers omzet in aanvragen.",
+    category: "Tips",
+    readTime: "6 min",
+    date: "2026-04-16",
+    sections: [
+      {
+        heading: "Waarom tekst belangrijker is dan design",
+        body: "De meeste aannemers focussen op een mooi logo en een strak ontwerp, terwijl de tekst op hun site iets zegt als 'wij leveren kwaliteit en vakmanschap'. Klinkt prima, maar het geldt voor elke aannemer in het land en overtuigt dus precies niemand. Een bezoeker bepaalt binnen vijf seconden of hij verder leest of wegklikt. Dat besluit hangt niet af van de kleur van je knoppen, maar van de eerste zin die hij leest. Als die niet aansluit op zijn probleem, is hij weg.",
+      },
+      {
+        heading: "Schrijf vanuit de klant, niet vanuit jezelf",
+        body: "De meeste vakmensen schrijven over zichzelf: 'Ons bedrijf bestaat sinds 2003 en is gespecialiseerd in...' Het probleem is dat een klant met een lekkend dak of een verouderde badkamer niet geinteresseerd is in jouw bedrijfsgeschiedenis. Hij wil weten of jij zijn probleem kunt oplossen, hoe snel je kunt beginnen en wat het hem gaat kosten. Draai je tekst om: niet 'wij doen X' maar 'heb je last van Y? Zo lossen we het op'. Een stukadoor die schrijft 'Scheuren in je muur of lelijke plafonds? Binnen een week strak en netjes' spreekt direct het probleem aan waar de klant mee zit.",
+      },
+      {
+        heading: "Wees concreet over je werkgebied en diensten",
+        body: "Veel aannemerswebsites schrijven vaag over hun diensten en regio. 'Wij werken door heel Nederland' of 'wij bieden diverse diensten aan'. Dat helpt niet, niet voor de bezoeker en niet voor Google. Benoem letterlijk de steden waar je werkt en de klussen die je doet. Een schilder die schrijft 'Binnenschilderwerk en buitenschilderwerk in Rotterdam, Schiedam en Capelle aan den IJssel' scoort beter in Google dan iemand die alleen 'schilder in de regio' vermeldt. Hoe specifieker je bent, hoe makkelijker klanten je vinden en hoe sneller ze vertrouwen dat jij in hun buurt werkt.",
+      },
+      {
+        heading: "Gebruik de woorden die je klanten gebruiken",
+        body: "Een dakdekker weet wat EPDM-rubber en zinken kilgoot betekenen, maar zijn klant zoekt op 'plat dak lekt' of 'dakgoot vervangen kosten'. Schrijf je teksten in de taal die je klant spreekt, niet in vaktaal. Dat betekent niet dat je je kennis moet verstoppen, maar dat je de gewone omschrijving voorop zet en de technische term erachter plaatst. Zo begrijpt de bezoeker je en pikt Google de zoekwoorden op die mensen daadwerkelijk intypen.",
+      },
+      {
+        heading: "Houd het kort en maak het scanbaar",
+        body: "Niemand leest een lap tekst van vijfhonderd woorden op een telefoonscherm. De meeste bezoekers scannen: ze lezen de koppen, pakken een paar zinnen mee en scrollen naar de contactknop. Gebruik korte alinea's van drie tot vier zinnen, duidelijke tussenkopjes en zorg dat elke alinea over een ander punt gaat. Een loodgieter die zijn homepage opdeelt in blokken als 'Verstopt riool', 'Lekkage opsporen' en 'Badkamer renovatie' maakt het de bezoeker makkelijk om direct bij het juiste onderwerp te komen.",
+      },
+      {
+        heading: "Voeg cijfers en bewijs toe",
+        body: "Concrete getallen overtuigen meer dan algemene claims. 'Meer dan 200 keukens betegeld in de regio Haarlem' zegt meer dan 'jarenlange ervaring'. 'Gemiddeld 4,9 sterren op Google uit 65 reviews' zegt meer dan 'onze klanten zijn tevreden'. Een tegelzetter die erbij schrijft 'gemiddeld binnen 5 werkdagen klaar' geeft de klant houvast. Hoe meer bewijs je op papier zet, hoe minder de bezoeker hoeft te gokken of jij de juiste keuze bent.",
+      },
+      {
+        heading: "Laat je teksten voor je werken met de juiste hulp",
+        body: "Niet elke vakman is een schrijver, en dat hoeft ook niet. Het belangrijkste is dat je teksten eerlijk zijn, concreet en gericht op de klant die je wilt bereiken. Bij AannemerSysteem.com bouwen we websites voor vakmensen met teksten die precies doen wat ze moeten doen: bezoekers overtuigen om de telefoon te pakken. Combineer dat met een review funnel die automatisch Google-reviews verzamelt en missed call text back zodat je geen enkel telefoontje mist, en je hebt een online aanwezigheid die dag en nacht voor je werkt.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+    ],
+  },
 ];

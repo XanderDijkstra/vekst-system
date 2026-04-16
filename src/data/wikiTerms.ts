@@ -917,6 +917,32 @@ export const wikiTerms: WikiTerm[] = [
       }
     ]
   },
+  {
+    slug: "betaald-verkeer",
+    term: "Betaald verkeer",
+    shortDescription: "Bezoekers die op je website komen doordat je betaalt voor een advertentie, bijvoorbeeld via Google Ads of Facebook. Het tegenovergestelde van organisch verkeer.",
+    category: "Marketing",
+    date: "2026-04-16",
+    relatedTerms: ["google-ads", "organisch-verkeer", "conversie"],
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Betaald verkeer zijn alle bezoekers die op je website terechtkomen via een advertentie waarvoor je betaalt. Dat kan een advertentie in Google zijn die bovenaan de zoekresultaten verschijnt, een gesponsord bericht op Facebook of Instagram, of een banner op een andere website. Je betaalt per klik of per vertoning en zodra je stopt met betalen, stopt het verkeer. Het is het tegenovergestelde van organisch verkeer, waarbij mensen je gratis vinden via zoekmachines.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "Als je net begint of snel meer werk nodig hebt, kun je niet wachten tot Google je vanzelf bovenaan zet. Betaald verkeer levert direct resultaat: vandaag een campagne starten, morgen de eerste aanvragen. Voor een elektricien die in een nieuw werkgebied wil starten of een timmerman die een rustige maand heeft, is het een snelle manier om zichtbaar te worden bij mensen die op dat moment actief zoeken naar een vakman.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je bent schilder in Eindhoven en je wilt deze maand meer buitenschilderwerk binnenhalen. Je zet een Google Ads campagne op voor de zoekterm buitenschilder Eindhoven met een dagbudget van tien euro. Iedereen die op die term zoekt, ziet jouw advertentie bovenaan. Je betaalt alleen als iemand klikt, en die klik brengt hem naar een pagina op je site met een direct contactformulier. Het mooiste is dat je betaald en organisch verkeer combineert: betaald voor de snelle resultaten en organisch voor de lange termijn.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
