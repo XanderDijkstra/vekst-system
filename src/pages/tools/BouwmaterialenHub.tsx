@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Grid3X3, Paintbrush, HardHat, Layers, Ruler } from "lucide-react";
+import { Grid3X3, Paintbrush, HardHat, Layers, Ruler, Package, Droplets } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -55,6 +55,22 @@ const materialTools: MaterialTool[] = [
       "Bereken hoeveel rollen behang je nodig hebt op basis van kamermaten, raambreedte en patroonrapport.",
     href: "/tools/behang-berekenen",
     icon: Ruler,
+    status: "live",
+  },
+  {
+    title: "Gipsplaten berekenen",
+    description:
+      "Bereken hoeveel gipsplaten, metal stud profielen, schroeven en voegband je nodig hebt.",
+    href: "/tools/gipsplaten-berekenen",
+    icon: Package,
+    status: "live",
+  },
+  {
+    title: "Stucwerk berekenen",
+    description:
+      "Bereken hoeveel kg stuc, zakken pleister en primer je nodig hebt per m² wand of plafond.",
+    href: "/tools/stucwerk-berekenen",
+    icon: Droplets,
     status: "live",
   },
 ];

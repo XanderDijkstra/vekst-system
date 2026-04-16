@@ -107,6 +107,8 @@ const TOOLS_PAGES = [
   "/tools/beton-berekenen",
   "/tools/laminaat-berekenen",
   "/tools/behang-berekenen",
+  "/tools/gipsplaten-berekenen",
+  "/tools/stucwerk-berekenen",
 ];
 
 // ---------- Build ----------

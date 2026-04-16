@@ -60,6 +60,8 @@ import VerfBerekenen from "./pages/tools/VerfBerekenen";
 import BetonBerekenen from "./pages/tools/BetonBerekenen";
 import LaminaatBerekenen from "./pages/tools/LaminaatBerekenen";
 import BehangBerekenen from "./pages/tools/BehangBerekenen";
+import GipsplatenBerekenen from "./pages/tools/GipsplatenBerekenen";
+import StucwerkBerekenen from "./pages/tools/StucwerkBerekenen";
 import BouwmaterialenHub from "./pages/tools/BouwmaterialenHub";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -136,6 +138,8 @@ const App = () => (
           <Route path="/tools/beton-berekenen" element={<BetonBerekenen />} />
           <Route path="/tools/laminaat-berekenen" element={<LaminaatBerekenen />} />
           <Route path="/tools/behang-berekenen" element={<BehangBerekenen />} />
+          <Route path="/tools/gipsplaten-berekenen" element={<GipsplatenBerekenen />} />
+          <Route path="/tools/stucwerk-berekenen" element={<StucwerkBerekenen />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
