@@ -328,8 +328,8 @@ export const kennisbankArticles: KennisbankArticle[] = [
   },
   {
     slug: "werkspot-vs-eigen-website",
-    title: "Werkspot vs. eigen website: wat werkt beter?",
-    description: "Een eerlijke vergelijking tussen leads via platforms en via je eigen kanalen.",
+    title: "Werkspot vs. eigen website: wat levert meer klanten op?",
+    description: "Werkspot of een eigen website — wat werkt beter voor aannemers? Eerlijke vergelijking van kosten, leadkwaliteit en conversie.",
     category: "Strategie",
     readTime: "6 min",
     date: "2025-11-14",
@@ -1507,5 +1507,51 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Review Systeem", href: "/diensten/review-funnel" },
       { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
     ],
+  },
+  {
+    slug: "planning-software-bouw",
+    title: "Planning software voor de bouw: overzicht en vergelijking (2026)",
+    description:
+      "Vergelijk de beste planning software voor de bouw. Van digitale planborden tot volledige ERP-pakketten — ontdek welke tool past bij jouw bouwbedrijf.",
+    category: "Planning",
+    readTime: "9 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers" },
+      { label: "Software Integraties", href: "/diensten/software-integraties" },
+      { label: "Planning Systeem", href: "/diensten/planning-systeem" },
+    ],
+    sections: [
+      {
+        heading: "Waarom bouwbedrijven planning software nodig hebben",
+        body: "De bouwsector is een van de laatste industrieën die nog grotendeels op papier, whiteboards en Excel draait. Dat werkt bij één project met één ploeg. Maar zodra je meerdere projecten, onderaannemers, materiaalbestellingen en deadlines tegelijk managet, wordt het een puzzel die niet meer in je hoofd past. Planning software voor de bouw lost dit op: je ziet in één overzicht wie waar werkt, welke materialen wanneer geleverd worden en waar vertragingen dreigen. Het resultaat? Minder stilstand, minder miscommunicatie en projecten die op tijd opgeleverd worden.",
+      },
+      {
+        heading: "Soorten planning software in de bouw",
+        body: "Er zijn drie hoofdcategorieën. Eerste: digitale planborden — eenvoudige drag-and-drop tools waarmee je medewerkers en ploegen inplant per dag of week. Geschikt voor kleine aannemers met 2-10 man. Tweede: projectmanagement tools — uitgebreidere pakketten met Gantt-charts, mijlpalen, taken en documentbeheer. Geschikt voor middelgrote bouwbedrijven met meerdere gelijktijdige projecten. Derde: ERP-systemen — alles-in-één oplossingen die planning combineren met calculatie, facturatie, inkoop en CRM. Geschikt voor grotere bouwbedrijven met 20+ medewerkers.",
+      },
+      {
+        heading: "Essentiële functies voor bouwplanning",
+        body: "Ongeacht de grootte van je bedrijf zijn er functies die niet mogen ontbreken. Drag-and-drop planning per medewerker of ploeg, zodat je snel kunt schuiven als er iets verandert. Automatische conflictdetectie bij dubbele boekingen. Een mobiele app waarmee je team op de werf hun planning kan bekijken. Koppeling met je agenda en CRM. Materiaalplanning gekoppeld aan projectfasen, zodat bestellingen op tijd worden geplaatst. En rapportages over bezettingsgraad, zodat je weet of je capaciteit hebt voor nieuwe projecten.",
+      },
+      {
+        heading: "Vergelijking: populaire tools voor de bouw",
+        body: "De Nederlandse bouwmarkt kent meerdere opties. Gripp en Simplicate zijn populair bij kleinere bedrijven — gebruiksvriendelijk en snel op te zetten. Bouwmaat Planning en Procore richten zich op middelgrote tot grote aannemers met uitgebreidere projectmanagement functies. AFAS en Exact bieden ERP-oplossingen waar planning onderdeel van is. Voor zzp'ers en kleine aannemers is een eenvoudig planbord (zoals Google Agenda gecombineerd met een CRM) vaak al voldoende als startpunt.",
+      },
+      {
+        heading: "De impact van digitale planning op bouwprojecten",
+        body: "Uit onderzoek blijkt dat bouwbedrijven die digitale planning implementeren gemiddeld 20-30% minder stilstandtijd ervaren. Planningsconflicten dalen met 35%. Projecten worden vaker op tijd opgeleverd. En misschien het belangrijkst: je hebt als ondernemer overzicht. Je kunt op donderdagmiddag inschatten of je volgende week een spoedklus kunt aannemen, in plaats van te gokken. Medewerkers zijn tevredener omdat ze weten waar ze aan toe zijn — geen belletjes meer om 6 uur 's ochtends met 'ga maar naar die andere werf'.",
+      },
+      {
+        heading: "Stappenplan: van Excel naar planning software",
+        body: "Stap 1: Breng je huidige werkwijze in kaart. Hoeveel projecten lopen er tegelijk? Hoeveel mensen plan je in? Wat gaat er nu mis? Stap 2: Kies een tool die past bij je bedrijfsgrootte. Begin niet te groot — een eenvoudig planbord is beter dan een ERP-systeem dat niemand snapt. Stap 3: Importeer je lopende projecten en medewerkers. Stap 4: Draai twee weken parallel — oude en nieuwe systeem naast elkaar. Stap 5: Evalueer en schakel het oude systeem uit. Wijs een 'champion' aan in je team die anderen helpt met het nieuwe systeem.",
+      },
+      {
+        heading: "Veelgemaakte fouten bij de overstap",
+        body: "De grootste fout: te veel willen tegelijk. Je koopt een ERP-systeem met 200 functies terwijl je alleen een planbord nodig hebt. Begin klein, groei later. Tweede fout: geen buy-in van je team. Als je uitvoerders het systeem niet gebruiken, heb je er niets aan. Betrek ze vroeg in het keuzeproces. Derde fout: geen mobiele toegang. Je team staat op de werf, niet achter een bureau. Als de app niet goed werkt op een telefoon, wordt hij niet gebruikt.",
+      },
+    ],
+  },
+];
   },
 ];

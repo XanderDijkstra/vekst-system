@@ -90,8 +90,8 @@ const Klantcommunicatie = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Gemiste Oproep → SMS Bericht | Aannemer Systeem</title>
-        <meta name="description" content="Mis nooit meer een klant. Automatisch een SMS sturen wanneer je een oproep mist op de werf. Speciaal voor aannemers." />
+        <title>Automatische SMS bij Gemiste Oproep | Aannemer Systeem</title>
+        <meta name="description" content="Automatisch een SMS sturen bij een gemiste oproep op de werf. Mis nooit meer een klant — 85% reageert sneller op SMS dan op voicemail." />
         <link rel="canonical" href="https://aannemersysteem.com/diensten/klantcommunicatie" />
         <meta property="og:title" content="Gemiste Oproep → SMS Bericht | Aannemer Systeem" />
         <meta property="og:description" content="Automatisch een SMS sturen wanneer je een oproep mist op de werf." />

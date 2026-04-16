@@ -5,8 +5,8 @@ export const TEGELZETTERS_DATA: TradeData = {
   singular: "tegelzetter",
   plural: "tegelzetters",
   bedrijf: "tegelzetbedrijf",
-  metaTitle: "Website & Marketing voor Tegelzetters | Meer Klanten — Aannemer Systeem",
-  metaDescription: "Speciaal voor tegelzetters: een professionele website, automatische reviews en lokale SEO. Wij helpen tegelzetbedrijven meer klanten te krijgen — zonder gedoe en zonder te concurreren op prijs.",
+  metaTitle: "Website laten maken voor Tegelzetters | Meer klanten als tegelzetter",
+  metaDescription: "Tegelzetter website laten maken? Professionele website met projectfoto's, reviews en lokale SEO. Meer klanten zonder via platforms te concurreren op prijs.",
   hero: {
     badge: "Speciaal voor Tegelzetters",
     headline: "Meer Klanten voor Jouw Tegelzetbedrijf — Zonder Marketing Gedoe",

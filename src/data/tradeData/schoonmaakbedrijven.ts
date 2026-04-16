@@ -5,8 +5,8 @@ export const SCHOONMAAKBEDRIJVEN_DATA: TradeData = {
   singular: "schoonmaker",
   plural: "schoonmaakbedrijven",
   bedrijf: "schoonmaakbedrijf",
-  metaTitle: "Website & Marketing voor Schoonmaakbedrijven | Meer Klanten — Aannemer Systeem",
-  metaDescription: "Speciaal voor schoonmaakbedrijven: een professionele website, automatische reviews en lokale SEO. Wij helpen schoonmaakbedrijven meer klanten te krijgen — zonder gedoe en zonder te concurreren op prijs.",
+  metaTitle: "Online Marketing voor Schoonmaakbedrijven | Meer Klanten — Aannemer Systeem",
+  metaDescription: "Online marketing voor schoonmaakbedrijven: professionele website, Google Ads, automatische reviews en lokale SEO. Meer klanten voor je schoonmaakbedrijf — zonder gedoe.",
   hero: {
     badge: "Speciaal voor Schoonmaakbedrijven",
     headline: "Meer Klanten voor Jouw Schoonmaakbedrijf — Zonder Marketing Gedoe",
