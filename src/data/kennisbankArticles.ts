@@ -1951,4 +1951,238 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-elektriciens",
+    title: "Online marketing voor elektriciens: meer klanten via Google",
+    description: "Zo krijg je als elektricien structureel meer klanten via Google, reviews en een professionele website — van storingsdienst tot complete installaties.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Elektriciens", href: "/vakgebieden/elektriciens" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Elektriciens en online marketing: twee typen klanten",
+        body: "Als elektricien heb je twee typen klanten: spoedklanten met een storing en planklanten die een installatie willen. Spoedklanten googelen 'elektricien spoed' of 'stroomstoring hulp' en bellen de eerste die ze vinden. Planklanten zoeken op 'laadpaal installeren kosten' of 'groepenkast vervangen'. Beide typen beginnen op Google. Als je daar niet staat, mis je beide stromen. Het mooie is dat de meeste elektriciens nul aan online marketing doen — de drempel om op te vallen is laag.",
+      },
+      {
+        heading: "Google Business: je digitale uithangbord",
+        body: "Vul je Google Business profiel volledig in met al je diensten: storingsdienst, groepenkast vervangen, laadpaal installeren, verlichting, domotica, zonnepanelen aansluiten, elektrische vloerverwarming, uitbreiding meterkast. Hoe meer diensten je toevoegt, hoe meer zoekopdrachten je matcht. Vermeld duidelijk of je 24/7 storingsdienst biedt, dat is een grote trekker. Upload foto's van je werk: een netjes aangesloten groepenkast, een geinstalleerde laadpaal, verlichtingsplannen die je hebt uitgevoerd.",
+      },
+      {
+        heading: "Spoedwerk: de meest waardevolle zoekopdrachten",
+        body: "Spoedopdrachten zijn goud voor elektriciens. Een klant met een stroomstoring vergelijkt geen offertes, hij belt de eerste die hij vindt. Zorg dat je website en Google Business duidelijk vermelden dat je storingsdienst biedt. Zet je telefoonnummer overal groot neer. Reageer snel op aanvragen. Een elektricien die binnen een half uur reageert op een storingmelding wint de klus en bouwt direct vertrouwen op voor vervolgwerk.",
+      },
+      {
+        heading: "Website met pagina's per dienst",
+        body: "Maak aparte pagina's voor je kerndiensten: groepenkast vervangen, laadpaal installeren, storingsdienst, verlichting aanbrengen, domotica, zonnepanelen aansluiten. Elke pagina target een andere zoekopdracht. Schrijf richtprijzen erbij als je kunt: 'laadpaal laten installeren kosten' en 'groepenkast vervangen prijs' zijn veelgezochte termen. Een elektricien die transparant is over prijzen wekt direct vertrouwen.",
+      },
+      {
+        heading: "Reviews en certificeringen tonen",
+        body: "Elektriciteit is een vak waar klanten extra waarde hechten aan betrouwbaarheid en veiligheid. Reviews zijn daarom cruciaal, maar combineer ze met je certificeringen: NEN 1010, UNETO-VNI lid, erkend installateur. Toon dit op je website en in je Google Business profiel. Een elektricien met 30 reviews en zichtbare certificeringen is direct geloofwaardiger dan een concurrent zonder online aanwezigheid.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een elektricien die goed vindbaar is kan rekenen op 8-20 extra aanvragen per maand. Bij een mix van storingsdienst (gemiddeld 250 euro) en installatiewerk (gemiddeld 2.000 euro) en een conversie van 45% is dat 4.000 tot 12.000 euro extra omzet per maand. Spoedwerk levert hogere marges op. De investering in een goede online aanwezigheid verdien je met twee installatieklussen al terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-timmerlieden",
+    title: "Online marketing voor timmerlieden: meer opdrachten via je eigen kanalen",
+    description: "Zo zet je als timmerman online marketing in om structureel meer opdrachten te krijgen — van Google Business tot projectfoto's en reviews.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Timmerlieden", href: "/vakgebieden/timmerlieden" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Timmerlieden: vakmanschap dat zichzelf moet verkopen",
+        body: "Timmerwerk is een van de meest veelzijdige vakgebieden: van kozijnen en trappen tot dakkapellen en volledige verbouwingen. Toch zijn de meeste timmerlieden online onzichtbaar. Ze leven van mond-tot-mondreclame en onderaannemerschap. Dat levert werk op, maar je hebt er geen controle over. Online marketing geeft je de mogelijkheid om eigen klanten aan te trekken, tegen betere marges en op jouw voorwaarden.",
+      },
+      {
+        heading: "Google Business voor timmerlieden",
+        body: "Vul je Google Business profiel in met al je specialisaties: kozijnen vervangen, dakkapel plaatsen, houten trap maken, inbouwkasten, aanbouw, houtrot repareren, vlonders en terrassen, dak- en gevelwerk. Timmerlieden hebben een breed dienstenaanbod — benut dat. Upload foto's van al deze verschillende werkzaamheden. Een timmerman die 20 projectfoto's heeft van verschillende type klussen laat direct zien wat hij in huis heeft.",
+      },
+      {
+        heading: "Projectfoto's: laat je vakmanschap spreken",
+        body: "Timmerwerk is ambacht en klanten willen bewijs zien van je vaardigheden. Maak van elk project goede foto's: de oude situatie, het werk in uitvoering en het eindresultaat. Detailfoto's van mooie houtverbindingen, strakke afwerking en maatwerk laten je vakmanschap zien beter dan woorden. Upload deze naar je Google Business, website en eventueel Instagram. Een timmerman met een portfolio van 30 mooie projecten heeft een onverslaanbaar concurrentievoordeel online.",
+      },
+      {
+        heading: "Website en lokale SEO",
+        body: "Maak pagina's per specialisatie: kozijnen, dakkapellen, trappen, inbouwkasten, verbouwingen. Schrijf in klantentaal: niet 'houtskeletbouw' maar 'aanbouw laten bouwen'. Benoem je werkgebied op elke pagina. Voeg richtprijzen toe waar mogelijk: 'dakkapel kosten' en 'kozijnen vervangen prijs' zijn veelgezochte termen. Klanten die al weten wat het ongeveer kost zijn serieuzer en converteren beter.",
+      },
+      {
+        heading: "Van onderaannemer naar eigen klanten",
+        body: "Veel timmerlieden werken als onderaannemer voor grotere aannemers. Dat biedt zekerheid maar lagere marges. Met eigen klanten verdien je meer per uur en bouw je een bedrijf dat niet afhankelijk is van één opdrachtgever. Online marketing is de sleutel: je bouwt een merk, verzamelt reviews en trekt klanten aan die specifiek jou willen. Begin naast je onderaannerswerk met het opbouwen van je online aanwezigheid. Na een half jaar kun je kiezen welke klussen je aanneemt.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een timmerman die lokaal goed vindbaar is kan rekenen op 4-10 extra offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 5.000 euro en een conversie van 35% is dat 7.000 tot 17.500 euro extra omzet per maand. Grotere projecten zoals dakkapellen en aanbouwen leveren 15.000-30.000 euro per stuk op. Eén extra dakkapelproject per kwartaal betaalt je complete online marketing al vele malen terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-isolatiebedrijven",
+    title: "Online marketing voor isolatiebedrijven: inspelen op de energietransitie",
+    description: "Zo trek je als isolatiebedrijf meer klanten aan via Google. Praktische tips voor website, reviews en het benutten van de groeiende vraag naar isolatie.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Isolatiebedrijven", href: "/vakgebieden/isolatiebedrijven" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "De isolatiemarkt groeit — maar vinden klanten jou?",
+        body: "De vraag naar isolatie is de afgelopen jaren geëxplodeerd door stijgende energieprijzen en overheidssubsidies. Huiseigenaren zoeken massaal op 'vloerisolatie kosten', 'spouwmuurisolatie subsidie' en 'dak isoleren'. Dit is een enorme kans voor isolatiebedrijven die online vindbaar zijn. Het probleem: veel isolatiebedrijven zijn afhankelijk van leadgeneratieplatformen die dure leads verkopen aan meerdere concurrenten tegelijk. Met eigen online marketing betaal je niets per lead en concurreer je niet op prijs.",
+      },
+      {
+        heading: "Google Business voor isolatiebedrijven",
+        body: "Vul je Google Business profiel in met al je isolatiediensten: spouwmuurisolatie, vloerisolatie, dakisolatie, bodemisolatie, HR++ glas, isolerende deuren, kruipruimte-isolatie. Vermeld of je ISOL-gecertificeerd bent en welke subsidies je klanten kunnen aanvragen. Upload foto's van je werkwijze: het inspuiten van spouwmuren, het aanbrengen van vloerisolatie, warmtebeelden voor en na. Klanten willen zien hoe het proces eruitziet.",
+      },
+      {
+        heading: "Subsidies als marketingtool",
+        body: "Subsidies zijn een enorme drijfveer voor isolatieklanten. Veel huiseigenaren zoeken eerst op subsidie-informatie voordat ze een isolatiebedrijf kiezen. Maak hier slim gebruik van: schrijf op je website duidelijk welke subsidies beschikbaar zijn (ISDE, gemeentelijke subsidies), wat de voorwaarden zijn en hoeveel de klant bespaart. Een isolatiebedrijf dat de klant helpt met subsidieaanvragen onderscheidt zich direct van de concurrent die alleen een offerte stuurt.",
+      },
+      {
+        heading: "Website met richtprijzen en energiebesparing",
+        body: "Isolatieklanten willen twee dingen weten: wat kost het en hoeveel bespaar ik? Maak per isolatietype een pagina met richtprijzen per m², verwachte energiebesparing per jaar, terugverdientijd en beschikbare subsidies. Dit zijn precies de zoektermen waar klanten op zoeken: 'spouwmuurisolatie kosten per m2', 'vloerisolatie terugverdientijd'. Een transparante website met concrete cijfers converteert veel beter dan een vage brochure.",
+      },
+      {
+        heading: "Reviews met energiebesparing",
+        body: "Reviews zijn belangrijk, maar bij isolatiebedrijven zijn reviews met meetbare resultaten extra krachtig. Vraag klanten om in hun review te vermelden hoeveel hun gasrekening is gedaald. 'Na de spouwmuurisolatie betalen we 40 euro minder gas per maand' overtuigt meer dan 'prima bedrijf'. Automatiseer je reviewverzoeken per SMS na oplevering. Na een half jaar heb je een reviewprofiel vol concrete besparingscijfers.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een isolatiebedrijf dat goed vindbaar is kan rekenen op 10-25 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 35% is dat 10.500 tot 26.250 euro extra omzet per maand. Met subsidies als drijfveer is de conversie vaak hoger dan bij andere vakgebieden: klanten zijn al overtuigd dat ze willen isoleren, ze zoeken alleen de juiste partij.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-warmtepomp-installateurs",
+    title: "Online marketing voor warmtepomp installateurs: inspelen op de groeiende vraag",
+    description: "Zo trek je als warmtepomp installateur meer klanten aan via Google. Van subsidie-content tot reviews — praktische tips voor meer installatie-opdrachten.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Warmtepomp Installatie", href: "/vakgebieden/warmtepomp-installatie" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "De warmtepompmarkt explodeert — ben jij zichtbaar?",
+        body: "De overstap van gas naar warmtepompen is een van de grootste trends in de installatiebranche. Huiseigenaren zoeken massaal op 'warmtepomp kosten', 'warmtepomp installeren' en 'hybride warmtepomp subsidie'. Dit zijn warme leads met hoge projectwaarden. Maar veel installateurs zijn online nauwelijks vindbaar. Ze krijgen hun werk via groothandels, woningbouwverenigingen of mond-tot-mond. Met eigen online marketing trek je particuliere klanten aan tegen betere marges.",
+      },
+      {
+        heading: "Google Business en lokale vindbaarheid",
+        body: "Vul je Google Business profiel in met al je diensten: lucht-water warmtepomp, hybride warmtepomp, bodemwarmtepomp, airco met verwarmingsfunctie, vloerverwarming, radiatorvervanging. Vermeld je certificeringen (F-gassen, STEK) en welke merken je installeert. Upload foto's van installaties: de buitenunit, het binnenwerk, de aansluiting op vloerverwarming. Klanten willen zien dat je weet wat je doet bij een investering van 8.000-15.000 euro.",
+      },
+      {
+        heading: "Subsidie-informatie als klantenmagneet",
+        body: "De ISDE-subsidie is voor veel klanten de doorslag om een warmtepomp te laten installeren. Maak een uitgebreide pagina op je website over beschikbare subsidies: hoeveel je terugkrijgt per type warmtepomp, wat de voorwaarden zijn, en hoe je de aanvraag doet. Dit is content waar klanten actief naar zoeken. Een installateur die de klant begeleidt bij de subsidieaanvraag scoort direct punten ten opzichte van een concurrent die alleen een offerte stuurt.",
+      },
+      {
+        heading: "Website met vergelijkingen en kostenindicaties",
+        body: "Warmtepompklanten oriënteren zich weken voordat ze kiezen. Ze vergelijken typen (hybride vs. full-electric), merken (Daikin, Mitsubishi, Vaillant) en kosten. Maak vergelijkingspagina's op je website. Geef richtprijzen per type installatie. Schrijf over terugverdientijd en jaarlijkse besparing. Dit zijn precies de zoektermen die klanten gebruiken en het bouwt je autoriteit als expert op.",
+      },
+      {
+        heading: "Reviews met besparingscijfers",
+        body: "Bij een investering van 10.000+ euro willen klanten bewijs dat het werkt. Reviews waarin klanten hun energiebesparing vermelden zijn goud waard: 'Sinds de warmtepomp betalen we 120 euro minder per maand aan energie'. Automatiseer je reviewverzoeken en vraag klanten specifiek om hun ervaring met de besparing te delen. Na zes maanden heb je een reviewprofiel dat elke twijfelende klant overtuigt.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een warmtepomp installateur die goed vindbaar is kan rekenen op 5-15 offerteaanvragen per maand van particulieren. Bij een gemiddelde projectwaarde van 10.000 euro en een conversie van 30% is dat 15.000 tot 45.000 euro extra omzet per maand. De marges op particulier werk liggen hoger dan bij projectmatig werk voor woningbouwverenigingen. Eén extra warmtepompinstallatie per maand betaalt je hele online marketing al terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-airco-installateurs",
+    title: "Online marketing voor airco installateurs: meer opdrachten het hele jaar",
+    description: "Zo krijg je als airco installateur structureel meer klanten via Google — niet alleen in de zomer, maar het hele jaar door.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Airco Installateurs", href: "/vakgebieden/airco-installateurs" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Airco is niet alleen zomerwerk meer",
+        body: "Moderne airconditioners verwarmen en koelen. Dat maakt airco een jaar-rond product, maar de meeste installateurs denken nog in seizoenen: druk in de zomer, rustig in de winter. Slimme online marketing benadrukt beide functies. In de zomer target je 'airco laten installeren', in de winter 'airco verwarming' en 'warmtepomp airco kosten'. Zo heb je het hele jaar door aanvragen in plaats van een piek van drie maanden.",
+      },
+      {
+        heading: "Google Business voor airco installateurs",
+        body: "Vul je profiel in met alle diensten: split-unit airco, multi-split, monoblock, airco met verwarmingsfunctie, airco onderhoud, airco verplaatsen, F-gassen service. Vermeld welke merken je installeert (Daikin, Mitsubishi, Samsung, LG). Upload foto's van nette installaties: de binnenunit aan de muur, een strak weggewerkte buitenunit, leidingwerk dat netjes is afgewerkt. Klanten kiezen installateurs die hun werk netjes afleveren.",
+      },
+      {
+        heading: "Seizoensgebonden marketing strategie",
+        body: "De truc bij airco marketing is vooruit denken. In maart begin je met optimaliseren voor zomer-gerelateerde zoekopdrachten. In september switch je naar verwarming en energiebesparing. Pas je Google Business berichten en websiteteksten aan per seizoen. Bied in het laagseizoen onderhoudspakketten aan om je planning gevuld te houden. Een airco installateur die het hele jaar online actief is bouwt een stabielere onderneming.",
+      },
+      {
+        heading: "Website met kostenindicaties",
+        body: "Airco klanten zoeken heel specifiek: 'airco slaapkamer kosten', 'split airco installatie prijs', 'airco voor 3 kamers'. Maak pagina's die deze vragen beantwoorden met concrete richtprijzen. Voeg een simpele keuzehulp toe: welk type airco past bij welke situatie. Schrijf over verbruikskosten en energielabels, want veel klanten twijfelen over de stroomkosten. Transparantie over kosten verlaagt de drempel om een offerte aan te vragen.",
+      },
+      {
+        heading: "Reviews en social proof",
+        body: "Airco installatie is zichtbaar in huis: de binnenunit hangt aan de muur. Klanten willen weten dat het er netjes uitziet. Reviews met foto's zijn daarom extra waardevol. Moedig klanten aan om een foto van de installatie bij hun review te plaatsen. Een profiel met 30 reviews én foto's van nette installaties overtuigt beter dan welke brochure dan ook. Automatiseer je reviewverzoeken per SMS na elke installatie.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een airco installateur die goed vindbaar is kan rekenen op 8-20 aanvragen per maand in het seizoen en 3-8 in het laagseizoen. Bij een gemiddelde installatiewaarde van 2.500 euro en een conversie van 40% is dat 4.000 tot 20.000 euro extra omzet per maand, afhankelijk van het seizoen. Het hele jaar door actief zijn online is de sleutel tot een stabiele omzet.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-cv-monteurs",
+    title: "Online marketing voor cv-monteurs: meer klanten via Google",
+    description: "Zo zet je als cv-monteur online marketing in voor meer storingsopdrachten, onderhoud en ketelinstallaties — praktische tips zonder dure bureaus.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "CV-ketel Montage", href: "/vakgebieden/cv-ketel-montage" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "CV-monteurs: spoed, onderhoud en installatie — drie inkomstenbronnen",
+        body: "Als cv-monteur heb je drie typen werk: storingen (spoed, hoge marge), jaarlijks onderhoud (laag maar terugkerend) en nieuwe ketelinstallaties (hoge projectwaarde). Online marketing kan alle drie de stromen versterken. Spoedklanten googelen 'cv-ketel storing' of 'verwarming doet het niet'. Onderhoudsklanten zoeken op 'cv-ketel onderhoud kosten'. Installatieklanten vergelijken 'nieuwe cv-ketel prijs' en 'hr-ketel laten plaatsen'. Voor elke stroom is online vindbaar zijn de sleutel.",
+      },
+      {
+        heading: "Google Business: spoed en regulier",
+        body: "Vul je profiel in met alle diensten: cv-ketel storing, cv-ketel onderhoud, nieuwe cv-ketel installeren, vloerverwarming, radiatoren, leidingwerk, gasleiding. Vermeld expliciet of je 24/7 storingsdienst biedt en wat je reactietijd is. Upload foto's van nette installaties: een nieuwe ketel aan de muur, radiatoren, leidingwerk. Vermeld je certificeringen (SCIOS, Gastec QA). Een compleet profiel met certificeringen en goede reviews trekt de meeste klanten.",
+      },
+      {
+        heading: "Spoedopdrachten zijn goud",
+        body: "Een klant met een kapotte cv-ketel in januari belt de eerste monteur die hij vindt. Er is geen prijsvergelijking, geen offerte — alleen de vraag 'kun je vandaag komen?'. Dit zijn de meest waardevolle leads en ze komen bijna allemaal via Google. Zorg dat je website en Google Business duidelijk vermelden: storingsdienst, telefoonnummer groot in beeld, reactietijd. Een cv-monteur die dit goed doet heeft in de wintermaanden meer werk dan hij aankan.",
+      },
+      {
+        heading: "Onderhoud als marketingtool",
+        body: "Jaarlijks cv-ketel onderhoud is laagdrempelig werk dat leidt tot vervolgklussen. Een klant die tevreden is over het onderhoud belt jou als de ketel kapotgaat of vervangen moet worden. Bied een onderhoudspakket aan op je website met duidelijke prijzen. Stuur bestaande klanten jaarlijks een herinnering per SMS. Dit houdt je naam top-of-mind en vult je planning in het laagseizoen.",
+      },
+      {
+        heading: "Reviews en vertrouwen",
+        body: "Cv-werk raakt aan de veiligheid van mensen in hun eigen huis: gas en verwarming. Vertrouwen is daarom essentieel. Reviews met beschrijving van het type werk en de snelheid van respons zijn het meest overtuigend: 'Zondagavond gebeld, maandagochtend 8 uur stond hij al voor de deur. Ketel weer aan'. Automatiseer je reviewverzoeken en je bouwt binnen een half jaar een onverslaanbaar vertrouwensprofiel op.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een cv-monteur die goed vindbaar is kan rekenen op 10-25 extra aanvragen per maand in het stookseizoen (oktober-maart) en 5-10 in de zomer. Bij een mix van storingen (250 euro), onderhoud (100 euro) en installaties (3.000 euro) is de gemiddelde opdracht zo'n 600 euro. Met een conversie van 50% is dat 3.000 tot 7.500 euro extra omzet per maand. De investering in online marketing verdien je met één ketelinstallatie al terug.",
+      },
+    ],
+  },
 ];
