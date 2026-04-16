@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock, Euro, Users } from "lucide-react";
+import { Calculator, TrendingUp, Clock, Euro, Users, Grid3X3 } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -47,6 +47,14 @@ const tools: Tool[] = [
       "Bereken wat een werknemer écht kost: bruto salaris → totale werkgeverskosten inclusief premies, vakantiegeld, verzuim en werkkleding.",
     href: "/tools/personeelskosten-calculator",
     icon: Users,
+    status: "live",
+  },
+  {
+    title: "Tegels berekenen",
+    description:
+      "Hoeveel tegels, dozen, tegellijm en voegmortel heb je nodig? Kies je formaat, vul de m² in en bestel precies genoeg.",
+    href: "/tools/tegels-berekenen",
+    icon: Grid3X3,
     status: "live",
   },
 ];
