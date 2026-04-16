@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock } from "lucide-react";
+import { Calculator, TrendingUp, Clock, Euro } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -31,6 +31,14 @@ const tools: Tool[] = [
       "Bereken wat je minimaal per uur moet rekenen als aannemer. Op basis van je inkomensdoel, werkbare uren, overhead en belasting — geen giswerk meer.",
     href: "/tools/uurtarief-calculator-aannemer",
     icon: Clock,
+    status: "live",
+  },
+  {
+    title: "Projectmarge calculator",
+    description:
+      "Vul je offertebedrag en kostenposten in — zie direct je bruto- en nettomarge, en hoeveel de kosten mogen stijgen voordat je break-even draait.",
+    href: "/tools/projectmarge-calculator",
+    icon: Euro,
     status: "live",
   },
 ];

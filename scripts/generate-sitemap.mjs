@@ -99,6 +99,7 @@ const TOOLS_PAGES = [
   "/tools",
   "/tools/leadwaarde-calculator",
   "/tools/uurtarief-calculator-aannemer",
+  "/tools/projectmarge-calculator",
 ];
 
 // ---------- Build ----------
