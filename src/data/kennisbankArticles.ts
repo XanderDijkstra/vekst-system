@@ -2419,4 +2419,238 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-dakkapellen",
+    title: "Online marketing voor dakkapellenbouwers: meer projecten via Google",
+    description: "Zo krijg je als dakkapellenbouwer meer klanten via Google — van plaatsing tot vergunning en dakkapel op maat.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Dakkapellen", href: "/vakgebieden/dakkapellen" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Dakkapellen: grote projecten, grote zoekintentie",
+        body: "Een dakkapel is een investering van 5.000 tot 15.000 euro. Klanten doen uitgebreid online onderzoek voordat ze een vakman kiezen. Ze zoeken op 'dakkapel plaatsen kosten', 'dakkapel op maat' en 'dakkapellenbouwer [stad]'. Als jij niet vindbaar bent op deze zoektermen, mis je de klanten die het meeste budget hebben en het meest serieus zijn.",
+      },
+      {
+        heading: "Google Business optimaliseren",
+        body: "Vermeld al je diensten: prefab dakkapellen, dakkapellen op maat, dakkapel renovatie, dakkapel isoleren. Upload foto's van afgeronde projecten: buitenaanzicht, binnenaanzicht met extra ruimte en licht. Klanten willen zien hoe hun zolder eruit kan zien na een dakkapel. Vermeld ook of je vergunningsvrije dakkapellen aanbiedt — dit is een veelgezochte term.",
+      },
+      {
+        heading: "Content die klanten overtuigt",
+        body: "Schrijf pagina's over onderwerpen waar klanten op zoeken: 'dakkapel vergunning nodig?', 'dakkapel kosten 2026', 'prefab vs maatwerk dakkapel'. Deze informatieve content trekt bezoekers aan die in de oriëntatiefase zitten. Eindig elke pagina met een gratis inspectie of offerte — zo converteer je informatiezoekers naar leads.",
+      },
+      {
+        heading: "Voor-en-na portfolio",
+        body: "Dakkapellen zijn visueel spectaculair: een donkere zolder wordt een lichte leefruimte. Maak van elk project een mini-case: foto's van de zolder voor plaatsing, tijdens de bouw en het eindresultaat van binnen en buiten. Vermeld het type dakkapel, de afmetingen en de doorlooptijd. Dit geeft potentiële klanten een realistisch beeld en bouwt vertrouwen.",
+      },
+      {
+        heading: "Reviews en vergunningsexpertise",
+        body: "Klanten kiezen een dakkapellenbouwer op twee dingen: vakmanschap en betrouwbaarheid. Reviews op Google zijn het sterkste bewijs van beide. Vraag na elk project actief om een review. Benadruk in je online profiel ook je kennis van vergunningen en bouwbesluit — dit onderscheidt je van klusjesmannen die ook dakkapellen aanbieden.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een dakkapellenbouwer met een sterke Google-aanwezigheid kan rekenen op 6-15 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 8.000 euro en een conversie van 30% is dat 14.400 tot 36.000 euro extra omzet per maand. De hoge projectwaarde maakt elke lead bijzonder waardevol.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-kozijnmonteurs",
+    title: "Online marketing voor kozijn- en raammonteurs: meer klanten via Google",
+    description: "Zo krijg je als kozijnmonteur meer aanvragen via Google — van kunststof kozijnen tot houten ramen en aluminium puien.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Kozijnen & Ramen", href: "/vakgebieden/kozijnen-ramen" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Kozijnen vervangen: hoge zoekintentie, weinig online concurrentie",
+        body: "Kozijnen vervangen is een investering die huiseigenaren niet lichtvaardig nemen. Ze zoeken op 'kozijnen vervangen kosten', 'kunststof kozijnen prijs' en 'ramen vervangen [stad]'. Toch hebben de meeste kozijnbedrijven geen sterke online aanwezigheid. Met een professionele website en goed Google-profiel kun je snel de eerste keuze worden in je regio.",
+      },
+      {
+        heading: "Google Business inrichten",
+        body: "Vermeld al je specialisaties: kunststof kozijnen, houten kozijnen, aluminium kozijnen, HR++ en triple glas, schuifpuien, openslaande deuren, dakramen. Upload foto's van afgeronde projecten met zichtbaar verschil tussen oud en nieuw. Vermeld je werkgebied ruim — kozijnvervanging is een project waarvoor klanten bereid zijn iets verder te zoeken.",
+      },
+      {
+        heading: "Materiaalvergelijking als contentstrategie",
+        body: "Klanten twijfelen vaak tussen kunststof, hout en aluminium. Schrijf een duidelijke vergelijkingspagina met voor- en nadelen, prijsindicaties en levensduur per materiaal. Deze pagina trekt oriënterende bezoekers aan die nog geen leverancier hebben gekozen. Eindig met een gratis inmeetafspraak als call-to-action.",
+      },
+      {
+        heading: "Energiebesparing als verkoopargument",
+        body: "Kozijnen vervangen is direct gekoppeld aan energiebesparing en duurzaamheid. Benadruk op je website de energielabels, isolatiewaarden en mogelijke subsidies (ISDE). Klanten die zoeken op 'huis isoleren' of 'energielabel verbeteren' zijn potentiële kozijnklanten. Deze zoektermen hebben een enorm volume en leiden tot projecten van 5.000 tot 20.000 euro.",
+      },
+      {
+        heading: "Reviews die twijfel wegnemen",
+        body: "Kozijnen zijn duur en klanten willen zeker weten dat de montage netjes gebeurt: geen tochtproblemen, geen lekkages, geen beschadigde kozijnen bij levering. Reviews die specifiek de montage, de oplevering en de nazorg benoemen, nemen deze twijfels weg. Stuur na elk project een geautomatiseerd reviewverzoek zodat je continu verse reviews verzamelt.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een kozijnbedrijf met sterke lokale SEO kan rekenen op 8-20 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 6.000 euro en een conversie van 25% is dat 12.000 tot 30.000 euro extra omzet per maand. De combinatie van hoge projectwaarde en lage online concurrentie maakt dit een van de meest rendabele niches voor online marketing.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-keukenmonteurs",
+    title: "Online marketing voor keukenmonteurs: meer montageprojecten via Google",
+    description: "Zo krijg je als keukenmonteur meer klanten via Google — van IKEA-montage tot maatwerk keukeninstallatie.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Keukenmonteurs", href: "/vakgebieden/keukenmonteurs" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Keukenmontage: groeiende vraag door online keukenaankopen",
+        body: "Steeds meer mensen kopen hun keuken online of bij een budgetketen als IKEA, maar hebben een vakman nodig voor de montage. Ze zoeken op 'keukenmonteur in de buurt', 'IKEA keuken laten plaatsen' en 'keuken installateur [stad]'. Dit is een groeiende markt met relatief weinig online concurrentie: de meeste keukenmonteurs werken via mond-tot-mond.",
+      },
+      {
+        heading: "Google Business voor keukenmonteurs",
+        body: "Vermeld al je diensten: keukenmontage, IKEA keukens plaatsen, Bribus montage, maatwerk keukens, keukenrenovatie, aanrechtblad vervangen, kraanwerk en afvoer. Upload foto's van afgeronde keukens — focus op strakke afwerking, passingen en details. Klanten willen zien dat je netjes werkt, zeker als het om hun keuken gaat.",
+      },
+      {
+        heading: "IKEA-montage als leadmagnet",
+        body: "'IKEA keuken laten plaatsen kosten' is een van de meest gezochte keukentermen in Nederland. Maak een specifieke pagina over IKEA-keukenmontage met richtprijzen, wat er allemaal bij komt kijken en waarom een ervaren monteur het verschil maakt. Deze pagina trekt een constante stroom bezoekers die actief een monteur zoeken.",
+      },
+      {
+        heading: "Portfolio met afgewerkte keukens",
+        body: "Een keuken is het hart van het huis en klanten besteden er veel aandacht aan. Maak professionele foto's van elke afgeronde keuken. Toon verschillende stijlen: modern, landelijk, compact, ruim. Vermeld per project wat je precies hebt gedaan: montage, leidingwerk, tegelwerk, elektra. Hoe completer je aanbod, hoe aantrekkelijker je bent als totaaloplossing.",
+      },
+      {
+        heading: "Reviews van tevreden keukenklanten",
+        body: "Een nieuwe keuken is emotioneel: klanten zijn trots op het resultaat en delen graag hun ervaring. Stuur direct na oplevering een reviewverzoek. Reviews die de samenwerking, de oplevering en de prijs-kwaliteit benoemen, zijn het meest overtuigend. Een keukenmonteur met 30+ positieve reviews krijgt het vertrouwen van nieuwe klanten nog voor het eerste gesprek.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een keukenmonteur met goede online zichtbaarheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 2.500 euro en een conversie van 35% is dat 8.750 tot 21.875 euro extra omzet per maand. De combinatie van constante vraag en hoge herhaalbaarheid maakt keukenmontage een dankbare niche voor online marketing.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-rioolservice",
+    title: "Online marketing voor rioolservice bedrijven: meer spoedklussen via Google",
+    description: "Zo krijg je als rioolspecialist meer klanten via Google — van verstopping tot rioolreparatie en camera-inspectie.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Rioolservice", href: "/vakgebieden/rioolservice" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Rioolservice: spoed betekent directe actie",
+        body: "Een verstopt riool is een noodgeval: klanten zoeken direct op hun telefoon naar 'riool verstopt [stad]', 'rioolservice in de buurt' of 'riool ontstoppen spoed'. Ze bellen het eerste bedrijf dat ze vinden. Als jij niet bovenaan staat in Google Maps, gaat die klant naar de concurrent. De urgentie van rioolproblemen maakt lokale vindbaarheid letterlijk het verschil tussen wel of geen omzet.",
+      },
+      {
+        heading: "Google Business als spoedhulplijn",
+        body: "Zorg dat je Google Business profiel 24/7 bereikbaarheid communiceert. Vermeld al je diensten: riool ontstoppen, camera-inspectie, rioolreparatie, wortelingroei verwijderen, rioolvervanging, putdeksels en drainage. Zet je openingstijden op 24/7 als je spoedservice biedt. Upload foto's van je materieel: hogedrukspuit, camera-inspectieapparatuur, graafmachine. Dit toont professionaliteit.",
+      },
+      {
+        heading: "Lokale landingspagina's per stad",
+        body: "Rioolservice is hyperlocaal: klanten zoeken op '[stad] riool verstopt'. Maak voor elke stad of regio waarin je werkt een aparte pagina: 'Rioolservice Amsterdam', 'Riool ontstoppen Rotterdam'. Vermeld je responstijd, bereikbaarheid en een lokaal telefoonnummer. Deze pagina's scoren snel in Google omdat de concurrentie per stad beperkt is.",
+      },
+      {
+        heading: "Transparante prijzen wegnemen drempels",
+        body: "Klanten met een rioolprobleem zijn bang voor hoge kosten. Communiceer duidelijke richtprijzen: 'riool ontstoppen vanaf €149', 'camera-inspectie €89'. Transparantie over kosten verlaagt de drempel om te bellen. Vermeld ook dat je geen voorrijkosten rekent of geef een all-in tarief. Dit onderscheidt je van bedrijven die pas ter plekke een prijs noemen.",
+      },
+      {
+        heading: "Reviews als vertrouwensbewijs bij spoedwerk",
+        body: "Bij spoedwerk is vertrouwen cruciaal: je laat iemand in je huis die je niet kent. Reviews op Google zijn het snelste vertrouwensbewijs. Vraag na elke klus om een review — juist bij spoedwerk zijn klanten dankbaar en bereid om een positieve ervaring te delen. Een rioolbedrijf met 40+ reviews en een 4,8 gemiddelde wordt als eerste gebeld.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een rioolservice bedrijf met sterke lokale SEO kan rekenen op 15-40 oproepen per maand. Bij een gemiddelde kluswaarde van 350 euro en een conversie van 50% is dat 2.625 tot 7.000 euro extra omzet per maand. De hoge urgentie betekent dat klanten snel beslissen en weinig offertes vergelijken — je conversie is hoger dan bij planbare projecten.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-gietvloeren",
+    title: "Online marketing voor gietvloer specialisten: meer projecten via Google",
+    description: "Zo krijg je als gietvloerspecialist meer klanten via Google — van epoxy tot polyurethaan en betonlook gietvloeren.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Gietvloeren", href: "/vakgebieden/gietvloeren" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Gietvloeren: een visueel product met hoge marges",
+        body: "Gietvloeren zijn trending: steeds meer huiseigenaren kiezen voor een naadloze gietvloer in hun woning. Ze zoeken op 'gietvloer kosten per m2', 'gietvloer laten leggen' en 'gietvloer specialist [stad]'. De gemiddelde projectwaarde is 4.000 tot 12.000 euro met gezonde marges. Online zichtbaarheid is essentieel omdat klanten uitgebreid vergelijken op portfolio en reviews.",
+      },
+      {
+        heading: "Google Business voor gietvloer bedrijven",
+        body: "Vermeld al je vloertypen: epoxy gietvloer, polyurethaan gietvloer, betonlook gietvloer, cementgebonden gietvloer, terrazzo gietvloer. Upload per type meerdere foto's in verschillende kleuren en ruimtes. Gietvloeren verkoop je met je ogen — klanten willen het resultaat zien in een setting die lijkt op hun eigen woning.",
+      },
+      {
+        heading: "Showroom-ervaring op je website",
+        body: "Maak van je website een online showroom. Toon per vloertype een galerij met projectfoto's, kleuropties en texturen. Geef richtprijzen per m² per type. Leg het verschil uit tussen epoxy en PU: slijtvastheid, glansgraad, warmte, geschiktheid per ruimte. Klanten die twijfelen tussen vloertypen besteden veel tijd op vergelijkingspagina's — jij kunt die bron zijn.",
+      },
+      {
+        heading: "Lokale SEO en inspiratiecontent",
+        body: "Combineer lokale zoektermen ('gietvloer Utrecht', 'gietvloer leggen Den Haag') met inspiratiecontent. Schrijf artikelen over 'gietvloer in de keuken: voor- en nadelen', 'gietvloer op vloerverwarming' en 'gietvloer onderhoud'. Deze content trekt bezoekers aan die in de oriëntatiefase zitten en positioneert je als expert in je regio.",
+      },
+      {
+        heading: "Reviews met foto's",
+        body: "Vraag klanten niet alleen om een tekstreview maar ook om een foto van hun nieuwe vloer. Google Reviews met foto's vallen meer op en overtuigen sterker. Een gietvloerspecialist met 25+ reviews inclusief klantfoto's domineert de lokale zoekresultaten en wint het vertrouwen van nieuwe klanten nog voor het eerste contact.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een gietvloerspecialist met sterke online aanwezigheid kan rekenen op 8-18 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 7.000 euro en een conversie van 30% is dat 16.800 tot 37.800 euro extra omzet per maand. De visuele aard van het product maakt online marketing bijzonder effectief: mooie foto's verkopen gietvloeren.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-parketvloeren",
+    title: "Online marketing voor parketleggers: meer klanten via Google",
+    description: "Zo krijg je als parketlegger meer klanten via Google — van massief parket tot visgraatvloeren en parketrenovatie.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Parketvloeren", href: "/vakgebieden/parketvloeren" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Parketvloeren: vakmanschap dat online verkoopt",
+        body: "Een parketvloer is een premium product: klanten investeren 3.000 tot 15.000 euro en verwachten perfect vakmanschap. Ze zoeken op 'parket leggen kosten', 'visgraatvloer laten leggen' en 'parketlegger [stad]'. De online concurrentie is matig: veel parketleggers werken via vaste klanten en hebben geen actuele website. Dit biedt kansen voor wie wél investeert in online zichtbaarheid.",
+      },
+      {
+        heading: "Google Business voor parketleggers",
+        body: "Vermeld je specialisaties: massief parket, meerlaags parket, visgraat, hongaarse punt, plankenvloer, parketrenovatie, schuren en lakken, oliën. Upload foto's van afgeronde projecten in verschillende houtsoorten en patronen. Vermeld de houtsoorten waarmee je werkt: eiken, walnoot, essen, bamboe. Hoe specifieker, hoe beter je scoort op nichezoekopdrachten.",
+      },
+      {
+        heading: "Visgraat als zoekterm-magneet",
+        body: "'Visgraatvloer' is een van de meest gezochte vloertermen in Nederland. Maak een uitgebreide pagina over visgraatvloeren: patronen (enkele visgraat, dubbele visgraat, hongaarse punt), houtsoorten, prijzen per m² en voorbeeldfoto's in verschillende ruimtes. Deze ene pagina kan maandelijks honderden bezoekers trekken en is je sterkste lead-generator.",
+      },
+      {
+        heading: "Parketrenovatie als tweede pijler",
+        body: "Naast nieuw parket leggen is parketrenovatie een grote markt. Mensen zoeken op 'parket schuren kosten', 'parketvloer opknappen' en 'houten vloer renoveren'. Maak aparte pagina's voor renovatiediensten met voor-en-na foto's. Renovatieprojecten hebben een lagere projectwaarde maar hogere marges en een kortere doorlooptijd — een perfecte aanvulling op nieuwbouwprojecten.",
+      },
+      {
+        heading: "Portfolio en reviews",
+        body: "Parketwerk is visueel: de warme uitstraling van hout, de perfecte patronen, de strakke afwerking. Bouw een portfolio met minstens 20 projecten, verdeeld over nieuw parket en renovatie. Vraag na elk project om een Google review. Parketklanten zijn vaak trots op hun nieuwe vloer en delen graag hun ervaring. Een parketlegger met 30+ positieve reviews is de vanzelfsprekende keuze in elke regio.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een parketlegger met goede online zichtbaarheid kan rekenen op 6-15 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 5.500 euro en een conversie van 30% is dat 9.900 tot 24.750 euro extra omzet per maand. De premium positionering van parketvloeren trekt klanten aan die op kwaliteit selecteren in plaats van op prijs — precies de klanten die je wilt.",
+      },
+    ],
+  },
 ];
