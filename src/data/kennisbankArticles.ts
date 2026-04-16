@@ -2185,4 +2185,238 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-laadpaal-installateurs",
+    title: "Online marketing voor laadpaal installateurs: meer particuliere opdrachten",
+    description: "Zo trek je als laadpaal installateur meer klanten aan via Google. Praktische tips voor website, reviews en het benutten van de groeiende EV-markt.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Laadpaal Installateurs", href: "/vakgebieden/laadpaal-installateurs" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "De laadpaalmarkt groeit sneller dan het aanbod",
+        body: "Elke maand worden er duizenden elektrische auto's verkocht in Nederland. Elke nieuwe EV-rijder zoekt een laadpaal voor thuis. 'Laadpaal laten installeren', 'thuislader kosten' en 'laadpaal thuis installeren' zijn zoekopdrachten die elk jaar toenemen. Het mooie: veel installateurs krijgen hun werk via autodealers of leasemaatschappijen. De particuliere markt — huiseigenaren die zelf een laadpaal willen — is onderbenut. Hier liggen de betere marges.",
+      },
+      {
+        heading: "Google Business en lokale vindbaarheid",
+        body: "Vul je Google Business profiel in met specifieke diensten: laadpaal installatie thuis, laadpaal bedrijfspand, laadpaal VvE, meterkast uitbreiden voor laadpaal, slimme laadpaal met app, load balancing. Vermeld welke merken je installeert en je certificeringen. Upload foto's van nette installaties: een laadpaal aan de gevel, in de garage, kabelmanagement. Klanten willen zien dat de installatie er netjes uitziet.",
+      },
+      {
+        heading: "Website met duidelijke prijzen en subsidie-informatie",
+        body: "'Laadpaal installeren kosten' is een van de meest gezochte termen. Geef richtprijzen op je website: standaardinstallatie vanaf X euro, met meterkast uitbreiding vanaf Y euro. Vermeld beschikbare subsidies en help klanten met de aanvraag. Maak een keuzehulp: welke laadpaal past bij welke auto en welk stroomverbruik. Deze content trekt klanten aan in de oriëntatiefase en bouwt je autoriteit als expert op.",
+      },
+      {
+        heading: "Reviews van EV-rijders",
+        body: "EV-rijders zijn digital natives die reviews lezen voordat ze iets kopen. Een laadpaal installateur met 40+ reviews en 4,8 sterren heeft een groot voordeel. Moedig klanten aan om in hun review te vermelden welk merk laadpaal ze hebben laten plaatsen en hoe de installatie verliep. Specifieke reviews overtuigen meer dan generieke. Automatiseer je verzoeken per SMS na elke installatie.",
+      },
+      {
+        heading: "Partnerschappen met autodealers en leasemaatschappijen",
+        body: "Naast eigen online marketing kun je partnerschappen aangaan met lokale autodealers en leasemaatschappijen. Zij worden dagelijks gevraagd 'kun je ook een laadpaal regelen?'. Als jij de lokale installateur bent die ze aanbevelen, heb je een constante stroom opdrachten erbij. Combineer dit met je eigen online kanalen en je hebt twee inkomstenstromen die elkaar versterken.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een laadpaal installateur die goed vindbaar is kan rekenen op 10-30 aanvragen per maand van particulieren. Bij een gemiddelde installatieprijs van 1.500 euro en een conversie van 45% is dat 6.750 tot 20.250 euro extra omzet per maand. Laadpaalinstallaties zijn relatief snel uit te voeren (2-4 uur), waardoor je er meerdere per dag kunt doen. Volume is de sleutel in deze markt.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-zonnepanelen-installateurs",
+    title: "Online marketing voor zonnepanelen installateurs: meer installaties via Google",
+    description: "Zo trek je als zonnepanelen installateur meer particuliere klanten aan via Google. Van subsidie-content tot reviews en een website die offertes oplevert.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Zonnepanelen", href: "/vakgebieden/zonnepanelen" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Zonnepanelen: grote vraag, veel concurrentie",
+        body: "De zonnepanelenmarkt is competitief: er zijn veel installateurs en de prijzen zijn transparant. Toch wint niet de goedkoopste, maar de meest betrouwbare. Klanten zoeken op 'zonnepanelen installeren', 'zonnepanelen kosten per stuk' en 'zonnepanelen terugverdientijd'. Ze vergelijken reviews, kijken naar certificeringen en kiezen een partij die vertrouwen wekt. Online marketing is hoe je dat vertrouwen opbouwt voordat de klant belt.",
+      },
+      {
+        heading: "Google Business optimaliseren",
+        body: "Vul je profiel in met diensten: zonnepanelen particulier, zonnepanelen zakelijk, thuisbatterij, omvormer vervangen, monitoring systeem, zonnepanelen plat dak, zonnepanelen schuin dak. Vermeld certificeringen en garantievoorwaarden. Upload foto's van installaties op verschillende daktypen. Een profiel met 50+ reviews, goede foto's en certificeringen staat in elke regio bovenaan.",
+      },
+      {
+        heading: "Terugverdientijd en opbrengst als content",
+        body: "Zonnepanelenklanten zijn rekenaars: ze willen weten hoeveel het oplevert en wanneer de investering is terugverdiend. Maak een uitgebreide pagina met actuele richtprijzen, verwachte opbrengst per regio, terugverdientijd en het effect van saldering. Dit is exact wat klanten zoeken. Een installateur die transparant is over de cijfers wint het van een concurrent die alleen belt voor een verkoopgesprek.",
+      },
+      {
+        heading: "Reviews met opbrengstcijfers",
+        body: "De krachtigste reviews voor zonnepanelen installateurs bevatten concrete opbrengstcijfers: 'Na 8 maanden al 650 kWh opgewekt, op koers voor de beloofde terugverdientijd van 5 jaar'. Vraag klanten hier specifiek om in je geautomatiseerde reviewverzoek. Reviews met cijfers overtuigen twijfelaars en laten zien dat je levert wat je belooft.",
+      },
+      {
+        heading: "Na de verkoop: onderhoud en uitbreiding",
+        body: "Zonnepanelen zijn het begin van een klantrelatie, niet het einde. Bied onderhoudspakketten aan, monitoring services en uitbreidingsmogelijkheden (thuisbatterij, extra panelen, omvormer upgrade). Stuur bestaande klanten jaarlijks een update over hun opbrengst en eventuele verbeteringsmogelijkheden. Dit levert vervolgomzet op en genereert mond-tot-mondreclame.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een zonnepanelen installateur die goed vindbaar is kan rekenen op 15-40 offerteaanvragen per maand. Bij een gemiddelde installatiewaarde van 6.000 euro en een conversie van 25% is dat 22.500 tot 60.000 euro extra omzet per maand. De zonnepanelenmarkt is een volumemarkt: wie het meeste vertrouwen opbouwt online, wint het meeste marktaandeel.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-stratenmakers",
+    title: "Online marketing voor stratenmakers: meer bestratingsprojecten via Google",
+    description: "Zo krijg je als stratenmaker structureel meer klanten via Google en reviews — van opritten tot terrassen en tuinpaden.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Bestrating", href: "/vakgebieden/bestrating" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Bestrating is visueel en lokaal — perfect voor online marketing",
+        body: "Stratenmakers werken lokaal en hun resultaten zijn direct zichtbaar: een mooie oprit, een strak terras, een tuinpad van gebakken klinkers. Dat maakt het vak uitermate geschikt voor online marketing. Projectfoto's verkopen het werk, reviews bouwen vertrouwen en Google brengt lokale klanten naar je toe. Toch doen de meeste stratenmakers niets online. Ze vertrouwen op mond-tot-mond en onderaanneming. Dat is een gemiste kans.",
+      },
+      {
+        heading: "Google Business voor stratenmakers",
+        body: "Vul je profiel in met alle diensten: oprit bestraten, terras aanleggen, tuinpad, parkeerplaats, stoep, herstraten, straatwerk bedrijfsterrein. Benoem de materialen waarmee je werkt: gebakken klinkers, betontegels, natuursteen, grind, sierbeton. Upload minstens 20 foto's van afgeronde projecten. Varieer: grote opritten, kleine tuinpaden, strakke patronen. Een stratenmaker met een uitgebreid fotoprofiel trekt direct de aandacht.",
+      },
+      {
+        heading: "Projectfoto's en voor-na transformaties",
+        body: "Bestratingsprojecten lenen zich perfect voor voor-en-na foto's. Een modderige tuin die verandert in een strak betegeld terras spreekt tot de verbeelding. Maak van elk project foto's in meerdere stadia. Upload deze naar Google Business, je website en eventueel Instagram of Facebook. Bestratingsfoto's doen het goed op social media: mensen delen mooie buitenruimtes. Dit levert organisch bereik op zonder advertentiekosten.",
+      },
+      {
+        heading: "Website met richtprijzen per m²",
+        body: "Bestratingsklanten zoeken op kosten: 'oprit laten bestraten kosten', 'terras aanleggen prijs per m2', 'klinkers leggen kosten'. Geef richtprijzen op je website per type bestrating en per m². Dit trekt de juiste klanten aan en filtert op serieuze aanvragen. Maak aparte pagina's per dienst: opritten, terrassen, tuinpaden, parkeerplaatsen. Benoem je werkgebied op elke pagina.",
+      },
+      {
+        heading: "Reviews en mond-tot-mond versterken",
+        body: "Tevreden klanten laten hun buren de nieuwe oprit zien. Dat levert mond-tot-mondreclame op die je kunt versterken met online reviews. Vraag na elke oplevering om een Google-review. Klanten die trots zijn op hun nieuwe terras of oprit schrijven graag een lovende review. Na een seizoen heb je een reviewprofiel dat elke concurrent in de regio verslaat.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een stratenmaker die lokaal goed vindbaar is kan rekenen op 4-12 extra offerteaanvragen per maand in het seizoen. Bij een gemiddelde projectwaarde van 4.000 euro en een conversie van 35% is dat 5.600 tot 16.800 euro extra omzet per maand. Bestratingsprojecten hebben een goede marge en tevreden klanten verwijzen je door naar buren en kennissen.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-vloerleggers",
+    title: "Online marketing voor vloerleggers: meer klanten voor je vloerenbedrijf",
+    description: "Zo krijg je als vloerlegger structureel meer klanten via Google, reviews en een website die offerteaanvragen oplevert.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Vloerlegger", href: "/vakgebieden/vloerlegger" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Vloerleggers: breed aanbod, lokale vraag",
+        body: "Vloerleggers zijn er in alle soorten: laminaat, PVC, parket, vinyl, gietvloeren, betonlook. Klanten zoeken heel specifiek op het type vloer dat ze willen: 'PVC vloer laten leggen kosten', 'visgraat parket leggen' of 'gietvloer prijs per m2'. Elke specialisatie is een aparte zoekopdracht en dus een aparte kans om gevonden te worden. De meeste vloerleggers zijn online onzichtbaar — dat is jouw kans om de markt in je regio te pakken.",
+      },
+      {
+        heading: "Google Business breed invullen",
+        body: "Vul je Google Business profiel in met al je vloertypen: laminaat leggen, PVC vloer leggen, parket schuren en lakken, vinyl vloer, gietvloer, betonlook vloer, visgraat vloer, kurkvloer, ondervloer plaatsen, vloer egaliseren. Hoe meer diensten, hoe meer zoekopdrachten je matcht. Upload foto's per vloertype: een mooi gelegd visgraat parket, een strakke gietvloer, een woonkamer met PVC. Klanten willen het eindresultaat zien.",
+      },
+      {
+        heading: "Website per vloertype",
+        body: "Maak voor elk vloertype een aparte pagina: laminaat, PVC, parket, gietvloer, vinyl. Elke pagina target een cluster zoekopdrachten. Voeg richtprijzen per m² toe, legmethode, voordelen en nadelen, onderhoudstips. Dit is content waar klanten actief naar zoeken en het bouwt je autoriteit op als vloerspecialist. Benoem je werkgebied op elke pagina en link naar onze laminaat berekenen calculator als hulpmiddel.",
+      },
+      {
+        heading: "Projectfoto's en materiaalinspiratie",
+        body: "Vloerklanten zoeken inspiratie: welke kleur, welk patroon, welk materiaal past bij hun interieur. Foto's van afgeronde projecten zijn je beste marketing. Maak van elk project foto's bij daglicht, vanuit verschillende hoeken. Toon variatie: grote woonkamers, kleine badkamers, kantoren, winkels. Upload naar Google Business, je website en eventueel Pinterest of Instagram. Vloerfoto's doen het uitstekend op visuele platforms.",
+      },
+      {
+        heading: "Reviews per vloertype",
+        body: "Moedig klanten aan om in hun review te vermelden welk type vloer je hebt gelegd. 'Prachtig visgraat parket gelegd in onze woonkamer, zeer tevreden met het resultaat' is veel krachtiger dan alleen 'goed werk'. Gevarieerde reviews laten nieuwe klanten zien dat je ervaring hebt met precies het type vloer dat zij willen. Automatiseer je reviewverzoeken per SMS na oplevering.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een vloerlegger die goed vindbaar is kan rekenen op 8-20 extra offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 2.500 euro en een conversie van 35% is dat 7.000 tot 17.500 euro extra omzet per maand. Gespecialiseerde vloeren (gietvloer, visgraat parket) leveren hogere marges op. De investering in online marketing verdien je met twee extra vloerprojecten al terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-metselaars",
+    title: "Online marketing voor metselaars: meer metselwerk-opdrachten via Google",
+    description: "Zo krijg je als metselaar meer klanten via Google en reviews — van gevelrenovatie tot nieuwbouw metselwerk.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Metselwerk", href: "/vakgebieden/metselwerk" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Metselwerk: oud ambacht, nieuwe klanten via Google",
+        body: "Metselwerk is een van de oudste bouwvakken en nog steeds onmisbaar. Klanten zoeken op 'metselaar in de buurt', 'muur metselen kosten' of 'gevel renoveren'. De meeste metselaars werken als onderaannemer voor grotere bouwbedrijven. Dat levert stabiel werk maar lagere marges. Particuliere klanten — gevelrenovatie, tuinmuur, aanbouw metselwerk — betalen beter. Online marketing is de manier om die klanten te bereiken.",
+      },
+      {
+        heading: "Google Business voor metselaars",
+        body: "Vul je profiel in met alle diensten: gevel metselen, tuinmuur, scheidingsmuur, schoorsteen metselen, gevelrenovatie, voegwerk, steenstrips, herstel metselwerk, nieuwbouw metselwerk. Upload foto's van strak metselwerk: een mooie gevel, een tuinmuur met sierverband, een herstelde schoorsteen. Metselwerk is vakmanschap dat je op foto's kunt laten zien. Varieer in type projecten en materialen.",
+      },
+      {
+        heading: "Particuliere markt: betere marges, eigen klanten",
+        body: "Particuliere klanten betalen vaak 20-30% meer dan wat je als onderaannemer ontvangt. Een gevelrenovatie voor een huiseigenaar is direct contact, geen tussenlagen. Online marketing is de brug naar deze markt. Particulieren zoeken op Google en kiezen op basis van reviews en foto's. Een metselaar met een professioneel online profiel onderscheidt zich direct van collega's die alleen via de aannemer werken.",
+      },
+      {
+        heading: "Website met specialisaties",
+        body: "Maak pagina's per type metselwerk: gevelrenovatie, tuinmuren, aanbouw, schoorsteen, steenstrips, herstelwerk. Benoem de materialen waarmee je werkt: baksteen, kalkzandsteen, betonstenen, natuursteen. Voeg richtprijzen toe per m² waar mogelijk. Benoem je werkgebied op elke pagina. Schrijf in klantentaal: 'gevel laten renoveren' in plaats van 'gevelmetselwerk restauratiewerkzaamheden'.",
+      },
+      {
+        heading: "Reviews van tevreden huiseigenaren",
+        body: "Particuliere klanten schrijven de beste reviews: gedetailleerd, persoonlijk en met foto's van het eindresultaat. Een metselaar met 25 reviews van huiseigenaren die beschrijven hoe mooi hun gevel is gerenoveerd heeft een onverslaanbaar online profiel. Automatiseer je reviewverzoeken per SMS na oplevering van elke particuliere klus.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een metselaar die zich richt op de particuliere markt via online marketing kan rekenen op 3-8 extra offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 4.500 euro en een conversie van 35% is dat 4.725 tot 12.600 euro extra omzet per maand. De hogere marges op particulier werk compenseren het lagere volume ruimschoots.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-voegbedrijven",
+    title: "Online marketing voor voegbedrijven: meer gevelprojecten via Google",
+    description: "Zo krijg je als voegbedrijf meer klanten via Google en reviews — van gevel opnieuw voegen tot voegwerk herstel.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Voegwerk", href: "/vakgebieden/voegwerk" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Voegwerk: een niche met weinig online concurrentie",
+        body: "Voegen is een specialistisch vak: niet elke metselaar kan goed voegen en klanten weten dat. Ze zoeken specifiek op 'voegbedrijf in de buurt', 'gevel opnieuw voegen kosten' of 'voegwerk herstellen'. De online concurrentie is minimaal: de meeste voegbedrijven hebben geen website en een kaal Google-profiel. Dat maakt het relatief makkelijk om met een basale online aanpak bovenaan te staan in je werkgebied.",
+      },
+      {
+        heading: "Google Business voor voegbedrijven",
+        body: "Vul je profiel in met alle diensten: gevel opnieuw voegen, voegwerk herstellen, knipvoeg, platvoeg, snijvoeg, spuitwerk voegen, navoegen, gevelreiniging en voegen. Vermeld welke voegtypen en materialen je aanbiedt. Upload voor-en-na foto's van gevelprojecten: een verweerde gevel die er weer als nieuw uitziet na het voegen. Dit visuele bewijs overtuigt klanten direct.",
+      },
+      {
+        heading: "Voor-en-na foto's: je sterkste marketing",
+        body: "Voegwerk is een van de vakgebieden waar voor-en-na foto's het meest indrukwekkend zijn. Een gevel kan er na 30 jaar verwaarloosd uitzien, maar na het opnieuw voegen lijkt het huis weer nieuw. Maak van elk project foto's vanuit dezelfde hoek: voor, tijdens en na. Upload naar Google Business en je website. Klanten die hun eigen verweerde gevel herkennen in je voor-foto's pakken direct de telefoon.",
+      },
+      {
+        heading: "Website met richtprijzen en voegtypen",
+        body: "Maak een overzichtelijke website met pagina's per dienst: gevel opnieuw voegen, voegwerk herstel, reiniging en voegen. Leg de verschillende voegtypen uit (platvoeg, knipvoeg, snijvoeg) met foto's. Geef richtprijzen per m²: klanten zoeken op 'voegen kosten per m2' en 'gevel opnieuw voegen prijs'. Transparantie over kosten trekt serieuze klanten aan en bespaart je offertetijd aan mensen die alleen maar even informeren.",
+      },
+      {
+        heading: "Reviews en seizoensgebondenheid",
+        body: "Voegwerk is seizoensgebonden: je kunt niet voegen bij vorst of regen. Het seizoen loopt van maart tot november. Zorg dat je online aanwezigheid op orde is voordat het seizoen begint. Verzamel reviews gedurende het seizoen zodat je elk jaar met een sterker profiel het nieuwe seizoen ingaat. Een voegbedrijf met 20+ reviews staat in de meeste regio's al op nummer één.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een voegbedrijf dat goed vindbaar is kan rekenen op 4-10 offerteaanvragen per maand in het seizoen. Bij een gemiddelde projectwaarde van 3.500 euro en een conversie van 40% is dat 5.600 tot 14.000 euro extra omzet per maand. De niche-positie van voegwerk betekent minder concurrentie en dus een hogere kans om bovenaan te staan op Google met minimale investering.",
+      },
+    ],
+  },
 ];
