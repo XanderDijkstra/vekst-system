@@ -90,6 +90,9 @@ const VERGELIJK_PAGES = [
   "/vergelijk/werkspot-alternatief",
   "/vergelijk/bouwnu-alternatief",
   "/vergelijk/offerteadviseur-alternatief",
+  "/vergelijk/homedeal-alternatief",
+  "/vergelijk/instapro-alternatief",
+  "/vergelijk/zoofy-alternatief",
   "/vergelijk/lokale-leads-genereren",
   "/vergelijk/seo-vs-google-ads",
 ];

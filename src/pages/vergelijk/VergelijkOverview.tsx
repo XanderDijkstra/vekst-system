@@ -32,6 +32,27 @@ const comparisons = [
     tag: "Offerteadviseur vs Eigen Systeem",
   },
   {
+    slug: "homedeal-alternatief",
+    title: "Homedeal alternatief",
+    description:
+      "Homedeal deelt elke lead met meerdere aannemers en de kosten stijgen jaarlijks. Vergelijk Homedeal met een eigen website.",
+    tag: "Homedeal vs Eigen Systeem",
+  },
+  {
+    slug: "instapro-alternatief",
+    title: "Instapro alternatief",
+    description:
+      "Instapro werkt met credits per lead en een standaard profiel. Lees waarom een eigen website meer oplevert zonder credits.",
+    tag: "Instapro vs Eigen Systeem",
+  },
+  {
+    slug: "zoofy-alternatief",
+    title: "Zoofy alternatief",
+    description:
+      "Zoofy bepaalt je tarief en neemt 15-30% commissie. Vergelijk het commissie-model met eigen leads via Google.",
+    tag: "Zoofy vs Eigen Systeem",
+  },
+  {
     slug: "lokale-leads-genereren",
     title: "Beste manieren om lokale leads te genereren",
     description:

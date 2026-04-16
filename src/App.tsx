@@ -50,6 +50,9 @@ import LokaleLeadsGenereren from "./pages/vergelijk/LokaleLeadsGenereren";
 import BouwnuAlternatief from "./pages/vergelijk/BouwnuAlternatief";
 import OfferteadviseurAlternatief from "./pages/vergelijk/OfferteadviseurAlternatief";
 import SeoVsGoogleAds from "./pages/vergelijk/SeoVsGoogleAds";
+import HomedealAlternatief from "./pages/vergelijk/HomedealAlternatief";
+import InstaproAlternatief from "./pages/vergelijk/InstaproAlternatief";
+import ZoofyAlternatief from "./pages/vergelijk/ZoofyAlternatief";
 import ToolsOverview from "./pages/tools/ToolsOverview";
 import LeadwaardeCalculator from "./pages/tools/LeadwaardeCalculator";
 import UurtariefCalculator from "./pages/tools/UurtariefCalculator";
@@ -127,6 +130,9 @@ const App = () => (
           <Route path="/vergelijk/offerteadviseur-alternatief" element={<OfferteadviseurAlternatief />} />
           <Route path="/vergelijk/lokale-leads-genereren" element={<LokaleLeadsGenereren />} />
           <Route path="/vergelijk/seo-vs-google-ads" element={<SeoVsGoogleAds />} />
+          <Route path="/vergelijk/homedeal-alternatief" element={<HomedealAlternatief />} />
+          <Route path="/vergelijk/instapro-alternatief" element={<InstaproAlternatief />} />
+          <Route path="/vergelijk/zoofy-alternatief" element={<ZoofyAlternatief />} />
           <Route path="/tools" element={<ToolsOverview />} />
           <Route path="/tools/leadwaarde-calculator" element={<LeadwaardeCalculator />} />
           <Route path="/tools/uurtarief-calculator-aannemer" element={<UurtariefCalculator />} />
