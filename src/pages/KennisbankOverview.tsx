@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 import { wikiTerms } from "@/data/wikiTerms";
-import { Clock, ArrowRight, BookOpen, Lightbulb, Calendar } from "lucide-react";
+import { Clock, ArrowRight, BookOpen, Lightbulb, Calendar, Calculator } from "lucide-react";
 import authorImg from "@/assets/xander-dijkstra.png";
 
 const SITE_URL = "https://aannemersysteem.com";
@@ -81,7 +81,7 @@ const KennisbankOverview = () => (
     {/* Category blobs: Marketing Wiki + Tips & Tricks */}
     <section className="py-12 md:py-16 bg-muted/40 border-b border-border">
       <div className="container">
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-3">
           <Link
             to="/wiki"
             className="group flex items-center justify-between rounded-2xl bg-card border border-border p-6 md:p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250 ease-system-ease"
@@ -112,6 +112,24 @@ const KennisbankOverview = () => (
                 <h2 className="font-semibold text-foreground text-lg">Tips & Tricks</h2>
                 <p className="mt-1 text-sm text-muted-foreground leading-relaxed max-w-lg">
                   Praktische tips over marketing, automatisering en meer klanten binnenhalen als aannemer.
+                </p>
+              </div>
+            </div>
+            <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-accent group-hover:translate-x-1 transition-all flex-shrink-0 ml-4" />
+          </Link>
+
+          <Link
+            to="/tools"
+            className="group flex items-center justify-between rounded-2xl bg-card border border-border p-6 md:p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250 ease-system-ease"
+          >
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 h-10 w-10 rounded-xl bg-accent/10 flex items-center justify-center">
+                <Calculator className="h-5 w-5 text-accent" />
+              </div>
+              <div>
+                <h2 className="font-semibold text-foreground text-lg">Rekentools</h2>
+                <p className="mt-1 text-sm text-muted-foreground leading-relaxed max-w-lg">
+                  Gratis calculators: bereken je leadwaarde, uurtarief en meer. Direct antwoord, geen registratie.
                 </p>
               </div>
             </div>
