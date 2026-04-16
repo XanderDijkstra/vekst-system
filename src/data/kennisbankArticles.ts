@@ -2653,4 +2653,238 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-aanbouw-uitbouw",
+    title: "Online marketing voor aanbouw- en uitbouwbedrijven: meer projecten via Google",
+    description: "Zo krijg je als aanbouw/uitbouw specialist meer klanten via Google — van serre tot uitbouw keuken en aanbouw woning.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Aanbouw & Uitbouw", href: "/vakgebieden/aanbouw-uitbouw" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Aanbouw en uitbouw: grote projecten beginnen online",
+        body: "Een aanbouw of uitbouw is een van de grootste verbouwprojecten die huiseigenaren ondernemen: projecten van 20.000 tot 80.000 euro. Klanten doen weken onderzoek en zoeken op 'aanbouw kosten per m2', 'uitbouw keuken', 'aanbouw laten bouwen [stad]'. Ze vergelijken meerdere aannemers op portfolio, reviews en uitstraling. Wie online het sterkst presenteert, wint de opdracht.",
+      },
+      {
+        heading: "Google Business en lokale zichtbaarheid",
+        body: "Vermeld je specialisaties: uitbouw keuken, aanbouw woonkamer, serre, opbouw verdieping, garage ombouwen. Upload foto's van het volledige bouwproces: fundament, ruwbouw, afwerking en eindresultaat. Vermeld vergunningskennis en constructieve ervaring. Klanten met een aanbouwproject zoeken zekerheid — ze willen een aannemer die het totaalplaatje beheerst.",
+      },
+      {
+        heading: "Case studies die overtuigen",
+        body: "Bij grote projecten willen klanten bewijs. Maak van je beste projecten uitgebreide case studies: uitgangssituatie, wensen van de klant, bouwproces in fasen, eindresultaat met foto's en klanttevredenheid. Vermeld de doorlooptijd en een prijsindicatie. Case studies zijn het krachtigste verkoopinstrument voor aanbouwprojecten — ze bewijzen dat je levert wat je belooft.",
+      },
+      {
+        heading: "Vergunningen en regelgeving als content",
+        body: "Klanten zoeken massaal op 'uitbouw vergunning nodig', 'bestemmingsplan uitbouw' en 'vergunningsvrij bouwen'. Schrijf informatieve pagina's over deze onderwerpen. Je positioneert je als expert en trekt bezoekers aan die in de planningsfase zitten. Eindig met een gratis haalbaarheidscheck als call-to-action — dit is de perfecte eerste stap naar een offerte.",
+      },
+      {
+        heading: "Reviews bij grote verbouwingen",
+        body: "Bij projecten van tienduizenden euro's is vertrouwen alles. Reviews op Google zijn het snelste bewijs. Vraag klanten specifiek om hun ervaring met de samenwerking, de planning, de communicatie en het eindresultaat te delen. Eén uitgebreide review van een tevreden klant die beschrijft hoe soepel het proces verliep, is meer waard dan tien korte vijfsterren-reviews.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een aanbouw/uitbouwbedrijf met sterke online aanwezigheid kan rekenen op 5-12 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 35.000 euro en een conversie van 20% is dat 35.000 tot 84.000 euro extra omzet per maand. De hoge projectwaarde maakt elke lead extreem waardevol — één extra opdracht per maand kan je bedrijf transformeren.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-funderingsherstel",
+    title: "Online marketing voor funderingsherstel bedrijven: meer opdrachten via Google",
+    description: "Zo krijg je als funderingsspecialist meer klanten via Google — van funderingsinspectie tot paalfundering en funderingsherstel.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Funderingsherstel", href: "/vakgebieden/funderingsherstel" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Funderingsherstel: urgentie en hoge projectwaarden",
+        body: "Funderingsproblemen zijn ernstig: scheuren in muren, verzakkende vloeren, klemmende deuren. Huiseigenaren die dit ontdekken zoeken direct op 'funderingsherstel kosten', 'fundering laten controleren' en 'funderingsspecialist [stad]'. Projecten variëren van 15.000 tot 80.000 euro. De urgentie en de omvang maken dit een niche waar online vindbaarheid direct omzet oplevert.",
+      },
+      {
+        heading: "Expertise tonen via Google Business",
+        body: "Funderingswerk is specialistisch: klanten zoeken een expert, geen generieke aannemer. Vermeld op je Google Business profiel: funderingsinspectie, funderingsherstel, paalfundering, vijzelen, ondervangen, groutinjectie. Upload foto's van het werkproces en het meetapparatuur. Certificeringen (KOMO, VCA) en lidmaatschappen (KCAF) geven extra vertrouwen.",
+      },
+      {
+        heading: "Informatieve content over funderingsproblemen",
+        body: "Huiseigenaren zoeken massaal op 'scheur in muur fundering', 'huis verzakt wat nu' en 'funderingsinspectie kosten'. Schrijf uitgebreide pagina's over symptomen, oorzaken en oplossingen. Leg uit wanneer funderingsherstel nodig is en wanneer niet. Deze content trekt de juiste doelgroep aan: bezorgde huiseigenaren met een reëel probleem en budget om het op te lossen.",
+      },
+      {
+        heading: "Regio-specifieke aanpak",
+        body: "Funderingsproblemen zijn regionaal: Amsterdam, Rotterdam, Dordrecht en Zaanstad hebben de meeste funderingsproblemen door houten paalfunderingen en slechte bodemgesteldheid. Maak specifieke pagina's per probleemregio. Vermeld je ervaring met lokale bodemcondities en gemeentelijke subsidies. Dit hyperlocale content scoort hoog op Google en spreekt de doelgroep direct aan.",
+      },
+      {
+        heading: "Vertrouwen via certificering en reviews",
+        body: "Bij een investering van tienduizenden euro's zoeken klanten maximale zekerheid. Toon je certificeringen prominent op je website en Google-profiel. Vraag klanten om reviews die specifiek ingaan op de communicatie, de planning en het resultaat. Een funderingsbedrijf met 15+ positieve reviews domineert al snel de lokale zoekresultaten — de concurrentie is beperkt.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een funderingsspecialist met goede online zichtbaarheid kan rekenen op 4-10 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 40.000 euro en een conversie van 25% is dat 40.000 tot 100.000 euro extra omzet per maand. De niche-positionering en hoge projectwaarden maken funderingsherstel een van de meest rendabele vakgebieden voor online marketing.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-dakgoten",
+    title: "Online marketing voor dakgootbedrijven: meer klanten via Google",
+    description: "Zo krijg je als dakgootspecialist meer klanten via Google — van dakgoot vervangen tot zinken goot en hemelwaterafvoer.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Dakgoten", href: "/vakgebieden/dakgoten" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Dakgoten: seizoensgebonden urgentie",
+        body: "Lekkende of kapotte dakgoten veroorzaken wateroverlast en vochtproblemen. Klanten zoeken vaak in het najaar of bij hevige regenval op 'dakgoot lekkt', 'dakgoot vervangen kosten' en 'dakgootspecialist [stad]'. De urgentie is hoog: water loopt langs de gevel en veroorzaakt schade. Wie bovenaan staat in Google vangt deze spoedaanvragen op.",
+      },
+      {
+        heading: "Google Business voor dakgootbedrijven",
+        body: "Vermeld al je diensten: dakgoot vervangen, dakgoot repareren, zinken dakgoot, aluminium dakgoot, koperen dakgoot, hemelwaterafvoer, bladrooster plaatsen. Upload foto's van keurig afgewerkte dakgoten in zink en aluminium. Vermeld of je ook boeiboorden en windveren doet — veel klanten combineren dakgootwerk met deze aanvullende klussen.",
+      },
+      {
+        heading: "Materiaalvergelijking als content",
+        body: "Klanten twijfelen tussen zink, aluminium, koper en kunststof. Schrijf een vergelijkingspagina met levensduur, kosten per strekkende meter, onderhoud en esthetiek per materiaal. Geef een duidelijk advies per situatie. Deze pagina trekt oriënterende bezoekers aan en positioneert je als expert. Eindig met een gratis inspectie als call-to-action.",
+      },
+      {
+        heading: "Seizoensstrategie",
+        body: "Dakgootwerk piekt in het najaar als de problemen zichtbaar worden. Zorg dat je online aanwezigheid op orde is voor september. Publiceer in augustus content over dakgootonderhoud en -inspectie. Zo bouw je zichtbaarheid op precies wanneer de vraag stijgt. In het laagseizoen kun je focussen op renovatieprojecten: complete dakgootvernieuwing bij verbouwingen.",
+      },
+      {
+        heading: "Reviews en herhalingswerk",
+        body: "Dakgootwerk leidt vaak tot vervolgwerk: als de goten vervangen zijn, wil de klant ook boeiboorden of een bladrooster. Tevreden klanten komen terug en verwijzen je door. Reviews versnellen dit effect: buren zien dezelfde gootproblemen en kiezen het bedrijf dat hun buurman al geholpen heeft. Vraag na elk project om een review — het is je goedkoopste marketingkanaal.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een dakgootspecialist met sterke lokale SEO kan rekenen op 12-30 aanvragen per maand. Bij een gemiddelde projectwaarde van 1.200 euro en een conversie van 40% is dat 5.760 tot 14.400 euro extra omzet per maand. De combinatie van urgentie, herhalingswerk en lage online concurrentie maakt dakgoten een dankbare niche voor online marketing.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-gevelreiniging",
+    title: "Online marketing voor gevelreinigingsbedrijven: meer opdrachten via Google",
+    description: "Zo krijg je als gevelreiniger meer klanten via Google — van gevel reinigen tot algenbestrijding en graffiti verwijderen.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Gevelreiniging", href: "/vakgebieden/gevelreiniging" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Gevelreiniging: visueel resultaat als marketing",
+        body: "Gevelreiniging is een van de meest visuele vakgebieden: een groene, vervuilde gevel wordt weer als nieuw. Klanten zoeken op 'gevel reinigen kosten', 'algen verwijderen gevel' en 'gevelreiniger [stad]'. De voor-en-na foto's spreken zo sterk dat ze zichzelf verkopen. Toch hebben de meeste gevelreinigers geen website of actueel Google-profiel — een enorme gemiste kans.",
+      },
+      {
+        heading: "Google Business voor gevelreinigers",
+        body: "Vermeld al je diensten: gevelreiniging, algen- en mosbestrijding, graffiti verwijderen, impregneren, hogedrukreiniging, stoomreiniging, zandstralen. Upload dramatische voor-en-na foto's — dit is je sterkste wapen. Vermeld welke gevelmaterialen je behandelt: baksteen, beton, natuursteen, pleisterwerk. Hoe specifieker, hoe beter je vindbaar bent.",
+      },
+      {
+        heading: "Voor-en-na foto's als contentmotor",
+        body: "Geen enkel vakgebied profiteert meer van visuele content dan gevelreiniging. Maak van elk project een voor-en-na vergelijking vanuit exact dezelfde hoek. Deel ze op je website, Google Business en social media. Buren die dezelfde groene gevels zien, herkennen hun eigen probleem en nemen contact op. Eén goed project in een straat kan drie vervolgprojecten opleveren.",
+      },
+      {
+        heading: "Lokale dominantie opbouwen",
+        body: "Gevelreiniging is hyperlocaal: klanten zoeken in hun eigen stad of wijk. Maak pagina's per gemeente of regio waarin je werkt. Combineer lokale zoektermen met specifieke diensten: 'gevelreiniging Rotterdam', 'algen verwijderen gevel Utrecht'. De concurrentie per stad is minimaal — met een basale online aanpak sta je al snel bovenaan.",
+      },
+      {
+        heading: "Reviews en buurteffect",
+        body: "Gevelreiniging heeft een uniek buurteffect: als één huis in een straat gereinigd is, valt het verschil met de buren op. Die buren zoeken vervolgens dezelfde dienst. Reviews met foto's versterken dit effect. Vraag elke klant om een Google review met een foto van het resultaat. Een gevelreiniger met 20+ reviews en sterke voor-en-na beelden is onverslaanbaar in de lokale zoekresultaten.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een gevelreinigingsbedrijf met goede online zichtbaarheid kan rekenen op 15-35 aanvragen per maand. Bij een gemiddelde projectwaarde van 800 euro en een conversie van 45% is dat 5.400 tot 12.600 euro extra omzet per maand. Het buurteffect zorgt voor een vliegwielwerking: elk project leidt tot zichtbaarheid bij buren en vervolgwerk.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-asbestsanering",
+    title: "Online marketing voor asbestsaneringsbedrijven: meer opdrachten via Google",
+    description: "Zo krijg je als asbestsaneerder meer klanten via Google — van asbestinventarisatie tot sanering en sloopmelding.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Asbestsanering", href: "/vakgebieden/asbestsanering" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Asbestsanering: verplicht en urgent",
+        body: "Asbest verwijderen is wettelijk verplicht bij renovatie of sloop van panden gebouwd voor 1994. Huiseigenaren en bedrijven zoeken op 'asbest verwijderen kosten', 'asbestinventarisatie' en 'asbestsaneerder [stad]'. De urgentie is hoog: zonder sanering kan een verbouwing niet doorgaan. Wie goed vindbaar is vangt deze verplichte opdrachten op.",
+      },
+      {
+        heading: "Certificering als online vertrouwensbewijs",
+        body: "Asbestsanering vereist SC-530 certificering. Toon deze certificering prominent op je website en Google Business profiel. Vermeld ook je procescertificaat, SCA-lidmaatschap en VCA-certificering. In een sector waar veiligheid en wetgeving centraal staan, zijn certificeringen je sterkste online verkoopargument. Klanten die een niet-gecertificeerd bedrijf kiezen, riskeren boetes tot 50.000 euro.",
+      },
+      {
+        heading: "Content over wetgeving en veiligheid",
+        body: "Klanten zoeken massaal op 'asbestdak verwijderen kosten', 'wanneer is asbest gevaarlijk', 'sloopmelding asbest'. Schrijf informatieve pagina's over deze onderwerpen. Leg de wetgeving uit, beschrijf het saneringsproces stap voor stap en geef richtprijzen. Transparantie over kosten en procedure neemt angst weg en verlaagt de drempel om contact op te nemen.",
+      },
+      {
+        heading: "Google Business en specialisaties",
+        body: "Vermeld al je diensten: asbestinventarisatie, asbestsanering, asbestdak verwijderen, bodem sanering, sloopmelding begeleiding, luchtmetingen, vrijgavemeting. Vermeld ook welke type panden je bedient: woningen, bedrijfspanden, scholen, overheid. Upload foto's van professioneel uitgevoerde saneringen met beschermende kleding en afzetting — dit toont professionaliteit en veiligheid.",
+      },
+      {
+        heading: "Reviews in een verplichte markt",
+        body: "Klanten moeten asbest laten verwijderen — ze hebben geen keuze. Maar ze kiezen wél welk bedrijf. Reviews op Google zijn het verschil. Vraag na elke sanering om een review die ingaat op communicatie, planning en oplevering. Een asbestsaneerder met 25+ positieve reviews wordt als betrouwbaar en professioneel gezien — precies wat klanten zoeken bij een verplichte, kostbare klus.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een asbestsaneringsbedrijf met goede online vindbaarheid kan rekenen op 8-20 aanvragen per maand. Bij een gemiddelde projectwaarde van 4.500 euro en een conversie van 35% is dat 12.600 tot 31.500 euro extra omzet per maand. De wettelijke verplichting tot sanering zorgt voor een stabiele, voorspelbare markt die niet conjunctuurgevoelig is.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-rietdekkers",
+    title: "Online marketing voor rietdekkers: meer opdrachten via Google",
+    description: "Zo krijg je als rietdekker meer klanten via Google — van rieten dak vernieuwen tot riet repareren en onderhoud.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Rietdekkers", href: "/vakgebieden/rietdekkers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Rietdekken: ambachtelijk vakmanschap in een nichemarkt",
+        body: "Rietdekken is een uniek ambacht met een beperkt aantal vakmannen in Nederland. Klanten met een rieten dak — of die er een willen — zoeken op 'rietdekker in de buurt', 'rieten dak kosten' en 'riet vernieuwen'. De concurrentie online is minimaal, maar de projectwaarden zijn hoog: 15.000 tot 40.000 euro voor een compleet rieten dak. Een basale online aanwezigheid is vaak al genoeg om de eerste keuze te worden.",
+      },
+      {
+        heading: "Google Business voor rietdekkers",
+        body: "Vermeld je diensten: rieten dak vernieuwen, riet repareren, nok vervangen, mosbehandeling, brandvertraging aanbrengen. Upload foto's van prachtige rieten daken in verschillende stijlen en fasen van het werkproces. Het ambachtelijke karakter van rietdekken spreekt sterk aan — toon je vakmanschap met beelden van het handwerk.",
+      },
+      {
+        heading: "Content over onderhoud en levensduur",
+        body: "Huiseigenaren met een rieten dak zoeken op 'rieten dak onderhoud', 'levensduur rieten dak' en 'mos op rieten dak'. Schrijf informatieve pagina's over deze onderwerpen. Geef advies over onderhoudsbeurten en herkennen van slijtage. Deze content trekt bestaande rieten-dak-eigenaren aan die onderhoud of vervanging overwegen — de meest waardevolle doelgroep.",
+      },
+      {
+        heading: "Regionaal werkgebied benadrukken",
+        body: "Rietdekkers werken vaak in specifieke regio's waar veel rieten daken staan: Noord-Holland, Friesland, Brabant, Veluwe. Maak pagina's per regio en vermeld hoeveel projecten je daar hebt uitgevoerd. Klanten zoeken lokaal en willen een rietdekker die hun omgeving kent. Vermeld ook of je met lokale gemeenten werkt aan monumentale panden — dit toont ervaring en betrouwbaarheid.",
+      },
+      {
+        heading: "Ambacht en reviews",
+        body: "Rietdekken is een ambacht waar klanten grote waardering voor hebben. Eigenaren van rieten daken zijn vaak trots op hun woning en delen graag positieve ervaringen. Vraag na elk project om een Google review. Een rietdekker met 15+ reviews staat in de meeste regio's op nummer één — simpelweg omdat de concurrentie bijna geen online aanwezigheid heeft.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een rietdekker met sterke online vindbaarheid kan rekenen op 3-8 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 25.000 euro en een conversie van 30% is dat 22.500 tot 60.000 euro extra omzet per maand. De combinatie van hoge projectwaarden, weinig online concurrentie en ambachtelijke trots maakt rietdekken een van de meest rendabele niches voor online marketing.",
+      },
+    ],
+  },
 ];
