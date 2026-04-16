@@ -55,7 +55,7 @@ const materialTools: MaterialTool[] = [
       "Bereken hoeveel rollen behang je nodig hebt op basis van kamermaten, raambreedte en patroonrapport.",
     href: "/tools/behang-berekenen",
     icon: Ruler,
-    status: "soon",
+    status: "live",
   },
 ];
 
