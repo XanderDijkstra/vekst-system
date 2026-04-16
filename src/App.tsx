@@ -56,6 +56,7 @@ import UurtariefCalculator from "./pages/tools/UurtariefCalculator";
 import ProjectmargeCalculator from "./pages/tools/ProjectmargeCalculator";
 import PersoneelskostenCalculator from "./pages/tools/PersoneelskostenCalculator";
 import TegelsBerekenen from "./pages/tools/TegelsBerekenen";
+import VerfBerekenen from "./pages/tools/VerfBerekenen";
 import ScrollToTop from "./components/ScrollToTop";
 
 /** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
@@ -126,6 +127,7 @@ const App = () => (
           <Route path="/tools/projectmarge-calculator" element={<ProjectmargeCalculator />} />
           <Route path="/tools/personeelskosten-calculator" element={<PersoneelskostenCalculator />} />
           <Route path="/tools/tegels-berekenen" element={<TegelsBerekenen />} />
+          <Route path="/tools/verf-berekenen" element={<VerfBerekenen />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />

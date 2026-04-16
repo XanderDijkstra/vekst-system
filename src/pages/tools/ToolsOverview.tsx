@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock, Euro, Users, Grid3X3 } from "lucide-react";
+import { Calculator, TrendingUp, Clock, Euro, Users, Grid3X3, Paintbrush } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -55,6 +55,14 @@ const tools: Tool[] = [
       "Hoeveel tegels, dozen, tegellijm en voegmortel heb je nodig? Kies je formaat, vul de m² in en bestel precies genoeg.",
     href: "/tools/tegels-berekenen",
     icon: Grid3X3,
+    status: "live",
+  },
+  {
+    title: "Verf berekenen",
+    description:
+      "Hoeveel liter verf en blikken heb je nodig? Kies verftype, vul de m² in en weet precies wat je moet bestellen.",
+    href: "/tools/verf-berekenen",
+    icon: Paintbrush,
     status: "live",
   },
 ];

@@ -102,6 +102,7 @@ const TOOLS_PAGES = [
   "/tools/projectmarge-calculator",
   "/tools/personeelskosten-calculator",
   "/tools/tegels-berekenen",
+  "/tools/verf-berekenen",
 ];
 
 // ---------- Build ----------
