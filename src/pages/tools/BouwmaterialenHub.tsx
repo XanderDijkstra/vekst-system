@@ -1,82 +1,88 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock, Euro, Users, Hammer } from "lucide-react";
+import { Grid3X3, Paintbrush, HardHat, Layers, Ruler } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const SITE_URL = "https://aannemersysteem.com";
 
-interface Tool {
+interface MaterialTool {
   title: string;
   description: string;
   href: string;
-  icon: typeof Calculator;
+  icon: typeof Grid3X3;
   status: "live" | "soon";
 }
 
-const tools: Tool[] = [
+const materialTools: MaterialTool[] = [
   {
-    title: "Leadwaarde calculator",
+    title: "Tegels berekenen",
     description:
-      "Bereken wat een lead jouw aannemersbedrijf oplevert. Vul aanvragen per maand, scorings­percentage en projectwaarde in — krijg direct je omzet per maand.",
-    href: "/tools/leadwaarde-calculator",
-    icon: TrendingUp,
+      "Hoeveel tegels, dozen, tegellijm en voegmortel heb je nodig? Kies je formaat, vul de m² in en bestel precies genoeg.",
+    href: "/tools/tegels-berekenen",
+    icon: Grid3X3,
     status: "live",
   },
   {
-    title: "Uurtarief calculator aannemer",
+    title: "Verf berekenen",
     description:
-      "Bereken wat je minimaal per uur moet rekenen als aannemer. Op basis van je inkomensdoel, werkbare uren, overhead en belasting — geen giswerk meer.",
-    href: "/tools/uurtarief-calculator-aannemer",
-    icon: Clock,
+      "Hoeveel liter verf en blikken heb je nodig? Kies verftype, vul de m² in en weet precies wat je moet bestellen.",
+    href: "/tools/verf-berekenen",
+    icon: Paintbrush,
     status: "live",
   },
   {
-    title: "Projectmarge calculator",
+    title: "Beton berekenen",
     description:
-      "Vul je offertebedrag en kostenposten in — zie direct je bruto- en nettomarge, en hoeveel de kosten mogen stijgen voordat je break-even draait.",
-    href: "/tools/projectmarge-calculator",
-    icon: Euro,
-    status: "live",
+      "Bereken hoeveel m³ beton, zakken cement, zand en grind je nodig hebt voor je project.",
+    href: "/tools/beton-berekenen",
+    icon: HardHat,
+    status: "soon",
   },
   {
-    title: "Personeelskosten calculator",
+    title: "Laminaat berekenen",
     description:
-      "Bereken wat een werknemer écht kost: bruto salaris → totale werkgeverskosten inclusief premies, vakantiegeld, verzuim en werkkleding.",
-    href: "/tools/personeelskosten-calculator",
-    icon: Users,
-    status: "live",
+      "Hoeveel pakken laminaat en ondervloer heb je nodig? Vul de m² in en reken snijverlies mee.",
+    href: "/tools/laminaat-berekenen",
+    icon: Layers,
+    status: "soon",
   },
   {
-    title: "Bouwmaterialen berekenen",
+    title: "Behang berekenen",
     description:
-      "Bereken hoeveel tegels, verf, beton, laminaat en andere bouwmaterialen je nodig hebt — inclusief snijverlies en hulpmaterialen.",
-    href: "/tools/bouwmaterialen-berekenen",
-    icon: Hammer,
-    status: "live",
+      "Bereken hoeveel rollen behang je nodig hebt op basis van kamermaten, raambreedte en patroonrapport.",
+    href: "/tools/behang-berekenen",
+    icon: Ruler,
+    status: "soon",
   },
 ];
 
-const toolsSchema = {
+const hubSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Gratis rekentools voor aannemers | Aannemer Systeem",
-  url: `${SITE_URL}/tools`,
+  name: "Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem",
+  url: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
   description:
-    "Gratis rekentools voor aannemers: leadwaarde, marketing ROI, uurtarief en meer. Direct in je browser, geen registratie.",
+    "Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers — direct resultaat, geen registratie.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Bouwmaterialen berekenen",
+        item: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
+      },
     ],
   },
   mainEntity: {
     "@type": "ItemList",
-    numberOfItems: tools.filter((t) => t.status === "live").length,
-    itemListElement: tools
+    numberOfItems: materialTools.filter((t) => t.status === "live").length,
+    itemListElement: materialTools
       .filter((t) => t.status === "live")
       .map((t, i) => ({
         "@type": "ListItem",
@@ -87,46 +93,52 @@ const toolsSchema = {
   },
 };
 
-const ToolsOverview = () => (
+const BouwmaterialenHub = () => (
   <PageShell>
     <Helmet>
-      <title>Rekentools voor aannemers | Aannemer Systeem</title>
+      <title>Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Gratis rekentools voor aannemers: bereken leadwaarde, marketing ROI, uurtarief en meer. Direct in je browser — geen registratie, geen e-mailadres."
+        content="Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers — direct resultaat, geen registratie."
       />
-      <link rel="canonical" href={`${SITE_URL}/tools`} />
-      <meta property="og:title" content="Rekentools voor aannemers | Aannemer Systeem" />
+      <link rel="canonical" href={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
+      <meta
+        property="og:title"
+        content="Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem"
+      />
       <meta
         property="og:description"
-        content="Gratis rekentools voor aannemers: leadwaarde, marketing ROI, uurtarief en meer."
+        content="Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer."
       />
-      <meta property="og:url" content={`${SITE_URL}/tools`} />
+      <meta property="og:url" content={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nl_NL" />
-      <script type="application/ld+json">{JSON.stringify(toolsSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(hubSchema)}</script>
     </Helmet>
 
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
-        <motion.p
-          {...fadeInUp}
-          className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
-        >
-          Rekentools
-        </motion.p>
+        <motion.div {...fadeInUp}>
+          <Link
+            to="/tools"
+            className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
+          >
+            ← Alle rekentools
+          </Link>
+        </motion.div>
         <motion.h1
           {...fadeInUp}
-          className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground"
+          className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground"
         >
-          Gratis rekentools voor aannemers
+          Bouwmaterialen berekenen
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Snelle, eerlijke cijfers voor je eigen bedrijf. Geen registratie, geen e-mailadres —
-          vul je getallen in en zie direct waar je staat.
+          Nooit meer te veel of te weinig bestellen. Kies het materiaal, vul je
+          afmetingen in en zie direct hoeveel je nodig hebt — inclusief
+          snijverlies en hulpmaterialen.
         </motion.p>
       </div>
     </section>
@@ -134,7 +146,7 @@ const ToolsOverview = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {tools.map((tool, i) => {
+          {materialTools.map((tool, i) => {
             const card = (
               <div className="group block bg-card rounded-2xl p-6 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-1 transition-all duration-250 ease-system-ease h-full">
                 <tool.icon
@@ -167,12 +179,11 @@ const ToolsOverview = () => (
 
         <motion.div {...fadeInUp} className="mt-16 max-w-2xl">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-            Meer tools op komst
+            Meer materiaalcalculators op komst
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We bouwen deze toolkit in de open. Volgende releases: max-CPC calculator (wat mag
-            een lead kosten), marketing ROI calculator en uurtarief calculator voor
-            aannemers. Suggesties?{" "}
+            We bouwen deze toolkit uit met calculators voor elk materiaal: beton,
+            laminaat, behang, isolatie, gipsplaten, stucwerk en meer. Suggesties?{" "}
             <Link to="/contact" className="underline hover:text-accent transition-colors">
               Laat het weten
             </Link>
@@ -186,4 +197,4 @@ const ToolsOverview = () => (
   </PageShell>
 );
 
-export default ToolsOverview;
+export default BouwmaterialenHub;

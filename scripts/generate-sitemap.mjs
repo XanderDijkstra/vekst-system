@@ -101,6 +101,7 @@ const TOOLS_PAGES = [
   "/tools/uurtarief-calculator-aannemer",
   "/tools/projectmarge-calculator",
   "/tools/personeelskosten-calculator",
+  "/tools/bouwmaterialen-berekenen",
   "/tools/tegels-berekenen",
   "/tools/verf-berekenen",
 ];
