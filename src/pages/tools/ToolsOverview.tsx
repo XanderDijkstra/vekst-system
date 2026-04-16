@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock, Euro } from "lucide-react";
+import { Calculator, TrendingUp, Clock, Euro, Users } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -39,6 +39,14 @@ const tools: Tool[] = [
       "Vul je offertebedrag en kostenposten in — zie direct je bruto- en nettomarge, en hoeveel de kosten mogen stijgen voordat je break-even draait.",
     href: "/tools/projectmarge-calculator",
     icon: Euro,
+    status: "live",
+  },
+  {
+    title: "Personeelskosten calculator",
+    description:
+      "Bereken wat een werknemer écht kost: bruto salaris → totale werkgeverskosten inclusief premies, vakantiegeld, verzuim en werkkleding.",
+    href: "/tools/personeelskosten-calculator",
+    icon: Users,
     status: "live",
   },
 ];
