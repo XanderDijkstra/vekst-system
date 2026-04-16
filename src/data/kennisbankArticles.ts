@@ -3121,4 +3121,238 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-kelderbouw",
+    title: "Online marketing voor kelderbouwers: meer projecten via Google",
+    description: "Zo krijg je als kelderbouwer meer klanten via Google — van souterrain tot waterdichte kelder en kelderbak.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Kelderbouw", href: "/vakgebieden/kelderbouw" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Kelderbouw: premium projecten met lange orientatiefase",
+        body: "Een kelder laten bouwen kost 30.000 tot 100.000 euro. Klanten doen maandenlang onderzoek: ze zoeken op 'kelder laten bouwen kosten', 'souterrain bouwen' en 'kelderbouwer [stad]'. Dit zijn de meest waardevolle leads in de bouw. Wie bovenaan Google staat met betrouwbare informatie, wint het vertrouwen van deze welgestelde doelgroep.",
+      },
+      {
+        heading: "Google Business met projectreferenties",
+        body: "Vermeld je specialisaties: kelderbouw onder bestaande woning, nieuwbouw kelder, souterrain, kelderbak, waterdichting. Upload foto's van het volledige bouwproces: ontgraving, bekisting, waterdichting, afwerking. Vermeld je ervaring in jaren en aantal gerealiseerde kelders. Bij deze projectomvang zoeken klanten zekerheid en ervaring.",
+      },
+      {
+        heading: "Case studies als verkoopinstrument",
+        body: "Bij investeringen van tienduizenden euro's willen klanten bewijs. Maak uitgebreide case studies: situatie voor de kelder, het bouwproces, technische uitdagingen en het eindresultaat. Vermeld de doorlooptijd, het type kelder en een prijsindicatie. Eén overtuigende case study kan meerdere leads per maand genereren — het is je sterkste marketing-asset.",
+      },
+      {
+        heading: "Technische content die vertrouwen bouwt",
+        body: "Schrijf over onderwerpen waar potentiële keldereigenaren op zoeken: 'kelder bouwen vergunning', 'waterdichte kelder', 'grondwaterstand kelder', 'kelder onder bestaande woning mogelijk'. Deze technische content toont je expertise en trekt de juiste doelgroep aan: huiseigenaren met een reëel bouwplan en budget om het uit te voeren.",
+      },
+      {
+        heading: "Reviews bij grote projecten",
+        body: "Bij een investering van 50.000+ euro is elke review goud waard. Vraag klanten om uitgebreid te beschrijven hoe de samenwerking verliep: planning, communicatie, omgang met onverwachte situaties en tevredenheid met het eindresultaat. Een kelderbouwer met 10+ uitgebreide positieve reviews domineert de markt — er zijn simpelweg weinig concurrenten met een sterk online profiel.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een kelderbouwer met sterke online aanwezigheid kan rekenen op 3-8 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 60.000 euro en een conversie van 20% is dat 36.000 tot 96.000 euro extra omzet per maand. De extreem hoge projectwaarden maken elke online investering rendabel — één extra project per kwartaal betaalt je hele marketingbudget.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-serrebouwers",
+    title: "Online marketing voor serrebouwers: meer projecten via Google",
+    description: "Zo krijg je als serrebouwer meer klanten via Google — van glazen serre tot aluminium tuinkamer en veranda.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Serrebouwers", href: "/vakgebieden/serrebouwers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Serres en tuinkamers: groeiende vraag naar buitenbeleving",
+        body: "De trend naar thuiswerken en buitenleven stimuleert de vraag naar serres, tuinkamers en veranda's. Klanten zoeken op 'serre laten bouwen kosten', 'tuinkamer op maat' en 'serrebouwer [stad]'. Projectwaarden van 10.000 tot 40.000 euro maken dit een lucratieve niche. Online vindbaarheid is cruciaal: klanten vergelijken uitgebreid op portfolio en reviews.",
+      },
+      {
+        heading: "Google Business met sfeerbeelden",
+        body: "Vermeld je specialisaties: glazen serres, aluminium tuinkamers, houten veranda's, lamellendaken, overkappingen. Upload sfeerbeelden: een serre in de avondzon, een tuinkamer met planten, een veranda als verlengstuk van de woonkamer. Serres verkoop je op gevoel — laat klanten dromen over hun eigen uitbreiding.",
+      },
+      {
+        heading: "Inspiratiecontent en materiaalvergelijking",
+        body: "Klanten in de oriëntatiefase zoeken op 'serre of uitbouw', 'aluminium vs houten serre' en 'tuinkamer inspiratie'. Schrijf vergelijkingspagina's en inspiratie-artikelen met foto's. Leg de voor- en nadelen uit per materiaal en type. Deze content trekt bezoekers aan die nog geen leverancier hebben gekozen — je positioneert je als de expert die ze door het keuzeproces begeleidt.",
+      },
+      {
+        heading: "Vergunning en regelgeving",
+        body: "Serres en tuinkamers vallen vaak onder vergunningsvrij bouwen, maar niet altijd. Schrijf een duidelijke pagina over wanneer een vergunning nodig is en wanneer niet. Dit is een veelgezochte term en positioneert je als kennisleider. Bied aan om de vergunningscheck gratis te doen — dit verlaagt de drempel om contact op te nemen.",
+      },
+      {
+        heading: "Reviews met projectbeschrijving",
+        body: "Vraag klanten om in hun review te beschrijven wat voor serre of tuinkamer ze hebben laten bouwen, hoe het proces verliep en hoe ze het resultaat gebruiken. Reviews als 'We genieten elke avond van onze nieuwe tuinkamer' verkopen beter dan vijf sterren zonder context. Stuur na oplevering een geautomatiseerd reviewverzoek met een foto-optie.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een serrebouwer met sterke online aanwezigheid kan rekenen op 6-15 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 18.000 euro en een conversie van 25% is dat 27.000 tot 67.500 euro extra omzet per maand. De visuele aard van het product en de hoge projectwaarden maken online marketing bijzonder rendabel voor serrebouwers.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-zwembadbouwers",
+    title: "Online marketing voor zwembadbouwers: meer projecten via Google",
+    description: "Zo krijg je als zwembadbouwer meer klanten via Google — van inbouwzwembad tot natuurzwembad en poolhouse.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Zwembadbouwers", href: "/vakgebieden/zwembadbouwers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Zwembadbouw: droomprojecten met grote budgetten",
+        body: "Een zwembad is een droomproject: klanten investeren 25.000 tot 100.000 euro en nemen maanden de tijd om te oriënteren. Ze zoeken op 'zwembad laten aanleggen kosten', 'inbouwzwembad prijs' en 'zwembadbouwer [stad]'. De lange oriëntatiefase maakt online aanwezigheid essentieel — wie gedurende die maanden zichtbaar is, wint het vertrouwen en de opdracht.",
+      },
+      {
+        heading: "Google Business met droombeelden",
+        body: "Vermeld je specialisaties: inbouwzwembaden, skimmer zwembaden, overloopzwembaden, natuurzwembaden, plunge pools, poolhouses, spa's. Upload de mooiste foto's van je projecten: zwembaden in tuinen, bij avondverlichting, met terras en poolhouse. Zwembaden verkoop je op emotie en lifestyle — laat je foto's het verhaal vertellen.",
+      },
+      {
+        heading: "Portfolio als online showroom",
+        body: "Maak van je website een portfolio dat klanten door je projecten laat bladeren. Toon per project: het type zwembad, de afmetingen, de materialen, de tuinindeling en het eindresultaat met meerdere foto's. Vermeld een prijsindicatie per type. Klanten die hun droomzwembad herkennen in jouw portfolio, nemen contact op voor een offerte.",
+      },
+      {
+        heading: "Content over kosten en onderhoud",
+        body: "'Zwembad kosten' is een van de meest gezochte termen. Schrijf een uitgebreide pagina over kosten per type zwembad, onderhoudskosten per jaar, energieverbruik en terugverdientijd van een overkapping. Wees transparant: klanten waarderen eerlijkheid over kosten en kiezen het bedrijf dat ze het beste informeert.",
+      },
+      {
+        heading: "Reviews van tevreden zwembadeigenaren",
+        body: "Een zwembad maakt mensen gelukkig — dat vertaalt zich in enthousiaste reviews. Vraag klanten om hun ervaring te delen: het bouwproces, de samenwerking, het eerste moment van zwemmen. Reviews met emotie en foto's zijn het krachtigste verkoopinstrument. Een zwembadbouwer met 15+ reviews en prachtige projectfoto's domineert de lokale markt.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een zwembadbouwer met sterke online aanwezigheid kan rekenen op 4-10 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 45.000 euro en een conversie van 20% is dat 36.000 tot 90.000 euro extra omzet per maand. De extreem hoge projectwaarden en lange oriëntatiefase maken online marketing de meest rendabele investering voor zwembadbouwers.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-trapliften",
+    title: "Online marketing voor traplift- en thuisliftbedrijven: meer klanten via Google",
+    description: "Zo krijg je als trapliftleverancier meer klanten via Google — van traplift tot huislift en plateau-traplift.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Trapliften & Thuisliften", href: "/vakgebieden/trapliften-thuisliften" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Trapliften: urgente behoefte bij een groeiende doelgroep",
+        body: "De vergrijzing zorgt voor een groeiende vraag naar trapliften en thuisliften. Klanten — vaak ouderen of hun kinderen — zoeken op 'traplift kosten', 'traplift laten plaatsen' en 'trapliftbedrijf [stad]'. De urgentie is hoog: na een val of operatie moet er snel een oplossing komen. Wie bovenaan Google staat, vangt deze urgente aanvragen op.",
+      },
+      {
+        heading: "Google Business voor trapliftbedrijven",
+        body: "Vermeld al je producten: rechte traplift, bochte traplift, plateau-traplift, huislift, stoellift, buitenlift. Vermeld ook tweedehands opties en huurmogelijkheden — dit zijn veelgezochte termen. Upload foto's van geïnstalleerde liften in verschillende woningtypen. Vermeld of je gratis huisbezoek aanbiedt — dit is de perfecte lead-generator.",
+      },
+      {
+        heading: "Subsidie en WMO als contentstrategie",
+        body: "Klanten zoeken massaal op 'traplift subsidie', 'WMO traplift' en 'traplift vergoeding gemeente'. Schrijf een uitgebreide pagina over financieringsmogelijkheden: WMO-aanvraag, verzekering, huur vs koop. Help klanten met het proces. Bedrijven die deze informatie helder presenteren, winnen het vertrouwen van klanten die op zoek zijn naar een betrouwbare partner.",
+      },
+      {
+        heading: "Content voor zowel ouderen als hun kinderen",
+        body: "Bij trapliften zijn er twee doelgroepen: de oudere zelf en hun kinderen die meebeslissen. Schrijf content voor beiden: praktische informatie over typen en kosten voor de kinderen, geruststelling en gebruiksgemak voor de ouderen. Maak je website overzichtelijk met groot lettertype en duidelijke knoppen — toegankelijkheid is hier letterlijk een verkoopargument.",
+      },
+      {
+        heading: "Reviews die geruststelling bieden",
+        body: "Een traplift is een emotionele aanschaf: het betekent accepteren dat je hulp nodig hebt. Reviews die benadrukken hoe fijn het is om weer zelfstandig boven te komen, nemen de drempel weg. Vraag klanten (of hun kinderen) om te delen wat de traplift voor hun dagelijks leven betekent. Menselijke verhalen verkopen beter dan technische specificaties.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een trapliftbedrijf met goede online vindbaarheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 4.000 euro en een conversie van 30% is dat 12.000 tot 30.000 euro extra omzet per maand. De vergrijzing zorgt ervoor dat de markt jaarlijks groeit — een investering in online marketing betaalt zich elk jaar meer terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-domotica",
+    title: "Online marketing voor domotica-installateurs: meer klanten via Google",
+    description: "Zo krijg je als domotica-specialist meer klanten via Google — van smart home tot KNX-installatie en huisautomatisering.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Domotica", href: "/vakgebieden/domotica" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Domotica: een groeimarkt met tech-savvy klanten",
+        body: "De smart home markt groeit explosief. Klanten zoeken op 'domotica installateur', 'smart home systeem laten installeren' en 'KNX specialist [stad]'. Het zijn vaak tech-geïnteresseerde huiseigenaren die een nieuwbouw- of renovatieproject plannen. De online concurrentie is beperkt: de meeste domotica-installateurs vertrouwen op mond-tot-mond. Een professionele online aanwezigheid onderscheidt je direct.",
+      },
+      {
+        heading: "Google Business voor domotica-bedrijven",
+        body: "Vermeld je systemen en diensten: KNX, Loxone, Home Assistant, verlichting automatiseren, klimaatregeling, beveiligingsintegratie, audio-video, toegangscontrole. Vermeld de merken waarmee je werkt. Upload foto's van dashboards, touchpanels en slim ingerichte woningen. Klanten willen zien wat domotica in de praktijk betekent voor hun huis.",
+      },
+      {
+        heading: "Educatieve content voor oriënterende klanten",
+        body: "Domotica is voor veel mensen nog nieuw. Schrijf content die uitlegt wat domotica is, wat de mogelijkheden zijn en wat het kost. Vergelijk systemen: KNX vs Loxone vs draadloze oplossingen. Leg uit wat er bij een nieuwbouw anders is dan bij een renovatie. Deze educatieve content trekt oriënterende klanten aan en positioneert je als de expert die ze nodig hebben.",
+      },
+      {
+        heading: "Showcaseprojecten met technisch detail",
+        body: "Domotica-klanten zijn geïnteresseerd in de techniek achter de oplossing. Maak showcases die niet alleen het eindresultaat tonen, maar ook het systeem uitleggen: hoeveel schakelpunten, welke scenes, energiebesparing, integratie met zonnepanelen en warmtepomp. Technische klanten waarderen transparantie en kiezen het bedrijf dat de meeste kennis toont.",
+      },
+      {
+        heading: "Reviews van tech-enthousiastelingen",
+        body: "Domotica-klanten zijn enthousiast over hun smart home en delen graag hun ervaring. Vraag om reviews die beschrijven welk systeem is geïnstalleerd, hoe de programmering verliep en wat hun favoriete automatisering is. Reviews als 'Het licht dimt automatisch bij filmavond en de verwarming gaat uit als we weggaan' verkopen beter dan sterren alleen.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een domotica-installateur met sterke online aanwezigheid kan rekenen op 5-15 aanvragen per maand. Bij een gemiddelde projectwaarde van 8.000 euro en een conversie van 30% is dat 12.000 tot 36.000 euro extra omzet per maand. De groeiende markt en het relatief kleine aantal online zichtbare specialisten maken dit een van de kansrijkste niches.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-beveiligingsinstallateurs",
+    title: "Online marketing voor beveiligingsinstallateurs: meer klanten via Google",
+    description: "Zo krijg je als beveiligingsinstallateur meer klanten via Google — van alarmsysteem tot camerabewaking en toegangscontrole.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Beveiligingsinstallateurs", href: "/vakgebieden/beveiligingsinstallateurs" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Beveiliging: urgentie na inbraak, preventie bij nieuwbouw",
+        body: "Beveiligingsinstallateurs bedienen twee markten: urgente klanten na een inbraak en preventieve klanten bij nieuwbouw of renovatie. Ze zoeken op 'alarmsysteem laten installeren', 'camerabewaking woning' en 'beveiligingsinstallateur [stad]'. Beide groepen beginnen op Google en kiezen snel — veiligheid duldt geen uitstel.",
+      },
+      {
+        heading: "Google Business met gecertificeerd profiel",
+        body: "Vermeld al je diensten: alarmsystemen, camerabewaking, toegangscontrole, intercomsystemen, brandmeldinstallaties, inbraakpreventie. Toon je certificeringen: BORG-gecertificeerd, VEB-lid, NCP-erkend. Certificeringen zijn in de beveiligingsbranche een harde eis voor veel verzekeraars — benadruk dit prominent. Upload foto's van geïnstalleerde systemen (zonder locatiegegevens).",
+      },
+      {
+        heading: "Content over inbraakpreventie",
+        body: "Klanten zoeken op 'huis beveiligen', 'inbraakpreventie tips' en 'alarmsysteem kosten'. Schrijf informatieve content over beveiligingsmaatregelen: welk type alarm past bij welke woning, de voordelen van camerabewaking, slimme sloten en sensoren. Eindig met een gratis beveiligingsscan als call-to-action — dit is de natuurlijke eerste stap naar een offerte.",
+      },
+      {
+        heading: "Zakelijke markt bedienen",
+        body: "Naast particulieren is de zakelijke markt lucratief: winkels, kantoren, bedrijventerreinen en zorginstellingen. Maak aparte pagina's voor zakelijke beveiliging met referenties en systemen op grotere schaal. Zakelijke klanten zoeken op 'camerabewaking bedrijf' en 'toegangscontrole kantoor'. De projectwaarden zijn hoger en er is vaak sprake van onderhoudscontracten.",
+      },
+      {
+        heading: "Reviews en verzekeringscompliance",
+        body: "Veel verzekeraars eisen een gecertificeerd alarmsysteem voor de inbraakverzekering. Benadruk dit op je website: 'Onze installaties voldoen aan de eisen van alle Nederlandse verzekeraars.' Vraag klanten om reviews die vermelden dat de installatie soepel verliep en door de verzekeraar is goedgekeurd. Dit combineert vertrouwen met een concreet voordeel.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een beveiligingsinstallateur met sterke online aanwezigheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 30% is dat 9.000 tot 22.500 euro extra omzet per maand. Onderhoudscontracten zorgen daarnaast voor terugkerende omzet — elke nieuwe klant is een langetermijninvestering.",
+      },
+    ],
+  },
 ];
