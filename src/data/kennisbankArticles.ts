@@ -2887,4 +2887,238 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-hekwerk-poorten",
+    title: "Online marketing voor hekwerk- en poortbedrijven: meer opdrachten via Google",
+    description: "Zo krijg je als hekwerk specialist meer klanten via Google — van sierhekwerk tot automatische poorten en erfafscheiding.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Hekwerk & Poorten", href: "/vakgebieden/hekwerk-poorten" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Hekwerk en poorten: diverse klantgroepen, één Google-profiel",
+        body: "Hekwerkbedrijven bedienen zowel particulieren als bedrijven: van sierhekwerk voor een tuin tot industriële hekwerken voor bedrijventerreinen en automatische poorten. Klanten zoeken op 'hekwerk plaatsen kosten', 'automatische poort laten installeren' en 'hekwerkbedrijf [stad]'. De verscheidenheid aan diensten biedt veel mogelijkheden om op verschillende zoektermen te scoren.",
+      },
+      {
+        heading: "Google Business met breed dienstenaanbod",
+        body: "Vermeld al je diensten: sierhekwerk, industrieel hekwerk, gaashekwerk, spijlhekwerk, automatische poorten, schuifpoorten, draaipoorten, erfafscheiding, balustrades. Upload foto's per type: een sierlijk zwart spijlhek bij een villa, een robuust industrieel hekwerk bij een bedrijfspand, een stijlvolle automatische poort. Elke foto spreekt een andere doelgroep aan.",
+      },
+      {
+        heading: "Aparte pagina's per doelgroep",
+        body: "Maak onderscheid tussen particulier en zakelijk. Een huiseigenaar zoekt op 'tuin hekwerk' of 'oprit poort', een facility manager op 'bedrijfsterrein hekwerk' of 'toegangscontrole poort'. Maak aparte pagina's per doelgroep met relevante projectfoto's en richtprijzen. Zo score je op beide zoekintentie-clusters en spreek je elke bezoeker direct aan.",
+      },
+      {
+        heading: "Automatische poorten als premium dienst",
+        body: "'Automatische poort' is een van de meest gezochte termen in de hekwerksector. Maak een uitgebreide pagina over automatische poorten: merken, typen (schuifpoort, draaipoort, kantelpoort), bediening (afstandsbediening, intercom, kentekenherkenning) en prijsindicaties. Dit segment heeft de hoogste projectwaarden en trekt klanten aan die op kwaliteit selecteren.",
+      },
+      {
+        heading: "Reviews van diverse projecten",
+        body: "Verzamel reviews van zowel particuliere als zakelijke klanten. Een mix van reviews — tuinhekwerk, bedrijfshekwerk, automatische poorten — toont de breedte van je expertise. Vraag specifiek om reviews die ingaan op de montage, de communicatie en het eindresultaat. Een hekwerkbedrijf met 20+ diverse reviews overtuigt elke potentiële klant.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een hekwerkbedrijf met goede online zichtbaarheid kan rekenen op 8-20 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.500 euro en een conversie van 30% is dat 8.400 tot 21.000 euro extra omzet per maand. De combinatie van particuliere en zakelijke klanten zorgt voor een stabiele aanvragenstroom het hele jaar door.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-rolluiken-zonwering",
+    title: "Online marketing voor rolluik- en zonweringsbedrijven: meer klanten via Google",
+    description: "Zo krijg je als zonweringspecialist meer klanten via Google — van rolluiken tot screens, markiezen en lamellendaken.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Rolluiken & Zonwering", href: "/vakgebieden/rolluiken-zonwering" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Zonwering: seizoensgebonden pieken met hoge vraag",
+        body: "Zodra de zon begint te schijnen, exploderen de zoekopdrachten: 'zonwering kopen', 'screens plaatsen', 'markies laten monteren'. Klanten zoeken op 'zonwering specialist [stad]', 'rolluiken prijs' en 'lamellendak kosten'. Het seizoen is kort maar intens: van maart tot september. Wie goed vindbaar is in die maanden, vult zijn orderboek voor het hele jaar.",
+      },
+      {
+        heading: "Google Business met productfoto's",
+        body: "Vermeld al je producten: rolluiken, screens, markiezen, lamellendaken, terrasoverkappingen, jaloezieën, raambekleding. Upload foto's van gemonteerde producten bij woningen: een strakke screen op een moderne woning, een klassieke markies bij een jaren-30 huis. Vermeld merken waarmee je werkt (Somfy, Velux, Luxaflex) — klanten zoeken ook op merknaam.",
+      },
+      {
+        heading: "Seizoensstrategie voor online marketing",
+        body: "Begin in februari met het optimaliseren van je website en Google-profiel. Publiceer in maart content over zonwering kiezen, screens vs markiezen en energiebesparing door zonwering. Zo bouw je zichtbaarheid op precies wanneer de vraag stijgt. In het najaar kun je focussen op rolluiken voor inbraakbeveiliging en isolatie — dit spreidt je omzet over het jaar.",
+      },
+      {
+        heading: "Vergelijkingscontent die converteert",
+        body: "Klanten twijfelen tussen screens, markiezen en rolluiken. Schrijf een duidelijke vergelijkingspagina: welk product past bij welke situatie? Screens voor grote ramen, markiezen voor terrassen, rolluiken voor beveiliging en isolatie. Geef prijsindicaties per product. Deze pagina trekt vergelijkende zoekers aan en positioneert je als onafhankelijk adviseur.",
+      },
+      {
+        heading: "Reviews en energiebesparing",
+        body: "Zonwering en rolluiken bieden meetbare energiebesparing. Benadruk dit op je website en vraag klanten om in hun review te vermelden wat ze merken qua warmte en energiekosten. Reviews die concreet vermelden 'het is 5 graden koeler in onze woonkamer' overtuigen sterker dan generieke vijfsterren-ratings. Stuur na elke montage een automatisch reviewverzoek.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een zonweringsbedrijf met sterke online aanwezigheid kan rekenen op 15-40 aanvragen per maand in het seizoen. Bij een gemiddelde projectwaarde van 2.000 euro en een conversie van 35% is dat 10.500 tot 28.000 euro extra omzet per maand. De seizoensgebondenheid maakt het essentieel om vóór het seizoen online zichtbaar te zijn.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-garagedeuren",
+    title: "Online marketing voor garagedeurbedrijven: meer opdrachten via Google",
+    description: "Zo krijg je als garagedeurspecialist meer klanten via Google — van sectionaaldeur tot kanteldeur en elektrische garagedeur.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Garagedeuren", href: "/vakgebieden/garagedeuren" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Garagedeuren: grote investering, veel online onderzoek",
+        body: "Een nieuwe garagedeur kost 1.500 tot 5.000 euro — een investering waar klanten goed over nadenken. Ze zoeken op 'garagedeur vervangen kosten', 'sectionaaldeur op maat' en 'garagedeur monteur [stad]'. De meeste garagedeurbedrijven vertrouwen op dealers en showrooms, maar klanten beginnen hun zoektocht online. Wie daar zichtbaar is, heeft een voorsprong.",
+      },
+      {
+        heading: "Google Business voor garagedeurbedrijven",
+        body: "Vermeld je producten en diensten: sectionaaldeuren, kanteldeuren, roldeuren, openslaande garagedeuren, elektrische aandrijving, garagedeur reparatie, onderhoud. Upload foto's van geïnstalleerde deuren bij woningen — verschillende materialen (staal, hout, aluminium) en stijlen. Vermeld merken (Hörmann, Novoferm, Normstahl) voor merknaam-zoekopdrachten.",
+      },
+      {
+        heading: "Productvergelijking als contentstrategie",
+        body: "Klanten twijfelen tussen deurtypen. Schrijf een vergelijkingspagina: sectionaaldeur vs kanteldeur vs roldeur. Vergelijk op ruimtebesparing, isolatiewaarde, bediening, prijs en levensduur. Voeg een keuzehulp toe: welk type past bij jouw garage? Deze content scoort op vergelijkende zoektermen en helpt klanten bij hun beslissing — met jou als de expert die ze vertrouwen.",
+      },
+      {
+        heading: "Reparatie als instapservice",
+        body: "'Garagedeur kapot' en 'garagedeur repareren' zijn spoedzoekopdrachten. Maak een aparte pagina voor reparatiediensten met directe contactmogelijkheden. Reparatieklanten zijn de perfecte instap voor vervangingsprojecten: als de deur oud is, adviseer je meteen over vervanging. Zo converteer je een reparatie van 200 euro naar een vervangingsproject van 3.000 euro.",
+      },
+      {
+        heading: "Reviews en showroom-ervaring online",
+        body: "Niet elke klant wil naar een showroom. Bied een online showroom-ervaring met uitgebreide productpagina's, foto's in verschillende settings en video's van elektrische deuren in actie. Combineer dit met sterke Google reviews en je verkoopt garagedeuren vanuit je website. Vraag na elke installatie om een review — tevreden klanten waarderen de kwaliteit en service.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een garagedeurbedrijf met sterke online aanwezigheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 30% is dat 9.000 tot 22.500 euro extra omzet per maand. De combinatie van reparatie-instroom en vervangingsprojecten zorgt voor een stabiele orderportefeuille.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-beglazing",
+    title: "Online marketing voor glaszetters: meer klanten via Google",
+    description: "Zo krijg je als glaszetter meer klanten via Google — van dubbelglas tot spoedreparatie en glasschade herstellen.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Beglazing", href: "/vakgebieden/beglazing" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Beglazing: spoed en geplande projecten",
+        body: "Glaszetbedrijven bedienen twee markten: spoedreparaties (inbraak, stormschade, kapot raam) en geplande projecten (dubbelglas, HR++ glas, sierruiten). Spoedklanten zoeken op 'glaszetter spoed', 'ruit kapot repareren' en 'glasnooddienst [stad]'. Geplande klanten zoeken op 'dubbelglas kosten' en 'glas vervangen prijs'. Beide groepen beginnen op Google.",
+      },
+      {
+        heading: "Google Business met 24/7 bereikbaarheid",
+        body: "Zet je openingstijden op 24/7 als je spoedservice biedt — dit is cruciaal voor glasnooddiensten. Vermeld al je diensten: enkelglas, dubbelglas, HR++ glas, triple glas, veiligheidsglas, sierruiten, spiegels, douchewanden, glazen deuren. Upload foto's van netjes geplaatst glas in verschillende settings. Vermeld je responstijd bij spoed: 'binnen 2 uur ter plaatse'.",
+      },
+      {
+        heading: "Spoed vs gepland: twee contenttracks",
+        body: "Maak aparte pagina's voor spoedservice en geplande werkzaamheden. De spoedpagina bevat direct een telefoonnummer, responstijd en tarieven. De geplande pagina's bevatten uitleg over glastypen, isolatiewaarden en richtprijzen per m². Elke pagina trekt een ander type klant aan met andere zoektermen. Zo dek je het volledige zoeklandschap af.",
+      },
+      {
+        heading: "Energiebesparing als verkoopargument",
+        body: "Dubbelglas en HR++ glas zijn direct gekoppeld aan energiebesparing. Klanten zoeken op 'glas vervangen besparing', 'enkelglas naar dubbelglas kosten' en 'energielabel verbeteren ramen'. Maak een pagina die de besparing concreet maakt: hoeveel kWh per jaar, terugverdientijd, mogelijke subsidies. Dit trekt oriënterende klanten aan met serieuze koopintentie.",
+      },
+      {
+        heading: "Reviews bij spoedwerk",
+        body: "Spoedklanten zijn extra dankbaar: je lost een acuut probleem op, vaak buiten kantooruren. Die dankbaarheid vertaalt zich in enthousiaste reviews. Stuur na elke spoedklus een reviewverzoek. Reviews die vermelden 'binnen een uur geholpen op zondagavond' overtuigen de volgende spoedklant om jou te bellen in plaats van de concurrent.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een glaszetbedrijf met sterke online aanwezigheid kan rekenen op 20-50 aanvragen per maand. Bij een gemiddelde kluswaarde van 450 euro en een conversie van 45% is dat 4.050 tot 10.125 euro extra omzet per maand. De combinatie van spoedwerk met hoge urgentie en geplande projecten met hogere marges zorgt voor een gezonde mix.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-vochtbestrijding",
+    title: "Online marketing voor vochtbestrijdingsbedrijven: meer klanten via Google",
+    description: "Zo krijg je als vochtspecialist meer klanten via Google — van kelderlekkage tot optrekkend vocht en condensprobleem.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Vochtbestrijding", href: "/vakgebieden/vochtbestrijding" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Vochtbestrijding: urgentie en angst als drijfveer",
+        body: "Vochtproblemen zijn stressvol: schimmel op muren, natte kelders, loslatend behang. Klanten zoeken in paniek op 'vochtprobleem oplossen', 'optrekkend vocht bestrijden' en 'vochtbestrijding [stad]'. Ze willen snel een expert die het probleem diagnosticeert en oplost. De emotionele urgentie maakt dat klanten snel beslissen — als jij bovenaan staat in Google, word je als eerste gebeld.",
+      },
+      {
+        heading: "Google Business voor vochtbestrijders",
+        body: "Vermeld al je diensten: vochtdiagnose, optrekkend vocht behandelen, kelderdichting, condensbestrijding, schimmelverwijdering, injectie, drainage, waterdichte coating. Upload foto's van opgeloste vochtproblemen: van schimmelende muur tot droge, opgeknapte ruimte. Vermeld je inspectie-dienst prominent — een gratis vochtinspectie is de perfecte lead-generator.",
+      },
+      {
+        heading: "Symptoom-gerichte content",
+        body: "Klanten zoeken niet op 'vochtbestrijding' maar op symptomen: 'schimmel op muur slaapkamer', 'natte kelder oplossing', 'condensvorming ramen'. Schrijf pagina's per symptoom: wat is de oorzaak, hoe los je het op, en wanneer heb je een specialist nodig. Elke symptoompagina trekt bezoekers aan die een acuut probleem hebben — de warmste leads die er zijn.",
+      },
+      {
+        heading: "Gratis inspectie als conversie-instrument",
+        body: "Een gratis vochtinspectie is het krachtigste conversie-instrument in deze branche. Klanten met vochtproblemen willen zekerheid over de oorzaak en de kosten. Bied op elke pagina een gratis inspectie aan met een eenvoudig formulier. De inspectie ter plekke geeft je de kans om vertrouwen op te bouwen en direct een offerte uit te brengen.",
+      },
+      {
+        heading: "Reviews die angst wegnemen",
+        body: "Vochtproblemen gaan gepaard met onzekerheid: hoe erg is het, wat kost het, werkt de oplossing? Reviews van klanten die beschrijven dat hun vochtprobleem definitief is opgelost, nemen deze angst weg. Vraag specifiek om reviews die het probleem, de oplossing en het resultaat beschrijven. 'Ons keldervocht is na 3 maanden nog steeds weg' is de krachtigste review die je kunt krijgen.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een vochtbestrijdingsbedrijf met goede online vindbaarheid kan rekenen op 12-30 aanvragen per maand. Bij een gemiddelde projectwaarde van 2.500 euro en een conversie van 35% is dat 10.500 tot 26.250 euro extra omzet per maand. De emotionele urgentie van vochtproblemen zorgt voor korte besliscycli en hoge conversiepercentages.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-schoorsteenvegers",
+    title: "Online marketing voor schoorsteenvegers: meer klanten via Google",
+    description: "Zo krijg je als schoorsteenveger meer klanten via Google — van schoorsteen vegen tot inspectie en rookkanaal reinigen.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Schoorsteenvegers", href: "/vakgebieden/schoorsteenvegers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Schoorsteenvegen: terugkerend werk met vaste seizoenen",
+        body: "Schoorsteenvegen is seizoensgebonden: het piek loopt van augustus tot december, wanneer huiseigenaren hun kachel of open haard voorbereiden op de winter. Ze zoeken op 'schoorsteenveger [stad]', 'schoorsteen laten vegen kosten' en 'schoorsteen inspectie'. Het is terugkerend werk — een tevreden klant komt elk jaar terug. Online vindbaarheid bouwt een stabiele klantenbasis.",
+      },
+      {
+        heading: "Google Business als eerste contactpunt",
+        body: "Vermeld je diensten: schoorsteen vegen, rookkanaal inspectie, video-inspectie, schoorsteen reparatie, vonkenvanger plaatsen, schoorsteenkap monteren. Vermeld duidelijk je werkgebied en tarieven. Upload foto's van je werk: een schone schoorsteen, inspectie-apparatuur, je bedrijfswagen. Klanten kiezen vaak de eerste schoorsteenveger die ze vinden met goede reviews — zorg dat jij dat bent.",
+      },
+      {
+        heading: "Seizoensplanning in je content",
+        body: "Publiceer in juli-augustus content over schoorsteenonderhoud: 'wanneer schoorsteen vegen', 'hoe vaak schoorsteen laten vegen', 'schoorsteen vegen voor het stookseizoen'. Deze content scoort precies wanneer klanten gaan zoeken. Bied een online boekingsformulier aan zodat klanten direct een afspraak kunnen plannen. Hoe makkelijker het boekingsproces, hoe meer klanten je binnenhaalt.",
+      },
+      {
+        heading: "Herhalingsklanten via e-mail",
+        body: "Schoorsteenvegen is jaarlijks terugkerend werk. Bouw een klantenbestand op en stuur in augustus een herinnering: 'Tijd om je schoorsteen te laten vegen.' Combineer dit met je online zichtbaarheid: bestaande klanten boeken direct, nieuwe klanten vinden je via Google. Zo bouw je elk jaar een groter klantenbestand dat automatisch terugkeert.",
+      },
+      {
+        heading: "Reviews en veiligheid",
+        body: "Schoorsteenvegen gaat over veiligheid: een vervuilde schoorsteen is brandgevaarlijk. Benadruk dit in je communicatie en vraag klanten om reviews die de professionaliteit en grondigheid benoemen. Een schoorsteenveger met 30+ reviews en een duidelijke veiligheidsboodschap wint het vertrouwen van elke huiseigenaar met een kachel of open haard.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een schoorsteenveger met goede online vindbaarheid kan rekenen op 20-50 boekingen per maand in het seizoen. Bij een gemiddelde kluswaarde van 85 euro en een conversie van 60% is dat 1.020 tot 2.550 euro extra omzet per maand. Het terugkerende karakter van het werk maakt het rendement cumulatief: elke nieuwe klant is potentieel een jaarlijkse klant.",
+      },
+    ],
+  },
 ];
