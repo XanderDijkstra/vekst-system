@@ -3355,4 +3355,242 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "online-marketing-aannemers",
+    title: "Online marketing voor aannemers: meer bouwprojecten via Google",
+    description: "Zo krijg je als aannemer meer klanten via Google — van verbouwing tot nieuwbouw en renovatie. Compleet overzicht.",
+    category: "Marketing",
+    readTime: "8 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Aannemers", href: "/vakgebieden/aannemers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Waarom online marketing onmisbaar is voor aannemers",
+        body: "92% van de huiseigenaren begint online met het zoeken naar een aannemer. Ze googelen 'aannemer [stad]', 'verbouwing aannemer in de buurt' en 'bouwbedrijf renovatie'. De aannemer die bovenaan staat in Google Maps en sterke reviews heeft, wordt als eerste gebeld. Toch vertrouwen de meeste aannemers nog op mond-tot-mond en vaste opdrachtgevers. Online marketing is het verschil tussen volle en lege orderboeken.",
+      },
+      {
+        heading: "Google Business als digitaal visitekaartje",
+        body: "Je Google Mijn Bedrijf-profiel is het eerste wat potentiële klanten zien. Vul het volledig in: alle diensten (verbouwing, renovatie, nieuwbouw, aanbouw, onderhoud), werkgebied, openingstijden, foto's van projecten. Reageer op elke review. Upload maandelijks nieuwe foto's. Een actief, volledig profiel scoort hoger in Google Maps dan een kaal profiel met alleen een naam en adres.",
+      },
+      {
+        heading: "Een website die leads genereert",
+        body: "Jouw website moet meer doen dan er mooi uitzien. Maak aparte pagina's per dienst: verbouwingen, renovaties, uitbouwen, dakkapellen, badkamerrenovatie. Elke pagina scoort op andere zoektermen en trekt een ander type klant aan. Voeg projectfoto's, richtprijzen en een offerteformulier toe. Een website zonder duidelijke call-to-action is een gemiste kans — bezoekers weten niet wat ze moeten doen.",
+      },
+      {
+        heading: "Lokale SEO: vindbaar in je werkgebied",
+        body: "De meeste aannemers werken regionaal. Optimaliseer je website voor lokale zoekopdrachten: 'aannemer Rotterdam', 'bouwbedrijf Utrecht', 'verbouwing Amsterdam'. Maak per regio een landingspagina met lokale referenties. Combineer dit met een sterk Google Business profiel en je domineert de kaartresultaten in je werkgebied. 46% van alle Google-zoekopdrachten heeft een lokale intentie.",
+      },
+      {
+        heading: "Reviews: het nieuwe mond-tot-mond",
+        body: "Vroeger koos je een aannemer op aanbeveling van buren of familie. Nu zijn Google reviews het nieuwe mond-tot-mond. Een aannemer met 40+ reviews boven de 4,5 sterren wint het vertrouwen van klanten nog voor het eerste gesprek. Stuur na elk project een automatisch reviewverzoek. Reageer op elke review — ook de negatieve. Zo bouw je online dezelfde reputatie op die je offline al hebt.",
+      },
+      {
+        heading: "Social media en portfoliocontent",
+        body: "Instagram en Facebook zijn perfect voor aannemers: bouwprojecten zijn visueel en volgers zijn geïnteresseerd in het proces. Deel wekelijks een projectfoto, een timelapse of een voor-en-na vergelijking. Je hoeft geen marketeer te zijn: een paar goede foto's met je telefoon zijn genoeg. Social media versterkt je Google-profiel en zorgt voor naamsbekendheid in je regio.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een aannemer met sterke online aanwezigheid kan rekenen op 15-40 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 12.000 euro en een conversie van 25% is dat 45.000 tot 120.000 euro extra omzet per maand. Online marketing is de meest schaalbare manier om je aannemersbedrijf te laten groeien zonder afhankelijk te zijn van tussenpartijen of platforms.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-meubelmakers",
+    title: "Online marketing voor meubelmakers: meer opdrachten via Google",
+    description: "Zo krijg je als meubelmaker meer klanten via Google — van maatwerk meubels tot inbouwkasten en houten tafels.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Meubelmakers", href: "/vakgebieden/meubelmakers" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Maatwerk meubels: een groeiende vraag naar uniek",
+        body: "Steeds meer mensen willen unieke, handgemaakte meubels in plaats van massaproductie. Ze zoeken op 'meubelmaker op maat', 'houten tafel op maat laten maken' en 'inbouwkast op maat [stad]'. Het zijn klanten die bereid zijn te betalen voor kwaliteit en ambacht. Online vindbaarheid is cruciaal: je bereikt een doelgroep die verder kijkt dan IKEA en bereid is om te investeren in vakmanschap.",
+      },
+      {
+        heading: "Portfolio als online etalage",
+        body: "Meubelmakerij is een visueel vak bij uitstek. Maak een uitgebreide online portfolio met professionele foto's van je werk: tafels, kasten, keukens, badkamermeubels, wandkleden, inbouwoplossingen. Toon elk stuk vanuit meerdere hoeken en vermeld de houtsoort, afmetingen en prijs-indicatie. Je portfolio is je sterkste verkoopinstrument — klanten beslissen op basis van wat ze zien.",
+      },
+      {
+        heading: "Google Business voor meubelmakers",
+        body: "Vermeld je specialisaties: maatwerk tafels, inbouwkasten, keukenmeubels, badkamermeubels, wandmeubels, restauratie. Upload je mooiste werk als Google-foto's. Vermeld welke houtsoorten je gebruikt: eiken, walnoot, essen, kersen. Klanten die zoeken op 'eiken tafel op maat' of 'inbouwkast maatwerk' vinden je via deze specifieke termen.",
+      },
+      {
+        heading: "Content over materialen en proces",
+        body: "Klanten die maatwerk overwegen, willen begrijpen wat ze kopen. Schrijf over houtsoorten en hun eigenschappen, het verschil tussen massief hout en plaatmateriaal, het maakproces van ontwerp tot oplevering. Deel werkplaatsfoto's en video's. Transparantie over het ambachtelijke proces rechtvaardigt de hogere prijs en overtuigt klanten om voor maatwerk te kiezen.",
+      },
+      {
+        heading: "Reviews van tevreden meubelbezitters",
+        body: "Maatwerk meubels zijn persoonlijk: klanten zijn trots op hun unieke stuk en delen graag hun ervaring. Vraag om reviews die beschrijven wat ze hebben laten maken, hoe de samenwerking verliep en hoe het meubel in hun interieur past. Foto's bij reviews zijn goud waard. Een meubelmaker met 20+ reviews en een sterk portfolio is de vanzelfsprekende keuze.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een meubelmaker met sterke online zichtbaarheid kan rekenen op 5-15 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 35% is dat 5.250 tot 15.750 euro extra omzet per maand. De premium positionering van maatwerk trekt klanten aan die op kwaliteit selecteren — precies de klanten die bereid zijn om te betalen voor vakmanschap.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-ontruiming",
+    title: "Online marketing voor ontruimingsbedrijven: meer opdrachten via Google",
+    description: "Zo krijg je als ontruimingsbedrijf meer klanten via Google — van woningontruiming tot bedrijfsontruiming en boedelontruiming.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Ontruiming", href: "/vakgebieden/ontruiming" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Ontruiming: emotioneel en urgent",
+        body: "Ontruimingen zijn vaak emotioneel: na een overlijden, een scheiding of een verhuizing naar een zorginstelling. Klanten zoeken op 'ontruiming woning', 'boedelontruiming kosten' en 'ontruimingsbedrijf [stad]'. Ze willen een betrouwbaar bedrijf dat respectvol omgaat met de situatie. Online vindbaarheid en sterke reviews zijn het verschil tussen wel of niet gebeld worden.",
+      },
+      {
+        heading: "Google Business voor ontruimingsbedrijven",
+        body: "Vermeld al je diensten: woningontruiming, bedrijfsontruiming, boedelontruiming, inboedelverwijdering, nalatenschap afhandelen, opkoop inboedel. Vermeld of je ook waardeschatting en afvoer van afval verzorgt. Upload foto's van netjes opgeruimde ruimtes (geen foto's van voor de ontruiming — dat is respectloos naar de vorige bewoners). Toon professionaliteit en empathie.",
+      },
+      {
+        heading: "Content over het ontruimingsproces",
+        body: "Mensen die voor het eerst een ontruiming moeten regelen, weten niet waar te beginnen. Schrijf content over: 'wat kost een woningontruiming', 'ontruiming na overlijden regelen', 'boedelontruiming stap voor stap'. Leg het proces helder uit: intake, planning, ontruiming, afvoer, oplevering. Transparantie over het proces neemt stress weg bij een toch al moeilijke situatie.",
+      },
+      {
+        heading: "Empathie in communicatie",
+        body: "Ontruiming is vaak gerelateerd aan verlies. Je website en communicatie moeten dit weerspiegelen. Geen schreeuwerige marketing maar rustige, respectvolle teksten. Vermeld dat je discreet en zorgvuldig werkt. Bied een gratis gesprek aan om de situatie te bespreken. Klanten kiezen het bedrijf waarbij ze zich op hun gemak voelen — empathie is je sterkste verkoopargument.",
+      },
+      {
+        heading: "Reviews met waardering voor zorgvuldigheid",
+        body: "Vraag klanten of familieleden om een review te schrijven over hoe de ontruiming is verlopen. Reviews die vermelden dat het bedrijf respectvol, snel en grondig heeft gewerkt, zijn het meest overtuigend. In een sector waar klanten zich kwetsbaar voelen, is sociale bevestiging via reviews extra waardevol. Een ontruimingsbedrijf met 25+ positieve reviews wint direct vertrouwen.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een ontruimingsbedrijf met goede online vindbaarheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 1.500 euro en een conversie van 40% is dat 6.000 tot 15.000 euro extra omzet per maand. De emotionele aard van het werk zorgt ervoor dat klanten kiezen op vertrouwen en reviews, niet op prijs.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-opruimservice",
+    title: "Online marketing voor opruimservices: meer klanten via Google",
+    description: "Zo krijg je als opruimservice meer klanten via Google — van garage opruimen tot container verhuur en afvalafvoer.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Opruimservice", href: "/vakgebieden/opruimservice" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Opruimservice: laagdrempelig en altijd vraag",
+        body: "Mensen hebben altijd spullen die weg moeten: een garage vol, een zolder opruimen, bouwafval na een verbouwing. Ze zoeken op 'opruimservice [stad]', 'afval laten ophalen' en 'garage opruimen kosten'. De drempel is laag, de vraag is constant en de concurrentie online is beperkt. Met een goed Google-profiel en duidelijke website sta je snel bovenaan in je regio.",
+      },
+      {
+        heading: "Google Business voor opruimservices",
+        body: "Vermeld al je diensten: opruimen, afval ophalen, container verhuur, grof vuil afvoeren, tuin opruimen, zolder legen, bouwafval verwijderen. Vermeld duidelijk je werkgebied en tarieven (per uur of per m³). Upload foto's van voor en na: een volle garage die leeg en netjes is opgeleverd. Vermeld of je zelf sorteert en recyclet — duurzaamheid is een pluspunt.",
+      },
+      {
+        heading: "Transparante prijzen online",
+        body: "Klanten willen weten wat het kost voordat ze bellen. Publiceer duidelijke richtprijzen: per uur, per m³, per container. Geef voorbeelden: 'garage opruimen vanaf €250', 'bouwafval afvoeren per container €350'. Transparantie verlaagt de drempel om contact op te nemen en trekt klanten aan die serieus zijn — geen shoppers die alleen maar even bellen voor een prijs.",
+      },
+      {
+        heading: "Seizoensgebonden content",
+        body: "De vraag naar opruimdiensten piekt in het voorjaar (voorjaarsschoonmaak), na de feestdagen (kerstbomen en verpakkingen) en bij verhuizingen (zomer). Publiceer seizoensgebonden content: 'voorjaarsschoonmaak garage', 'tuin winterklaar maken'. Zo bouw je zichtbaarheid op precies wanneer de vraag stijgt. In de tussenliggende maanden richt je je op bouwafval en bedrijfsopruimingen.",
+      },
+      {
+        heading: "Reviews en betrouwbaarheid",
+        body: "Opruimen betekent dat je in iemands huis of tuin komt. Betrouwbaarheid is essentieel. Reviews die vermelden dat het team netjes, snel en vriendelijk was, nemen de drempel weg. Vraag na elke klus om een review. Een opruimservice met 30+ reviews domineert de lokale zoekresultaten — simpelweg omdat de meeste concurrenten geen enkel online profiel hebben.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een opruimservice met goede online vindbaarheid kan rekenen op 20-50 aanvragen per maand. Bij een gemiddelde kluswaarde van 300 euro en een conversie van 50% is dat 3.000 tot 7.500 euro extra omzet per maand. De lage drempel en hoge conversie maken opruimservice een van de eenvoudigste niches om snel resultaat te behalen met online marketing.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-binnenhuisarchitecten",
+    title: "Online marketing voor binnenhuisarchitecten: meer opdrachten via Google",
+    description: "Zo krijg je als binnenhuisarchitect meer klanten via Google — van interieuradvies tot totaalontwerp en projectbegeleiding.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Binnenhuisarchitecten", href: "/vakgebieden/binnenhuisarchitecten" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Binnenhuisarchitectuur: groeiende vraag naar professioneel interieuradvies",
+        body: "Steeds meer huiseigenaren schakelen een binnenhuisarchitect in bij verbouwingen en nieuwbouw. Ze zoeken op 'binnenhuisarchitect [stad]', 'interieurontwerp kosten' en 'interieuradvies aan huis'. De projectwaarden variëren van 2.000 voor een adviesgesprek tot 30.000 voor een totaalontwerp met begeleiding. Online vindbaarheid is essentieel: klanten willen je portfolio zien voordat ze contact opnemen.",
+      },
+      {
+        heading: "Portfolio als visueel CV",
+        body: "Je portfolio is je belangrijkste marketing-asset. Maak een online portfolio met professionele foto's van je projecten: woonkamers, keukens, badkamers, kantoren. Vermeld per project de stijl, het budget en de scope. Klanten willen hun eigen stijl herkennen in jouw werk. Categoriseer op stijl (modern, industrieel, Scandinavisch, klassiek) en ruimte. Een sterk portfolio overtuigt sterker dan welke tekst dan ook.",
+      },
+      {
+        heading: "Google Business en lokale vindbaarheid",
+        body: "Vermeld je diensten: interieuradvies, interieurontwerp, kleuradvies, lichtplan, meubeladvies, projectbegeleiding, styling. Upload je beste projectfoto's op Google Business. Vermeld of je ook online consultaties aanbiedt — dit vergroot je werkgebied. Klanten zoeken op 'interieuradvies aan huis' en 'binnenhuisarchitect in de buurt' — een goed profiel vangt deze zoekopdrachten op.",
+      },
+      {
+        heading: "Inspiratiecontent en stijlgidsen",
+        body: "Publiceer content over interieurtrends, kleurcombinaties en inrichtingstips. Schrijf stijlgidsen: 'Scandinavisch interieur inrichten', 'industriële woonkamer styling'. Deze content trekt bezoekers aan die in de inspiratiefase zitten en positioneert je als expert. Eindig met een aanbod voor een vrijblijvend kennismakingsgesprek — de natuurlijke volgende stap.",
+      },
+      {
+        heading: "Reviews die de samenwerking beschrijven",
+        body: "Klanten kiezen een binnenhuisarchitect op persoonlijke klik en vertrouwen. Reviews die de samenwerking beschrijven — luistervaardigheid, creativiteit, oog voor budget — zijn het meest overtuigend. Vraag klanten om specifiek te vermelden wat het eindresultaat voor hun dagelijkse beleving betekent. 'We komen elke dag thuis in een ruimte die helemaal bij ons past' verkoopt beter dan vijf sterren.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een binnenhuisarchitect met sterke online aanwezigheid kan rekenen op 6-15 aanvragen per maand. Bij een gemiddelde projectwaarde van 5.000 euro en een conversie van 30% is dat 9.000 tot 22.500 euro extra omzet per maand. De visuele aard van het vak en de groeiende vraag maken online marketing bijzonder effectief voor binnenhuisarchitecten.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-interieurontwerp",
+    title: "Online marketing voor interieurontwerpers: meer klanten via Google",
+    description: "Zo krijg je als interieurontwerper meer klanten via Google — van woningstyling tot commercieel interieurontwerp en 3D-visualisatie.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Interieurontwerp", href: "/vakgebieden/interieurontwerp" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Interieurontwerp: visueel vak, visuele marketing",
+        body: "Interieurontwerp is een van de meest visuele vakgebieden: klanten kiezen op basis van wat ze zien. Ze zoeken op 'interieurontwerper [stad]', 'woning styling laten doen' en 'interieur laten ontwerpen kosten'. Pinterest en Instagram hebben de verwachtingen verhoogd: klanten willen een mooie ruimte en zoeken een professional die dat kan realiseren. Online vindbaarheid met sterke beelden is alles.",
+      },
+      {
+        heading: "Instagram en Pinterest als leadkanaal",
+        body: "Voor interieurontwerpers zijn visuele platforms net zo belangrijk als Google. Post regelmatig op Instagram en Pinterest: projectfoto's, moodboards, materiaalpaletten, voor-en-na transformaties. Link naar je website voor consultaties. Veel klanten ontdekken interieurontwerpers via deze platforms en checken daarna Google voor reviews en locatie. Een sterke aanwezigheid op alle kanalen versterkt elkaar.",
+      },
+      {
+        heading: "Google Business met projectdiversiteit",
+        body: "Vermeld je diensten: interieurontwerp, woningstyling, kantoorinrichting, horeca-interieur, 3D-visualisatie, kleuradvies, meubelinkoop. Toon de breedte van je werk: particulier en zakelijk, klein en groot, modern en klassiek. Upload je beste foto's per categorie. Klanten willen zien dat je hun type project aankan — of het nu een studio-appartement is of een restaurant.",
+      },
+      {
+        heading: "3D-visualisatie als onderscheidend vermogen",
+        body: "Steeds meer interieurontwerpers bieden 3D-visualisaties aan. Als jij dit ook doet, maak er een prominent onderdeel van op je website. Toon renders naast het eindresultaat: de vergelijking bewijst dat je kunt waarmaken wat je belooft. '3D interieurontwerp' en 'interieur visualisatie' zijn groeiende zoektermen die serieuze klanten aantrekken.",
+      },
+      {
+        heading: "Reviews en samenwerkingservaring",
+        body: "Interieurontwerp is persoonlijk: klanten delen hun huis en hun smaak met je. Reviews die de samenwerking, het creatieve proces en het eindresultaat beschrijven, zijn het meest overtuigend. Foto's bij reviews versterken het effect. Vraag klanten specifiek om te delen hoe het ontwerp hun dagelijkse leven heeft verbeterd — dat is het verhaal dat toekomstige klanten willen horen.",
+      },
+      {
+        heading: "Wat levert het op?",
+        body: "Een interieurontwerper met sterke online aanwezigheid kan rekenen op 5-15 aanvragen per maand. Bij een gemiddelde projectwaarde van 4.000 euro en een conversie van 30% is dat 6.000 tot 18.000 euro extra omzet per maand. De visuele aard van het vak maakt online marketing bijzonder rendabel: mooie beelden trekken klanten aan die bereid zijn te investeren in kwaliteit.",
+      },
+    ],
+  },
 ];
