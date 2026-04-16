@@ -1552,6 +1552,168 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
-];
+  {
+    slug: "online-marketing-schoonmaakbedrijven",
+    title: "Online marketing voor schoonmaakbedrijven: zo krijg je meer klanten",
+    description: "Praktische online marketing strategie voor schoonmaakbedrijven. Van Google vindbaar worden tot reviews verzamelen — zonder dure bureaus.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Schoonmaakbedrijven", href: "/vakgebieden/schoonmaakbedrijven" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Waarom online marketing onmisbaar is voor schoonmaakbedrijven",
+        body: "De meeste schoonmaakbedrijven groeien via mond-tot-mondreclame en dat werkt, tot het stagneert. Je hebt geen controle over wanneer de volgende klant binnenkomt. Online marketing geeft je die controle: je bent vindbaar op het moment dat iemand zoekt op 'schoonmaakbedrijf in de buurt' of 'kantoorschoonmaak offerte'. Dat zijn warme leads die actief op zoek zijn naar jouw dienst. Het mooie is dat je hiervoor geen groot budget nodig hebt. Een goede Google Business profiel, een professionele website en een handvol reviews brengen je al verder dan 80% van je concurrenten.",
+      },
+      {
+        heading: "Google Business: je gratis etalage",
+        body: "Je Google Business profiel is het eerste wat potentiële klanten zien als ze zoeken op schoonmaakdiensten in jouw regio. Toch hebben veel schoonmaakbedrijven een onvolledig profiel: geen openingstijden, geen foto's van hun werk, geen reactie op reviews. Vul je profiel 100% in. Voeg foto's toe van je team in actie, voor-en-na foto's van schoonmaakklussen, en je bedrijfsauto met logo. Reageer op elke review, positief of negatief. Google beloont actieve profielen met een hogere positie in de lokale zoekresultaten.",
+      },
+      {
+        heading: "Een website die klanten oplevert, niet alleen er mooi uitziet",
+        body: "Veel schoonmaakbedrijven hebben geen website of een verouderde site die op een telefoon niet goed werkt. In 2026 zoekt 70% van de mensen op hun mobiel. Je website hoeft niet ingewikkeld te zijn, maar moet drie dingen doen: duidelijk maken wat je doet en waar je werkt, vertrouwen wekken met reviews en foto's, en het makkelijk maken om contact op te nemen. Een prominente belknop, een kort offerteformulier en je telefoonnummer bovenaan elke pagina. Dat is het. Geen slideshows, geen stockfoto's, geen pagina's vol tekst die niemand leest.",
+      },
+      {
+        heading: "Reviews verzamelen op de automatische piloot",
+        body: "Reviews zijn de belangrijkste vertrouwensfactor voor schoonmaakbedrijven. Een bedrijf met 30 Google-reviews en 4,8 sterren wint het altijd van een concurrent zonder reviews, ook al is die concurrent goedkoper. Het probleem: tevreden klanten laten zelden uit zichzelf een review achter. De oplossing is een automatisch review verzoek per SMS of e-mail na elke afgeronde klus. Eén berichtje met een directe link naar je Google-reviews pagina. Geen gedoe, geen handmatig mailen. Binnen drie maanden heb je tientallen echte reviews.",
+      },
+      {
+        heading: "Lokale SEO: vindbaar worden in jouw werkgebied",
+        body: "Als iemand zoekt op 'schoonmaakbedrijf Rotterdam' of 'glazenwasser Den Haag', wil je bovenaan staan. Dat begint met je website. Benoem op elke pagina de steden en wijken waar je werkt. Maak aparte pagina's voor je belangrijkste diensten: kantoorschoonmaak, particuliere schoonmaak, glazenwassen, vve-schoonmaak. Elke pagina target een andere zoekopdracht. Combineer dit met je Google Business profiel en regelmatige reviews, en je klimt vanzelf in de lokale zoekresultaten.",
+      },
+      {
+        heading: "Social media: nuttig maar niet je prioriteit",
+        body: "Facebook en Instagram kunnen werken voor schoonmaakbedrijven, vooral voor-en-na foto's doen het goed. Maar het is niet je eerste prioriteit. Mensen zoeken niet op Instagram naar een schoonmaakbedrijf, ze zoeken op Google. Investeer eerst in je Google Business profiel, website en reviews. Als dat staat, kun je social media gebruiken als extra kanaal om je werk te laten zien en om top-of-mind te blijven bij bestaande klanten.",
+      },
+      {
+        heading: "Wat levert online marketing concreet op?",
+        body: "Een schoonmaakbedrijf met een geoptimaliseerd Google Business profiel, 25+ reviews en een professionele website kan rekenen op 5-15 extra aanvragen per maand uit organisch zoekverkeer alleen. Bij een conversie van 30% en een gemiddelde klantwaarde van 200 euro per maand is dat 300 tot 900 euro extra maandomzet, structureel. Tel daar de herhaalopdrachten bij op die schoonmaakbedrijven typisch krijgen en de lifetime value per klant stijgt snel naar duizenden euro's.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-stukadoors",
+    title: "Online marketing voor stukadoors: meer klanten via Google",
+    description: "Zo zet je als stukadoor online marketing in om structureel meer klanten te krijgen. Praktische tips voor Google, reviews en je website.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Stukadoors", href: "/vakgebieden/stukadoors" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "De stukadoorsmarkt is lokaal — en dat is je kans",
+        body: "Stukadoors werken bijna altijd lokaal, binnen een straal van 30-50 kilometer. Dat betekent dat je niet hoeft te concurreren met heel Nederland, alleen met de stukadoors in jouw regio. En de meeste van hen doen niets aan online marketing. Ze leven van mond-tot-mondreclame en Werkspot. Als jij als een van de weinigen wél goed vindbaar bent op Google, pak je een onevenredig groot deel van de nieuwe klanten. De drempel is laag, de beloning is hoog.",
+      },
+      {
+        heading: "Google Business optimaliseren als stukadoor",
+        body: "Je Google Business profiel is je belangrijkste online asset. Wanneer iemand zoekt op 'stukadoor in de buurt' toont Google de lokale resultaten met kaart. Hier wil je staan. Vul je profiel volledig in: alle diensten (glad stucwerk, sierpleister, spachtelputz, wanden, plafonds), je werkgebied, openingstijden en contactgegevens. Upload minstens 10 foto's van je werk, liefst voor-en-na. Vraag klanten actief om reviews. Een profiel met 20+ reviews en een score van 4,7+ verschijnt bijna altijd in de top 3 van lokale resultaten.",
+      },
+      {
+        heading: "Je website als digitale visitekaartje",
+        body: "Als stukadoor heb je geen uitgebreide website nodig. Wat je wel nodig hebt: een homepage die direct duidelijk maakt wat je doet en waar je werkt, een pagina met projectfoto's die je vakmanschap laten zien, en een contactpagina met telefoonknop en offerteformulier. Zorg dat de teksten de woorden bevatten die klanten zoeken: 'stukadoor Amsterdam', 'muren stucen', 'plafond glad pleisteren', 'sierpleister aanbrengen'. Geen vakjargon, maar de taal die een huiseigenaar gebruikt.",
+      },
+      {
+        heading: "Reviews: het verschil tussen jou en de concurrent",
+        body: "Een stukadoor met 35 Google-reviews is direct geloofwaardiger dan eentje zonder. Klanten kijken naar reviews voordat ze bellen, dat is een feit. Het verzamelen hoeft niet moeilijk te zijn: stuur na elke klus een korte SMS met een directe link naar je Google-reviews pagina. De meeste tevreden klanten laten graag een review achter als je het ze makkelijk maakt. Eén berichtje, één klik, klaar. Na drie maanden heb je een reviewprofiel waar je concurrent jaloers op is.",
+      },
+      {
+        heading: "Werkspot of eigen leads: wat is slimmer?",
+        body: "Veel stukadoors gebruiken Werkspot of vergelijkbare platforms. Dat werkt, maar je concurreert direct op prijs met vijf andere stukadoors die dezelfde aanvraag krijgen. En je betaalt per lead, ongeacht of je de klus krijgt. Met een eigen website en goed Google Business profiel krijg je leads waar je niet voor betaalt en waar je niet op prijs hoeft te concurreren. De klant heeft jou gevonden, niet een lijst van vijf alternatieven. De conversie ligt daardoor twee tot drie keer hoger dan bij platformleads.",
+      },
+      {
+        heading: "Wat levert het concreet op?",
+        body: "Een stukadoor met een geoptimaliseerde Google-aanwezigheid kan rekenen op 3-8 extra aanvragen per maand vanuit organisch zoekverkeer. Bij een gemiddelde kluswaarde van 2.500 euro en een conversie van 40% is dat 3.000 tot 8.000 euro extra omzet per maand. Zonder advertentiekosten, zonder leadkosten, zonder te concurreren op prijs. De investering in een goede website en reviewsysteem verdien je binnen de eerste maand terug.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-schilders",
+    title: "Online marketing voor schilders: meer klanten zonder Werkspot",
+    description: "Zo krijg je als schilder structureel meer klanten via Google, reviews en je eigen website — zonder afhankelijk te zijn van platforms.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Schilders", href: "/vakgebieden/schilders" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Waarom online marketing voor schilders werkt",
+        body: "De meeste schilders leven van mond-tot-mondreclame en dat is een solide basis. Maar het is onvoorspelbaar: soms heb je meer werk dan je aankan, soms is het stil. Online marketing geeft je een constante stroom aanvragen bovenop je bestaande netwerk. Wanneer iemand in jouw regio zoekt op 'schilder nodig' of 'huis laten schilderen kosten', wil je dat ze jou vinden. En het mooie is: de meeste schilders doen hier niets aan. Dat maakt het relatief makkelijk om op te vallen.",
+      },
+      {
+        heading: "Google Business: gratis en het meest effectief",
+        body: "Als een huiseigenaar zoekt op 'schilder in de buurt' toont Google een kaart met lokale bedrijven. Dit is waar je wilt staan. Je Google Business profiel is gratis en de belangrijkste factor voor lokale vindbaarheid. Vul alles in: diensten (binnenschilderwerk, buitenschilderwerk, houtrotherstel, behangen, lakwerk), werkgebied, en upload foto's van je projecten. Klanten willen zien wat je kunt. Vraag na elke klus om een review. Een schilder met 40 reviews en 4,8 sterren krijgt meer telefontjes dan een concurrent die beter schildert maar online onzichtbaar is.",
+      },
+      {
+        heading: "Een schilderswebsite die leads oplevert",
+        body: "Je website hoeft niet fancy te zijn. Wat hij wel moet doen: direct laten zien dat je schilder bent in regio X, projectfoto's tonen die je vakmanschap bewijzen, en het belachelijk makkelijk maken om een offerte aan te vragen. Zet je telefoonnummer groot bovenaan. Voeg een simpel formulier toe. Schrijf teksten met de woorden die klanten zoeken: 'buitenschilderwerk Rotterdam', 'kozijnen laten schilderen', 'schilder offerte aanvragen'. Elke pagina is een kans om gevonden te worden op een zoekterm waar je concurrent niet op scoort.",
+      },
+      {
+        heading: "Meer klanten als schilder: de reviewstrategie",
+        body: "Reviews zijn het verschil tussen gebeld worden en overgeslagen worden. Een klant die drie schilders vergelijkt kiest bijna altijd degene met de meeste en beste reviews. Het verzamelen is simpel: stuur na elke klus een SMS met een link naar je Google-reviews pagina. Automatiseer dit zodat je er niet over na hoeft te denken. Binnen zes maanden heb je een reviewprofiel dat voor je werkt, 24 uur per dag, 7 dagen per week.",
+      },
+      {
+        heading: "Seizoensgebondenheid slim benutten",
+        body: "Schilderwerk is seizoensgebonden: buitenwerk piekt in het voorjaar en de zomer. Slim online marketing speelt hierop in. Begin in januari en februari al te investeren in je vindbaarheid zodat je er staat wanneer het seizoen begint. Veel schilders wachten tot maart en zijn dan te laat: Google heeft tijd nodig om veranderingen te verwerken. In het laagseizoen focus je op binnenschilderwerk en onderhoud. Pas je websiteteksten en Google Business profiel aan per seizoen.",
+      },
+      {
+        heading: "Wat levert het op: een rekenvoorbeeld",
+        body: "Een schilder die lokaal goed vindbaar is kan rekenen op 5-10 extra offerteaanvragen per maand via Google. Bij een gemiddelde kluswaarde van 3.000 euro en een conversie van 35% is dat 5.250 tot 10.500 euro extra omzet per maand. Structureel, zonder advertentiekosten en zonder te concurreren met vier andere schilders op dezelfde lead. Gebruik onze leadwaarde calculator om dit voor jouw situatie door te rekenen.",
+      },
+    ],
+  },
+  {
+    slug: "online-marketing-verhuizers",
+    title: "Online marketing voor verhuisbedrijven: zo vul je je planning",
+    description: "Praktische online marketing tips voor verhuisbedrijven. Van Google Maps tot reviews en een website die boekingen oplevert.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-16",
+    relatedLinks: [
+      { label: "Verhuisbedrijven", href: "/vakgebieden/verhuisbedrijven" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "De verhuismarkt is online — ben jij dat ook?",
+        body: "Bijna niemand zoekt meer in de Gouden Gids naar een verhuisbedrijf. Mensen googelen 'verhuisbedrijf offerte', 'verhuizen kosten' of 'verhuisbedrijf in de buurt' en kiezen uit de eerste resultaten. Als je daar niet staat, besta je niet voor deze klanten. De verhuisbranche is competitief, maar de meeste verhuisbedrijven investeren niet in online marketing. Ze staan op vergelijkingssites en hopen op het beste. Dat biedt kansen voor wie het wél goed aanpakt.",
+      },
+      {
+        heading: "Google Business: eerste stap, grootste impact",
+        body: "Je Google Business profiel bepaalt of je verschijnt in de lokale zoekresultaten en op Google Maps. Dit is waar de meeste verhuisklanten beginnen. Vul je profiel compleet in: diensten (particulier verhuizen, zakelijk, internationaal, inboedel opslag), werkgebied, openingstijden. Upload foto's van je verhuiswagens, je team in actie en tevreden klanten. Een verhuisbedrijf met een compleet profiel en goede reviews staat automatisch hoger dan concurrenten met een kaal profiel.",
+      },
+      {
+        heading: "Een verhuiswebsite die boekingen oplevert",
+        body: "De website van een verhuisbedrijf moet één ding doen: het zo makkelijk mogelijk maken om een offerte aan te vragen. Zet een offerteformulier op elke pagina: verhuisdatum, van-adres, naar-adres, aantal kamers. Hoe minder velden, hoe meer aanvragen. Voeg een tariefpagina toe met richtprijzen, dat wekt vertrouwen en filtert direct op klanten die bij je budget passen. Schrijf aparte pagina's voor elke stad waar je actief bent: 'verhuisbedrijf Amsterdam', 'verhuizen Rotterdam'. Google beloont specifieke content.",
+      },
+      {
+        heading: "Reviews zijn alles in de verhuisbranche",
+        body: "Verhuizen is stressvol en klanten willen zekerheid dat ze een betrouwbaar bedrijf kiezen. Reviews zijn daarbij de doorslaggevende factor. Een verhuisbedrijf met 50+ Google-reviews en een score van 4,7+ wint het vrijwel altijd van goedkopere concurrenten met weinig of geen reviews. Automatiseer je reviewverzoeken: stuur de dag na de verhuizing een SMS met een bedankje en een link naar je Google-reviews. Het kost je niets en levert je maand na maand nieuwe klanten op.",
+      },
+      {
+        heading: "Vergelijkingssites vs. eigen kanalen",
+        body: "Veel verhuisbedrijven zijn afhankelijk van vergelijkingssites voor hun leads. Het probleem: je concurreert direct op prijs met vier andere bedrijven en je betaalt per lead. Via je eigen website en Google komen leads binnen waar je niet op prijs hoeft te concurreren. De klant heeft specifiek jouw bedrijf gevonden en belt alleen jou. De conversie is twee tot drie keer hoger en de marge is beter omdat je niet onder druk staat van een prijsvergelijking.",
+      },
+      {
+        heading: "Seizoenspieken slim opvangen",
+        body: "De verhuismarkt heeft duidelijke pieken: juli en augustus (schoolvakanties), begin januari (nieuwjaar, nieuwe start) en rond oplevering van nieuwbouwwijken. Zorg dat je online aanwezigheid op orde is voordat het piekseizoen begint. Begin in mei met het optimaliseren van je profiel voor de zomerpiek. In het laagseizoen kun je investeren in het verzamelen van reviews en het verbeteren van je website, zodat je er klaar voor bent wanneer de vraag aantrekt.",
+      },
+      {
+        heading: "Wat levert online marketing op voor een verhuisbedrijf?",
+        body: "Een verhuisbedrijf dat lokaal goed vindbaar is en een sterk reviewprofiel heeft kan rekenen op 8-20 extra offerteaanvragen per maand. Bij een gemiddelde verhuiswaarde van 1.200 euro en een conversie van 25% is dat 2.400 tot 6.000 euro extra omzet per maand. Structureel, elke maand, zonder advertentiekosten. De investering in een goede website en geautomatiseerd reviewsysteem is binnen twee weken terugverdiend.",
+      },
+    ],
   },
 ];
