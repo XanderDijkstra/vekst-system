@@ -61,25 +61,25 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `Website & Marketing Systeem voor ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`,
+    name: `Nettside & markedsføringssystem for ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`,
     provider: {
       "@type": "Organization",
-      name: "Aannemer Systeem",
+      name: "Vekst Systemet",
       url: SITE_URL,
       telephone: "+4740185596",
-      email: "info@aannemersysteem.com",
+      email: "info@vekst-systemet.no",
     },
-    description: `Complete marketing systeem voor ${d.bedrijf}en: website, lokale SEO, reviews automatisering en lead opvolging.`,
-    areaServed: { "@type": "Country", name: "Nederland" },
+    description: `Komplett markedsføringssystem for ${d.bedrijf}: nettside, lokal SEO, automatiske anmeldelser og lead-oppfølging.`,
+    areaServed: { "@type": "Country", name: "Norge" },
     offers: {
       "@type": "Offer",
-      price: "279",
-      priceCurrency: "EUR",
+      price: "2990",
+      priceCurrency: "NOK",
       priceSpecification: {
         "@type": "UnitPriceSpecification",
-        price: "279",
-        priceCurrency: "EUR",
-        unitText: "maand",
+        price: "2990",
+        priceCurrency: "NOK",
+        unitText: "måned",
       },
     },
   };
@@ -88,8 +88,8 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: `Voor ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`, item: pageUrl },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: `For ${d.plural.charAt(0).toUpperCase() + d.plural.slice(1)}`, item: pageUrl },
     ],
   };
 
@@ -103,7 +103,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         <meta property="og:description" content={d.metaDescription} />
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <meta property="og:site_name" content={SITE_NAME} />
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -160,7 +160,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
               </Link>
             </Button>
             <Button asChild variant="link" className="text-primary-foreground/80 hover:text-primary-foreground">
-              <Link to="/diensten">Bekijk onze diensten →</Link>
+              <Link to="/diensten">Se våre tjenester →</Link>
             </Button>
           </motion.div>
         </div>
@@ -257,9 +257,9 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
               <TableHeader>
                 <TableRow>
                   <TableHead className="w-1/4"></TableHead>
-                  <TableHead>Werkspot / Platforms</TableHead>
-                  <TableHead>Traditioneel Bureau</TableHead>
-                  <TableHead className="text-accent font-semibold">Aannemer Systeem</TableHead>
+                  <TableHead>Mittanbud / Plattformer</TableHead>
+                  <TableHead>Tradisjonelt byrå</TableHead>
+                  <TableHead className="text-accent font-semibold">Vekst Systemet</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -303,7 +303,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
       <section className="py-20 md:py-28 bg-secondary">
         <div className="container max-w-3xl">
           <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-            Veelgestelde vragen over marketing voor {d.plural}
+            Ofte stilte spørsmål om markedsføring for {d.plural}
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-10">
             <Accordion type="single" collapsible className="space-y-3">
@@ -331,18 +331,18 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         <section className="py-12 bg-card">
           <div className="container max-w-4xl text-center">
             <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
-              Meer over websites
+              Mer om nettsider
             </p>
             <h3 className="text-2xl font-bold text-foreground">
-              Professionele website voor {d.plural}?
+              Profesjonell nettside for {d.plural}?
             </h3>
             <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-              Bekijk wat wij maken voor {d.plural} - van ontwerp tot SEO-optimalisatie.
+              Se hva vi bygger for {d.plural} - fra design til SEO-optimalisering.
             </p>
             <div className="mt-6">
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
                 <Link to={`/${servicePageSlug}`}>
-                  Websites voor {d.plural} <ArrowRight className="ml-2 h-4 w-4" />
+                  Nettsider for {d.plural} <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
@@ -355,7 +355,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         <section className="py-12 bg-background">
           <div className="container max-w-4xl text-center">
             <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
-              Lees meer
+              Les mer
             </p>
             <h3 className="text-2xl font-bold text-foreground">
               {marketingArticle.title}
@@ -366,7 +366,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
             <div className="mt-6">
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
                 <Link to={`/kennisbank/${marketingArticle.slug}`}>
-                  Lees het artikel <ArrowRight className="ml-2 h-4 w-4" />
+                  Les artikkelen <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
@@ -378,7 +378,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
       <section className="py-12 bg-card">
         <div className="container max-w-4xl">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
-            Ook voor andere vakgebieden
+            Også for andre fagområder
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             {d.relatedTrades.map((trade, i) => (
@@ -387,7 +387,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
                 to={`/vakgebieden/${trade.slug}`}
                 className="rounded-xl border border-border px-4 py-2 text-sm font-medium text-muted-foreground hover:border-accent hover:text-accent transition-colors duration-200"
               >
-                Website voor {trade.label} →
+                Nettside for {trade.label} →
               </Link>
             ))}
           </div>
