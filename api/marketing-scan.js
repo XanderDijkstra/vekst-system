@@ -199,7 +199,23 @@ Regels:
 
   if (!resp.ok) {
     const body = await resp.text().catch(() => "");
-    throw new Error(`Analyse mislukt (${resp.status}): ${body.slice(0, 200)}`);
+    let apiMsg = "";
+    try {
+      const parsed = JSON.parse(body);
+      apiMsg = parsed?.error?.message || parsed?.message || "";
+    } catch {
+      apiMsg = body.slice(0, 200);
+    }
+    if (resp.status === 400 && /credit balance/i.test(apiMsg)) {
+      throw new Error("De scan-service is tijdelijk niet beschikbaar. Probeer het later opnieuw.");
+    }
+    if (resp.status === 401) {
+      throw new Error("De scan-service is niet correct geconfigureerd.");
+    }
+    if (resp.status === 429) {
+      throw new Error("Te veel scans tegelijk. Probeer het over een minuut opnieuw.");
+    }
+    throw new Error("Analyse mislukt. Probeer het later opnieuw.");
   }
 
   const data = await resp.json();
