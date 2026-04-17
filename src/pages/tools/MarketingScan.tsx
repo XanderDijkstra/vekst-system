@@ -44,10 +44,10 @@ interface ScanResult {
 }
 
 const CATEGORY_ICONS: Record<string, typeof Search> = {
-  Vindbaarheid: Search,
-  Technisch: ShieldCheck,
-  Vertrouwen: Eye,
-  Conversie: MousePointerClick,
+  Synlighet: Search,
+  Teknisk: ShieldCheck,
+  Tillit: Eye,
+  Konvertering: MousePointerClick,
 };
 
 const STATUS_CONFIG = {
@@ -104,14 +104,14 @@ const MarketingScan = () => {
       const resp = await fetch("/api/marketing-scan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: url.trim() }),
+        body: JSON.stringify({ url: url.trim(), language: "nb-NO" }),
       });
 
       const data = await resp.json();
-      if (!resp.ok || !data.success) throw new Error(data.error || "Scan mislukt");
+      if (!resp.ok || !data.success) throw new Error(data.error || "Skanning mislyktes");
       setResult(data);
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : "Er ging iets mis. Probeer het opnieuw.");
+      setError(err instanceof Error ? err.message : "Noe gikk galt. Prøv igjen.");
     } finally {
       setLoading(false);
     }
@@ -120,19 +120,19 @@ const MarketingScan = () => {
   const pageSchema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "Gratis Marketing Scan voor Aannemers",
+    name: "Gratis markedsføringsscan for håndverkere",
     url: PAGE_URL,
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+    offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
     description:
-      "Scan je aannemer-website en krijg direct een rapport met verbeterpunten voor vindbaarheid, techniek, vertrouwen en conversie.",
+      "Skann håndverker-nettsiden din og få umiddelbart en rapport med forbedringspunkter for synlighet, teknikk, tillit og konvertering.",
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-        { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-        { "@type": "ListItem", position: 3, name: "Marketing Scan", item: PAGE_URL },
+        { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+        { "@type": "ListItem", position: 3, name: "Markedsføringsscan", item: PAGE_URL },
       ],
     },
   };
@@ -140,20 +140,20 @@ const MarketingScan = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Gratis Marketing Scan voor Aannemers | {SITE_NAME}</title>
+        <title>Gratis markedsføringsscan for håndverkere | {SITE_NAME}</title>
         <meta
           name="description"
-          content="Scan je website en krijg direct een gratis rapport: vindbaarheid, techniek, vertrouwen en conversie. Speciaal voor aannemers en bouwbedrijven."
+          content="Skann nettsiden din og få umiddelbart en gratis rapport: synlighet, teknikk, tillit og konvertering. Spesielt for håndverkere og byggefirmaer."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Gratis Marketing Scan voor Aannemers" />
+        <meta property="og:title" content="Gratis markedsføringsscan for håndverkere" />
         <meta
           property="og:description"
-          content="Scan je website en krijg direct een gratis rapport met verbeterpunten."
+          content="Skann nettsiden din og få umiddelbart en gratis rapport med forbedringspunkter."
         />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
       </Helmet>
 
@@ -161,17 +161,17 @@ const MarketingScan = () => {
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container max-w-3xl text-center">
           <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Gratis tool
+            Gratis verktøy
           </motion.p>
           <motion.h1
             {...fadeInUp}
             className="text-3xl md:text-5xl font-bold tracking-tight leading-tight"
           >
-            Hoe scoort jouw aannemer-website?
+            Hvor godt scorer håndverker-nettsiden din?
           </motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
-            Vul je website-URL in en krijg binnen 30 seconden een gratis rapport met
-            concrete verbeterpunten - speciaal voor aannemers en bouwbedrijven.
+            Fyll inn nettside-URL-en din og få innen 30 sekunder en gratis rapport med
+            konkrete forbedringspunkter - spesielt for håndverkere og byggefirmaer.
           </motion.p>
 
           <motion.form
@@ -183,7 +183,7 @@ const MarketingScan = () => {
               <Globe className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
                 type="text"
-                placeholder="www.jouwbedrijf.nl"
+                placeholder="www.firmaetditt.no"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
                 className="pl-10 h-12 bg-white text-foreground border-0"
@@ -199,12 +199,12 @@ const MarketingScan = () => {
               {loading ? (
                 <>
                   <Loader2 className="h-4 w-4 animate-spin mr-2" />
-                  Scannen…
+                  Skanner…
                 </>
               ) : (
                 <>
                   <Search className="h-4 w-4 mr-2" />
-                  Scan mijn website
+                  Skann nettsiden min
                 </>
               )}
             </Button>
@@ -233,9 +233,9 @@ const MarketingScan = () => {
           >
             <div className="container max-w-md text-center">
               <Loader2 className="h-10 w-10 animate-spin text-accent mx-auto" />
-              <p className="mt-6 text-lg font-medium text-foreground">Je website wordt gescand…</p>
+              <p className="mt-6 text-lg font-medium text-foreground">Nettsiden din skannes…</p>
               <p className="mt-2 text-sm text-muted-foreground">
-                We analyseren vindbaarheid, techniek, vertrouwen en conversie. Dit duurt 10–30 seconden.
+                Vi analyserer synlighet, teknikk, tillit og konvertering. Dette tar 10–30 sekunder.
               </p>
             </div>
           </motion.section>
@@ -272,7 +272,7 @@ const MarketingScan = () => {
                   className="mb-12 rounded-2xl border-2 border-accent/30 bg-accent/5 p-6 md:p-8"
                 >
                   <h3 className="text-lg font-semibold text-foreground mb-4">
-                    Top 3 verbeterpunten
+                    Topp 3 forbedringspunkter
                   </h3>
                   <ol className="space-y-3">
                     {result.topActions.map((action, i) => (
@@ -344,11 +344,11 @@ const MarketingScan = () => {
                 className="mt-16 rounded-2xl bg-primary p-8 md:p-12 text-center"
               >
                 <h3 className="text-2xl font-bold text-primary-foreground">
-                  Wil je deze punten laten fixen?
+                  Vil du få disse punktene fikset?
                 </h3>
                 <p className="mt-3 text-primary-foreground/70 max-w-lg mx-auto">
-                  Wij bouwen websites en marketing-systemen specifiek voor aannemers.
-                  Plan een gratis gesprek en we lopen je rapport samen door.
+                  Vi bygger nettsider og markedsføringssystemer spesielt for håndverkere.
+                  Planlegg en gratis samtale, så går vi gjennom rapporten sammen.
                 </p>
                 <Button
                   asChild
@@ -356,7 +356,7 @@ const MarketingScan = () => {
                   className="mt-6 bg-accent text-accent-foreground hover:bg-accent/90"
                 >
                   <Link to="/demo">
-                    Plan een gratis gesprek
+                    Planlegg en gratis samtale
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
@@ -372,29 +372,29 @@ const MarketingScan = () => {
           <div className="container max-w-3xl">
             <motion.div {...fadeInUp}>
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Wat scant deze tool?
+                Hva skanner dette verktøyet?
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
                 {[
                   {
                     icon: Search,
-                    title: "Vindbaarheid (SEO)",
-                    desc: "Title tag, meta description, h1, canonical URL, structured data - alles wat Google nodig heeft.",
+                    title: "Synlighet (SEO)",
+                    desc: "Title tag, meta description, h1, canonical URL, structured data - alt Google trenger.",
                   },
                   {
                     icon: ShieldCheck,
-                    title: "Technisch",
-                    desc: "HTTPS, mobiel-vriendelijk, afbeeldingen met alt-tekst, viewport instellingen.",
+                    title: "Teknisk",
+                    desc: "HTTPS, mobilvennlig, bilder med alt-tekst, viewport-innstillinger.",
                   },
                   {
                     icon: Eye,
-                    title: "Vertrouwen",
-                    desc: "Telefoonnummer, e-mailadres, KVK-nummer, WhatsApp - signalen die bezoekers overtuigen.",
+                    title: "Tillit",
+                    desc: "Telefonnummer, e-postadresse, organisasjonsnummer, WhatsApp - signaler som overbeviser besøkende.",
                   },
                   {
                     icon: MousePointerClick,
-                    title: "Conversie",
-                    desc: "Contactformulier, klikbaar telefoonnummer, call-to-action - kan een bezoeker makkelijk actie ondernemen?",
+                    title: "Konvertering",
+                    desc: "Kontaktskjema, klikkbart telefonnummer, call-to-action - kan en besøkende enkelt ta kontakt?",
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-3">
