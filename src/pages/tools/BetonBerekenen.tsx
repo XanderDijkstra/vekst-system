@@ -21,51 +21,51 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/beton-berekenen`;
 
-const num = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 1 });
-const numInt = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 0 });
-const num2 = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 2 });
+const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
+const numInt = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
+const num2 = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 2 });
 
-/* ── Beton mengsel types ── */
+/* ── Betongblandingstyper ── */
 interface BetonType {
   label: string;
   desc: string;
-  cementKg: number;  // kg cement per m³
-  zandKg: number;    // kg zand per m³
-  grindKg: number;   // kg grind per m³
-  waterL: number;    // liter water per m³
+  cementKg: number;  // kg sement per m³
+  zandKg: number;    // kg sand per m³
+  grindKg: number;   // kg grus per m³
+  waterL: number;    // liter vann per m³
 }
 
 const BETON_TYPES: BetonType[] = [
   {
-    label: "C20/25 - standaard",
-    desc: "Funderingen, vloeren, opritten",
+    label: "C20/25 - standard",
+    desc: "Fundamenter, gulv, oppkjørsler",
     cementKg: 300,
     zandKg: 700,
     grindKg: 1100,
     waterL: 150,
   },
   {
-    label: "C12/15 - mager beton",
-    desc: "Onderlagen, vullingen, niet-dragend",
+    label: "C12/15 - mager betong",
+    desc: "Underlag, fyllmasse, ikke-bærende",
     cementKg: 200,
     zandKg: 800,
     grindKg: 1150,
     waterL: 160,
   },
   {
-    label: "C30/37 - constructief",
-    desc: "Dragende muren, kolommen, balkons",
+    label: "C30/37 - konstruksjonsbetong",
+    desc: "Bærende vegger, søyler, balkonger",
     cementKg: 350,
     zandKg: 650,
     grindKg: 1100,
     waterL: 155,
   },
   {
-    label: "C35/45 - zwaar belast",
-    desc: "Kelders, waterdicht, industrievloeren",
+    label: "C35/45 - tungt belastet",
+    desc: "Kjellere, vanntett, industrigulv",
     cementKg: 400,
     zandKg: 600,
     grindKg: 1050,
@@ -80,28 +80,28 @@ const GRIND_ZAK_KG = 25;
 /* ── FAQ data ── */
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Hoeveel zakken cement heb ik nodig per m³ beton?",
-    a: "Bij standaard C20/25 beton heb je ~300 kg cement per m³ nodig, dat zijn 12 zakken van 25 kg. Bij mager beton (C12/15) is dat ~200 kg (8 zakken), bij constructief beton (C30/37) ~350 kg (14 zakken).",
+    q: "Hvor mange sekker sement trenger jeg per m³ betong?",
+    a: "Ved standard C20/25 betong trenger du ~300 kg sement per m³, det er 12 sekker à 25 kg. Ved mager betong (C12/15) er det ~200 kg (8 sekker), ved konstruksjonsbetong (C30/37) ~350 kg (14 sekker).",
   },
   {
-    q: "Wat is het verschil tussen mager en constructief beton?",
-    a: "Mager beton (C12/15) heeft minder cement en is geschikt voor niet-dragende toepassingen zoals onderlagen en opvullingen. Constructief beton (C30/37 en hoger) bevat meer cement, is sterker en wordt gebruikt voor dragende constructies. De calculator past de verhoudingen automatisch aan.",
+    q: "Hva er forskjellen mellom mager og konstruksjonsbetong?",
+    a: "Mager betong (C12/15) har mindre sement og egner seg for ikke-bærende bruk som underlag og oppfylling. Konstruksjonsbetong (C30/37 og høyere) inneholder mer sement, er sterkere og brukes til bærende konstruksjoner. Kalkulatoren justerer forholdene automatisk.",
   },
   {
-    q: "Hoeveel speling moet ik rekenen bij beton?",
-    a: "Reken altijd 10% extra volume voor morsverlies, ongelijke ondergrond en bekisting die iets uitzet. Bij onregelmatige vormen of slecht voorbereide ondergrond kun je beter 15% aanhouden. De calculator rekent standaard met 10%.",
+    q: "Hvor mye svinn bør jeg regne med for betong?",
+    a: "Regn alltid 10 % ekstra volum for søl, ujevn grunn og forskaling som gir seg litt. Ved uregelmessige former eller dårlig forberedt grunn kan du heller bruke 15 %. Kalkulatoren regner med 10 % som standard.",
   },
   {
-    q: "Kan ik beton zelf mengen of moet ik het bestellen?",
-    a: "Tot ~1 m³ kun je prima zelf mengen met een betonmolen. Boven 1 m³ wordt het al snel efficiënter om stortklaar beton te bestellen bij een betoncentrale. Boven 3 m³ is bestellen bijna altijd voordeliger. De calculator helpt je inschatten hoeveel materiaal je nodig hebt voor zelf mengen.",
+    q: "Kan jeg blande betong selv eller bør jeg bestille?",
+    a: "Opptil ~1 m³ kan du fint blande selv med en betongblander. Over 1 m³ blir det raskt mer effektivt å bestille ferdigbetong fra en betongstasjon. Over 3 m³ er bestilling nesten alltid mest lønnsomt. Kalkulatoren hjelper deg å anslå hvor mye material du trenger for egen blanding.",
   },
   {
-    q: "Hoeveel weegt 1 m³ beton?",
-    a: "Gewapend beton weegt ~2.400 kg/m³, ongewapend beton ~2.300 kg/m³. De grondstoffen (cement + zand + grind + water) samen wegen iets meer dan het eindproduct, omdat er wat verdichting optreedt bij het mengen.",
+    q: "Hvor mye veier 1 m³ betong?",
+    a: "Armert betong veier ~2 400 kg/m³, uarmert betong ~2 300 kg/m³. Råvarene (sement + sand + grus + vann) veier til sammen litt mer enn sluttproduktet, fordi det skjer en viss fortetting ved blanding.",
   },
   {
-    q: "Welke verhouding cement-zand-grind moet ik gebruiken?",
-    a: "De klassieke verhouding voor standaardbeton is 1:2:3 (cement:zand:grind op gewicht). In de praktijk varieert dit per sterkteklasse. De calculator gebruikt de juiste verhoudingen per betontype - je hoeft zelf niet te rekenen.",
+    q: "Hvilket forhold sement-sand-grus bør jeg bruke?",
+    a: "Det klassiske forholdet for standardbetong er 1:2:3 (sement:sand:grus på vekt). I praksis varierer dette etter styrkeklasse. Kalkulatoren bruker riktig forhold per betongtype - du trenger ikke regne selv.",
   },
 ];
 
@@ -111,27 +111,27 @@ const pageSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      name: "Beton berekenen - hoeveel cement, zand en grind per m³ | Aannemer Systeem",
+      name: "Betong kalkulator - hvor mye sement, sand og grus per m³ | Vekst Systemet",
       url: PAGE_URL,
       description:
-        "Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand en grind je moet bestellen. Gratis calculator voor aannemers.",
+        "Beregn hvor mange m³ betong du trenger og hvor mange sekker sement, sand og grus du må bestille. Gratis kalkulator for håndverkere.",
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-          { "@type": "ListItem", position: 3, name: "Bouwmaterialen", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
-          { "@type": "ListItem", position: 4, name: "Beton berekenen", item: PAGE_URL },
+          { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+          { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
+          { "@type": "ListItem", position: 4, name: "Betong kalkulator", item: PAGE_URL },
         ],
       },
     },
     {
       "@type": "SoftwareApplication",
-      name: "Beton berekenen calculator",
+      name: "Betong kalkulator",
       url: PAGE_URL,
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
     },
     {
       "@type": "FAQPage",
@@ -183,17 +183,17 @@ const BetonBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Beton berekenen - hoeveel cement, zand en grind | Aannemer Systeem</title>
+        <title>Betong kalkulator - hvor mye sement, sand og grus | Vekst Systemet</title>
         <meta
           name="description"
-          content="Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand en grind je moet bestellen. Kies betontype, vul afmetingen in - direct resultaat."
+          content="Beregn hvor mange m³ betong du trenger og hvor mange sekker sement, sand og grus du må bestille. Velg betongtype, fyll inn mål - direkte resultat."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Beton berekenen | Gratis calculator | Aannemer Systeem" />
-        <meta property="og:description" content="Bereken hoeveel cement, zand en grind je nodig hebt per m³ beton." />
+        <meta property="og:title" content="Betong kalkulator | Gratis verktøy | Vekst Systemet" />
+        <meta property="og:description" content="Beregn hvor mye sement, sand og grus du trenger per m³ betong." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
       </Helmet>
 
@@ -205,21 +205,21 @@ const BetonBerekenen = () => {
               to="/tools/bouwmaterialen-berekenen"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
-              ← Bouwmaterialen
+              ← Byggematerialer
             </Link>
           </motion.div>
           <motion.h1
             {...fadeInUp}
             className="mt-4 text-4xl md:text-5xl font-bold tracking-tight"
           >
-            Beton berekenen
+            Betong kalkulator
           </motion.h1>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand
-            en grind je moet bestellen - inclusief speling voor morsverlies.
+            Beregn hvor mange m³ betong du trenger og hvor mange sekker sement, sand
+            og grus du må bestille - inkludert svinn for søl.
           </motion.p>
         </div>
       </section>
@@ -227,9 +227,9 @@ const BetonBerekenen = () => {
       {/* Calculator */}
       <section className="py-16 md:py-24 bg-background">
         <div className="container max-w-3xl space-y-10">
-          {/* Beton type selector */}
+          {/* Betongtype-velger */}
           <motion.div {...fadeInUp}>
-            <p className="text-sm font-medium text-foreground mb-3">Betontype</p>
+            <p className="text-sm font-medium text-foreground mb-3">Betongtype</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {BETON_TYPES.map((t, i) => (
                 <button
@@ -251,7 +251,7 @@ const BetonBerekenen = () => {
           {/* Inputs */}
           <motion.div {...fadeInUp} className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <CalcInput
-              label="Lengte"
+              label="Lengde"
               suffix="m"
               value={lengte}
               onChange={setLengte}
@@ -261,7 +261,7 @@ const BetonBerekenen = () => {
               icon={<Ruler className="h-4 w-4" />}
             />
             <CalcInput
-              label="Breedte"
+              label="Bredde"
               suffix="m"
               value={breedte}
               onChange={setBreedte}
@@ -271,7 +271,7 @@ const BetonBerekenen = () => {
               icon={<Ruler className="h-4 w-4" />}
             />
             <CalcInput
-              label="Dikte / hoogte"
+              label="Tykkelse / høyde"
               suffix="cm"
               value={dikte}
               onChange={setDikte}
@@ -281,11 +281,11 @@ const BetonBerekenen = () => {
               slider
               sliderMin={5}
               sliderMax={100}
-              hint="Gangbare diktes: vloer 10-15 cm, fundering 20-30 cm, oprit 12-15 cm"
+              hint="Vanlige tykkelser: gulv 10-15 cm, fundament 20-30 cm, oppkjørsel 12-15 cm"
               icon={<Ruler className="h-4 w-4" />}
             />
             <CalcInput
-              label="Speling / morsverlies"
+              label="Svinn / søl"
               suffix="%"
               value={speling}
               onChange={setSpeling}
@@ -295,7 +295,7 @@ const BetonBerekenen = () => {
               slider
               sliderMin={0}
               sliderMax={30}
-              hint="Standaard 10%. Bij onregelmatige ondergrond 15%."
+              hint="Standard 10 %. Ved ujevn grunn 15 %."
               icon={<Calculator className="h-4 w-4" />}
             />
           </motion.div>
@@ -304,51 +304,51 @@ const BetonBerekenen = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <CalcResultCard
               variant="hero"
-              label="Totaal volume"
+              label="Totalt volum"
               value={`${num2.format(result.volumeBruto)} m³`}
-              caption={`Netto ${num2.format(result.volumeNetto)} m³ + ${speling}% speling`}
+              caption={`Netto ${num2.format(result.volumeNetto)} m³ + ${speling} % svinn`}
               icon={<HardHat className="h-5 w-5" />}
             />
             <CalcResultCard
-              label="Totaal gewicht"
+              label="Totalvekt"
               value={`${numInt.format(result.totaalGewicht)} kg`}
-              caption={`≈ ${num.format(result.totaalGewicht / 1000)} ton`}
+              caption={`≈ ${num.format(result.totaalGewicht / 1000)} tonn`}
             />
           </div>
 
-          {/* Materialen breakdown */}
+          {/* Materialoversikt */}
           <motion.div {...fadeInUp} className="rounded-2xl bg-card border border-border p-6">
             <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
               <Package className="h-5 w-5 text-muted-foreground" />
-              Materialen bestellen
+              Materialer å bestille
             </h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-border text-left">
-                    <th className="pb-2 font-medium text-muted-foreground">Materiaal</th>
-                    <th className="pb-2 font-medium text-muted-foreground text-right">Gewicht</th>
-                    <th className="pb-2 font-medium text-muted-foreground text-right">Zakken (25 kg)</th>
+                    <th className="pb-2 font-medium text-muted-foreground">Material</th>
+                    <th className="pb-2 font-medium text-muted-foreground text-right">Vekt</th>
+                    <th className="pb-2 font-medium text-muted-foreground text-right">Sekker (25 kg)</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-border">
                   <tr>
-                    <td className="py-3 font-medium text-foreground">Cement</td>
+                    <td className="py-3 font-medium text-foreground">Sement</td>
                     <td className="py-3 text-right tabular-nums">{numInt.format(result.cementKg)} kg</td>
-                    <td className="py-3 text-right tabular-nums font-semibold">{result.cementZakken} zakken</td>
+                    <td className="py-3 text-right tabular-nums font-semibold">{result.cementZakken} sekker</td>
                   </tr>
                   <tr>
-                    <td className="py-3 font-medium text-foreground">Zand</td>
+                    <td className="py-3 font-medium text-foreground">Sand</td>
                     <td className="py-3 text-right tabular-nums">{numInt.format(result.zandKg)} kg</td>
-                    <td className="py-3 text-right tabular-nums font-semibold">{result.zandZakken} zakken</td>
+                    <td className="py-3 text-right tabular-nums font-semibold">{result.zandZakken} sekker</td>
                   </tr>
                   <tr>
-                    <td className="py-3 font-medium text-foreground">Grind</td>
+                    <td className="py-3 font-medium text-foreground">Grus</td>
                     <td className="py-3 text-right tabular-nums">{numInt.format(result.grindKg)} kg</td>
-                    <td className="py-3 text-right tabular-nums font-semibold">{result.grindZakken} zakken</td>
+                    <td className="py-3 text-right tabular-nums font-semibold">{result.grindZakken} sekker</td>
                   </tr>
                   <tr>
-                    <td className="py-3 font-medium text-foreground">Water</td>
+                    <td className="py-3 font-medium text-foreground">Vann</td>
                     <td className="py-3 text-right tabular-nums">{numInt.format(result.waterL)} liter</td>
                     <td className="py-3 text-right text-muted-foreground">-</td>
                   </tr>
@@ -356,59 +356,59 @@ const BetonBerekenen = () => {
               </table>
             </div>
             <p className="mt-4 text-xs text-muted-foreground">
-              💡 Meer dan 1 m³ nodig? Overweeg stortklaar beton van een betoncentrale - vaak voordeliger en sneller.
+              💡 Trenger mer enn 1 m³? Vurder ferdigbetong fra en betongstasjon - ofte billigere og raskere.
             </p>
           </motion.div>
 
           {/* Explainer */}
           <motion.div {...fadeInUp} className="max-w-2xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              Hoe werkt de berekening?
+              Hvordan fungerer beregningen?
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              De calculator berekent eerst het <strong>netto volume</strong>: lengte × breedte × dikte.
-              Daar komt je gekozen <strong>speling</strong> bovenop (standaard 10%) voor morsverlies en
-              ongelijke ondergrond. Op basis van het betontype worden de juiste verhoudingen cement, zand
-              en grind berekend.
+              Kalkulatoren beregner først <strong>nettovolumet</strong>: lengde × bredde × tykkelse.
+              Deretter legges det valgte <strong>svinnet</strong> til (standard 10 %) for søl og
+              ujevn grunn. Basert på betongtypen beregnes riktig forhold mellom sement, sand
+              og grus.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld - oprit 5 × 3 m, 15 cm dik (C20/25):</p>
-              <p>Netto volume: 5 × 3 × 0,15 = <strong>2,25 m³</strong></p>
-              <p>Met 10% speling: 2,25 × 1,10 = <strong>2,48 m³</strong></p>
-              <p>Cement: 2,48 × 300 = <strong>743 kg → 30 zakken</strong></p>
-              <p>Zand: 2,48 × 700 = <strong>1.733 kg → 70 zakken</strong></p>
-              <p>Grind: 2,48 × 1.100 = <strong>2.723 kg → 109 zakken</strong></p>
-              <p>Water: 2,48 × 150 = <strong>372 liter</strong></p>
+              <p className="font-semibold">Eksempel - oppkjørsel 5 × 3 m, 15 cm tykk (C20/25):</p>
+              <p>Nettovolum: 5 × 3 × 0,15 = <strong>2,25 m³</strong></p>
+              <p>Med 10 % svinn: 2,25 × 1,10 = <strong>2,48 m³</strong></p>
+              <p>Sement: 2,48 × 300 = <strong>743 kg → 30 sekker</strong></p>
+              <p>Sand: 2,48 × 700 = <strong>1 733 kg → 70 sekker</strong></p>
+              <p>Grus: 2,48 × 1 100 = <strong>2 723 kg → 109 sekker</strong></p>
+              <p>Vann: 2,48 × 150 = <strong>372 liter</strong></p>
             </div>
           </motion.div>
 
           {/* Tips */}
           <motion.div {...fadeInUp} className="max-w-2xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              5 tips voor beton storten
+              5 tips for betongstøp
             </h2>
             <ol className="list-decimal list-inside space-y-3 text-muted-foreground leading-relaxed">
               <li>
-                <strong className="text-foreground">Bereid de ondergrond goed voor</strong> - verdicht
-                de grond en leg eventueel een laag mager beton als ondervloer. Slechte ondergrond
-                leidt tot scheuren.
+                <strong className="text-foreground">Forbered grunnen godt</strong> - komprimer
+                grunnen og legg eventuelt et lag mager betong som underlag. Dårlig grunn
+                fører til sprekker.
               </li>
               <li>
-                <strong className="text-foreground">Gebruik de juiste water-cementfactor</strong> - te
-                veel water maakt het beton zwakker. Houd de mix klam maar niet nat.
+                <strong className="text-foreground">Bruk riktig vann-sement-forhold</strong> - for
+                mye vann gjør betongen svakere. Hold blandingen fuktig, men ikke våt.
               </li>
               <li>
-                <strong className="text-foreground">Stort in één keer</strong> - werknaden zijn
-                zwakke plekken. Plan zo dat je de hele plaat in één sessie kunt storten.
+                <strong className="text-foreground">Støp i ett strekk</strong> - arbeidsfuger er
+                svake punkter. Planlegg slik at hele platen kan støpes i én økt.
               </li>
               <li>
-                <strong className="text-foreground">Trillen of stampen</strong> - verwijder
-                luchtbellen door het verse beton te trillen met een betontrilnaald of af te stampen.
+                <strong className="text-foreground">Vibrer eller stamp</strong> - fjern
+                luftbobler ved å vibrere den ferske betongen med en vibrostav eller stampe den.
               </li>
               <li>
-                <strong className="text-foreground">Nabehandelen</strong> - houd het beton de eerste
-                dagen vochtig (afdekken met folie of nat houden). Te snel drogen veroorzaakt
-                krimpscheuren.
+                <strong className="text-foreground">Etterbehandling</strong> - hold betongen fuktig
+                de første dagene (dekk med plast eller hold våt). For rask tørking gir
+                krympesprekker.
               </li>
             </ol>
           </motion.div>
@@ -416,7 +416,7 @@ const BetonBerekenen = () => {
           {/* Related tools */}
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-              Verwante tools
+              Relaterte verktøy
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link
@@ -424,10 +424,10 @@ const BetonBerekenen = () => {
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                  Tegels berekenen →
+                  Fliskalkulator →
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Hoeveel tegels, lijm en voegmortel heb je nodig?
+                  Hvor mange fliser, flislim og fugemasse trenger du?
                 </p>
               </Link>
               <Link
@@ -435,10 +435,10 @@ const BetonBerekenen = () => {
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                  Verf berekenen →
+                  Maling kalkulator →
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Hoeveel liter verf en blikken heb je nodig?
+                  Hvor mange liter maling og spann trenger du?
                 </p>
               </Link>
             </div>
@@ -447,7 +447,7 @@ const BetonBerekenen = () => {
           {/* FAQ */}
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-              Veelgestelde vragen
+              Ofte stilte spørsmål
             </h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((f, i) => (

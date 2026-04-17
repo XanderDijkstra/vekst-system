@@ -21,14 +21,14 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/behang-berekenen`;
 
-const num = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 1 });
-const numInt = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 0 });
-const num2 = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 2 });
+const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
+const numInt = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
+const num2 = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 2 });
 
-/* ── Rolformaten ── */
+/* ── Rullformater ── */
 interface RolFormaat {
   label: string;
   lengte: number; // m
@@ -36,37 +36,37 @@ interface RolFormaat {
 }
 
 const ROL_FORMATEN: RolFormaat[] = [
-  { label: "Standaard (10,05 × 0,53 m)", lengte: 10.05, breedte: 0.53 },
-  { label: "Breed (10,05 × 0,70 m)", lengte: 10.05, breedte: 0.70 },
-  { label: "Extra breed (10,05 × 1,06 m)", lengte: 10.05, breedte: 1.06 },
-  { label: "Vliesbehang (25 × 1,06 m)", lengte: 25, breedte: 1.06 },
+  { label: "Standard (10,05 × 0,53 m)", lengte: 10.05, breedte: 0.53 },
+  { label: "Bred (10,05 × 0,70 m)", lengte: 10.05, breedte: 0.70 },
+  { label: "Ekstra bred (10,05 × 1,06 m)", lengte: 10.05, breedte: 1.06 },
+  { label: "Vlies-tapet (25 × 1,06 m)", lengte: 25, breedte: 1.06 },
 ];
 
 /* ── FAQ data ── */
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Hoeveel rollen behang heb ik nodig voor een kamer?",
-    a: "Dat hangt af van de kameromtrek, plafondhoogte, het rolformaat en eventueel patroonrapport. Voor een gemiddelde slaapkamer (12 m omtrek, 2,60 m hoog) met standaardrollen heb je ~6 rollen nodig. Gebruik de calculator hierboven voor een exacte berekening.",
+    q: "Hvor mange ruller tapet trenger jeg til et rom?",
+    a: "Det avhenger av romomkrets, takhøyde, rullformat og eventuell mønsterrapport. For et gjennomsnittlig soverom (12 m omkrets, 2,60 m høyt) med standardruller trenger du ~6 ruller. Bruk kalkulatoren over for en nøyaktig beregning.",
   },
   {
-    q: "Wat is patroonrapport en hoeveel extra behang kost dat?",
-    a: "Patroonrapport is de verticale afstand waarna het patroon zich herhaalt. Bij elke baan moet je het patroon laten aansluiten, waardoor je per baan materiaal verliest. Bij een rapport van 53 cm en een plafondhoogte van 2,60 m verlies je tot 53 cm per baan - dat kan 2-3 extra rollen kosten. Bij uni (effen) behang is er geen rapport en dus geen verlies.",
+    q: "Hva er mønsterrapport og hvor mye ekstra tapet koster det?",
+    a: "Mønsterrapport er den vertikale avstanden der mønsteret gjentar seg. For hver bane må du sørge for at mønsteret passer, slik at du mister materiale per bane. Ved en rapport på 53 cm og takhøyde på 2,60 m mister du opptil 53 cm per bane - det kan koste 2-3 ekstra ruller. Ved uni (ensfarget) tapet er det ingen rapport og dermed ikke noe svinn.",
   },
   {
-    q: "Moet ik ramen en deuren aftrekken?",
-    a: "Grote openingen (ramen, deuren, schouwen) trek je af van de wandoppervlakte. Kleine ramen (< 1 m²) worden meestal niet afgetrokken - het extra behang dient als reserve. De calculator laat je het totale oppervlak aan openingen invoeren.",
+    q: "Må jeg trekke fra vinduer og dører?",
+    a: "Store åpninger (vinduer, dører, peiser) trekker du fra veggflaten. Små vinduer (< 1 m²) trekkes vanligvis ikke fra - det ekstra tapetet fungerer som reserve. Kalkulatoren lar deg legge inn totalt areal av åpninger.",
   },
   {
-    q: "Hoeveel behanglijm heb ik nodig?",
-    a: "Reken op ~1 pak behanglijm per 5-6 rollen standaardbehang. Bij zwaar vliesbehang of glasvezelbehang is het verbruik hoger (~1 pak per 4 rollen). Check altijd de verpakking van je lijm voor het exacte verbruik per m².",
+    q: "Hvor mye tapetlim trenger jeg?",
+    a: "Regn med ~1 pakke tapetlim per 5-6 ruller standardtapet. Ved tungt vlies-tapet eller glassfibertapet er forbruket høyere (~1 pakke per 4 ruller). Sjekk alltid pakningen på limet ditt for nøyaktig forbruk per m².",
   },
   {
-    q: "Kan ik behang over oud behang plakken?",
-    a: "Technisch kan het bij glad, goed hechtend behang met maximaal één bestaande laag. Maar het resultaat is bijna altijd beter als je het oude behang verwijdert: minder bultjes, betere hechting en een gladder eindresultaat. Gebruik een behangafstomer voor snel verwijderen.",
+    q: "Kan jeg lime tapet over gammelt tapet?",
+    a: "Teknisk sett er det mulig ved glatt, godt festet tapet med maks ett eksisterende lag. Men resultatet blir nesten alltid bedre om du fjerner det gamle tapetet: færre ujevnheter, bedre heft og et glattere sluttresultat. Bruk en tapetdamper for rask fjerning.",
   },
   {
-    q: "Hoeveel m² zit er op een rol behang?",
-    a: "Een standaardrol (10,05 × 0,53 m) bevat 5,33 m². Een brede rol (10,05 × 1,06 m) bevat 10,65 m². Let op: door patroonrapport en snijverlies is het bruikbare oppervlak per rol altijd minder dan het totale oppervlak.",
+    q: "Hvor mange m² er det på en tapetrull?",
+    a: "En standardrull (10,05 × 0,53 m) inneholder 5,33 m². En bred rull (10,05 × 1,06 m) inneholder 10,65 m². Merk: på grunn av mønsterrapport og svinn er den brukbare flaten per rull alltid mindre enn det totale arealet.",
   },
 ];
 
@@ -76,27 +76,27 @@ const pageSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      name: "Behang berekenen - hoeveel rollen behang nodig | Aannemer Systeem",
+      name: "Tapet kalkulator - hvor mange ruller tapet | Vekst Systemet",
       url: PAGE_URL,
       description:
-        "Bereken hoeveel rollen behang en lijm je nodig hebt. Vul kameromtrek, plafondhoogte en patroonrapport in - direct resultaat.",
+        "Beregn hvor mange ruller tapet og lim du trenger. Fyll inn romomkrets, takhøyde og mønsterrapport - direkte resultat.",
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-          { "@type": "ListItem", position: 3, name: "Bouwmaterialen", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
-          { "@type": "ListItem", position: 4, name: "Behang berekenen", item: PAGE_URL },
+          { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+          { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
+          { "@type": "ListItem", position: 4, name: "Tapet kalkulator", item: PAGE_URL },
         ],
       },
     },
     {
       "@type": "SoftwareApplication",
-      name: "Behang berekenen calculator",
+      name: "Tapet kalkulator",
       url: PAGE_URL,
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
     },
     {
       "@type": "FAQPage",
@@ -113,37 +113,37 @@ const BehangBerekenen = () => {
   const [rolIdx, setRolIdx] = useState(0);
   const [omtrek, setOmtrek] = useState(16); // m
   const [hoogte, setHoogte] = useState(2.6); // m
-  const [openingen, setOpeningen] = useState(4); // m² ramen + deuren
-  const [rapport, setRapport] = useState(0); // cm, 0 = geen patroon
+  const [openingen, setOpeningen] = useState(4); // m² vinduer + dører
+  const [rapport, setRapport] = useState(0); // cm, 0 = ingen mønster
 
   const rol = ROL_FORMATEN[rolIdx];
 
   const result = useMemo(() => {
-    // Wandoppervlak
+    // Veggflate
     const wandM2Bruto = omtrek * hoogte;
     const wandM2Netto = Math.max(0, wandM2Bruto - openingen);
 
-    // Banen berekenen
+    // Beregn baner
     const aantalBanen = Math.ceil(omtrek / rol.breedte);
 
-    // Baanlengte: plafondhoogte + rapport-verlies + 5 cm snijmarge boven/onder
+    // Banelengde: takhøyde + rapportsvinn + 5 cm skjæremargin topp/bunn
     const rapportM = rapport / 100;
     const baanLengteZonderRapport = hoogte + 0.05;
     const baanLengte = rapportM > 0
       ? Math.ceil(baanLengteZonderRapport / rapportM) * rapportM + 0.05
       : baanLengteZonderRapport;
 
-    // Banen per rol
+    // Baner per rull
     const banenPerRol = Math.floor(rol.lengte / baanLengte);
     const banenPerRolSafe = Math.max(1, banenPerRol);
 
-    // Rollen nodig
+    // Ruller nødvendig
     const rollen = Math.ceil(aantalBanen / banenPerRolSafe);
 
-    // Lijm: ~1 pak per 5 rollen standaard
+    // Lim: ~1 pakke per 5 ruller standard
     const lijmPakken = Math.ceil(rollen / 5);
 
-    // Bruikbaar vs totaal
+    // Brukbart vs totalt
     const totaalM2 = rollen * rol.lengte * rol.breedte;
     const verliesM2 = totaalM2 - wandM2Netto;
 
@@ -163,17 +163,17 @@ const BehangBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Behang berekenen - hoeveel rollen behang nodig | Aannemer Systeem</title>
+        <title>Tapet kalkulator - hvor mange ruller tapet | Vekst Systemet</title>
         <meta
           name="description"
-          content="Bereken hoeveel rollen behang en lijm je nodig hebt. Vul kameromtrek, plafondhoogte en patroonrapport in - gratis calculator voor aannemers."
+          content="Beregn hvor mange ruller tapet og lim du trenger. Fyll inn romomkrets, takhøyde og mønsterrapport - gratis kalkulator for håndverkere."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Behang berekenen | Gratis calculator | Aannemer Systeem" />
-        <meta property="og:description" content="Bereken hoeveel rollen behang en lijm je nodig hebt." />
+        <meta property="og:title" content="Tapet kalkulator | Gratis verktøy | Vekst Systemet" />
+        <meta property="og:description" content="Beregn hvor mange ruller tapet og lim du trenger." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
       </Helmet>
 
@@ -185,21 +185,21 @@ const BehangBerekenen = () => {
               to="/tools/bouwmaterialen-berekenen"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
-              ← Bouwmaterialen
+              ← Byggematerialer
             </Link>
           </motion.div>
           <motion.h1
             {...fadeInUp}
             className="mt-4 text-4xl md:text-5xl font-bold tracking-tight"
           >
-            Behang berekenen
+            Tapet kalkulator
           </motion.h1>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Bereken hoeveel rollen behang je nodig hebt op basis van je kameromtrek,
-            plafondhoogte en patroonrapport - inclusief lijm.
+            Beregn hvor mange ruller tapet du trenger basert på romomkrets,
+            takhøyde og mønsterrapport - inkludert lim.
           </motion.p>
         </div>
       </section>
@@ -207,9 +207,9 @@ const BehangBerekenen = () => {
       {/* Calculator */}
       <section className="py-16 md:py-24 bg-background">
         <div className="container max-w-3xl space-y-10">
-          {/* Rol formaat selector */}
+          {/* Rullformat-velger */}
           <motion.div {...fadeInUp}>
-            <p className="text-sm font-medium text-foreground mb-3">Rolformaat</p>
+            <p className="text-sm font-medium text-foreground mb-3">Rullformat</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {ROL_FORMATEN.map((r, i) => (
                 <button
@@ -223,7 +223,7 @@ const BehangBerekenen = () => {
                 >
                   <span className="block font-semibold text-foreground text-sm">{r.label}</span>
                   <span className="block text-xs text-muted-foreground mt-1">
-                    {num2.format(r.lengte * r.breedte)} m² per rol
+                    {num2.format(r.lengte * r.breedte)} m² per rull
                   </span>
                 </button>
               ))}
@@ -233,7 +233,7 @@ const BehangBerekenen = () => {
           {/* Inputs */}
           <motion.div {...fadeInUp} className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <CalcInput
-              label="Omtrek kamer"
+              label="Omkrets rom"
               suffix="m"
               value={omtrek}
               onChange={setOmtrek}
@@ -243,11 +243,11 @@ const BehangBerekenen = () => {
               slider
               sliderMin={4}
               sliderMax={40}
-              hint="Tel alle wanden bij elkaar op"
+              hint="Legg sammen alle vegger"
               icon={<Ruler className="h-4 w-4" />}
             />
             <CalcInput
-              label="Plafondhoogte"
+              label="Takhøyde"
               suffix="m"
               value={hoogte}
               onChange={setHoogte}
@@ -257,22 +257,22 @@ const BehangBerekenen = () => {
               slider
               sliderMin={2}
               sliderMax={4}
-              hint="Standaard woningen: 2,40–2,60 m"
+              hint="Standard boliger: 2,40–2,60 m"
               icon={<Maximize2 className="h-4 w-4" />}
             />
             <CalcInput
-              label="Openingen (ramen + deuren)"
+              label="Åpninger (vinduer + dører)"
               suffix="m²"
               value={openingen}
               onChange={setOpeningen}
               min={0}
               max={50}
               step={0.5}
-              hint="Totaal m² van ramen en deuren aftrekken"
+              hint="Totalt m² vinduer og dører som skal trekkes fra"
               icon={<Scissors className="h-4 w-4" />}
             />
             <CalcInput
-              label="Patroonrapport"
+              label="Mønsterrapport"
               suffix="cm"
               value={rapport}
               onChange={setRapport}
@@ -282,7 +282,7 @@ const BehangBerekenen = () => {
               slider
               sliderMin={0}
               sliderMax={64}
-              hint="0 = uni/effen behang (geen patroon)"
+              hint="0 = uni/ensfarget tapet (uten mønster)"
               icon={<Calculator className="h-4 w-4" />}
             />
           </motion.div>
@@ -291,41 +291,41 @@ const BehangBerekenen = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <CalcResultCard
               variant="hero"
-              label="Rollen behang"
-              value={`${result.rollen} rollen`}
-              caption={`${numInt.format(result.aantalBanen)} banen × ${num.format(result.baanLengte)} m lang - ${result.banenPerRol} banen per rol`}
+              label="Tapetruller"
+              value={`${result.rollen} ruller`}
+              caption={`${numInt.format(result.aantalBanen)} baner × ${num.format(result.baanLengte)} m lange - ${result.banenPerRol} baner per rull`}
               icon={<Package className="h-5 w-5" />}
             />
             <CalcResultCard
-              label="Wandoppervlak"
+              label="Veggflate"
               value={`${num.format(result.wandM2Netto)} m²`}
-              caption={`${num.format(result.wandM2Bruto)} m² bruto − ${num.format(openingen)} m² openingen`}
+              caption={`${num.format(result.wandM2Bruto)} m² brutto − ${num.format(openingen)} m² åpninger`}
             />
           </div>
 
           {/* Extra info cards */}
           <motion.div {...fadeInUp} className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="rounded-2xl bg-card border border-border p-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Behanglijm</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Tapetlim</p>
               <p className="mt-2 text-2xl font-bold text-foreground tabular-nums">
-                {result.lijmPakken} {result.lijmPakken === 1 ? "pak" : "pakken"}
+                {result.lijmPakken} {result.lijmPakken === 1 ? "pakke" : "pakker"}
               </p>
-              <p className="mt-1 text-sm text-muted-foreground">~1 pak per 5 rollen</p>
+              <p className="mt-1 text-sm text-muted-foreground">~1 pakke per 5 ruller</p>
             </div>
             <div className="rounded-2xl bg-card border border-border p-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Totaal m² behang</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Totalt m² tapet</p>
               <p className="mt-2 text-2xl font-bold text-foreground tabular-nums">
                 {num.format(result.totaalM2)} m²
               </p>
-              <p className="mt-1 text-sm text-muted-foreground">Op {result.rollen} rollen</p>
+              <p className="mt-1 text-sm text-muted-foreground">På {result.rollen} ruller</p>
             </div>
             <div className="rounded-2xl bg-card border border-border p-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Snij-/patroonverlies</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Skjære-/mønstersvinn</p>
               <p className="mt-2 text-2xl font-bold text-foreground tabular-nums">
                 {num.format(Math.max(0, result.verliesM2))} m²
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                {rapport > 0 ? "Inclusief patroonverlies" : "Alleen snijmarge"}
+                {rapport > 0 ? "Inkludert mønstersvinn" : "Kun skjæremargin"}
               </p>
             </div>
           </motion.div>
@@ -333,52 +333,52 @@ const BehangBerekenen = () => {
           {/* Explainer */}
           <motion.div {...fadeInUp} className="max-w-2xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              Hoe werkt de berekening?
+              Hvordan fungerer beregningen?
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              De calculator berekent eerst hoeveel <strong>banen</strong> je nodig hebt: de kameromtrek
-              gedeeld door de rolbreedte. Elke baan is de plafondhoogte + snijmarge + eventueel
-              patroonrapport. Het aantal banen per rol bepaalt hoeveel rollen je nodig hebt.
+              Kalkulatoren beregner først hvor mange <strong>baner</strong> du trenger: romomkretsen
+              delt på rullbredden. Hver bane er takhøyden + skjæremargin + eventuell
+              mønsterrapport. Antall baner per rull bestemmer hvor mange ruller du trenger.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld - slaapkamer 4 × 4 m, 2,60 m hoog, standaardrol, rapport 32 cm:</p>
-              <p>Omtrek: 4 × 4 = <strong>16 m</strong></p>
-              <p>Banen: 16 / 0,53 = 30,2 → <strong>31 banen</strong></p>
-              <p>Baanlengte: ⌈2,65 / 0,32⌉ × 0,32 + 0,05 = 9 × 0,32 + 0,05 = <strong>2,93 m</strong></p>
-              <p>Banen per rol: ⌊10,05 / 2,93⌋ = <strong>3 banen</strong></p>
-              <p>Rollen: 31 / 3 = 10,3 → <strong>11 rollen</strong></p>
-              <p className="text-muted-foreground">Zonder rapport (uni): baanlengte 2,65 m → 3 banen/rol → 11 rollen. Hier maakt het rapport weinig verschil, maar bij hogere plafonds scheelt het snel 2-3 rollen.</p>
+              <p className="font-semibold">Eksempel - soverom 4 × 4 m, 2,60 m høyt, standardrull, rapport 32 cm:</p>
+              <p>Omkrets: 4 × 4 = <strong>16 m</strong></p>
+              <p>Baner: 16 / 0,53 = 30,2 → <strong>31 baner</strong></p>
+              <p>Banelengde: ⌈2,65 / 0,32⌉ × 0,32 + 0,05 = 9 × 0,32 + 0,05 = <strong>2,93 m</strong></p>
+              <p>Baner per rull: ⌊10,05 / 2,93⌋ = <strong>3 baner</strong></p>
+              <p>Ruller: 31 / 3 = 10,3 → <strong>11 ruller</strong></p>
+              <p className="text-muted-foreground">Uten rapport (uni): banelengde 2,65 m → 3 baner/rull → 11 ruller. Her gjør rapporten liten forskjell, men ved høyere tak sparer det raskt 2-3 ruller.</p>
             </div>
           </motion.div>
 
           {/* Tips */}
           <motion.div {...fadeInUp} className="max-w-2xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              5 tips voor behangen
+              5 tips for tapetsering
             </h2>
             <ol className="list-decimal list-inside space-y-3 text-muted-foreground leading-relaxed">
               <li>
-                <strong className="text-foreground">Koop altijd 1 rol extra</strong> - rollen uit
-                dezelfde batch hebben exact dezelfde kleur. Nabijbestellen kan een subtiel
-                kleurverschil opleveren.
+                <strong className="text-foreground">Kjøp alltid 1 rull ekstra</strong> - ruller fra
+                samme batch har nøyaktig samme farge. Etterbestilling kan gi en subtil
+                fargeforskjell.
               </li>
               <li>
-                <strong className="text-foreground">Check het batchnummer</strong> - alle rollen
-                moeten hetzelfde batchnummer hebben om kleurverschil te voorkomen.
+                <strong className="text-foreground">Sjekk batchnummeret</strong> - alle ruller
+                må ha samme batchnummer for å unngå fargeforskjell.
               </li>
               <li>
-                <strong className="text-foreground">Begin naast het raam</strong> - werk vanaf het
-                licht weg. Zo vallen de naden het minst op in het strijklicht.
+                <strong className="text-foreground">Start ved siden av vinduet</strong> - jobb bort fra
+                lyset. Da synes skjøtene minst i sidelyset.
               </li>
               <li>
-                <strong className="text-foreground">Gebruik een loodlijn</strong> - trek een
-                verticale lijn op de muur als startpunt. Muren zijn zelden perfect recht - zonder
-                loodlijn loopt je behang al na een paar banen scheef.
+                <strong className="text-foreground">Bruk et loddsnor</strong> - trekk en
+                vertikal linje på veggen som utgangspunkt. Vegger er sjelden helt rette - uten
+                loddsnor blir tapetet skjevt allerede etter noen baner.
               </li>
               <li>
-                <strong className="text-foreground">Wek de lijm</strong> - bij papierbehang moet de
-                lijm 5-10 minuten intrekken (weken) voordat je plakt. Bij vliesbehang breng je de
-                lijm direct op de muur aan en plak je droog.
+                <strong className="text-foreground">Vekk limet</strong> - ved papirtapet må
+                limet trekke inn 5-10 minutter (vekking) før du limer. Ved vlies-tapet påfører du
+                limet direkte på veggen og limer tørt.
               </li>
             </ol>
           </motion.div>
@@ -386,7 +386,7 @@ const BehangBerekenen = () => {
           {/* Related tools */}
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-              Verwante tools
+              Relaterte verktøy
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link
@@ -394,10 +394,10 @@ const BehangBerekenen = () => {
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                  Verf berekenen →
+                  Maling kalkulator →
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Hoeveel liter verf en blikken heb je nodig?
+                  Hvor mange liter maling og spann trenger du?
                 </p>
               </Link>
               <Link
@@ -405,10 +405,10 @@ const BehangBerekenen = () => {
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                  Laminaat berekenen →
+                  Laminat kalkulator →
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Hoeveel pakken laminaat en ondervloer heb je nodig?
+                  Hvor mange pakker laminat og underlag trenger du?
                 </p>
               </Link>
             </div>
@@ -417,7 +417,7 @@ const BehangBerekenen = () => {
           {/* FAQ */}
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-              Veelgestelde vragen
+              Ofte stilte spørsmål
             </h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((f, i) => (
