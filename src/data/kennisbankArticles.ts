@@ -3593,4 +3593,94 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "google-mijn-bedrijf-optimaliseren-aannemer",
+    title: "Google Mijn Bedrijf optimaliseren als aannemer: complete gids 2026",
+    description: "Zo optimaliseer je Google Mijn Bedrijf als aannemer: categorieën, foto's, reviews, posts en diensten. Stap-voor-stap gids voor meer leads.",
+    category: "Marketing",
+    readTime: "8 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Werkspot alternatief", href: "/vergelijk/werkspot-alternatief" },
+    ],
+    sections: [
+      {
+        heading: "Waarom Google Mijn Bedrijf het belangrijkste marketingkanaal is voor aannemers",
+        body: "Wanneer een huiseigenaar 'aannemer [stad]' googelt, verschijnen eerst drie kaartresultaten: het zogenaamde local pack. 70% van de klikken gaat naar deze drie bedrijven. Daaronder staan pas de organische zoekresultaten. Als aannemer wil je in dat local pack staan — en dat bepaalt Google op basis van je Google Mijn Bedrijf (GMB) profiel. Een volledig, actief en goed geoptimaliseerd profiel is het belangrijkste dat je kunt doen voor lokale vindbaarheid.",
+      },
+      {
+        heading: "Stap 1: Kies de juiste hoofd- en subcategorieën",
+        body: "Je hoofdcategorie is het belangrijkst: kies de meest specifieke die bij je past. Algemene aannemers kiezen 'Aannemer' of 'Bouwbedrijf'. Specialisten kiezen 'Loodgieter', 'Elektricien', 'Tegelzetter' etc. Voeg daarna zoveel mogelijk relevante subcategorieën toe (tot 9): 'Badkamerrenovatie', 'Keukenmontage', 'Dakdekker'. Elke subcategorie is een kans om in extra zoekopdrachten te verschijnen. Kies alleen categorieën die écht bij je passen — Google straft keyword stuffing af.",
+      },
+      {
+        heading: "Stap 2: Vul alle velden volledig in",
+        body: "Google rangschikt profielen die 100% ingevuld zijn hoger. Vul in: bedrijfsnaam, exact adres, telefoonnummer, website, openingstijden (inclusief speciale dagen), werkgebied (per regio of straal), opening datum, bedrijfsbeschrijving van 750 tekens met je kernactiviteit, attributen (vrouwelijk eigendom, familiebedrijf, LGBT-vriendelijk) en betalingsmethoden. Hoe vollediger, hoe beter je scoort.",
+      },
+      {
+        heading: "Stap 3: Upload minstens 30 foto's",
+        body: "Google geeft voorkeur aan profielen met veel actuele foto's. Upload: buitenkant en logo van je bedrijf, teamfoto's, foto's per dienst, voor-en-na projectfoto's, je gereedschap en bedrijfswagen. Voeg elke maand 3-5 nieuwe foto's toe zodat je profiel 'actief' blijft. Noem de foto's bij opslaan beschrijvend ('badkamer-renovatie-amsterdam.jpg') — dit helpt met vindbaarheid op afbeeldingen.",
+      },
+      {
+        heading: "Stap 4: Verzamel minstens 20 reviews",
+        body: "Profielen met 20+ reviews en 4,5+ sterren domineren het local pack. Vraag na elke klus om een review via WhatsApp of email. Stuur een directe Google-reviewlink (te genereren via je GMB dashboard). Reageer op elke review binnen 48 uur — ook de negatieve. Reacties tonen Google dat je profiel actief beheerd wordt en dat straalt uit naar toekomstige klanten.",
+      },
+      {
+        heading: "Stap 5: Post elke week een update",
+        body: "Google Posts zijn een onderschat verschijnsel: korte updates met foto en call-to-action die direct zichtbaar zijn in het local pack. Plaats wekelijks een post: een afgerond project, een seizoensgebonden dienst, een aanbieding of een tip. Posts blijven 7 dagen actief en zorgen ervoor dat jouw profiel frisser oogt dan dat van concurrenten die nooit posten.",
+      },
+      {
+        heading: "Stap 6: Voeg alle diensten toe met beschrijving",
+        body: "In het 'Diensten' gedeelte kun je per dienst een titel, beschrijving en prijs invoeren. Voeg al je diensten toe met een duidelijke beschrijving van 300+ tekens per dienst. Dit is een van de meest onderbenutte velden: elke dienst wordt geïndexeerd en kan verschijnen in zoekresultaten. Een aannemer met 15 goed beschreven diensten scoort op 15 verschillende zoektermen.",
+      },
+      {
+        heading: "Stap 7: Monitor je inzichten en verbeter maandelijks",
+        body: "In je GMB dashboard zie je hoeveel mensen je profiel bekijken, hoe ze je vinden (search vs maps), welke acties ze ondernemen (bellen, website bezoeken, route plannen) en welke zoektermen tot je profiel leiden. Analyseer dit maandelijks. Zoektermen waarop je nog niet scoort maar wel verkeer krijgt, zijn kansen: voeg ze toe aan je beschrijving, diensten of posts.",
+      },
+    ],
+  },
+  {
+    slug: "meer-google-reviews-krijgen-aannemer",
+    title: "Meer Google reviews krijgen als aannemer: complete strategie 2026",
+    description: "Zo vraag je actief om Google reviews als aannemer. Bewezen scripts, timing, automatisering en hoe je omgaat met negatieve reviews.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Review Funnel", href: "/diensten/review-funnel" },
+      { label: "Review Systeem", href: "/diensten/review-systeem" },
+      { label: "Google Mijn Bedrijf optimaliseren", href: "/kennisbank/google-mijn-bedrijf-optimaliseren-aannemer" },
+    ],
+    sections: [
+      {
+        heading: "Waarom Google reviews dé game-changer zijn voor aannemers",
+        body: "88% van de consumenten leest online reviews voordat ze een lokaal bedrijf kiezen. Voor aannemers is dit nog sterker: een investering van duizenden euro's doe je alleen bij een bedrijf dat bewezen betrouwbaar is. Een aannemer met 30+ reviews en een gemiddelde van 4,8 sterren krijgt 3x zoveel aanvragen als een concurrent met 5 reviews — ook als de concurrent technisch beter is. Reviews zijn het krachtigste marketinginstrument dat je hebt.",
+      },
+      {
+        heading: "De juiste timing: vraag direct na oplevering",
+        body: "Het beste moment om een review te vragen is binnen 24 uur na oplevering, als de klant nog enthousiast is over het resultaat. Wacht je een week, dan ben je de details vergeten en schrijft de klant een korte, oppervlakkige review. Vraag persoonlijk na een succesvolle klus: 'Als u tevreden bent, zou u dan een Google review willen achterlaten? Het helpt ons enorm.' Direct gevolgd door een WhatsApp met de link.",
+      },
+      {
+        heading: "Gebruik een directe reviewlink",
+        body: "Verwijs nooit naar 'Google' of 'zoek ons op'. Dat is te veel moeite. Genereer een directe reviewlink via je Google Mijn Bedrijf dashboard (via 'Vraag om reviews'). Deze link opent direct het sterren-venster. Verkort hem met Bitly of gebruik een QR-code op je factuur. Hoe minder klikken, hoe meer reviews. Van 'vraag via email' naar 'directe link' verdrievoudigt de conversie.",
+      },
+      {
+        heading: "Automatiseer het reviewproces",
+        body: "Handmatig om reviews vragen werkt — maar schaalt niet. Bouw een systeem waarbij elke klant automatisch na oplevering een reviewverzoek krijgt via WhatsApp of SMS. Bij Aannemer Systeem hoort dit standaard bij het review funnel systeem: de klant krijgt eerst een interne beoordeling (1-5 sterren). Bij 4-5 sterren ga je direct door naar Google, bij 1-3 sterren vang je de feedback privé op. Zo verzamel je alleen 5-sterren reviews publiek.",
+      },
+      {
+        heading: "Hoe je omgaat met negatieve reviews",
+        body: "Een negatieve review is geen ramp — mits je er goed op reageert. Reageer binnen 24 uur, professioneel en oplossingsgericht. Erken het probleem, bied een oplossing aan en vraag om een gesprek offline. Toekomstige klanten lezen je reactie en oordelen op basis van hoe je met kritiek omgaat. Een goed beheerd profiel met 1-2 negatieve reviews (en goede reacties) kan zelfs geloofwaardiger zijn dan een profiel met alleen perfect 5-sterren reviews.",
+      },
+      {
+        heading: "Scripts die werken: wat je exact kunt zeggen",
+        body: "Persoonlijk: 'Bedankt dat we voor je mochten werken! Als je tevreden bent, zou een Google review enorm helpen — het kost 2 minuten.' WhatsApp: 'Hoi [naam], bedankt voor de samenwerking. Zou je deze link willen openen om ons een review te geven? [link] Alvast bedankt!' Email: 'Beste [naam], we hopen dat u tevreden bent met het resultaat. Wilt u ons helpen door een korte review achter te laten? [link] Het helpt andere huiseigenaren om te zien wat ze van ons kunnen verwachten.'",
+      },
+      {
+        heading: "Wat levert meer reviews op?",
+        body: "Een aannemer die van 10 naar 30 reviews gaat, ziet gemiddeld 40-60% meer aanvragen via Google. Voor een bedrijf met 20 klussen per maand betekent dat 8-12 extra aanvragen per maand zonder extra marketingbudget — alleen door actief om reviews te vragen. De tijd die je erin stopt (2 minuten per klant) is de beste ROI die je kunt behalen als aannemer.",
+      },
+    ],
+  },
 ];
