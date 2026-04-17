@@ -3965,4 +3965,46 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "juiste-klanten-aantrekken-aannemer",
+    title: "Hoe je als aannemer de juiste klanten aantrekt via je website",
+    description: "Niet elke aanvraag is een goede aanvraag. Leer hoe je jouw website zo inricht dat je kwaliteitsbewuste klanten aantrekt in plaats van alleen prijskopers.",
+    category: "Strategie",
+    readTime: "6 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Professionele Website", href: "/diensten/lead-generatie" },
+      { label: "Review Systeem", href: "/diensten/review-funnel" },
+    ],
+    sections: [
+      {
+        heading: "Niet elke klant is een goede klant",
+        body: "Als aannemer wil je werk. Maar niet elk telefoontje levert een fijne klus op. Sommige bellers willen alleen de laagste prijs, reageren niet meer na je offerte of verwachten champagne-kwaliteit voor bier-budget. Het probleem zit vaak niet bij die mensen, maar bij hoe jij je online presenteert. Je website bepaalt welk type klant zich aangetrokken voelt. Een onduidelijke site zonder eigen gezicht trekt vooral prijsvergelijkers aan.",
+      },
+      {
+        heading: "Waarom je website de verkeerde klanten aantrekt",
+        body: "Veel aannemerswebsites zien er hetzelfde uit: een stockfoto van een bouwhelm, een opsomming van diensten en ergens onderaan een contactformulier. Dat soort sites vertelt een bezoeker niets over wie jij bent en wat jou anders maakt. Het gevolg is dat klanten puur op prijs gaan vergelijken, want er is geen ander verschil zichtbaar. Als je website er uitziet als een van de twintig, word je ook zo behandeld.",
+      },
+      {
+        heading: "Positioneer jezelf als specialist, niet als goedkoopste",
+        body: "Een timmerman die op zijn website laat zien dat hij gespecialiseerd is in maatwerk keukens van massief hout, met foto's van het werkproces en uitleg over houtsoorten, trekt klanten aan die bereid zijn te betalen voor kwaliteit. Vergelijk dat met een collega die alleen schrijft dat hij alle timmerwerk doet. De eerste krijgt aanvragen van mensen die bewust kiezen, de tweede krijgt tien offerteverzoeken waarvan er acht op prijs selecteren. Specialisatie op je website is het sterkste filter dat je hebt.",
+      },
+      {
+        heading: "Gebruik je content om kwaliteitsbewuste klanten te filteren",
+        body: "De teksten op je website doen meer dan informeren. Ze selecteren. Als je schrijft over de materialen die je gebruikt, je werkwijze uitlegt en laat zien waarom bepaalde keuzes meer kosten maar langer meegaan, dan haken prijskopers vanzelf af. Dat klinkt eng, maar het is precies wat je wilt. Een dakdekker die uitlegt waarom hij alleen met A-merk leien werkt, verliest de klant die het goedkoopste bitumen dak wil. Maar hij wint de klant die bereid is te betalen voor dertig jaar geen lekkage.",
+      },
+      {
+        heading: "Reviews als magneet voor het juiste klantentype",
+        body: "Klanten trekken vergelijkbare klanten aan. Als je reviews vol staan met opmerkingen over kwaliteit, netheid en vakmanschap, dan voelen kwaliteitsbewuste mensen zich aangesproken. Vraag je klanten specifiek te benoemen wat ze waardeerden. Een review die zegt dat je netjes werkte en alles keurig opruimde spreekt een ander publiek aan dan een review die alleen over de prijs gaat. Bouw bewust een reviewprofiel op dat het type klant weerspiegelt dat je wilt.",
+      },
+      {
+        heading: "Van 20 prijsaanvragen naar 8 serieuze opdrachten",
+        body: "Een installateur uit Breda kreeg via zijn oude website twintig offerteaanvragen per maand, maar sloot er maar drie af. De rest haakte af op prijs. Na een nieuwe website met projectfoto's, uitleg over zijn werkwijze en specifieke reviews van tevreden klanten, daalde het aantal aanvragen naar twaalf. Maar hij sloot er acht af, omdat de mensen die hem nu benaderden precies wisten wat ze konden verwachten. Minder leads, meer omzet en minder tijd verspild aan offertes die nergens toe leiden.",
+      },
+      {
+        heading: "Bouw een website die de juiste klanten aantrekt",
+        body: "Bij AannemerSysteem.com bouwen we websites die niet alleen bezoekers opleveren, maar de juiste bezoekers. Met foto's van jouw werk, teksten die jouw specialisme benadrukken en een reviewsysteem dat automatisch sterke beoordelingen verzamelt. Zodat je niet meer hoeft te concurreren op prijs, maar op vakmanschap. Dat is uiteindelijk waar je goed in bent en waar de juiste klanten graag voor betalen.",
+      },
+    ],
+  },
 ];

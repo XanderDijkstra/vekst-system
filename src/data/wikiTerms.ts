@@ -943,6 +943,32 @@ export const wikiTerms: WikiTerm[] = [
       },
     ],
   },
+  {
+    slug: "automatische-opvolging",
+    term: "Automatische opvolging",
+    shortDescription: "Een systeem dat zonder jouw handwerk nieuwe aanvragen en gemiste oproepen opvolgt via sms of e-mail, zodat je geen enkele potentiele klant kwijtraakt terwijl je op de steiger staat.",
+    category: "Automatisering",
+    date: "2026-04-17",
+    relatedTerms: ["lead-opvolging", "automatisering", "missed-call-text-back"],
+    relatedLinks: [
+      { label: "Lead Follow-Up Systeem", href: "/diensten/lead-follow-up" },
+      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is het?",
+        body: "Automatische opvolging is een vooraf ingesteld systeem dat zelf contact opneemt met potentiele klanten nadat zij een aanvraag doen of je bellen zonder dat je opneemt. Het stuurt binnen seconden een sms of e-mail namens jou, zonder dat je zelf iets hoeft te doen. Je stelt het een keer in en het draait op de achtergrond terwijl jij gewoon aan het werk bent.",
+      },
+      {
+        heading: "Waarom is dit belangrijk voor aannemers?",
+        body: "De meeste aannemers missen leads omdat ze overdag niet achter hun telefoon zitten. Een klant die geen reactie krijgt belt binnen vijf minuten de volgende vakman. Met automatische opvolging krijgt elke beller of aanvrager direct een persoonlijk bericht, ook als jij op dat moment op een dak staat of in een kruipruimte zit. Dat ene berichtje is vaak genoeg om de klant te laten wachten tot jij terugbelt.",
+      },
+      {
+        heading: "Hoe werkt het in de praktijk?",
+        body: "Stel, je bent schilder en een huiseigenaar stuurt om twee uur 's middags een offerteaanvraag via je website. Binnen een minuut ontvangt hij automatisch een sms: Bedankt voor je aanvraag, ik neem vandaag nog contact met je op. Om vijf uur als jij klaar bent met werken bel je hem terug. Zonder dat systeem had hij om kwart over twee al een andere schilder gebeld. Bij AannemerSysteem.com zetten we deze automatische opvolging voor je op zodat je nooit meer een warme lead kwijtraakt.",
+      },
+    ],
+  },
 ];
 
 export const wikiCategories = [...new Set(wikiTerms.map((t) => t.category))];
