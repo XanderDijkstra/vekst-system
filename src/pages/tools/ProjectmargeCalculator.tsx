@@ -24,16 +24,16 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/projectmarge-calculator`;
 
-const euro = new Intl.NumberFormat("nl-NL", {
+const kr = new Intl.NumberFormat("nb-NO", {
   style: "currency",
-  currency: "EUR",
+  currency: "NOK",
   maximumFractionDigits: 0,
 });
 
-const pct = (v: number) => `${Math.round(v * 10) / 10}%`;
+const pct = (v: number) => `${Math.round(v * 10) / 10} %`;
 
 // ---------- Types ----------
 
@@ -46,37 +46,37 @@ interface CostRow {
 let nextId = 100;
 
 const defaultRows: CostRow[] = [
-  { id: 1, label: "Materialen", amount: 4500 },
-  { id: 2, label: "Arbeid (eigen uren)", amount: 3200 },
-  { id: 3, label: "Onderaannemers", amount: 1800 },
-  { id: 4, label: "Huur materieel / gereedschap", amount: 400 },
-  { id: 5, label: "Transport / brandstof", amount: 250 },
+  { id: 1, label: "Materialer", amount: 55000 },
+  { id: 2, label: "Arbeid (egne timer)", amount: 38000 },
+  { id: 3, label: "Underentreprenører", amount: 22000 },
+  { id: 4, label: "Leie av utstyr / verktøy", amount: 5000 },
+  { id: 5, label: "Transport / drivstoff", amount: 3000 },
 ];
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Wat is een gezonde brutomarge voor een aannemer?",
-    a: "De meeste aannemers mikken op 25–40% brutomarge op materiaal + arbeid. Bij kleine klussen (badkamer, dakkapel) zit je eerder richting 35–45%, bij grote verbouwingen of nieuwbouw dichter bij 20–30%. Onder de 20% heb je nauwelijks buffer voor tegenvallers - en die komen er bij bouwprojecten altijd.",
+    q: "Hva er en sunn bruttomargin for en håndverker?",
+    a: "De fleste håndverkere sikter på 25–40 % bruttomargin på materiell + arbeid. På mindre jobber (bad, takark) ligger du gjerne på 35–45 %, på større oppussinger eller nybygg nærmere 20–30 %. Under 20 % har du nesten ingen buffer mot det uforutsette - og det dukker alltid opp noe på byggeprosjekter.",
   },
   {
-    q: "Wat is het verschil tussen brutomarge en nettomarge?",
-    a: "Brutomarge is offertebedrag minus directe projectkosten (materiaal, arbeid, onderaannemers). Nettomarge is wat je overhoudt ná ook belasting, kantoorkosten, verzekeringen en andere indirecte kosten. Deze calculator schat netto op ~65% van bruto - een grove maar bruikbare benadering voor ZZP'ers in de bouwsector.",
+    q: "Hva er forskjellen på bruttomargin og nettomargin?",
+    a: "Bruttomargin er tilbudsbeløpet minus direkte prosjektkostnader (materiell, arbeid, underentreprenører). Nettomargin er det du sitter igjen med etter skatt, kontorkostnader, forsikringer og andre indirekte kostnader. Denne kalkulatoren estimerer netto til ~65 % av brutto - en grov men brukbar tilnærming for selvstendig næringsdrivende i byggebransjen.",
   },
   {
-    q: "Hoe voorkom ik dat mijn marge verdampt door meerwerk?",
-    a: "Drie dingen: (1) raam elke post 10–15% hoger dan je optimistische schatting, (2) spreek vooraf schriftelijk af dat meerwerk apart geoffreerd wordt, en (3) houd per project een simpele kosten-tracker bij zodat je halverwege kunt bijsturen in plaats van achteraf te schrikken.",
+    q: "Hvordan unngår jeg at marginen fordamper på grunn av tilleggsarbeid?",
+    a: "Tre ting: (1) legg 10–15 % på hver post over det optimistiske anslaget, (2) avtal skriftlig på forhånd at tilleggsarbeid tilbys separat, og (3) før en enkel kostnadslogg per prosjekt så du kan styre underveis i stedet for å få sjokk i etterkant.",
   },
   {
-    q: "Moet ik eigen arbeidsuren als kostenpost meerekenen?",
-    a: "Ja - anders overschat je je marge. Reken je eigen uren tegen het uurtarief uit onze uurtarief calculator. Als je 40 uur aan een project werkt en je minimum uurtarief is €65, dan is dat €2.600 aan arbeidskosten - of je het nu als 'salaris' opneemt of niet.",
+    q: "Skal jeg regne egne arbeidstimer som kostnad?",
+    a: "Ja - ellers overvurderer du marginen. Regn egne timer mot timeprisen fra timepris-kalkulatoren vår. Jobber du 40 timer på et prosjekt og minsteprisen din er 750 kr, er det 30 000 kr i arbeidskostnader - uansett om du tar det ut som \"lønn\" eller ikke.",
   },
   {
-    q: "Hoe bereken ik meerwerk achteraf?",
-    a: "Tel de werkelijke kosten van het meerwerk bij elkaar (materiaal + uren + evt. huur materieel) en sla daar dezelfde marge-opslag op als in je originele offerte. Had je 35% marge op de hoofdopdracht, reken dan ook 35% over het meerwerk. Dat voorkomt dat meerwerk je totaalproject-marge naar beneden trekt.",
+    q: "Hvordan beregner jeg tilleggsarbeid i etterkant?",
+    a: "Legg sammen de faktiske kostnadene for tilleggsarbeidet (materiell + timer + eventuelt utstyrsleie) og legg samme margin-påslag på som i det opprinnelige tilbudet. Hadde du 35 % margin på hovedjobben, bruk 35 % også på tilleggsarbeidet. Det hindrer at tillegget trekker totalmarginen ned.",
   },
   {
-    q: "Is btw meegenomen in deze berekening?",
-    a: "Nee. Alle bedragen zijn excl. btw. De btw die je factureert aan de klant draag je af aan de Belastingdienst en is geen omzet. Vul dus je offertebedrag en kosten excl. btw in voor een correct beeld van je werkelijke marge.",
+    q: "Er MVA med i beregningen?",
+    a: "Nei. Alle beløp er eks. MVA. MVA-en du fakturerer kunden er ikke omsetning - du innberetter den til Skatteetaten. Legg derfor inn tilbudsbeløp og kostnader eks. MVA for et riktig bilde av den reelle marginen.",
   },
 ];
 
@@ -85,24 +85,24 @@ const faqs: { q: string; a: string }[] = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Projectmarge calculator voor aannemers",
+  name: "Prosjektmargin-kalkulator for håndverkere",
   url: PAGE_URL,
   description:
-    "Gratis projectmarge calculator voor aannemers. Vul je offertebedrag en kosten in - zie direct je bruto- en nettomarge per project.",
+    "Gratis prosjektmargin-kalkulator for håndverkere. Fyll inn tilbudsbeløp og kostnader - se bruttomarginen og nettomarginen per prosjekt direkte.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-      { "@type": "ListItem", position: 3, name: "Projectmarge calculator", item: PAGE_URL },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 3, name: "Prosjektmargin-kalkulator", item: PAGE_URL },
     ],
   },
   mainEntity: {
     "@type": "SoftwareApplication",
-    name: "Projectmarge calculator voor aannemers",
+    name: "Prosjektmargin-kalkulator for håndverkere",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+    offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
   },
 };
 
@@ -119,7 +119,7 @@ const faqSchema = {
 // ---------- Component ----------
 
 const ProjectmargeCalculator = () => {
-  const [offerteBedrag, setOfferteBedrag] = useState(15000);
+  const [offerteBedrag, setOfferteBedrag] = useState(175000);
   const [rows, setRows] = useState<CostRow[]>(defaultRows);
 
   const addRow = () => {
@@ -164,17 +164,17 @@ const ProjectmargeCalculator = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Projectmarge calculator voor aannemers | Aannemer Systeem</title>
+        <title>Prosjektmargin-kalkulator for håndverkere | Vekst Systemet</title>
         <meta
           name="description"
-          content="Gratis projectmarge calculator voor aannemers. Vul offertebedrag en kostenposten in - zie direct je bruto- en nettomarge per project."
+          content="Gratis prosjektmargin-kalkulator for håndverkere. Fyll inn tilbudsbeløp og kostnadsposter - se bruttomargin og nettomargin per prosjekt direkte."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Projectmarge calculator voor aannemers | Aannemer Systeem" />
-        <meta property="og:description" content="Bereken in 30 seconden je marge per project. Gratis, geen registratie." />
+        <meta property="og:title" content="Prosjektmargin-kalkulator for håndverkere | Vekst Systemet" />
+        <meta property="og:description" content="Beregn på 30 sekunder marginen din per prosjekt. Gratis, ingen registrering." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -187,23 +187,22 @@ const ProjectmargeCalculator = () => {
               to="/tools"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
-              Rekentools
+              Kalkulatorer
             </Link>
             <span className="text-primary-foreground/40">/</span>
             <span className="text-xs font-bold uppercase tracking-widest text-primary-foreground/60">
-              Projectmarge
+              Prosjektmargin
             </span>
           </motion.div>
           <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight">
-            Verdien je genoeg aan dit project?
+            Tjener du nok på dette prosjektet?
           </motion.h1>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Vul je offertebedrag in, lijst je kostenposten op, en zie direct of de marge
-            gezond is - inclusief hoeveel de kosten mogen overschrijden voordat je break-even
-            draait.
+            Fyll inn tilbudsbeløpet, lista kostnadspostene, og se direkte om marginen er sunn
+            - inkludert hvor mye kostnadene kan overskride før du går i null.
           </motion.p>
         </div>
       </section>
@@ -219,19 +218,16 @@ const ProjectmargeCalculator = () => {
             >
               <h2 className="text-xl font-semibold tracking-tight text-foreground flex items-center gap-2 mb-6">
                 <Calculator className="h-5 w-5 text-accent" strokeWidth={1.5} />
-                Projectgegevens
+                Prosjektinformasjon
               </h2>
 
               {/* Offertebedrag */}
               <div className="mb-6">
                 <label className="text-sm font-medium text-foreground flex items-center gap-2 mb-2">
                   <Euro className="h-4 w-4 text-muted-foreground" strokeWidth={1.75} />
-                  Offertebedrag (excl. btw)
+                  Tilbudsbeløp (eks. MVA)
                 </label>
                 <div className="relative">
-                  <span className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground text-sm pointer-events-none">
-                    €
-                  </span>
                   <Input
                     type="number"
                     inputMode="decimal"
@@ -240,36 +236,39 @@ const ProjectmargeCalculator = () => {
                       const v = Number(e.target.value);
                       setOfferteBedrag(Number.isNaN(v) ? 0 : Math.max(0, v));
                     }}
-                    className="h-12 text-lg font-semibold pl-8"
+                    className="h-12 text-lg font-semibold pr-10"
                   />
+                  <span className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground text-sm pointer-events-none">
+                    kr
+                  </span>
                 </div>
               </div>
 
               {/* Kostenposten */}
               <div>
                 <label className="text-sm font-medium text-foreground mb-3 block">
-                  Kostenposten
+                  Kostnadsposter
                 </label>
                 <div className="space-y-2">
                   {rows.map((row) => (
                     <div key={row.id} className="flex items-center gap-2">
                       <Input
-                        placeholder="Omschrijving"
+                        placeholder="Beskrivelse"
                         value={row.label}
                         onChange={(e) => updateRow(row.id, "label", e.target.value)}
                         className="flex-1 h-10 text-sm"
                       />
-                      <div className="relative w-28 flex-shrink-0">
-                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground text-xs pointer-events-none">
-                          €
-                        </span>
+                      <div className="relative w-32 flex-shrink-0">
                         <Input
                           type="number"
                           inputMode="decimal"
                           value={row.amount || ""}
                           onChange={(e) => updateRow(row.id, "amount", e.target.value)}
-                          className="h-10 text-sm font-semibold pl-7 tabular-nums"
+                          className="h-10 text-sm font-semibold pr-8 tabular-nums"
                         />
+                        <span className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground text-xs pointer-events-none">
+                          kr
+                        </span>
                       </div>
                       <Button
                         variant="ghost"
@@ -289,13 +288,13 @@ const ProjectmargeCalculator = () => {
                   onClick={addRow}
                 >
                   <Plus className="h-3.5 w-3.5 mr-1" />
-                  Kostenpost toevoegen
+                  Legg til kostnadspost
                 </Button>
 
                 <div className="mt-4 pt-4 border-t border-border flex items-center justify-between">
-                  <span className="text-sm font-medium text-foreground">Totale kosten</span>
+                  <span className="text-sm font-medium text-foreground">Totale kostnader</span>
                   <span className="text-lg font-bold text-foreground tabular-nums">
-                    {euro.format(totalKosten)}
+                    {kr.format(totalKosten)}
                   </span>
                 </div>
               </div>
@@ -305,23 +304,23 @@ const ProjectmargeCalculator = () => {
             <div className="space-y-4">
               <CalcResultCard
                 variant="hero"
-                label="Brutowinst"
-                value={euro.format(brutoWinst)}
-                caption={`Brutomarge: ${pct(brutoMargePct)} van het offertebedrag`}
+                label="Bruttooverskudd"
+                value={kr.format(brutoWinst)}
+                caption={`Bruttomargin: ${pct(brutoMargePct)} av tilbudsbeløpet`}
                 icon={<TrendingUp className="h-4 w-4" strokeWidth={1.75} />}
               />
 
               <div className="grid grid-cols-2 gap-4">
                 <CalcResultCard
-                  label="Nettomarge (na ~35% belasting)"
-                  value={euro.format(nettoWinst)}
-                  caption={`${pct(nettoMargePct)} van het offertebedrag`}
+                  label="Nettomargin (etter ~35 % skatt)"
+                  value={kr.format(nettoWinst)}
+                  caption={`${pct(nettoMargePct)} av tilbudsbeløpet`}
                   icon={<Euro className="h-4 w-4" strokeWidth={1.75} />}
                 />
                 <CalcResultCard
-                  label="Offertebedrag"
-                  value={euro.format(offerteBedrag)}
-                  caption={`Kosten: ${euro.format(totalKosten)}`}
+                  label="Tilbudsbeløp"
+                  value={kr.format(offerteBedrag)}
+                  caption={`Kostnader: ${kr.format(totalKosten)}`}
                   icon={<Minus className="h-4 w-4" strokeWidth={1.75} />}
                 />
               </div>
@@ -336,20 +335,20 @@ const ProjectmargeCalculator = () => {
                 <p className="mt-2 text-foreground leading-relaxed">
                   {overschrijdingBreakEven > 0 ? (
                     <>
-                      Je kosten mogen nog{" "}
+                      Kostnadene dine kan stige med{" "}
                       <span className="font-bold text-accent tabular-nums">
                         {pct(overschrijdingBreakEven)}
                       </span>{" "}
-                      stijgen voordat je op break-even zit. Bij een overschrijding van meer dan{" "}
+                      før du går i null. Ved en overskridelse på mer enn{" "}
                       <span className="font-semibold tabular-nums">
-                        {euro.format(brutoWinst)}
+                        {kr.format(brutoWinst)}
                       </span>{" "}
-                      draai je verlies op dit project.
+                      går du med tap på dette prosjektet.
                     </>
                   ) : (
                     <>
-                      Dit project draait al verlies bij de huidige kostenraming. Verhoog het
-                      offertebedrag of verlaag de kosten.
+                      Dette prosjektet går allerede i tap med dagens kostnadsestimat. Øk
+                      tilbudsbeløpet eller reduser kostnadene.
                     </>
                   )}
                 </p>
@@ -361,7 +360,7 @@ const ProjectmargeCalculator = () => {
                 className="rounded-2xl border border-border bg-card p-5 shadow-system-card"
               >
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
-                  Verdeling offertebedrag
+                  Fordeling av tilbudsbeløp
                 </p>
                 <div className="flex h-6 rounded-full overflow-hidden bg-muted">
                   {offerteBedrag > 0 && (
@@ -384,11 +383,11 @@ const ProjectmargeCalculator = () => {
                 <div className="flex justify-between mt-2 text-xs text-muted-foreground">
                   <span className="flex items-center gap-1">
                     <span className="inline-block h-2.5 w-2.5 rounded-sm bg-destructive/70" />
-                    Kosten ({pct(offerteBedrag > 0 ? (totalKosten / offerteBedrag) * 100 : 0)})
+                    Kostnader ({pct(offerteBedrag > 0 ? (totalKosten / offerteBedrag) * 100 : 0)})
                   </span>
                   <span className="flex items-center gap-1">
                     <span className="inline-block h-2.5 w-2.5 rounded-sm bg-accent" />
-                    Marge ({pct(brutoMargePct)})
+                    Margin ({pct(brutoMargePct)})
                   </span>
                 </div>
               </motion.div>
@@ -404,11 +403,11 @@ const ProjectmargeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            Hoe bereken je je projectmarge?
+            Hvordan beregner du prosjektmarginen?
           </motion.h2>
           <motion.p {...fadeInUp} className="mt-4 text-muted-foreground leading-relaxed">
-            De berekening is rechttoe rechtaan. Het lastige zit hem niet in de formule, maar
-            in het eerlijk inschatten van je kosten.
+            Regnestykket er rett fram. Det vanskelige er ikke formelen, men å estimere
+            kostnadene ærlig.
           </motion.p>
           <motion.div
             {...fadeInUp}
@@ -416,29 +415,29 @@ const ProjectmargeCalculator = () => {
           >
             <ol className="space-y-3 font-mono text-sm md:text-base text-foreground">
               <li>
-                <span className="text-muted-foreground">1.</span> Brutowinst ={" "}
-                <span className="font-semibold">offertebedrag − totale kosten</span>
+                <span className="text-muted-foreground">1.</span> Bruttooverskudd ={" "}
+                <span className="font-semibold">tilbudsbeløp − totale kostnader</span>
               </li>
               <li>
-                <span className="text-muted-foreground">2.</span> Brutomarge % ={" "}
-                <span className="font-semibold">(brutowinst / offertebedrag) × 100</span>
+                <span className="text-muted-foreground">2.</span> Bruttomargin % ={" "}
+                <span className="font-semibold">(bruttooverskudd / tilbudsbeløp) × 100</span>
               </li>
               <li>
-                <span className="text-muted-foreground">3.</span> Nettomarge ≈{" "}
-                <span className="font-semibold">brutowinst × (1 − belasting%)</span>
+                <span className="text-muted-foreground">3.</span> Nettomargin ≈{" "}
+                <span className="font-semibold">bruttooverskudd × (1 − skatt%)</span>
               </li>
             </ol>
             <div className="mt-6 pt-6 border-t border-border space-y-2">
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Voorbeeld:</span> een aannemer
-                offert een badkamerrenovatie voor €15.000 excl. btw. Kosten: €4.500 materiaal,
-                €3.200 eigen arbeid, €1.800 loodgieter, €650 overig.
+                <span className="font-semibold text-foreground">Eksempel:</span> en håndverker
+                gir tilbud på en baderomsrenovering på 175 000 kr eks. MVA. Kostnader:
+                55 000 kr materiell, 38 000 kr egen arbeid, 22 000 kr rørlegger, 8 000 kr annet.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>Totale kosten: €10.150</li>
-                <li>Brutowinst: €15.000 − €10.150 = <span className="font-bold text-foreground">€4.850</span></li>
-                <li>Brutomarge: 32% - gezond voor een badkamerrenovatie</li>
-                <li>Break-even overschrijding: kosten mogen nog ~48% stijgen</li>
+                <li>Totale kostnader: 123 000 kr</li>
+                <li>Bruttooverskudd: 175 000 kr − 123 000 kr = <span className="font-bold text-foreground">52 000 kr</span></li>
+                <li>Bruttomargin: 30 % - sunt for en baderomsrenovering</li>
+                <li>Break-even-overskridelse: kostnadene kan stige med ~42 %</li>
               </ul>
             </div>
           </motion.div>
@@ -452,21 +451,21 @@ const ProjectmargeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            3 tips om je marge te beschermen
+            3 tips for å beskytte marginen
           </motion.h2>
           <div className="mt-8 grid md:grid-cols-3 gap-4">
             {[
               {
-                title: "Raam 10–15% boven je schatting",
-                text: "Elke aannemer weet het, maar weinigen doen het consequent. Raam elke kostenpost 10–15% boven je optimistische schatting. Die buffer is geen winst - het is je vangnet voor tegenvallende materiaal­prijzen, extra reistijd en onvoorzien werk achter de muur.",
+                title: "Legg 10–15 % på anslaget",
+                text: "Alle håndverkere vet det, men få gjør det konsekvent. Legg 10–15 % på hver kostnadspost over det optimistiske anslaget. Den bufferen er ikke gevinst - den er sikkerhetsnettet ditt mot materialprisøkninger, ekstra reisetid og uforutsett arbeid bak veggen.",
               },
               {
-                title: "Spreek meerwerk vooraf af",
-                text: "Leg schriftelijk vast dat werk buiten de offerte apart geoffreerd wordt, inclusief marge. Klanten accepteren dit makkelijker vóór de start dan halverwege het project. Een duidelijke meerwerkclausule is geen wantrouwen - het is professionaliteit.",
+                title: "Avtal tilleggsarbeid på forhånd",
+                text: "Legg skriftlig fast at arbeid utenfor tilbudet tilbys separat, inkludert margin. Kunder aksepterer dette lettere før oppstart enn midt i prosjektet. En tydelig tilleggsklausul er ikke mistillit - det er profesjonalitet.",
               },
               {
-                title: "Houd kosten per project bij",
-                text: "Een simpele spreadsheet of boekhoud­app die kosten aan projecten koppelt laat je halverwege bijsturen. Veel aannemers ontdekken pas bij de eindafrekening dat de marge is verdampt. Wie wekelijks checkt, kan tijdig ingrijpen.",
+                title: "Følg kostnader per prosjekt",
+                text: "Et enkelt regneark eller en regnskapsapp som kobler kostnader til prosjekter lar deg styre underveis. Mange håndverkere oppdager først ved sluttoppgjøret at marginen er borte. Den som sjekker ukentlig, kan gripe inn i tide.",
               },
             ].map((item, i) => (
               <motion.div
@@ -489,7 +488,7 @@ const ProjectmargeCalculator = () => {
             className="mt-12 bg-card border border-border rounded-2xl p-6 md:p-8 shadow-system-card"
           >
             <p className="text-xs font-semibold uppercase tracking-widest text-accent">
-              Verwante tools
+              Relaterte verktøy
             </p>
             <div className="mt-3 grid sm:grid-cols-2 gap-4">
               <Link
@@ -499,9 +498,9 @@ const ProjectmargeCalculator = () => {
                 <Percent className="h-4 w-4 text-muted-foreground group-hover:text-accent transition-colors" strokeWidth={1.75} />
                 <div>
                   <span className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                    Uurtarief calculator
+                    Timepris-kalkulator
                   </span>
-                  <p className="text-xs text-muted-foreground">Reken je eigen uren correct door</p>
+                  <p className="text-xs text-muted-foreground">Regn egne timer riktig inn</p>
                 </div>
               </Link>
               <Link
@@ -511,9 +510,9 @@ const ProjectmargeCalculator = () => {
                 <TrendingUp className="h-4 w-4 text-muted-foreground group-hover:text-accent transition-colors" strokeWidth={1.75} />
                 <div>
                   <span className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                    Leadwaarde calculator
+                    Leadverdi-kalkulator
                   </span>
-                  <p className="text-xs text-muted-foreground">Bereken wat een aanvraag je oplevert</p>
+                  <p className="text-xs text-muted-foreground">Beregn hva en forespørsel er verdt</p>
                 </div>
               </Link>
             </div>
@@ -528,7 +527,7 @@ const ProjectmargeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            Veelgestelde vragen
+            Ofte stilte spørsmål
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-8">
             <Accordion type="single" collapsible className="w-full">
