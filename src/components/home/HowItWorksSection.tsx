@@ -3,9 +3,9 @@ import { Search, Wrench, Rocket } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const steps = [
-  { icon: Search, step: "01", title: "Analyse van je huidige processen", description: "We brengen in kaart waar je tijd verliest en welke processen geautomatiseerd kunnen worden." },
-  { icon: Wrench, step: "02", title: "We maken je digitale systemen", description: "Op maat gemaakte systemen die naadloos aansluiten bij hoe jij werkt." },
-  { icon: Rocket, step: "03", title: "Automatisering bespaart tijd en werk", description: "Meer focus op de werf, minder tijd achter het bureau." },
+  { icon: Search, step: "01", title: "Analyse av dagens prosesser", description: "Vi kartlegger hvor du mister tid og hvilke prosesser som kan automatiseres." },
+  { icon: Wrench, step: "02", title: "Vi bygger de digitale systemene dine", description: "Skreddersydde systemer som passer sømløst med måten du jobber på." },
+  { icon: Rocket, step: "03", title: "Automatisering sparer tid og arbeid", description: "Mer fokus på byggeplassen, mindre tid bak skrivebordet." },
 ];
 
 const HowItWorksSection = () => {
@@ -13,10 +13,10 @@ const HowItWorksSection = () => {
     <section className="py-20 md:py-28 bg-card">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Hoe het werkt
+          Slik fungerer det
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground max-w-2xl">
-          Van analyse naar resultaat in 3 stappen
+          Fra analyse til resultat på 3 steg
         </motion.h2>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -15,64 +15,64 @@ import aannemerImg from "@/assets/trades/aannemer.jpg";
 import tegelzetterImg from "@/assets/trades/tegelzetter.jpg";
 
 const trades = [
-  { name: "Dakdekkers", image: dakdekkersImg, slug: "dakdekkers" },
-  { name: "Loodgieters", image: loodgieterImg, slug: "loodgieters" },
-  { name: "Elektriciens", image: elektricienImg, slug: "elektriciens" },
-  { name: "Klusbedrijven", image: klusbedrijfImg, slug: "klusbedrijven" },
-  { name: "Schilders", image: schilderImg, slug: "schilders" },
-  { name: "Tuinmannen", image: tuinmanImg, slug: "hoveniers" },
-  { name: "HVAC", image: hvacImg, slug: "hvac" },
-  { name: "Aannemers", image: aannemerImg, slug: "aannemers" },
-  { name: "Tegelzetters", image: tegelzetterImg, slug: "tegelzetters" },
+  { name: "Takleggere", image: dakdekkersImg, slug: "dakdekkers" },
+  { name: "Rørleggere", image: loodgieterImg, slug: "loodgieters" },
+  { name: "Elektrikere", image: elektricienImg, slug: "elektriciens" },
+  { name: "Altmuligmenn", image: klusbedrijfImg, slug: "klusbedrijven" },
+  { name: "Malere", image: schilderImg, slug: "schilders" },
+  { name: "Gartnere", image: tuinmanImg, slug: "hoveniers" },
+  { name: "VVS & Klima", image: hvacImg, slug: "hvac" },
+  { name: "Entreprenører", image: aannemerImg, slug: "aannemers" },
+  { name: "Flisleggere", image: tegelzetterImg, slug: "tegelzetters" },
 ];
 
 const allTrades = [
-  { name: "Aanbouw & Uitbouw", slug: "aanbouw-uitbouw" },
-  { name: "Airco installateurs", slug: "airco-installateurs" },
+  { name: "Tilbygg & Påbygg", slug: "aanbouw-uitbouw" },
+  { name: "Klimaanlegg-installatører", slug: "airco-installateurs" },
   { name: "Asbestsanering", slug: "asbestsanering" },
-  { name: "Badkamer renovatie", slug: "badkamerrenovatie" },
-  { name: "Beglazing", slug: "beglazing" },
-  { name: "Bestrating", slug: "bestrating" },
-  { name: "Beton & Cement", slug: "beton-cement" },
-  { name: "Beveiligingsinstallateurs", slug: "beveiligingsinstallateurs" },
-  { name: "Binnenhuisarchitecten", slug: "binnenhuisarchitecten" },
-  { name: "Cv-ketel montage", slug: "cv-ketel-montage" },
-  { name: "Dakgoten", slug: "dakgoten" },
-  { name: "Dakkapellen", slug: "dakkapellen" },
-  { name: "Domotica", slug: "domotica" },
-  { name: "Funderingsherstel", slug: "funderingsherstel" },
-  { name: "Garagedeuren", slug: "garagedeuren" },
-  { name: "Gevelreiniging", slug: "gevelreiniging" },
-  { name: "Gietvloeren", slug: "gietvloeren" },
-  { name: "Glaszetter", slug: "glazenwassers" },
-  { name: "Hekwerk & Poorten", slug: "hekwerk-poorten" },
-  { name: "Hoveniers", slug: "hoveniers" },
-  { name: "Interieurontwerp", slug: "interieurontwerp" },
-  { name: "Isolatie", slug: "isolatiebedrijven" },
-  { name: "Kelderbouw", slug: "kelderbouw" },
-  { name: "Keukenmontage", slug: "keukenmonteurs" },
-  { name: "Kozijnen & Ramen", slug: "kozijnen-ramen" },
-  { name: "Laadpaal installateurs", slug: "laadpaal-installateurs" },
-  { name: "Metselwerk", slug: "metselwerk" },
-  { name: "Meubelmakers", slug: "meubelmakers" },
-  { name: "Ontruiming", slug: "ontruiming" },
-  { name: "Opruimservice", slug: "opruimservice" },
-  { name: "Parketvloeren", slug: "parketvloeren" },
-  { name: "Rioolservice", slug: "rioolservice" },
-  { name: "Rietdekkers", slug: "rietdekkers" },
-  { name: "Rolluiken & Zonwering", slug: "rolluiken-zonwering" },
-  { name: "Schoonmaakbedrijf", slug: "schoonmaakbedrijven" },
-  { name: "Schoorsteenvegers", slug: "schoorsteenvegers" },
-  { name: "Serrebouwers", slug: "serrebouwers" },
-  { name: "Stukadoor", slug: "stukadoors" },
-  { name: "Timmerwerk", slug: "timmerlieden" },
-  { name: "Trapliften & Thuisliften", slug: "trapliften-thuisliften" },
-  { name: "Vloerlegger", slug: "vloerlegger" },
-  { name: "Vochtbestrijding", slug: "vochtbestrijding" },
-  { name: "Voegwerk", slug: "voegwerk" },
-  { name: "Warmtepomp installatie", slug: "warmtepomp-installatie" },
-  { name: "Zonnepanelen", slug: "zonnepanelen" },
-  { name: "Zwembadbouwers", slug: "zwembadbouwers" },
+  { name: "Baderomsrenovering", slug: "badkamerrenovatie" },
+  { name: "Glassarbeid", slug: "beglazing" },
+  { name: "Belegning & Brostein", slug: "bestrating" },
+  { name: "Betong & Sement", slug: "beton-cement" },
+  { name: "Sikkerhetsinstallatører", slug: "beveiligingsinstallateurs" },
+  { name: "Interiørarkitekter", slug: "binnenhuisarchitecten" },
+  { name: "Fyrmontering", slug: "cv-ketel-montage" },
+  { name: "Takrenner", slug: "dakgoten" },
+  { name: "Takopplett", slug: "dakkapellen" },
+  { name: "Smarthus", slug: "domotica" },
+  { name: "Fundamentreparasjon", slug: "funderingsherstel" },
+  { name: "Garasjeporter", slug: "garagedeuren" },
+  { name: "Fasaderens", slug: "gevelreiniging" },
+  { name: "Støpegulv", slug: "gietvloeren" },
+  { name: "Glassmester", slug: "glazenwassers" },
+  { name: "Gjerder & Porter", slug: "hekwerk-poorten" },
+  { name: "Gartnere", slug: "hoveniers" },
+  { name: "Interiørdesign", slug: "interieurontwerp" },
+  { name: "Isolering", slug: "isolatiebedrijven" },
+  { name: "Kjellerbygging", slug: "kelderbouw" },
+  { name: "Kjøkkenmontering", slug: "keukenmonteurs" },
+  { name: "Karmer & Vinduer", slug: "kozijnen-ramen" },
+  { name: "Ladestasjon-installatører", slug: "laadpaal-installateurs" },
+  { name: "Murerarbeid", slug: "metselwerk" },
+  { name: "Møbelsnekker", slug: "meubelmakers" },
+  { name: "Rydding", slug: "ontruiming" },
+  { name: "Ryddetjeneste", slug: "opruimservice" },
+  { name: "Parkettgulv", slug: "parketvloeren" },
+  { name: "Avløpstjeneste", slug: "rioolservice" },
+  { name: "Stråtekkere", slug: "rietdekkers" },
+  { name: "Persienner & Solskjerming", slug: "rolluiken-zonwering" },
+  { name: "Rengjøringsfirma", slug: "schoonmaakbedrijven" },
+  { name: "Feiere", slug: "schoorsteenvegers" },
+  { name: "Vinterhagebyggere", slug: "serrebouwers" },
+  { name: "Pussere", slug: "stukadoors" },
+  { name: "Tømrer", slug: "timmerlieden" },
+  { name: "Trappeheis & Hjemmeheis", slug: "trapliften-thuisliften" },
+  { name: "Gulvlegger", slug: "vloerlegger" },
+  { name: "Fuktbekjempelse", slug: "vochtbestrijding" },
+  { name: "Fugearbeid", slug: "voegwerk" },
+  { name: "Varmepumpe-installasjon", slug: "warmtepomp-installatie" },
+  { name: "Solcellepaneler", slug: "zonnepanelen" },
+  { name: "Svømmebassengbyggere", slug: "zwembadbouwers" },
 ];
 
 const TradesSection = () => {
@@ -83,18 +83,18 @@ const TradesSection = () => {
           {...fadeInUp}
           className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground text-center max-w-3xl mx-auto"
         >
-          Vakdiensten die wij helpen
+          Fagene vi hjelper
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-xl mx-auto leading-relaxed"
         >
-          En nog veel meer…
+          Og mange flere…
         </motion.p>
 
         <motion.div {...fadeInUp} className="mt-8 flex justify-center">
           <Button asChild size="lg">
-            <Link to="/vakgebieden">Bekijk alle vakdiensten</Link>
+            <Link to="/vakgebieden">Se alle fagområder</Link>
           </Button>
         </motion.div>
 
@@ -122,7 +122,7 @@ const TradesSection = () => {
         {/* All trades list */}
         <motion.div {...fadeInUp} className="mt-16">
           <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground text-center mb-10">
-            Alle vakgebieden
+            Alle fagområder
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-4 max-w-4xl mx-auto">
             {allTrades.map((trade) => (
@@ -136,7 +136,7 @@ const TradesSection = () => {
 
         <motion.div {...fadeInUp} className="mt-12 flex justify-center">
           <Button asChild size="lg">
-            <Link to="/contact">Start vandaag nog</Link>
+            <Link to="/contact">Kom i gang i dag</Link>
           </Button>
         </motion.div>
       </div>

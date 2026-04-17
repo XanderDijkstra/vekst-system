@@ -13,10 +13,10 @@ const CtaSection = () => {
           className="bg-primary rounded-2xl p-10 md:p-16 text-center"
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-primary-foreground">
-            Ontdek hoe jouw bedrijf slimmer kan werken
+            Oppdag hvordan firmaet ditt kan jobbe smartere
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
-            Boek een gratis demo en ontdek welke systemen jouw bedrijf kunnen transformeren.
+            Bestill en gratis demo og se hvilke systemer som kan transformere bedriften din.
           </p>
           <div className="mt-8">
             <Button
@@ -25,7 +25,7 @@ const CtaSection = () => {
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98]"
             >
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

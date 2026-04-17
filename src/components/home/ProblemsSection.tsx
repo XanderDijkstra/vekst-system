@@ -5,23 +5,23 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 const problems = [
   {
     icon: FileStack,
-    title: "Offertes die te lang blijven liggen",
-    description: "Potentiële klanten haken af omdat ze te lang moeten wachten op een offerte.",
+    title: "Tilbud som blir liggende for lenge",
+    description: "Potensielle kunder faller fra fordi de må vente for lenge på et tilbud.",
   },
   {
     icon: PhoneMissed,
-    title: "Gemiste oproepen van potentiële klanten",
-    description: "Op de werf kun je niet altijd opnemen. Elke gemiste oproep is een gemiste kans.",
+    title: "Tapte anrop fra potensielle kunder",
+    description: "På byggeplassen kan du ikke alltid ta telefonen. Hvert tapt anrop er en tapt mulighet.",
   },
   {
     icon: CalendarX,
-    title: "Chaos in planning",
-    description: "Projecten, afspraken en deadlines op verschillende plekken bijhouden kost tijd en zorgt voor fouten.",
+    title: "Kaos i planleggingen",
+    description: "Prosjekter, avtaler og frister på ulike steder koster tid og fører til feil.",
   },
   {
     icon: Clock,
-    title: "Administratie die te veel tijd kost",
-    description: "Avonden en weekenden besteden aan papierwerk in plaats van rust of groei.",
+    title: "Administrasjon som tar for mye tid",
+    description: "Kvelder og helger går med til papirarbeid i stedet for hvile eller vekst.",
   },
 ];
 
@@ -30,19 +30,19 @@ const ProblemsSection = () => {
     <section className="py-20 md:py-28">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Herkenbaar?
+          Kjenner du deg igjen?
         </motion.p>
         <motion.h2
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground max-w-2xl"
         >
-          De uitdagingen van elke aannemer
+          Utfordringene hver håndverker møter
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed"
         >
-          Wij begrijpen aannemers. Dit zijn de problemen die wij dagelijks zien - en oplossen.
+          Vi forstår håndverkere. Dette er problemene vi ser - og løser - hver dag.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -5,39 +5,39 @@ import { Zap, BadgeEuro, FileX2, ShieldCheck, TrendingUp, MessageCircleHeart } f
 const usps = [
   {
     icon: Zap,
-    title: "Eenvoudig in gebruik",
+    title: "Enkelt å bruke",
     description:
-      "Wij maken systemen die makkelijk te begrijpen zijn. Geen technische kennis nodig - alles is klik-en-klaar.",
+      "Vi bygger systemer som er enkle å forstå. Ingen teknisk kunnskap nødvendig - alt er klikk-og-kjør.",
   },
   {
     icon: BadgeEuro,
-    title: "Betaalbaar",
+    title: "Rimelig",
     description:
-      "Onze abonnementen zijn ontworpen voor groei op lange termijn, niet voor snelle winst. Transparante prijzen, geen verrassingen.",
+      "Abonnementene våre er laget for langsiktig vekst, ikke raske penger. Åpne priser, ingen overraskelser.",
   },
   {
     icon: FileX2,
-    title: "Geen dure contracten",
+    title: "Ingen dyre kontrakter",
     description:
-      "Als het betaalbaar en goed werkt, waarom zou je dan een contract nodig hebben? Als je tevreden bent, blijf je.",
+      "Hvis det er rimelig og fungerer bra, hvorfor trenger du en kontrakt? Er du fornøyd, blir du værende.",
   },
   {
     icon: MessageCircleHeart,
-    title: "Geen onzin",
+    title: "Ingen tull",
     description:
-      "Wij geloven niet in mooie praatjes. We vertellen je precies wat we gaan doen en leveren dat. Punt.",
+      "Vi tror ikke på tomme løfter. Vi forteller deg nøyaktig hva vi skal gjøre, og leverer det. Punktum.",
   },
   {
     icon: ShieldCheck,
-    title: "Bewezen resultaten",
+    title: "Beviste resultater",
     description:
-      "We weten wat werkt en hebben de reviews en case studies om het te bewijzen. Geen gokwerk, maar data.",
+      "Vi vet hva som virker og har anmeldelsene og kundecasene som beviser det. Ingen gjetting - bare data.",
   },
   {
     icon: TrendingUp,
-    title: "Constante verbeteringen",
+    title: "Kontinuerlig forbedring",
     description:
-      "We optimaliseren continu onze tools en strategieën, zodat jouw bedrijf altijd voorop loopt.",
+      "Vi optimaliserer verktøyene og strategiene våre fortløpende, så firmaet ditt alltid ligger i forkant.",
   },
 ];
 
@@ -49,9 +49,9 @@ const WhyUniqueSection = () => {
           {...fadeInUp}
           className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground text-center max-w-3xl mx-auto"
         >
-          Waarom wij "totaal uniek" zijn…
+          Derfor er vi "helt unike"…
           <br />
-          <span className="text-muted-foreground">net als iedereen, toch?</span>
+          <span className="text-muted-foreground">akkurat som alle andre, ikke sant?</span>
         </motion.h2>
 
         <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">

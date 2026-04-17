@@ -18,10 +18,10 @@ const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,
-  email: "info@aannemersysteem.com",
+  email: "info@vekst-systemet.no",
   telephone: "+4740185596",
-  description: "Digitale systemen voor moderne aannemers. Websites, lokale SEO, reviews automatisering en lead opvolging voor bouwbedrijven.",
-  areaServed: { "@type": "Country", name: "Nederland" },
+  description: "Digitale systemer for moderne håndverkere. Nettsider, lokal SEO, automatiserte anmeldelser og lead-oppfølging for byggebransjen.",
+  areaServed: { "@type": "Country", name: "Norge" },
   sameAs: [] as string[],
 };
 
@@ -30,7 +30,7 @@ const websiteSchema = {
   "@type": "WebSite",
   name: SITE_NAME,
   url: SITE_URL,
-  inLanguage: "nl-NL",
+  inLanguage: "nb-NO",
   publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
   potentialAction: {
     "@type": "SearchAction",
@@ -43,20 +43,20 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Aannemer Systeem - Digitale systemen voor moderne aannemers</title>
-        <meta name="description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
+        <title>Vekst Systemet - Digitale systemer for moderne håndverkere</title>
+        <meta name="description" content="Mindre administrasjon, mer tid på byggeplassen. Vekst Systemet bygger digitale systemer som hjelper håndverkere å automatisere prosessene sine." />
         <link rel="canonical" href={SITE_URL} />
         <meta property="og:site_name" content={SITE_NAME} />
-        <meta property="og:title" content="Aannemer Systeem - Digitale systemen voor moderne aannemers" />
-        <meta property="og:description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
+        <meta property="og:title" content="Vekst Systemet - Digitale systemer for moderne håndverkere" />
+        <meta property="og:description" content="Mindre administrasjon, mer tid på byggeplassen. Vekst Systemet bygger digitale systemer som hjelper håndverkere å automatisere prosessene sine." />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content={TWITTER_HANDLE} />
-        <meta name="twitter:title" content="Aannemer Systeem - Digitale systemen voor moderne aannemers" />
-        <meta name="twitter:description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
+        <meta name="twitter:title" content="Vekst Systemet - Digitale systemer for moderne håndverkere" />
+        <meta name="twitter:description" content="Mindre administrasjon, mer tid på byggeplassen. Vekst Systemet bygger digitale systemer som hjelper håndverkere å automatisere prosessene sine." />
         <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>

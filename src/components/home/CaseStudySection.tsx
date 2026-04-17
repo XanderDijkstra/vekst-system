@@ -9,10 +9,10 @@ const CaseStudySection = () => {
     <section className="py-20 md:py-28">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Case Study
+          Kundecase
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground max-w-2xl">
-          Aannemer bespaart 10 uur per week
+          Håndverker sparer 10 timer i uken
         </motion.h2>
 
         <motion.div
@@ -22,30 +22,30 @@ const CaseStudySection = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-xs font-bold uppercase tracking-widest text-destructive mb-2">Uitdaging</h4>
+              <h4 className="text-xs font-bold uppercase tracking-widest text-destructive mb-2">Utfordring</h4>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                Een aannemer besteedde dagelijks uren aan het handmatig maken en opvolgen van offertes. Potentiële klanten haakten af door trage reactietijden.
+                En håndverker brukte daglig timer på å lage og følge opp tilbud manuelt. Potensielle kunder falt fra på grunn av treg responstid.
               </p>
             </div>
             <div>
-              <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">Oplossing</h4>
+              <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">Løsning</h4>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                Wij implementeerden een offerte automatiseringssysteem met automatische follow-ups, een lead-generatie website en het gemiste oproep SMS systeem.
+                Vi implementerte et tilbudsautomatiseringssystem med automatisk oppfølging, en leadgenerering-nettside og SMS-systemet for tapte anrop.
               </p>
             </div>
             <div>
-              <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-2">Resultaat</h4>
+              <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-2">Resultat</h4>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                10 uur per week bespaard op administratie, 40% meer offertes verstuurd en een hogere klanttevredenheid door snellere opvolging.
+                10 timer i uken spart på administrasjon, 40 % flere tilbud sendt og høyere kundetilfredshet takket være raskere oppfølging.
               </p>
             </div>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-6">
             {[
-              { icon: Clock, label: "10 uur/week bespaard" },
-              { icon: TrendingUp, label: "40% meer offertes" },
-              { icon: Zap, label: "< 5 min reactietijd" },
+              { icon: Clock, label: "10 timer/uke spart" },
+              { icon: TrendingUp, label: "40 % flere tilbud" },
+              { icon: Zap, label: "< 5 min responstid" },
             ].map((stat) => (
               <div key={stat.label} className="flex items-center gap-2 text-sm font-medium text-foreground tabular-nums">
                 <stat.icon className="h-4 w-4 text-accent" strokeWidth={1.5} />
@@ -57,7 +57,7 @@ const CaseStudySection = () => {
           <div className="mt-8">
             <Button asChild variant="outline" className="rounded-lg">
               <Link to="/case-studies">
-                Bekijk alle case studies
+                Se alle kundecase
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

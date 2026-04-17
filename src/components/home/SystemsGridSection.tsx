@@ -6,14 +6,14 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const systems = [
-  { icon: Globe, title: "Lead Generatie Website", description: "Een website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt.", href: "/diensten/lead-generatie" },
-  { icon: PhoneOff, title: "Gemiste Oproep → SMS", description: "Automatisch een bericht sturen wanneer je een oproep mist.", href: "/diensten/klantcommunicatie" },
-  { icon: FileText, title: "Offerte Automatisering", description: "Maak offertes sneller en volg ze automatisch op.", href: "/diensten/offerte-systeem" },
-  { icon: Star, title: "Review Systeem", description: "Verzamel automatisch Google reviews van tevreden klanten.", href: "/diensten/review-systeem" },
-  { icon: BarChart3, title: "Marketing Automatisering", description: "Bereik je doelgroep automatisch met de juiste boodschap op het juiste moment.", href: "/diensten/marketing-automatisering" },
-  { icon: Calendar, title: "Planning Systeem", description: "Beheer projecten en planning op één centrale plek.", href: "/diensten/planning-systeem" },
-  { icon: Settings, title: "Digitalisering", description: "Van papier naar digitaal. Wij helpen je bedrijf moderniseren.", href: "/diensten/digitalisering-aannemers" },
-  { icon: Plug, title: "Integraties & Automatisering", description: "Koppel je bestaande tools en laat ze naadloos samenwerken.", href: "/diensten/software-integraties" },
+  { icon: Globe, title: "Leadgenerering-nettside", description: "En nettside som tiltrekker nye kunder og samler tilbudsforespørsler automatisk.", href: "/diensten/lead-generatie" },
+  { icon: PhoneOff, title: "Tapt anrop → SMS", description: "Send automatisk en melding når du mister et anrop.", href: "/diensten/klantcommunicatie" },
+  { icon: FileText, title: "Tilbudsautomatisering", description: "Lag tilbud raskere og følg dem opp automatisk.", href: "/diensten/offerte-systeem" },
+  { icon: Star, title: "Anmeldelsessystem", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk.", href: "/diensten/review-systeem" },
+  { icon: BarChart3, title: "Markedsføringsautomatisering", description: "Nå målgruppen din automatisk med riktig budskap til riktig tid.", href: "/diensten/marketing-automatisering" },
+  { icon: Calendar, title: "Planleggingssystem", description: "Administrer prosjekter og planlegging på ett sentralt sted.", href: "/diensten/planning-systeem" },
+  { icon: Settings, title: "Digitalisering", description: "Fra papir til digitalt. Vi hjelper firmaet ditt å modernisere seg.", href: "/diensten/digitalisering-aannemers" },
+  { icon: Plug, title: "Integrasjoner & Automatisering", description: "Koble sammen verktøyene du allerede bruker, så de jobber sømløst.", href: "/diensten/software-integraties" },
 ];
 
 const SystemsGridSection = () => {
@@ -21,13 +21,13 @@ const SystemsGridSection = () => {
     <section className="py-20 md:py-28 bg-card">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Onze diensten
+          Våre tjenester
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground max-w-2xl">
-          Digitale systemen die voor je werken
+          Digitale systemer som jobber for deg
         </motion.h2>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-          Elk systeem is ontworpen om een specifiek probleem op te lossen - samen vormen ze het digitale fundament van jouw aannemersbedrijf.
+          Hvert system er laget for å løse et konkret problem - sammen utgjør de det digitale fundamentet i håndverkerbedriften din.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

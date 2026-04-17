@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
 
 const footerDiensten = [
-  { label: "Lead Generatie", href: "/diensten/lead-generatie" },
-  { label: "Klantcommunicatie", href: "/diensten/klantcommunicatie" },
-  { label: "Offerte Systeem", href: "/diensten/offerte-systeem" },
-  { label: "Review Systeem", href: "/diensten/review-systeem" },
-  { label: "Planning Systeem", href: "/diensten/planning-systeem" },
-  { label: "Marketing", href: "/diensten/marketing-automatisering" },
+  { label: "Leadgenerering", href: "/diensten/lead-generatie" },
+  { label: "Kundekommunikasjon", href: "/diensten/klantcommunicatie" },
+  { label: "Tilbudssystem", href: "/diensten/offerte-systeem" },
+  { label: "Anmeldelsessystem", href: "/diensten/review-systeem" },
+  { label: "Planleggingssystem", href: "/diensten/planning-systeem" },
+  { label: "Markedsføring", href: "/diensten/marketing-automatisering" },
 ];
 
 const footerServices = [
   { label: "Digitalisering", href: "/diensten/digitalisering-aannemers" },
   { label: "Automatisering", href: "/diensten/automatisering-aannemers" },
-  { label: "Software Integraties", href: "/diensten/software-integraties" },
-  { label: "AI Oplossingen", href: "/diensten/ai-oplossingen" },
+  { label: "Programvareintegrasjoner", href: "/diensten/software-integraties" },
+  { label: "AI-løsninger", href: "/diensten/ai-oplossingen" },
 ];
 
 const Footer = () => {
@@ -23,15 +23,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
             <Link to="/" className="text-lg font-bold tracking-tight text-foreground">
-              Aannemer <span className="text-accent">Systeem</span>
+              Vekst <span className="text-accent">Systemet</span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Wij maken het digitale fundament voor de moderne aannemer.
+              Vi bygger det digitale fundamentet for den moderne håndverkeren.
             </p>
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Systemen</h4>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Systemer</h4>
             <ul className="space-y-2">
               {footerDiensten.map((item) => (
                 <li key={item.href}>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Services</h4>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Tjenester</h4>
             <ul className="space-y-2">
               {footerServices.map((item) => (
                 <li key={item.href}>
@@ -57,46 +57,46 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Meer</h4>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Mer</h4>
             <ul className="space-y-2">
               <li>
                 <Link to="/vakgebieden" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Vakgebieden
+                  Fagområder
                 </Link>
               </li>
               <li>
                 <Link to="/vergelijk" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Vergelijk
+                  Sammenlign
                 </Link>
               </li>
               <li>
                 <Link to="/tools" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Tools
+                  Verktøy
                 </Link>
               </li>
               <li>
                 <Link to="/prijzen" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Prijzen
+                  Priser
                 </Link>
               </li>
               <li>
                 <Link to="/kennisbank" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Kennisbank
+                  Kunnskapsbank
                 </Link>
               </li>
               <li>
                 <Link to="/case-studies" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Case Studies
+                  Kundecase
                 </Link>
               </li>
               <li>
                 <Link to="/demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Boek een demo
+                  Bestill demo
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Contact
+                  Kontakt
                 </Link>
               </li>
             </ul>
@@ -104,7 +104,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Aannemer Systeem. Alle rechten voorbehouden.
+          © {new Date().getFullYear()} Vekst Systemet. Alle rettigheter forbeholdt.
         </div>
       </div>
     </footer>

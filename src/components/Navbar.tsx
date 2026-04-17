@@ -5,23 +5,23 @@ import { Button } from "@/components/ui/button";
 
 const dienstenColumns = [
   {
-    heading: "Systemen",
+    heading: "Systemer",
     items: [
-      { icon: Globe, label: "Lead Generatie Website", href: "/diensten/lead-generatie", desc: "Website die klanten aantrekt" },
-      { icon: PhoneOff, label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie", desc: "Automatisch bericht bij gemiste oproep" },
-      { icon: UserCheck, label: "Lead Follow-Up", href: "/diensten/lead-follow-up", desc: "Automatische opvolging van leads" },
-      { icon: Star, label: "Review Systeem", href: "/diensten/review-funnel", desc: "Automatisch Google reviews verzamelen" },
-      { icon: BarChart3, label: "Marketing Campagnes", href: "/diensten/marketing-campagnes", desc: "Bereik klanten op het juiste moment" },
-      { icon: MessageSquare, label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox", desc: "Al je berichten op één plek" },
+      { icon: Globe, label: "Leadgenerering-nettside", href: "/diensten/lead-generatie", desc: "Nettside som tiltrekker kunder" },
+      { icon: PhoneOff, label: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie", desc: "Automatisk melding ved tapt anrop" },
+      { icon: UserCheck, label: "Lead-oppfølging", href: "/diensten/lead-follow-up", desc: "Automatisk oppfølging av leads" },
+      { icon: Star, label: "Anmeldelsessystem", href: "/diensten/review-funnel", desc: "Samle Google-anmeldelser automatisk" },
+      { icon: BarChart3, label: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes", desc: "Nå kunder til rett tid" },
+      { icon: MessageSquare, label: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox", desc: "Alle meldinger på ett sted" },
     ],
   },
   {
-    heading: "Services",
+    heading: "Tjenester",
     items: [
-      { icon: Settings, label: "Digitalisering", href: "/diensten/digitalisering-aannemers", desc: "Van papier naar digitaal" },
-      { icon: Zap, label: "Automatisering", href: "/diensten/automatisering-aannemers", desc: "Repetitieve taken automatiseren" },
-      { icon: Plug, label: "Software Integraties", href: "/diensten/software-integraties", desc: "Tools aan elkaar koppelen" },
-      { icon: Bot, label: "AI Oplossingen", href: "/diensten/ai-oplossingen", desc: "Slimmer werken met AI" },
+      { icon: Settings, label: "Digitalisering", href: "/diensten/digitalisering-aannemers", desc: "Fra papir til digitalt" },
+      { icon: Zap, label: "Automatisering", href: "/diensten/automatisering-aannemers", desc: "Automatiser repetitive oppgaver" },
+      { icon: Plug, label: "Programvareintegrasjoner", href: "/diensten/software-integraties", desc: "Koble verktøyene dine sammen" },
+      { icon: Bot, label: "AI-løsninger", href: "/diensten/ai-oplossingen", desc: "Jobb smartere med AI" },
     ],
   },
 ];
@@ -41,18 +41,18 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { label: "Vakgebieden", href: "/vakgebieden" },
-    { label: "Vergelijk", href: "/vergelijk" },
-    { label: "Prijzen", href: "/prijzen" },
-    { label: "Kennisbank", href: "/kennisbank" },
-    { label: "Contact", href: "/contact" },
+    { label: "Fagområder", href: "/vakgebieden" },
+    { label: "Sammenlign", href: "/vergelijk" },
+    { label: "Priser", href: "/prijzen" },
+    { label: "Kunnskapsbank", href: "/kennisbank" },
+    { label: "Kontakt", href: "/contact" },
   ];
 
   return (
     <nav className="sticky top-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="text-xl font-bold tracking-tight text-foreground">
-          Aannemer <span className="text-accent">Systeem</span>
+          Vekst <span className="text-accent">Systemet</span>
         </Link>
 
         {/* Desktop */}
@@ -66,7 +66,7 @@ const Navbar = () => {
               to="/diensten"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-250 ease-system-ease flex items-center gap-1"
             >
-              Diensten
+              Tjenester
               <svg className={`h-3.5 w-3.5 transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
@@ -113,7 +113,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild className="rounded-lg">
-            <Link to="/demo">Boek een demo</Link>
+            <Link to="/demo">Bestill demo</Link>
           </Button>
         </div>
 
@@ -121,7 +121,7 @@ const Navbar = () => {
         <button
           className="md:hidden p-2 text-foreground"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Menu"
+          aria-label="Meny"
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -159,7 +159,7 @@ const Navbar = () => {
             ))}
           </div>
           <Button asChild className="w-full rounded-lg">
-            <Link to="/demo" onClick={() => setMobileOpen(false)}>Boek een demo</Link>
+            <Link to="/demo" onClick={() => setMobileOpen(false)}>Bestill demo</Link>
           </Button>
         </div>
       )}

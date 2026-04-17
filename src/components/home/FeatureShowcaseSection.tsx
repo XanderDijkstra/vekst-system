@@ -26,29 +26,29 @@ interface FeatureShowcase {
 
 const showcases: FeatureShowcase[] = [
   {
-    title: "Functionele Website",
+    title: "Funksjonell nettside",
     subtitle:
-      "Krijg een website die leads direct omzet in gesprekken via SMS - rechtstreeks naar je telefoon.",
+      "Få en nettside som gjør leads om til samtaler direkte via SMS - rett på telefonen din.",
     features: [
       {
-        title: "Gevonden worden online",
+        title: "Bli funnet på nett",
         description:
-          "Als een klant je bedrijf googelt en je niet kan vinden, is dat een gemiste kans. Wij zorgen dat dat niet gebeurt.",
+          "Hvis en kunde googler firmaet ditt og ikke finner deg, er det en tapt mulighet. Det sørger vi for at ikke skjer.",
       },
       {
-        title: "Je beste reviews tonen",
+        title: "Vis frem de beste anmeldelsene dine",
         description:
-          "We hebben allemaal wel eens een mindere review. Dat betekent niet dat je klanten die als eerste moeten zien.",
+          "Vi får alle en mindre god anmeldelse av og til. Det betyr ikke at kundene dine skal se den først.",
       },
       {
-        title: "Mobielvriendelijk",
+        title: "Mobilvennlig",
         description:
-          "87% van mensen bezoekt websites op hun telefoon. Wij zorgen dat jouw bedrijf er ook op mobiel perfect uitziet.",
+          "87 % besøker nettsider fra mobilen. Vi sørger for at firmaet ditt ser perfekt ut også på mobil.",
       },
       {
-        title: "Geoptimaliseerd voor lokale Google zoekopdrachten",
+        title: "Optimalisert for lokale Google-søk",
         description:
-          "Het spreekt voor zich, maar we zeggen het toch: wij zorgen dat je bedrijf gevonden wordt op Google.",
+          "Det sier seg selv, men vi sier det likevel: vi sørger for at firmaet ditt blir funnet på Google.",
       },
     ],
     demoLink: "/diensten/lead-generatie",
@@ -56,29 +56,29 @@ const showcases: FeatureShowcase[] = [
     image: functioneleWebsiteImg,
   },
   {
-    title: "5-Sterren Review Funnel",
+    title: "5-stjerners anmeldelsesfunnel",
     subtitle:
-      "\"Ja, ik laat wel een review achter\" - maar de waarheid is dat mensen het vergeten. Wij herinneren ze er vriendelijk aan.",
+      "\"Ja, jeg skal gi en anmeldelse\" - men sannheten er at folk glemmer det. Vi minner dem vennlig på.",
     features: [
       {
-        title: "Alleen 5-sterren reviews",
+        title: "Kun 5-stjerners anmeldelser",
         description:
-          "Je kunt niet iedereen tevreden stellen, maar onze funnel zorgt dat alleen de beste beoordelingen publiek worden.",
+          "Du kan ikke gjøre alle fornøyde, men funnelen vår sørger for at bare de beste vurderingene blir offentlige.",
       },
       {
-        title: "Automatische follow-up herinneringen",
+        title: "Automatiske påminnelser",
         description:
-          "Klanten vergeten reviews achter te laten. Wij sturen vriendelijke herinneringen over een aantal weken.",
+          "Kunder glemmer å gi anmeldelser. Vi sender vennlige påminnelser over flere uker.",
       },
       {
-        title: "Reviews vragen in één klik",
+        title: "Be om anmeldelser med ett klikk",
         description:
-          "Zoals beloofd: we houden het simpel. Naam en nummer invullen, klik op verzenden, klaar.",
+          "Som lovet: vi holder det enkelt. Skriv inn navn og nummer, klikk send, ferdig.",
       },
       {
-        title: "Geen zorgen over slechte reviews",
+        title: "Slipp bekymringer for dårlige anmeldelser",
         description:
-          "Twijfel je of je om een review moet vragen? Wij nemen het gokwerk weg en begeleiden je klant naar 5 sterren.",
+          "Er du i tvil om du skal be om en anmeldelse? Vi tar bort gjettingen og leder kunden trygt mot 5 stjerner.",
       },
     ],
     demoLink: "/diensten/review-funnel",
@@ -86,29 +86,29 @@ const showcases: FeatureShowcase[] = [
     image: reviewFunnelImg,
   },
   {
-    title: "Gemiste Oproep → SMS Bericht",
+    title: "Tapt anrop → SMS-melding",
     subtitle:
-      "Iedereen mist weleens een telefoontje, maar niet iedereen stuurt een sms terug. Wees degene die dat wél doet.",
+      "Alle mister en telefon iblant, men ikke alle sender en SMS tilbake. Vær den som gjør det.",
     features: [
       {
-        title: "Val op tussen je concurrenten",
+        title: "Skill deg ut fra konkurrentene",
         description:
-          "Iedereen mist oproepen, maar niet iedereen stuurt een sms terug. Doe het wel en onderscheid je van de rest.",
+          "Alle mister anrop, men ikke alle sender en SMS tilbake. Gjør det, så skiller du deg ut.",
       },
       {
-        title: "Nooit meer leads verliezen",
+        title: "Aldri mer tapte leads",
         description:
-          "Op de werf en kun je niet opnemen? Geen probleem - wij sturen een sms en starten het gesprek voor je.",
+          "På byggeplassen og kan ikke ta telefonen? Ikke noe problem - vi sender en SMS og starter samtalen for deg.",
       },
       {
-        title: "Laat zien dat je om je klanten geeft",
+        title: "Vis at du bryr deg om kundene dine",
         description:
-          "Je klanten willen zich gehoord voelen. Een snelle sms laat zien dat je hun oproep serieus neemt.",
+          "Kundene dine vil føle seg sett. En rask SMS viser at du tar anropet deres på alvor.",
       },
       {
-        title: "24/7 bereikbaar",
+        title: "Tilgjengelig 24/7",
         description:
-          "Gemiste oproep na werktijd? Geen zorgen - wij zorgen dat iedereen zich gehoord voelt, ook terwijl jij slaapt.",
+          "Tapt anrop etter arbeidstid? Ingen bekymring - vi sørger for at alle føler seg sett, også mens du sover.",
       },
     ],
     demoLink: "/diensten/klantcommunicatie",
@@ -116,29 +116,29 @@ const showcases: FeatureShowcase[] = [
     image: gemisteOproepImg,
   },
   {
-    title: "One-Click Marketing Campagnes",
+    title: "One-Click markedsføringskampanjer",
     subtitle:
-      "Je weet het en wij weten het - terugkerende klanten en verwijzingen zijn het allerbeste. Laten we je allebei bezorgen.",
+      "Du vet det og vi vet det - gjenkjøp og anbefalinger er det aller beste. La oss skaffe deg begge deler.",
     features: [
       {
-        title: "Wij doen het voor je",
+        title: "Vi gjør det for deg",
         description:
-          "Simpel: activeer onze kant-en-klare marketing campagnes met één klik.",
+          "Enkelt: aktiver de ferdige markedsføringskampanjene våre med ett klikk.",
       },
       {
-        title: "Verwijzingscampagnes",
+        title: "Anbefalingskampanjer",
         description:
-          "Je levert goed werk en je klanten waarderen dat. Laten we ze eraan herinneren om het aan hun vrienden te vertellen.",
+          "Du leverer godt arbeid og kundene setter pris på det. La oss minne dem om å fortelle det videre til vennene sine.",
       },
       {
-        title: "Terugkerende klant campagnes",
+        title: "Gjenkjøpskampanjer",
         description:
-          "Loyale klanten zijn de sleutel. Wij zorgen dat ze zich gewaardeerd voelen met speciale aanbiedingen.",
+          "Lojale kunder er nøkkelen. Vi sørger for at de føler seg verdsatt med spesielle tilbud.",
       },
       {
-        title: "Marketing op je vingertoppen",
+        title: "Markedsføring på fingertuppene",
         description:
-          "Klik op een knop en wij regelen de rest. Geen marketingteam nodig.",
+          "Trykk på en knapp, så ordner vi resten. Du trenger ikke et markedsføringsteam.",
       },
     ],
     demoLink: "/diensten/marketing-campagnes",
@@ -146,24 +146,24 @@ const showcases: FeatureShowcase[] = [
     image: marketingCampagnesImg,
   },
   {
-    title: "Lokale SEO",
+    title: "Lokal SEO",
     subtitle:
-      "\"Nummer 1 op Google binnen een week!\" - Grapje, SEO kost tijd... maar het is het waard.",
+      "\"Nummer 1 på Google på en uke!\" - Spøk til side, SEO tar tid… men det er verdt det.",
     features: [
       {
-        title: "Gekwalificeerde leads",
+        title: "Kvalifiserte leads",
         description:
-          "Klinkt beter dan €50 betalen voor een lead die niet eens opneemt, toch?",
+          "Høres bedre ut enn å betale 500 kr for en lead som ikke engang tar telefonen, ikke sant?",
       },
       {
-        title: "Stop met betalen voor ongekwalificeerde leads",
+        title: "Slutt å betale for ukvalifiserte leads",
         description:
-          "Zoals je moeder altijd zei: kwaliteit boven kwantiteit. Zijn we het met haar eens? Absoluut.",
+          "Som mor alltid sa: kvalitet fremfor kvantitet. Er vi enige med henne? Absolutt.",
       },
       {
-        title: "Organisch acquisitiesysteem",
+        title: "Organisk leadsystem",
         description:
-          "Genereer je eigen gekwalificeerde leads in plaats van te betalen voor bandenkijkers.",
+          "Generer dine egne kvalifiserte leads i stedet for å betale for nysgjerrige som bare kikker.",
       },
     ],
     demoLink: "/diensten/lead-generatie",
@@ -179,13 +179,13 @@ const FeatureShowcaseSection = () => {
           {...fadeInUp}
           className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-foreground text-center max-w-3xl mx-auto"
         >
-          Simpele systemen die écht werken
+          Enkle systemer som faktisk virker
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-xl mx-auto leading-relaxed"
         >
-          Geen diploma nodig, gewoon een harde helm.
+          Ingen utdannelse kreves, bare en hjelm.
         </motion.p>
 
         <div className="mt-20 space-y-28">
@@ -220,7 +220,7 @@ const FeatureShowcaseSection = () => {
                           </span>
                         </div>
                         <p className="text-sm text-muted-foreground font-medium">
-                          Demo video binnenkort beschikbaar
+                          Demovideo kommer snart
                         </p>
                       </div>
                     </div>
@@ -266,7 +266,7 @@ const FeatureShowcaseSection = () => {
                   className="mt-8 rounded-lg bg-accent text-accent-foreground hover:bg-accent/90"
                 >
                   <Link to={showcase.demoLink}>
-                    Bekijk korte demo
+                    Se kort demo
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
