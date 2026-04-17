@@ -3871,4 +3871,98 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "hoe-word-ik-gevonden-op-google-aannemer",
+    title: "Hoe word ik gevonden op Google als aannemer? Praktische gids 2026",
+    description: "Zo kom je op pagina 1 van Google als aannemer. De 6 stappen die elke aannemer moet nemen voor lokale vindbaarheid en meer klanten.",
+    category: "SEO",
+    readTime: "8 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Lokale SEO voor aannemers", href: "/kennisbank/lokale-seo-aannemer" },
+      { label: "Google Mijn Bedrijf optimaliseren", href: "/kennisbank/google-mijn-bedrijf-optimaliseren-aannemer" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Het korte antwoord",
+        body: "Om als aannemer gevonden te worden op Google, moet je op 6 vlakken scoren: (1) een volledig Google Mijn Bedrijf profiel, (2) een snelle, mobiel-vriendelijke website, (3) aparte pagina's per dienst en per stad, (4) 20+ Google reviews boven 4,5 sterren, (5) consistente NAP-gegevens op het hele web, en (6) lokale backlinks. Wie deze 6 pijlers goed heeft staan, komt meestal binnen 3-6 maanden op pagina 1 voor zijn belangrijkste zoekopdrachten.",
+      },
+      {
+        heading: "Stap 1: Zorg dat je überhaupt bestaat voor Google",
+        body: "Google kent jouw bedrijf alleen als het van jou weet. Check of je verschijnt in Google door te zoeken op je bedrijfsnaam. Niks? Dan begin je bij nul. Claim een Google Mijn Bedrijf profiel (gratis via business.google.com), verifieer je adres via post of telefoon en maak een basis-website met minstens 5 pagina's. Zonder deze twee dingen bestaat je bedrijf niet voor Google — ongeacht hoe goed je bent in het echt.",
+      },
+      {
+        heading: "Stap 2: Schrijf content op wat klanten zoeken",
+        body: "Klanten zoeken op 'keukenmonteur Amsterdam' of 'badkamer renovatie Utrecht' — niet op 'Jansen Bouw BV'. Je moet content hebben die exact overeenkomt met wat klanten typen. Voor elke dienst en elke belangrijke stad een aparte pagina met die zoekterm in de titel, in de H1, in de tekst en in de URL. Dit klinkt mechanisch maar is essentieel: Google kan jouw pagina alleen tonen als hij ziet dat jouw inhoud past bij de zoekopdracht.",
+      },
+      {
+        heading: "Stap 3: Bouw autoriteit op via reviews",
+        body: "Google's algoritme kijkt naar vertrouwen: hoe weten we dat dit bedrijf betrouwbaar is? Het sterkste signaal is Google reviews. Elk nieuwe review is een positief signaal — zeker als ze spontaan en divers zijn (niet allemaal tegelijk, niet allemaal kort). Vraag actief om reviews na elke klus. 20+ reviews met 4,5+ sterren is de benchmark om in het local pack te komen staan.",
+      },
+      {
+        heading: "Stap 4: Maak je website technisch gezond",
+        body: "Google ranks snelle, mobiel-vriendelijke sites hoger. Check je site met Google PageSpeed Insights en Google's Mobile-Friendly Test. Je wilt een laadtijd onder 3 seconden en een score boven 90 op mobiel. Veelvoorkomende problemen: grote ongeoptimaliseerde afbeeldingen, trage hosting, te veel plugins. Een langzame site kan je rankings tientallen posities verlagen — ongeacht hoe goed je content is.",
+      },
+      {
+        heading: "Stap 5: Krijg andere sites om naar jou te linken",
+        body: "Backlinks zijn Google's 'stemmen' voor je website. Hoe meer relevante sites naar jou linken, hoe hoger je autoriteit. Voor aannemers werken lokale backlinks het best: lokale sponsoring (voetbalclub, scouting), vermeldingen in de lokale krant, branchespecifieke directories (Bouwpas, KvK, lokale ondernemersvereniging). Eén goede lokale backlink is meer waard dan 100 algemene links van random websites.",
+      },
+      {
+        heading: "Stap 6: Wees geduldig — SEO duurt tijd",
+        body: "Google's algoritme straft nieuwe sites die te snel veel links en content produceren. Bouw organisch: 2-4 blogposts per maand, 2-4 reviews per maand, regelmatig nieuwe foto's op je GMB profiel. Resultaten op lange-tail zoektermen ('badkamerrenovatie Utrecht oost') zie je binnen 1-3 maanden. Korte-tail termen ('aannemer Utrecht') duren 6-12 maanden. Wie geduld heeft, wint.",
+      },
+      {
+        heading: "Wat kost dit en wat levert het op?",
+        body: "Zelf doen: gratis, maar kost 10-20 uur per maand en je leert via trial-and-error. Een SEO-bureau inhuren: €1.000-€3.000/maand plus opstartkosten. Aannemer Systeem: €279/maand inclusief alles (website, SEO, reviews, hosting). De ROI? Een aannemer die van pagina 3 naar pagina 1 komt voor zijn belangrijkste zoekterm, ziet gemiddeld 10-20x zoveel aanvragen. Bij projectwaarden van €5.000-€15.000 verdient de investering zich meestal binnen 2-3 maanden terug.",
+      },
+    ],
+  },
+  {
+    slug: "marketing-budget-aannemer",
+    title: "Marketing budget voor aannemers: hoeveel moet je uitgeven?",
+    description: "Hoeveel marketingbudget hebben aannemers écht nodig? Benchmarks, verdeling per kanaal en hoe je ROI meet. Inclusief voorbeelden.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Leadwaarde calculator", href: "/tools/leadwaarde-calculator" },
+      { label: "SEO vs Google Ads", href: "/vergelijk/seo-vs-google-ads" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "De benchmark: 3-8% van je omzet",
+        body: "Onderzoek toont dat succesvolle aannemers tussen 3% en 8% van hun omzet uitgeven aan marketing. Een bedrijf met €500.000 omzet besteedt dus €15.000-€40.000 per jaar aan marketing. Te weinig (onder 2%) betekent dat je vastloopt op mond-tot-mond en bestaande klanten. Te veel (boven 10%) zonder goede tracking is vaak verspild geld. De sweet spot voor de meeste aannemers: 4-5% van de omzet.",
+      },
+      {
+        heading: "Wat zit er in dat budget?",
+        body: "Een realistische verdeling voor aannemers: 40% website en SEO (fundament), 20% Google Ads (quick wins en seizoensgebonden), 15% Google Mijn Bedrijf optimalisatie en reviews, 10% social media, 10% lokale sponsoring/netwerken, 5% overig (bedrijfswagen-bestickering, visitekaartjes, folders). De exacte verdeling hangt af van je fase: startende aannemers besteden meer aan Ads, gevestigde aannemers aan SEO en content.",
+      },
+      {
+        heading: "Vaste kosten vs variabele kosten",
+        body: "Marketinguitgaven vallen in twee categorieën. Vaste kosten: website hosting (€20-€200/maand), SEO-abonnement of bureau (€500-€3.000/maand), marketingsoftware (€50-€300/maand). Variabele kosten: Google Ads (schaalt met hoeveel leads je wilt), social media advertising, betaalde leads van platforms. Zorg dat minstens 60% van je budget naar assets gaat die blijvend waarde opleveren (website, SEO, content) — niet naar tijdelijke uitgaven (Ads, platformleads).",
+      },
+      {
+        heading: "Werkspot en andere platforms: tellen die mee?",
+        body: "Ja, absoluut. Als je €400/maand aan Werkspot-leads uitgeeft, is dat marketingbudget. Het probleem: deze kosten schalen lineair met leads en je bouwt er niets mee op. Aannemers die €200-€800/maand aan leadplatforms uitgeven, verdienen meestal meer door dit geld te verschuiven naar een eigen website en SEO — en Werkspot als aanvulling te gebruiken.",
+      },
+      {
+        heading: "ROI meten: weet wat elke euro oplevert",
+        body: "Tracking is essentieel. Gebruik een aparte trackings-telefoonnummer voor je website (via bijvoorbeeld CallRail), zodat je weet welke leads via welk kanaal komen. Meet per kanaal: kosten per lead, conversie naar klus, gemiddelde projectwaarde, ROI. Na 3 maanden zie je welk kanaal €50 per lead oplevert en welk €200 — dan kun je je budget herverdelen naar wat écht werkt.",
+      },
+      {
+        heading: "Voorbeeldverdeling: €20.000 per jaar (aannemer met €400k omzet)",
+        body: "Website + SEO + reviews via Aannemer Systeem: €3.348/jaar (€279/maand). Google Ads: €4.800/jaar (€400/maand voor seizoensgebonden pieken). Werkspot/platforms als aanvulling: €2.400/jaar (€200/maand). Lokale sponsoring en netwerk: €1.500/jaar. Bedrijfsauto-bestickering en flyers: €500/jaar. Rest (€7.852) als buffer voor experimenten, seizoenspieken en nieuwe content. Deze mix levert gemiddeld 100-200 leads per jaar op bij een goed systeem.",
+      },
+      {
+        heading: "Wanneer moet je meer uitgeven?",
+        body: "Meer budget heeft zin wanneer: (1) je momenteel <2% van je omzet uitgeeft en stagneert, (2) je capaciteit hebt om 30%+ meer klussen aan te nemen, (3) je goede tracking hebt die laat zien dat je huidige kanalen winstgevend zijn, (4) je een specifieke groei-ambitie hebt (nieuwe dienst, nieuwe stad). Meer uitgeven zonder deze voorwaarden is gokken met geld.",
+      },
+      {
+        heading: "Wanneer minder uitgeven?",
+        body: "Verlaag je budget als: (1) je kanalen geen aantoonbare ROI opleveren, (2) je al meer leads krijgt dan je aankunt, (3) je bureau onduidelijk is over wat er gebeurt met je geld, (4) je betalingen aan platforms sneller stijgen dan je omzet. Veel aannemers betalen €500+ per maand aan ineffectieve marketing. Audit elk jaar welke uitgaven écht lonen.",
+      },
+    ],
+  },
 ];
