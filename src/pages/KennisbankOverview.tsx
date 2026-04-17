@@ -27,6 +27,22 @@ const latestWikiTerms = [...wikiTerms]
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 6);
 
+// Group all articles by category, sorted by article count (largest first).
+const articlesByCategory = (() => {
+  const map = new Map<string, typeof kennisbankArticles>();
+  for (const a of kennisbankArticles) {
+    const list = map.get(a.category) ?? [];
+    list.push(a);
+    map.set(a.category, list);
+  }
+  return Array.from(map.entries())
+    .map(([category, articles]) => ({
+      category,
+      articles: [...articles].sort((a, b) => a.title.localeCompare(b.title)),
+    }))
+    .sort((a, b) => b.articles.length - a.articles.length);
+})();
+
 const kennisbankSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -173,12 +189,49 @@ const KennisbankOverview = () => (
           ))}
         </div>
         <div className="mt-10 text-center">
-          <Link
-            to="/kennisbank"
+          <a
+            href="#alle-artikelen"
             className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-accent transition-colors"
           >
-            Bekijk alle artikelen <ArrowRight className="h-4 w-4" />
-          </Link>
+            Bekijk alle {kennisbankArticles.length} artikelen <ArrowRight className="h-4 w-4" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {/* All articles by category */}
+    <section id="alle-artikelen" className="py-20 md:py-28 bg-card scroll-mt-20">
+      <div className="container">
+        <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+          Alle artikelen per categorie
+        </motion.h2>
+        <motion.p {...fadeInUp} className="text-muted-foreground mb-10 max-w-2xl">
+          {kennisbankArticles.length} artikelen over marketing, SEO, website, strategie en vakgebieden voor aannemers.
+        </motion.p>
+
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {articlesByCategory.map(({ category, articles }) => (
+            <div key={category} className="bg-background rounded-2xl border border-border p-6">
+              <div className="flex items-baseline justify-between mb-4 pb-3 border-b border-border">
+                <h3 className="text-base font-bold text-foreground">{category}</h3>
+                <span className="text-xs font-medium text-muted-foreground">
+                  {articles.length} artikel{articles.length === 1 ? "" : "en"}
+                </span>
+              </div>
+              <ul className="space-y-2">
+                {articles.map((a) => (
+                  <li key={a.slug}>
+                    <Link
+                      to={`/kennisbank/${a.slug}`}
+                      className="block text-sm leading-snug text-muted-foreground hover:text-accent transition-colors"
+                    >
+                      {a.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </section>
