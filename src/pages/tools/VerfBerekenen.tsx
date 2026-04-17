@@ -21,10 +21,10 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/verf-berekenen`;
 
-const num = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 1 });
+const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
 
 interface VerfType {
   label: string;
@@ -33,40 +33,40 @@ interface VerfType {
 }
 
 const VERFTYPEN: VerfType[] = [
-  { label: "Muurverf (latex)", dekkingM2PerLiter: 10, aanbevolenLagen: 2 },
-  { label: "Muurverf (acrylaat)", dekkingM2PerLiter: 9, aanbevolenLagen: 2 },
-  { label: "Lakverf (alkyd)", dekkingM2PerLiter: 12, aanbevolenLagen: 2 },
-  { label: "Lakverf (waterbasis)", dekkingM2PerLiter: 11, aanbevolenLagen: 2 },
-  { label: "Grondverf (primer)", dekkingM2PerLiter: 10, aanbevolenLagen: 1 },
-  { label: "Beits (dekkend)", dekkingM2PerLiter: 10, aanbevolenLagen: 2 },
-  { label: "Beits (transparant)", dekkingM2PerLiter: 8, aanbevolenLagen: 2 },
-  { label: "Buitenlatex (gevelverf)", dekkingM2PerLiter: 7, aanbevolenLagen: 2 },
+  { label: "Veggmaling (latex)", dekkingM2PerLiter: 10, aanbevolenLagen: 2 },
+  { label: "Veggmaling (akrylat)", dekkingM2PerLiter: 9, aanbevolenLagen: 2 },
+  { label: "Lakkmaling (alkyd)", dekkingM2PerLiter: 12, aanbevolenLagen: 2 },
+  { label: "Lakkmaling (vannbasert)", dekkingM2PerLiter: 11, aanbevolenLagen: 2 },
+  { label: "Grunning (primer)", dekkingM2PerLiter: 10, aanbevolenLagen: 1 },
+  { label: "Trebeis (dekkende)", dekkingM2PerLiter: 10, aanbevolenLagen: 2 },
+  { label: "Trebeis (transparent)", dekkingM2PerLiter: 8, aanbevolenLagen: 2 },
+  { label: "Utendørs veggmaling", dekkingM2PerLiter: 7, aanbevolenLagen: 2 },
 ];
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Hoeveel verf heb ik nodig per m²?",
-    a: "Dat hangt af van het verftype. Muurverf (latex) dekt gemiddeld 10 m² per liter. Buitenlatex/gevelverf dekt minder: ~7 m² per liter door de ruwere ondergrond. Lakverf zit rond de 11–12 m² per liter. Vermenigvuldig met het aantal lagen (standaard 2) om je totale verbruik te berekenen.",
+    q: "Hvor mye maling trenger jeg per m²?",
+    a: "Det avhenger av malingtypen. Veggmaling (latex) dekker i gjennomsnitt 10 m² per liter. Utendørs veggmaling dekker mindre: ~7 m² per liter på grunn av det ruere underlaget. Lakkmaling ligger rundt 11–12 m² per liter. Gang med antall strøk (standard 2) for å beregne totalforbruket.",
   },
   {
-    q: "Hoeveel lagen verf moet ik aanbrengen?",
-    a: "Standaard 2 dekkende lagen. Ga je van donker naar licht? Dan soms 3 lagen. Gebruik je grondverf op een nieuwe ondergrond? Tel dat als een extra laag. Bij transparante beits is 2 lagen ook de norm, maar de dekking per laag is lager dan bij dekkende verf.",
+    q: "Hvor mange strøk maling må jeg legge på?",
+    a: "Standard 2 dekkende strøk. Skal du fra mørk til lys farge? Da av og til 3 strøk. Bruker du grunning på et nytt underlag? Tell det som et ekstra strøk. Ved transparent beis er 2 strøk også normen, men dekningen per strøk er lavere enn ved dekkende maling.",
   },
   {
-    q: "Moet ik ramen en deuren van de oppervlakte aftrekken?",
-    a: "Ja. Een standaard binnendeur is ~1,6 m², een raam verschilt maar meet gemiddeld 1–2 m². Trek de totale raam- en deuroppervlakte af van je wandoppervlakte. Doe je dit niet, dan bestel je ~10–15% te veel - niet dramatisch, maar onnodig.",
+    q: "Må jeg trekke fra vinduer og dører fra flaten?",
+    a: "Ja. En standard innerdør er ~1,6 m², et vindu varierer, men i snitt 1–2 m². Trekk total vindus- og dørflate fra veggflaten din. Gjør du ikke det, bestiller du ~10–15 % for mye - ikke dramatisk, men unødvendig.",
   },
   {
-    q: "Wat is het verschil tussen latex en acrylaat?",
-    a: "Beide zijn watergedragen muurverven. Acrylaat is iets slijtvaster en vochbestendiger - geschikt voor keukens, badkamers en drukke gangen. Latex is goedkoper en prima voor slaapkamers en woonkamers. Qua dekking zit er weinig verschil: 9–10 m² per liter.",
+    q: "Hva er forskjellen mellom latex og akrylat?",
+    a: "Begge er vannbaserte veggmalinger. Akrylat er litt mer slitesterk og fuktbestandig - egnet for kjøkken, bad og travle ganger. Latex er billigere og fint for soverom og stuer. Når det gjelder dekning er det liten forskjell: 9–10 m² per liter.",
   },
   {
-    q: "Hoeveel kost het om een kamer te laten schilderen?",
-    a: "Reken voor binnenschilderwerk op €8–€14 per m² (arbeid + materiaal). Een woonkamer van 35 m² wandoppervlak kost dan ~€280–€490. Buitenschilderwerk is duurder: €15–€30 per m² door steigers, voorbereiding en weerafhankelijkheid.",
+    q: "Hvor mye koster det å få et rom malt?",
+    a: "Regn for innvendig maling på 100-170 kr per m² (arbeid + material). En stue på 35 m² veggflate koster da ~3 400-5 900 kr. Utvendig maling er dyrere: 180-360 kr per m² på grunn av stillas, forberedelse og væravhengighet.",
   },
   {
-    q: "Welk blik moet ik kopen: 2.5L, 5L of 10L?",
-    a: "Grotere blikken zijn per liter goedkoper. Vuistregel: als je meer dan 4 liter nodig hebt, pak een 5L blik. Meer dan 8 liter? Pak 10L. Houd er rekening mee dat geopende verf beperkt houdbaar is (1–2 jaar bij goede opslag). Koop dus geen 10L als je maar 6 liter nodig hebt.",
+    q: "Hvilket spann skal jeg kjøpe: 2,5L, 5L eller 10L?",
+    a: "Større spann er billigere per liter. Tommelfingerregel: trenger du mer enn 4 liter, ta et 5L-spann. Mer enn 8 liter? Ta 10L. Husk at åpnet maling har begrenset holdbarhet (1–2 år ved god oppbevaring). Kjøp derfor ikke 10L hvis du bare trenger 6 liter.",
   },
 ];
 
@@ -75,24 +75,24 @@ const faqs: { q: string; a: string }[] = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Verf berekenen - hoeveel verf heb ik nodig?",
+  name: "Maling kalkulator - hvor mye maling trenger jeg?",
   url: PAGE_URL,
   description:
-    "Gratis verfcalculator. Bereken hoeveel liter verf en hoeveel blikken je nodig hebt. Kies verftype, vul m² in - klaar.",
+    "Gratis maling kalkulator. Beregn hvor mange liter maling og spann du trenger. Velg malingtype, fyll inn m² - ferdig.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-      { "@type": "ListItem", position: 3, name: "Verf berekenen", item: PAGE_URL },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 3, name: "Maling kalkulator", item: PAGE_URL },
     ],
   },
   mainEntity: {
     "@type": "SoftwareApplication",
-    name: "Verf berekenen calculator",
+    name: "Maling kalkulator",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+    offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
   },
 };
 
@@ -110,7 +110,7 @@ const faqSchema = {
 
 const VerfBerekenen = () => {
   const [oppervlakte, setOppervlakte] = useState(35);
-  const [verfIdx, setVerfIdx] = useState(0); // default muurverf latex
+  const [verfIdx, setVerfIdx] = useState(0); // default veggmaling latex
   const [lagen, setLagen] = useState(2);
   const [blikGrootte, setBlikGrootte] = useState(5); // liter
 
@@ -139,17 +139,17 @@ const VerfBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Verf berekenen - hoeveel verf heb ik nodig? | Aannemer Systeem</title>
+        <title>Maling kalkulator - hvor mye maling trenger jeg? | Vekst Systemet</title>
         <meta
           name="description"
-          content="Gratis verfcalculator: bereken hoeveel liter verf en blikken je nodig hebt. Kies verftype, vul je oppervlakte in en bestel precies genoeg."
+          content="Gratis maling kalkulator: beregn hvor mange liter maling og spann du trenger. Velg malingtype, fyll inn flaten din og bestill akkurat nok."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Verf berekenen - hoeveel verf heb ik nodig?" />
-        <meta property="og:description" content="Bereken in 10 seconden hoeveel verf je nodig hebt. Gratis, geen registratie." />
+        <meta property="og:title" content="Maling kalkulator - hvor mye maling trenger jeg?" />
+        <meta property="og:description" content="Beregn på 10 sekunder hvor mye maling du trenger. Gratis, ingen registrering." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -159,19 +159,19 @@ const VerfBerekenen = () => {
         <div className="container max-w-4xl">
           <motion.div {...fadeInUp} className="flex items-center gap-2 mb-4">
             <Link to="/tools" className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors">
-              Rekentools
+              Kalkulatorer
             </Link>
             <span className="text-primary-foreground/40">/</span>
             <span className="text-xs font-bold uppercase tracking-widest text-primary-foreground/60">
-              Verf berekenen
+              Maling kalkulator
             </span>
           </motion.div>
           <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight">
-            Hoeveel verf heb ik nodig?
+            Hvor mye maling trenger jeg?
           </motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-            Kies je verftype, vul de oppervlakte en het aantal lagen in. De calculator geeft
-            je het exacte aantal liters en blikken - geen giswerk, geen tekort halverwege.
+            Velg malingtype, fyll inn flaten og antall strøk. Kalkulatoren gir
+            deg eksakt antall liter og spann - ingen gjetting, ingen mangel underveis.
           </motion.p>
         </div>
       </section>
@@ -184,14 +184,14 @@ const VerfBerekenen = () => {
             <motion.div {...fadeInUp} className="bg-card rounded-2xl border border-border p-6 md:p-8 shadow-system-card">
               <h2 className="text-xl font-semibold tracking-tight text-foreground flex items-center gap-2 mb-6">
                 <Calculator className="h-5 w-5 text-accent" strokeWidth={1.5} />
-                Jouw gegevens
+                Dine data
               </h2>
               <div className="space-y-6">
                 {/* Verftype selector */}
                 <div>
                   <label className="text-sm font-medium text-foreground flex items-center gap-2 mb-2">
                     <Paintbrush className="h-4 w-4 text-muted-foreground" strokeWidth={1.75} />
-                    Verftype
+                    Malingtype
                   </label>
                   <div className="grid grid-cols-2 gap-2">
                     {VERFTYPEN.map((v, i) => (
@@ -213,13 +213,13 @@ const VerfBerekenen = () => {
                     ))}
                   </div>
                   <p className="mt-2 text-xs text-muted-foreground">
-                    Dekking: ~{verfType.dekkingM2PerLiter} m² per liter · aanbevolen {verfType.aanbevolenLagen} lagen
+                    Dekning: ~{verfType.dekkingM2PerLiter} m² per liter · anbefalt {verfType.aanbevolenLagen} strøk
                   </p>
                 </div>
 
                 <CalcInput
-                  label="Oppervlakte"
-                  hint="Totale te schilderen oppervlakte. Trek ramen en deuren af. Tip: een standaard binnendeur is ~1,6 m²."
+                  label="Flate"
+                  hint="Total flate som skal males. Trekk fra vinduer og dører. Tips: en standard innerdør er ~1,6 m²."
                   value={oppervlakte}
                   onChange={setOppervlakte}
                   min={0}
@@ -233,8 +233,8 @@ const VerfBerekenen = () => {
                 />
 
                 <CalcInput
-                  label="Aantal lagen"
-                  hint="2 lagen is standaard. Bij een donkere naar lichte kleur soms 3. Grondverf telt als 1 extra laag."
+                  label="Antall strøk"
+                  hint="2 strøk er standard. Ved mørk til lys farge av og til 3. Grunning teller som 1 ekstra strøk."
                   value={lagen}
                   onChange={setLagen}
                   min={1}
@@ -246,8 +246,8 @@ const VerfBerekenen = () => {
                 />
 
                 <CalcInput
-                  label="Blikgrootte"
-                  hint="Gangbare maten: 1L, 2.5L, 5L en 10L. Grotere blikken zijn per liter goedkoper."
+                  label="Spannstørrelse"
+                  hint="Vanlige størrelser: 1L, 2,5L, 5L og 10L. Større spann er billigere per liter."
                   value={blikGrootte}
                   onChange={setBlikGrootte}
                   min={0.5}
@@ -263,31 +263,31 @@ const VerfBerekenen = () => {
             <div className="space-y-4">
               <CalcResultCard
                 variant="hero"
-                label="Totaal verf nodig"
+                label="Totalt maling nødvendig"
                 value={`${num.format(results.literMetBuffer)} liter`}
-                caption={`${num.format(results.totaalLiter)} liter voor ${lagen} lagen + 5% buffer voor verfrollen en morsen`}
+                caption={`${num.format(results.totaalLiter)} liter for ${lagen} strøk + 5 % buffer for ruller og søl`}
                 icon={<Paintbrush className="h-4 w-4" strokeWidth={1.75} />}
               />
 
               <div className="grid grid-cols-2 gap-4">
                 <CalcResultCard
-                  label="Blikken bestellen"
+                  label="Spann å bestille"
                   value={`${results.aantalBlikken}× ${blikGrootte}L`}
-                  caption={`${num.format(results.literBesteld)} liter totaal`}
+                  caption={`${num.format(results.literBesteld)} liter totalt`}
                   icon={<Package className="h-4 w-4" strokeWidth={1.75} />}
                 />
                 <CalcResultCard
-                  label="Per laag"
+                  label="Per strøk"
                   value={`${num.format(results.liter1Laag)} liter`}
-                  caption={`bij ${verfType.dekkingM2PerLiter} m²/liter dekking`}
+                  caption={`ved ${verfType.dekkingM2PerLiter} m²/liter dekning`}
                   icon={<Layers className="h-4 w-4" strokeWidth={1.75} />}
                 />
               </div>
 
-              {/* Dekking tabel */}
+              {/* Dekking tabell */}
               <motion.div {...fadeInUp} className="rounded-2xl border border-border bg-card p-5 shadow-system-card">
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
-                  Dekking per verftype
+                  Dekning per malingtype
                 </p>
                 <div className="space-y-1.5 text-sm">
                   {VERFTYPEN.map((v) => (
@@ -300,11 +300,11 @@ const VerfBerekenen = () => {
               </motion.div>
 
               <motion.div {...fadeInUp} className="rounded-2xl border border-dashed border-border bg-muted/30 p-5">
-                <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Tip</p>
+                <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Tips</p>
                 <p className="mt-2 text-foreground leading-relaxed text-sm">
-                  De dekking op het etiket geldt voor een gladde, grondverfde ondergrond. Op
-                  ruwe of zuigende oppervlakten (nieuw stucwerk, onbehandeld hout) kan het
-                  verbruik 20–30% hoger liggen. Reken in dat geval met een laag extra.
+                  Dekningen på etiketten gjelder for et glatt, grunnet underlag. På
+                  grove eller sugende flater (ny puss, ubehandlet tre) kan
+                  forbruket ligge 20–30 % høyere. Regn i så fall med et ekstra strøk.
                 </p>
               </motion.div>
             </div>
@@ -316,24 +316,24 @@ const VerfBerekenen = () => {
       <section className="py-16 md:py-20 bg-muted/30">
         <div className="container max-w-3xl">
           <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground">
-            Hoe bereken je hoeveel verf je nodig hebt?
+            Hvordan beregner du hvor mye maling du trenger?
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-6 bg-card border border-border rounded-2xl p-6 md:p-8 shadow-system-card">
             <ol className="space-y-3 font-mono text-sm md:text-base text-foreground">
-              <li><span className="text-muted-foreground">1.</span> Verf per laag = <span className="font-semibold">oppervlakte / dekking per liter</span></li>
-              <li><span className="text-muted-foreground">2.</span> Totaal = <span className="font-semibold">verf per laag × aantal lagen</span></li>
-              <li><span className="text-muted-foreground">3.</span> + 5% buffer = <span className="font-semibold">totaal × 1,05</span></li>
-              <li><span className="text-muted-foreground">4.</span> Blikken = <span className="font-semibold">⌈liters / blikgrootte⌉</span></li>
+              <li><span className="text-muted-foreground">1.</span> Maling per strøk = <span className="font-semibold">flate / dekning per liter</span></li>
+              <li><span className="text-muted-foreground">2.</span> Totalt = <span className="font-semibold">maling per strøk × antall strøk</span></li>
+              <li><span className="text-muted-foreground">3.</span> + 5 % buffer = <span className="font-semibold">totalt × 1,05</span></li>
+              <li><span className="text-muted-foreground">4.</span> Spann = <span className="font-semibold">⌈liter / spannstørrelse⌉</span></li>
             </ol>
             <div className="mt-6 pt-6 border-t border-border space-y-2">
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Voorbeeld:</span> woonkamer 35 m², muurverf latex (10 m²/liter), 2 lagen, blikken van 5L.
+                <span className="font-semibold text-foreground">Eksempel:</span> stue 35 m², veggmaling latex (10 m²/liter), 2 strøk, spann à 5L.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>Per laag: 35 / 10 = 3,5 liter</li>
-                <li>2 lagen: 3,5 × 2 = 7,0 liter</li>
-                <li>Met 5% buffer: 7,0 × 1,05 = 7,35 liter</li>
-                <li>Blikken: 7,35 / 5 = 1,47 → <span className="font-bold text-foreground">2 blikken van 5L bestellen</span></li>
+                <li>Per strøk: 35 / 10 = 3,5 liter</li>
+                <li>2 strøk: 3,5 × 2 = 7,0 liter</li>
+                <li>Med 5 % buffer: 7,0 × 1,05 = 7,35 liter</li>
+                <li>Spann: 7,35 / 5 = 1,47 → <span className="font-bold text-foreground">2 spann à 5L å bestille</span></li>
               </ul>
             </div>
           </motion.div>
@@ -344,15 +344,15 @@ const VerfBerekenen = () => {
       <section className="py-16 md:py-20 bg-background">
         <div className="container max-w-5xl">
           <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground">
-            5 verftips van schilders
+            5 malingstips fra malere
           </motion.h2>
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: "Altijd grondverf op nieuw stucwerk", text: "Nieuw stucwerk zuigt verf op als een spons. Zonder grondverf heb je 3–4 lagen nodig in plaats van 2. Grondverf is goedkoper - en bespaart uiteindelijk verf." },
-              { title: "Roer voor gebruik, niet schudden", text: "Schudden creëert luchtbellen die als kratertjes drogen. Roer langzaam met een verfstok of een mixer op lage snelheid." },
-              { title: "Snijd bij met een kwast, rol het vlak", text: "Gebruik een kwast voor randen, hoeken en kozijnen (bijsnijden). Doe daarna het grote vlak met een roller. Werk nat-in-nat: snijd een wand bij en rol direct daarna, zodat er geen droogrand ontstaat." },
-              { title: "Koop alles uit één batch", text: "Net als bij tegels: kleurverschillen tussen batches zijn subtiel maar zichtbaar bij groot licht. Koop al je blikken tegelijk en check het batchnummer." },
-              { title: "Bewaar een halve liter voor touch-ups", text: "Bewaar restverf in een goed afgesloten blik, koeel en vorstvrij. Handig voor beschadigingen of verfwerk in een paar maanden." },
+              { title: "Alltid grunning på ny puss", text: "Ny puss suger opp maling som en svamp. Uten grunning trenger du 3–4 strøk i stedet for 2. Grunning er billigere - og sparer til syvende og sist maling." },
+              { title: "Rør før bruk, ikke rist", text: "Risting skaper luftbobler som tørker som små kratere. Rør sakte med en malingspinne eller en mikser på lav hastighet." },
+              { title: "Skjær til med pensel, rull flaten", text: "Bruk pensel til kanter, hjørner og karmer (tilskjæring). Gjør deretter den store flaten med en rull. Jobb vått-i-vått: skjær til en vegg og rull rett etterpå, slik at det ikke oppstår en tørkekant." },
+              { title: "Kjøp alt fra samme batch", text: "Akkurat som med fliser: fargeforskjeller mellom batcher er subtile, men synlige i sidelys. Kjøp alle spann samtidig og sjekk batchnummeret." },
+              { title: "Ta vare på en halvliter til utbedring", text: "Oppbevar restmaling i et godt lukket spann, kjølig og frostfritt. Nyttig for skader eller malingsjobber om noen måneder." },
             ].map((item, i) => (
               <motion.div key={item.title} {...fadeInUp} transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }} className="bg-card border border-border rounded-2xl p-6 shadow-system-card">
                 <h3 className="font-semibold text-foreground">{item.title}</h3>
@@ -367,7 +367,7 @@ const VerfBerekenen = () => {
       <section className="py-16 md:py-20 bg-muted/30">
         <div className="container max-w-3xl">
           <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground">
-            Veelgestelde vragen
+            Ofte stilte spørsmål
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-8">
             <Accordion type="single" collapsible className="w-full">

@@ -24,59 +24,59 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/leadwaarde-calculator`;
 
 // ---------- Formatters ----------
 
-const euro = new Intl.NumberFormat("nl-NL", {
+const kr = new Intl.NumberFormat("nb-NO", {
   style: "currency",
-  currency: "EUR",
+  currency: "NOK",
   maximumFractionDigits: 0,
 });
 
-const euroPrecise = new Intl.NumberFormat("nl-NL", {
+const krPrecise = new Intl.NumberFormat("nb-NO", {
   style: "currency",
-  currency: "EUR",
+  currency: "NOK",
   maximumFractionDigits: 0,
 });
 
-const num = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 1 });
+const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
 
 // ---------- Benchmarks content ----------
 
 const benchmarks: { trade: string; range: string; note: string }[] = [
-  { trade: "Loodgieters & spoed­werk", range: "30 – 45%", note: "Hoge urgentie, korte beslisroute" },
-  { trade: "Dakdekkers", range: "20 – 30%", note: "Offertes vaker vergeleken, langere cyclus" },
-  { trade: "Schilders", range: "25 – 35%", note: "Gevoelig voor reviews en snelheid van offerte" },
-  { trade: "Aannemers grote verbouwing", range: "10 – 20%", note: "Lange sales cycle, veel concurrentie" },
-  { trade: "Installateurs (zonnepanelen, warmtepomp)", range: "15 – 25%", note: "Prijsvergelijking speelt grote rol" },
+  { trade: "Rørleggere & akuttjobber", range: "30 – 45 %", note: "Høy hast, kort beslutningsløp" },
+  { trade: "Takleggere", range: "20 – 30 %", note: "Tilbud sammenlignes oftere, lengre syklus" },
+  { trade: "Malere", range: "25 – 35 %", note: "Sensitivt for anmeldelser og svartid på tilbud" },
+  { trade: "Entreprenører (store oppussinger)", range: "10 – 20 %", note: "Lang salgssyklus, mye konkurranse" },
+  { trade: "Installatører (solceller, varmepumpe)", range: "15 – 25 %", note: "Prissammenligning spiller stor rolle" },
 ];
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Wat is een lead waard voor een aannemer?",
-    a: "De leadwaarde is de gemiddelde omzet die je verdient aan één aanvraag, voordat je die omzet binnenhaalt. De formule is simpel: scorings­percentage × gemiddelde projectwaarde. Als je 25% van je aanvragen wint en een gemiddeld project €8.000 oplevert, is elke aanvraag gemiddeld €2.000 waard - onafhankelijk of je hem wint of verliest. Dat cijfer is het startpunt voor beslissingen over marketing­budget, follow-up­snelheid en kwalificatie.",
+    q: "Hva er en lead verdt for en håndverker?",
+    a: "Leadverdien er gjennomsnittlig omsetning du tjener per forespørsel, før du faktisk har vunnet jobben. Formelen er enkel: konverteringsrate × gjennomsnittlig prosjektverdi. Hvis du vinner 25 % av forespørslene dine og et gjennomsnittlig prosjekt gir 90 000 kr, er hver forespørsel i snitt verdt 22 500 kr - uavhengig av om du vinner eller taper akkurat den. Det tallet er utgangspunktet for beslutninger om markedsføringsbudsjett, oppfølgingsfart og kvalifisering.",
   },
   {
-    q: "Hoe verhoog ik mijn scorings­percentage?",
-    a: "De drie grootste hefbomen voor aannemers zijn: (1) sneller reageren - wie binnen 5 minuten belt scoort ~4x beter dan wie na 24 uur reageert, (2) je review­score verhogen zodat de aanvrager je offerte serieuzer neemt, en (3) betere kwalificatie zodat je geen tijd verspilt aan aanvragen die nooit een project worden. Ons lead follow-up systeem en review funnel zijn specifiek gebouwd voor deze drie hefbomen.",
+    q: "Hvordan øker jeg konverteringsraten?",
+    a: "De tre største driverne for håndverkere er: (1) raskere respons - den som ringer innen 5 minutter vinner ~4x oftere enn den som svarer etter 24 timer, (2) høyere anmeldelses-score slik at den som spør om tilbud tar deg mer seriøst, og (3) bedre kvalifisering slik at du ikke kaster bort tid på forespørsler som aldri blir prosjekter. Vårt lead-oppfølgingssystem og anmeldelsesfunnel er bygget nettopp for disse tre driverne.",
   },
   {
-    q: "Moet ik btw meerekenen in de projectwaarde?",
-    a: "Nee - de calculator werkt standaard met bedragen excl. btw, want dat is de omzet die op jouw boeken staat. Als je liever met inclusief btw rekent, zet de toggle boven de calculator om. Belangrijk: gebruik consequent hetzelfde basis­bedrag. Mixen van incl./excl. btw over verschillende berekeningen leidt altijd tot fouten.",
+    q: "Skal jeg regne med MVA i prosjektverdien?",
+    a: "Nei - kalkulatoren jobber som standard med beløp eks. MVA, for det er omsetningen som havner i regnskapet ditt. Vil du heller regne ink. MVA, slå på bryteren over kalkulatoren. Viktig: bruk samme grunnlag konsekvent. Å blande ink./eks. MVA på tvers av beregninger fører alltid til feil.",
   },
   {
-    q: "Wat is een normaal scorings­percentage in de bouw?",
-    a: "Het verschilt sterk per type werk. Spoed­werk van loodgieters zit vaak op 30–45% omdat klanten meteen willen beslissen. Grote verbouwingen zitten eerder op 10–20% omdat mensen 3 à 4 offertes vergelijken. Zie de benchmarktabel hieronder. Het eerlijke antwoord: je eigen cijfer kennen is belangrijker dan een gemiddelde - meet een paar maanden en gebruik dat als basis.",
+    q: "Hva er en normal konverteringsrate i byggebransjen?",
+    a: "Det varierer mye etter type arbeid. Akuttjobber for rørleggere ligger ofte på 30–45 % fordi kundene må bestemme seg raskt. Store oppussinger ligger heller på 10–20 % fordi folk sammenligner 3-4 tilbud. Se benchmark-tabellen under. Det ærlige svaret: å kjenne dine egne tall er viktigere enn et gjennomsnitt - mål et par måneder og bruk det som utgangspunkt.",
   },
   {
-    q: "Waar haal ik mijn eigen cijfers vandaan als ik ze niet bijhoud?",
-    a: "Begin simpel: tel een maand lang al je inkomende aanvragen (via telefoon, formulier, WhatsApp, alles) en tel hoeveel daarvan een bevestigde opdracht werden. Voor de projectwaarde: pak je laatste 10 afgeronde projecten en neem het gemiddelde. Binnen vier weken heb je drie realistische getallen om in deze calculator te stoppen. Daarna weet je beter welke marketing­investeringen slim zijn.",
+    q: "Hvor henter jeg egne tall fra hvis jeg ikke fører dem?",
+    a: "Start enkelt: tell alle innkommende forespørsler (via telefon, skjema, WhatsApp, alt) i én måned og tell hvor mange som ble en bekreftet jobb. For prosjektverdien: ta de siste 10 ferdigstilte prosjektene dine og regn gjennomsnittet. Innen fire uker har du tre realistiske tall å putte inn i kalkulatoren. Etterpå vet du bedre hvilke markedsføringsinvesteringer som er smarte.",
   },
   {
-    q: "Wat mag ik dan maximaal uitgeven aan een lead?",
-    a: "Een vuistregel: je max kost per lead = leadwaarde × (1 – bruto­marge). Als een lead gemiddeld €2.000 oplevert en je hebt 30% bruto­marge, kun je in theorie €600 per lead uitgeven en net break-even draaien. In de praktijk wil je een comfortabele buffer - veel aannemers houden 40–50% van de leadwaarde aan als absolute max. Binnenkort publiceren we een aparte max-CPC calculator die dit per kanaal doorrekent.",
+    q: "Hvor mye kan jeg maks bruke per lead?",
+    a: "En tommelfingerregel: maks kost per lead = leadverdi × (1 – bruttomargin). Hvis en lead gir 25 000 kr i snitt og du har 30 % bruttomargin, kan du i teorien bruke 7 500 kr per lead og gå break-even. I praksis vil du ha en komfortabel buffer - mange håndverkere setter 40–50 % av leadverdien som absolutt tak. Vi publiserer snart en egen max-CPC-kalkulator som regner dette ut per kanal.",
   },
 ];
 
@@ -85,29 +85,29 @@ const faqs: { q: string; a: string }[] = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Leadwaarde calculator voor aannemers",
+  name: "Leadverdi-kalkulator for håndverkere",
   url: PAGE_URL,
   description:
-    "Gratis leadwaarde calculator voor aannemers. Bereken wat een lead jouw bedrijf oplevert: vul aanvragen per maand, scorings­percentage en projectwaarde in.",
+    "Gratis leadverdi-kalkulator for håndverkere. Beregn hva en lead gir bedriften din: fyll inn forespørsler per måned, konverteringsrate og prosjektverdi.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
       {
         "@type": "ListItem",
         position: 3,
-        name: "Leadwaarde calculator",
+        name: "Leadverdi-kalkulator",
         item: PAGE_URL,
       },
     ],
   },
   mainEntity: {
     "@type": "SoftwareApplication",
-    name: "Leadwaarde calculator",
+    name: "Leadverdi-kalkulator",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+    offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
   },
 };
 
@@ -126,16 +126,16 @@ const faqSchema = {
 const LeadwaardeCalculator = () => {
   const [aanvragen, setAanvragen] = useState(20);
   const [conversie, setConversie] = useState(25);
-  const [projectwaarde, setProjectwaarde] = useState(8000);
+  const [projectwaarde, setProjectwaarde] = useState(90000);
   const [inclBtw, setInclBtw] = useState(false);
 
   const { projectsPerMonth, revenuePerMonth, valuePerLead, yearRevenue, maxCpa } = useMemo(() => {
     const projects = (aanvragen * conversie) / 100;
     const revenue = projects * projectwaarde;
-    // If the user entered an incl-btw amount, strip the btw (21%) to get the ex-btw number
+    // If the user entered an incl-MVA amount, strip MVA (25%) to get the ex-MVA number
     // we show in the headline. Keep the hint visible in the label.
-    const revEx = inclBtw ? revenue / 1.21 : revenue;
-    const valuePer = (conversie / 100) * (inclBtw ? projectwaarde / 1.21 : projectwaarde);
+    const revEx = inclBtw ? revenue / 1.25 : revenue;
+    const valuePer = (conversie / 100) * (inclBtw ? projectwaarde / 1.25 : projectwaarde);
     return {
       projectsPerMonth: projects,
       revenuePerMonth: revEx,
@@ -148,23 +148,23 @@ const LeadwaardeCalculator = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Leadwaarde calculator voor aannemers | Aannemer Systeem</title>
+        <title>Leadverdi-kalkulator for håndverkere | Vekst Systemet</title>
         <meta
           name="description"
-          content="Gratis leadwaarde calculator voor aannemers. Vul aanvragen per maand, scorings­percentage en projectwaarde in - zie direct wat een lead jou oplevert."
+          content="Gratis leadverdi-kalkulator for håndverkere. Fyll inn forespørsler per måned, konverteringsrate og prosjektverdi - se hva en lead er verdt med en gang."
         />
         <link rel="canonical" href={PAGE_URL} />
         <meta
           property="og:title"
-          content="Leadwaarde calculator voor aannemers | Aannemer Systeem"
+          content="Leadverdi-kalkulator for håndverkere | Vekst Systemet"
         />
         <meta
           property="og:description"
-          content="Bereken in 30 seconden wat een lead jouw aannemersbedrijf oplevert. Gratis, geen registratie."
+          content="Beregn på 30 sekunder hva en lead er verdt for håndverkerbedriften din. Gratis, ingen registrering."
         />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -177,25 +177,25 @@ const LeadwaardeCalculator = () => {
               to="/tools"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
-              Rekentools
+              Kalkulatorer
             </Link>
             <span className="text-primary-foreground/40">/</span>
             <span className="text-xs font-bold uppercase tracking-widest text-primary-foreground/60">
-              Leadwaarde
+              Leadverdi
             </span>
           </motion.div>
           <motion.h1
             {...fadeInUp}
             className="text-4xl md:text-5xl font-bold tracking-tight"
           >
-            Wat is een lead jou waard?
+            Hva er en lead verdt for deg?
           </motion.h1>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Vul je eigen getallen in en zie direct hoeveel omzet jouw leads opleveren - én wat
-            je in theorie mag uitgeven om meer van dezelfde leads binnen te halen.
+            Fyll inn dine egne tall og se hvor mye omsetning leadsene dine gir - og hvor mye
+            du i teorien kan bruke for å hente flere av samme type lead.
           </motion.p>
         </div>
       </section>
@@ -212,19 +212,19 @@ const LeadwaardeCalculator = () => {
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-xl font-semibold tracking-tight text-foreground flex items-center gap-2">
                   <Calculator className="h-5 w-5 text-accent" strokeWidth={1.5} />
-                  Jouw getallen
+                  Dine tall
                 </h2>
                 <label className="flex items-center gap-3 text-xs font-medium text-muted-foreground cursor-pointer">
-                  <span>Excl. btw</span>
+                  <span>Eks. MVA</span>
                   <Switch checked={inclBtw} onCheckedChange={setInclBtw} />
-                  <span>Incl. btw</span>
+                  <span>Ink. MVA</span>
                 </label>
               </div>
 
               <div className="space-y-6">
                 <CalcInput
-                  label="Aanvragen per maand"
-                  hint="Alle inkomende offerte-aanvragen: telefoon, formulier, WhatsApp, e-mail - alles bij elkaar."
+                  label="Forespørsler per måned"
+                  hint="Alle innkommende tilbudsforespørsler: telefon, skjema, WhatsApp, e-post - alt sammenlagt."
                   value={aanvragen}
                   onChange={setAanvragen}
                   min={0}
@@ -236,8 +236,8 @@ const LeadwaardeCalculator = () => {
                 />
 
                 <CalcInput
-                  label="Scorings­percentage"
-                  hint="Van elke 100 aanvragen: hoeveel worden er uiteindelijk een bevestigde opdracht?"
+                  label="Konverteringsrate"
+                  hint="Av hver 100 forespørsler: hvor mange ender som en bekreftet jobb?"
                   value={conversie}
                   onChange={setConversie}
                   min={0}
@@ -249,14 +249,14 @@ const LeadwaardeCalculator = () => {
                 />
 
                 <CalcInput
-                  label={`Gemiddelde projectwaarde (${inclBtw ? "incl." : "excl."} btw)`}
-                  hint="Pak je laatste 10 projecten en neem het gemiddelde. Liever aan de voorzichtige kant dan te optimistisch."
+                  label={`Gjennomsnittlig prosjektverdi (${inclBtw ? "ink." : "eks."} MVA)`}
+                  hint="Ta de siste 10 prosjektene og regn gjennomsnittet. Heller litt forsiktig enn for optimistisk."
                   value={projectwaarde}
                   onChange={setProjectwaarde}
                   min={0}
-                  max={1000000}
-                  step={100}
-                  prefix="€"
+                  max={10000000}
+                  step={1000}
+                  suffix="kr"
                   icon={<Euro className="h-4 w-4 text-muted-foreground" strokeWidth={1.75} />}
                 />
               </div>
@@ -266,23 +266,23 @@ const LeadwaardeCalculator = () => {
             <div className="space-y-4">
               <CalcResultCard
                 variant="hero"
-                label="Omzet per maand (excl. btw)"
-                value={euro.format(revenuePerMonth)}
-                caption={`${num.format(projectsPerMonth)} projecten per maand uit ${aanvragen} aanvragen`}
+                label="Omsetning per måned (eks. MVA)"
+                value={kr.format(revenuePerMonth)}
+                caption={`${num.format(projectsPerMonth)} prosjekter per måned fra ${aanvragen} forespørsler`}
                 icon={<TrendingUp className="h-4 w-4" strokeWidth={1.75} />}
               />
 
               <div className="grid grid-cols-2 gap-4">
                 <CalcResultCard
-                  label="Leadwaarde"
-                  value={euroPrecise.format(valuePerLead)}
-                  caption="per inkomende aanvraag - win of verlies"
+                  label="Leadverdi"
+                  value={krPrecise.format(valuePerLead)}
+                  caption="per innkommende forespørsel - uansett om du vinner"
                   icon={<Target className="h-4 w-4" strokeWidth={1.75} />}
                 />
                 <CalcResultCard
-                  label="Jaaromzet uit leads"
-                  value={euro.format(yearRevenue)}
-                  caption="op basis van 12× dezelfde maand"
+                  label="Årsomsetning fra leads"
+                  value={kr.format(yearRevenue)}
+                  caption="basert på 12× samme måned"
                   icon={<Calendar className="h-4 w-4" strokeWidth={1.75} />}
                 />
               </div>
@@ -292,15 +292,15 @@ const LeadwaardeCalculator = () => {
                 className="rounded-2xl border border-dashed border-border bg-muted/30 p-5"
               >
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                  Vuistregel marketingbudget
+                  Tommelfingerregel markedsføringsbudsjett
                 </p>
                 <p className="mt-2 text-foreground leading-relaxed">
-                  Bij een brutomarge van 30% mag één nieuwe lead je ongeveer{" "}
+                  Med en bruttomargin på 30 % kan en ny lead koste deg omtrent{" "}
                   <span className="font-bold text-accent tabular-nums">
-                    {euroPrecise.format(maxCpa)}
+                    {krPrecise.format(maxCpa)}
                   </span>{" "}
-                  kosten voordat je break-even draait. Veel aannemers houden 40–50% van de
-                  leadwaarde aan als plafond.
+                  før du går break-even. Mange håndverkere bruker 40–50 % av
+                  leadverdien som tak.
                 </p>
               </motion.div>
             </div>
@@ -315,30 +315,31 @@ const LeadwaardeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            Hoe bereken je leadwaarde?
+            Hvordan beregner du leadverdi?
           </motion.h2>
           <motion.p {...fadeInUp} className="mt-4 text-muted-foreground leading-relaxed">
-            De formule is eenvoudig en werkt in elke aannemersbranche:
+            Formelen er enkel og fungerer for enhver håndverkerbransje:
           </motion.p>
           <motion.div
             {...fadeInUp}
             className="mt-6 bg-card border border-border rounded-2xl p-6 md:p-8 shadow-system-card"
           >
             <p className="font-mono text-sm md:text-base text-foreground">
-              Leadwaarde = scorings­percentage × gemiddelde projectwaarde
+              Leadverdi = konverteringsrate × gjennomsnittlig prosjektverdi
             </p>
             <div className="mt-6 pt-6 border-t border-border space-y-2">
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Voorbeeld:</span> een dakdekker
-                wint 25% van zijn aanvragen en doet gemiddeld €6.000 per project.
+                <span className="font-semibold text-foreground">Eksempel:</span> en taklegger
+                vinner 25 % av forespørslene sine og tar i snitt 70 000 kr per prosjekt.
               </p>
               <p className="text-sm text-muted-foreground">
-                Leadwaarde = 25% × €6.000 ={" "}
-                <span className="font-bold text-foreground tabular-nums">€1.500 per lead</span>
+                Leadverdi = 25 % × 70 000 kr ={" "}
+                <span className="font-bold text-foreground tabular-nums">17 500 kr per lead</span>
               </p>
               <p className="text-sm text-muted-foreground">
-                Oftewel: elke inkomende aanvraag is vóór­af al €1.500 "waard" - dat bepaalt
-                hoeveel hij mag uitgeven aan marketing, follow-up en nieuwe kanalen.
+                Med andre ord: hver innkommende forespørsel er allerede "verdt" 17 500 kr på
+                forhånd - det avgjør hvor mye du kan bruke på markedsføring, oppfølging og
+                nye kanaler.
               </p>
             </div>
           </motion.div>
@@ -352,11 +353,11 @@ const LeadwaardeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            Wat is een goede conversie voor aannemers?
+            Hva er en god konverteringsrate for håndverkere?
           </motion.h2>
           <motion.p {...fadeInUp} className="mt-4 text-muted-foreground leading-relaxed">
-            Benchmarks verschillen sterk per vakgebied. Gebruik ze als eerste kalibratie - je
-            eigen gemeten percentage is altijd belangrijker.
+            Benchmarks varierer mye mellom fagområder. Bruk dem som første kalibrering - din
+            egen målte rate er alltid viktigere.
           </motion.p>
           <motion.div
             {...fadeInUp}
@@ -366,13 +367,13 @@ const LeadwaardeCalculator = () => {
               <thead className="bg-muted/50 border-b border-border">
                 <tr>
                   <th className="text-left px-4 md:px-6 py-3 font-semibold text-foreground">
-                    Vakgebied
+                    Fagområde
                   </th>
                   <th className="text-left px-4 md:px-6 py-3 font-semibold text-foreground">
-                    Scorings­percentage
+                    Konverteringsrate
                   </th>
                   <th className="text-left px-4 md:px-6 py-3 font-semibold text-foreground hidden md:table-cell">
-                    Toelichting
+                    Forklaring
                   </th>
                 </tr>
               </thead>
@@ -404,31 +405,31 @@ const LeadwaardeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            3 manieren om je leadwaarde te verhogen
+            3 måter å øke leadverdien på
           </motion.h2>
           <motion.p {...fadeInUp} className="mt-4 text-muted-foreground leading-relaxed">
-            Je leadwaarde stijgt als je óf je scorings­percentage óf je project­waarde omhoog
-            brengt. Deze drie hefbomen werken voor vrijwel elk aannemersbedrijf.
+            Leadverdien øker hvis du enten løfter konverteringsraten eller prosjektverdien.
+            Disse tre driverne fungerer for nesten enhver håndverkerbedrift.
           </motion.p>
           <div className="mt-8 grid md:grid-cols-3 gap-4">
             {[
               {
-                title: "Sneller reageren",
-                text: "Leads die binnen 5 minuten gebeld worden scoren tot 4x beter dan leads die pas na 24 uur opgevolgd worden. Automatische follow-up is de goedkoopste winst.",
+                title: "Raskere respons",
+                text: "Leads som ringes innen 5 minutter konverterer opptil 4x bedre enn leads som først følges opp etter 24 timer. Automatisk oppfølging er den billigste gevinsten.",
                 href: "/diensten/lead-follow-up",
-                cta: "Lead follow-up systeem",
+                cta: "Lead-oppfølgingssystem",
               },
               {
-                title: "Beter kwalificeren",
-                text: "Een goede intake­flow filtert budget-shoppers eruit voordat ze je offerte-tijd vreten. Minder offertes maken, hogere hit-rate.",
+                title: "Bedre kvalifisering",
+                text: "En god inntaksflyt filtrerer bort pris-shoppere før de spiser opp tilbudstiden din. Færre tilbud, høyere hit-rate.",
                 href: "/diensten/lead-generatie",
-                cta: "Lead generatie systeem",
+                cta: "Leadgenerering-system",
               },
               {
-                title: "Meer reviews verzamelen",
-                text: "Bij gelijke offerte kiezen mensen de aannemer met 180 reviews, niet die met 12. Een review funnel brengt je review­score structureel omhoog.",
+                title: "Flere anmeldelser",
+                text: "Ved like tilbud velger folk håndverkeren med 180 anmeldelser, ikke han med 12. En anmeldelsesfunnel løfter anmeldelses-scoren din jevnt.",
                 href: "/diensten/review-funnel",
-                cta: "Review funnel",
+                cta: "Anmeldelsesfunnel",
               },
             ].map((item, i) => (
               <motion.div
@@ -461,7 +462,7 @@ const LeadwaardeCalculator = () => {
             {...fadeInUp}
             className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground"
           >
-            Veelgestelde vragen
+            Ofte stilte spørsmål
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-8">
             <Accordion type="single" collapsible className="w-full">

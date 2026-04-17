@@ -21,14 +21,14 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/laminaat-berekenen`;
 
-const num = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 1 });
-const numInt = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 0 });
-const num2 = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 2 });
+const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
+const numInt = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
+const num2 = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 2 });
 
-/* ── Legpatronen ── */
+/* ── Leggemønstre ── */
 interface Legpatroon {
   label: string;
   desc: string;
@@ -36,41 +36,41 @@ interface Legpatroon {
 }
 
 const LEGPATRONEN: Legpatroon[] = [
-  { label: "Recht / halfsteens", desc: "Standaard, minste snijverlies", snijverlies: 5 },
-  { label: "1/3-verband", desc: "Verspringt elke rij 1/3 plank", snijverlies: 7 },
-  { label: "Diagonaal", desc: "45° hoek, meer snijwerk", snijverlies: 15 },
-  { label: "Visgraat", desc: "Klassiek patroon, veel zaagwerk", snijverlies: 15 },
+  { label: "Rett / halvforband", desc: "Standard, minst svinn", snijverlies: 5 },
+  { label: "1/3-forband", desc: "Forskyvning 1/3 planke per rad", snijverlies: 7 },
+  { label: "Diagonal", desc: "45° vinkel, mer kapping", snijverlies: 15 },
+  { label: "Sildebein", desc: "Klassisk mønster, mye saging", snijverlies: 15 },
 ];
 
-/* ── Pakketgroottes ── */
+/* ── Pakningsstørrelser ── */
 const PAKKET_M2_OPTIES = [1.5, 2.0, 2.5, 3.0, 3.5];
-const ONDERVLOER_ROL_M2 = 15; // m² per rol ondervloer
+const ONDERVLOER_ROL_M2 = 15; // m² per rull trinnlydsmatte
 
 /* ── FAQ data ── */
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Hoeveel pakken laminaat heb ik nodig?",
-    a: "Deel je totale oppervlakte (inclusief snijverlies) door het aantal m² per pak. Bij een kamer van 20 m² met 5% snijverlies en pakken van 2,5 m² heb je 21 m² / 2,5 = 9 pakken nodig. De calculator doet dit automatisch - rond altijd naar boven af.",
+    q: "Hvor mange pakker laminat trenger jeg?",
+    a: "Del totalflaten din (inkludert svinn) på antall m² per pakke. Ved et rom på 20 m² med 5 % svinn og pakker på 2,5 m² trenger du 21 m² / 2,5 = 9 pakker. Kalkulatoren gjør dette automatisk - rund alltid opp.",
   },
   {
-    q: "Hoeveel snijverlies moet ik rekenen bij laminaat?",
-    a: "Bij recht leggen (halfsteensverband) reken je 5%. Bij diagonaal of visgraat leggen is dat 15%. Onregelmatige kamers met veel hoeken, uitsnijdingen of nissen? Reken 2-3% extra. De calculator past het snijverlies automatisch aan op basis van je legpatroon.",
+    q: "Hvor mye svinn bør jeg regne med for laminat?",
+    a: "Ved rett legging (halvforband) regner du 5 %. Ved diagonal eller sildebein er det 15 %. Uregelmessige rom med mange hjørner, utskjæringer eller nisjer? Legg til 2-3 %. Kalkulatoren justerer svinnet automatisk basert på leggemønsteret.",
   },
   {
-    q: "Heb ik altijd ondervloer nodig onder laminaat?",
-    a: "Ja, ondervloer is essentieel: het dempt loopgeluid, egalisert kleine oneffenheden (tot ~2 mm) en beschermt tegen vocht van onderen. Uitzondering: sommige laminaatvloeren hebben ondervloer al geïntegreerd - check de specificaties van je vloer.",
+    q: "Trenger jeg alltid trinnlydsmatte under laminat?",
+    a: "Ja, underlag er essensielt: det demper gangstøy, jevner ut små ujevnheter (opptil ~2 mm) og beskytter mot fukt nedenfra. Unntak: noen laminatgulv har underlaget integrert - sjekk spesifikasjonene på gulvet ditt.",
   },
   {
-    q: "Hoeveel plinten heb ik nodig?",
-    a: "Meet de omtrek van de kamer en trek de deuropeningen af. Plinten worden standaard in lengtes van 2,4 m verkocht. Reken 5-10% extra voor zaagverlies en hoekstukjes. De calculator berekent dit automatisch als je de omtrek invoert.",
+    q: "Hvor mange lister trenger jeg?",
+    a: "Mål romomkretsen og trekk fra døråpningene. Fotlister selges standard i lengder på 2,4 m. Regn 5-10 % ekstra for kappesvinn og hjørnestykker. Kalkulatoren beregner dette automatisk når du legger inn omkretsen.",
   },
   {
-    q: "Kan ik laminaat leggen op vloerverwarming?",
-    a: "Ja, mits het laminaat geschikt is voor vloerverwarming (check het symbool op de verpakking). Gebruik een dunne ondervloer (2-3 mm) met lage warmteweerstand. De vloertemperatuur mag maximaal 27°C zijn. Laat het laminaat 48 uur acclimatiseren in de ruimte voor het leggen.",
+    q: "Kan jeg legge laminat på gulvvarme?",
+    a: "Ja, forutsatt at laminatet er godkjent for gulvvarme (se etter symbolet på pakken). Bruk et tynt underlag (2-3 mm) med lav varmemotstand. Gulvtemperaturen skal maks være 27 °C. La laminatet akklimatisere seg 48 timer i rommet før legging.",
   },
   {
-    q: "Hoeveel m² laminaat kan ik per dag leggen?",
-    a: "Een ervaren vakman legt 20-30 m² per dag. Een klusser met enige ervaring haalt 10-15 m². Bij visgraat of diagonaal patroon gaat het 30-40% langzamer door het extra zaagwerk.",
+    q: "Hvor mange m² laminat kan jeg legge per dag?",
+    a: "En erfaren håndverker legger 20-30 m² per dag. En hobbyist med noe erfaring klarer 10-15 m². Ved sildebein eller diagonal mønster går det 30-40 % langsommere på grunn av ekstra saging.",
   },
 ];
 
@@ -80,27 +80,27 @@ const pageSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      name: "Laminaat berekenen - hoeveel pakken en ondervloer | Aannemer Systeem",
+      name: "Laminat kalkulator - hvor mange pakker og underlag | Vekst Systemet",
       url: PAGE_URL,
       description:
-        "Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt. Kies je legpatroon, vul de m² in - direct resultaat.",
+        "Beregn hvor mange pakker laminat, trinnlydsmatte og lister du trenger. Velg leggemønster, fyll inn m² - direkte resultat.",
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-          { "@type": "ListItem", position: 3, name: "Bouwmaterialen", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
-          { "@type": "ListItem", position: 4, name: "Laminaat berekenen", item: PAGE_URL },
+          { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+          { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
+          { "@type": "ListItem", position: 4, name: "Laminat kalkulator", item: PAGE_URL },
         ],
       },
     },
     {
       "@type": "SoftwareApplication",
-      name: "Laminaat berekenen calculator",
+      name: "Laminat kalkulator",
       url: PAGE_URL,
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
-      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
     },
     {
       "@type": "FAQPage",
@@ -118,8 +118,8 @@ const LaminaatBerekenen = () => {
   const [oppervlakte, setOppervlakte] = useState(20);
   const [pakketM2, setPakketM2] = useState(2.5);
   const [snijverlies, setSnijverlies] = useState(LEGPATRONEN[0].snijverlies);
-  const [omtrek, setOmtrek] = useState(18); // meters voor plinten
-  const [deuropeningen, setDeuropeningen] = useState(2); // meters aftrekken
+  const [omtrek, setOmtrek] = useState(18); // meter for lister
+  const [deuropeningen, setDeuropeningen] = useState(2); // meter trekkes fra
 
   const patroon = LEGPATRONEN[patroonIdx];
 
@@ -150,17 +150,17 @@ const LaminaatBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Laminaat berekenen - hoeveel pakken en ondervloer | Aannemer Systeem</title>
+        <title>Laminat kalkulator - hvor mange pakker og underlag | Vekst Systemet</title>
         <meta
           name="description"
-          content="Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt. Kies je legpatroon, vul de m² in - gratis calculator voor aannemers."
+          content="Beregn hvor mange pakker laminat, trinnlydsmatte og lister du trenger. Velg leggemønster, fyll inn m² - gratis kalkulator for håndverkere."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Laminaat berekenen | Gratis calculator | Aannemer Systeem" />
-        <meta property="og:description" content="Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt." />
+        <meta property="og:title" content="Laminat kalkulator | Gratis verktøy | Vekst Systemet" />
+        <meta property="og:description" content="Beregn hvor mange pakker laminat, trinnlydsmatte og lister du trenger." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
       </Helmet>
 
@@ -172,21 +172,21 @@ const LaminaatBerekenen = () => {
               to="/tools/bouwmaterialen-berekenen"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
-              ← Bouwmaterialen
+              ← Byggematerialer
             </Link>
           </motion.div>
           <motion.h1
             {...fadeInUp}
             className="mt-4 text-4xl md:text-5xl font-bold tracking-tight"
           >
-            Laminaat berekenen
+            Laminat kalkulator
           </motion.h1>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Bereken hoeveel pakken laminaat, rollen ondervloer en plinten je nodig
-            hebt - inclusief snijverlies per legpatroon.
+            Beregn hvor mange pakker laminat, ruller trinnlydsmatte og lister du
+            trenger - inkludert svinn per leggemønster.
           </motion.p>
         </div>
       </section>
@@ -194,9 +194,9 @@ const LaminaatBerekenen = () => {
       {/* Calculator */}
       <section className="py-16 md:py-24 bg-background">
         <div className="container max-w-3xl space-y-10">
-          {/* Legpatroon selector */}
+          {/* Leggemønster-velger */}
           <motion.div {...fadeInUp}>
-            <p className="text-sm font-medium text-foreground mb-3">Legpatroon</p>
+            <p className="text-sm font-medium text-foreground mb-3">Leggemønster</p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {LEGPATRONEN.map((p, i) => (
                 <button
@@ -218,7 +218,7 @@ const LaminaatBerekenen = () => {
           {/* Inputs */}
           <motion.div {...fadeInUp} className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <CalcInput
-              label="Oppervlakte"
+              label="Flate"
               suffix="m²"
               value={oppervlakte}
               onChange={setOppervlakte}
@@ -233,7 +233,7 @@ const LaminaatBerekenen = () => {
             <div>
               <p className="text-sm font-medium text-foreground mb-2 flex items-center gap-2">
                 <Package className="h-4 w-4" />
-                Pakketgrootte
+                Pakningsstørrelse
               </p>
               <div className="flex flex-wrap gap-2">
                 {PAKKET_M2_OPTIES.map((m) => (
@@ -250,10 +250,10 @@ const LaminaatBerekenen = () => {
                   </button>
                 ))}
               </div>
-              <p className="mt-2 text-xs text-muted-foreground">m² per pak - check je verpakking</p>
+              <p className="mt-2 text-xs text-muted-foreground">m² per pakke - sjekk pakningen</p>
             </div>
             <CalcInput
-              label="Snijverlies"
+              label="Svinn"
               suffix="%"
               value={snijverlies}
               onChange={setSnijverlies}
@@ -263,29 +263,29 @@ const LaminaatBerekenen = () => {
               slider
               sliderMin={0}
               sliderMax={25}
-              hint={`Standaard ${patroon.snijverlies}% voor ${patroon.label.toLowerCase()}`}
+              hint={`Standard ${patroon.snijverlies} % for ${patroon.label.toLowerCase()}`}
               icon={<Scissors className="h-4 w-4" />}
             />
             <CalcInput
-              label="Omtrek kamer (voor plinten)"
+              label="Omkrets rom (for lister)"
               suffix="m"
               value={omtrek}
               onChange={setOmtrek}
               min={0}
               max={200}
               step={0.5}
-              hint="Tel alle wanden bij elkaar op"
+              hint="Legg sammen alle vegger"
               icon={<Ruler className="h-4 w-4" />}
             />
             <CalcInput
-              label="Deuropeningen aftrekken"
+              label="Trekk fra døråpninger"
               suffix="m"
               value={deuropeningen}
               onChange={setDeuropeningen}
               min={0}
               max={20}
               step={0.1}
-              hint="Standaard ~0,8 m per deur"
+              hint="Standard ~0,8 m per dør"
               icon={<Ruler className="h-4 w-4" />}
             />
           </motion.div>
@@ -294,36 +294,36 @@ const LaminaatBerekenen = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <CalcResultCard
               variant="hero"
-              label="Pakken laminaat"
-              value={`${result.pakken} pakken`}
-              caption={`${num.format(result.m2Besteld)} m² besteld (${num.format(result.m2Bruto)} m² nodig incl. snijverlies)`}
+              label="Pakker laminat"
+              value={`${result.pakken} pakker`}
+              caption={`${num.format(result.m2Besteld)} m² bestilt (${num.format(result.m2Bruto)} m² nødvendig inkl. svinn)`}
               icon={<Layers className="h-5 w-5" />}
             />
             <CalcResultCard
-              label="Ondervloer"
-              value={`${result.ondervloerRollen} ${result.ondervloerRollen === 1 ? "rol" : "rollen"}`}
-              caption={`Rollen van ${ONDERVLOER_ROL_M2} m² - dekt ${result.ondervloerRollen * ONDERVLOER_ROL_M2} m²`}
+              label="Trinnlydsmatte"
+              value={`${result.ondervloerRollen} ${result.ondervloerRollen === 1 ? "rull" : "ruller"}`}
+              caption={`Ruller à ${ONDERVLOER_ROL_M2} m² - dekker ${result.ondervloerRollen * ONDERVLOER_ROL_M2} m²`}
             />
           </div>
 
-          {/* Plinten + overschot */}
+          {/* Lister + overskudd */}
           <motion.div {...fadeInUp} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="rounded-2xl bg-card border border-border p-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Plinten</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Lister</p>
               <p className="mt-2 text-2xl font-bold text-foreground tabular-nums">
-                {result.plintLengtes} stuks
+                {result.plintLengtes} stk
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                Lengtes van 2,4 m - dekt {num.format(result.plintM)} m wandlengte
+                Lengder à 2,4 m - dekker {num.format(result.plintM)} m vegglengde
               </p>
             </div>
             <div className="rounded-2xl bg-card border border-border p-6">
-              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Overschot</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Overskudd</p>
               <p className="mt-2 text-2xl font-bold text-foreground tabular-nums">
                 {num.format(result.overschot)} m²
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                Extra m² door afronding pakken - handig als reserve
+                Ekstra m² pga. oppavrunding av pakker - nyttig som reserve
               </p>
             </div>
           </motion.div>
@@ -331,52 +331,52 @@ const LaminaatBerekenen = () => {
           {/* Explainer */}
           <motion.div {...fadeInUp} className="max-w-2xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              Hoe werkt de berekening?
+              Hvordan fungerer beregningen?
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              De calculator neemt je kameroppervlakte en telt het <strong>snijverlies</strong> erbij op
-              (afhankelijk van het legpatroon). Het totaal wordt gedeeld door de m² per pak - naar boven
-              afgerond. Ondervloer en plinten worden apart berekend.
+              Kalkulatoren tar romflaten din og legger til <strong>svinnet</strong>
+              (avhengig av leggemønster). Totalen deles på m² per pakke - rundet opp.
+              Trinnlydsmatte og lister beregnes separat.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld - woonkamer 20 m², halfsteens, pakken van 2,5 m²:</p>
-              <p>Snijverlies 5%: 20 × 1,05 = <strong>21,0 m²</strong></p>
-              <p>Pakken: 21,0 / 2,5 = 8,4 → <strong>9 pakken</strong> (22,5 m² besteld)</p>
-              <p>Overschot: 22,5 − 20 = <strong>2,5 m²</strong> reserve</p>
-              <p>Ondervloer: 20 / 15 = 1,3 → <strong>2 rollen</strong></p>
-              <p>Plinten: (18 − 2) × 1,05 / 2,4 = 7,0 → <strong>7 lengtes</strong></p>
+              <p className="font-semibold">Eksempel - stue 20 m², halvforband, pakker à 2,5 m²:</p>
+              <p>Svinn 5 %: 20 × 1,05 = <strong>21,0 m²</strong></p>
+              <p>Pakker: 21,0 / 2,5 = 8,4 → <strong>9 pakker</strong> (22,5 m² bestilt)</p>
+              <p>Overskudd: 22,5 − 20 = <strong>2,5 m²</strong> reserve</p>
+              <p>Trinnlydsmatte: 20 / 15 = 1,3 → <strong>2 ruller</strong></p>
+              <p>Lister: (18 − 2) × 1,05 / 2,4 = 7,0 → <strong>7 lengder</strong></p>
             </div>
           </motion.div>
 
           {/* Tips */}
           <motion.div {...fadeInUp} className="max-w-2xl space-y-4">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-              5 tips voor laminaat leggen
+              5 tips for legging av laminat
             </h2>
             <ol className="list-decimal list-inside space-y-3 text-muted-foreground leading-relaxed">
               <li>
-                <strong className="text-foreground">Laat acclimatiseren</strong> - leg het laminaat
-                minstens 48 uur (ongeopend) in de ruimte waar het gelegd wordt. Zo past het zich aan
-                aan temperatuur en luchtvochtigheid.
+                <strong className="text-foreground">La det akklimatisere</strong> - legg laminatet
+                minst 48 timer (uåpnet) i rommet der det skal legges. Slik tilpasser det seg
+                temperatur og luftfuktighet.
               </li>
               <li>
-                <strong className="text-foreground">Houd een dilatatievoeg aan</strong> - laat
-                rondom 8-10 mm ruimte tot de muur. Laminaat zet uit en krimpt; zonder voeg gaat het
-                opbollen.
+                <strong className="text-foreground">Hold en dilatasjonsfuge</strong> - la
+                8-10 mm åpning rundt til veggen. Laminat utvider seg og krymper; uten fuge vil
+                gulvet bølge seg.
               </li>
               <li>
-                <strong className="text-foreground">Begin bij het raam</strong> - leg de planken
-                evenwijdig aan de lichtinval. Dan vallen de naden minder op.
+                <strong className="text-foreground">Start ved vinduet</strong> - legg plankene
+                parallelt med lysinnfallet. Da synes skjøtene mindre.
               </li>
               <li>
-                <strong className="text-foreground">Gebruik afstandhouders</strong> - wiggen tegen de
-                muur zorgen voor een gelijkmatige dilatatievoeg. Verwijder ze pas als de hele vloer
-                klaar is.
+                <strong className="text-foreground">Bruk avstandskiler</strong> - kiler mot
+                veggen sørger for en jevn dilatasjonsfuge. Fjern dem først når hele gulvet er
+                ferdig.
               </li>
               <li>
-                <strong className="text-foreground">Verdeel de rest-plank</strong> - de restlengte
-                aan het einde van een rij gebruik je als startplank van de volgende rij (mits &gt; 30 cm).
-                Dat bespaart materiaal en maakt het patroon natuurlijker.
+                <strong className="text-foreground">Utnytt rest-planken</strong> - restlengden
+                på enden av en rad bruker du som startplanke i neste rad (så lenge &gt; 30 cm).
+                Det sparer materiale og gir mønsteret et mer naturlig preg.
               </li>
             </ol>
           </motion.div>
@@ -384,7 +384,7 @@ const LaminaatBerekenen = () => {
           {/* Related tools */}
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-              Verwante tools
+              Relaterte verktøy
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link
@@ -392,10 +392,10 @@ const LaminaatBerekenen = () => {
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                  Tegels berekenen →
+                  Fliskalkulator →
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Hoeveel tegels, lijm en voegmortel heb je nodig?
+                  Hvor mange fliser, flislim og fugemasse trenger du?
                 </p>
               </Link>
               <Link
@@ -403,10 +403,10 @@ const LaminaatBerekenen = () => {
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                  Verf berekenen →
+                  Maling kalkulator →
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
-                  Hoeveel liter verf en blikken heb je nodig?
+                  Hvor mange liter maling og spann trenger du?
                 </p>
               </Link>
             </div>
@@ -415,7 +415,7 @@ const LaminaatBerekenen = () => {
           {/* FAQ */}
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-              Veelgestelde vragen
+              Ofte stilte spørsmål
             </h2>
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((f, i) => (

@@ -22,17 +22,17 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/tools/tegels-berekenen`;
 
-const num = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 1 });
-const numInt = new Intl.NumberFormat("nl-NL", { maximumFractionDigits: 0 });
+const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
+const numInt = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
 
 interface TegelFormaat {
   label: string;
   w: number; // cm
   h: number; // cm
-  perDoos: number; // tegels per doos (typical)
+  perDoos: number; // fliser per eske (typical)
 }
 
 const FORMATEN: TegelFormaat[] = [
@@ -48,28 +48,28 @@ const FORMATEN: TegelFormaat[] = [
 
 const faqs: { q: string; a: string }[] = [
   {
-    q: "Hoeveel tegels heb ik nodig per m²?",
-    a: "Dat hangt af van het tegelformaat en de voegbreedte. Bij 60×60 cm tegels met 3 mm voeg heb je ~2,8 tegels per m². Bij 30×60 cm is dat ~5,5. Gebruik de calculator hierboven: vul je formaat in en het wordt automatisch uitgerekend, inclusief snijverlies.",
+    q: "Hvor mange fliser trenger jeg per m²?",
+    a: "Det avhenger av fliseformatet og fugebredden. Ved 60×60 cm fliser med 3 mm fuge trenger du ~2,8 fliser per m². Ved 30×60 cm blir det ~5,5. Bruk kalkulatoren over: fyll inn formatet og det regnes ut automatisk, inkludert svinn.",
   },
   {
-    q: "Hoeveel snijverlies moet ik rekenen?",
-    a: "Bij recht leggen (halfsteensverband, strokenverband) reken je 10%. Bij diagonaal leggen 15%. Heb je veel hoeken, uitsnijdingen rondom toiletpotten of buizen, of onregelmatige ruimtes? Ga naar 15–20%. Liever iets te veel dan te weinig - retourneren is makkelijker dan bijbestellen uit een andere batch.",
+    q: "Hvor mye svinn bør jeg regne med?",
+    a: "Ved rett legging (halvforband, stripeforband) regner du 10 %. Ved diagonal legging 15 %. Har du mange hjørner, utskjæringer rundt toalettsokler eller rør, eller uregelmessige rom? Gå til 15–20 %. Heller litt for mye enn for lite - å returnere er enklere enn å etterbestille fra en annen batch.",
   },
   {
-    q: "Hoeveel tegellijm heb ik nodig?",
-    a: "Reken op ~5 kg tegellijm per m² bij standaard kamvertanding (10×10 mm). Bij grote formaten (60×60 of groter) gebruik je een grotere kam (12×12 mm) en is het verbruik ~6–7 kg/m². De calculator rekent met 5 kg/m² als basis - pas het handmatig aan als je een grotere kam gebruikt.",
+    q: "Hvor mye flislim trenger jeg?",
+    a: "Regn med ~5 kg flislim per m² ved standard tannsparkling (10×10 mm). Ved store formater (60×60 eller større) bruker du en større tann (12×12 mm) og forbruket blir ~6–7 kg/m². Kalkulatoren regner med 5 kg/m² som basis - juster manuelt hvis du bruker en større tann.",
   },
   {
-    q: "Hoeveel voegmortel heb ik nodig?",
-    a: "Het verbruik hangt af van de voegbreedte, tegeldikte en tegelformaat. Als vuistregel: bij 3 mm voeg en standaard wandtegels zit je op ~1,5 kg/m². Bij 5 mm voeg en dikke vloertegels op ~3 kg/m². De calculator geeft een indicatie - check altijd het verbruik op de verpakking van je specifieke voegmortel.",
+    q: "Hvor mye fugemasse trenger jeg?",
+    a: "Forbruket avhenger av fugebredden, flisetykkelsen og fliseformatet. Som tommelfingerregel: ved 3 mm fuge og standard veggfliser er du på ~1,5 kg/m². Ved 5 mm fuge og tykke gulvfliser på ~3 kg/m². Kalkulatoren gir en indikasjon - sjekk alltid forbruket på pakningen til din spesifikke fugemasse.",
   },
   {
-    q: "Kan ik tegels uit verschillende dozen mixen?",
-    a: "Ja, en dat moet je zelfs doen. Pak tegels afwisselend uit meerdere dozen om kleurverschillen gelijkmatig te verdelen. Dit heet 'mengen' en staat als tip op vrijwel elke doos. Wél belangrijk: alle dozen moeten uit dezelfde batch (chargenummer) komen.",
+    q: "Kan jeg blande fliser fra forskjellige esker?",
+    a: "Ja, og det bør du faktisk gjøre. Ta fliser vekselvis fra flere esker for å fordele fargeforskjeller jevnt. Dette kalles 'å blande' og står som tips på nesten hver eske. Det er viktig at alle eskene er fra samme batch (sjargenummer).",
   },
   {
-    q: "Hoeveel kost het om tegels te laten leggen?",
-    a: "Reken voor het leggen (excl. materiaal) op €35–€65 per m², afhankelijk van formaat, patroon en de complexiteit van de ruimte. Grote formaten en diagonaal leggen zijn duurder. Wilt u een offerte? Zoek een tegelzetter via onze vakgebiedenpagina.",
+    q: "Hvor mye koster det å få lagt fliser?",
+    a: "Regn for legging (eksl. material) på 420-780 kr per m², avhengig av format, mønster og kompleksiteten i rommet. Store formater og diagonal legging er dyrere. Vil du ha et tilbud? Finn en flislegger via vår fagområdeside.",
   },
 ];
 
@@ -78,24 +78,24 @@ const faqs: { q: string; a: string }[] = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Tegels berekenen - hoeveel tegels heb ik nodig?",
+  name: "Fliskalkulator - hvor mange fliser trenger jeg?",
   url: PAGE_URL,
   description:
-    "Gratis tegelcalculator. Bereken hoeveel tegels, dozen, tegellijm en voegmortel je nodig hebt voor je vloer of wand. Inclusief snijverlies.",
+    "Gratis fliskalkulator. Beregn hvor mange fliser, esker, flislim og fugemasse du trenger til gulv eller vegg. Inkludert svinn.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
-      { "@type": "ListItem", position: 3, name: "Tegels berekenen", item: PAGE_URL },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 3, name: "Fliskalkulator", item: PAGE_URL },
     ],
   },
   mainEntity: {
     "@type": "SoftwareApplication",
-    name: "Tegels berekenen calculator",
+    name: "Fliskalkulator",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
-    offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+    offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" },
   },
 };
 
@@ -141,25 +141,25 @@ const TegelsBerekenen = () => {
       m2PerDoos: formaat.perDoos * (formaat.w / 100) * (formaat.h / 100),
       lijmKg,
       voegKg,
-      lijmZakken: Math.ceil(lijmKg / 25), // 25kg zakken
-      voegZakken: Math.ceil(voegKg / 5), // 5kg zakken
+      lijmZakken: Math.ceil(lijmKg / 25), // 25kg sekker
+      voegZakken: Math.ceil(voegKg / 5), // 5kg sekker
     };
   }, [oppervlakte, formaat, voegbreedte, snijverlies]);
 
   return (
     <PageShell>
       <Helmet>
-        <title>Tegels berekenen - hoeveel tegels heb ik nodig? | Aannemer Systeem</title>
+        <title>Fliskalkulator - hvor mange fliser trenger jeg? | Vekst Systemet</title>
         <meta
           name="description"
-          content="Gratis tegelcalculator: bereken hoeveel tegels, dozen, tegellijm en voegmortel je nodig hebt. Kies je formaat, voeg snijverlies toe en bestel precies genoeg."
+          content="Gratis fliskalkulator: beregn hvor mange fliser, esker, flislim og fugemasse du trenger. Velg format, legg til svinn og bestill akkurat nok."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Tegels berekenen - hoeveel tegels heb ik nodig?" />
-        <meta property="og:description" content="Bereken in 10 seconden hoeveel tegels je nodig hebt. Gratis, geen registratie." />
+        <meta property="og:title" content="Fliskalkulator - hvor mange fliser trenger jeg?" />
+        <meta property="og:description" content="Beregn på 10 sekunder hvor mange fliser du trenger. Gratis, ingen registrering." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(pageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -169,20 +169,20 @@ const TegelsBerekenen = () => {
         <div className="container max-w-4xl">
           <motion.div {...fadeInUp} className="flex items-center gap-2 mb-4">
             <Link to="/tools" className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors">
-              Rekentools
+              Kalkulatorer
             </Link>
             <span className="text-primary-foreground/40">/</span>
             <span className="text-xs font-bold uppercase tracking-widest text-primary-foreground/60">
-              Tegels berekenen
+              Fliskalkulator
             </span>
           </motion.div>
           <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight">
-            Hoeveel tegels heb ik nodig?
+            Hvor mange fliser trenger jeg?
           </motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-            Vul je oppervlakte en tegelformaat in. De calculator rekent het aantal tegels,
-            dozen, tegellijm en voegmortel uit - inclusief snijverlies zodat je niet te
-            weinig bestelt.
+            Fyll inn flaten og fliseformatet ditt. Kalkulatoren regner ut antall fliser,
+            esker, flislim og fugemasse - inkludert svinn slik at du ikke bestiller
+            for lite.
           </motion.p>
         </div>
       </section>
@@ -195,12 +195,12 @@ const TegelsBerekenen = () => {
             <motion.div {...fadeInUp} className="bg-card rounded-2xl border border-border p-6 md:p-8 shadow-system-card">
               <h2 className="text-xl font-semibold tracking-tight text-foreground flex items-center gap-2 mb-6">
                 <Calculator className="h-5 w-5 text-accent" strokeWidth={1.5} />
-                Jouw gegevens
+                Dine data
               </h2>
               <div className="space-y-6">
                 <CalcInput
-                  label="Oppervlakte"
-                  hint="Totale vloer- of wandoppervlakte in m². Meet lengte × breedte per ruimte."
+                  label="Flate"
+                  hint="Total gulv- eller veggflate i m². Mål lengde × bredde per rom."
                   value={oppervlakte}
                   onChange={setOppervlakte}
                   min={0}
@@ -217,7 +217,7 @@ const TegelsBerekenen = () => {
                 <div>
                   <label className="text-sm font-medium text-foreground flex items-center gap-2 mb-2">
                     <Grid3X3 className="h-4 w-4 text-muted-foreground" strokeWidth={1.75} />
-                    Tegelformaat
+                    Fliseformat
                   </label>
                   <div className="grid grid-cols-2 gap-2">
                     {FORMATEN.map((f, i) => (
@@ -236,13 +236,13 @@ const TegelsBerekenen = () => {
                     ))}
                   </div>
                   <p className="mt-2 text-xs text-muted-foreground">
-                    {formaat.perDoos} tegels per doos · {num.format(formaat.perDoos * (formaat.w / 100) * (formaat.h / 100))} m² per doos
+                    {formaat.perDoos} fliser per eske · {num.format(formaat.perDoos * (formaat.w / 100) * (formaat.h / 100))} m² per eske
                   </p>
                 </div>
 
                 <CalcInput
-                  label="Voegbreedte"
-                  hint="Standaard 2–3 mm voor wand, 3–5 mm voor vloer. Smalle voeg = meer tegels nodig."
+                  label="Fugebredde"
+                  hint="Standard 2–3 mm for vegg, 3–5 mm for gulv. Smal fuge = flere fliser."
                   value={voegbreedte}
                   onChange={setVoegbreedte}
                   min={0}
@@ -256,8 +256,8 @@ const TegelsBerekenen = () => {
                 />
 
                 <CalcInput
-                  label="Snijverlies"
-                  hint="Reken 10% voor rechte patronen, 15% voor diagonaal of bij veel hoeken en uitsnijdingen."
+                  label="Svinn"
+                  hint="Regn 10 % for rette mønstre, 15 % for diagonal eller ved mange hjørner og utskjæringer."
                   value={snijverlies}
                   onChange={setSnijverlies}
                   min={0}
@@ -275,43 +275,43 @@ const TegelsBerekenen = () => {
             <div className="space-y-4">
               <CalcResultCard
                 variant="hero"
-                label="Aantal tegels nodig"
-                value={`${numInt.format(results.aantalTegels)} tegels`}
-                caption={`${num.format(results.tegelsExact)} exact + ${snijverlies}% snijverlies = ${numInt.format(results.aantalTegels)} stuks`}
+                label="Antall fliser nødvendig"
+                value={`${numInt.format(results.aantalTegels)} fliser`}
+                caption={`${num.format(results.tegelsExact)} eksakt + ${snijverlies} % svinn = ${numInt.format(results.aantalTegels)} stk`}
                 icon={<Grid3X3 className="h-4 w-4" strokeWidth={1.75} />}
               />
 
               <div className="grid grid-cols-2 gap-4">
                 <CalcResultCard
-                  label="Dozen bestellen"
-                  value={`${results.aantalDozen} dozen`}
-                  caption={`${formaat.perDoos} tegels per doos`}
+                  label="Esker å bestille"
+                  value={`${results.aantalDozen} esker`}
+                  caption={`${formaat.perDoos} fliser per eske`}
                   icon={<Package className="h-4 w-4" strokeWidth={1.75} />}
                 />
                 <CalcResultCard
-                  label="Oppervlakte besteld"
+                  label="Flate bestilt"
                   value={`${num.format(results.aantalDozen * results.m2PerDoos)} m²`}
-                  caption={`${num.format(results.aantalDozen * results.m2PerDoos - oppervlakte)} m² extra`}
+                  caption={`${num.format(results.aantalDozen * results.m2PerDoos - oppervlakte)} m² ekstra`}
                   icon={<Ruler className="h-4 w-4" strokeWidth={1.75} />}
                 />
               </div>
 
-              {/* Materialen */}
+              {/* Materialer */}
               <motion.div {...fadeInUp} className="rounded-2xl border border-border bg-card p-5 shadow-system-card">
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">
-                  Hulpmaterialen (indicatie)
+                  Hjelpematerialer (indikasjon)
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Tegellijm (~5 kg/m²)</span>
+                    <span className="text-muted-foreground">Flislim (~5 kg/m²)</span>
                     <span className="font-semibold text-foreground tabular-nums">
-                      {results.lijmKg} kg · {results.lijmZakken}× zak 25 kg
+                      {results.lijmKg} kg · {results.lijmZakken}× sekk 25 kg
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Voegmortel</span>
+                    <span className="text-muted-foreground">Fugemasse</span>
                     <span className="font-semibold text-foreground tabular-nums">
-                      {results.voegKg} kg · {results.voegZakken}× zak 5 kg
+                      {results.voegKg} kg · {results.voegZakken}× sekk 5 kg
                     </span>
                   </div>
                 </div>
@@ -319,12 +319,12 @@ const TegelsBerekenen = () => {
 
               <motion.div {...fadeInUp} className="rounded-2xl border border-dashed border-border bg-muted/30 p-5">
                 <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                  Tip
+                  Tips
                 </p>
                 <p className="mt-2 text-foreground leading-relaxed text-sm">
-                  Bestel altijd minimaal 1 doos extra. Tegels uit een andere batch kunnen
-                  subtiel in kleur afwijken - en bij schade over een paar jaar heb je direct
-                  een vervangtegel uit dezelfde partij.
+                  Bestill alltid minst 1 eske ekstra. Fliser fra en annen batch kan avvike
+                  subtilt i farge - og ved skade om noen år har du en reservefliss fra
+                  samme parti.
                 </p>
               </motion.div>
             </div>
@@ -336,24 +336,24 @@ const TegelsBerekenen = () => {
       <section className="py-16 md:py-20 bg-muted/30">
         <div className="container max-w-3xl">
           <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground">
-            Hoe bereken je hoeveel tegels je nodig hebt?
+            Hvordan beregner du hvor mange fliser du trenger?
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-6 bg-card border border-border rounded-2xl p-6 md:p-8 shadow-system-card">
             <ol className="space-y-3 font-mono text-sm md:text-base text-foreground">
-              <li><span className="text-muted-foreground">1.</span> Oppervlakte per tegel = <span className="font-semibold">(breedte + voeg) × (hoogte + voeg)</span></li>
-              <li><span className="text-muted-foreground">2.</span> Tegels exact = <span className="font-semibold">totale oppervlakte / oppervlakte per tegel</span></li>
-              <li><span className="text-muted-foreground">3.</span> + snijverlies = <span className="font-semibold">tegels exact × (1 + verlies%)</span></li>
-              <li><span className="text-muted-foreground">4.</span> Dozen = <span className="font-semibold">⌈tegels / tegels per doos⌉</span> (naar boven afronden)</li>
+              <li><span className="text-muted-foreground">1.</span> Flate per flis = <span className="font-semibold">(bredde + fuge) × (høyde + fuge)</span></li>
+              <li><span className="text-muted-foreground">2.</span> Fliser eksakt = <span className="font-semibold">total flate / flate per flis</span></li>
+              <li><span className="text-muted-foreground">3.</span> + svinn = <span className="font-semibold">fliser eksakt × (1 + svinn %)</span></li>
+              <li><span className="text-muted-foreground">4.</span> Esker = <span className="font-semibold">⌈fliser / fliser per eske⌉</span> (rund opp)</li>
             </ol>
             <div className="mt-6 pt-6 border-t border-border space-y-2">
               <p className="text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Voorbeeld:</span> badkamervloer 3 × 4 = 12 m², tegels 60×60 cm, voeg 3 mm, 10% snijverlies.
+                <span className="font-semibold text-foreground">Eksempel:</span> badegulv 3 × 4 = 12 m², fliser 60×60 cm, fuge 3 mm, 10 % svinn.
               </p>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>Per tegel: 0,603 × 0,603 = 0,3636 m²</li>
-                <li>Exact: 12 / 0,3636 = 33,0 tegels</li>
-                <li>Met 10% verlies: 33 × 1,10 = 36,3 → <span className="font-bold text-foreground">37 tegels</span></li>
-                <li>Dozen (4 per doos): 37 / 4 = 9,25 → <span className="font-bold text-foreground">10 dozen bestellen</span></li>
+                <li>Per flis: 0,603 × 0,603 = 0,3636 m²</li>
+                <li>Eksakt: 12 / 0,3636 = 33,0 fliser</li>
+                <li>Med 10 % svinn: 33 × 1,10 = 36,3 → <span className="font-bold text-foreground">37 fliser</span></li>
+                <li>Esker (4 per eske): 37 / 4 = 9,25 → <span className="font-bold text-foreground">10 esker å bestille</span></li>
               </ul>
             </div>
           </motion.div>
@@ -364,15 +364,15 @@ const TegelsBerekenen = () => {
       <section className="py-16 md:py-20 bg-background">
         <div className="container max-w-5xl">
           <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground">
-            5 besteltips voor tegels
+            5 bestillingstips for fliser
           </motion.h2>
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: "Altijd 1 doos extra", text: "Tegels uit een andere batch wijken subtiel af in kleur. Bewaar een doos voor reparaties over een paar jaar." },
-              { title: "Check het chargenummer", text: "Alle dozen moeten hetzelfde chargenummer hebben. Vraag bij grotere bestellingen of alles uit één productierun komt." },
-              { title: "Meng uit meerdere dozen", text: "Pak tegels afwisselend uit verschillende dozen om minimale kleurverschillen gelijkmatig te verdelen." },
-              { title: "Diagonaal = meer verlies", text: "Diagonaal leggen levert ~15% snijverlies op i.p.v. 10%. Houd daar rekening mee bij je bestelling." },
-              { title: "Lijm en voeg apart berekenen", text: "Gebruik de indicatie hierboven als startpunt, maar check het verbruik op de verpakking van je specifieke product." },
+              { title: "Alltid 1 eske ekstra", text: "Fliser fra en annen batch avviker subtilt i farge. Oppbevar en eske til reparasjoner om noen år." },
+              { title: "Sjekk sjargenummeret", text: "Alle esker må ha samme sjargenummer. Spør ved større bestillinger om alt kommer fra én produksjonsomgang." },
+              { title: "Bland fra flere esker", text: "Ta fliser vekselvis fra forskjellige esker for å fordele minimale fargeforskjeller jevnt." },
+              { title: "Diagonal = mer svinn", text: "Diagonal legging gir ~15 % svinn i stedet for 10 %. Ta hensyn til det i bestillingen." },
+              { title: "Beregn lim og fuge separat", text: "Bruk indikasjonen ovenfor som utgangspunkt, men sjekk forbruket på pakningen til ditt spesifikke produkt." },
             ].map((item, i) => (
               <motion.div key={item.title} {...fadeInUp} transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }} className="bg-card border border-border rounded-2xl p-6 shadow-system-card">
                 <h3 className="font-semibold text-foreground">{item.title}</h3>
@@ -387,7 +387,7 @@ const TegelsBerekenen = () => {
       <section className="py-16 md:py-20 bg-muted/30">
         <div className="container max-w-3xl">
           <motion.h2 {...fadeInUp} className="text-2xl md:text-3xl font-semibold tracking-tight text-foreground">
-            Veelgestelde vragen
+            Ofte stilte spørsmål
           </motion.h2>
           <motion.div {...fadeInUp} className="mt-8">
             <Accordion type="single" collapsible className="w-full">
