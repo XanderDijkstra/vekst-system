@@ -141,7 +141,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
                 Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
               <Link to={`/vakgebieden/${d.trade}`}>
                 Bekijk {d.tradeName} pagina
               </Link>
@@ -350,7 +350,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
                 Boek een gratis demo <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
               <Link to="/prijzen">Bekijk prijzen</Link>
             </Button>
           </motion.div>
