@@ -48,9 +48,7 @@ import VergelijkOverview from "./pages/vergelijk/VergelijkOverview";
 import WerkspotAlternatief from "./pages/vergelijk/WerkspotAlternatief";
 import ToolsOverview from "./pages/tools/ToolsOverview";
 import LeadwaardeCalculator from "./pages/tools/LeadwaardeCalculator";
-import UurtariefCalculator from "./pages/tools/UurtariefCalculator";
 import ProjectmargeCalculator from "./pages/tools/ProjectmargeCalculator";
-import PersoneelskostenCalculator from "./pages/tools/PersoneelskostenCalculator";
 import TegelsBerekenen from "./pages/tools/TegelsBerekenen";
 import VerfBerekenen from "./pages/tools/VerfBerekenen";
 import BetonBerekenen from "./pages/tools/BetonBerekenen";
@@ -124,9 +122,7 @@ const App = () => (
           <Route path="/vergelijk/werkspot-alternatief" element={<WerkspotAlternatief />} />
           <Route path="/tools" element={<ToolsOverview />} />
           <Route path="/tools/leadwaarde-calculator" element={<LeadwaardeCalculator />} />
-          <Route path="/tools/uurtarief-calculator-aannemer" element={<UurtariefCalculator />} />
           <Route path="/tools/projectmarge-calculator" element={<ProjectmargeCalculator />} />
-          <Route path="/tools/personeelskosten-calculator" element={<PersoneelskostenCalculator />} />
           <Route path="/tools/bouwmaterialen-berekenen" element={<BouwmaterialenHub />} />
           <Route path="/tools/tegels-berekenen" element={<TegelsBerekenen />} />
           <Route path="/tools/verf-berekenen" element={<VerfBerekenen />} />

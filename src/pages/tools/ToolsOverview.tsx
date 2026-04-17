@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock, Euro, Users, Hammer, Search } from "lucide-react";
+import { Calculator, TrendingUp, Euro, Hammer, Search } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -34,27 +34,11 @@ const tools: Tool[] = [
     status: "live",
   },
   {
-    title: "Timepris-kalkulator for håndverkere",
-    description:
-      "Beregn hva du minimum må ta per time som håndverker. Basert på inntektsmål, fakturerbare timer, overhead og skatt - slutt med gjetting.",
-    href: "/tools/uurtarief-calculator-aannemer",
-    icon: Clock,
-    status: "live",
-  },
-  {
     title: "Prosjektmargin-kalkulator",
     description:
       "Fyll inn tilbudsbeløp og kostnadsposter - se brutto- og nettomargin direkte, og hvor mye kostnadene kan stige før du går i null.",
     href: "/tools/projectmarge-calculator",
     icon: Euro,
-    status: "live",
-  },
-  {
-    title: "Personalkostnad-kalkulator",
-    description:
-      "Beregn hva en ansatt faktisk koster: fra bruttolønn → totale arbeidsgiverkostnader inkludert feriepenger, arbeidsgiveravgift, sykefravær og arbeidstøy.",
-    href: "/tools/personeelskosten-calculator",
-    icon: Users,
     status: "live",
   },
   {

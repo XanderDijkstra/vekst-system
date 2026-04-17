@@ -9,7 +9,6 @@ import {
   Plus,
   Trash2,
   Calculator,
-  Percent,
 } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
@@ -491,18 +490,6 @@ const ProjectmargeCalculator = () => {
               Relaterte verktøy
             </p>
             <div className="mt-3 grid sm:grid-cols-2 gap-4">
-              <Link
-                to="/tools/uurtarief-calculator-aannemer"
-                className="group flex items-center gap-3 text-sm"
-              >
-                <Percent className="h-4 w-4 text-muted-foreground group-hover:text-accent transition-colors" strokeWidth={1.75} />
-                <div>
-                  <span className="font-semibold text-foreground group-hover:text-accent transition-colors">
-                    Timepris-kalkulator
-                  </span>
-                  <p className="text-xs text-muted-foreground">Regn egne timer riktig inn</p>
-                </div>
-              </Link>
               <Link
                 to="/tools/leadwaarde-calculator"
                 className="group flex items-center gap-3 text-sm"
