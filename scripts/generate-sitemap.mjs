@@ -112,6 +112,7 @@ const TOOLS_PAGES = [
   "/tools/behang-berekenen",
   "/tools/gipsplaten-berekenen",
   "/tools/stucwerk-berekenen",
+  "/tools/marketing-scan",
 ];
 
 // ---------- Build ----------

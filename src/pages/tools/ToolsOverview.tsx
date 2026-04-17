@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Calculator, TrendingUp, Clock, Euro, Users, Hammer } from "lucide-react";
+import { Calculator, TrendingUp, Clock, Euro, Users, Hammer, Search } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -17,6 +17,14 @@ interface Tool {
 }
 
 const tools: Tool[] = [
+  {
+    title: "Gratis Marketing Scan",
+    description:
+      "Scan je aannemer-website en krijg direct een rapport met concrete verbeterpunten voor vindbaarheid, techniek, vertrouwen en conversie.",
+    href: "/tools/marketing-scan",
+    icon: Search,
+    status: "live",
+  },
   {
     title: "Leadwaarde calculator",
     description:
