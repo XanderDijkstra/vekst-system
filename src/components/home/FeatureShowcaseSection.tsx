@@ -28,7 +28,7 @@ const showcases: FeatureShowcase[] = [
   {
     title: "Functionele Website",
     subtitle:
-      "Krijg een website die leads direct omzet in gesprekken via SMS — rechtstreeks naar je telefoon.",
+      "Krijg een website die leads direct omzet in gesprekken via SMS - rechtstreeks naar je telefoon.",
     features: [
       {
         title: "Gevonden worden online",
@@ -58,7 +58,7 @@ const showcases: FeatureShowcase[] = [
   {
     title: "5-Sterren Review Funnel",
     subtitle:
-      "\"Ja, ik laat wel een review achter\" — maar de waarheid is dat mensen het vergeten. Wij herinneren ze er vriendelijk aan.",
+      "\"Ja, ik laat wel een review achter\" - maar de waarheid is dat mensen het vergeten. Wij herinneren ze er vriendelijk aan.",
     features: [
       {
         title: "Alleen 5-sterren reviews",
@@ -98,7 +98,7 @@ const showcases: FeatureShowcase[] = [
       {
         title: "Nooit meer leads verliezen",
         description:
-          "Op de werf en kun je niet opnemen? Geen probleem — wij sturen een sms en starten het gesprek voor je.",
+          "Op de werf en kun je niet opnemen? Geen probleem - wij sturen een sms en starten het gesprek voor je.",
       },
       {
         title: "Laat zien dat je om je klanten geeft",
@@ -108,7 +108,7 @@ const showcases: FeatureShowcase[] = [
       {
         title: "24/7 bereikbaar",
         description:
-          "Gemiste oproep na werktijd? Geen zorgen — wij zorgen dat iedereen zich gehoord voelt, ook terwijl jij slaapt.",
+          "Gemiste oproep na werktijd? Geen zorgen - wij zorgen dat iedereen zich gehoord voelt, ook terwijl jij slaapt.",
       },
     ],
     demoLink: "/diensten/klantcommunicatie",
@@ -118,7 +118,7 @@ const showcases: FeatureShowcase[] = [
   {
     title: "One-Click Marketing Campagnes",
     subtitle:
-      "Je weet het en wij weten het — terugkerende klanten en verwijzingen zijn het allerbeste. Laten we je allebei bezorgen.",
+      "Je weet het en wij weten het - terugkerende klanten en verwijzingen zijn het allerbeste. Laten we je allebei bezorgen.",
     features: [
       {
         title: "Wij doen het voor je",
@@ -148,7 +148,7 @@ const showcases: FeatureShowcase[] = [
   {
     title: "Lokale SEO",
     subtitle:
-      "\"Nummer 1 op Google binnen een week!\" — Grapje, SEO kost tijd... maar het is het waard.",
+      "\"Nummer 1 op Google binnen een week!\" - Grapje, SEO kost tijd... maar het is het waard.",
     features: [
       {
         title: "Gekwalificeerde leads",

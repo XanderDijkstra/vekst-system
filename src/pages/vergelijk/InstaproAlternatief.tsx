@@ -26,9 +26,9 @@ const PAGE_URL = `${SITE_URL}/vergelijk/instapro-alternatief`;
 
 const problems = [
   {
-    title: "Je betaalt credits per lead — ook voor slechte leads",
+    title: "Je betaalt credits per lead - ook voor slechte leads",
     description:
-      "Instapro werkt met een credit-systeem: je koopt credits en betaalt die per lead. Of de lead serieus is of niet, maakt niet uit — je credits zijn op. Veel aannemers merken dat de helft van de leads niet eens reageert op hun bericht.",
+      "Instapro werkt met een credit-systeem: je koopt credits en betaalt die per lead. Of de lead serieus is of niet, maakt niet uit - je credits zijn op. Veel aannemers merken dat de helft van de leads niet eens reageert op hun bericht.",
   },
   {
     title: "Je profiel verdwijnt tussen honderden anderen",
@@ -43,18 +43,18 @@ const problems = [
   {
     title: "Platform-reviews helpen je niet op Google",
     description:
-      "Alle reviews die je verzamelt op Instapro, blijven op Instapro. Ze verschijnen niet in Google zoekresultaten en bouwen geen eigen online reputatie op. Stop je met Instapro, dan verdwijnen je reviews mee — inclusief alle moeite die je erin hebt gestoken.",
+      "Alle reviews die je verzamelt op Instapro, blijven op Instapro. Ze verschijnen niet in Google zoekresultaten en bouwen geen eigen online reputatie op. Stop je met Instapro, dan verdwijnen je reviews mee - inclusief alle moeite die je erin hebt gestoken.",
   },
 ];
 
 const comparison = [
   { aspect: "Kosten per maand", instapro: "€150–€600/maand (credits kopen)", systeem: "€279/maand vast" },
-  { aspect: "Kosten per lead", instapro: "€10–€50 per lead (credits)", systeem: "€0 — onbeperkte leads via eigen website" },
+  { aspect: "Kosten per lead", instapro: "€10–€50 per lead (credits)", systeem: "€0 - onbeperkte leads via eigen website" },
   { aspect: "Concurrentie per aanvraag", instapro: "Meerdere vakmannen reageren op dezelfde lead", systeem: "Klant belt rechtstreeks jou" },
-  { aspect: "Eigen website", instapro: "Nee — standaard platformprofiel", systeem: "Ja — eigen merk en domein" },
+  { aspect: "Eigen website", instapro: "Nee - standaard platformprofiel", systeem: "Ja - eigen merk en domein" },
   { aspect: "Google vindbaarheid", instapro: "Geen impact op je positie", systeem: "Volledig geoptimaliseerd voor lokale SEO" },
   { aspect: "Google reviews", instapro: "Reviews blijven op Instapro", systeem: "Automatische Google reviews na elke klus" },
-  { aspect: "Leadkwaliteit", instapro: "Wisselend — geen filtering mogelijk", systeem: "Klanten die jou specifiek zoeken" },
+  { aspect: "Leadkwaliteit", instapro: "Wisselend - geen filtering mogelijk", systeem: "Klanten die jou specifiek zoeken" },
   { aspect: "Branding", instapro: "Gestandaardiseerd profiel", systeem: "Volledig eigen branding en portfolio" },
   { aspect: "Afhankelijkheid", instapro: "Afhankelijk van credits en algoritme", systeem: "Eigen systeem, altijd in beheer" },
   { aspect: "Opzettijd", instapro: "Direct", systeem: "Live binnen 7 dagen" },
@@ -104,7 +104,7 @@ const faqs = [
   {
     question: "Hoe snel krijg ik leads via mijn eigen website?",
     answer:
-      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken resultaat. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden significant meer aanvragen via hun eigen website dan via Instapro — zonder credits te kopen.",
+      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken resultaat. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden significant meer aanvragen via hun eigen website dan via Instapro - zonder credits te kopen.",
   },
   {
     question: "Kan ik Instapro blijven gebruiken naast een eigen website?",
@@ -114,7 +114,7 @@ const faqs = [
   {
     question: "Wat als ik niet technisch ben?",
     answer:
-      "Dat hoeft ook niet. Wij bouwen je complete systeem: website, Google Mijn Bedrijf, reviews en lead opvolging. Jij vult een kort formulier in en wij doen de rest. Na 7 dagen sta je live — zonder zelf iets technisch te hoeven doen.",
+      "Dat hoeft ook niet. Wij bouwen je complete systeem: website, Google Mijn Bedrijf, reviews en lead opvolging. Jij vult een kort formulier in en wij doen de rest. Na 7 dagen sta je live - zonder zelf iets technisch te hoeven doen.",
   },
 ];
 
@@ -167,7 +167,7 @@ const InstaproAlternatief = () => (
           Instapro Alternatief: Meer Leads zonder Credits
         </motion.h1>
         <motion.p {...fadeInUp} className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/75 leading-relaxed">
-          Instapro werkt met credits per lead, een standaard profiel en wisselende leadkwaliteit. Ontdek waarom een eigen website meer oplevert — met volledige controle over je instroom.
+          Instapro werkt met credits per lead, een standaard profiel en wisselende leadkwaliteit. Ontdek waarom een eigen website meer oplevert - met volledige controle over je instroom.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">

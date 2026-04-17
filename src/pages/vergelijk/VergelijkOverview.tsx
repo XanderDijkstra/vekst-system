@@ -14,14 +14,14 @@ const comparisons = [
     slug: "werkspot-alternatief",
     title: "Werkspot alternatief",
     description:
-      "Stoppen met betalen per lead? Vergelijk Werkspot met een eigen website — wat levert meer op voor jouw bouwbedrijf?",
+      "Stoppen met betalen per lead? Vergelijk Werkspot met een eigen website - wat levert meer op voor jouw bouwbedrijf?",
     tag: "Werkspot vs Eigen Systeem",
   },
   {
     slug: "bouwnu-alternatief",
     title: "Bouwnu alternatief",
     description:
-      "Bouwnu werkt met credits — je betaalt voor elke lead die je inziet. Vergelijk Bouwnu en een eigen website naast elkaar.",
+      "Bouwnu werkt met credits - je betaalt voor elke lead die je inziet. Vergelijk Bouwnu en een eigen website naast elkaar.",
     tag: "Bouwnu vs Eigen Systeem",
   },
   {
@@ -56,7 +56,7 @@ const comparisons = [
     slug: "lokale-leads-genereren",
     title: "Beste manieren om lokale leads te genereren",
     description:
-      "Website, Google Mijn Bedrijf, Google Ads, Werkspot, social media — welk kanaal levert de meeste lokale leads op voor aannemers?",
+      "Website, Google Mijn Bedrijf, Google Ads, Werkspot, social media - welk kanaal levert de meeste lokale leads op voor aannemers?",
     tag: "Kanalen vergelijken",
   },
   {
@@ -133,7 +133,7 @@ const VergelijkOverview = () => (
           {...fadeInUp}
           className="mt-5 text-lg md:text-xl text-primary-foreground/75 max-w-2xl mx-auto leading-relaxed"
         >
-          Geen verkooppraatjes — alleen naast elkaar zetten. Wat werkt écht om
+          Geen verkooppraatjes - alleen naast elkaar zetten. Wat werkt écht om
           meer klanten te krijgen als aannemer?
         </motion.p>
       </div>
@@ -176,7 +176,7 @@ const VergelijkOverview = () => (
 
         <motion.div {...fadeInUp} className="mt-16 text-center">
           <p className="text-muted-foreground mb-6">
-            Mis je een vergelijking? Laat het ons weten — we voegen het graag toe.
+            Mis je een vergelijking? Laat het ons weten - we voegen het graag toe.
           </p>
           <Button asChild size="lg" variant="outline">
             <Link to="/contact">Suggestie insturen</Link>

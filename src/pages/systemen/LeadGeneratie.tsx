@@ -27,7 +27,7 @@ const features = [
     icon: Search,
     title: "Gevonden worden in Google",
     description:
-      "Wij zorgen dat je website correct geïndexeerd wordt en voldoet aan alle SEO best practices. De juiste zoekwoorden, meta tags, koppen en snelle laadtijden — alles wordt geoptimaliseerd zodat potentiële klanten jou vinden.",
+      "Wij zorgen dat je website correct geïndexeerd wordt en voldoet aan alle SEO best practices. De juiste zoekwoorden, meta tags, koppen en snelle laadtijden - alles wordt geoptimaliseerd zodat potentiële klanten jou vinden.",
   },
   {
     icon: Star,
@@ -45,7 +45,7 @@ const features = [
     icon: MessageSquare,
     title: "Direct contact via SMS of WhatsApp",
     description:
-      "Elke website bevat een offerte-formulier en chat-widget die direct een gesprek start. Bezoekers ontvangen meteen een bevestiging en je hebt hun gegevens om op te volgen — ook als ze de website verlaten.",
+      "Elke website bevat een offerte-formulier en chat-widget die direct een gesprek start. Bezoekers ontvangen meteen een bevestiging en je hebt hun gegevens om op te volgen - ook als ze de website verlaten.",
   },
   {
     icon: FileText,
@@ -119,7 +119,7 @@ const LeadGeneratie = () => {
             en automatisch offerte aanvragen voor je verzamelt.
           </motion.p>
 
-          {/* Video — shown here on mobile, hidden on lg */}
+          {/* Video - shown here on mobile, hidden on lg */}
           <motion.div
             {...fadeInUp}
             transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
@@ -154,7 +154,7 @@ const LeadGeneratie = () => {
               ))}
             </div>
 
-            {/* Video column — hidden on mobile, shown on lg */}
+            {/* Video column - hidden on mobile, shown on lg */}
             <motion.div
               {...fadeInUp}
               transition={{ duration: 0.4, ease: systemEase, delay: 0.2 }}

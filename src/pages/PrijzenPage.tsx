@@ -55,11 +55,11 @@ const PrijzenPage = () => (
       </script>
     </Helmet>
 
-    {/* Hero — title left, pricing card right */}
+    {/* Hero - title left, pricing card right */}
     <section className="py-16 md:py-24 pb-24 md:pb-32">
       <div className="container max-w-6xl">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-          {/* Left — Title & copy */}
+          {/* Left - Title & copy */}
           <div>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -94,7 +94,7 @@ const PrijzenPage = () => (
             >
               Een professionele website, automatische lead opvolging, gemiste
               oproepen die direct worden afgevangen en een slimme review funnel
-              — alles draait vanaf dag één. Jij focust op het werk op de werf,
+              - alles draait vanaf dag één. Jij focust op het werk op de werf,
               wij zorgen dat de klussen blijven binnenkomen.
             </motion.p>
             <motion.div
@@ -113,7 +113,7 @@ const PrijzenPage = () => (
             </motion.div>
           </div>
 
-          {/* Right — Pricing card */}
+          {/* Right - Pricing card */}
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -282,7 +282,7 @@ const PrijzenPage = () => (
             },
             {
               q: "Wat als ik maar één systeem nodig heb?",
-              a: "Ons pakket is ontworpen als compleet systeem. De onderdelen versterken elkaar — daarom bieden we alles samen aan voor één prijs.",
+              a: "Ons pakket is ontworpen als compleet systeem. De onderdelen versterken elkaar - daarom bieden we alles samen aan voor één prijs.",
             },
             {
               q: "Is de website echt inbegrepen?",

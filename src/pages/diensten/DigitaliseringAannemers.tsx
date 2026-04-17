@@ -47,7 +47,7 @@ const features = [
     icon: Smartphone,
     title: "Alles op je telefoon",
     description:
-      "Beheer je bedrijf vanaf de bouwplaats. Berichten, leads, planning en klantgegevens — allemaal toegankelijk op je mobiel.",
+      "Beheer je bedrijf vanaf de bouwplaats. Berichten, leads, planning en klantgegevens - allemaal toegankelijk op je mobiel.",
   },
   {
     icon: Cloud,
@@ -117,7 +117,7 @@ const faqs = [
   {
     question: "Wat als ik al een website heb?",
     answer:
-      "Dan bekijken we samen of je huidige website voldoet of dat een upgrade nodig is. In veel gevallen bouwen we een nieuwe website die specifiek is ingericht op lead generatie — maar we dwingen niets af.",
+      "Dan bekijken we samen of je huidige website voldoet of dat een upgrade nodig is. In veel gevallen bouwen we een nieuwe website die specifiek is ingericht op lead generatie - maar we dwingen niets af.",
   },
 ];
 
@@ -147,7 +147,7 @@ const DigitaliseringAannemers = () => (
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Van papier naar digitaal — zonder gedoe
+          Van papier naar digitaal - zonder gedoe
         </motion.h1>
         <motion.p
           {...fadeInUp}

@@ -53,15 +53,15 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Hoeveel snijverlies moet ik rekenen?",
-    a: "Bij recht leggen (halfsteensverband, strokenverband) reken je 10%. Bij diagonaal leggen 15%. Heb je veel hoeken, uitsnijdingen rondom toiletpotten of buizen, of onregelmatige ruimtes? Ga naar 15–20%. Liever iets te veel dan te weinig — retourneren is makkelijker dan bijbestellen uit een andere batch.",
+    a: "Bij recht leggen (halfsteensverband, strokenverband) reken je 10%. Bij diagonaal leggen 15%. Heb je veel hoeken, uitsnijdingen rondom toiletpotten of buizen, of onregelmatige ruimtes? Ga naar 15–20%. Liever iets te veel dan te weinig - retourneren is makkelijker dan bijbestellen uit een andere batch.",
   },
   {
     q: "Hoeveel tegellijm heb ik nodig?",
-    a: "Reken op ~5 kg tegellijm per m² bij standaard kamvertanding (10×10 mm). Bij grote formaten (60×60 of groter) gebruik je een grotere kam (12×12 mm) en is het verbruik ~6–7 kg/m². De calculator rekent met 5 kg/m² als basis — pas het handmatig aan als je een grotere kam gebruikt.",
+    a: "Reken op ~5 kg tegellijm per m² bij standaard kamvertanding (10×10 mm). Bij grote formaten (60×60 of groter) gebruik je een grotere kam (12×12 mm) en is het verbruik ~6–7 kg/m². De calculator rekent met 5 kg/m² als basis - pas het handmatig aan als je een grotere kam gebruikt.",
   },
   {
     q: "Hoeveel voegmortel heb ik nodig?",
-    a: "Het verbruik hangt af van de voegbreedte, tegeldikte en tegelformaat. Als vuistregel: bij 3 mm voeg en standaard wandtegels zit je op ~1,5 kg/m². Bij 5 mm voeg en dikke vloertegels op ~3 kg/m². De calculator geeft een indicatie — check altijd het verbruik op de verpakking van je specifieke voegmortel.",
+    a: "Het verbruik hangt af van de voegbreedte, tegeldikte en tegelformaat. Als vuistregel: bij 3 mm voeg en standaard wandtegels zit je op ~1,5 kg/m². Bij 5 mm voeg en dikke vloertegels op ~3 kg/m². De calculator geeft een indicatie - check altijd het verbruik op de verpakking van je specifieke voegmortel.",
   },
   {
     q: "Kan ik tegels uit verschillende dozen mixen?",
@@ -78,7 +78,7 @@ const faqs: { q: string; a: string }[] = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Tegels berekenen — hoeveel tegels heb ik nodig?",
+  name: "Tegels berekenen - hoeveel tegels heb ik nodig?",
   url: PAGE_URL,
   description:
     "Gratis tegelcalculator. Bereken hoeveel tegels, dozen, tegellijm en voegmortel je nodig hebt voor je vloer of wand. Inclusief snijverlies.",
@@ -149,13 +149,13 @@ const TegelsBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Tegels berekenen — hoeveel tegels heb ik nodig? | Aannemer Systeem</title>
+        <title>Tegels berekenen - hoeveel tegels heb ik nodig? | Aannemer Systeem</title>
         <meta
           name="description"
           content="Gratis tegelcalculator: bereken hoeveel tegels, dozen, tegellijm en voegmortel je nodig hebt. Kies je formaat, voeg snijverlies toe en bestel precies genoeg."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Tegels berekenen — hoeveel tegels heb ik nodig?" />
+        <meta property="og:title" content="Tegels berekenen - hoeveel tegels heb ik nodig?" />
         <meta property="og:description" content="Bereken in 10 seconden hoeveel tegels je nodig hebt. Gratis, geen registratie." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
@@ -181,7 +181,7 @@ const TegelsBerekenen = () => {
           </motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
             Vul je oppervlakte en tegelformaat in. De calculator rekent het aantal tegels,
-            dozen, tegellijm en voegmortel uit — inclusief snijverlies zodat je niet te
+            dozen, tegellijm en voegmortel uit - inclusief snijverlies zodat je niet te
             weinig bestelt.
           </motion.p>
         </div>
@@ -323,7 +323,7 @@ const TegelsBerekenen = () => {
                 </p>
                 <p className="mt-2 text-foreground leading-relaxed text-sm">
                   Bestel altijd minimaal 1 doos extra. Tegels uit een andere batch kunnen
-                  subtiel in kleur afwijken — en bij schade over een paar jaar heb je direct
+                  subtiel in kleur afwijken - en bij schade over een paar jaar heb je direct
                   een vervangtegel uit dezelfde partij.
                 </p>
               </motion.div>

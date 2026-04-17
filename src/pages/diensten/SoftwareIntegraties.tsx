@@ -46,13 +46,13 @@ const features = [
     icon: Workflow,
     title: "Naadloze workflows",
     description:
-      "Van offerte-aanvraag tot factuur — elke stap triggert automatisch de volgende actie in het juiste systeem. Geen handmatig overtypen.",
+      "Van offerte-aanvraag tot factuur - elke stap triggert automatisch de volgende actie in het juiste systeem. Geen handmatig overtypen.",
   },
   {
     icon: BarChart3,
     title: "Gecombineerde rapportages",
     description:
-      "Zie in één dashboard data uit al je systemen. Hoeveel leads, offertes, projecten en omzet — zonder zelf spreadsheets samen te voegen.",
+      "Zie in één dashboard data uit al je systemen. Hoeveel leads, offertes, projecten en omzet - zonder zelf spreadsheets samen te voegen.",
   },
   {
     icon: Shield,
@@ -64,7 +64,7 @@ const features = [
     icon: Plug,
     title: "Koppeling met bestaande tools",
     description:
-      "Je hoeft niet alles te vervangen. Wij koppelen aan wat je al gebruikt — van Exact en Moneybird tot Google Agenda en WhatsApp Business.",
+      "Je hoeft niet alles te vervangen. Wij koppelen aan wat je al gebruikt - van Exact en Moneybird tot Google Agenda en WhatsApp Business.",
   },
 ];
 
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: "Wat als een koppeling stopt met werken?",
     answer:
-      "Alle integraties worden gemonitord. Als er iets misgaat — bijvoorbeeld door een API-update — krijgen we automatisch een melding en lossen we het op. Support zit inbegrepen.",
+      "Alle integraties worden gemonitord. Als er iets misgaat - bijvoorbeeld door een API-update - krijgen we automatisch een melding en lossen we het op. Support zit inbegrepen.",
   },
   {
     question: "Kost dit extra bovenop het standaard abonnement?",

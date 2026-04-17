@@ -56,11 +56,11 @@ const defaultRows: CostRow[] = [
 const faqs: { q: string; a: string }[] = [
   {
     q: "Wat is een gezonde brutomarge voor een aannemer?",
-    a: "De meeste aannemers mikken op 25–40% brutomarge op materiaal + arbeid. Bij kleine klussen (badkamer, dakkapel) zit je eerder richting 35–45%, bij grote verbouwingen of nieuwbouw dichter bij 20–30%. Onder de 20% heb je nauwelijks buffer voor tegenvallers — en die komen er bij bouwprojecten altijd.",
+    a: "De meeste aannemers mikken op 25–40% brutomarge op materiaal + arbeid. Bij kleine klussen (badkamer, dakkapel) zit je eerder richting 35–45%, bij grote verbouwingen of nieuwbouw dichter bij 20–30%. Onder de 20% heb je nauwelijks buffer voor tegenvallers - en die komen er bij bouwprojecten altijd.",
   },
   {
     q: "Wat is het verschil tussen brutomarge en nettomarge?",
-    a: "Brutomarge is offertebedrag minus directe projectkosten (materiaal, arbeid, onderaannemers). Nettomarge is wat je overhoudt ná ook belasting, kantoorkosten, verzekeringen en andere indirecte kosten. Deze calculator schat netto op ~65% van bruto — een grove maar bruikbare benadering voor ZZP'ers in de bouwsector.",
+    a: "Brutomarge is offertebedrag minus directe projectkosten (materiaal, arbeid, onderaannemers). Nettomarge is wat je overhoudt ná ook belasting, kantoorkosten, verzekeringen en andere indirecte kosten. Deze calculator schat netto op ~65% van bruto - een grove maar bruikbare benadering voor ZZP'ers in de bouwsector.",
   },
   {
     q: "Hoe voorkom ik dat mijn marge verdampt door meerwerk?",
@@ -68,7 +68,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Moet ik eigen arbeidsuren als kostenpost meerekenen?",
-    a: "Ja — anders overschat je je marge. Reken je eigen uren tegen het uurtarief uit onze uurtarief calculator. Als je 40 uur aan een project werkt en je minimum uurtarief is €65, dan is dat €2.600 aan arbeidskosten — of je het nu als 'salaris' opneemt of niet.",
+    a: "Ja - anders overschat je je marge. Reken je eigen uren tegen het uurtarief uit onze uurtarief calculator. Als je 40 uur aan een project werkt en je minimum uurtarief is €65, dan is dat €2.600 aan arbeidskosten - of je het nu als 'salaris' opneemt of niet.",
   },
   {
     q: "Hoe bereken ik meerwerk achteraf?",
@@ -88,7 +88,7 @@ const pageSchema = {
   name: "Projectmarge calculator voor aannemers",
   url: PAGE_URL,
   description:
-    "Gratis projectmarge calculator voor aannemers. Vul je offertebedrag en kosten in — zie direct je bruto- en nettomarge per project.",
+    "Gratis projectmarge calculator voor aannemers. Vul je offertebedrag en kosten in - zie direct je bruto- en nettomarge per project.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -167,7 +167,7 @@ const ProjectmargeCalculator = () => {
         <title>Projectmarge calculator voor aannemers | Aannemer Systeem</title>
         <meta
           name="description"
-          content="Gratis projectmarge calculator voor aannemers. Vul offertebedrag en kostenposten in — zie direct je bruto- en nettomarge per project."
+          content="Gratis projectmarge calculator voor aannemers. Vul offertebedrag en kostenposten in - zie direct je bruto- en nettomarge per project."
         />
         <link rel="canonical" href={PAGE_URL} />
         <meta property="og:title" content="Projectmarge calculator voor aannemers | Aannemer Systeem" />
@@ -202,7 +202,7 @@ const ProjectmargeCalculator = () => {
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
             Vul je offertebedrag in, lijst je kostenposten op, en zie direct of de marge
-            gezond is — inclusief hoeveel de kosten mogen overschrijden voordat je break-even
+            gezond is - inclusief hoeveel de kosten mogen overschrijden voordat je break-even
             draait.
           </motion.p>
         </div>
@@ -437,7 +437,7 @@ const ProjectmargeCalculator = () => {
               <ul className="text-sm text-muted-foreground space-y-1">
                 <li>Totale kosten: €10.150</li>
                 <li>Brutowinst: €15.000 − €10.150 = <span className="font-bold text-foreground">€4.850</span></li>
-                <li>Brutomarge: 32% — gezond voor een badkamerrenovatie</li>
+                <li>Brutomarge: 32% - gezond voor een badkamerrenovatie</li>
                 <li>Break-even overschrijding: kosten mogen nog ~48% stijgen</li>
               </ul>
             </div>
@@ -458,11 +458,11 @@ const ProjectmargeCalculator = () => {
             {[
               {
                 title: "Raam 10–15% boven je schatting",
-                text: "Elke aannemer weet het, maar weinigen doen het consequent. Raam elke kostenpost 10–15% boven je optimistische schatting. Die buffer is geen winst — het is je vangnet voor tegenvallende materiaal­prijzen, extra reistijd en onvoorzien werk achter de muur.",
+                text: "Elke aannemer weet het, maar weinigen doen het consequent. Raam elke kostenpost 10–15% boven je optimistische schatting. Die buffer is geen winst - het is je vangnet voor tegenvallende materiaal­prijzen, extra reistijd en onvoorzien werk achter de muur.",
               },
               {
                 title: "Spreek meerwerk vooraf af",
-                text: "Leg schriftelijk vast dat werk buiten de offerte apart geoffreerd wordt, inclusief marge. Klanten accepteren dit makkelijker vóór de start dan halverwege het project. Een duidelijke meerwerkclausule is geen wantrouwen — het is professionaliteit.",
+                text: "Leg schriftelijk vast dat werk buiten de offerte apart geoffreerd wordt, inclusief marge. Klanten accepteren dit makkelijker vóór de start dan halverwege het project. Een duidelijke meerwerkclausule is geen wantrouwen - het is professionaliteit.",
               },
               {
                 title: "Houd kosten per project bij",

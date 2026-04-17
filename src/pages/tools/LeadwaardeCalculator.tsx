@@ -56,19 +56,19 @@ const benchmarks: { trade: string; range: string; note: string }[] = [
 const faqs: { q: string; a: string }[] = [
   {
     q: "Wat is een lead waard voor een aannemer?",
-    a: "De leadwaarde is de gemiddelde omzet die je verdient aan één aanvraag, voordat je die omzet binnenhaalt. De formule is simpel: scorings­percentage × gemiddelde projectwaarde. Als je 25% van je aanvragen wint en een gemiddeld project €8.000 oplevert, is elke aanvraag gemiddeld €2.000 waard — onafhankelijk of je hem wint of verliest. Dat cijfer is het startpunt voor beslissingen over marketing­budget, follow-up­snelheid en kwalificatie.",
+    a: "De leadwaarde is de gemiddelde omzet die je verdient aan één aanvraag, voordat je die omzet binnenhaalt. De formule is simpel: scorings­percentage × gemiddelde projectwaarde. Als je 25% van je aanvragen wint en een gemiddeld project €8.000 oplevert, is elke aanvraag gemiddeld €2.000 waard - onafhankelijk of je hem wint of verliest. Dat cijfer is het startpunt voor beslissingen over marketing­budget, follow-up­snelheid en kwalificatie.",
   },
   {
     q: "Hoe verhoog ik mijn scorings­percentage?",
-    a: "De drie grootste hefbomen voor aannemers zijn: (1) sneller reageren — wie binnen 5 minuten belt scoort ~4x beter dan wie na 24 uur reageert, (2) je review­score verhogen zodat de aanvrager je offerte serieuzer neemt, en (3) betere kwalificatie zodat je geen tijd verspilt aan aanvragen die nooit een project worden. Ons lead follow-up systeem en review funnel zijn specifiek gebouwd voor deze drie hefbomen.",
+    a: "De drie grootste hefbomen voor aannemers zijn: (1) sneller reageren - wie binnen 5 minuten belt scoort ~4x beter dan wie na 24 uur reageert, (2) je review­score verhogen zodat de aanvrager je offerte serieuzer neemt, en (3) betere kwalificatie zodat je geen tijd verspilt aan aanvragen die nooit een project worden. Ons lead follow-up systeem en review funnel zijn specifiek gebouwd voor deze drie hefbomen.",
   },
   {
     q: "Moet ik btw meerekenen in de projectwaarde?",
-    a: "Nee — de calculator werkt standaard met bedragen excl. btw, want dat is de omzet die op jouw boeken staat. Als je liever met inclusief btw rekent, zet de toggle boven de calculator om. Belangrijk: gebruik consequent hetzelfde basis­bedrag. Mixen van incl./excl. btw over verschillende berekeningen leidt altijd tot fouten.",
+    a: "Nee - de calculator werkt standaard met bedragen excl. btw, want dat is de omzet die op jouw boeken staat. Als je liever met inclusief btw rekent, zet de toggle boven de calculator om. Belangrijk: gebruik consequent hetzelfde basis­bedrag. Mixen van incl./excl. btw over verschillende berekeningen leidt altijd tot fouten.",
   },
   {
     q: "Wat is een normaal scorings­percentage in de bouw?",
-    a: "Het verschilt sterk per type werk. Spoed­werk van loodgieters zit vaak op 30–45% omdat klanten meteen willen beslissen. Grote verbouwingen zitten eerder op 10–20% omdat mensen 3 à 4 offertes vergelijken. Zie de benchmarktabel hieronder. Het eerlijke antwoord: je eigen cijfer kennen is belangrijker dan een gemiddelde — meet een paar maanden en gebruik dat als basis.",
+    a: "Het verschilt sterk per type werk. Spoed­werk van loodgieters zit vaak op 30–45% omdat klanten meteen willen beslissen. Grote verbouwingen zitten eerder op 10–20% omdat mensen 3 à 4 offertes vergelijken. Zie de benchmarktabel hieronder. Het eerlijke antwoord: je eigen cijfer kennen is belangrijker dan een gemiddelde - meet een paar maanden en gebruik dat als basis.",
   },
   {
     q: "Waar haal ik mijn eigen cijfers vandaan als ik ze niet bijhoud?",
@@ -76,7 +76,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Wat mag ik dan maximaal uitgeven aan een lead?",
-    a: "Een vuistregel: je max kost per lead = leadwaarde × (1 – bruto­marge). Als een lead gemiddeld €2.000 oplevert en je hebt 30% bruto­marge, kun je in theorie €600 per lead uitgeven en net break-even draaien. In de praktijk wil je een comfortabele buffer — veel aannemers houden 40–50% van de leadwaarde aan als absolute max. Binnenkort publiceren we een aparte max-CPC calculator die dit per kanaal doorrekent.",
+    a: "Een vuistregel: je max kost per lead = leadwaarde × (1 – bruto­marge). Als een lead gemiddeld €2.000 oplevert en je hebt 30% bruto­marge, kun je in theorie €600 per lead uitgeven en net break-even draaien. In de praktijk wil je een comfortabele buffer - veel aannemers houden 40–50% van de leadwaarde aan als absolute max. Binnenkort publiceren we een aparte max-CPC calculator die dit per kanaal doorrekent.",
   },
 ];
 
@@ -151,7 +151,7 @@ const LeadwaardeCalculator = () => {
         <title>Leadwaarde calculator voor aannemers | Aannemer Systeem</title>
         <meta
           name="description"
-          content="Gratis leadwaarde calculator voor aannemers. Vul aanvragen per maand, scorings­percentage en projectwaarde in — zie direct wat een lead jou oplevert."
+          content="Gratis leadwaarde calculator voor aannemers. Vul aanvragen per maand, scorings­percentage en projectwaarde in - zie direct wat een lead jou oplevert."
         />
         <link rel="canonical" href={PAGE_URL} />
         <meta
@@ -194,7 +194,7 @@ const LeadwaardeCalculator = () => {
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Vul je eigen getallen in en zie direct hoeveel omzet jouw leads opleveren — én wat
+            Vul je eigen getallen in en zie direct hoeveel omzet jouw leads opleveren - én wat
             je in theorie mag uitgeven om meer van dezelfde leads binnen te halen.
           </motion.p>
         </div>
@@ -224,7 +224,7 @@ const LeadwaardeCalculator = () => {
               <div className="space-y-6">
                 <CalcInput
                   label="Aanvragen per maand"
-                  hint="Alle inkomende offerte-aanvragen: telefoon, formulier, WhatsApp, e-mail — alles bij elkaar."
+                  hint="Alle inkomende offerte-aanvragen: telefoon, formulier, WhatsApp, e-mail - alles bij elkaar."
                   value={aanvragen}
                   onChange={setAanvragen}
                   min={0}
@@ -276,7 +276,7 @@ const LeadwaardeCalculator = () => {
                 <CalcResultCard
                   label="Leadwaarde"
                   value={euroPrecise.format(valuePerLead)}
-                  caption="per inkomende aanvraag — win of verlies"
+                  caption="per inkomende aanvraag - win of verlies"
                   icon={<Target className="h-4 w-4" strokeWidth={1.75} />}
                 />
                 <CalcResultCard
@@ -337,7 +337,7 @@ const LeadwaardeCalculator = () => {
                 <span className="font-bold text-foreground tabular-nums">€1.500 per lead</span>
               </p>
               <p className="text-sm text-muted-foreground">
-                Oftewel: elke inkomende aanvraag is vóór­af al €1.500 "waard" — dat bepaalt
+                Oftewel: elke inkomende aanvraag is vóór­af al €1.500 "waard" - dat bepaalt
                 hoeveel hij mag uitgeven aan marketing, follow-up en nieuwe kanalen.
               </p>
             </div>
@@ -355,7 +355,7 @@ const LeadwaardeCalculator = () => {
             Wat is een goede conversie voor aannemers?
           </motion.h2>
           <motion.p {...fadeInUp} className="mt-4 text-muted-foreground leading-relaxed">
-            Benchmarks verschillen sterk per vakgebied. Gebruik ze als eerste kalibratie — je
+            Benchmarks verschillen sterk per vakgebied. Gebruik ze als eerste kalibratie - je
             eigen gemeten percentage is altijd belangrijker.
           </motion.p>
           <motion.div

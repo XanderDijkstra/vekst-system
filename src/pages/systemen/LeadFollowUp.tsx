@@ -137,7 +137,7 @@ const LeadFollowUp = () => {
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Elke lead wordt automatisch opgevolgd via SMS — of die nu via je website, chat, telefoon of social media binnenkomt.
+            Elke lead wordt automatisch opgevolgd via SMS - of die nu via je website, chat, telefoon of social media binnenkomt.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">

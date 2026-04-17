@@ -28,11 +28,11 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Wanneer iemand een lekkend dak heeft of een aanbouw wil, pakt diegene z'n telefoon en zoekt op Google. Als jouw bedrijf niet op de eerste pagina staat, gaat die klus naar de concurrent. 75% van de mensen klikt nooit voorbij de eerste pagina. Goede SEO zorgt ervoor dat jij wél gevonden wordt — zonder te betalen voor advertenties.",
+        body: "Wanneer iemand een lekkend dak heeft of een aanbouw wil, pakt diegene z'n telefoon en zoekt op Google. Als jouw bedrijf niet op de eerste pagina staat, gaat die klus naar de concurrent. 75% van de mensen klikt nooit voorbij de eerste pagina. Goede SEO zorgt ervoor dat jij wél gevonden wordt - zonder te betalen voor advertenties.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "SEO draait om drie dingen: (1) De juiste woorden op je website zetten — bijvoorbeeld 'dakdekker Amsterdam' in plaats van alleen 'onze diensten'. (2) Een snelle, mobielvriendelijke website. Google straft langzame sites af. (3) Andere websites die naar jou linken, wat Google ziet als een soort aanbeveling. Wij regelen dit allemaal voor je als onderdeel van je pakket.",
+        body: "SEO draait om drie dingen: (1) De juiste woorden op je website zetten - bijvoorbeeld 'dakdekker Amsterdam' in plaats van alleen 'onze diensten'. (2) Een snelle, mobielvriendelijke website. Google straft langzame sites af. (3) Andere websites die naar jou linken, wat Google ziet als een soort aanbeveling. Wij regelen dit allemaal voor je als onderdeel van je pakket.",
       },
     ],
   },
@@ -50,11 +50,11 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Local SEO is zoekmachineoptimalisatie specifiek gericht op jouw regio. Als iemand zoekt op 'aannemer bij mij in de buurt' of 'schilder Rotterdam', wil je dat jouw bedrijf verschijnt — liefst in het kaartblok bovenaan Google (het zogenaamde 'Local Pack' of '3-pack').",
+        body: "Local SEO is zoekmachineoptimalisatie specifiek gericht op jouw regio. Als iemand zoekt op 'aannemer bij mij in de buurt' of 'schilder Rotterdam', wil je dat jouw bedrijf verschijnt - liefst in het kaartblok bovenaan Google (het zogenaamde 'Local Pack' of '3-pack').",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Aannemers werken bijna altijd lokaal. Je gaat geen klus doen 200 kilometer verderop. Local SEO zorgt ervoor dat je gevonden wordt door mensen in je werkgebied. 46% van alle Google-zoekopdrachten is lokaal. Voor aannemers is dat percentage nog hoger — bijna iedereen zoekt op regio.",
+        body: "Aannemers werken bijna altijd lokaal. Je gaat geen klus doen 200 kilometer verderop. Local SEO zorgt ervoor dat je gevonden wordt door mensen in je werkgebied. 46% van alle Google-zoekopdrachten is lokaal. Voor aannemers is dat percentage nog hoger - bijna iedereen zoekt op regio.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -108,7 +108,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "Conversie verhogen doe je door het de bezoeker zo makkelijk mogelijk te maken. Een duidelijke belknop die altijd zichtbaar is op mobiel. Een kort contactformulier (naam, telefoon, korte omschrijving — meer niet). Vertrouwenwekkende elementen zoals reviews en foto's van echt werk. En een snelle opvolging: als iemand een formulier invult en pas 3 dagen later teruggebeld wordt, ben je die klant kwijt.",
+        body: "Conversie verhogen doe je door het de bezoeker zo makkelijk mogelijk te maken. Een duidelijke belknop die altijd zichtbaar is op mobiel. Een kort contactformulier (naam, telefoon, korte omschrijving - meer niet). Vertrouwenwekkende elementen zoals reviews en foto's van echt werk. En een snelle opvolging: als iemand een formulier invult en pas 3 dagen later teruggebeld wordt, ben je die klant kwijt.",
       },
     ],
   },
@@ -116,7 +116,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "lead",
     term: "Lead",
     shortDescription:
-      "Een potentiële klant die interesse heeft getoond in jouw diensten — bijvoorbeeld door te bellen of een formulier in te vullen.",
+      "Een potentiële klant die interesse heeft getoond in jouw diensten - bijvoorbeeld door te bellen of een formulier in te vullen.",
     category: "Marketing",
     date: "2025-08-08",
     relatedTerms: ["conversie", "lead-opvolging", "cta"],
@@ -127,7 +127,7 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Een lead is simpelweg een potentiële klant. Iemand die op de een of andere manier heeft laten weten dat 'ie interesse heeft. Dat kan zijn door te bellen, een formulier in te vullen op je website, een bericht te sturen via WhatsApp, of te reageren op een advertentie. Het is nog geen klant — maar wel iemand die je kunt benaderen.",
+        body: "Een lead is simpelweg een potentiële klant. Iemand die op de een of andere manier heeft laten weten dat 'ie interesse heeft. Dat kan zijn door te bellen, een formulier in te vullen op je website, een bericht te sturen via WhatsApp, of te reageren op een advertentie. Het is nog geen klant - maar wel iemand die je kunt benaderen.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
@@ -158,7 +158,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "De gemiddelde aannemer belt een lead één keer terug. Als die niet opneemt, gebeurt er vaak niks meer. Terwijl onderzoek laat zien dat je gemiddeld 5-7 contactmomenten nodig hebt voordat iemand 'ja' zegt. Daarnaast is snelheid cruciaal: 78% van de klanten gaat in zee met het bedrijf dat als eerste reageert. Niet het goedkoopste, niet het beste — het snelste.",
+        body: "De gemiddelde aannemer belt een lead één keer terug. Als die niet opneemt, gebeurt er vaak niks meer. Terwijl onderzoek laat zien dat je gemiddeld 5-7 contactmomenten nodig hebt voordat iemand 'ja' zegt. Daarnaast is snelheid cruciaal: 78% van de klanten gaat in zee met het bedrijf dat als eerste reageert. Niet het goedkoopste, niet het beste - het snelste.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -178,7 +178,7 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "CTA staat voor Call to Action — letterlijk: een oproep tot actie. Het is de knop, link of tekst op je website die de bezoeker vertelt wat 'ie moet doen. 'Bel nu', 'Vraag gratis offerte aan', 'Plan een afspraak'. Zonder een duidelijke CTA weet een bezoeker niet wat de volgende stap is en vertrekt 'ie zonder iets te doen.",
+        body: "CTA staat voor Call to Action - letterlijk: een oproep tot actie. Het is de knop, link of tekst op je website die de bezoeker vertelt wat 'ie moet doen. 'Bel nu', 'Vraag gratis offerte aan', 'Plan een afspraak'. Zonder een duidelijke CTA weet een bezoeker niet wat de volgende stap is en vertrekt 'ie zonder iets te doen.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
@@ -186,7 +186,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "Elke pagina op je website moet minimaal één duidelijke CTA hebben. Op mobiel moet er altijd een belknop zichtbaar zijn (sticky aan de onderkant). De tekst moet specifiek zijn: niet 'Contact' maar 'Vraag binnen 24 uur een offerte aan'. En de knop moet opvallen — een contrastkleur, groot genoeg om op te klikken. Wij bouwen dit standaard in bij elke website die we maken.",
+        body: "Elke pagina op je website moet minimaal één duidelijke CTA hebben. Op mobiel moet er altijd een belknop zichtbaar zijn (sticky aan de onderkant). De tekst moet specifiek zijn: niet 'Contact' maar 'Vraag binnen 24 uur een offerte aan'. En de knop moet opvallen - een contrastkleur, groot genoeg om op te klikken. Wij bouwen dit standaard in bij elke website die we maken.",
       },
     ],
   },
@@ -208,7 +208,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Stel je hebt 500 bezoekers per maand. Met een conversieratio van 1% zijn dat 5 leads. Met 5% zijn dat 25 leads — vijf keer zoveel, zonder dat je meer bezoekers nodig hebt. Het verbeteren van je conversieratio is vaak veel goedkoper en sneller dan meer bezoekers proberen te krijgen. Je haalt meer uit wat je al hebt.",
+        body: "Stel je hebt 500 bezoekers per maand. Met een conversieratio van 1% zijn dat 5 leads. Met 5% zijn dat 25 leads - vijf keer zoveel, zonder dat je meer bezoekers nodig hebt. Het verbeteren van je conversieratio is vaak veel goedkoper en sneller dan meer bezoekers proberen te krijgen. Je haalt meer uit wat je al hebt.",
       },
       {
         heading: "Wat is een goede conversieratio?",
@@ -228,7 +228,7 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Organisch verkeer zijn alle bezoekers die je website vinden via een zoekmachine (meestal Google) zonder dat je ervoor betaalt. Het woord 'organisch' betekent hier: natuurlijk, niet betaald. Het tegenovergestelde is 'betaald verkeer' — mensen die op een advertentie klikken.",
+        body: "Organisch verkeer zijn alle bezoekers die je website vinden via een zoekmachine (meestal Google) zonder dat je ervoor betaalt. Het woord 'organisch' betekent hier: natuurlijk, niet betaald. Het tegenovergestelde is 'betaald verkeer' - mensen die op een advertentie klikken.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
@@ -236,7 +236,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "Organisch verkeer opbouwen kost tijd — meestal 3 tot 6 maanden voordat je echt resultaat ziet. Maar daarna heb je een constante stroom bezoekers. Wij zorgen ervoor dat je website geoptimaliseerd is voor de zoektermen die jouw klanten gebruiken: 'aannemer [stad]', 'verbouwing [regio]', 'dakdekker in de buurt', enzovoort.",
+        body: "Organisch verkeer opbouwen kost tijd - meestal 3 tot 6 maanden voordat je echt resultaat ziet. Maar daarna heb je een constante stroom bezoekers. Wij zorgen ervoor dat je website geoptimaliseerd is voor de zoektermen die jouw klanten gebruiken: 'aannemer [stad]', 'verbouwing [regio]', 'dakdekker in de buurt', enzovoort.",
       },
     ],
   },
@@ -258,7 +258,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "88% van de mensen vertrouwt online reviews net zoveel als een persoonlijke aanbeveling. Als jij 4.8 sterren hebt met 50 reviews en je concurrent heeft 3 sterren met 5 reviews, weet je wie er gebeld wordt. Reviews zijn het digitale equivalent van mond-tot-mondreclame — en ze werken 24/7.",
+        body: "88% van de mensen vertrouwt online reviews net zoveel als een persoonlijke aanbeveling. Als jij 4.8 sterren hebt met 50 reviews en je concurrent heeft 3 sterren met 5 reviews, weet je wie er gebeld wordt. Reviews zijn het digitale equivalent van mond-tot-mondreclame - en ze werken 24/7.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -270,7 +270,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "social-proof",
     term: "Social Proof",
     shortDescription:
-      "Het principe dat mensen eerder iets doen als ze zien dat anderen het ook doen — zoals reviews, logo's van klanten, of 'al 100+ projecten afgerond'.",
+      "Het principe dat mensen eerder iets doen als ze zien dat anderen het ook doen - zoals reviews, logo's van klanten, of 'al 100+ projecten afgerond'.",
     category: "Marketing",
     date: "2025-11-05",
     relatedTerms: ["reviews", "conversie"],
@@ -278,11 +278,11 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Social proof — letterlijk 'sociaal bewijs' — is een psychologisch principe. Mensen kijken naar wat anderen doen om te beslissen wat zij moeten doen. Als een restaurant vol zit, denk je 'dat zal wel goed zijn'. Als een aannemer 80 vijfsterrenreviews heeft, denk je 'die kan ik vertrouwen'. Het is de kracht van de groep.",
+        body: "Social proof - letterlijk 'sociaal bewijs' - is een psychologisch principe. Mensen kijken naar wat anderen doen om te beslissen wat zij moeten doen. Als een restaurant vol zit, denk je 'dat zal wel goed zijn'. Als een aannemer 80 vijfsterrenreviews heeft, denk je 'die kan ik vertrouwen'. Het is de kracht van de groep.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Iemand die een aannemer zoekt neemt een groot risico: het gaat om duizenden euro's en iemand die in je huis komt werken. Social proof verkleint dat risico. Reviews, foto's van afgeronde projecten, logo's van samenwerkingspartners, een teller met het aantal projecten — het zegt allemaal: 'andere mensen vertrouwden ons, jij kunt dat ook doen'.",
+        body: "Iemand die een aannemer zoekt neemt een groot risico: het gaat om duizenden euro's en iemand die in je huis komt werken. Social proof verkleint dat risico. Reviews, foto's van afgeronde projecten, logo's van samenwerkingspartners, een teller met het aantal projecten - het zegt allemaal: 'andere mensen vertrouwden ons, jij kunt dat ook doen'.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -294,7 +294,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "crm",
     term: "CRM (Klantenbeheersysteem)",
     shortDescription:
-      "Een digitaal systeem waar je al je klantcontacten, offertes en projecten bijhoudt — op één centrale plek.",
+      "Een digitaal systeem waar je al je klantcontacten, offertes en projecten bijhoudt - op één centrale plek.",
     category: "Automatisering",
     date: "2025-11-20",
     relatedTerms: ["lead", "lead-opvolging", "automatisering"],
@@ -305,15 +305,15 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "CRM staat voor Customer Relationship Management — oftewel: klantenbeheersysteem. Het is een digitaal overzicht van al je klantcontacten, aanvragen, offertes en lopende projecten. In plaats van contactgegevens verspreid over WhatsApp, e-mail en papieren mappen heb je alles op één plek. Je ziet in één oogopslag wie wat heeft aangevraagd, welke offerte nog openstaat en welke klus wanneer gepland staat.",
+        body: "CRM staat voor Customer Relationship Management - oftewel: klantenbeheersysteem. Het is een digitaal overzicht van al je klantcontacten, aanvragen, offertes en lopende projecten. In plaats van contactgegevens verspreid over WhatsApp, e-mail en papieren mappen heb je alles op één plek. Je ziet in één oogopslag wie wat heeft aangevraagd, welke offerte nog openstaat en welke klus wanneer gepland staat.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Zonder CRM glippen leads door de mazen van het net. Je bent op de steiger, iemand belt, je vergeet terug te bellen — en die klus gaat naar de concurrent. Met een CRM wordt elke aanvraag automatisch vastgelegd en krijg je herinneringen voor opvolging. Onderzoek toont aan dat aannemers zonder CRM gemiddeld 20-30% van hun leads kwijtraken simpelweg doordat ze niets terughoorden.",
+        body: "Zonder CRM glippen leads door de mazen van het net. Je bent op de steiger, iemand belt, je vergeet terug te bellen - en die klus gaat naar de concurrent. Met een CRM wordt elke aanvraag automatisch vastgelegd en krijg je herinneringen voor opvolging. Onderzoek toont aan dat aannemers zonder CRM gemiddeld 20-30% van hun leads kwijtraken simpelweg doordat ze niets terughoorden.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "Een goed CRM voor aannemers registreert elk contact automatisch: via je website, telefoon of e-mail. Je ziet alle communicatie per klant terug — elk telefoontje, elke offerte, elke factuur. Je stelt herinneringen in ('Klant nog niet teruggebeld') en volgt je verkooppijplijn ('aanvraag → bezichtiging → offerte → akkoord → uitvoering'). Het beste: op je telefoon, zodat je ook vanaf de werf je zaken kunt regelen.",
+        body: "Een goed CRM voor aannemers registreert elk contact automatisch: via je website, telefoon of e-mail. Je ziet alle communicatie per klant terug - elk telefoontje, elke offerte, elke factuur. Je stelt herinneringen in ('Klant nog niet teruggebeld') en volgt je verkooppijplijn ('aanvraag → bezichtiging → offerte → akkoord → uitvoering'). Het beste: op je telefoon, zodat je ook vanaf de werf je zaken kunt regelen.",
       },
     ],
   },
@@ -329,15 +329,15 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Google Ads (vroeger Google AdWords) zijn betaalde advertenties die bovenaan de zoekresultaten verschijnen. Je kiest zoektermen — zoals 'aannemer Rotterdam' of 'dakdekker spoed' — en betaalt een bedrag per klik. Je advertentie verschijnt alleen als iemand op die exacte termen zoekt. Je bepaalt zelf je dagbudget, dus je hebt volledige controle over de kosten.",
+        body: "Google Ads (vroeger Google AdWords) zijn betaalde advertenties die bovenaan de zoekresultaten verschijnen. Je kiest zoektermen - zoals 'aannemer Rotterdam' of 'dakdekker spoed' - en betaalt een bedrag per klik. Je advertentie verschijnt alleen als iemand op die exacte termen zoekt. Je bepaalt zelf je dagbudget, dus je hebt volledige controle over de kosten.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Google Ads geven direct resultaat — binnen een dag kun je bovenaan staan. Dat is het grote voordeel ten opzichte van SEO, waarbij je maanden moet wachten. Voor aannemers zijn Google Ads bijzonder effectief voor spoedklussen (lekkage, verstopping) en seizoenspieken. Je betaalt alleen als iemand klikt, en die persoon is al actief op zoek naar jouw dienst — dat zijn warme leads.",
+        body: "Google Ads geven direct resultaat - binnen een dag kun je bovenaan staan. Dat is het grote voordeel ten opzichte van SEO, waarbij je maanden moet wachten. Voor aannemers zijn Google Ads bijzonder effectief voor spoedklussen (lekkage, verstopping) en seizoenspieken. Je betaalt alleen als iemand klikt, en die persoon is al actief op zoek naar jouw dienst - dat zijn warme leads.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
-        body: "Een gemiddelde klik kost €3 tot €15, afhankelijk van hoe competitief de regio en het vakgebied is. Als je €300 per maand uitgeeft en €10 per klik betaalt, zijn dat 30 bezoekers. Bij een conversieratio van 10% zijn dat 3 leads — en als je 2 van die 3 converteert naar een klus van €2.000, heb je €4.000 omzet uit €300 investering. Slimme Google Ads combineer je altijd met een goede landingspagina en snelle opvolging.",
+        body: "Een gemiddelde klik kost €3 tot €15, afhankelijk van hoe competitief de regio en het vakgebied is. Als je €300 per maand uitgeeft en €10 per klik betaalt, zijn dat 30 bezoekers. Bij een conversieratio van 10% zijn dat 3 leads - en als je 2 van die 3 converteert naar een klus van €2.000, heb je €4.000 omzet uit €300 investering. Slimme Google Ads combineer je altijd met een goede landingspagina en snelle opvolging.",
       },
     ],
   },
@@ -345,7 +345,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "automatisering",
     term: "Automatisering",
     shortDescription:
-      "Taken die normaal handmatig zijn — zoals e-mails sturen of leads opvolgen — automatisch laten verlopen door slimme software.",
+      "Taken die normaal handmatig zijn - zoals e-mails sturen of leads opvolgen - automatisch laten verlopen door slimme software.",
     category: "Automatisering",
     date: "2025-12-18",
     relatedTerms: ["lead-opvolging", "lead"],
@@ -360,7 +360,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Als aannemer sta je de hele dag op de steiger, niet achter een bureau. Je kunt niet na elk gemist telefoontje direct terugbellen, niet elke avond e-mails beantwoorden, niet elke klant handmatig om een review vragen. Automatisering doet dit voor je — consistent, snel, en zonder dat je eraan hoeft te denken.",
+        body: "Als aannemer sta je de hele dag op de steiger, niet achter een bureau. Je kunt niet na elk gemist telefoontje direct terugbellen, niet elke avond e-mails beantwoorden, niet elke klant handmatig om een review vragen. Automatisering doet dit voor je - consistent, snel, en zonder dat je eraan hoeft te denken.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -387,7 +387,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Het opleverdossier is niet alleen een wettelijke verplichting — het beschermt je ook als aannemer. Bij eventuele klachten of juridische geschillen na oplevering is het dossier jouw bewijs dat je werk deugdelijk was. Zonder goed dossier sta je zwak bij de verzwaarde aansprakelijkheid onder de Wkb. Daarnaast toont een professioneel opleverdossier aan klanten dat je kwaliteit levert, wat je reputatie versterkt en tot meer reviews en aanbevelingen leidt.",
+        body: "Het opleverdossier is niet alleen een wettelijke verplichting - het beschermt je ook als aannemer. Bij eventuele klachten of juridische geschillen na oplevering is het dossier jouw bewijs dat je werk deugdelijk was. Zonder goed dossier sta je zwak bij de verzwaarde aansprakelijkheid onder de Wkb. Daarnaast toont een professioneel opleverdossier aan klanten dat je kwaliteit levert, wat je reputatie versterkt en tot meer reviews en aanbevelingen leidt.",
       },
       {
         heading: "Wat zit er in een opleverdossier?",
@@ -403,7 +403,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "retargeting",
     term: "Retargeting",
     shortDescription:
-      "Advertenties laten zien aan mensen die eerder jouw website bezochten maar geen contact opnamen — als geheugensteuntje.",
+      "Advertenties laten zien aan mensen die eerder jouw website bezochten maar geen contact opnamen - als geheugensteuntje.",
     category: "Marketing",
     date: "2026-01-28",
     relatedTerms: ["google-ads", "conversie", "lead"],
@@ -414,11 +414,11 @@ export const wikiTerms: WikiTerm[] = [
     sections: [
       {
         heading: "Wat is het?",
-        body: "Retargeting betekent dat je online advertenties laat zien aan mensen die eerder jouw website hebben bezocht, maar geen actie hebben ondernomen. Stel: iemand zoekt op 'loodgieter Amsterdam', klikt op jouw site, maar belt niet. Met retargeting ziet diegene daarna jouw advertentie terug op andere websites of op social media — als geheugensteuntje om alsnog contact op te nemen.",
+        body: "Retargeting betekent dat je online advertenties laat zien aan mensen die eerder jouw website hebben bezocht, maar geen actie hebben ondernomen. Stel: iemand zoekt op 'loodgieter Amsterdam', klikt op jouw site, maar belt niet. Met retargeting ziet diegene daarna jouw advertentie terug op andere websites of op social media - als geheugensteuntje om alsnog contact op te nemen.",
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "De meeste bezoekers van je website bellen niet meteen bij het eerste bezoek. Ze vergelijken, twijfelen, of worden afgeleid. Retargeting zorgt ervoor dat jouw bedrijfsnaam in hun hoofd blijft zitten. Voor aannemers en ZZP'ers kan dat het verschil maken tussen een gemiste klant en een nieuwe opdracht — zonder dat je steeds opnieuw hoeft te betalen om gevonden te worden.",
+        body: "De meeste bezoekers van je website bellen niet meteen bij het eerste bezoek. Ze vergelijken, twijfelen, of worden afgeleid. Retargeting zorgt ervoor dat jouw bedrijfsnaam in hun hoofd blijft zitten. Voor aannemers en ZZP'ers kan dat het verschil maken tussen een gemiste klant en een nieuwe opdracht - zonder dat je steeds opnieuw hoeft te betalen om gevonden te worden.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -430,7 +430,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "bounce-rate",
     term: "Bounce Rate",
     shortDescription:
-      "Het percentage bezoekers dat je website direct weer verlaat zonder iets te doen — alsof ze binnenlopen en meteen weer weggaan.",
+      "Het percentage bezoekers dat je website direct weer verlaat zonder iets te doen - alsof ze binnenlopen en meteen weer weggaan.",
     category: "Technisch",
     date: "2026-02-15",
     relatedTerms: ["conversie", "conversieratio", "seo"],
@@ -456,7 +456,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "schema-markup",
     term: "Schema Markup",
     shortDescription:
-      "Een stukje onzichtbare code op je website dat Google vertelt wat je bedrijf doet, waar je zit en welke reviews je hebt — zodat je beter zichtbaar wordt in zoekresultaten.",
+      "Een stukje onzichtbare code op je website dat Google vertelt wat je bedrijf doet, waar je zit en welke reviews je hebt - zodat je beter zichtbaar wordt in zoekresultaten.",
     category: "Technisch",
     date: "2026-03-28",
     relatedTerms: ["seo", "local-seo", "google-mijn-bedrijf"],
@@ -471,7 +471,7 @@ export const wikiTerms: WikiTerm[] = [
       },
       {
         heading: "Waarom is dit belangrijk voor aannemers?",
-        body: "Met schema markup kan Google jouw bedrijfsgegevens direct tonen in de zoekresultaten. Denk aan sterren uit reviews, je telefoonnummer, je werkgebied en je openingstijden — allemaal zichtbaar nog voordat iemand op je website klikt. Dat zorgt voor meer vertrouwen en meer klikken. Een dakdekker met vijf sterren direct zichtbaar in Google krijgt simpelweg meer telefoontjes dan een concurrent zonder die informatie.",
+        body: "Met schema markup kan Google jouw bedrijfsgegevens direct tonen in de zoekresultaten. Denk aan sterren uit reviews, je telefoonnummer, je werkgebied en je openingstijden - allemaal zichtbaar nog voordat iemand op je website klikt. Dat zorgt voor meer vertrouwen en meer klikken. Een dakdekker met vijf sterren direct zichtbaar in Google krijgt simpelweg meer telefoontjes dan een concurrent zonder die informatie.",
       },
       {
         heading: "Hoe werkt het in de praktijk?",
@@ -483,7 +483,7 @@ export const wikiTerms: WikiTerm[] = [
     slug: "naw-consistentie",
     term: "NAW-consistentie",
     shortDescription:
-      "Zorgen dat je bedrijfsnaam, adres en telefoonnummer overal op internet exact hetzelfde staan — zodat Google je vertrouwt en hoger toont.",
+      "Zorgen dat je bedrijfsnaam, adres en telefoonnummer overal op internet exact hetzelfde staan - zodat Google je vertrouwt en hoger toont.",
     category: "Technisch",
     date: "2026-03-29",
     relatedTerms: ["local-seo", "google-mijn-bedrijf", "seo"],

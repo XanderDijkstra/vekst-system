@@ -81,7 +81,7 @@ const hubSchema = {
   name: "Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem",
   url: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
   description:
-    "Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers — direct resultaat, geen registratie.",
+    "Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers - direct resultaat, geen registratie.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -115,7 +115,7 @@ const BouwmaterialenHub = () => (
       <title>Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers — direct resultaat, geen registratie."
+        content="Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers - direct resultaat, geen registratie."
       />
       <link rel="canonical" href={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
       <meta
@@ -153,7 +153,7 @@ const BouwmaterialenHub = () => (
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
           Nooit meer te veel of te weinig bestellen. Kies het materiaal, vul je
-          afmetingen in en zie direct hoeveel je nodig hebt — inclusief
+          afmetingen in en zie direct hoeveel je nodig hebt - inclusief
           snijverlies en hulpmaterialen.
         </motion.p>
       </div>

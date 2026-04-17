@@ -50,7 +50,7 @@ const ONDERVLOER_ROL_M2 = 15; // m² per rol ondervloer
 const faqs: { q: string; a: string }[] = [
   {
     q: "Hoeveel pakken laminaat heb ik nodig?",
-    a: "Deel je totale oppervlakte (inclusief snijverlies) door het aantal m² per pak. Bij een kamer van 20 m² met 5% snijverlies en pakken van 2,5 m² heb je 21 m² / 2,5 = 9 pakken nodig. De calculator doet dit automatisch — rond altijd naar boven af.",
+    a: "Deel je totale oppervlakte (inclusief snijverlies) door het aantal m² per pak. Bij een kamer van 20 m² met 5% snijverlies en pakken van 2,5 m² heb je 21 m² / 2,5 = 9 pakken nodig. De calculator doet dit automatisch - rond altijd naar boven af.",
   },
   {
     q: "Hoeveel snijverlies moet ik rekenen bij laminaat?",
@@ -58,7 +58,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Heb ik altijd ondervloer nodig onder laminaat?",
-    a: "Ja, ondervloer is essentieel: het dempt loopgeluid, egalisert kleine oneffenheden (tot ~2 mm) en beschermt tegen vocht van onderen. Uitzondering: sommige laminaatvloeren hebben ondervloer al geïntegreerd — check de specificaties van je vloer.",
+    a: "Ja, ondervloer is essentieel: het dempt loopgeluid, egalisert kleine oneffenheden (tot ~2 mm) en beschermt tegen vocht van onderen. Uitzondering: sommige laminaatvloeren hebben ondervloer al geïntegreerd - check de specificaties van je vloer.",
   },
   {
     q: "Hoeveel plinten heb ik nodig?",
@@ -80,10 +80,10 @@ const pageSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      name: "Laminaat berekenen — hoeveel pakken en ondervloer | Aannemer Systeem",
+      name: "Laminaat berekenen - hoeveel pakken en ondervloer | Aannemer Systeem",
       url: PAGE_URL,
       description:
-        "Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt. Kies je legpatroon, vul de m² in — direct resultaat.",
+        "Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt. Kies je legpatroon, vul de m² in - direct resultaat.",
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -150,10 +150,10 @@ const LaminaatBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Laminaat berekenen — hoeveel pakken en ondervloer | Aannemer Systeem</title>
+        <title>Laminaat berekenen - hoeveel pakken en ondervloer | Aannemer Systeem</title>
         <meta
           name="description"
-          content="Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt. Kies je legpatroon, vul de m² in — gratis calculator voor aannemers."
+          content="Bereken hoeveel pakken laminaat, ondervloer en plinten je nodig hebt. Kies je legpatroon, vul de m² in - gratis calculator voor aannemers."
         />
         <link rel="canonical" href={PAGE_URL} />
         <meta property="og:title" content="Laminaat berekenen | Gratis calculator | Aannemer Systeem" />
@@ -186,7 +186,7 @@ const LaminaatBerekenen = () => {
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
             Bereken hoeveel pakken laminaat, rollen ondervloer en plinten je nodig
-            hebt — inclusief snijverlies per legpatroon.
+            hebt - inclusief snijverlies per legpatroon.
           </motion.p>
         </div>
       </section>
@@ -250,7 +250,7 @@ const LaminaatBerekenen = () => {
                   </button>
                 ))}
               </div>
-              <p className="mt-2 text-xs text-muted-foreground">m² per pak — check je verpakking</p>
+              <p className="mt-2 text-xs text-muted-foreground">m² per pak - check je verpakking</p>
             </div>
             <CalcInput
               label="Snijverlies"
@@ -302,7 +302,7 @@ const LaminaatBerekenen = () => {
             <CalcResultCard
               label="Ondervloer"
               value={`${result.ondervloerRollen} ${result.ondervloerRollen === 1 ? "rol" : "rollen"}`}
-              caption={`Rollen van ${ONDERVLOER_ROL_M2} m² — dekt ${result.ondervloerRollen * ONDERVLOER_ROL_M2} m²`}
+              caption={`Rollen van ${ONDERVLOER_ROL_M2} m² - dekt ${result.ondervloerRollen * ONDERVLOER_ROL_M2} m²`}
             />
           </div>
 
@@ -314,7 +314,7 @@ const LaminaatBerekenen = () => {
                 {result.plintLengtes} stuks
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                Lengtes van 2,4 m — dekt {num.format(result.plintM)} m wandlengte
+                Lengtes van 2,4 m - dekt {num.format(result.plintM)} m wandlengte
               </p>
             </div>
             <div className="rounded-2xl bg-card border border-border p-6">
@@ -323,7 +323,7 @@ const LaminaatBerekenen = () => {
                 {num.format(result.overschot)} m²
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
-                Extra m² door afronding pakken — handig als reserve
+                Extra m² door afronding pakken - handig als reserve
               </p>
             </div>
           </motion.div>
@@ -335,11 +335,11 @@ const LaminaatBerekenen = () => {
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               De calculator neemt je kameroppervlakte en telt het <strong>snijverlies</strong> erbij op
-              (afhankelijk van het legpatroon). Het totaal wordt gedeeld door de m² per pak — naar boven
+              (afhankelijk van het legpatroon). Het totaal wordt gedeeld door de m² per pak - naar boven
               afgerond. Ondervloer en plinten worden apart berekend.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld — woonkamer 20 m², halfsteens, pakken van 2,5 m²:</p>
+              <p className="font-semibold">Voorbeeld - woonkamer 20 m², halfsteens, pakken van 2,5 m²:</p>
               <p>Snijverlies 5%: 20 × 1,05 = <strong>21,0 m²</strong></p>
               <p>Pakken: 21,0 / 2,5 = 8,4 → <strong>9 pakken</strong> (22,5 m² besteld)</p>
               <p>Overschot: 22,5 − 20 = <strong>2,5 m²</strong> reserve</p>
@@ -355,26 +355,26 @@ const LaminaatBerekenen = () => {
             </h2>
             <ol className="list-decimal list-inside space-y-3 text-muted-foreground leading-relaxed">
               <li>
-                <strong className="text-foreground">Laat acclimatiseren</strong> — leg het laminaat
+                <strong className="text-foreground">Laat acclimatiseren</strong> - leg het laminaat
                 minstens 48 uur (ongeopend) in de ruimte waar het gelegd wordt. Zo past het zich aan
                 aan temperatuur en luchtvochtigheid.
               </li>
               <li>
-                <strong className="text-foreground">Houd een dilatatievoeg aan</strong> — laat
+                <strong className="text-foreground">Houd een dilatatievoeg aan</strong> - laat
                 rondom 8-10 mm ruimte tot de muur. Laminaat zet uit en krimpt; zonder voeg gaat het
                 opbollen.
               </li>
               <li>
-                <strong className="text-foreground">Begin bij het raam</strong> — leg de planken
+                <strong className="text-foreground">Begin bij het raam</strong> - leg de planken
                 evenwijdig aan de lichtinval. Dan vallen de naden minder op.
               </li>
               <li>
-                <strong className="text-foreground">Gebruik afstandhouders</strong> — wiggen tegen de
+                <strong className="text-foreground">Gebruik afstandhouders</strong> - wiggen tegen de
                 muur zorgen voor een gelijkmatige dilatatievoeg. Verwijder ze pas als de hele vloer
                 klaar is.
               </li>
               <li>
-                <strong className="text-foreground">Verdeel de rest-plank</strong> — de restlengte
+                <strong className="text-foreground">Verdeel de rest-plank</strong> - de restlengte
                 aan het einde van een rij gebruik je als startplank van de volgende rij (mits &gt; 30 cm).
                 Dat bespaart materiaal en maakt het patroon natuurlijker.
               </li>

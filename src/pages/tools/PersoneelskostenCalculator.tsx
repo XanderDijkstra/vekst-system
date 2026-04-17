@@ -57,7 +57,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Wat als ik een ZZP'er inhuur in plaats van iemand in dienst neem?",
-    a: "Een ZZP'er is per uur duurder (€50–€90/uur), maar je hebt geen premies, vakantiegeld, verzuim of pensioen. Reken de totale werkgeverskosten per uur uit (totaal per jaar / declarabele uren) en vergelijk dat met het ZZP-tarief. Vaak is een werknemer op jaarbasis goedkoper — maar je bent minder flexibel bij pieken en dalen.",
+    a: "Een ZZP'er is per uur duurder (€50–€90/uur), maar je hebt geen premies, vakantiegeld, verzuim of pensioen. Reken de totale werkgeverskosten per uur uit (totaal per jaar / declarabele uren) en vergelijk dat met het ZZP-tarief. Vaak is een werknemer op jaarbasis goedkoper - maar je bent minder flexibel bij pieken en dalen.",
   },
   {
     q: "Hoe zit het met de bouw-CAO en pensioen (bpfBOUW)?",
@@ -198,7 +198,7 @@ const PersoneelskostenCalculator = () => {
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
             Een bruto maandsalaris van €3.200 kost je als werkgever geen €3.200. Vul het
-            salaris in en zie direct wat je écht kwijt bent — inclusief premies, vakantiegeld,
+            salaris in en zie direct wat je écht kwijt bent - inclusief premies, vakantiegeld,
             verzuim en werkkleding.
           </motion.p>
         </div>
@@ -221,7 +221,7 @@ const PersoneelskostenCalculator = () => {
               <div className="space-y-6">
                 <CalcInput
                   label="Bruto maandsalaris"
-                  hint="Het bruto maandsalaris dat op het contract staat — niet wat de werknemer netto ontvangt."
+                  hint="Het bruto maandsalaris dat op het contract staat - niet wat de werknemer netto ontvangt."
                   value={brutoMaand}
                   onChange={setBrutoMaand}
                   min={0}
@@ -303,7 +303,7 @@ const PersoneelskostenCalculator = () => {
                 variant="hero"
                 label="Totale werkgeverskosten per jaar"
                 value={euro.format(results.totaalJaar)}
-                caption={`Dat is ${euro.format(results.totaalMaand)} per maand — ${pct(results.toeslag)} bovenop het bruto salaris`}
+                caption={`Dat is ${euro.format(results.totaalMaand)} per maand - ${pct(results.toeslag)} bovenop het bruto salaris`}
                 icon={<Euro className="h-4 w-4" strokeWidth={1.75} />}
               />
 
@@ -438,7 +438,7 @@ const PersoneelskostenCalculator = () => {
             {[
               {
                 title: "Loondoorbetaling bij ziekte",
-                text: "Je betaalt 2 jaar lang het loon door als je werknemer ziek wordt — ook bij langdurige uitval. Veel startende werkgevers verzekeren zich hier niet voor en worden verrast door een rekening van €50.000+. Een verzuimverzekering kost ~2% van de loonsom maar vangt het ergste op.",
+                text: "Je betaalt 2 jaar lang het loon door als je werknemer ziek wordt - ook bij langdurige uitval. Veel startende werkgevers verzekeren zich hier niet voor en worden verrast door een rekening van €50.000+. Een verzuimverzekering kost ~2% van de loonsom maar vangt het ergste op.",
               },
               {
                 title: "Gereedschap en materieel",

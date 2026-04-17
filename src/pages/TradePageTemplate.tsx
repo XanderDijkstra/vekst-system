@@ -337,7 +337,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
               Professionele website voor {d.plural}?
             </h3>
             <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-              Bekijk wat wij maken voor {d.plural} — van ontwerp tot SEO-optimalisatie.
+              Bekijk wat wij maken voor {d.plural} - van ontwerp tot SEO-optimalisatie.
             </p>
             <div className="mt-6">
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">

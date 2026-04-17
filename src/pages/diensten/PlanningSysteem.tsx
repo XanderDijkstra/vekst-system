@@ -54,7 +54,7 @@ const features = [
     icon: CalendarDays,
     title: "Centrale planning",
     description:
-      "Eén overzichtelijke agenda voor je hele team. Iedereen ziet dezelfde planning — op kantoor, op de werf of onderweg.",
+      "Eén overzichtelijke agenda voor je hele team. Iedereen ziet dezelfde planning - op kantoor, op de werf of onderweg.",
   },
   {
     icon: Users,
@@ -84,7 +84,7 @@ const features = [
     icon: Smartphone,
     title: "Mobiel toegankelijk",
     description:
-      "Je team bekijkt en beheert de planning vanaf hun telefoon. Adresgegevens, klantnotities en routebeschrijving — alles bij de hand.",
+      "Je team bekijkt en beheert de planning vanaf hun telefoon. Adresgegevens, klantnotities en routebeschrijving - alles bij de hand.",
   },
 ];
 
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: "Kunnen meerdere teamleden de planning bewerken?",
     answer:
-      "Ja. Elk teamlid kan de planning bekijken en — afhankelijk van de rechten die je instelt — ook bewerken. Wijzigingen zijn direct zichtbaar voor iedereen.",
+      "Ja. Elk teamlid kan de planning bekijken en - afhankelijk van de rechten die je instelt - ook bewerken. Wijzigingen zijn direct zichtbaar voor iedereen.",
   },
   {
     question: "Synchroniseert dit met Google Agenda?",
@@ -177,14 +177,14 @@ const PlanningSysteem = () => (
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Eén planning voor je hele team — altijd up-to-date
+          Eén planning voor je hele team - altijd up-to-date
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
           Planning verspreid over Excel, WhatsApp en papieren agenda's zorgt voor chaos.
-          Eén centraal systeem brengt overzicht — voor jou, je team en je klanten.
+          Eén centraal systeem brengt overzicht - voor jou, je team en je klanten.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">

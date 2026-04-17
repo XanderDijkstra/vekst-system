@@ -7,7 +7,7 @@ const usps = [
     icon: Zap,
     title: "Eenvoudig in gebruik",
     description:
-      "Wij maken systemen die makkelijk te begrijpen zijn. Geen technische kennis nodig — alles is klik-en-klaar.",
+      "Wij maken systemen die makkelijk te begrijpen zijn. Geen technische kennis nodig - alles is klik-en-klaar.",
   },
   {
     icon: BadgeEuro,

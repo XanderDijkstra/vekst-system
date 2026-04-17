@@ -34,7 +34,7 @@ const features = [
     icon: Mail,
     title: "Automatische lead opvolging",
     description:
-      "Elke nieuwe lead ontvangt automatisch een persoonlijk bericht via SMS of e-mail. Geen handmatig werk, geen vertraging — ook als je op de steiger staat.",
+      "Elke nieuwe lead ontvangt automatisch een persoonlijk bericht via SMS of e-mail. Geen handmatig werk, geen vertraging - ook als je op de steiger staat.",
   },
   {
     icon: Bell,
@@ -46,13 +46,13 @@ const features = [
     icon: CalendarCheck,
     title: "Geautomatiseerde afspraken",
     description:
-      "Klanten plannen zelf een afspraak in je agenda. Bevestigingen en herinneringen gaan automatisch — geen heen-en-weer ge-WhatsApp meer.",
+      "Klanten plannen zelf een afspraak in je agenda. Bevestigingen en herinneringen gaan automatisch - geen heen-en-weer ge-WhatsApp meer.",
   },
   {
     icon: RefreshCw,
     title: "Terugkerende taken op autopilot",
     description:
-      "Review verzoeken na oplevering, seizoenscampagnes voor bestaande klanten, verjaardagsberichten — alles draait automatisch op de achtergrond.",
+      "Review verzoeken na oplevering, seizoenscampagnes voor bestaande klanten, verjaardagsberichten - alles draait automatisch op de achtergrond.",
   },
   {
     icon: Clock,
@@ -117,7 +117,7 @@ const faqs = [
   {
     question: "Werkt dit ook voor een klein aannemersbedrijf?",
     answer:
-      "Zeker. Juist kleinere bedrijven hebben het meeste baat bij automatisering. Je hebt geen personeel nodig voor administratie — het systeem doet het voor je.",
+      "Zeker. Juist kleinere bedrijven hebben het meeste baat bij automatisering. Je hebt geen personeel nodig voor administratie - het systeem doet het voor je.",
   },
   {
     question: "Hoeveel tijd bespaar ik realistisch gezien?",
@@ -163,7 +163,7 @@ const AutomatiseringAannemers = () => (
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Lead opvolging, review verzoeken, afspraakbevestigingen — alles wat je elke dag handmatig doet,
+          Lead opvolging, review verzoeken, afspraakbevestigingen - alles wat je elke dag handmatig doet,
           kan automatisch. Zodat jij je kunt focussen op het werk dat ertoe doet.
         </motion.p>
 

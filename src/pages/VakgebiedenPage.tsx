@@ -119,10 +119,10 @@ const VakgebiedenPage = () => {
     <PageShell>
       <Helmet>
         <title>Vakgebieden | Aannemer Systeem</title>
-        <meta name="description" content="Van dakdekker tot tuinman — ontdek voor welke vakgebieden wij digitale systemen maken. Bekijk onze specialisaties." />
+        <meta name="description" content="Van dakdekker tot tuinman - ontdek voor welke vakgebieden wij digitale systemen maken. Bekijk onze specialisaties." />
         <link rel="canonical" href={`${SITE_URL}/vakgebieden`} />
         <meta property="og:title" content="Vakgebieden | Aannemer Systeem" />
-        <meta property="og:description" content="Van dakdekker tot tuinman — ontdek voor welke vakgebieden wij digitale systemen maken." />
+        <meta property="og:description" content="Van dakdekker tot tuinman - ontdek voor welke vakgebieden wij digitale systemen maken." />
         <meta property="og:url" content={`${SITE_URL}/vakgebieden`} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
@@ -141,7 +141,7 @@ const VakgebiedenPage = () => {
             {...fadeInUp}
             className="mt-5 text-lg md:text-xl text-primary-foreground/75 max-w-xl mx-auto leading-relaxed"
           >
-            Van dakdekker tot tuinman — wij helpen elke vakman groeien met slimme digitale systemen.
+            Van dakdekker tot tuinman - wij helpen elke vakman groeien met slimme digitale systemen.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8">
             <Button asChild size="lg" variant="secondary">
@@ -210,7 +210,7 @@ const VakgebiedenPage = () => {
 
           <motion.div {...fadeInUp} className="mt-14 text-center">
             <p className="text-muted-foreground mb-6">
-              Staat jouw vakgebied er niet bij? Geen probleem — neem contact op en we kijken samen wat we voor je kunnen doen.
+              Staat jouw vakgebied er niet bij? Geen probleem - neem contact op en we kijken samen wat we voor je kunnen doen.
             </p>
             <Button asChild size="lg">
               <Link to="/contact">Neem contact op</Link>

@@ -45,7 +45,7 @@ const WikiOverview = () => (
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          SEO, leads, conversie — je hoort het overal, maar wat betekent het
+          SEO, leads, conversie - je hoort het overal, maar wat betekent het
           eigenlijk? Wij leggen de belangrijkste termen uit in normaal Nederlands.
           Geen vakjargon, gewoon duidelijk.
         </motion.p>

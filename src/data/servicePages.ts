@@ -84,7 +84,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Voor-en-na portfolio met projectgalerij",
-          description: "Laat het verschil zien dat jouw schilderwerk maakt. Met interactieve sliders toon je de transformatie van elk project — van afgebladderde gevels tot strakke afwerkingen.",
+          description: "Laat het verschil zien dat jouw schilderwerk maakt. Met interactieve sliders toon je de transformatie van elk project - van afgebladderde gevels tot strakke afwerkingen.",
         },
         {
           title: "Diensten per specialisatie",
@@ -96,7 +96,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Review- en keurmerkintegratie",
-          description: "Automatische weergave van je Google-reviews, koppeling met je schilderskeurmerk en testimonials van tevreden klanten — alles op de juiste plek om vertrouwen op te bouwen.",
+          description: "Automatische weergave van je Google-reviews, koppeling met je schilderskeurmerk en testimonials van tevreden klanten - alles op de juiste plek om vertrouwen op te bouwen.",
         },
         {
           title: "Seizoensgebonden landingspagina's",
@@ -122,7 +122,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       paragraphs: [
         "De schildersbranche is visueel. Klanten willen zien wat je kunt voordat ze je bellen. Een professionele website met een sterk portfolio is het verschil tussen een volle agenda en wachten op de telefoon. Terwijl mond-tot-mondreclame nog steeds waardevol is, begint meer dan 85% van de woningeigenaren hun zoektocht naar een schilder online.",
         "Veel schildersbedrijven vertrouwen nog op platforms als Werkspot of advertenties in de lokale krant. Het probleem: je concurreert daar op prijs in plaats van op kwaliteit. Met een eigen website bepaal jij het verhaal. Je laat je specialisaties zien, toont voor-en-na foto's en bouwt vertrouwen op met echte klantreviews.",
-        "Een goed geoptimaliseerde schilderswebsite trekt maandelijks tientallen bezoekers aan die actief op zoek zijn naar een schilder in jouw regio. Met de juiste pagina's voor elke dienst — van binnenschilderwerk tot houtrot reparatie — scoor je hoog in Google en converteer je bezoekers naar offerteaanvragen.",
+        "Een goed geoptimaliseerde schilderswebsite trekt maandelijks tientallen bezoekers aan die actief op zoek zijn naar een schilder in jouw regio. Met de juiste pagina's voor elke dienst - van binnenschilderwerk tot houtrot reparatie - scoor je hoog in Google en converteer je bezoekers naar offerteaanvragen.",
       ],
     },
     faqs: [
@@ -164,7 +164,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     metaDescription: "Een professionele dakdekker-website die stormschade-klanten direct vangt en reguliere opdrachten binnenhaalt. Ontdek wat Aannemer Systeem bouwt voor dakdekkers.",
     hero: {
       badge: "Websites voor Dakdekkers",
-      headline: "Een website die werkt — ook als het stormt",
+      headline: "Een website die werkt - ook als het stormt",
       subheadline: "Na een storm zoeken duizenden huiseigenaren tegelijk naar een dakdekker. Met een snelle, goed vindbare website ben jij de eerste die ze vinden en bellen.",
       stats: [
         { value: "340%", label: "meer zoekopdrachten naar dakdekkers na stormschade" },
@@ -181,7 +181,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Je werkgebied is onduidelijk voor Google",
-          description: "Je werkt in meerdere gemeenten, maar Google weet niet waar je actief bent. Hierdoor verschijn je niet in de zoekresultaten van klanten net buiten je standplaats — terwijl je daar prima kunt werken.",
+          description: "Je werkt in meerdere gemeenten, maar Google weet niet waar je actief bent. Hierdoor verschijn je niet in de zoekresultaten van klanten net buiten je standplaats - terwijl je daar prima kunt werken.",
         },
         {
           title: "Klanten twijfelen aan je betrouwbaarheid",
@@ -233,7 +233,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       paragraphs: [
         "De dakdekkerbranche heeft een unieke dynamiek: naast regulier onderhoud en renovatie zijn er enorme pieken na stormen en extreme weersomstandigheden. Een website die daarop voorbereid is, kan in één stormweek meer leads opleveren dan in een heel kwartaal via traditionele kanalen.",
         "Vertrouwen is cruciaal in de dakdekkerswereld. Klanten investeren duizenden euro's en willen zeker weten dat ze met een betrouwbaar bedrijf werken. Een professionele website met certificeringen, projectfoto's en echte reviews is het krachtigste wapen tegen de 'malafide dakdekker'-angst.",
-        "Met gerichte pagina's voor elk daktype en elke dienst — van EPDM-dakbedekking tot dakgoot-renovatie — trek je precies de klanten aan die jouw specialisme zoeken. Zo concurreer je niet op prijs maar op expertise.",
+        "Met gerichte pagina's voor elk daktype en elke dienst - van EPDM-dakbedekking tot dakgoot-renovatie - trek je precies de klanten aan die jouw specialisme zoeken. Zo concurreer je niet op prijs maar op expertise.",
       ],
     },
     faqs: [
@@ -247,7 +247,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Hoe toon ik mijn Dakmerk-certificering?",
-        answer: "We integreren je certificeringen prominent op je website — in de header, op dienstpagina's en op een aparte certificeringspagina. Dit bouwt direct vertrouwen op bij bezoekers.",
+        answer: "We integreren je certificeringen prominent op je website - in de header, op dienstpagina's en op een aparte certificeringspagina. Dit bouwt direct vertrouwen op bij bezoekers.",
       },
       {
         question: "Kan ik zelf projecten toevoegen aan de website?",
@@ -260,7 +260,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     ],
     cta: {
       headline: "Klaar om meer dakopdrachten binnen te halen?",
-      subheadline: "Plan een vrijblijvend gesprek en ontdek hoe een professionele website jouw dakdekkersbedrijf laat groeien — ook als het stormt.",
+      subheadline: "Plan een vrijblijvend gesprek en ontdek hoe een professionele website jouw dakdekkersbedrijf laat groeien - ook als het stormt.",
     },
   },
 
@@ -288,11 +288,11 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Je mist spoedaanvragen buiten werktijd",
-          description: "Een lekkage om 22:00 uur, een verstopte afvoer in het weekend — klanten zoeken direct een loodgieter online. Zonder 24/7 vindbare website met spoedoptie gaan deze opdrachten naar de concurrent.",
+          description: "Een lekkage om 22:00 uur, een verstopte afvoer in het weekend - klanten zoeken direct een loodgieter online. Zonder 24/7 vindbare website met spoedoptie gaan deze opdrachten naar de concurrent.",
         },
         {
           title: "Klanten weten niet wat je allemaal doet",
-          description: "Je installeert cv-ketels, legt leidingwerk aan en doet badkamerrenovaties — maar klanten denken dat je alleen verstoppingen verhelpt. Zonder duidelijke dienstpagina's mis je de grotere opdrachten.",
+          description: "Je installeert cv-ketels, legt leidingwerk aan en doet badkamerrenovaties - maar klanten denken dat je alleen verstoppingen verhelpt. Zonder duidelijke dienstpagina's mis je de grotere opdrachten.",
         },
         {
           title: "Je betaalt te veel commissie aan platforms",
@@ -310,7 +310,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Spoedsectie met directe belknop",
-          description: "Een prominent spoedblok op elke pagina met click-to-call functionaliteit. Klanten met een lekkage hoeven niet te zoeken — ze bellen met één tik.",
+          description: "Een prominent spoedblok op elke pagina met click-to-call functionaliteit. Klanten met een lekkage hoeven niet te zoeken - ze bellen met één tik.",
         },
         {
           title: "Diensten per specialisatie",
@@ -342,7 +342,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     industryContent: {
       sectionTitle: "Waarom een website onmisbaar is voor loodgieters",
       paragraphs: [
-        "De loodgietersbranche draait voor een groot deel op spoed. Wanneer een leiding springt of de cv-ketel uitvalt, grijpen mensen naar hun telefoon en zoeken op Google. De loodgieter die bovenaan staat met een duidelijke spoedpagina en klikbaar telefoonnummer, krijgt de opdracht. Het is zo simpel — en zo belangrijk.",
+        "De loodgietersbranche draait voor een groot deel op spoed. Wanneer een leiding springt of de cv-ketel uitvalt, grijpen mensen naar hun telefoon en zoeken op Google. De loodgieter die bovenaan staat met een duidelijke spoedpagina en klikbaar telefoonnummer, krijgt de opdracht. Het is zo simpel - en zo belangrijk.",
         "Naast spoedwerk zijn er de grotere projecten: badkamerrenovaties, cv-ketel installaties en leidingwerk voor nieuwbouw. Voor deze opdrachten vergelijken klanten meerdere loodgieters. Een professionele website met projectvoorbeelden, duidelijke prijsindicaties en sterke reviews maakt het verschil tussen wel of niet gebeld worden.",
         "Met een eigen website bouw je een direct kanaal naar klanten, zonder commissie aan platforms en zonder concurrentie op prijs. Je trekt klanten aan die specifiek jóu kiezen op basis van je expertise, reviews en uitstraling.",
       ],
@@ -395,11 +395,11 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Je afwerking is niet zichtbaar online",
-          description: "Het verschil tussen goed en uitstekend stucwerk zit in de details — de textuur, de strakheid, de afwerking. Op een slechte website of zonder website is dat verschil onzichtbaar. Klanten kiezen dan op prijs.",
+          description: "Het verschil tussen goed en uitstekend stucwerk zit in de details - de textuur, de strakheid, de afwerking. Op een slechte website of zonder website is dat verschil onzichtbaar. Klanten kiezen dan op prijs.",
         },
         {
           title: "Klanten kennen het verschil tussen stucsoorten niet",
-          description: "Spachtelputz, sierpleister, glad stucwerk — voor klanten is het abracadabra. Zonder duidelijke uitleg op je website weten ze niet wat ze nodig hebben en kiezen ze de goedkoopste optie.",
+          description: "Spachtelputz, sierpleister, glad stucwerk - voor klanten is het abracadabra. Zonder duidelijke uitleg op je website weten ze niet wat ze nodig hebben en kiezen ze de goedkoopste optie.",
         },
         {
           title: "Je krijgt te kleine opdrachten",
@@ -450,7 +450,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       sectionTitle: "Waarom een website onmisbaar is voor stukadoors",
       paragraphs: [
         "Stukadoorswerk is een visueel vak. Het verschil tussen een goede en een uitstekende stukadoor zit in de afwerking, en dat moet je kunnen laten zien. Een professionele website met high-quality foto's van je werk is de krachtigste manier om je vakmanschap te bewijzen aan potentiële klanten.",
-        "De stukadoorsmarkt is competitief, maar de meeste concurrenten presenteren zich niet goed online. Een sterke website met duidelijke diensten, projectvoorbeelden en klantreviews geeft je een enorm voordeel. Klanten die kwaliteit zoeken — en bereid zijn daarvoor te betalen — kiezen de stukadoor die het meest professioneel overkomt.",
+        "De stukadoorsmarkt is competitief, maar de meeste concurrenten presenteren zich niet goed online. Een sterke website met duidelijke diensten, projectvoorbeelden en klantreviews geeft je een enorm voordeel. Klanten die kwaliteit zoeken - en bereid zijn daarvoor te betalen - kiezen de stukadoor die het meest professioneel overkomt.",
         "Daarnaast bereik je met een goed geoptimaliseerde website niet alleen particulieren, maar ook aannemers, architecten en projectontwikkelaars die zoeken naar betrouwbare onderaannemers. Dit zijn de opdrachten die je agenda voor maanden vullen.",
       ],
     },
@@ -465,7 +465,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Hoe fotografeer ik stucwerk het beste voor de website?",
-        answer: "We geven je tips voor het fotograferen van stucwerk — denk aan scherp licht, close-ups en hoeken die de textuur benadrukken. Desgewenst regelen we een fotograaf voor je projecten.",
+        answer: "We geven je tips voor het fotograferen van stucwerk - denk aan scherp licht, close-ups en hoeken die de textuur benadrukken. Desgewenst regelen we een fotograaf voor je projecten.",
       },
       {
         question: "Kan ik zakelijke en particuliere klanten apart aanspreken?",
@@ -490,7 +490,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     hero: {
       badge: "Websites voor Hoveniers",
       headline: "Een website die jouw tuinen tot leven brengt",
-      subheadline: "Tuinontwerp is emotie. Met een website vol inspirerende projecten, seizoenstips en directe offerteaanvragen laat je potentiële klanten dromen — en bellen.",
+      subheadline: "Tuinontwerp is emotie. Met een website vol inspirerende projecten, seizoenstips en directe offerteaanvragen laat je potentiële klanten dromen - en bellen.",
       stats: [
         { value: "83%", label: "van woningeigenaren zoekt online naar een hovenier" },
         { value: "€4.800", label: "gemiddelde opdrachtwaarde voor tuinaanleg" },
@@ -532,7 +532,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Tuinstijl-inspiratiepagina's",
-          description: "Pagina's per tuinstijl — modern, landelijk, Japans, kindvriendelijk — die klanten helpen hun droomtuin te visualiseren en jou als expert positioneren.",
+          description: "Pagina's per tuinstijl - modern, landelijk, Japans, kindvriendelijk - die klanten helpen hun droomtuin te visualiseren en jou als expert positioneren.",
         },
         {
           title: "Onderhoudsabonnement-module",
@@ -561,7 +561,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       sectionTitle: "Waarom een website onmisbaar is voor hoveniers",
       paragraphs: [
         "De hovenierssector leent zich als geen ander voor visuele online marketing. Klanten zoeken inspiratie voor hun tuin en willen zien wat mogelijk is. Een website met prachtige projectfoto's, tuinstijl-inspiratie en seizoenstips trekt precies de klanten aan die bereid zijn te investeren in kwaliteit.",
-        "Seizoensgebondenheid is de grootste uitdaging voor hoveniers. Een slimme website vangt dit op met gerichte landingspagina's per seizoen, een blog met tuintips die het hele jaar verkeer trekt, en onderhoudsabonnementen die voor constante inkomsten zorgen — ook in de rustige maanden.",
+        "Seizoensgebondenheid is de grootste uitdaging voor hoveniers. Een slimme website vangt dit op met gerichte landingspagina's per seizoen, een blog met tuintips die het hele jaar verkeer trekt, en onderhoudsabonnementen die voor constante inkomsten zorgen - ook in de rustige maanden.",
         "Met een eigen website bouw je een merk op dat verder gaat dan een vermelding op Werkspot. Je trekt klanten aan die bewust kiezen voor jouw stijl en aanpak, in plaats van vijf hoveniers te vergelijken op prijs. Het resultaat: hogere marges, betere klanten en een vollere agenda.",
       ],
     },
@@ -621,7 +621,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Terugkerende klanten vinden je moeilijk terug",
-          description: "Tevreden klanten willen je opnieuw inhuren, maar je visitekaartje is kwijt. Een website maakt je altijd vindbaar — een Google-zoekopdracht volstaat.",
+          description: "Tevreden klanten willen je opnieuw inhuren, maar je visitekaartje is kwijt. Een website maakt je altijd vindbaar - een Google-zoekopdracht volstaat.",
         },
         {
           title: "Je mist de grotere renovatieprojecten",
@@ -669,7 +669,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       paragraphs: [
         "De kracht van een klusbedrijf is veelzijdigheid. Maar die kracht wordt een zwakte wanneer klanten niet weten wat je allemaal kunt. Een professionele website die je volledige aanbod overzichtelijk presenteert, is het verschil tussen 'alleen kleine klusjes' en 'complete renovatieprojecten'.",
         "Klusbedrijven bouwen op terugkerende klanten. Een website is je digitale visitekaartje dat nooit kwijtraakt. Tevreden klanten vinden je altijd terug en delen je website met buren, vrienden en familie. Met elke tevreden klant groeit je netwerk automatisch.",
-        "Door je te onderscheiden met een professionele website laat je de prijsconcurrentie achter je. Klanten die online zoeken naar een betrouwbare klusjesman en jouw website vinden met projectfoto's en sterke reviews, kiezen voor zekerheid — niet voor de laagste prijs.",
+        "Door je te onderscheiden met een professionele website laat je de prijsconcurrentie achter je. Klanten die online zoeken naar een betrouwbare klusjesman en jouw website vinden met projectfoto's en sterke reviews, kiezen voor zekerheid - niet voor de laagste prijs.",
       ],
     },
     faqs: [
@@ -708,7 +708,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     hero: {
       badge: "Websites voor Tegelzetters",
       headline: "Een website die jouw tegelwerk de aandacht geeft die het verdient",
-      subheadline: "Mooi tegelwerk verkoopt zichzelf — als klanten het kunnen zien. Met een professionele website toon je je patronen, materialen en afwerking op de manier die ze verdienen.",
+      subheadline: "Mooi tegelwerk verkoopt zichzelf - als klanten het kunnen zien. Met een professionele website toon je je patronen, materialen en afwerking op de manier die ze verdienen.",
       stats: [
         { value: "76%", label: "van badkamerrenovaties begint met online onderzoek" },
         { value: "€5.200", label: "gemiddelde opdrachtwaarde voor tegelwerk" },
@@ -720,11 +720,11 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Klanten zien niet hoe precies jij werkt",
-          description: "Het verschil tussen een goede en een geweldige tegelzetter zit in de millimeters — voegwerk, patroonuitlijning, afwerking rond leidingen. Op een foto op je telefoon is dat niet zichtbaar. Op je website wel.",
+          description: "Het verschil tussen een goede en een geweldige tegelzetter zit in de millimeters - voegwerk, patroonuitlijning, afwerking rond leidingen. Op een foto op je telefoon is dat niet zichtbaar. Op je website wel.",
         },
         {
           title: "Je wordt alleen gebeld voor eenvoudig tegelwerk",
-          description: "Mozaïek, grootformaat tegels, visgraatpatronen — dit is waar de marge zit. Maar zonder een website die dit specialisme toont, krijg je alleen de standaard badkamertjes.",
+          description: "Mozaïek, grootformaat tegels, visgraatpatronen - dit is waar de marge zit. Maar zonder een website die dit specialisme toont, krijg je alleen de standaard badkamertjes.",
         },
         {
           title: "Klanten kiezen op prijs omdat ze het verschil niet zien",
@@ -774,9 +774,9 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     industryContent: {
       sectionTitle: "Waarom een website onmisbaar is voor tegelzetters",
       paragraphs: [
-        "Tegelwerk is visueel en tactiel — klanten moeten het zien om het te waarderen. Een professionele website met scherpe projectfoto's, close-ups van voegwerk en overzichten van patronen is de krachtigste manier om je vakmanschap te bewijzen. In een branche waar klanten het verschil niet altijd begrijpen, maakt een goede website dat verschil zichtbaar.",
+        "Tegelwerk is visueel en tactiel - klanten moeten het zien om het te waarderen. Een professionele website met scherpe projectfoto's, close-ups van voegwerk en overzichten van patronen is de krachtigste manier om je vakmanschap te bewijzen. In een branche waar klanten het verschil niet altijd begrijpen, maakt een goede website dat verschil zichtbaar.",
         "De tegelzetmarkt profiteert enorm van de renovatiegolf in Nederland. Badkamers en keukens worden massaal vernieuwd en klanten beginnen hun zoektocht online. Met gerichte pagina's per ruimtetype en tegelsoort trek je precies de klanten aan die actief op zoek zijn naar een tegelzetter.",
-        "Daarnaast opent een professionele website deuren naar samenwerkingen met tegelshowrooms en leveranciers. Zij zoeken betrouwbare tegelzetters om aan klanten aan te bevelen — en een sterke online aanwezigheid is daarvoor essentieel.",
+        "Daarnaast opent een professionele website deuren naar samenwerkingen met tegelshowrooms en leveranciers. Zij zoeken betrouwbare tegelzetters om aan klanten aan te bevelen - en een sterke online aanwezigheid is daarvoor essentieel.",
       ],
     },
     faqs: [
@@ -831,19 +831,19 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Klanten twijfelen of je gecertificeerd bent",
-          description: "NEN 1010, NEN 3140, Sterkin-registratie — je hebt alle papieren, maar klanten zien ze niet. Zonder website die je certificeringen prominent toont, kiezen ze voor de concurrent die dit wél laat zien.",
+          description: "NEN 1010, NEN 3140, Sterkin-registratie - je hebt alle papieren, maar klanten zien ze niet. Zonder website die je certificeringen prominent toont, kiezen ze voor de concurrent die dit wél laat zien.",
         },
         {
           title: "Storingen buiten werktijd kosten je opdrachten",
-          description: "Stroomuitval om 21:00 uur, een kortsluiting in het weekend — klanten zoeken direct online naar een elektricien. Zonder vindbare website met spoedoptie mis je deze urgente opdrachten.",
+          description: "Stroomuitval om 21:00 uur, een kortsluiting in het weekend - klanten zoeken direct online naar een elektricien. Zonder vindbare website met spoedoptie mis je deze urgente opdrachten.",
         },
         {
           title: "Je grotere projecten worden onderschat",
-          description: "Je doet niet alleen stopcontacten — je vernieuwt groepenkastkasten, installeert laadpalen en doet complete elektra-aanleg voor verbouwingen. Zonder website weten klanten dit niet.",
+          description: "Je doet niet alleen stopcontacten - je vernieuwt groepenkastkasten, installeert laadpalen en doet complete elektra-aanleg voor verbouwingen. Zonder website weten klanten dit niet.",
         },
         {
           title: "De energietransitie levert je te weinig op",
-          description: "Zonnepanelen, laadpalen, warmtepompen — de vraag explodeert maar klanten vinden de elektriciens die hier actief op adverteren. Zonder gerichte pagina's mis je deze groeisector.",
+          description: "Zonnepanelen, laadpalen, warmtepompen - de vraag explodeert maar klanten vinden de elektriciens die hier actief op adverteren. Zonder gerichte pagina's mis je deze groeisector.",
         },
       ],
     },
@@ -857,7 +857,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Storingsdienst met 24/7 contactoptie",
-          description: "Een speciale storingspagina met directe belknop en spoedformulier. Klanten met een stroomstoring hoeven niet te zoeken — ze bellen direct.",
+          description: "Een speciale storingspagina met directe belknop en spoedformulier. Klanten met een stroomstoring hoeven niet te zoeken - ze bellen direct.",
         },
         {
           title: "Energietransitie-pagina's",
@@ -901,7 +901,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Kan ik mijn NEN-certificeringen op de website tonen?",
-        answer: "Absoluut. We plaatsen je certificeringen prominent op elke pagina — in de header, footer en op een aparte certificeringspagina. Dit is het belangrijkste vertrouwenssignaal voor potentiële klanten.",
+        answer: "Absoluut. We plaatsen je certificeringen prominent op elke pagina - in de header, footer en op een aparte certificeringspagina. Dit is het belangrijkste vertrouwenssignaal voor potentiële klanten.",
       },
       {
         question: "Helpt een website bij het aantrekken van laadpaal-klanten?",
@@ -930,7 +930,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     hero: {
       badge: "Websites voor Timmerlieden",
       headline: "Een website die je houtwerk laat spreken",
-      subheadline: "Van dakkapellen tot maatwerk kasten — timmerwerk is overal. Met een professionele website laat je de breedte en kwaliteit van je ambacht zien aan klanten die er echt voor willen betalen.",
+      subheadline: "Van dakkapellen tot maatwerk kasten - timmerwerk is overal. Met een professionele website laat je de breedte en kwaliteit van je ambacht zien aan klanten die er echt voor willen betalen.",
       stats: [
         { value: "69%", label: "van verbouwers zoekt online naar een timmerman" },
         { value: "€6.500", label: "gemiddelde opdrachtwaarde voor dakkapel-plaatsing" },
@@ -942,7 +942,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Klanten denken dat je alleen kozijnen doet",
-          description: "Timmerwerk omvat zoveel meer — dakkapellen, aanbouwen, trappen, maatwerk meubels, restauratie. Zonder website die je volledige aanbod toont, mis je de grotere en interessantere projecten.",
+          description: "Timmerwerk omvat zoveel meer - dakkapellen, aanbouwen, trappen, maatwerk meubels, restauratie. Zonder website die je volledige aanbod toont, mis je de grotere en interessantere projecten.",
         },
         {
           title: "Je maatwerk wordt niet gewaardeerd",
@@ -972,7 +972,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Dakkapel-configurator",
-          description: "Een interactieve tool waarmee klanten hun gewenste dakkapeltype kiezen en een indicatie krijgen. Dakkapellen zijn een grote markt — met een configurator vang je die leads op.",
+          description: "Een interactieve tool waarmee klanten hun gewenste dakkapeltype kiezen en een indicatie krijgen. Dakkapellen zijn een grote markt - met een configurator vang je die leads op.",
         },
         {
           title: "B2B-partnerpagina voor aannemers",
@@ -996,7 +996,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     industryContent: {
       sectionTitle: "Waarom een website onmisbaar is voor timmerlieden",
       paragraphs: [
-        "Timmerwerk is een van de breedste vakgebieden in de bouw. Van constructief houtwerk bij verbouwingen tot fijn maatwerk meubels — een timmerman kan enorm uiteenlopende projecten aannemen. Een professionele website is de enige plek waar je deze breedte volledig kunt tonen zonder onoverzichtelijk te worden.",
+        "Timmerwerk is een van de breedste vakgebieden in de bouw. Van constructief houtwerk bij verbouwingen tot fijn maatwerk meubels - een timmerman kan enorm uiteenlopende projecten aannemen. Een professionele website is de enige plek waar je deze breedte volledig kunt tonen zonder onoverzichtelijk te worden.",
         "De dakkapelmarkt alleen al is miljoenen waard. Huiseigenaren die hun zolder willen verbouwen beginnen online met onderzoek naar mogelijkheden en kosten. Een gerichte dakkapel-pagina met voorbeelden, prijsindicaties en het vergunningsproces trekt deze klanten direct aan.",
         "Daarnaast is de zakelijke markt cruciaal voor timmerbedrijven. Aannemers en projectontwikkelaars zoeken online naar betrouwbare onderaannemers. Een professionele website met B2B-referenties en een duidelijke werkwijze opent deuren naar structurele samenwerkingen.",
       ],
@@ -1036,7 +1036,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     metaDescription: "Een professionele schoonmaakbedrijf-website die vertrouwen wekt en structureel nieuwe klanten oplevert. Ontdek wat Aannemer Systeem bouwt.",
     hero: {
       badge: "Websites voor Schoonmaakbedrijven",
-      headline: "Een website die schone resultaten levert — online en offline",
+      headline: "Een website die schone resultaten levert - online en offline",
       subheadline: "Zowel particuliere als zakelijke klanten zoeken online naar een betrouwbaar schoonmaakbedrijf. Met een professionele website laat je zien waarom ze voor jou moeten kiezen.",
       stats: [
         { value: "84%", label: "van VvE's en bedrijven zoekt online naar een schoonmaakpartij" },
@@ -1061,7 +1061,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Gespecialiseerde diensten blijven onzichtbaar",
-          description: "Bouwschoonmaak, gevelreiniging, tapijt-dieptereiniging — je specialismen leveren de beste marges op maar klanten weten er niet van zonder gerichte pagina's.",
+          description: "Bouwschoonmaak, gevelreiniging, tapijt-dieptereiniging - je specialismen leveren de beste marges op maar klanten weten er niet van zonder gerichte pagina's.",
         },
       ],
     },
@@ -1104,7 +1104,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       sectionTitle: "Waarom een website onmisbaar is voor schoonmaakbedrijven",
       paragraphs: [
         "De schoonmaakbranche draait op vertrouwen en structurele relaties. Zakelijke klanten zoals VvE's, kantoren en winkels sluiten contracten af voor maanden of jaren. De selectie begint online: ze vergelijken websites, lezen reviews en beoordelen professionaliteit. Zonder sterke website val je af voordat het eerste gesprek plaatsvindt.",
-        "Voor particuliere klanten geldt hetzelfde principe maar dan op kleinere schaal. Verhuisschoonmaak, eenmalige deepcleans of wekelijks huishoudelijke hulp — het begint met een Google-zoekopdracht. De schoonmaakbedrijven die bovenaan staan met een duidelijke website en goede reviews, vullen hun agenda.",
+        "Voor particuliere klanten geldt hetzelfde principe maar dan op kleinere schaal. Verhuisschoonmaak, eenmalige deepcleans of wekelijks huishoudelijke hulp - het begint met een Google-zoekopdracht. De schoonmaakbedrijven die bovenaan staan met een duidelijke website en goede reviews, vullen hun agenda.",
         "Met gespecialiseerde pagina's voor bouwschoonmaak, gevelreiniging en industriële schoonmaak trek je bovendien de meest winstgevende opdrachten aan. Deze niches hebben minder concurrentie online en hogere marges.",
       ],
     },
@@ -1143,7 +1143,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     metaDescription: "Een professionele glazenwasser-website die vaste routes opbouwt en nieuwe klanten aantrekt. Ontdek wat Aannemer Systeem bouwt voor glazenwassers.",
     hero: {
       badge: "Websites voor Glazenwassers",
-      headline: "Een website die je route vol houdt — het hele jaar door",
+      headline: "Een website die je route vol houdt - het hele jaar door",
       subheadline: "Als glazenwasser draait je bedrijf op vaste routes en terugkerende klanten. Een professionele website helpt je nieuwe wijken opbouwen en klanten aan je binden.",
       stats: [
         { value: "73%", label: "van huiseigenaren zoekt online naar een glazenwasser" },
@@ -1182,7 +1182,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Online aanmelden voor vaste beurten",
-          description: "Klanten melden zich direct online aan voor een vast schema — elke 4, 6 of 8 weken. Geen telefoon nodig, je route groeit automatisch.",
+          description: "Klanten melden zich direct online aan voor een vast schema - elke 4, 6 of 8 weken. Geen telefoon nodig, je route groeit automatisch.",
         },
         {
           title: "Zakelijke diensten-pagina",
@@ -1251,7 +1251,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     hero: {
       badge: "Websites voor Keukenmonteurs",
       headline: "Een website die jouw montagewerk de waarde geeft die het verdient",
-      subheadline: "Een keuken kan prachtig zijn — maar alleen met perfecte montage. Met een professionele website laat je zien dat jij de vakman bent die keukens tot leven brengt.",
+      subheadline: "Een keuken kan prachtig zijn - maar alleen met perfecte montage. Met een professionele website laat je zien dat jij de vakman bent die keukens tot leven brengt.",
       stats: [
         { value: "41%", label: "van keukenkopers zoekt zelf een monteur buiten de keukenzaak" },
         { value: "€2.100", label: "gemiddelde opdrachtwaarde voor keukenplaatsing" },
@@ -1275,7 +1275,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Na-opdrachten blijven liggen",
-          description: "Kraaninstallatie, aanpassen van kasten, bijwerken na verhuizing — er is constant vraag naar keukenservice maar klanten weten niet dat je dit ook doet.",
+          description: "Kraaninstallatie, aanpassen van kasten, bijwerken na verhuizing - er is constant vraag naar keukenservice maar klanten weten niet dat je dit ook doet.",
         },
       ],
     },
@@ -1289,7 +1289,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Montageproces in stappen",
-          description: "Een visuele uitleg van het montageproces — van inmeting tot oplevering. Klanten begrijpen wat keukenmontage inhoudt en waarderen je vakmanschap.",
+          description: "Een visuele uitleg van het montageproces - van inmeting tot oplevering. Klanten begrijpen wat keukenmontage inhoudt en waarderen je vakmanschap.",
         },
         {
           title: "Galerij per keukentype",
@@ -1301,7 +1301,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Aanvullende diensten-sectie",
-          description: "Kraanmontage, afvoer-aansluitingen, elektrische aansluiting, demontage — alle extra diensten duidelijk gepresenteerd voor upselling.",
+          description: "Kraanmontage, afvoer-aansluitingen, elektrische aansluiting, demontage - alle extra diensten duidelijk gepresenteerd voor upselling.",
         },
       ],
     },
@@ -1321,8 +1321,8 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     industryContent: {
       sectionTitle: "Waarom een website onmisbaar is voor keukenmonteurs",
       paragraphs: [
-        "De keukenmarkt in Nederland is enorm en groeit door de populariteit van online keukenwinkels en budgetmerken. Steeds meer consumenten kopen hun keuken los en zoeken vervolgens een monteur. Dit is een gouden kans voor keukenmonteurs met een goede online aanwezigheid — de klant komt naar jou in plaats van andersom.",
-        "De IKEA-keukenmarkt alleen al vertegenwoordigt duizenden montage-opdrachten per jaar. Een gerichte landingspagina voor IKEA-keukenmontage scoort hoog in Google en trekt zeer gerichte leads aan. Deze klanten weten al wat ze willen — ze zoeken alleen nog de juiste monteur.",
+        "De keukenmarkt in Nederland is enorm en groeit door de populariteit van online keukenwinkels en budgetmerken. Steeds meer consumenten kopen hun keuken los en zoeken vervolgens een monteur. Dit is een gouden kans voor keukenmonteurs met een goede online aanwezigheid - de klant komt naar jou in plaats van andersom.",
+        "De IKEA-keukenmarkt alleen al vertegenwoordigt duizenden montage-opdrachten per jaar. Een gerichte landingspagina voor IKEA-keukenmontage scoort hoog in Google en trekt zeer gerichte leads aan. Deze klanten weten al wat ze willen - ze zoeken alleen nog de juiste monteur.",
         "Daarnaast is de relatie met keukenzaken cruciaal voor structurele omzet. Een professionele website met B2B-referenties toont keukendealers dat je een betrouwbare partner bent. Dit levert doorverwijzingen op die je agenda voor maanden vullen.",
       ],
     },
@@ -1378,11 +1378,11 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Het beslisproces duurt te lang",
-          description: "Klanten twijfelen maanden over hun badkamerrenovatie. Zonder website die hen begeleidt door het proces — van inspiratie tot planning — verlies je ze aan concurrenten die dit wél bieden.",
+          description: "Klanten twijfelen maanden over hun badkamerrenovatie. Zonder website die hen begeleidt door het proces - van inspiratie tot planning - verlies je ze aan concurrenten die dit wél bieden.",
         },
         {
           title: "Je volledige aanbod is niet zichtbaar",
-          description: "Je doet niet alleen tegels — je regelt sanitair, elektra, loodgieterswerk en afwerking. Maar klanten denken dat ze alles apart moeten regelen. Zonder duidelijke 'alles-in-één' presentatie mis je opdrachten.",
+          description: "Je doet niet alleen tegels - je regelt sanitair, elektra, loodgieterswerk en afwerking. Maar klanten denken dat ze alles apart moeten regelen. Zonder duidelijke 'alles-in-één' presentatie mis je opdrachten.",
         },
         {
           title: "Reviews en referenties staan verspreid",
@@ -1400,11 +1400,11 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Badkamerstijl-gids",
-          description: "Pagina's per badkamerstijl — modern, industrieel, landelijk, luxe — met voorbeelden en materiaaladvies. Dit trekt inspiratiezoekende klanten aan en positioneert je als expert.",
+          description: "Pagina's per badkamerstijl - modern, industrieel, landelijk, luxe - met voorbeelden en materiaaladvies. Dit trekt inspiratiezoekende klanten aan en positioneert je als expert.",
         },
         {
           title: "Renovatieproces-timeline",
-          description: "Een visuele stap-voor-stap uitleg van het renovatieproces — van intake tot oplevering. Dit neemt onzekerheid weg en laat zien hoe professioneel je werkt.",
+          description: "Een visuele stap-voor-stap uitleg van het renovatieproces - van intake tot oplevering. Dit neemt onzekerheid weg en laat zien hoe professioneel je werkt.",
         },
         {
           title: "Alles-in-één diensten-overzicht",
@@ -1434,7 +1434,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       paragraphs: [
         "Een badkamerrenovatie is een van de grootste investeringen die een huiseigenaar doet. Het gemiddelde budget ligt tussen de €6.000 en €15.000. Bij zulke bedragen doen klanten uitgebreid online onderzoek voordat ze een partij kiezen. Ze zoeken inspiratie, vergelijken werkwijzen en lezen reviews. Jouw website is de plek waar je dit volledige beslisproces begeleidt.",
         "De badkamerrenovatiemarkt is booming door vergrijzing, verduurzaming en de trend naar luxere badkamers. Klanten willen inloopdouches, vloerverwarming en designsanitair. Een website die deze trends adresseert met actuele projectvoorbeelden, trekt precies de klanten aan die bereid zijn te investeren in kwaliteit.",
-        "Het grote voordeel van een badkamerspecialist is het alles-in-één concept. Klanten hoeven niet drie aparte vakmensen te regelen. Een website die dit duidelijk communiceert — met een helder procesoverzicht en compleet dienstaanbod — wint het van losse tegelzetters en loodgieters.",
+        "Het grote voordeel van een badkamerspecialist is het alles-in-één concept. Klanten hoeven niet drie aparte vakmensen te regelen. Een website die dit duidelijk communiceert - met een helder procesoverzicht en compleet dienstaanbod - wint het van losse tegelzetters en loodgieters.",
       ],
     },
     faqs: [
@@ -1444,7 +1444,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Kan ik badkamerstijlen als inspiratie tonen?",
-        answer: "Ja, we maken inspiratiepagina's per stijl met sfeerbeelden, materiaaladvies en gerealiseerde projecten. Dit trekt klanten aan in de inspiratiefase — het perfecte moment om ze te binden.",
+        answer: "Ja, we maken inspiratiepagina's per stijl met sfeerbeelden, materiaaladvies en gerealiseerde projecten. Dit trekt klanten aan in de inspiratiefase - het perfecte moment om ze te binden.",
       },
       {
         question: "Hoe onderscheid ik me van grote badkamerketens?",
@@ -1489,7 +1489,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Klanten begrijpen de verschillen tussen isolatietypes niet",
-          description: "Spouwmuur, dak, vloer, HR++ glas — voor klanten is het een wirwar. Zonder duidelijke uitleg op je website kiezen ze voor de aanbieder die het het beste uitlegt.",
+          description: "Spouwmuur, dak, vloer, HR++ glas - voor klanten is het een wirwar. Zonder duidelijke uitleg op je website kiezen ze voor de aanbieder die het het beste uitlegt.",
         },
         {
           title: "Subsidie-informatie is een gemiste kans",
@@ -1497,7 +1497,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Je concurreert met landelijke ketens op naamsbekendheid",
-          description: "Grote isolatieketens investeren miljoenen in marketing. Als regionaal bedrijf moet je online concurreren op expertise, nabijheid en persoonlijke service — maar daarvoor heb je een sterke website nodig.",
+          description: "Grote isolatieketens investeren miljoenen in marketing. Als regionaal bedrijf moet je online concurreren op expertise, nabijheid en persoonlijke service - maar daarvoor heb je een sterke website nodig.",
         },
       ],
     },
@@ -1507,7 +1507,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Isolatietype-pagina's met besparingsinfo",
-          description: "Aparte pagina's per isolatietype — spouwmuur, dakisolatie, vloerisolatie, HR++ glas — met verwachte besparing, terugverdientijd en procesuitleg.",
+          description: "Aparte pagina's per isolatietype - spouwmuur, dakisolatie, vloerisolatie, HR++ glas - met verwachte besparing, terugverdientijd en procesuitleg.",
         },
         {
           title: "Subsidie-informatie & hulp",
@@ -1540,7 +1540,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       sectionTitle: "Waarom een website onmisbaar is voor isolatiebedrijven",
       paragraphs: [
         "De isolatiemarkt zit midden in een historische groeifase. Stijgende energieprijzen, strengere wetgeving en overheidssubsidies zorgen voor een explosie aan vraag. Huiseigenaren die hun woning willen isoleren, beginnen online met onderzoek naar mogelijkheden, kosten en subsidies. De isolatiebedrijven die hier zichtbaar zijn, profiteren maximaal van deze golf.",
-        "Educatie is de sleutel tot conversie in de isolatiebranche. Klanten willen begrijpen welke isolatie het beste is voor hun woningtype, wat de terugverdientijd is en welke subsidies beschikbaar zijn. Een website die dit helder uitlegt — met calculators, subsidiepagina's en procesuitleg — wint het vertrouwen van de klant nog voordat het eerste gesprek plaatsvindt.",
+        "Educatie is de sleutel tot conversie in de isolatiebranche. Klanten willen begrijpen welke isolatie het beste is voor hun woningtype, wat de terugverdientijd is en welke subsidies beschikbaar zijn. Een website die dit helder uitlegt - met calculators, subsidiepagina's en procesuitleg - wint het vertrouwen van de klant nog voordat het eerste gesprek plaatsvindt.",
         "Als regionaal isolatiebedrijf concurreer je met landelijke ketens op naamsbekendheid. Maar je wint op nabijheid, persoonlijke service en lokale referenties. Een sterke website maakt deze voordelen zichtbaar en overtuigt klanten dat lokaal de beste keuze is.",
       ],
     },
@@ -1592,7 +1592,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Klanten vergelijken puur op prijs",
-          description: "Op vergelijkingssites sta je naast vijf andere verhuizers en wint de goedkoopste. Zonder eigen website waar je je meerwaarde toont — verzekering, inpakservice, voorzichtigheid — heb je geen manier om je te onderscheiden.",
+          description: "Op vergelijkingssites sta je naast vijf andere verhuizers en wint de goedkoopste. Zonder eigen website waar je je meerwaarde toont - verzekering, inpakservice, voorzichtigheid - heb je geen manier om je te onderscheiden.",
         },
         {
           title: "Vertrouwensprobleem door slechte ervaringen bij anderen",
@@ -1647,7 +1647,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       sectionTitle: "Waarom een website onmisbaar is voor verhuisbedrijven",
       paragraphs: [
         "De verhuisbranche is een vertrouwensbranche bij uitstek. Klanten geven letterlijk al hun bezittingen in handen van je team. Het vertrouwen dat nodig is voor die stap begint online: bij je website, je reviews en je uitstraling. Een professionele website die transparant is over prijzen, verzekeringen en werkwijze, wint het van elke vergelijkingssite.",
-        "Seizoensgebondenheid is een uitdaging voor verhuisbedrijven. Zomer is druk, winter is rustig. Een website met goede SEO trekt het hele jaar door aanvragen aan. Met gerichte content voor verschillende verhuistypes — studenten, senioren, zakelijk — spreek je het hele jaar de juiste doelgroepen aan.",
+        "Seizoensgebondenheid is een uitdaging voor verhuisbedrijven. Zomer is druk, winter is rustig. Een website met goede SEO trekt het hele jaar door aanvragen aan. Met gerichte content voor verschillende verhuistypes - studenten, senioren, zakelijk - spreek je het hele jaar de juiste doelgroepen aan.",
         "De zakelijke verhuismarkt biedt enorm potentieel. Bedrijfsverhuizingen, kantoorrelocaties en projectverhuizingen leveren hogere marges op en zijn minder seizoensgevoelig. Een professionele B2B-pagina op je website opent deze markt voor je.",
       ],
     },
@@ -1687,7 +1687,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     hero: {
       badge: "Websites voor HVAC-bedrijven",
       headline: "Een website die meegroeit met de energietransitie",
-      subheadline: "Warmtepompen, ventilatiesystemen en slimme klimaatoplossingen — de HVAC-sector groeit explosief. Met een professionele website positioneer je jezelf als de expert die klanten zoeken.",
+      subheadline: "Warmtepompen, ventilatiesystemen en slimme klimaatoplossingen - de HVAC-sector groeit explosief. Met een professionele website positioneer je jezelf als de expert die klanten zoeken.",
       stats: [
         { value: "156%", label: "groei in zoekopdrachten naar warmtepompen in 3 jaar" },
         { value: "€7.500", label: "gemiddelde opdrachtwaarde voor warmtepomp-installatie" },
@@ -1721,7 +1721,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       items: [
         {
           title: "Warmtepomp-landingspagina's",
-          description: "Gerichte pagina's per type warmtepomp — lucht-water, bodem-water, hybride — met uitleg, kosten, subsidies en terugverdientijd. Dit is de snelst groeiende markt in de sector.",
+          description: "Gerichte pagina's per type warmtepomp - lucht-water, bodem-water, hybride - met uitleg, kosten, subsidies en terugverdientijd. Dit is de snelst groeiende markt in de sector.",
         },
         {
           title: "Energieadvies & subsidie-informatie",
@@ -1733,7 +1733,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
         },
         {
           title: "Storingsdienst met prioriteitsopties",
-          description: "Een storingspagina voor cv-ketel uitval en airco-storingen met directe contactoptie. Onderhoudsklanten krijgen voorrang — een extra reden om een contract af te sluiten.",
+          description: "Een storingspagina voor cv-ketel uitval en airco-storingen met directe contactoptie. Onderhoudsklanten krijgen voorrang - een extra reden om een contract af te sluiten.",
         },
         {
           title: "Technische productpagina's",
@@ -1757,19 +1757,19 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     industryContent: {
       sectionTitle: "Waarom een website onmisbaar is voor HVAC-bedrijven",
       paragraphs: [
-        "De HVAC-sector staat op een kantelpunt. De transitie van gas naar duurzame verwarming creëert een markt van miljarden euro's. Warmtepompen, hybride systemen en intelligente ventilatie zijn de toekomst — en huiseigenaren zoeken massaal online naar informatie en installateurs. HVAC-bedrijven die nu investeren in hun online aanwezigheid, positioneren zich voor jarenlange groei.",
-        "De technische complexiteit van HVAC-oplossingen is zowel een uitdaging als een kans. Klanten begrijpen niet altijd het verschil tussen een lucht-waterwarmtepomp en een hybride systeem. Een website die dit helder uitlegt — met vergelijkingen, kostenoverzichten en subsidie-informatie — wint het vertrouwen en de opdracht.",
+        "De HVAC-sector staat op een kantelpunt. De transitie van gas naar duurzame verwarming creëert een markt van miljarden euro's. Warmtepompen, hybride systemen en intelligente ventilatie zijn de toekomst - en huiseigenaren zoeken massaal online naar informatie en installateurs. HVAC-bedrijven die nu investeren in hun online aanwezigheid, positioneren zich voor jarenlange groei.",
+        "De technische complexiteit van HVAC-oplossingen is zowel een uitdaging als een kans. Klanten begrijpen niet altijd het verschil tussen een lucht-waterwarmtepomp en een hybride systeem. Een website die dit helder uitlegt - met vergelijkingen, kostenoverzichten en subsidie-informatie - wint het vertrouwen en de opdracht.",
         "Naast installatie is onderhoud de motor van een gezond HVAC-bedrijf. Structurele onderhoudscontracten zorgen voor voorspelbare omzet en klantbinding. Een website met duidelijke onderhoudspakketten en online aanmeldmogelijkheid maakt het sluiten van contracten laagdrempelig en efficiënt.",
       ],
     },
     faqs: [
       {
         question: "Wat kost een website voor een HVAC-bedrijf?",
-        answer: "Wij werken met vaste maandpakketten inclusief alles. Met de hoge opdrachtwaarden in de HVAC-sector — denk aan warmtepompen van €7.000+ — is de ROI uitstekend. Vraag de actuele prijzen op.",
+        answer: "Wij werken met vaste maandpakketten inclusief alles. Met de hoge opdrachtwaarden in de HVAC-sector - denk aan warmtepompen van €7.000+ - is de ROI uitstekend. Vraag de actuele prijzen op.",
       },
       {
         question: "Kan ik subsidie-informatie actueel houden op mijn website?",
-        answer: "Ja, we bouwen een subsidiepagina die eenvoudig te updaten is wanneer regelingen veranderen. Dit is een van de belangrijkste pagina's op je site — klanten die subsidie zoeken, zijn klaar om te investeren.",
+        answer: "Ja, we bouwen een subsidiepagina die eenvoudig te updaten is wanneer regelingen veranderen. Dit is een van de belangrijkste pagina's op je site - klanten die subsidie zoeken, zijn klaar om te investeren.",
       },
       {
         question: "Hoe presenteer ik warmtepompen op mijn website?",
@@ -1777,7 +1777,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Kan ik onderhoudscontracten online laten afsluiten?",
-        answer: "Ja, we bouwen een overzichtspagina met pakketten en een aanmeldformulier. Klanten kiezen hun pakket en melden zich direct aan — eenvoudig en laagdrempelig.",
+        answer: "Ja, we bouwen een overzichtspagina met pakketten en een aanmeldformulier. Klanten kiezen hun pakket en melden zich direct aan - eenvoudig en laagdrempelig.",
       },
       {
         question: "Helpt een website ook bij het aantrekken van zakelijke klanten?",

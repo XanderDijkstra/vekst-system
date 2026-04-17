@@ -13,19 +13,19 @@ const SITE_URL = "https://aannemersysteem.com";
 const sections = [
   {
     heading: "Systemen",
-    description: "Digitale systemen die 24/7 voor je werken — elk ontworpen om een specifiek probleem op te lossen.",
+    description: "Digitale systemen die 24/7 voor je werken - elk ontworpen om een specifiek probleem op te lossen.",
     items: [
       { icon: Globe, title: "Lead Generatie Website", href: "/diensten/lead-generatie", description: "Een website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt." },
       { icon: PhoneOff, title: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie", description: "Automatisch een bericht sturen wanneer je een oproep mist." },
       { icon: UserCheck, title: "Lead Follow-Up", href: "/diensten/lead-follow-up", description: "Automatische opvolging van nieuwe leads via SMS en e-mail." },
       { icon: Star, title: "Review Systeem", href: "/diensten/review-funnel", description: "Verzamel automatisch Google reviews van tevreden klanten." },
       { icon: BarChart3, title: "Marketing Campagnes", href: "/diensten/marketing-campagnes", description: "Bereik je doelgroep automatisch met de juiste boodschap." },
-      { icon: MessageSquare, title: "All-in-One Inbox", href: "/diensten/all-in-one-inbox", description: "Al je berichten op één plek — SMS, e-mail, WhatsApp en meer." },
+      { icon: MessageSquare, title: "All-in-One Inbox", href: "/diensten/all-in-one-inbox", description: "Al je berichten op één plek - SMS, e-mail, WhatsApp en meer." },
     ],
   },
   {
     heading: "Services",
-    description: "Van strategie tot implementatie — wij maken de digitale infrastructuur die jouw aannemersbedrijf nodig heeft.",
+    description: "Van strategie tot implementatie - wij maken de digitale infrastructuur die jouw aannemersbedrijf nodig heeft.",
     items: [
       { icon: Settings, title: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers", description: "Van papier naar digitaal. Wij helpen je bedrijf moderniseren." },
       { icon: Zap, title: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers", description: "Automatiseer repetitieve taken en bespaar uren per week." },
@@ -80,7 +80,7 @@ const DienstenOverview = () => (
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Onze diensten</motion.p>
         <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Alles wat je nodig hebt om te groeien</motion.h1>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-          Van slimme systemen tot volledige implementatie — ontdek hoe wij aannemers helpen digitaliseren en automatiseren.
+          Van slimme systemen tot volledige implementatie - ontdek hoe wij aannemers helpen digitaliseren en automatiseren.
         </motion.p>
       </div>
     </section>

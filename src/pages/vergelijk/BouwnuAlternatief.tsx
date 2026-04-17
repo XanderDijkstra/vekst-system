@@ -28,7 +28,7 @@ const problems = [
   {
     title: "Je betaalt credits, ook voor leads die nergens heen gaan",
     description:
-      "Bouwnu werkt met een credit-systeem waarbij je betaalt om een aanvraag in te zien. Veel aannemers ontdekken dat een groot deel van die leads slecht gekwalificeerd of niet bereikbaar is — maar je credits krijg je niet terug.",
+      "Bouwnu werkt met een credit-systeem waarbij je betaalt om een aanvraag in te zien. Veel aannemers ontdekken dat een groot deel van die leads slecht gekwalificeerd of niet bereikbaar is - maar je credits krijg je niet terug.",
   },
   {
     title: "Dezelfde aanvraag gaat naar meerdere aannemers",
@@ -38,7 +38,7 @@ const problems = [
   {
     title: "Je bouwt geen eigen online aanwezigheid op",
     description:
-      "Elke euro die je aan Bouwnu uitgeeft, komt ten goede aan het platform — niet aan je eigen vindbaarheid op Google, je reviews of je website. Stop je met Bouwnu, dan stopt ook je leadstroom.",
+      "Elke euro die je aan Bouwnu uitgeeft, komt ten goede aan het platform - niet aan je eigen vindbaarheid op Google, je reviews of je website. Stop je met Bouwnu, dan stopt ook je leadstroom.",
   },
   {
     title: "Je hebt geen controle over welke leads je krijgt",
@@ -50,13 +50,13 @@ const problems = [
 const comparison = [
   {
     aspect: "Kostenmodel",
-    bouwnu: "Credits — betaal per lead die je inziet",
+    bouwnu: "Credits - betaal per lead die je inziet",
     systeem: "€279/maand vast",
   },
   {
     aspect: "Onbeperkte leads",
-    bouwnu: "Nee — per lead afrekenen",
-    systeem: "Ja — onbeperkt via eigen site",
+    bouwnu: "Nee - per lead afrekenen",
+    systeem: "Ja - onbeperkt via eigen site",
   },
   {
     aspect: "Concurrentie per aanvraag",
@@ -65,7 +65,7 @@ const comparison = [
   },
   {
     aspect: "Eigen merk & website",
-    bouwnu: "Nee — je profileert op platform",
+    bouwnu: "Nee - je profileert op platform",
     systeem: "Eigen website en domein",
   },
   {
@@ -99,7 +99,7 @@ const faqs = [
   {
     question: "Wat is het verschil tussen Bouwnu en Werkspot?",
     answer:
-      "Bouwnu en Werkspot werken beide met een systeem waarbij je betaalt om leads te bemachtigen, maar de prijzen en het credit-model verschillen. In de kern is het probleem hetzelfde: je bent afhankelijk van het platform en betaalt per lead, ongeacht of je de klus krijgt. Een eigen website geeft je onbeperkte leads voor een vast bedrag per maand — zonder tussenpersoon.",
+      "Bouwnu en Werkspot werken beide met een systeem waarbij je betaalt om leads te bemachtigen, maar de prijzen en het credit-model verschillen. In de kern is het probleem hetzelfde: je bent afhankelijk van het platform en betaalt per lead, ongeacht of je de klus krijgt. Een eigen website geeft je onbeperkte leads voor een vast bedrag per maand - zonder tussenpersoon.",
   },
   {
     question: "Is Bouwnu überhaupt wel de moeite waard?",
@@ -109,7 +109,7 @@ const faqs = [
   {
     question: "Hoeveel kost een gemiddelde lead via Bouwnu?",
     answer:
-      "Dat verschilt per vakgebied en regio, maar de meeste aannemers rapporteren kosten tussen de €15 en €70 per gekwalificeerde lead. Reken je dat door naar kosten per gewonnen klus (gemiddeld 15-25% conversie), dan kom je al snel op €100-€400 per binnengehaalde opdracht — elke maand opnieuw.",
+      "Dat verschilt per vakgebied en regio, maar de meeste aannemers rapporteren kosten tussen de €15 en €70 per gekwalificeerde lead. Reken je dat door naar kosten per gewonnen klus (gemiddeld 15-25% conversie), dan kom je al snel op €100-€400 per binnengehaalde opdracht - elke maand opnieuw.",
   },
   {
     question: "Kan ik Bouwnu stoppen als ik een eigen website heb?",
@@ -129,7 +129,7 @@ const schema = {
   name: "Bouwnu Alternatief: Stop met Betalen per Lead | Aannemer Systeem",
   url: PAGE_URL,
   description:
-    "Bouwnu werkt met credits — je betaalt voor elke lead die je inziet. Een eigen website levert onbeperkte leads voor €279/maand. Vergelijk Bouwnu en een eigen systeem.",
+    "Bouwnu werkt met credits - je betaalt voor elke lead die je inziet. Een eigen website levert onbeperkte leads voor €279/maand. Vergelijk Bouwnu en een eigen systeem.",
   inLanguage: "nl-NL",
   breadcrumb: {
     "@type": "BreadcrumbList",
@@ -155,7 +155,7 @@ const BouwnuAlternatief = () => (
       <title>Bouwnu Alternatief: Stop met Betalen per Lead | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Bouwnu werkt met credits — je betaalt voor elke lead die je inziet. Een eigen website levert onbeperkte leads voor €279/maand. Vergelijk Bouwnu en een eigen systeem."
+        content="Bouwnu werkt met credits - je betaalt voor elke lead die je inziet. Een eigen website levert onbeperkte leads voor €279/maand. Vergelijk Bouwnu en een eigen systeem."
       />
       <link rel="canonical" href={PAGE_URL} />
       <meta property="og:title" content="Bouwnu Alternatief: Stop met Betalen per Lead" />
@@ -188,7 +188,7 @@ const BouwnuAlternatief = () => (
           {...fadeInUp}
           className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/75 leading-relaxed"
         >
-          Bouwnu werkt met een credit-systeem waar je per lead betaalt — ook als
+          Bouwnu werkt met een credit-systeem waar je per lead betaalt - ook als
           die lead niks oplevert. Lees waarom een eigen website in de meeste
           gevallen meer klanten oplevert voor minder geld.
         </motion.p>
@@ -292,7 +292,7 @@ const BouwnuAlternatief = () => (
           <p>
             Bouwnu kan nuttig zijn als je net gestart bent en snel eerste klussen
             nodig hebt. Je hoeft geen website op te zetten, geen SEO op te
-            bouwen — je meldt je aan en binnen een dag krijg je leads.
+            bouwen - je meldt je aan en binnen een dag krijg je leads.
           </p>
           <p>
             Het probleem: die snelheid komt met een prijs. Elke euro gaat naar

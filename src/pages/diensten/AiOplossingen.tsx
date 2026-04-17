@@ -34,7 +34,7 @@ const features = [
     icon: MessageCircle,
     title: "AI Chatbot voor je website",
     description:
-      "Een slimme chatbot die vragen van bezoekers beantwoordt, offerteaanvragen opvangt en afspraken plant — ook buiten kantooruren. Getraind op jouw diensten en werkgebied.",
+      "Een slimme chatbot die vragen van bezoekers beantwoordt, offerteaanvragen opvangt en afspraken plant - ook buiten kantooruren. Getraind op jouw diensten en werkgebied.",
   },
   {
     icon: Brain,
@@ -52,7 +52,7 @@ const features = [
     icon: Sparkles,
     title: "AI-gegenereerde content",
     description:
-      "Van social media posts tot projectbeschrijvingen — AI schrijft content die past bij jouw bedrijf en doelgroep. Je hoeft alleen nog te reviewen.",
+      "Van social media posts tot projectbeschrijvingen - AI schrijft content die past bij jouw bedrijf en doelgroep. Je hoeft alleen nog te reviewen.",
   },
   {
     icon: Target,
@@ -64,7 +64,7 @@ const features = [
     icon: Bot,
     title: "Slimme antwoordsuggesties",
     description:
-      "Bij elk binnenkomend bericht krijg je AI-suggesties voor een passend antwoord. Eén klik en het bericht is verstuurd — professioneel en persoonlijk.",
+      "Bij elk binnenkomend bericht krijg je AI-suggesties voor een passend antwoord. Eén klik en het bericht is verstuurd - professioneel en persoonlijk.",
   },
 ];
 
@@ -87,7 +87,7 @@ const steps = [
     title: "AI-scan van je bedrijf",
     duration: "30 minuten",
     description:
-      "We analyseren je huidige werkprocessen en identificeren waar AI het meeste impact kan maken. Niet alles hoeft AI te zijn — we focussen op waar het écht helpt.",
+      "We analyseren je huidige werkprocessen en identificeren waar AI het meeste impact kan maken. Niet alles hoeft AI te zijn - we focussen op waar het écht helpt.",
   },
   {
     step: "02",
@@ -114,7 +114,7 @@ const faqs = [
   {
     question: "Merken klanten dat ze met een AI praten?",
     answer:
-      "De chatbot is transparant — klanten weten dat het een assistent is. Maar de antwoorden zijn zo goed dat de meeste klanten geen probleem hebben met de interactie. Bij complexe vragen wordt er altijd doorgeschakeld.",
+      "De chatbot is transparant - klanten weten dat het een assistent is. Maar de antwoorden zijn zo goed dat de meeste klanten geen probleem hebben met de interactie. Bij complexe vragen wordt er altijd doorgeschakeld.",
   },
   {
     question: "Hoe weet de AI wat mijn bedrijf doet?",
@@ -139,7 +139,7 @@ const AiOplossingen = () => (
       <title>AI Oplossingen voor Aannemers | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Gebruik kunstmatige intelligentie om slimmer te werken als aannemer. Van AI chatbots tot automatische offertes — ontdek wat AI voor jouw bedrijf kan doen."
+        content="Gebruik kunstmatige intelligentie om slimmer te werken als aannemer. Van AI chatbots tot automatische offertes - ontdek wat AI voor jouw bedrijf kan doen."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/ai-oplossingen`} />
       <meta property="og:title" content="AI Oplossingen voor Aannemers | Aannemer Systeem" />
@@ -159,14 +159,14 @@ const AiOplossingen = () => (
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Slimmer werken met AI — niet harder
+          Slimmer werken met AI - niet harder
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
           Kunstmatige intelligentie is geen toekomstmuziek meer. Wij passen AI praktisch toe
-          in je aannemersbedrijf — van chatbots en lead kwalificatie tot automatische offertes.
+          in je aannemersbedrijf - van chatbots en lead kwalificatie tot automatische offertes.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -198,7 +198,7 @@ const AiOplossingen = () => (
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Praktische AI-toepassingen die direct resultaat leveren — geen buzzwords, maar tools die werken.
+          Praktische AI-toepassingen die direct resultaat leveren - geen buzzwords, maar tools die werken.
         </motion.p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

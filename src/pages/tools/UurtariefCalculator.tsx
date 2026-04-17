@@ -63,7 +63,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Wat bedoelen jullie met 'declarabele uren'?",
-    a: "Declarabele uren zijn de uren die je direct aan een klant kunt factureren — tijd op de bouwplaats waar de meter loopt. Niet-declarabel is alles eromheen: offertes maken, reistijd, admin, acquisitie, garantiewerk, opleidingen, reparaties aan eigen gereedschap. Voor een ZZP-aannemer is 65% tot 75% van je werkuren declarabel realistisch. Als je uitkomt op 90% ben je niet eerlijk tegen jezelf.",
+    a: "Declarabele uren zijn de uren die je direct aan een klant kunt factureren - tijd op de bouwplaats waar de meter loopt. Niet-declarabel is alles eromheen: offertes maken, reistijd, admin, acquisitie, garantiewerk, opleidingen, reparaties aan eigen gereedschap. Voor een ZZP-aannemer is 65% tot 75% van je werkuren declarabel realistisch. Als je uitkomt op 90% ben je niet eerlijk tegen jezelf.",
   },
   {
     q: "Hoeveel overhead moet ik meetellen?",
@@ -71,15 +71,15 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Moet ik btw meerekenen?",
-    a: "Nee. Het uurtarief dat deze calculator uitrekent is excl. btw — dat is het bedrag dat op jouw boeken als omzet binnenkomt. De btw (21% voor de meeste aannemerswerkzaamheden, 9% voor woning­renovaties ouder dan 2 jaar op specifieke onderdelen) reken je er daarna bovenop voor de klant. Die btw gaat door naar de Belastingdienst, niet naar jou.",
+    a: "Nee. Het uurtarief dat deze calculator uitrekent is excl. btw - dat is het bedrag dat op jouw boeken als omzet binnenkomt. De btw (21% voor de meeste aannemerswerkzaamheden, 9% voor woning­renovaties ouder dan 2 jaar op specifieke onderdelen) reken je er daarna bovenop voor de klant. Die btw gaat door naar de Belastingdienst, niet naar jou.",
   },
   {
     q: "Kan ik mijn tarief gewoon verhogen?",
-    a: "In de meeste gevallen ja — aannemers onderschatten hun eigen positie systematisch. Twee praktische stappen: (1) verhoog eerst bij nieuwe klanten en laat bestaande relaties op het oude tarief staan tot het volgende project, (2) communiceer de verhoging niet als 'het is duurder geworden' maar als 'dit is ons standaardtarief voor dit type werk'. Wie gebaseerd op jouw berekende cijfer een faire prijs rekent, verliest zelden klanten — en de klanten die je wél verliest zaten toch op je krappe marge.",
+    a: "In de meeste gevallen ja - aannemers onderschatten hun eigen positie systematisch. Twee praktische stappen: (1) verhoog eerst bij nieuwe klanten en laat bestaande relaties op het oude tarief staan tot het volgende project, (2) communiceer de verhoging niet als 'het is duurder geworden' maar als 'dit is ons standaardtarief voor dit type werk'. Wie gebaseerd op jouw berekende cijfer een faire prijs rekent, verliest zelden klanten - en de klanten die je wél verliest zaten toch op je krappe marge.",
   },
   {
     q: "Wat als ik in loondienst zit en zelfstandig wil worden?",
-    a: "Reken je bruto maandsalaris om naar netto jaar en gebruik dat als startpunt bij 'gewenst netto jaarinkomen'. Houd er rekening mee dat je als zelfstandige ook vakantiegeld, 13e maand, pensioen­opbouw en werkgevers­bijdragen kwijt bent — tel die bij elkaar op en voeg ~20% toe bij je inkomensdoel. Pas dan zie je eerlijk wat je uurtarief moet zijn om hetzelfde over te houden.",
+    a: "Reken je bruto maandsalaris om naar netto jaar en gebruik dat als startpunt bij 'gewenst netto jaarinkomen'. Houd er rekening mee dat je als zelfstandige ook vakantiegeld, 13e maand, pensioen­opbouw en werkgevers­bijdragen kwijt bent - tel die bij elkaar op en voeg ~20% toe bij je inkomensdoel. Pas dan zie je eerlijk wat je uurtarief moet zijn om hetzelfde over te houden.",
   },
 ];
 
@@ -202,7 +202,7 @@ const UurtariefCalculator = () => {
           >
             Vul je inkomensdoel, werkbare uren, overhead en belasting in. De calculator rekent
             terug wat je <strong>minimaal per declarabel uur</strong> moet factureren om rond
-            te komen — zonder jezelf onderbetaald te werken.
+            te komen - zonder jezelf onderbetaald te werken.
           </motion.p>
         </div>
       </section>
@@ -224,7 +224,7 @@ const UurtariefCalculator = () => {
               <div className="space-y-6">
                 <CalcInput
                   label="Gewenst netto jaarinkomen"
-                  hint="Wat wil je na belasting overhouden voor jezelf? Wees eerlijk — niet wat je nu verdient, maar wat je nodig hebt."
+                  hint="Wat wil je na belasting overhouden voor jezelf? Wees eerlijk - niet wat je nu verdient, maar wat je nodig hebt."
                   value={nettoJaar}
                   onChange={setNettoJaar}
                   min={0}
@@ -236,7 +236,7 @@ const UurtariefCalculator = () => {
 
                 <CalcInput
                   label="Werkbare uren per week"
-                  hint="Totaal aantal uren dat je kunt werken. Inclusief offertes maken, reistijd en admin — niet alleen uren op de bouwplaats."
+                  hint="Totaal aantal uren dat je kunt werken. Inclusief offertes maken, reistijd en admin - niet alleen uren op de bouwplaats."
                   value={urenPerWeek}
                   onChange={setUrenPerWeek}
                   min={0}
@@ -249,7 +249,7 @@ const UurtariefCalculator = () => {
 
                 <CalcInput
                   label="Vakantieweken per jaar"
-                  hint="Vakantie + ziekte + feestdagen. De meeste ZZP-aannemers onderschatten dit — 5 à 6 weken is realistisch."
+                  hint="Vakantie + ziekte + feestdagen. De meeste ZZP-aannemers onderschatten dit - 5 à 6 weken is realistisch."
                   value={vakantieWeken}
                   onChange={setVakantieWeken}
                   min={0}
@@ -345,7 +345,7 @@ const UurtariefCalculator = () => {
                   <span className="font-bold text-accent tabular-nums">
                     {euro.format(extraPer50Cents)}
                   </span>{" "}
-                  extra per jaar op — puur door je prijs iets naar boven bij te stellen.
+                  extra per jaar op - puur door je prijs iets naar boven bij te stellen.
                 </p>
               </motion.div>
             </div>
@@ -420,7 +420,7 @@ const UurtariefCalculator = () => {
             Uurtarief benchmarks per vakgebied
           </motion.h2>
           <motion.p {...fadeInUp} className="mt-4 text-muted-foreground leading-relaxed">
-            Gemiddelde marktarieven in Nederland, excl. btw. Gebruik ze als ijkpunt — jouw
+            Gemiddelde marktarieven in Nederland, excl. btw. Gebruik ze als ijkpunt - jouw
             eigen berekende minimum is belangrijker dan het gemiddelde in je vakgebied.
           </motion.p>
           <motion.div
@@ -476,15 +476,15 @@ const UurtariefCalculator = () => {
             {[
               {
                 title: "Te hoge billability aanname",
-                text: "Veel aannemers rekenen met 40 factureerbare uren per week. In werkelijkheid gaan offertes, reistijd, admin en acquisitie eraf — en hou je 25–30 declarabele uren over. Reken met 65–75% en je cijfer wordt direct eerlijker.",
+                text: "Veel aannemers rekenen met 40 factureerbare uren per week. In werkelijkheid gaan offertes, reistijd, admin en acquisitie eraf - en hou je 25–30 declarabele uren over. Reken met 65–75% en je cijfer wordt direct eerlijker.",
               },
               {
                 title: "Overhead vergeten",
-                text: "Bus, verzekeringen, pensioen, software, boekhouder, opleidingen — samen al snel €1.500 tot €2.000 per maand. Wie dat niet in zijn tarief verwerkt, subsidieert stiekem zijn eigen klanten.",
+                text: "Bus, verzekeringen, pensioen, software, boekhouder, opleidingen - samen al snel €1.500 tot €2.000 per maand. Wie dat niet in zijn tarief verwerkt, subsidieert stiekem zijn eigen klanten.",
               },
               {
                 title: "Vergelijken met de concurrent",
-                text: "Als iedereen in je regio te weinig rekent, wordt dat 'het normale tarief'. Maar de concurrent is niet jouw benchmark — jouw vaste lasten en inkomensdoel zijn dat. Bereken eerst wat jij nodig hebt, onderhandel dan pas met de markt.",
+                text: "Als iedereen in je regio te weinig rekent, wordt dat 'het normale tarief'. Maar de concurrent is niet jouw benchmark - jouw vaste lasten en inkomensdoel zijn dat. Bereken eerst wat jij nodig hebt, onderhandel dan pas met de markt.",
               },
             ].map((item, i) => (
               <motion.div

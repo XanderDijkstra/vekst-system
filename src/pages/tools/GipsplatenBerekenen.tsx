@@ -70,8 +70,8 @@ const GipsplatenBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Gipsplaten berekenen — platen, profielen en schroeven | Aannemer Systeem</title>
-        <meta name="description" content="Bereken hoeveel gipsplaten, metal stud profielen en schroeven je nodig hebt. Kies je plaatformaat, vul de m² in — direct resultaat." />
+        <title>Gipsplaten berekenen - platen, profielen en schroeven | Aannemer Systeem</title>
+        <meta name="description" content="Bereken hoeveel gipsplaten, metal stud profielen en schroeven je nodig hebt. Kies je plaatformaat, vul de m² in - direct resultaat." />
         <link rel="canonical" href={PAGE} />
         <meta property="og:title" content="Gipsplaten berekenen | Aannemer Systeem" />
         <meta property="og:description" content="Bereken hoeveel gipsplaten, profielen en schroeven je nodig hebt." />
@@ -88,7 +88,7 @@ const GipsplatenBerekenen = () => {
           </motion.div>
           <motion.h1 {...fadeInUp} className="mt-4 text-4xl md:text-5xl font-bold tracking-tight">Gipsplaten berekenen</motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-            Bereken hoeveel gipsplaten, metal stud profielen, schroeven en voegband je nodig hebt — inclusief 10% snijverlies.
+            Bereken hoeveel gipsplaten, metal stud profielen, schroeven en voegband je nodig hebt - inclusief 10% snijverlies.
           </motion.p>
         </div>
       </section>
@@ -151,7 +151,7 @@ const GipsplatenBerekenen = () => {
               De calculator neemt je wandoppervlakte, telt <strong>10% snijverlies</strong> op en deelt door het m² per plaat. Profielen worden berekend op basis van staanders om de 60 cm + boven-/onderrails. Schroeven: 25 per m² gipsplaat, om de 15-20 cm langs elk profiel.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld — scheidingswand 25 m², enkel, 120×260 platen:</p>
+              <p className="font-semibold">Voorbeeld - scheidingswand 25 m², enkel, 120×260 platen:</p>
               <p>Met snijverlies: 25 × 1,10 = <strong>27,5 m²</strong></p>
               <p>Platen: 27,5 / 3,12 = 8,8 → <strong>9 platen</strong></p>
               <p>Profielen: 25 × 2,5 = <strong>63 m</strong></p>

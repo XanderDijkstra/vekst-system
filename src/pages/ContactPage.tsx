@@ -125,7 +125,7 @@ const ContactPage = () => {
                 Stuur ons een bericht
               </h2>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-                Vertel ons kort over je bedrijf en waar je hulp bij zoekt. We reageren binnen 24 uur op werkdagen met een persoonlijk antwoord — geen generieke verkooppraatjes.
+                Vertel ons kort over je bedrijf en waar je hulp bij zoekt. We reageren binnen 24 uur op werkdagen met een persoonlijk antwoord - geen generieke verkooppraatjes.
               </p>
 
               <div className="mt-10 space-y-4">

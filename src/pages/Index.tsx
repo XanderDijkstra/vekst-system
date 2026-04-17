@@ -43,11 +43,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Aannemer Systeem — Digitale systemen voor moderne aannemers</title>
+        <title>Aannemer Systeem - Digitale systemen voor moderne aannemers</title>
         <meta name="description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
         <link rel="canonical" href={SITE_URL} />
         <meta property="og:site_name" content={SITE_NAME} />
-        <meta property="og:title" content="Aannemer Systeem — Digitale systemen voor moderne aannemers" />
+        <meta property="og:title" content="Aannemer Systeem - Digitale systemen voor moderne aannemers" />
         <meta property="og:description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:type" content="website" />
@@ -55,7 +55,7 @@ const Index = () => {
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content={TWITTER_HANDLE} />
-        <meta name="twitter:title" content="Aannemer Systeem — Digitale systemen voor moderne aannemers" />
+        <meta name="twitter:title" content="Aannemer Systeem - Digitale systemen voor moderne aannemers" />
         <meta name="twitter:description" content="Minder administratie, meer tijd op de werf. Aannemer Systeem maakt digitale systemen die aannemers helpen hun processen te automatiseren." />
         <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>

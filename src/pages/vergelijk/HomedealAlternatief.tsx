@@ -28,7 +28,7 @@ const problems = [
   {
     title: "Je deelt elke lead met meerdere aannemers",
     description:
-      "Homedeal stuurt dezelfde aanvraag naar meerdere bedrijven tegelijk. De klant vergelijkt op prijs en snelheid — niet op vakmanschap. Je besteedt uren aan offertes die nergens toe leiden omdat een concurrent net iets goedkoper was.",
+      "Homedeal stuurt dezelfde aanvraag naar meerdere bedrijven tegelijk. De klant vergelijkt op prijs en snelheid - niet op vakmanschap. Je besteedt uren aan offertes die nergens toe leiden omdat een concurrent net iets goedkoper was.",
   },
   {
     title: "Leadkosten stijgen, kwaliteit daalt",
@@ -38,7 +38,7 @@ const problems = [
   {
     title: "Geen controle over je presentatie",
     description:
-      "Op Homedeal bepaalt het platform hoe je gepresenteerd wordt. Je kunt niet je eigen branding, tone-of-voice of portfolio laten zien. Klanten zien een gestandaardiseerd profiel naast drie andere aannemers — je bent een nummer in een lijst.",
+      "Op Homedeal bepaalt het platform hoe je gepresenteerd wordt. Je kunt niet je eigen branding, tone-of-voice of portfolio laten zien. Klanten zien een gestandaardiseerd profiel naast drie andere aannemers - je bent een nummer in een lijst.",
   },
   {
     title: "Je bouwt geen eigen online aanwezigheid op",
@@ -49,9 +49,9 @@ const problems = [
 
 const comparison = [
   { aspect: "Kosten per maand", homedeal: "€300–€1.000/maand (variabel, per lead)", systeem: "€279/maand vast" },
-  { aspect: "Kosten per lead", homedeal: "€15–€65 per lead, ongeacht kwaliteit", systeem: "€0 — onbeperkte leads via eigen website" },
+  { aspect: "Kosten per lead", homedeal: "€15–€65 per lead, ongeacht kwaliteit", systeem: "€0 - onbeperkte leads via eigen website" },
   { aspect: "Concurrentie per aanvraag", homedeal: "2–4 andere aannemers per lead", systeem: "Klant belt rechtstreeks jou" },
-  { aspect: "Eigen website", homedeal: "Nee — gestandaardiseerd platformprofiel", systeem: "Ja — eigen merk en domein" },
+  { aspect: "Eigen website", homedeal: "Nee - gestandaardiseerd platformprofiel", systeem: "Ja - eigen merk en domein" },
   { aspect: "Google vindbaarheid", homedeal: "Geen impact op je eigen positie", systeem: "Volledig geoptimaliseerd voor lokale SEO" },
   { aspect: "Google reviews", homedeal: "Reviews blijven op Homedeal", systeem: "Automatische Google reviews na elke klus" },
   { aspect: "Klantrelatie", homedeal: "Homedeal is de tussenpersoon", systeem: "Directe relatie met klant" },
@@ -99,12 +99,12 @@ const faqs = [
   {
     question: "Hoeveel kost Homedeal per maand?",
     answer:
-      "De kosten bij Homedeal variëren: je betaalt €15–€65 per lead afhankelijk van de categorie en grootte van het project. De meeste aannemers spenderen €300–€1.000 per maand. Bij Aannemer Systeem betaal je een vast bedrag van €279 per maand voor een complete website, SEO, reviews en lead opvolging — met onbeperkte leads.",
+      "De kosten bij Homedeal variëren: je betaalt €15–€65 per lead afhankelijk van de categorie en grootte van het project. De meeste aannemers spenderen €300–€1.000 per maand. Bij Aannemer Systeem betaal je een vast bedrag van €279 per maand voor een complete website, SEO, reviews en lead opvolging - met onbeperkte leads.",
   },
   {
     question: "Hoe snel krijg ik leads via mijn eigen website?",
     answer:
-      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken resultaat. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden meer aanvragen via hun eigen website dan via Homedeal — zonder leadkosten.",
+      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken resultaat. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden meer aanvragen via hun eigen website dan via Homedeal - zonder leadkosten.",
   },
   {
     question: "Kan ik Homedeal blijven gebruiken naast een eigen website?",
@@ -114,7 +114,7 @@ const faqs = [
   {
     question: "Wat als ik al reviews op Homedeal heb?",
     answer:
-      "Reviews op Homedeal blijven op Homedeal — ze helpen niet met je Google-positie. Met Aannemer Systeem bouw je automatisch Google reviews op die wél bijdragen aan je vindbaarheid. Je kunt op je website wel verwijzen naar je Homedeal-score als extra sociaal bewijs.",
+      "Reviews op Homedeal blijven op Homedeal - ze helpen niet met je Google-positie. Met Aannemer Systeem bouw je automatisch Google reviews op die wél bijdragen aan je vindbaarheid. Je kunt op je website wel verwijzen naar je Homedeal-score als extra sociaal bewijs.",
   },
 ];
 
@@ -167,7 +167,7 @@ const HomedealAlternatief = () => (
           Homedeal Alternatief: Eigen Leads zonder Leadkosten
         </motion.h1>
         <motion.p {...fadeInUp} className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/75 leading-relaxed">
-          Homedeal rekent €15–€65 per lead, deelt elke aanvraag met meerdere aannemers en bouwt niets op voor jouw bedrijf. Ontdek waarom een eigen website meer oplevert — voor minder geld.
+          Homedeal rekent €15–€65 per lead, deelt elke aanvraag met meerdere aannemers en bouwt niets op voor jouw bedrijf. Ontdek waarom een eigen website meer oplevert - voor minder geld.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -276,7 +276,7 @@ const HomedealAlternatief = () => (
             Het probleem ontstaat wanneer Homedeal je enige bron van klanten is. De leadkosten stijgen jaarlijks, de kwaliteit van leads fluctueert en je hebt geen controle over je instroom. Je bouwt niets eigens op.
           </p>
           <p>
-            De slimste aannemers gebruiken Homedeal als aanvulling terwijl ze hun eigen website en Google-positie opbouwen. Na 3–6 maanden komt het merendeel van hun leads via Google — gratis — en wordt Homedeal een optioneel extraatje.
+            De slimste aannemers gebruiken Homedeal als aanvulling terwijl ze hun eigen website en Google-positie opbouwen. Na 3–6 maanden komt het merendeel van hun leads via Google - gratis - en wordt Homedeal een optioneel extraatje.
           </p>
         </motion.div>
         <motion.div {...fadeInUp} className="mt-10 grid gap-3 sm:grid-cols-2">
@@ -322,7 +322,7 @@ const HomedealAlternatief = () => (
       <div className="container max-w-4xl text-center">
         <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">Ook interessant</p>
         <h3 className="text-2xl font-bold text-foreground">Werkspot vs Aannemer Systeem</h3>
-        <p className="mt-2 text-muted-foreground max-w-xl mx-auto">Vergelijk ook Werkspot met een eigen website — dezelfde problemen, net iets ander model.</p>
+        <p className="mt-2 text-muted-foreground max-w-xl mx-auto">Vergelijk ook Werkspot met een eigen website - dezelfde problemen, net iets ander model.</p>
         <div className="mt-6">
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
             <Link to="/vergelijk/werkspot-alternatief">Bekijk de vergelijking <ArrowRight className="ml-2 h-4 w-4" /></Link>

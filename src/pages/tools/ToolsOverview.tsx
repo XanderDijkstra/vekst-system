@@ -28,7 +28,7 @@ const tools: Tool[] = [
   {
     title: "Leadwaarde calculator",
     description:
-      "Bereken wat een lead jouw aannemersbedrijf oplevert. Vul aanvragen per maand, scorings­percentage en projectwaarde in — krijg direct je omzet per maand.",
+      "Bereken wat een lead jouw aannemersbedrijf oplevert. Vul aanvragen per maand, scorings­percentage en projectwaarde in - krijg direct je omzet per maand.",
     href: "/tools/leadwaarde-calculator",
     icon: TrendingUp,
     status: "live",
@@ -36,7 +36,7 @@ const tools: Tool[] = [
   {
     title: "Uurtarief calculator aannemer",
     description:
-      "Bereken wat je minimaal per uur moet rekenen als aannemer. Op basis van je inkomensdoel, werkbare uren, overhead en belasting — geen giswerk meer.",
+      "Bereken wat je minimaal per uur moet rekenen als aannemer. Op basis van je inkomensdoel, werkbare uren, overhead en belasting - geen giswerk meer.",
     href: "/tools/uurtarief-calculator-aannemer",
     icon: Clock,
     status: "live",
@@ -44,7 +44,7 @@ const tools: Tool[] = [
   {
     title: "Projectmarge calculator",
     description:
-      "Vul je offertebedrag en kostenposten in — zie direct je bruto- en nettomarge, en hoeveel de kosten mogen stijgen voordat je break-even draait.",
+      "Vul je offertebedrag en kostenposten in - zie direct je bruto- en nettomarge, en hoeveel de kosten mogen stijgen voordat je break-even draait.",
     href: "/tools/projectmarge-calculator",
     icon: Euro,
     status: "live",
@@ -60,7 +60,7 @@ const tools: Tool[] = [
   {
     title: "Bouwmaterialen berekenen",
     description:
-      "Bereken hoeveel tegels, verf, beton, laminaat en andere bouwmaterialen je nodig hebt — inclusief snijverlies en hulpmaterialen.",
+      "Bereken hoeveel tegels, verf, beton, laminaat en andere bouwmaterialen je nodig hebt - inclusief snijverlies en hulpmaterialen.",
     href: "/tools/bouwmaterialen-berekenen",
     icon: Hammer,
     status: "live",
@@ -101,7 +101,7 @@ const ToolsOverview = () => (
       <title>Rekentools voor aannemers | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Gratis rekentools voor aannemers: bereken leadwaarde, marketing ROI, uurtarief en meer. Direct in je browser — geen registratie, geen e-mailadres."
+        content="Gratis rekentools voor aannemers: bereken leadwaarde, marketing ROI, uurtarief en meer. Direct in je browser - geen registratie, geen e-mailadres."
       />
       <link rel="canonical" href={`${SITE_URL}/tools`} />
       <meta property="og:title" content="Rekentools voor aannemers | Aannemer Systeem" />
@@ -133,7 +133,7 @@ const ToolsOverview = () => (
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Snelle, eerlijke cijfers voor je eigen bedrijf. Geen registratie, geen e-mailadres —
+          Snelle, eerlijke cijfers voor je eigen bedrijf. Geen registratie, geen e-mailadres -
           vul je getallen in en zie direct waar je staat.
         </motion.p>
       </div>

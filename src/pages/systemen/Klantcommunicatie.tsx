@@ -45,7 +45,7 @@ const features = [
     icon: MessageSquare,
     title: "Persoonlijk SMS-bericht",
     description:
-      "Geen generieke berichten. Elk SMS-bericht wordt aangepast aan jouw bedrijfsnaam en tone-of-voice, zodat het voelt alsof jij persoonlijk reageert — ook als je op de werf staat.",
+      "Geen generieke berichten. Elk SMS-bericht wordt aangepast aan jouw bedrijfsnaam en tone-of-voice, zodat het voelt alsof jij persoonlijk reageert - ook als je op de werf staat.",
   },
   {
     icon: Zap,
@@ -91,7 +91,7 @@ const Klantcommunicatie = () => {
     <PageShell>
       <Helmet>
         <title>Automatische SMS bij Gemiste Oproep | Aannemer Systeem</title>
-        <meta name="description" content="Automatisch een SMS sturen bij een gemiste oproep op de werf. Mis nooit meer een klant — 85% reageert sneller op SMS dan op voicemail." />
+        <meta name="description" content="Automatisch een SMS sturen bij een gemiste oproep op de werf. Mis nooit meer een klant - 85% reageert sneller op SMS dan op voicemail." />
         <link rel="canonical" href="https://aannemersysteem.com/diensten/klantcommunicatie" />
         <meta property="og:title" content="Gemiste Oproep → SMS Bericht | Aannemer Systeem" />
         <meta property="og:description" content="Automatisch een SMS sturen wanneer je een oproep mist op de werf." />

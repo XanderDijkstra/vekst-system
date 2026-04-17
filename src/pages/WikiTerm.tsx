@@ -56,7 +56,7 @@ const WikiTerm = () => {
         <title>{term.term} | Wiki | Aannemer Systeem</title>
         <meta name="description" content={term.shortDescription} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={`${term.term} — uitgelegd voor aannemers`} />
+        <meta property="og:title" content={`${term.term} - uitgelegd voor aannemers`} />
         <meta property="og:description" content={term.shortDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="article" />
@@ -65,7 +65,7 @@ const WikiTerm = () => {
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content={TWITTER_HANDLE} />
-        <meta name="twitter:title" content={`${term.term} — uitgelegd voor aannemers`} />
+        <meta name="twitter:title" content={`${term.term} - uitgelegd voor aannemers`} />
         <meta name="twitter:description" content={term.shortDescription} />
         <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

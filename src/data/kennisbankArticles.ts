@@ -26,7 +26,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom automatisering essentieel is",
-        body: "Als aannemer draait alles om tijd. Elke minuut die je besteedt aan administratie is een minuut die je niet op de werf doorbrengt. Automatisering helpt je om repetitieve taken — zoals het versturen van offertes, opvolgen van leads en plannen van afspraken — uit handen te geven aan slimme systemen. Het resultaat: minder fouten, snellere opvolging en meer omzet."
+        body: "Als aannemer draait alles om tijd. Elke minuut die je besteedt aan administratie is een minuut die je niet op de werf doorbrengt. Automatisering helpt je om repetitieve taken - zoals het versturen van offertes, opvolgen van leads en plannen van afspraken - uit handen te geven aan slimme systemen. Het resultaat: minder fouten, snellere opvolging en meer omzet."
       },
       {
         heading: "De grootste tijdvreters voor aannemers",
@@ -34,11 +34,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Welke processen kun je automatiseren?",
-        body: "De meest impactvolle automatiseringen voor aannemers zijn: (1) Lead opvolging — automatische SMS of e-mail binnen 5 minuten na een aanvraag. (2) Offerte-opvolging — herinneringen als een offerte niet binnen 48 uur is geaccepteerd. (3) Review-verzoeken — automatisch reviews vragen na oplevering van een project. (4) Afspraakbevestigingen — automatische bevestigingen en herinneringen voor bezichtigingen. (5) Factuurherinneringen — geautomatiseerde betalingsherinneringen."
+        body: "De meest impactvolle automatiseringen voor aannemers zijn: (1) Lead opvolging - automatische SMS of e-mail binnen 5 minuten na een aanvraag. (2) Offerte-opvolging - herinneringen als een offerte niet binnen 48 uur is geaccepteerd. (3) Review-verzoeken - automatisch reviews vragen na oplevering van een project. (4) Afspraakbevestigingen - automatische bevestigingen en herinneringen voor bezichtigingen. (5) Factuurherinneringen - geautomatiseerde betalingsherinneringen."
       },
       {
         heading: "De ROI van automatisering",
-        body: "Aannemers die automatisering inzetten zien gemiddeld 40% meer conversie uit leads doordat er sneller wordt opgevolgd. Daarnaast bespaar je gemiddeld 10-15 uur per week aan administratief werk. Bij een gemiddeld uurtarief van €50 is dat €2.000-€3.000 per maand aan besparing — puur door slimmer te werken."
+        body: "Aannemers die automatisering inzetten zien gemiddeld 40% meer conversie uit leads doordat er sneller wordt opgevolgd. Daarnaast bespaar je gemiddeld 10-15 uur per week aan administratief werk. Bij een gemiddeld uurtarief van €50 is dat €2.000-€3.000 per maand aan besparing - puur door slimmer te werken."
       },
       {
         heading: "Hoe begin je met automatiseren?",
@@ -77,7 +77,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "In 3 stappen starten met een CRM",
-        body: "Stap 1: Importeer al je bestaande contacten — klanten, leveranciers, prospects. Stap 2: Stel je verkooppijplijn in met de fases die bij jouw bedrijf passen (aanvraag → bezichtiging → offerte → akkoord → uitvoering → oplevering). Stap 3: Maak er een gewoonte van om elke interactie vast te leggen. Na twee weken is het een automatisme en vraag je je af hoe je ooit zonder hebt gewerkt."
+        body: "Stap 1: Importeer al je bestaande contacten - klanten, leveranciers, prospects. Stap 2: Stel je verkooppijplijn in met de fases die bij jouw bedrijf passen (aanvraag → bezichtiging → offerte → akkoord → uitvoering → oplevering). Stap 3: Maak er een gewoonte van om elke interactie vast te leggen. Na twee weken is het een automatisme en vraag je je af hoe je ooit zonder hebt gewerkt."
       }
     ]
   },
@@ -161,7 +161,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "AI is geen toekomstmuziek meer",
-        body: "Kunstmatige intelligentie klinkt misschien als iets voor techbedrijven, maar het is al volop beschikbaar voor aannemers. Van chatbots die 24/7 vragen van potentiële klanten beantwoorden tot slimme algoritmes die je helpen bij het inschatten van projectkosten — AI maakt je bedrijf slimmer en efficiënter zonder dat je er een IT-afdeling voor nodig hebt."
+        body: "Kunstmatige intelligentie klinkt misschien als iets voor techbedrijven, maar het is al volop beschikbaar voor aannemers. Van chatbots die 24/7 vragen van potentiële klanten beantwoorden tot slimme algoritmes die je helpen bij het inschatten van projectkosten - AI maakt je bedrijf slimmer en efficiënter zonder dat je er een IT-afdeling voor nodig hebt."
       },
       {
         heading: "Praktische AI-toepassingen voor aannemers",
@@ -201,7 +201,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Je online aanwezigheid als fundament",
-        body: "Alles begint met een professionele website die vertrouwen wekt. Toon je uitgevoerde projecten met goede foto's, verzamel en toon klantreviews, en maak het makkelijk om contact op te nemen. Zorg dat je website snel laadt op mobiel — 60% van je bezoekers komt via hun telefoon. Een website die er professioneel uitziet, overtuigt klanten dat jij ook professioneel werk levert."
+        body: "Alles begint met een professionele website die vertrouwen wekt. Toon je uitgevoerde projecten met goede foto's, verzamel en toon klantreviews, en maak het makkelijk om contact op te nemen. Zorg dat je website snel laadt op mobiel - 60% van je bezoekers komt via hun telefoon. Een website die er professioneel uitziet, overtuigt klanten dat jij ook professioneel werk levert."
       },
       {
         heading: "Google Ads vs. organisch verkeer",
@@ -209,7 +209,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Social media voor aannemers",
-        body: "Instagram en Facebook zijn uitstekende kanalen om je werk te tonen. Deel voor-en-na foto's van projecten, geef een kijkje achter de schermen en deel tips over onderhoud. Je hoeft geen social media expert te zijn — 2-3 posts per week is voldoende. Het belangrijkste is consistentie. Na 3-6 maanden bouw je een volgersbestand op dat regelmatig leads oplevert."
+        body: "Instagram en Facebook zijn uitstekende kanalen om je werk te tonen. Deel voor-en-na foto's van projecten, geef een kijkje achter de schermen en deel tips over onderhoud. Je hoeft geen social media expert te zijn - 2-3 posts per week is voldoende. Het belangrijkste is consistentie. Na 3-6 maanden bouw je een volgersbestand op dat regelmatig leads oplevert."
       },
       {
         heading: "De kracht van reviews",
@@ -236,15 +236,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom Google Mijn Bedrijf cruciaal is",
-        body: "Google Mijn Bedrijf (nu Google Business Profile) is het eerste wat potentiële klanten zien als ze zoeken op 'aannemer bij mij in de buurt'. Je profiel toont je contactgegevens, reviews, foto's en openingstijden direct in de zoekresultaten. Een goed geoptimaliseerd profiel kan je aantal aanvragen met 50% verhogen — en het is helemaal gratis."
+        body: "Google Mijn Bedrijf (nu Google Business Profile) is het eerste wat potentiële klanten zien als ze zoeken op 'aannemer bij mij in de buurt'. Je profiel toont je contactgegevens, reviews, foto's en openingstijden direct in de zoekresultaten. Een goed geoptimaliseerd profiel kan je aantal aanvragen met 50% verhogen - en het is helemaal gratis."
       },
       {
         heading: "Je profiel optimaliseren in 5 stappen",
-        body: "1) Vul ALLE velden in — bedrijfsnaam, adres, telefoonnummer, website, werkgebied, diensten. 2) Kies de juiste categorieën — 'Aannemer' als hoofdcategorie, en voeg relevante subcategorieën toe. 3) Upload minstens 20 foto's van uitgevoerde projecten, je team en je voertuigen. 4) Schrijf een uitgebreide bedrijfsbeschrijving met relevante zoekwoorden. 5) Voeg je diensten toe met beschrijvingen en prijsindicaties."
+        body: "1) Vul ALLE velden in - bedrijfsnaam, adres, telefoonnummer, website, werkgebied, diensten. 2) Kies de juiste categorieën - 'Aannemer' als hoofdcategorie, en voeg relevante subcategorieën toe. 3) Upload minstens 20 foto's van uitgevoerde projecten, je team en je voertuigen. 4) Schrijf een uitgebreide bedrijfsbeschrijving met relevante zoekwoorden. 5) Voeg je diensten toe met beschrijvingen en prijsindicaties."
       },
       {
         heading: "Reviews: de sleutel tot een hoge ranking",
-        body: "Google beloont bedrijven met veel recente, positieve reviews met een hogere positie in de lokale zoekresultaten. Reageer altijd op reviews — zowel positieve als negatieve. Een professionele reactie op een negatieve review laat potentiële klanten zien dat je feedback serieus neemt. Streef naar minimaal 5 nieuwe reviews per maand om je ranking te behouden en te verbeteren."
+        body: "Google beloont bedrijven met veel recente, positieve reviews met een hogere positie in de lokale zoekresultaten. Reageer altijd op reviews - zowel positieve als negatieve. Een professionele reactie op een negatieve review laat potentiële klanten zien dat je feedback serieus neemt. Streef naar minimaal 5 nieuwe reviews per maand om je ranking te behouden en te verbeteren."
       },
       {
         heading: "Posts en updates plaatsen",
@@ -252,7 +252,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Veelgemaakte fouten vermijden",
-        body: "De grootste fouten die aannemers maken: inconsistente NAW-gegevens (naam, adres, telefoon) op verschillende platforms, te weinig foto's, niet reageren op reviews, en het profiel niet up-to-date houden. Zorg dat je bedrijfsgegevens overal exact hetzelfde zijn — dit is cruciaal voor je lokale SEO. En verwijder verouderde foto's en voeg regelmatig nieuwe toe."
+        body: "De grootste fouten die aannemers maken: inconsistente NAW-gegevens (naam, adres, telefoon) op verschillende platforms, te weinig foto's, niet reageren op reviews, en het profiel niet up-to-date houden. Zorg dat je bedrijfsgegevens overal exact hetzelfde zijn - dit is cruciaal voor je lokale SEO. En verwijder verouderde foto's en voeg regelmatig nieuwe toe."
       }
     ]
   },
@@ -271,11 +271,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Reviews bepalen wie de opdracht krijgt",
-        body: "In een sector waar vertrouwen alles is, zijn online reviews het digitale equivalent van een aanbeveling van een vriend. 93% van de consumenten zegt dat online reviews hun aankoopbeslissing beïnvloeden. Voor bouwprojecten — die vaak duizenden euro's kosten — is dit nog belangrijker. Klanten willen bewijs dat je betrouwbaar bent voordat ze je in huis halen."
+        body: "In een sector waar vertrouwen alles is, zijn online reviews het digitale equivalent van een aanbeveling van een vriend. 93% van de consumenten zegt dat online reviews hun aankoopbeslissing beïnvloeden. Voor bouwprojecten - die vaak duizenden euro's kosten - is dit nog belangrijker. Klanten willen bewijs dat je betrouwbaar bent voordat ze je in huis halen."
       },
       {
         heading: "De cijfers spreken voor zich",
-        body: "Aannemers met een gemiddelde score van 4.5 sterren of hoger ontvangen 270% meer aanvragen dan bedrijven met minder dan 4 sterren. Elk extra review verhoogt je conversie met gemiddeld 0.5%. En bedrijven die actief reviews verzamelen, groeien 2x sneller dan bedrijven die dat niet doen. Reviews zijn geen nice-to-have — ze zijn essentieel voor groei."
+        body: "Aannemers met een gemiddelde score van 4.5 sterren of hoger ontvangen 270% meer aanvragen dan bedrijven met minder dan 4 sterren. Elk extra review verhoogt je conversie met gemiddeld 0.5%. En bedrijven die actief reviews verzamelen, groeien 2x sneller dan bedrijven die dat niet doen. Reviews zijn geen nice-to-have - ze zijn essentieel voor groei."
       },
       {
         heading: "Hoe vraag je om reviews zonder opdringerig te zijn?",
@@ -283,7 +283,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Omgaan met negatieve reviews",
-        body: "Elke ondernemer krijgt weleens een negatieve review. Het verschil zit in hoe je ermee omgaat. Reageer altijd professioneel en binnen 24 uur. Erken het probleem, bied een oplossing aan en nodig de klant uit om contact op te nemen. Potentiële klanten die je reactie lezen, worden vaak juist overtuigd door je professionele houding. Verwijder nooit negatieve reviews — dat beschadigt je geloofwaardigheid."
+        body: "Elke ondernemer krijgt weleens een negatieve review. Het verschil zit in hoe je ermee omgaat. Reageer altijd professioneel en binnen 24 uur. Erken het probleem, bied een oplossing aan en nodig de klant uit om contact op te nemen. Potentiële klanten die je reactie lezen, worden vaak juist overtuigd door je professionele houding. Verwijder nooit negatieve reviews - dat beschadigt je geloofwaardigheid."
       },
       {
         heading: "Een review-strategie opzetten",
@@ -310,7 +310,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Waar betaal je voor?",
-        body: "De kosten van een website bestaan uit: ontwerp en ontwikkeling (eenmalig), hosting en domein (jaarlijks €100-€300), onderhoud en updates (maandelijks €50-€150), en optioneel SEO-optimalisatie en content (maandelijks €200-€500). Een goedkope website van €500 ziet er vaak ook goedkoop uit en mist essentiële functies. Investeer liever iets meer in kwaliteit — het verschil in conversie is enorm."
+        body: "De kosten van een website bestaan uit: ontwerp en ontwikkeling (eenmalig), hosting en domein (jaarlijks €100-€300), onderhoud en updates (maandelijks €50-€150), en optioneel SEO-optimalisatie en content (maandelijks €200-€500). Een goedkope website van €500 ziet er vaak ook goedkoop uit en mist essentiële functies. Investeer liever iets meer in kwaliteit - het verschil in conversie is enorm."
       },
       {
         heading: "Wat moet een goede aannemer-website bevatten?",
@@ -329,7 +329,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "werkspot-vs-eigen-website",
     title: "Werkspot vs. eigen website: wat levert meer klanten op?",
-    description: "Werkspot of een eigen website — wat werkt beter voor aannemers? Eerlijke vergelijking van kosten, leadkwaliteit en conversie.",
+    description: "Werkspot of een eigen website - wat werkt beter voor aannemers? Eerlijke vergelijking van kosten, leadkwaliteit en conversie.",
     category: "Strategie",
     readTime: "6 min",
     date: "2025-11-14",
@@ -377,7 +377,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom loodgieters online moeten zijn",
-        body: "Als iemand een lekkage heeft of een nieuwe badkamer wil, pakt hij zijn telefoon en zoekt op Google. 78% van de consumenten zoekt lokaal naar een loodgieter. Als je niet bovenaan staat — of helemaal niet vindbaar bent — gaat de klant naar je concurrent. Een sterke online aanwezigheid is voor loodgieters geen luxe meer, maar een noodzaak om te overleven in een competitieve markt."
+        body: "Als iemand een lekkage heeft of een nieuwe badkamer wil, pakt hij zijn telefoon en zoekt op Google. 78% van de consumenten zoekt lokaal naar een loodgieter. Als je niet bovenaan staat - of helemaal niet vindbaar bent - gaat de klant naar je concurrent. Een sterke online aanwezigheid is voor loodgieters geen luxe meer, maar een noodzaak om te overleven in een competitieve markt."
       },
       {
         heading: "Lokale SEO: de sleutel voor loodgieters",
@@ -385,7 +385,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Spoedklussen: een goudmijn voor slimme loodgieters",
-        body: "Spoedklussen zoals lekkages en verstoppingen zijn uiterst winstgevend. De klant heeft geen tijd om 5 offertes te vergelijken — hij wil nú iemand. Zorg dat je website en Google Ads gericht zijn op spoedzoekopdrachten: 'spoedloodgieter', 'lekkage verhelpen nu', 'wc verstopt hulp'. Wie als eerste reageert, wint de klus. Een gemiste oproep SMS-systeem zorgt ervoor dat je ook klanten opvangt als je onder de douche staat — letterlijk."
+        body: "Spoedklussen zoals lekkages en verstoppingen zijn uiterst winstgevend. De klant heeft geen tijd om 5 offertes te vergelijken - hij wil nú iemand. Zorg dat je website en Google Ads gericht zijn op spoedzoekopdrachten: 'spoedloodgieter', 'lekkage verhelpen nu', 'wc verstopt hulp'. Wie als eerste reageert, wint de klus. Een gemiste oproep SMS-systeem zorgt ervoor dat je ook klanten opvangt als je onder de douche staat - letterlijk."
       },
       {
         heading: "Reviews: onmisbaar in de loodgietersbranche",
@@ -417,7 +417,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Laat je werk voor je spreken: visuele marketing",
-        body: "Schilderwerk leent zich perfect voor visuele marketing. Maak voor-en-na foto's van elk project — dit is je krachtigste marketingtool. Deel deze op je website, Instagram en Facebook. Een goed portfolio op je website overtuigt meer dan welke verkooppraatje dan ook. Tip: maak ook korte video's (30-60 seconden) van het schilderproces. Dit soort content scoort uitstekend op social media en laat je vakmanschap zien."
+        body: "Schilderwerk leent zich perfect voor visuele marketing. Maak voor-en-na foto's van elk project - dit is je krachtigste marketingtool. Deel deze op je website, Instagram en Facebook. Een goed portfolio op je website overtuigt meer dan welke verkooppraatje dan ook. Tip: maak ook korte video's (30-60 seconden) van het schilderproces. Dit soort content scoort uitstekend op social media en laat je vakmanschap zien."
       },
       {
         heading: "Seizoensgebonden marketing slim inzetten",
@@ -457,11 +457,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Spoed-leads: de meest waardevolle klanten",
-        body: "Daklekkages zijn spoedklussen — de klant wil direct iemand. Deze leads zijn extreem waardevol omdat er geen prijsvergelijking plaatsvindt. Zorg dat je website een duidelijke 'spoed' sectie heeft met een direct telefoonnummer. Gebruik Google Ads op zoektermen als 'daklekkage spoed' en 'nood dakdekker'. En implementeer een gemiste oproep systeem: als je niet kunt opnemen, ontvangt de klant automatisch een SMS dat je zo terugbelt. Dit voorkomt dat spoedklanten doorzoeken naar je concurrent."
+        body: "Daklekkages zijn spoedklussen - de klant wil direct iemand. Deze leads zijn extreem waardevol omdat er geen prijsvergelijking plaatsvindt. Zorg dat je website een duidelijke 'spoed' sectie heeft met een direct telefoonnummer. Gebruik Google Ads op zoektermen als 'daklekkage spoed' en 'nood dakdekker'. En implementeer een gemiste oproep systeem: als je niet kunt opnemen, ontvangt de klant automatisch een SMS dat je zo terugbelt. Dit voorkomt dat spoedklanten doorzoeken naar je concurrent."
       },
       {
         heading: "Seizoensmarketing voor dakdekkers",
-        body: "Na storm- en hagelseizoenen exploderen de zoekopdrachten voor dakwerk. Wees hierop voorbereid met specifieke landingspagina's voor stormschade en hagelschade. Verhoog je Google Ads-budget direct na extreme weersomstandigheden. Stuur bestaande klanten een check-up aanbod: 'Na de storm van vorige week — laat uw dak gratis inspecteren.' Deze proactieve benadering levert zowel nieuwe als terugkerende klanten op."
+        body: "Na storm- en hagelseizoenen exploderen de zoekopdrachten voor dakwerk. Wees hierop voorbereid met specifieke landingspagina's voor stormschade en hagelschade. Verhoog je Google Ads-budget direct na extreme weersomstandigheden. Stuur bestaande klanten een check-up aanbod: 'Na de storm van vorige week - laat uw dak gratis inspecteren.' Deze proactieve benadering levert zowel nieuwe als terugkerende klanten op."
       },
       {
         heading: "Van losse klussen naar structurele groei",
@@ -485,7 +485,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "De digitale kans voor elektriciens",
-        body: "Elektriciens hebben een uniek voordeel: hun diensten zijn altijd nodig. Van nieuwbouw installaties tot storingen en uitbreidingen met laadpalen of zonnepanelen — de vraag groeit. Toch zijn veel elektriciens online nauwelijks zichtbaar. Dit is een enorme gemiste kans. Klanten zoeken steeds vaker online naar 'elektricien in de buurt' en kiezen het bedrijf dat het meest professioneel en betrouwbaar overkomt."
+        body: "Elektriciens hebben een uniek voordeel: hun diensten zijn altijd nodig. Van nieuwbouw installaties tot storingen en uitbreidingen met laadpalen of zonnepanelen - de vraag groeit. Toch zijn veel elektriciens online nauwelijks zichtbaar. Dit is een enorme gemiste kans. Klanten zoeken steeds vaker online naar 'elektricien in de buurt' en kiezen het bedrijf dat het meest professioneel en betrouwbaar overkomt."
       },
       {
         heading: "Specialisatie als marketingstrategie",
@@ -493,11 +493,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Vertrouwen opbouwen als elektricien",
-        body: "Elektriciteit is gevaarlijk — klanten willen zeker weten dat ze een gecertificeerde professional inhuren. Toon prominent je NEN-certificeringen, verzekeringen en lidmaatschappen op je website. Deel reviews waarin klanten je vakmanschap en veiligheid benadrukken. Voeg foto's toe van nette meterkastvernieuwingen en professionele installaties. Dit visuele bewijs van kwaliteit overtuigt twijfelende klanten."
+        body: "Elektriciteit is gevaarlijk - klanten willen zeker weten dat ze een gecertificeerde professional inhuren. Toon prominent je NEN-certificeringen, verzekeringen en lidmaatschappen op je website. Deel reviews waarin klanten je vakmanschap en veiligheid benadrukken. Voeg foto's toe van nette meterkastvernieuwingen en professionele installaties. Dit visuele bewijs van kwaliteit overtuigt twijfelende klanten."
       },
       {
         heading: "Storingsdienst als leadmagneet",
-        body: "Net als bij loodgieters zijn spoedklussen voor elektriciens bijzonder waardevol. Kortsluiting, stroomuitval of een kapotte groep — klanten willen direct geholpen worden. Adverteer actief op spoedzoektermen en zorg dat je 24/7 bereikbaar bent via je website. Een gemiste oproep systeem met automatische SMS is essentieel: 'We hebben uw oproep ontvangen en bellen u binnen 15 minuten terug.' Dit wekt vertrouwen en voorkomt dat de klant doorbelt."
+        body: "Net als bij loodgieters zijn spoedklussen voor elektriciens bijzonder waardevol. Kortsluiting, stroomuitval of een kapotte groep - klanten willen direct geholpen worden. Adverteer actief op spoedzoektermen en zorg dat je 24/7 bereikbaar bent via je website. Een gemiste oproep systeem met automatische SMS is essentieel: 'We hebben uw oproep ontvangen en bellen u binnen 15 minuten terug.' Dit wekt vertrouwen en voorkomt dat de klant doorbelt."
       },
       {
         heading: "Onderhoudcontracten als stabiele inkomstenbron",
@@ -521,7 +521,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom hoveniers online moeten groeien",
-        body: "De hovenierssector groeit, maar de concurrentie ook. Steeds meer hoveniers ontdekken de kracht van online marketing. Klanten zoeken op Google naar 'hovenier in de buurt', bekijken portfolio's op Instagram en lezen reviews voordat ze iemand uitnodigen voor een tuinontwerp. Wie online niet zichtbaar is, mist een groot deel van de markt — vooral de hogere segmenten waar klanten bereid zijn te investeren in een mooie tuin."
+        body: "De hovenierssector groeit, maar de concurrentie ook. Steeds meer hoveniers ontdekken de kracht van online marketing. Klanten zoeken op Google naar 'hovenier in de buurt', bekijken portfolio's op Instagram en lezen reviews voordat ze iemand uitnodigen voor een tuinontwerp. Wie online niet zichtbaar is, mist een groot deel van de markt - vooral de hogere segmenten waar klanten bereid zijn te investeren in een mooie tuin."
       },
       {
         heading: "Instagram en Pinterest: jouw digitale etalage",
@@ -533,7 +533,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "De kracht van tuinontwerp-visualisaties",
-        body: "Klanten vinden het lastig om zich een eindresultaat voor te stellen. Bied gratis een eenvoudige tuinschets aan als leadmagneet op je website. In ruil voor hun contactgegevens krijgen ze een eerste impressie van hun droomtuin. Dit levert gekwalificeerde leads op die al serieus nadenken over hun tuin. De conversie van schets naar opdracht ligt vaak boven de 40% — veel hoger dan bij koude leads."
+        body: "Klanten vinden het lastig om zich een eindresultaat voor te stellen. Bied gratis een eenvoudige tuinschets aan als leadmagneet op je website. In ruil voor hun contactgegevens krijgen ze een eerste impressie van hun droomtuin. Dit levert gekwalificeerde leads op die al serieus nadenken over hun tuin. De conversie van schets naar opdracht ligt vaak boven de 40% - veel hoger dan bij koude leads."
       },
       {
         heading: "Onderhoudcontracten als fundament",
@@ -563,7 +563,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Het opleverdossier: jouw nieuwe standaard",
-        body: "Het opleverdossier is het hart van de Wkb. Tijdens het hele bouwproces leg je vast wat je hebt gedaan en welke materialen je hebt gebruikt. Denk aan: foto's van de fundering vóór het storten van beton, certificaten van isolatiemateriaal, keuringsverslagen van de elektra en leidingwerk, en meetrapporten van de luchtdichtheid. Begin hier niet pas mee bij de oplevering — bouw het dossier op vanaf dag één. Digitale tools en een CRM-systeem helpen je om dit gestructureerd bij te houden."
+        body: "Het opleverdossier is het hart van de Wkb. Tijdens het hele bouwproces leg je vast wat je hebt gedaan en welke materialen je hebt gebruikt. Denk aan: foto's van de fundering vóór het storten van beton, certificaten van isolatiemateriaal, keuringsverslagen van de elektra en leidingwerk, en meetrapporten van de luchtdichtheid. Begin hier niet pas mee bij de oplevering - bouw het dossier op vanaf dag één. Digitale tools en een CRM-systeem helpen je om dit gestructureerd bij te houden."
       },
       {
         heading: "De rol van de kwaliteitsborger",
@@ -571,7 +571,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Hoe bereid je je bedrijf voor?",
-        body: "Begin vandaag met drie stappen: (1) Digitaliseer je documentatie — gebruik een systeem waarin je per project foto's, certificaten en rapporten opslaat. Papieren mappen voldoen niet meer. (2) Train je team — iedereen op de bouwplaats moet weten wat er vastgelegd moet worden en wanneer. (3) Bouw een standaard opleverdossier-template dat je bij elk project gebruikt. Dit kost je nu een paar uur, maar bespaart je straks dagen aan stress en discussie bij de oplevering. Automatisering maakt het verschil: met de juiste tools kost het bijhouden van je dossier minimale extra tijd."
+        body: "Begin vandaag met drie stappen: (1) Digitaliseer je documentatie - gebruik een systeem waarin je per project foto's, certificaten en rapporten opslaat. Papieren mappen voldoen niet meer. (2) Train je team - iedereen op de bouwplaats moet weten wat er vastgelegd moet worden en wanneer. (3) Bouw een standaard opleverdossier-template dat je bij elk project gebruikt. Dit kost je nu een paar uur, maar bespaart je straks dagen aan stress en discussie bij de oplevering. Automatisering maakt het verschil: met de juiste tools kost het bijhouden van je dossier minimale extra tijd."
       }
     ]
   },
@@ -594,27 +594,27 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Voorjaar (maart – mei): buitenwerk pakt de kop",
-        body: "Het voorjaar is dé piek voor buitenwerk. Schilders, dakdekkers en metselaars kunnen nu het hardst groeien. Maar juist omdat iedereen druk is, vergeten veel vakmensen om zichtbaar te blijven. Dit is het moment om je Google Bedrijfsprofiel bij te werken met actuele foto's van recent buitenwerk, tevreden klanten te vragen om een review — ze zijn nu net blij met het resultaat — en je website te voorzien van seizoensgerichte teksten: 'Gevel laten schilderen dit voorjaar?' of 'Dakonderhoud na de winter'. Een schilder uit Breda haalde vorig voorjaar drie extra opdrachten binnen puur doordat zijn Google-profiel bovenaan stond met recente foto's van gevelwerk. Zijn concurrent had sinds 2023 niets meer geüpdatet."
+        body: "Het voorjaar is dé piek voor buitenwerk. Schilders, dakdekkers en metselaars kunnen nu het hardst groeien. Maar juist omdat iedereen druk is, vergeten veel vakmensen om zichtbaar te blijven. Dit is het moment om je Google Bedrijfsprofiel bij te werken met actuele foto's van recent buitenwerk, tevreden klanten te vragen om een review - ze zijn nu net blij met het resultaat - en je website te voorzien van seizoensgerichte teksten: 'Gevel laten schilderen dit voorjaar?' of 'Dakonderhoud na de winter'. Een schilder uit Breda haalde vorig voorjaar drie extra opdrachten binnen puur doordat zijn Google-profiel bovenaan stond met recente foto's van gevelwerk. Zijn concurrent had sinds 2023 niets meer geüpdatet."
       },
       {
         heading: "Zomer (juni – augustus): grote projecten en vooruit plannen",
-        body: "De zomer is ideaal voor grotere projecten: aanbouwen, dakvernieuwingen, terrassen. Timmerlieden en aannemers draaien overuren. Maar let op: dit is ook het moment om alvast te zaaien voor het najaar. Plaats foto's en updates van lopende projecten op je website en Google-profiel. Verzamel reviews van zomerprojecten — die heb je nodig als het rustiger wordt. En denk alvast na over je winteraanbod: welke diensten kun je promoten als het buiten kouder wordt?"
+        body: "De zomer is ideaal voor grotere projecten: aanbouwen, dakvernieuwingen, terrassen. Timmerlieden en aannemers draaien overuren. Maar let op: dit is ook het moment om alvast te zaaien voor het najaar. Plaats foto's en updates van lopende projecten op je website en Google-profiel. Verzamel reviews van zomerprojecten - die heb je nodig als het rustiger wordt. En denk alvast na over je winteraanbod: welke diensten kun je promoten als het buiten kouder wordt?"
       },
       {
         heading: "Herfst (september – november): het kantelmoment",
-        body: "De herfst is een kantelmoment. Buitenwerk loopt af, binnenwerk begint. Dit is het seizoen waarin slimme vakmensen het verschil maken. Een loodgieter die nu adverteert met 'CV-ketel laten nakijken voor de winter' pakt klanten die anders naar de concurrent gaan. Pas je websiteteksten aan: focus op binnenwerk, onderhoud, winterklaar maken. Stuur een bericht naar eerdere klanten: 'De winter komt eraan — is je installatie nog in orde?' Zet je Missed Call Text Back aan als je dat nog niet deed — juist nu bellen mensen impulsief als de verwarming het niet doet. Een elektricien uit Utrecht zette vorig najaar een simpele pagina op zijn website: 'Elektrische vloerverwarming laten aanleggen.' Die ene pagina leverde hem vier opdrachten op in twee maanden, puur via Google."
+        body: "De herfst is een kantelmoment. Buitenwerk loopt af, binnenwerk begint. Dit is het seizoen waarin slimme vakmensen het verschil maken. Een loodgieter die nu adverteert met 'CV-ketel laten nakijken voor de winter' pakt klanten die anders naar de concurrent gaan. Pas je websiteteksten aan: focus op binnenwerk, onderhoud, winterklaar maken. Stuur een bericht naar eerdere klanten: 'De winter komt eraan - is je installatie nog in orde?' Zet je Missed Call Text Back aan als je dat nog niet deed - juist nu bellen mensen impulsief als de verwarming het niet doet. Een elektricien uit Utrecht zette vorig najaar een simpele pagina op zijn website: 'Elektrische vloerverwarming laten aanleggen.' Die ene pagina leverde hem vier opdrachten op in twee maanden, puur via Google."
       },
       {
         heading: "Winter (december – februari): binnenwerk en voorbereiding",
-        body: "De winter is voor veel aannemers de moeilijkste periode. Maar het is ook de periode waarin je je online basis op orde brengt voor het komende jaar. Stukadoors, tegelzetters en loodgieters hebben volop werk met binnenprojecten. Update je website met wintergerichte content: 'Badkamer renovatie in de winter? Nu is het ideale moment.' Werk aan je reviews — bel klanten van afgelopen seizoen en vraag of ze een review willen achterlaten. Optimaliseer je Google Bedrijfsprofiel: voeg nieuwe diensten toe, werk openingstijden bij. Dit is ook het perfecte moment om je website te laten verbeteren. Je hebt de tijd, en als het voorjaar begint sta je er klaar voor."
+        body: "De winter is voor veel aannemers de moeilijkste periode. Maar het is ook de periode waarin je je online basis op orde brengt voor het komende jaar. Stukadoors, tegelzetters en loodgieters hebben volop werk met binnenprojecten. Update je website met wintergerichte content: 'Badkamer renovatie in de winter? Nu is het ideale moment.' Werk aan je reviews - bel klanten van afgelopen seizoen en vraag of ze een review willen achterlaten. Optimaliseer je Google Bedrijfsprofiel: voeg nieuwe diensten toe, werk openingstijden bij. Dit is ook het perfecte moment om je website te laten verbeteren. Je hebt de tijd, en als het voorjaar begint sta je er klaar voor."
       },
       {
         heading: "De grootste fout: alleen zichtbaar zijn als je het druk hebt",
-        body: "De meeste aannemers doen aan marketing als ze het druk hebben — want dan zijn de resultaten zichtbaar en voelt het goed. Maar het echte rendement zit in de stille maanden. Als jij in oktober je website optimaliseert voor winterwerk, pluk je daar in november en december de vruchten van. Een klant die in januari een nieuwe badkamer wil, zoekt in november op Google. Als jij dan niet vindbaar bent, gaat die opdracht naar een concurrent die wél zichtbaar is."
+        body: "De meeste aannemers doen aan marketing als ze het druk hebben - want dan zijn de resultaten zichtbaar en voelt het goed. Maar het echte rendement zit in de stille maanden. Als jij in oktober je website optimaliseert voor winterwerk, pluk je daar in november en december de vruchten van. Een klant die in januari een nieuwe badkamer wil, zoekt in november op Google. Als jij dan niet vindbaar bent, gaat die opdracht naar een concurrent die wél zichtbaar is."
       },
       {
         heading: "Praktisch: hoe begin je?",
-        body: "Je hoeft geen marketingexpert te zijn. Begin met drie stappen: (1) Maak een seizoenskalender — schrijf per kwartaal op welke diensten je aanbiedt en waar klanten naar zoeken. Pas je websiteteksten daar vier keer per jaar op aan. (2) Verzamel het hele jaar door reviews — niet alleen als je eraan denkt, maar structureel. Een review funnel automatiseert dit: na elke klus krijgt je klant een berichtje met de vraag om een Google-review. (3) Zorg dat je bereikbaar bent — klinkt logisch, maar juist in drukke periodes missen aannemers telefoontjes. Een Missed Call Text Back stuurt automatisch een sms naar gemiste bellers zodat je geen enkele lead verliest."
+        body: "Je hoeft geen marketingexpert te zijn. Begin met drie stappen: (1) Maak een seizoenskalender - schrijf per kwartaal op welke diensten je aanbiedt en waar klanten naar zoeken. Pas je websiteteksten daar vier keer per jaar op aan. (2) Verzamel het hele jaar door reviews - niet alleen als je eraan denkt, maar structureel. Een review funnel automatiseert dit: na elke klus krijgt je klant een berichtje met de vraag om een Google-review. (3) Zorg dat je bereikbaar bent - klinkt logisch, maar juist in drukke periodes missen aannemers telefoontjes. Een Missed Call Text Back stuurt automatisch een sms naar gemiste bellers zodat je geen enkele lead verliest."
       }
     ]
   },
@@ -632,11 +632,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom tevreden klanten je beste marketing zijn",
-        body: "Je levert goed werk. Klanten zijn blij. Maar hoeveel van die tevreden klanten leveren jou ook daadwerkelijk nieuwe opdrachten op? Waarschijnlijk minder dan je denkt. Nieuwe klanten willen weten of je betrouwbaar bent voordat ze bellen. Reviews, foto's en aanbevelingen zijn het bewijs. Elke tevreden klant die dat bevestigt, is een verkoper die 24/7 voor je werkt — zonder dat het je iets kost."
+        body: "Je levert goed werk. Klanten zijn blij. Maar hoeveel van die tevreden klanten leveren jou ook daadwerkelijk nieuwe opdrachten op? Waarschijnlijk minder dan je denkt. Nieuwe klanten willen weten of je betrouwbaar bent voordat ze bellen. Reviews, foto's en aanbevelingen zijn het bewijs. Elke tevreden klant die dat bevestigt, is een verkoper die 24/7 voor je werkt - zonder dat het je iets kost."
       },
       {
         heading: "1. Vraag om een Google-review direct na de klus",
-        body: "Het beste moment om een review te vragen is vlak na oplevering, als de klant nog enthousiast is. Wacht je een week, dan is het moment voorbij. Een stukadoor uit Den Haag vertelde ons dat hij van tien tevreden klanten er maar één een review kreeg — totdat hij het meteen bij oplevering begon te vragen. Nu krijgt hij van de helft een review. Gebruik een review funnel die automatisch een berichtje stuurt na de klus. Dan hoef je er zelf niet meer aan te denken."
+        body: "Het beste moment om een review te vragen is vlak na oplevering, als de klant nog enthousiast is. Wacht je een week, dan is het moment voorbij. Een stukadoor uit Den Haag vertelde ons dat hij van tien tevreden klanten er maar één een review kreeg - totdat hij het meteen bij oplevering begon te vragen. Nu krijgt hij van de helft een review. Gebruik een review funnel die automatisch een berichtje stuurt na de klus. Dan hoef je er zelf niet meer aan te denken."
       },
       {
         heading: "2. Maak het makkelijk",
@@ -644,7 +644,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "3. Deel je beste werk op je website",
-        body: "Foto's van een net betegelde badkamer of een strak geschilderde gevel zeggen meer dan honderd woorden. Vraag je klant of je foto's mag plaatsen op je website. De meeste mensen vinden dat prima — en het geeft nieuwe bezoekers direct vertrouwen."
+        body: "Foto's van een net betegelde badkamer of een strak geschilderde gevel zeggen meer dan honderd woorden. Vraag je klant of je foto's mag plaatsen op je website. De meeste mensen vinden dat prima - en het geeft nieuwe bezoekers direct vertrouwen."
       },
       {
         heading: "4. Vraag of ze je willen aanbevelen",
@@ -652,7 +652,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "5. Reageer op reviews die je al hebt",
-        body: "Heb je al een paar reviews staan? Reageer erop. Een kort bedankje laat zien dat je betrokken bent. En het laat nieuwe klanten zien dat er een echt persoon achter het bedrijf zit — niet een onpersoonlijk bouwbedrijf. Google waardeert het ook: actief reageren op reviews helpt je positie in de zoekresultaten."
+        body: "Heb je al een paar reviews staan? Reageer erop. Een kort bedankje laat zien dat je betrokken bent. En het laat nieuwe klanten zien dat er een echt persoon achter het bedrijf zit - niet een onpersoonlijk bouwbedrijf. Google waardeert het ook: actief reageren op reviews helpt je positie in de zoekresultaten."
       }
     ]
   },
@@ -1512,7 +1512,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     slug: "planning-software-bouw",
     title: "Planning software voor de bouw: overzicht en vergelijking (2026)",
     description:
-      "Vergelijk de beste planning software voor de bouw. Van digitale planborden tot volledige ERP-pakketten — ontdek welke tool past bij jouw bouwbedrijf.",
+      "Vergelijk de beste planning software voor de bouw. Van digitale planborden tot volledige ERP-pakketten - ontdek welke tool past bij jouw bouwbedrijf.",
     category: "Planning",
     readTime: "9 min",
     date: "2026-04-16",
@@ -1528,7 +1528,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Soorten planning software in de bouw",
-        body: "Er zijn drie hoofdcategorieën. Eerste: digitale planborden — eenvoudige drag-and-drop tools waarmee je medewerkers en ploegen inplant per dag of week. Geschikt voor kleine aannemers met 2-10 man. Tweede: projectmanagement tools — uitgebreidere pakketten met Gantt-charts, mijlpalen, taken en documentbeheer. Geschikt voor middelgrote bouwbedrijven met meerdere gelijktijdige projecten. Derde: ERP-systemen — alles-in-één oplossingen die planning combineren met calculatie, facturatie, inkoop en CRM. Geschikt voor grotere bouwbedrijven met 20+ medewerkers.",
+        body: "Er zijn drie hoofdcategorieën. Eerste: digitale planborden - eenvoudige drag-and-drop tools waarmee je medewerkers en ploegen inplant per dag of week. Geschikt voor kleine aannemers met 2-10 man. Tweede: projectmanagement tools - uitgebreidere pakketten met Gantt-charts, mijlpalen, taken en documentbeheer. Geschikt voor middelgrote bouwbedrijven met meerdere gelijktijdige projecten. Derde: ERP-systemen - alles-in-één oplossingen die planning combineren met calculatie, facturatie, inkoop en CRM. Geschikt voor grotere bouwbedrijven met 20+ medewerkers.",
       },
       {
         heading: "Essentiële functies voor bouwplanning",
@@ -1536,15 +1536,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Vergelijking: populaire tools voor de bouw",
-        body: "De Nederlandse bouwmarkt kent meerdere opties. Gripp en Simplicate zijn populair bij kleinere bedrijven — gebruiksvriendelijk en snel op te zetten. Bouwmaat Planning en Procore richten zich op middelgrote tot grote aannemers met uitgebreidere projectmanagement functies. AFAS en Exact bieden ERP-oplossingen waar planning onderdeel van is. Voor zzp'ers en kleine aannemers is een eenvoudig planbord (zoals Google Agenda gecombineerd met een CRM) vaak al voldoende als startpunt.",
+        body: "De Nederlandse bouwmarkt kent meerdere opties. Gripp en Simplicate zijn populair bij kleinere bedrijven - gebruiksvriendelijk en snel op te zetten. Bouwmaat Planning en Procore richten zich op middelgrote tot grote aannemers met uitgebreidere projectmanagement functies. AFAS en Exact bieden ERP-oplossingen waar planning onderdeel van is. Voor zzp'ers en kleine aannemers is een eenvoudig planbord (zoals Google Agenda gecombineerd met een CRM) vaak al voldoende als startpunt.",
       },
       {
         heading: "De impact van digitale planning op bouwprojecten",
-        body: "Uit onderzoek blijkt dat bouwbedrijven die digitale planning implementeren gemiddeld 20-30% minder stilstandtijd ervaren. Planningsconflicten dalen met 35%. Projecten worden vaker op tijd opgeleverd. En misschien het belangrijkst: je hebt als ondernemer overzicht. Je kunt op donderdagmiddag inschatten of je volgende week een spoedklus kunt aannemen, in plaats van te gokken. Medewerkers zijn tevredener omdat ze weten waar ze aan toe zijn — geen belletjes meer om 6 uur 's ochtends met 'ga maar naar die andere werf'.",
+        body: "Uit onderzoek blijkt dat bouwbedrijven die digitale planning implementeren gemiddeld 20-30% minder stilstandtijd ervaren. Planningsconflicten dalen met 35%. Projecten worden vaker op tijd opgeleverd. En misschien het belangrijkst: je hebt als ondernemer overzicht. Je kunt op donderdagmiddag inschatten of je volgende week een spoedklus kunt aannemen, in plaats van te gokken. Medewerkers zijn tevredener omdat ze weten waar ze aan toe zijn - geen belletjes meer om 6 uur 's ochtends met 'ga maar naar die andere werf'.",
       },
       {
         heading: "Stappenplan: van Excel naar planning software",
-        body: "Stap 1: Breng je huidige werkwijze in kaart. Hoeveel projecten lopen er tegelijk? Hoeveel mensen plan je in? Wat gaat er nu mis? Stap 2: Kies een tool die past bij je bedrijfsgrootte. Begin niet te groot — een eenvoudig planbord is beter dan een ERP-systeem dat niemand snapt. Stap 3: Importeer je lopende projecten en medewerkers. Stap 4: Draai twee weken parallel — oude en nieuwe systeem naast elkaar. Stap 5: Evalueer en schakel het oude systeem uit. Wijs een 'champion' aan in je team die anderen helpt met het nieuwe systeem.",
+        body: "Stap 1: Breng je huidige werkwijze in kaart. Hoeveel projecten lopen er tegelijk? Hoeveel mensen plan je in? Wat gaat er nu mis? Stap 2: Kies een tool die past bij je bedrijfsgrootte. Begin niet te groot - een eenvoudig planbord is beter dan een ERP-systeem dat niemand snapt. Stap 3: Importeer je lopende projecten en medewerkers. Stap 4: Draai twee weken parallel - oude en nieuwe systeem naast elkaar. Stap 5: Evalueer en schakel het oude systeem uit. Wijs een 'champion' aan in je team die anderen helpt met het nieuwe systeem.",
       },
       {
         heading: "Veelgemaakte fouten bij de overstap",
@@ -1555,7 +1555,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-schoonmaakbedrijven",
     title: "Online marketing voor schoonmaakbedrijven: zo krijg je meer klanten",
-    description: "Praktische online marketing strategie voor schoonmaakbedrijven. Van Google vindbaar worden tot reviews verzamelen — zonder dure bureaus.",
+    description: "Praktische online marketing strategie voor schoonmaakbedrijven. Van Google vindbaar worden tot reviews verzamelen - zonder dure bureaus.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1609,7 +1609,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ],
     sections: [
       {
-        heading: "De stukadoorsmarkt is lokaal — en dat is je kans",
+        heading: "De stukadoorsmarkt is lokaal - en dat is je kans",
         body: "Stukadoors werken bijna altijd lokaal, binnen een straal van 30-50 kilometer. Dat betekent dat je niet hoeft te concurreren met heel Nederland, alleen met de stukadoors in jouw regio. En de meeste van hen doen niets aan online marketing. Ze leven van mond-tot-mondreclame en Werkspot. Als jij als een van de weinigen wél goed vindbaar bent op Google, pak je een onevenredig groot deel van de nieuwe klanten. De drempel is laag, de beloning is hoog.",
       },
       {
@@ -1637,7 +1637,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-schilders",
     title: "Online marketing voor schilders: meer klanten zonder Werkspot",
-    description: "Zo krijg je als schilder structureel meer klanten via Google, reviews en je eigen website — zonder afhankelijk te zijn van platforms.",
+    description: "Zo krijg je als schilder structureel meer klanten via Google, reviews en je eigen website - zonder afhankelijk te zijn van platforms.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1687,7 +1687,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ],
     sections: [
       {
-        heading: "De verhuismarkt is online — ben jij dat ook?",
+        heading: "De verhuismarkt is online - ben jij dat ook?",
         body: "Bijna niemand zoekt meer in de Gouden Gids naar een verhuisbedrijf. Mensen googelen 'verhuisbedrijf offerte', 'verhuizen kosten' of 'verhuisbedrijf in de buurt' en kiezen uit de eerste resultaten. Als je daar niet staat, besta je niet voor deze klanten. De verhuisbranche is competitief, maar de meeste verhuisbedrijven investeren niet in online marketing. Ze staan op vergelijkingssites en hopen op het beste. Dat biedt kansen voor wie het wél goed aanpakt.",
       },
       {
@@ -1735,7 +1735,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business: de belangrijkste investering (en hij is gratis)",
-        body: "Je Google Business profiel is waar lokale zoekopdrachten beginnen. 'Dakdekker Amsterdam', 'daklekkage reparatie Den Haag', 'plat dak vervangen' — bij al deze zoekopdrachten toont Google een kaart met lokale bedrijven. Vul je profiel 100% in: alle diensten (platte daken, pannendaken, dakisolatie, dakgoten, daklekkage reparatie, zinken werk), werkgebied per stad, foto's van je projecten. Upload minstens 15 foto's: voor-en-na, je team op het dak, materialen, afgeronde projecten. Actieve profielen met veel foto's en reviews scoren hoger.",
+        body: "Je Google Business profiel is waar lokale zoekopdrachten beginnen. 'Dakdekker Amsterdam', 'daklekkage reparatie Den Haag', 'plat dak vervangen' - bij al deze zoekopdrachten toont Google een kaart met lokale bedrijven. Vul je profiel 100% in: alle diensten (platte daken, pannendaken, dakisolatie, dakgoten, daklekkage reparatie, zinken werk), werkgebied per stad, foto's van je projecten. Upload minstens 15 foto's: voor-en-na, je team op het dak, materialen, afgeronde projecten. Actieve profielen met veel foto's en reviews scoren hoger.",
       },
       {
         heading: "Spoed-zoekverkeer: het goud voor dakdekkers",
@@ -1758,7 +1758,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-glazenwassers",
     title: "Online marketing voor glazenwassers: meer vaste klanten via Google",
-    description: "Zo zet je als glazenwasser online marketing in om je klantenbestand structureel te laten groeien — van Google Business tot geautomatiseerde reviews.",
+    description: "Zo zet je als glazenwasser online marketing in om je klantenbestand structureel te laten groeien - van Google Business tot geautomatiseerde reviews.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1797,7 +1797,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-tegelzetters",
     title: "Online marketing voor tegelzetters: meer projecten via Google",
-    description: "Zo krijg je als tegelzetter structureel meer klanten via Google, reviews en een professionele website — zonder te concurreren op prijs.",
+    description: "Zo krijg je als tegelzetter structureel meer klanten via Google, reviews en een professionele website - zonder te concurreren op prijs.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1876,7 +1876,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-hoveniers",
     title: "Online marketing voor hoveniers: meer tuinprojecten via Google",
-    description: "Praktische online marketing strategie voor hoveniers. Van Google Business tot reviews en seizoensgebonden marketing — zonder dure bureaus.",
+    description: "Praktische online marketing strategie voor hoveniers. Van Google Business tot reviews en seizoensgebonden marketing - zonder dure bureaus.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1915,7 +1915,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-klusbedrijven",
     title: "Online marketing voor klusbedrijven: zo vul je je agenda",
-    description: "Praktische online marketing tips voor klusbedrijven. Van Google vindbaar worden tot een website die klussen oplevert — zonder dure advertenties.",
+    description: "Praktische online marketing tips voor klusbedrijven. Van Google vindbaar worden tot een website die klussen oplevert - zonder dure advertenties.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1954,7 +1954,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-elektriciens",
     title: "Online marketing voor elektriciens: meer klanten via Google",
-    description: "Zo krijg je als elektricien structureel meer klanten via Google, reviews en een professionele website — van storingsdienst tot complete installaties.",
+    description: "Zo krijg je als elektricien structureel meer klanten via Google, reviews en een professionele website - van storingsdienst tot complete installaties.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -1966,7 +1966,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Elektriciens en online marketing: twee typen klanten",
-        body: "Als elektricien heb je twee typen klanten: spoedklanten met een storing en planklanten die een installatie willen. Spoedklanten googelen 'elektricien spoed' of 'stroomstoring hulp' en bellen de eerste die ze vinden. Planklanten zoeken op 'laadpaal installeren kosten' of 'groepenkast vervangen'. Beide typen beginnen op Google. Als je daar niet staat, mis je beide stromen. Het mooie is dat de meeste elektriciens nul aan online marketing doen — de drempel om op te vallen is laag.",
+        body: "Als elektricien heb je twee typen klanten: spoedklanten met een storing en planklanten die een installatie willen. Spoedklanten googelen 'elektricien spoed' of 'stroomstoring hulp' en bellen de eerste die ze vinden. Planklanten zoeken op 'laadpaal installeren kosten' of 'groepenkast vervangen'. Beide typen beginnen op Google. Als je daar niet staat, mis je beide stromen. Het mooie is dat de meeste elektriciens nul aan online marketing doen - de drempel om op te vallen is laag.",
       },
       {
         heading: "Google Business: je digitale uithangbord",
@@ -1993,7 +1993,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-timmerlieden",
     title: "Online marketing voor timmerlieden: meer opdrachten via je eigen kanalen",
-    description: "Zo zet je als timmerman online marketing in om structureel meer opdrachten te krijgen — van Google Business tot projectfoto's en reviews.",
+    description: "Zo zet je als timmerman online marketing in om structureel meer opdrachten te krijgen - van Google Business tot projectfoto's en reviews.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2009,7 +2009,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business voor timmerlieden",
-        body: "Vul je Google Business profiel in met al je specialisaties: kozijnen vervangen, dakkapel plaatsen, houten trap maken, inbouwkasten, aanbouw, houtrot repareren, vlonders en terrassen, dak- en gevelwerk. Timmerlieden hebben een breed dienstenaanbod — benut dat. Upload foto's van al deze verschillende werkzaamheden. Een timmerman die 20 projectfoto's heeft van verschillende type klussen laat direct zien wat hij in huis heeft.",
+        body: "Vul je Google Business profiel in met al je specialisaties: kozijnen vervangen, dakkapel plaatsen, houten trap maken, inbouwkasten, aanbouw, houtrot repareren, vlonders en terrassen, dak- en gevelwerk. Timmerlieden hebben een breed dienstenaanbod - benut dat. Upload foto's van al deze verschillende werkzaamheden. Een timmerman die 20 projectfoto's heeft van verschillende type klussen laat direct zien wat hij in huis heeft.",
       },
       {
         heading: "Projectfoto's: laat je vakmanschap spreken",
@@ -2043,7 +2043,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ],
     sections: [
       {
-        heading: "De isolatiemarkt groeit — maar vinden klanten jou?",
+        heading: "De isolatiemarkt groeit - maar vinden klanten jou?",
         body: "De vraag naar isolatie is de afgelopen jaren geëxplodeerd door stijgende energieprijzen en overheidssubsidies. Huiseigenaren zoeken massaal op 'vloerisolatie kosten', 'spouwmuurisolatie subsidie' en 'dak isoleren'. Dit is een enorme kans voor isolatiebedrijven die online vindbaar zijn. Het probleem: veel isolatiebedrijven zijn afhankelijk van leadgeneratieplatformen die dure leads verkopen aan meerdere concurrenten tegelijk. Met eigen online marketing betaal je niets per lead en concurreer je niet op prijs.",
       },
       {
@@ -2071,7 +2071,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-warmtepomp-installateurs",
     title: "Online marketing voor warmtepomp installateurs: inspelen op de groeiende vraag",
-    description: "Zo trek je als warmtepomp installateur meer klanten aan via Google. Van subsidie-content tot reviews — praktische tips voor meer installatie-opdrachten.",
+    description: "Zo trek je als warmtepomp installateur meer klanten aan via Google. Van subsidie-content tot reviews - praktische tips voor meer installatie-opdrachten.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2082,7 +2082,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ],
     sections: [
       {
-        heading: "De warmtepompmarkt explodeert — ben jij zichtbaar?",
+        heading: "De warmtepompmarkt explodeert - ben jij zichtbaar?",
         body: "De overstap van gas naar warmtepompen is een van de grootste trends in de installatiebranche. Huiseigenaren zoeken massaal op 'warmtepomp kosten', 'warmtepomp installeren' en 'hybride warmtepomp subsidie'. Dit zijn warme leads met hoge projectwaarden. Maar veel installateurs zijn online nauwelijks vindbaar. Ze krijgen hun werk via groothandels, woningbouwverenigingen of mond-tot-mond. Met eigen online marketing trek je particuliere klanten aan tegen betere marges.",
       },
       {
@@ -2110,7 +2110,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-airco-installateurs",
     title: "Online marketing voor airco installateurs: meer opdrachten het hele jaar",
-    description: "Zo krijg je als airco installateur structureel meer klanten via Google — niet alleen in de zomer, maar het hele jaar door.",
+    description: "Zo krijg je als airco installateur structureel meer klanten via Google - niet alleen in de zomer, maar het hele jaar door.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2149,7 +2149,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-cv-monteurs",
     title: "Online marketing voor cv-monteurs: meer klanten via Google",
-    description: "Zo zet je als cv-monteur online marketing in voor meer storingsopdrachten, onderhoud en ketelinstallaties — praktische tips zonder dure bureaus.",
+    description: "Zo zet je als cv-monteur online marketing in voor meer storingsopdrachten, onderhoud en ketelinstallaties - praktische tips zonder dure bureaus.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2160,7 +2160,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ],
     sections: [
       {
-        heading: "CV-monteurs: spoed, onderhoud en installatie — drie inkomstenbronnen",
+        heading: "CV-monteurs: spoed, onderhoud en installatie - drie inkomstenbronnen",
         body: "Als cv-monteur heb je drie typen werk: storingen (spoed, hoge marge), jaarlijks onderhoud (laag maar terugkerend) en nieuwe ketelinstallaties (hoge projectwaarde). Online marketing kan alle drie de stromen versterken. Spoedklanten googelen 'cv-ketel storing' of 'verwarming doet het niet'. Onderhoudsklanten zoeken op 'cv-ketel onderhoud kosten'. Installatieklanten vergelijken 'nieuwe cv-ketel prijs' en 'hr-ketel laten plaatsen'. Voor elke stroom is online vindbaar zijn de sleutel.",
       },
       {
@@ -2169,7 +2169,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Spoedopdrachten zijn goud",
-        body: "Een klant met een kapotte cv-ketel in januari belt de eerste monteur die hij vindt. Er is geen prijsvergelijking, geen offerte — alleen de vraag 'kun je vandaag komen?'. Dit zijn de meest waardevolle leads en ze komen bijna allemaal via Google. Zorg dat je website en Google Business duidelijk vermelden: storingsdienst, telefoonnummer groot in beeld, reactietijd. Een cv-monteur die dit goed doet heeft in de wintermaanden meer werk dan hij aankan.",
+        body: "Een klant met een kapotte cv-ketel in januari belt de eerste monteur die hij vindt. Er is geen prijsvergelijking, geen offerte - alleen de vraag 'kun je vandaag komen?'. Dit zijn de meest waardevolle leads en ze komen bijna allemaal via Google. Zorg dat je website en Google Business duidelijk vermelden: storingsdienst, telefoonnummer groot in beeld, reactietijd. Een cv-monteur die dit goed doet heeft in de wintermaanden meer werk dan hij aankan.",
       },
       {
         heading: "Onderhoud als marketingtool",
@@ -2200,7 +2200,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "De laadpaalmarkt groeit sneller dan het aanbod",
-        body: "Elke maand worden er duizenden elektrische auto's verkocht in Nederland. Elke nieuwe EV-rijder zoekt een laadpaal voor thuis. 'Laadpaal laten installeren', 'thuislader kosten' en 'laadpaal thuis installeren' zijn zoekopdrachten die elk jaar toenemen. Het mooie: veel installateurs krijgen hun werk via autodealers of leasemaatschappijen. De particuliere markt — huiseigenaren die zelf een laadpaal willen — is onderbenut. Hier liggen de betere marges.",
+        body: "Elke maand worden er duizenden elektrische auto's verkocht in Nederland. Elke nieuwe EV-rijder zoekt een laadpaal voor thuis. 'Laadpaal laten installeren', 'thuislader kosten' en 'laadpaal thuis installeren' zijn zoekopdrachten die elk jaar toenemen. Het mooie: veel installateurs krijgen hun werk via autodealers of leasemaatschappijen. De particuliere markt - huiseigenaren die zelf een laadpaal willen - is onderbenut. Hier liggen de betere marges.",
       },
       {
         heading: "Google Business en lokale vindbaarheid",
@@ -2266,7 +2266,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-stratenmakers",
     title: "Online marketing voor stratenmakers: meer bestratingsprojecten via Google",
-    description: "Zo krijg je als stratenmaker structureel meer klanten via Google en reviews — van opritten tot terrassen en tuinpaden.",
+    description: "Zo krijg je als stratenmaker structureel meer klanten via Google en reviews - van opritten tot terrassen en tuinpaden.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2277,7 +2277,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     ],
     sections: [
       {
-        heading: "Bestrating is visueel en lokaal — perfect voor online marketing",
+        heading: "Bestrating is visueel en lokaal - perfect voor online marketing",
         body: "Stratenmakers werken lokaal en hun resultaten zijn direct zichtbaar: een mooie oprit, een strak terras, een tuinpad van gebakken klinkers. Dat maakt het vak uitermate geschikt voor online marketing. Projectfoto's verkopen het werk, reviews bouwen vertrouwen en Google brengt lokale klanten naar je toe. Toch doen de meeste stratenmakers niets online. Ze vertrouwen op mond-tot-mond en onderaanneming. Dat is een gemiste kans.",
       },
       {
@@ -2317,7 +2317,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Vloerleggers: breed aanbod, lokale vraag",
-        body: "Vloerleggers zijn er in alle soorten: laminaat, PVC, parket, vinyl, gietvloeren, betonlook. Klanten zoeken heel specifiek op het type vloer dat ze willen: 'PVC vloer laten leggen kosten', 'visgraat parket leggen' of 'gietvloer prijs per m2'. Elke specialisatie is een aparte zoekopdracht en dus een aparte kans om gevonden te worden. De meeste vloerleggers zijn online onzichtbaar — dat is jouw kans om de markt in je regio te pakken.",
+        body: "Vloerleggers zijn er in alle soorten: laminaat, PVC, parket, vinyl, gietvloeren, betonlook. Klanten zoeken heel specifiek op het type vloer dat ze willen: 'PVC vloer laten leggen kosten', 'visgraat parket leggen' of 'gietvloer prijs per m2'. Elke specialisatie is een aparte zoekopdracht en dus een aparte kans om gevonden te worden. De meeste vloerleggers zijn online onzichtbaar - dat is jouw kans om de markt in je regio te pakken.",
       },
       {
         heading: "Google Business breed invullen",
@@ -2344,7 +2344,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-metselaars",
     title: "Online marketing voor metselaars: meer metselwerk-opdrachten via Google",
-    description: "Zo krijg je als metselaar meer klanten via Google en reviews — van gevelrenovatie tot nieuwbouw metselwerk.",
+    description: "Zo krijg je als metselaar meer klanten via Google en reviews - van gevelrenovatie tot nieuwbouw metselwerk.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2356,7 +2356,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Metselwerk: oud ambacht, nieuwe klanten via Google",
-        body: "Metselwerk is een van de oudste bouwvakken en nog steeds onmisbaar. Klanten zoeken op 'metselaar in de buurt', 'muur metselen kosten' of 'gevel renoveren'. De meeste metselaars werken als onderaannemer voor grotere bouwbedrijven. Dat levert stabiel werk maar lagere marges. Particuliere klanten — gevelrenovatie, tuinmuur, aanbouw metselwerk — betalen beter. Online marketing is de manier om die klanten te bereiken.",
+        body: "Metselwerk is een van de oudste bouwvakken en nog steeds onmisbaar. Klanten zoeken op 'metselaar in de buurt', 'muur metselen kosten' of 'gevel renoveren'. De meeste metselaars werken als onderaannemer voor grotere bouwbedrijven. Dat levert stabiel werk maar lagere marges. Particuliere klanten - gevelrenovatie, tuinmuur, aanbouw metselwerk - betalen beter. Online marketing is de manier om die klanten te bereiken.",
       },
       {
         heading: "Google Business voor metselaars",
@@ -2383,7 +2383,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-voegbedrijven",
     title: "Online marketing voor voegbedrijven: meer gevelprojecten via Google",
-    description: "Zo krijg je als voegbedrijf meer klanten via Google en reviews — van gevel opnieuw voegen tot voegwerk herstel.",
+    description: "Zo krijg je als voegbedrijf meer klanten via Google en reviews - van gevel opnieuw voegen tot voegwerk herstel.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2422,7 +2422,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-dakkapellen",
     title: "Online marketing voor dakkapellenbouwers: meer projecten via Google",
-    description: "Zo krijg je als dakkapellenbouwer meer klanten via Google — van plaatsing tot vergunning en dakkapel op maat.",
+    description: "Zo krijg je als dakkapellenbouwer meer klanten via Google - van plaatsing tot vergunning en dakkapel op maat.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2438,11 +2438,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business optimaliseren",
-        body: "Vermeld al je diensten: prefab dakkapellen, dakkapellen op maat, dakkapel renovatie, dakkapel isoleren. Upload foto's van afgeronde projecten: buitenaanzicht, binnenaanzicht met extra ruimte en licht. Klanten willen zien hoe hun zolder eruit kan zien na een dakkapel. Vermeld ook of je vergunningsvrije dakkapellen aanbiedt — dit is een veelgezochte term.",
+        body: "Vermeld al je diensten: prefab dakkapellen, dakkapellen op maat, dakkapel renovatie, dakkapel isoleren. Upload foto's van afgeronde projecten: buitenaanzicht, binnenaanzicht met extra ruimte en licht. Klanten willen zien hoe hun zolder eruit kan zien na een dakkapel. Vermeld ook of je vergunningsvrije dakkapellen aanbiedt - dit is een veelgezochte term.",
       },
       {
         heading: "Content die klanten overtuigt",
-        body: "Schrijf pagina's over onderwerpen waar klanten op zoeken: 'dakkapel vergunning nodig?', 'dakkapel kosten 2026', 'prefab vs maatwerk dakkapel'. Deze informatieve content trekt bezoekers aan die in de oriëntatiefase zitten. Eindig elke pagina met een gratis inspectie of offerte — zo converteer je informatiezoekers naar leads.",
+        body: "Schrijf pagina's over onderwerpen waar klanten op zoeken: 'dakkapel vergunning nodig?', 'dakkapel kosten 2026', 'prefab vs maatwerk dakkapel'. Deze informatieve content trekt bezoekers aan die in de oriëntatiefase zitten. Eindig elke pagina met een gratis inspectie of offerte - zo converteer je informatiezoekers naar leads.",
       },
       {
         heading: "Voor-en-na portfolio",
@@ -2450,7 +2450,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews en vergunningsexpertise",
-        body: "Klanten kiezen een dakkapellenbouwer op twee dingen: vakmanschap en betrouwbaarheid. Reviews op Google zijn het sterkste bewijs van beide. Vraag na elk project actief om een review. Benadruk in je online profiel ook je kennis van vergunningen en bouwbesluit — dit onderscheidt je van klusjesmannen die ook dakkapellen aanbieden.",
+        body: "Klanten kiezen een dakkapellenbouwer op twee dingen: vakmanschap en betrouwbaarheid. Reviews op Google zijn het sterkste bewijs van beide. Vraag na elk project actief om een review. Benadruk in je online profiel ook je kennis van vergunningen en bouwbesluit - dit onderscheidt je van klusjesmannen die ook dakkapellen aanbieden.",
       },
       {
         heading: "Wat levert het op?",
@@ -2461,7 +2461,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-kozijnmonteurs",
     title: "Online marketing voor kozijn- en raammonteurs: meer klanten via Google",
-    description: "Zo krijg je als kozijnmonteur meer aanvragen via Google — van kunststof kozijnen tot houten ramen en aluminium puien.",
+    description: "Zo krijg je als kozijnmonteur meer aanvragen via Google - van kunststof kozijnen tot houten ramen en aluminium puien.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2477,7 +2477,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business inrichten",
-        body: "Vermeld al je specialisaties: kunststof kozijnen, houten kozijnen, aluminium kozijnen, HR++ en triple glas, schuifpuien, openslaande deuren, dakramen. Upload foto's van afgeronde projecten met zichtbaar verschil tussen oud en nieuw. Vermeld je werkgebied ruim — kozijnvervanging is een project waarvoor klanten bereid zijn iets verder te zoeken.",
+        body: "Vermeld al je specialisaties: kunststof kozijnen, houten kozijnen, aluminium kozijnen, HR++ en triple glas, schuifpuien, openslaande deuren, dakramen. Upload foto's van afgeronde projecten met zichtbaar verschil tussen oud en nieuw. Vermeld je werkgebied ruim - kozijnvervanging is een project waarvoor klanten bereid zijn iets verder te zoeken.",
       },
       {
         heading: "Materiaalvergelijking als contentstrategie",
@@ -2500,7 +2500,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-keukenmonteurs",
     title: "Online marketing voor keukenmonteurs: meer montageprojecten via Google",
-    description: "Zo krijg je als keukenmonteur meer klanten via Google — van IKEA-montage tot maatwerk keukeninstallatie.",
+    description: "Zo krijg je als keukenmonteur meer klanten via Google - van IKEA-montage tot maatwerk keukeninstallatie.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2516,7 +2516,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business voor keukenmonteurs",
-        body: "Vermeld al je diensten: keukenmontage, IKEA keukens plaatsen, Bribus montage, maatwerk keukens, keukenrenovatie, aanrechtblad vervangen, kraanwerk en afvoer. Upload foto's van afgeronde keukens — focus op strakke afwerking, passingen en details. Klanten willen zien dat je netjes werkt, zeker als het om hun keuken gaat.",
+        body: "Vermeld al je diensten: keukenmontage, IKEA keukens plaatsen, Bribus montage, maatwerk keukens, keukenrenovatie, aanrechtblad vervangen, kraanwerk en afvoer. Upload foto's van afgeronde keukens - focus op strakke afwerking, passingen en details. Klanten willen zien dat je netjes werkt, zeker als het om hun keuken gaat.",
       },
       {
         heading: "IKEA-montage als leadmagnet",
@@ -2539,7 +2539,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-rioolservice",
     title: "Online marketing voor rioolservice bedrijven: meer spoedklussen via Google",
-    description: "Zo krijg je als rioolspecialist meer klanten via Google — van verstopping tot rioolreparatie en camera-inspectie.",
+    description: "Zo krijg je als rioolspecialist meer klanten via Google - van verstopping tot rioolreparatie en camera-inspectie.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2567,18 +2567,18 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews als vertrouwensbewijs bij spoedwerk",
-        body: "Bij spoedwerk is vertrouwen cruciaal: je laat iemand in je huis die je niet kent. Reviews op Google zijn het snelste vertrouwensbewijs. Vraag na elke klus om een review — juist bij spoedwerk zijn klanten dankbaar en bereid om een positieve ervaring te delen. Een rioolbedrijf met 40+ reviews en een 4,8 gemiddelde wordt als eerste gebeld.",
+        body: "Bij spoedwerk is vertrouwen cruciaal: je laat iemand in je huis die je niet kent. Reviews op Google zijn het snelste vertrouwensbewijs. Vraag na elke klus om een review - juist bij spoedwerk zijn klanten dankbaar en bereid om een positieve ervaring te delen. Een rioolbedrijf met 40+ reviews en een 4,8 gemiddelde wordt als eerste gebeld.",
       },
       {
         heading: "Wat levert het op?",
-        body: "Een rioolservice bedrijf met sterke lokale SEO kan rekenen op 15-40 oproepen per maand. Bij een gemiddelde kluswaarde van 350 euro en een conversie van 50% is dat 2.625 tot 7.000 euro extra omzet per maand. De hoge urgentie betekent dat klanten snel beslissen en weinig offertes vergelijken — je conversie is hoger dan bij planbare projecten.",
+        body: "Een rioolservice bedrijf met sterke lokale SEO kan rekenen op 15-40 oproepen per maand. Bij een gemiddelde kluswaarde van 350 euro en een conversie van 50% is dat 2.625 tot 7.000 euro extra omzet per maand. De hoge urgentie betekent dat klanten snel beslissen en weinig offertes vergelijken - je conversie is hoger dan bij planbare projecten.",
       },
     ],
   },
   {
     slug: "online-marketing-gietvloeren",
     title: "Online marketing voor gietvloer specialisten: meer projecten via Google",
-    description: "Zo krijg je als gietvloerspecialist meer klanten via Google — van epoxy tot polyurethaan en betonlook gietvloeren.",
+    description: "Zo krijg je als gietvloerspecialist meer klanten via Google - van epoxy tot polyurethaan en betonlook gietvloeren.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2594,11 +2594,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business voor gietvloer bedrijven",
-        body: "Vermeld al je vloertypen: epoxy gietvloer, polyurethaan gietvloer, betonlook gietvloer, cementgebonden gietvloer, terrazzo gietvloer. Upload per type meerdere foto's in verschillende kleuren en ruimtes. Gietvloeren verkoop je met je ogen — klanten willen het resultaat zien in een setting die lijkt op hun eigen woning.",
+        body: "Vermeld al je vloertypen: epoxy gietvloer, polyurethaan gietvloer, betonlook gietvloer, cementgebonden gietvloer, terrazzo gietvloer. Upload per type meerdere foto's in verschillende kleuren en ruimtes. Gietvloeren verkoop je met je ogen - klanten willen het resultaat zien in een setting die lijkt op hun eigen woning.",
       },
       {
         heading: "Showroom-ervaring op je website",
-        body: "Maak van je website een online showroom. Toon per vloertype een galerij met projectfoto's, kleuropties en texturen. Geef richtprijzen per m² per type. Leg het verschil uit tussen epoxy en PU: slijtvastheid, glansgraad, warmte, geschiktheid per ruimte. Klanten die twijfelen tussen vloertypen besteden veel tijd op vergelijkingspagina's — jij kunt die bron zijn.",
+        body: "Maak van je website een online showroom. Toon per vloertype een galerij met projectfoto's, kleuropties en texturen. Geef richtprijzen per m² per type. Leg het verschil uit tussen epoxy en PU: slijtvastheid, glansgraad, warmte, geschiktheid per ruimte. Klanten die twijfelen tussen vloertypen besteden veel tijd op vergelijkingspagina's - jij kunt die bron zijn.",
       },
       {
         heading: "Lokale SEO en inspiratiecontent",
@@ -2617,7 +2617,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-parketvloeren",
     title: "Online marketing voor parketleggers: meer klanten via Google",
-    description: "Zo krijg je als parketlegger meer klanten via Google — van massief parket tot visgraatvloeren en parketrenovatie.",
+    description: "Zo krijg je als parketlegger meer klanten via Google - van massief parket tot visgraatvloeren en parketrenovatie.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2641,7 +2641,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Parketrenovatie als tweede pijler",
-        body: "Naast nieuw parket leggen is parketrenovatie een grote markt. Mensen zoeken op 'parket schuren kosten', 'parketvloer opknappen' en 'houten vloer renoveren'. Maak aparte pagina's voor renovatiediensten met voor-en-na foto's. Renovatieprojecten hebben een lagere projectwaarde maar hogere marges en een kortere doorlooptijd — een perfecte aanvulling op nieuwbouwprojecten.",
+        body: "Naast nieuw parket leggen is parketrenovatie een grote markt. Mensen zoeken op 'parket schuren kosten', 'parketvloer opknappen' en 'houten vloer renoveren'. Maak aparte pagina's voor renovatiediensten met voor-en-na foto's. Renovatieprojecten hebben een lagere projectwaarde maar hogere marges en een kortere doorlooptijd - een perfecte aanvulling op nieuwbouwprojecten.",
       },
       {
         heading: "Portfolio en reviews",
@@ -2649,14 +2649,14 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Wat levert het op?",
-        body: "Een parketlegger met goede online zichtbaarheid kan rekenen op 6-15 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 5.500 euro en een conversie van 30% is dat 9.900 tot 24.750 euro extra omzet per maand. De premium positionering van parketvloeren trekt klanten aan die op kwaliteit selecteren in plaats van op prijs — precies de klanten die je wilt.",
+        body: "Een parketlegger met goede online zichtbaarheid kan rekenen op 6-15 offerteaanvragen per maand. Bij een gemiddelde projectwaarde van 5.500 euro en een conversie van 30% is dat 9.900 tot 24.750 euro extra omzet per maand. De premium positionering van parketvloeren trekt klanten aan die op kwaliteit selecteren in plaats van op prijs - precies de klanten die je wilt.",
       },
     ],
   },
   {
     slug: "online-marketing-aanbouw-uitbouw",
     title: "Online marketing voor aanbouw- en uitbouwbedrijven: meer projecten via Google",
-    description: "Zo krijg je als aanbouw/uitbouw specialist meer klanten via Google — van serre tot uitbouw keuken en aanbouw woning.",
+    description: "Zo krijg je als aanbouw/uitbouw specialist meer klanten via Google - van serre tot uitbouw keuken en aanbouw woning.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2672,15 +2672,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business en lokale zichtbaarheid",
-        body: "Vermeld je specialisaties: uitbouw keuken, aanbouw woonkamer, serre, opbouw verdieping, garage ombouwen. Upload foto's van het volledige bouwproces: fundament, ruwbouw, afwerking en eindresultaat. Vermeld vergunningskennis en constructieve ervaring. Klanten met een aanbouwproject zoeken zekerheid — ze willen een aannemer die het totaalplaatje beheerst.",
+        body: "Vermeld je specialisaties: uitbouw keuken, aanbouw woonkamer, serre, opbouw verdieping, garage ombouwen. Upload foto's van het volledige bouwproces: fundament, ruwbouw, afwerking en eindresultaat. Vermeld vergunningskennis en constructieve ervaring. Klanten met een aanbouwproject zoeken zekerheid - ze willen een aannemer die het totaalplaatje beheerst.",
       },
       {
         heading: "Case studies die overtuigen",
-        body: "Bij grote projecten willen klanten bewijs. Maak van je beste projecten uitgebreide case studies: uitgangssituatie, wensen van de klant, bouwproces in fasen, eindresultaat met foto's en klanttevredenheid. Vermeld de doorlooptijd en een prijsindicatie. Case studies zijn het krachtigste verkoopinstrument voor aanbouwprojecten — ze bewijzen dat je levert wat je belooft.",
+        body: "Bij grote projecten willen klanten bewijs. Maak van je beste projecten uitgebreide case studies: uitgangssituatie, wensen van de klant, bouwproces in fasen, eindresultaat met foto's en klanttevredenheid. Vermeld de doorlooptijd en een prijsindicatie. Case studies zijn het krachtigste verkoopinstrument voor aanbouwprojecten - ze bewijzen dat je levert wat je belooft.",
       },
       {
         heading: "Vergunningen en regelgeving als content",
-        body: "Klanten zoeken massaal op 'uitbouw vergunning nodig', 'bestemmingsplan uitbouw' en 'vergunningsvrij bouwen'. Schrijf informatieve pagina's over deze onderwerpen. Je positioneert je als expert en trekt bezoekers aan die in de planningsfase zitten. Eindig met een gratis haalbaarheidscheck als call-to-action — dit is de perfecte eerste stap naar een offerte.",
+        body: "Klanten zoeken massaal op 'uitbouw vergunning nodig', 'bestemmingsplan uitbouw' en 'vergunningsvrij bouwen'. Schrijf informatieve pagina's over deze onderwerpen. Je positioneert je als expert en trekt bezoekers aan die in de planningsfase zitten. Eindig met een gratis haalbaarheidscheck als call-to-action - dit is de perfecte eerste stap naar een offerte.",
       },
       {
         heading: "Reviews bij grote verbouwingen",
@@ -2688,14 +2688,14 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Wat levert het op?",
-        body: "Een aanbouw/uitbouwbedrijf met sterke online aanwezigheid kan rekenen op 5-12 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 35.000 euro en een conversie van 20% is dat 35.000 tot 84.000 euro extra omzet per maand. De hoge projectwaarde maakt elke lead extreem waardevol — één extra opdracht per maand kan je bedrijf transformeren.",
+        body: "Een aanbouw/uitbouwbedrijf met sterke online aanwezigheid kan rekenen op 5-12 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 35.000 euro en een conversie van 20% is dat 35.000 tot 84.000 euro extra omzet per maand. De hoge projectwaarde maakt elke lead extreem waardevol - één extra opdracht per maand kan je bedrijf transformeren.",
       },
     ],
   },
   {
     slug: "online-marketing-funderingsherstel",
     title: "Online marketing voor funderingsherstel bedrijven: meer opdrachten via Google",
-    description: "Zo krijg je als funderingsspecialist meer klanten via Google — van funderingsinspectie tot paalfundering en funderingsherstel.",
+    description: "Zo krijg je als funderingsspecialist meer klanten via Google - van funderingsinspectie tot paalfundering en funderingsherstel.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2723,7 +2723,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Vertrouwen via certificering en reviews",
-        body: "Bij een investering van tienduizenden euro's zoeken klanten maximale zekerheid. Toon je certificeringen prominent op je website en Google-profiel. Vraag klanten om reviews die specifiek ingaan op de communicatie, de planning en het resultaat. Een funderingsbedrijf met 15+ positieve reviews domineert al snel de lokale zoekresultaten — de concurrentie is beperkt.",
+        body: "Bij een investering van tienduizenden euro's zoeken klanten maximale zekerheid. Toon je certificeringen prominent op je website en Google-profiel. Vraag klanten om reviews die specifiek ingaan op de communicatie, de planning en het resultaat. Een funderingsbedrijf met 15+ positieve reviews domineert al snel de lokale zoekresultaten - de concurrentie is beperkt.",
       },
       {
         heading: "Wat levert het op?",
@@ -2734,7 +2734,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-dakgoten",
     title: "Online marketing voor dakgootbedrijven: meer klanten via Google",
-    description: "Zo krijg je als dakgootspecialist meer klanten via Google — van dakgoot vervangen tot zinken goot en hemelwaterafvoer.",
+    description: "Zo krijg je als dakgootspecialist meer klanten via Google - van dakgoot vervangen tot zinken goot en hemelwaterafvoer.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2750,7 +2750,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business voor dakgootbedrijven",
-        body: "Vermeld al je diensten: dakgoot vervangen, dakgoot repareren, zinken dakgoot, aluminium dakgoot, koperen dakgoot, hemelwaterafvoer, bladrooster plaatsen. Upload foto's van keurig afgewerkte dakgoten in zink en aluminium. Vermeld of je ook boeiboorden en windveren doet — veel klanten combineren dakgootwerk met deze aanvullende klussen.",
+        body: "Vermeld al je diensten: dakgoot vervangen, dakgoot repareren, zinken dakgoot, aluminium dakgoot, koperen dakgoot, hemelwaterafvoer, bladrooster plaatsen. Upload foto's van keurig afgewerkte dakgoten in zink en aluminium. Vermeld of je ook boeiboorden en windveren doet - veel klanten combineren dakgootwerk met deze aanvullende klussen.",
       },
       {
         heading: "Materiaalvergelijking als content",
@@ -2762,7 +2762,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews en herhalingswerk",
-        body: "Dakgootwerk leidt vaak tot vervolgwerk: als de goten vervangen zijn, wil de klant ook boeiboorden of een bladrooster. Tevreden klanten komen terug en verwijzen je door. Reviews versnellen dit effect: buren zien dezelfde gootproblemen en kiezen het bedrijf dat hun buurman al geholpen heeft. Vraag na elk project om een review — het is je goedkoopste marketingkanaal.",
+        body: "Dakgootwerk leidt vaak tot vervolgwerk: als de goten vervangen zijn, wil de klant ook boeiboorden of een bladrooster. Tevreden klanten komen terug en verwijzen je door. Reviews versnellen dit effect: buren zien dezelfde gootproblemen en kiezen het bedrijf dat hun buurman al geholpen heeft. Vraag na elk project om een review - het is je goedkoopste marketingkanaal.",
       },
       {
         heading: "Wat levert het op?",
@@ -2773,7 +2773,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-gevelreiniging",
     title: "Online marketing voor gevelreinigingsbedrijven: meer opdrachten via Google",
-    description: "Zo krijg je als gevelreiniger meer klanten via Google — van gevel reinigen tot algenbestrijding en graffiti verwijderen.",
+    description: "Zo krijg je als gevelreiniger meer klanten via Google - van gevel reinigen tot algenbestrijding en graffiti verwijderen.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2785,11 +2785,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Gevelreiniging: visueel resultaat als marketing",
-        body: "Gevelreiniging is een van de meest visuele vakgebieden: een groene, vervuilde gevel wordt weer als nieuw. Klanten zoeken op 'gevel reinigen kosten', 'algen verwijderen gevel' en 'gevelreiniger [stad]'. De voor-en-na foto's spreken zo sterk dat ze zichzelf verkopen. Toch hebben de meeste gevelreinigers geen website of actueel Google-profiel — een enorme gemiste kans.",
+        body: "Gevelreiniging is een van de meest visuele vakgebieden: een groene, vervuilde gevel wordt weer als nieuw. Klanten zoeken op 'gevel reinigen kosten', 'algen verwijderen gevel' en 'gevelreiniger [stad]'. De voor-en-na foto's spreken zo sterk dat ze zichzelf verkopen. Toch hebben de meeste gevelreinigers geen website of actueel Google-profiel - een enorme gemiste kans.",
       },
       {
         heading: "Google Business voor gevelreinigers",
-        body: "Vermeld al je diensten: gevelreiniging, algen- en mosbestrijding, graffiti verwijderen, impregneren, hogedrukreiniging, stoomreiniging, zandstralen. Upload dramatische voor-en-na foto's — dit is je sterkste wapen. Vermeld welke gevelmaterialen je behandelt: baksteen, beton, natuursteen, pleisterwerk. Hoe specifieker, hoe beter je vindbaar bent.",
+        body: "Vermeld al je diensten: gevelreiniging, algen- en mosbestrijding, graffiti verwijderen, impregneren, hogedrukreiniging, stoomreiniging, zandstralen. Upload dramatische voor-en-na foto's - dit is je sterkste wapen. Vermeld welke gevelmaterialen je behandelt: baksteen, beton, natuursteen, pleisterwerk. Hoe specifieker, hoe beter je vindbaar bent.",
       },
       {
         heading: "Voor-en-na foto's als contentmotor",
@@ -2797,7 +2797,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Lokale dominantie opbouwen",
-        body: "Gevelreiniging is hyperlocaal: klanten zoeken in hun eigen stad of wijk. Maak pagina's per gemeente of regio waarin je werkt. Combineer lokale zoektermen met specifieke diensten: 'gevelreiniging Rotterdam', 'algen verwijderen gevel Utrecht'. De concurrentie per stad is minimaal — met een basale online aanpak sta je al snel bovenaan.",
+        body: "Gevelreiniging is hyperlocaal: klanten zoeken in hun eigen stad of wijk. Maak pagina's per gemeente of regio waarin je werkt. Combineer lokale zoektermen met specifieke diensten: 'gevelreiniging Rotterdam', 'algen verwijderen gevel Utrecht'. De concurrentie per stad is minimaal - met een basale online aanpak sta je al snel bovenaan.",
       },
       {
         heading: "Reviews en buurteffect",
@@ -2812,7 +2812,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-asbestsanering",
     title: "Online marketing voor asbestsaneringsbedrijven: meer opdrachten via Google",
-    description: "Zo krijg je als asbestsaneerder meer klanten via Google — van asbestinventarisatie tot sanering en sloopmelding.",
+    description: "Zo krijg je als asbestsaneerder meer klanten via Google - van asbestinventarisatie tot sanering en sloopmelding.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2836,11 +2836,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business en specialisaties",
-        body: "Vermeld al je diensten: asbestinventarisatie, asbestsanering, asbestdak verwijderen, bodem sanering, sloopmelding begeleiding, luchtmetingen, vrijgavemeting. Vermeld ook welke type panden je bedient: woningen, bedrijfspanden, scholen, overheid. Upload foto's van professioneel uitgevoerde saneringen met beschermende kleding en afzetting — dit toont professionaliteit en veiligheid.",
+        body: "Vermeld al je diensten: asbestinventarisatie, asbestsanering, asbestdak verwijderen, bodem sanering, sloopmelding begeleiding, luchtmetingen, vrijgavemeting. Vermeld ook welke type panden je bedient: woningen, bedrijfspanden, scholen, overheid. Upload foto's van professioneel uitgevoerde saneringen met beschermende kleding en afzetting - dit toont professionaliteit en veiligheid.",
       },
       {
         heading: "Reviews in een verplichte markt",
-        body: "Klanten moeten asbest laten verwijderen — ze hebben geen keuze. Maar ze kiezen wél welk bedrijf. Reviews op Google zijn het verschil. Vraag na elke sanering om een review die ingaat op communicatie, planning en oplevering. Een asbestsaneerder met 25+ positieve reviews wordt als betrouwbaar en professioneel gezien — precies wat klanten zoeken bij een verplichte, kostbare klus.",
+        body: "Klanten moeten asbest laten verwijderen - ze hebben geen keuze. Maar ze kiezen wél welk bedrijf. Reviews op Google zijn het verschil. Vraag na elke sanering om een review die ingaat op communicatie, planning en oplevering. Een asbestsaneerder met 25+ positieve reviews wordt als betrouwbaar en professioneel gezien - precies wat klanten zoeken bij een verplichte, kostbare klus.",
       },
       {
         heading: "Wat levert het op?",
@@ -2851,7 +2851,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-rietdekkers",
     title: "Online marketing voor rietdekkers: meer opdrachten via Google",
-    description: "Zo krijg je als rietdekker meer klanten via Google — van rieten dak vernieuwen tot riet repareren en onderhoud.",
+    description: "Zo krijg je als rietdekker meer klanten via Google - van rieten dak vernieuwen tot riet repareren en onderhoud.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2863,23 +2863,23 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Rietdekken: ambachtelijk vakmanschap in een nichemarkt",
-        body: "Rietdekken is een uniek ambacht met een beperkt aantal vakmannen in Nederland. Klanten met een rieten dak — of die er een willen — zoeken op 'rietdekker in de buurt', 'rieten dak kosten' en 'riet vernieuwen'. De concurrentie online is minimaal, maar de projectwaarden zijn hoog: 15.000 tot 40.000 euro voor een compleet rieten dak. Een basale online aanwezigheid is vaak al genoeg om de eerste keuze te worden.",
+        body: "Rietdekken is een uniek ambacht met een beperkt aantal vakmannen in Nederland. Klanten met een rieten dak - of die er een willen - zoeken op 'rietdekker in de buurt', 'rieten dak kosten' en 'riet vernieuwen'. De concurrentie online is minimaal, maar de projectwaarden zijn hoog: 15.000 tot 40.000 euro voor een compleet rieten dak. Een basale online aanwezigheid is vaak al genoeg om de eerste keuze te worden.",
       },
       {
         heading: "Google Business voor rietdekkers",
-        body: "Vermeld je diensten: rieten dak vernieuwen, riet repareren, nok vervangen, mosbehandeling, brandvertraging aanbrengen. Upload foto's van prachtige rieten daken in verschillende stijlen en fasen van het werkproces. Het ambachtelijke karakter van rietdekken spreekt sterk aan — toon je vakmanschap met beelden van het handwerk.",
+        body: "Vermeld je diensten: rieten dak vernieuwen, riet repareren, nok vervangen, mosbehandeling, brandvertraging aanbrengen. Upload foto's van prachtige rieten daken in verschillende stijlen en fasen van het werkproces. Het ambachtelijke karakter van rietdekken spreekt sterk aan - toon je vakmanschap met beelden van het handwerk.",
       },
       {
         heading: "Content over onderhoud en levensduur",
-        body: "Huiseigenaren met een rieten dak zoeken op 'rieten dak onderhoud', 'levensduur rieten dak' en 'mos op rieten dak'. Schrijf informatieve pagina's over deze onderwerpen. Geef advies over onderhoudsbeurten en herkennen van slijtage. Deze content trekt bestaande rieten-dak-eigenaren aan die onderhoud of vervanging overwegen — de meest waardevolle doelgroep.",
+        body: "Huiseigenaren met een rieten dak zoeken op 'rieten dak onderhoud', 'levensduur rieten dak' en 'mos op rieten dak'. Schrijf informatieve pagina's over deze onderwerpen. Geef advies over onderhoudsbeurten en herkennen van slijtage. Deze content trekt bestaande rieten-dak-eigenaren aan die onderhoud of vervanging overwegen - de meest waardevolle doelgroep.",
       },
       {
         heading: "Regionaal werkgebied benadrukken",
-        body: "Rietdekkers werken vaak in specifieke regio's waar veel rieten daken staan: Noord-Holland, Friesland, Brabant, Veluwe. Maak pagina's per regio en vermeld hoeveel projecten je daar hebt uitgevoerd. Klanten zoeken lokaal en willen een rietdekker die hun omgeving kent. Vermeld ook of je met lokale gemeenten werkt aan monumentale panden — dit toont ervaring en betrouwbaarheid.",
+        body: "Rietdekkers werken vaak in specifieke regio's waar veel rieten daken staan: Noord-Holland, Friesland, Brabant, Veluwe. Maak pagina's per regio en vermeld hoeveel projecten je daar hebt uitgevoerd. Klanten zoeken lokaal en willen een rietdekker die hun omgeving kent. Vermeld ook of je met lokale gemeenten werkt aan monumentale panden - dit toont ervaring en betrouwbaarheid.",
       },
       {
         heading: "Ambacht en reviews",
-        body: "Rietdekken is een ambacht waar klanten grote waardering voor hebben. Eigenaren van rieten daken zijn vaak trots op hun woning en delen graag positieve ervaringen. Vraag na elk project om een Google review. Een rietdekker met 15+ reviews staat in de meeste regio's op nummer één — simpelweg omdat de concurrentie bijna geen online aanwezigheid heeft.",
+        body: "Rietdekken is een ambacht waar klanten grote waardering voor hebben. Eigenaren van rieten daken zijn vaak trots op hun woning en delen graag positieve ervaringen. Vraag na elk project om een Google review. Een rietdekker met 15+ reviews staat in de meeste regio's op nummer één - simpelweg omdat de concurrentie bijna geen online aanwezigheid heeft.",
       },
       {
         heading: "Wat levert het op?",
@@ -2890,7 +2890,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-hekwerk-poorten",
     title: "Online marketing voor hekwerk- en poortbedrijven: meer opdrachten via Google",
-    description: "Zo krijg je als hekwerk specialist meer klanten via Google — van sierhekwerk tot automatische poorten en erfafscheiding.",
+    description: "Zo krijg je als hekwerk specialist meer klanten via Google - van sierhekwerk tot automatische poorten en erfafscheiding.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2918,7 +2918,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews van diverse projecten",
-        body: "Verzamel reviews van zowel particuliere als zakelijke klanten. Een mix van reviews — tuinhekwerk, bedrijfshekwerk, automatische poorten — toont de breedte van je expertise. Vraag specifiek om reviews die ingaan op de montage, de communicatie en het eindresultaat. Een hekwerkbedrijf met 20+ diverse reviews overtuigt elke potentiële klant.",
+        body: "Verzamel reviews van zowel particuliere als zakelijke klanten. Een mix van reviews - tuinhekwerk, bedrijfshekwerk, automatische poorten - toont de breedte van je expertise. Vraag specifiek om reviews die ingaan op de montage, de communicatie en het eindresultaat. Een hekwerkbedrijf met 20+ diverse reviews overtuigt elke potentiële klant.",
       },
       {
         heading: "Wat levert het op?",
@@ -2929,7 +2929,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-rolluiken-zonwering",
     title: "Online marketing voor rolluik- en zonweringsbedrijven: meer klanten via Google",
-    description: "Zo krijg je als zonweringspecialist meer klanten via Google — van rolluiken tot screens, markiezen en lamellendaken.",
+    description: "Zo krijg je als zonweringspecialist meer klanten via Google - van rolluiken tot screens, markiezen en lamellendaken.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2945,11 +2945,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business met productfoto's",
-        body: "Vermeld al je producten: rolluiken, screens, markiezen, lamellendaken, terrasoverkappingen, jaloezieën, raambekleding. Upload foto's van gemonteerde producten bij woningen: een strakke screen op een moderne woning, een klassieke markies bij een jaren-30 huis. Vermeld merken waarmee je werkt (Somfy, Velux, Luxaflex) — klanten zoeken ook op merknaam.",
+        body: "Vermeld al je producten: rolluiken, screens, markiezen, lamellendaken, terrasoverkappingen, jaloezieën, raambekleding. Upload foto's van gemonteerde producten bij woningen: een strakke screen op een moderne woning, een klassieke markies bij een jaren-30 huis. Vermeld merken waarmee je werkt (Somfy, Velux, Luxaflex) - klanten zoeken ook op merknaam.",
       },
       {
         heading: "Seizoensstrategie voor online marketing",
-        body: "Begin in februari met het optimaliseren van je website en Google-profiel. Publiceer in maart content over zonwering kiezen, screens vs markiezen en energiebesparing door zonwering. Zo bouw je zichtbaarheid op precies wanneer de vraag stijgt. In het najaar kun je focussen op rolluiken voor inbraakbeveiliging en isolatie — dit spreidt je omzet over het jaar.",
+        body: "Begin in februari met het optimaliseren van je website en Google-profiel. Publiceer in maart content over zonwering kiezen, screens vs markiezen en energiebesparing door zonwering. Zo bouw je zichtbaarheid op precies wanneer de vraag stijgt. In het najaar kun je focussen op rolluiken voor inbraakbeveiliging en isolatie - dit spreidt je omzet over het jaar.",
       },
       {
         heading: "Vergelijkingscontent die converteert",
@@ -2968,7 +2968,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-garagedeuren",
     title: "Online marketing voor garagedeurbedrijven: meer opdrachten via Google",
-    description: "Zo krijg je als garagedeurspecialist meer klanten via Google — van sectionaaldeur tot kanteldeur en elektrische garagedeur.",
+    description: "Zo krijg je als garagedeurspecialist meer klanten via Google - van sectionaaldeur tot kanteldeur en elektrische garagedeur.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -2980,15 +2980,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Garagedeuren: grote investering, veel online onderzoek",
-        body: "Een nieuwe garagedeur kost 1.500 tot 5.000 euro — een investering waar klanten goed over nadenken. Ze zoeken op 'garagedeur vervangen kosten', 'sectionaaldeur op maat' en 'garagedeur monteur [stad]'. De meeste garagedeurbedrijven vertrouwen op dealers en showrooms, maar klanten beginnen hun zoektocht online. Wie daar zichtbaar is, heeft een voorsprong.",
+        body: "Een nieuwe garagedeur kost 1.500 tot 5.000 euro - een investering waar klanten goed over nadenken. Ze zoeken op 'garagedeur vervangen kosten', 'sectionaaldeur op maat' en 'garagedeur monteur [stad]'. De meeste garagedeurbedrijven vertrouwen op dealers en showrooms, maar klanten beginnen hun zoektocht online. Wie daar zichtbaar is, heeft een voorsprong.",
       },
       {
         heading: "Google Business voor garagedeurbedrijven",
-        body: "Vermeld je producten en diensten: sectionaaldeuren, kanteldeuren, roldeuren, openslaande garagedeuren, elektrische aandrijving, garagedeur reparatie, onderhoud. Upload foto's van geïnstalleerde deuren bij woningen — verschillende materialen (staal, hout, aluminium) en stijlen. Vermeld merken (Hörmann, Novoferm, Normstahl) voor merknaam-zoekopdrachten.",
+        body: "Vermeld je producten en diensten: sectionaaldeuren, kanteldeuren, roldeuren, openslaande garagedeuren, elektrische aandrijving, garagedeur reparatie, onderhoud. Upload foto's van geïnstalleerde deuren bij woningen - verschillende materialen (staal, hout, aluminium) en stijlen. Vermeld merken (Hörmann, Novoferm, Normstahl) voor merknaam-zoekopdrachten.",
       },
       {
         heading: "Productvergelijking als contentstrategie",
-        body: "Klanten twijfelen tussen deurtypen. Schrijf een vergelijkingspagina: sectionaaldeur vs kanteldeur vs roldeur. Vergelijk op ruimtebesparing, isolatiewaarde, bediening, prijs en levensduur. Voeg een keuzehulp toe: welk type past bij jouw garage? Deze content scoort op vergelijkende zoektermen en helpt klanten bij hun beslissing — met jou als de expert die ze vertrouwen.",
+        body: "Klanten twijfelen tussen deurtypen. Schrijf een vergelijkingspagina: sectionaaldeur vs kanteldeur vs roldeur. Vergelijk op ruimtebesparing, isolatiewaarde, bediening, prijs en levensduur. Voeg een keuzehulp toe: welk type past bij jouw garage? Deze content scoort op vergelijkende zoektermen en helpt klanten bij hun beslissing - met jou als de expert die ze vertrouwen.",
       },
       {
         heading: "Reparatie als instapservice",
@@ -2996,7 +2996,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews en showroom-ervaring online",
-        body: "Niet elke klant wil naar een showroom. Bied een online showroom-ervaring met uitgebreide productpagina's, foto's in verschillende settings en video's van elektrische deuren in actie. Combineer dit met sterke Google reviews en je verkoopt garagedeuren vanuit je website. Vraag na elke installatie om een review — tevreden klanten waarderen de kwaliteit en service.",
+        body: "Niet elke klant wil naar een showroom. Bied een online showroom-ervaring met uitgebreide productpagina's, foto's in verschillende settings en video's van elektrische deuren in actie. Combineer dit met sterke Google reviews en je verkoopt garagedeuren vanuit je website. Vraag na elke installatie om een review - tevreden klanten waarderen de kwaliteit en service.",
       },
       {
         heading: "Wat levert het op?",
@@ -3007,7 +3007,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-beglazing",
     title: "Online marketing voor glaszetters: meer klanten via Google",
-    description: "Zo krijg je als glaszetter meer klanten via Google — van dubbelglas tot spoedreparatie en glasschade herstellen.",
+    description: "Zo krijg je als glaszetter meer klanten via Google - van dubbelglas tot spoedreparatie en glasschade herstellen.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3023,7 +3023,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business met 24/7 bereikbaarheid",
-        body: "Zet je openingstijden op 24/7 als je spoedservice biedt — dit is cruciaal voor glasnooddiensten. Vermeld al je diensten: enkelglas, dubbelglas, HR++ glas, triple glas, veiligheidsglas, sierruiten, spiegels, douchewanden, glazen deuren. Upload foto's van netjes geplaatst glas in verschillende settings. Vermeld je responstijd bij spoed: 'binnen 2 uur ter plaatse'.",
+        body: "Zet je openingstijden op 24/7 als je spoedservice biedt - dit is cruciaal voor glasnooddiensten. Vermeld al je diensten: enkelglas, dubbelglas, HR++ glas, triple glas, veiligheidsglas, sierruiten, spiegels, douchewanden, glazen deuren. Upload foto's van netjes geplaatst glas in verschillende settings. Vermeld je responstijd bij spoed: 'binnen 2 uur ter plaatse'.",
       },
       {
         heading: "Spoed vs gepland: twee contenttracks",
@@ -3046,7 +3046,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-vochtbestrijding",
     title: "Online marketing voor vochtbestrijdingsbedrijven: meer klanten via Google",
-    description: "Zo krijg je als vochtspecialist meer klanten via Google — van kelderlekkage tot optrekkend vocht en condensprobleem.",
+    description: "Zo krijg je als vochtspecialist meer klanten via Google - van kelderlekkage tot optrekkend vocht en condensprobleem.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3058,15 +3058,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Vochtbestrijding: urgentie en angst als drijfveer",
-        body: "Vochtproblemen zijn stressvol: schimmel op muren, natte kelders, loslatend behang. Klanten zoeken in paniek op 'vochtprobleem oplossen', 'optrekkend vocht bestrijden' en 'vochtbestrijding [stad]'. Ze willen snel een expert die het probleem diagnosticeert en oplost. De emotionele urgentie maakt dat klanten snel beslissen — als jij bovenaan staat in Google, word je als eerste gebeld.",
+        body: "Vochtproblemen zijn stressvol: schimmel op muren, natte kelders, loslatend behang. Klanten zoeken in paniek op 'vochtprobleem oplossen', 'optrekkend vocht bestrijden' en 'vochtbestrijding [stad]'. Ze willen snel een expert die het probleem diagnosticeert en oplost. De emotionele urgentie maakt dat klanten snel beslissen - als jij bovenaan staat in Google, word je als eerste gebeld.",
       },
       {
         heading: "Google Business voor vochtbestrijders",
-        body: "Vermeld al je diensten: vochtdiagnose, optrekkend vocht behandelen, kelderdichting, condensbestrijding, schimmelverwijdering, injectie, drainage, waterdichte coating. Upload foto's van opgeloste vochtproblemen: van schimmelende muur tot droge, opgeknapte ruimte. Vermeld je inspectie-dienst prominent — een gratis vochtinspectie is de perfecte lead-generator.",
+        body: "Vermeld al je diensten: vochtdiagnose, optrekkend vocht behandelen, kelderdichting, condensbestrijding, schimmelverwijdering, injectie, drainage, waterdichte coating. Upload foto's van opgeloste vochtproblemen: van schimmelende muur tot droge, opgeknapte ruimte. Vermeld je inspectie-dienst prominent - een gratis vochtinspectie is de perfecte lead-generator.",
       },
       {
         heading: "Symptoom-gerichte content",
-        body: "Klanten zoeken niet op 'vochtbestrijding' maar op symptomen: 'schimmel op muur slaapkamer', 'natte kelder oplossing', 'condensvorming ramen'. Schrijf pagina's per symptoom: wat is de oorzaak, hoe los je het op, en wanneer heb je een specialist nodig. Elke symptoompagina trekt bezoekers aan die een acuut probleem hebben — de warmste leads die er zijn.",
+        body: "Klanten zoeken niet op 'vochtbestrijding' maar op symptomen: 'schimmel op muur slaapkamer', 'natte kelder oplossing', 'condensvorming ramen'. Schrijf pagina's per symptoom: wat is de oorzaak, hoe los je het op, en wanneer heb je een specialist nodig. Elke symptoompagina trekt bezoekers aan die een acuut probleem hebben - de warmste leads die er zijn.",
       },
       {
         heading: "Gratis inspectie als conversie-instrument",
@@ -3085,7 +3085,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-schoorsteenvegers",
     title: "Online marketing voor schoorsteenvegers: meer klanten via Google",
-    description: "Zo krijg je als schoorsteenveger meer klanten via Google — van schoorsteen vegen tot inspectie en rookkanaal reinigen.",
+    description: "Zo krijg je als schoorsteenveger meer klanten via Google - van schoorsteen vegen tot inspectie en rookkanaal reinigen.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3097,11 +3097,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Schoorsteenvegen: terugkerend werk met vaste seizoenen",
-        body: "Schoorsteenvegen is seizoensgebonden: het piek loopt van augustus tot december, wanneer huiseigenaren hun kachel of open haard voorbereiden op de winter. Ze zoeken op 'schoorsteenveger [stad]', 'schoorsteen laten vegen kosten' en 'schoorsteen inspectie'. Het is terugkerend werk — een tevreden klant komt elk jaar terug. Online vindbaarheid bouwt een stabiele klantenbasis.",
+        body: "Schoorsteenvegen is seizoensgebonden: het piek loopt van augustus tot december, wanneer huiseigenaren hun kachel of open haard voorbereiden op de winter. Ze zoeken op 'schoorsteenveger [stad]', 'schoorsteen laten vegen kosten' en 'schoorsteen inspectie'. Het is terugkerend werk - een tevreden klant komt elk jaar terug. Online vindbaarheid bouwt een stabiele klantenbasis.",
       },
       {
         heading: "Google Business als eerste contactpunt",
-        body: "Vermeld je diensten: schoorsteen vegen, rookkanaal inspectie, video-inspectie, schoorsteen reparatie, vonkenvanger plaatsen, schoorsteenkap monteren. Vermeld duidelijk je werkgebied en tarieven. Upload foto's van je werk: een schone schoorsteen, inspectie-apparatuur, je bedrijfswagen. Klanten kiezen vaak de eerste schoorsteenveger die ze vinden met goede reviews — zorg dat jij dat bent.",
+        body: "Vermeld je diensten: schoorsteen vegen, rookkanaal inspectie, video-inspectie, schoorsteen reparatie, vonkenvanger plaatsen, schoorsteenkap monteren. Vermeld duidelijk je werkgebied en tarieven. Upload foto's van je werk: een schone schoorsteen, inspectie-apparatuur, je bedrijfswagen. Klanten kiezen vaak de eerste schoorsteenveger die ze vinden met goede reviews - zorg dat jij dat bent.",
       },
       {
         heading: "Seizoensplanning in je content",
@@ -3124,7 +3124,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-kelderbouw",
     title: "Online marketing voor kelderbouwers: meer projecten via Google",
-    description: "Zo krijg je als kelderbouwer meer klanten via Google — van souterrain tot waterdichte kelder en kelderbak.",
+    description: "Zo krijg je als kelderbouwer meer klanten via Google - van souterrain tot waterdichte kelder en kelderbak.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3144,7 +3144,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Case studies als verkoopinstrument",
-        body: "Bij investeringen van tienduizenden euro's willen klanten bewijs. Maak uitgebreide case studies: situatie voor de kelder, het bouwproces, technische uitdagingen en het eindresultaat. Vermeld de doorlooptijd, het type kelder en een prijsindicatie. Eén overtuigende case study kan meerdere leads per maand genereren — het is je sterkste marketing-asset.",
+        body: "Bij investeringen van tienduizenden euro's willen klanten bewijs. Maak uitgebreide case studies: situatie voor de kelder, het bouwproces, technische uitdagingen en het eindresultaat. Vermeld de doorlooptijd, het type kelder en een prijsindicatie. Eén overtuigende case study kan meerdere leads per maand genereren - het is je sterkste marketing-asset.",
       },
       {
         heading: "Technische content die vertrouwen bouwt",
@@ -3152,18 +3152,18 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews bij grote projecten",
-        body: "Bij een investering van 50.000+ euro is elke review goud waard. Vraag klanten om uitgebreid te beschrijven hoe de samenwerking verliep: planning, communicatie, omgang met onverwachte situaties en tevredenheid met het eindresultaat. Een kelderbouwer met 10+ uitgebreide positieve reviews domineert de markt — er zijn simpelweg weinig concurrenten met een sterk online profiel.",
+        body: "Bij een investering van 50.000+ euro is elke review goud waard. Vraag klanten om uitgebreid te beschrijven hoe de samenwerking verliep: planning, communicatie, omgang met onverwachte situaties en tevredenheid met het eindresultaat. Een kelderbouwer met 10+ uitgebreide positieve reviews domineert de markt - er zijn simpelweg weinig concurrenten met een sterk online profiel.",
       },
       {
         heading: "Wat levert het op?",
-        body: "Een kelderbouwer met sterke online aanwezigheid kan rekenen op 3-8 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 60.000 euro en een conversie van 20% is dat 36.000 tot 96.000 euro extra omzet per maand. De extreem hoge projectwaarden maken elke online investering rendabel — één extra project per kwartaal betaalt je hele marketingbudget.",
+        body: "Een kelderbouwer met sterke online aanwezigheid kan rekenen op 3-8 serieuze aanvragen per maand. Bij een gemiddelde projectwaarde van 60.000 euro en een conversie van 20% is dat 36.000 tot 96.000 euro extra omzet per maand. De extreem hoge projectwaarden maken elke online investering rendabel - één extra project per kwartaal betaalt je hele marketingbudget.",
       },
     ],
   },
   {
     slug: "online-marketing-serrebouwers",
     title: "Online marketing voor serrebouwers: meer projecten via Google",
-    description: "Zo krijg je als serrebouwer meer klanten via Google — van glazen serre tot aluminium tuinkamer en veranda.",
+    description: "Zo krijg je als serrebouwer meer klanten via Google - van glazen serre tot aluminium tuinkamer en veranda.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3179,15 +3179,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business met sfeerbeelden",
-        body: "Vermeld je specialisaties: glazen serres, aluminium tuinkamers, houten veranda's, lamellendaken, overkappingen. Upload sfeerbeelden: een serre in de avondzon, een tuinkamer met planten, een veranda als verlengstuk van de woonkamer. Serres verkoop je op gevoel — laat klanten dromen over hun eigen uitbreiding.",
+        body: "Vermeld je specialisaties: glazen serres, aluminium tuinkamers, houten veranda's, lamellendaken, overkappingen. Upload sfeerbeelden: een serre in de avondzon, een tuinkamer met planten, een veranda als verlengstuk van de woonkamer. Serres verkoop je op gevoel - laat klanten dromen over hun eigen uitbreiding.",
       },
       {
         heading: "Inspiratiecontent en materiaalvergelijking",
-        body: "Klanten in de oriëntatiefase zoeken op 'serre of uitbouw', 'aluminium vs houten serre' en 'tuinkamer inspiratie'. Schrijf vergelijkingspagina's en inspiratie-artikelen met foto's. Leg de voor- en nadelen uit per materiaal en type. Deze content trekt bezoekers aan die nog geen leverancier hebben gekozen — je positioneert je als de expert die ze door het keuzeproces begeleidt.",
+        body: "Klanten in de oriëntatiefase zoeken op 'serre of uitbouw', 'aluminium vs houten serre' en 'tuinkamer inspiratie'. Schrijf vergelijkingspagina's en inspiratie-artikelen met foto's. Leg de voor- en nadelen uit per materiaal en type. Deze content trekt bezoekers aan die nog geen leverancier hebben gekozen - je positioneert je als de expert die ze door het keuzeproces begeleidt.",
       },
       {
         heading: "Vergunning en regelgeving",
-        body: "Serres en tuinkamers vallen vaak onder vergunningsvrij bouwen, maar niet altijd. Schrijf een duidelijke pagina over wanneer een vergunning nodig is en wanneer niet. Dit is een veelgezochte term en positioneert je als kennisleider. Bied aan om de vergunningscheck gratis te doen — dit verlaagt de drempel om contact op te nemen.",
+        body: "Serres en tuinkamers vallen vaak onder vergunningsvrij bouwen, maar niet altijd. Schrijf een duidelijke pagina over wanneer een vergunning nodig is en wanneer niet. Dit is een veelgezochte term en positioneert je als kennisleider. Bied aan om de vergunningscheck gratis te doen - dit verlaagt de drempel om contact op te nemen.",
       },
       {
         heading: "Reviews met projectbeschrijving",
@@ -3202,7 +3202,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-zwembadbouwers",
     title: "Online marketing voor zwembadbouwers: meer projecten via Google",
-    description: "Zo krijg je als zwembadbouwer meer klanten via Google — van inbouwzwembad tot natuurzwembad en poolhouse.",
+    description: "Zo krijg je als zwembadbouwer meer klanten via Google - van inbouwzwembad tot natuurzwembad en poolhouse.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3214,11 +3214,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Zwembadbouw: droomprojecten met grote budgetten",
-        body: "Een zwembad is een droomproject: klanten investeren 25.000 tot 100.000 euro en nemen maanden de tijd om te oriënteren. Ze zoeken op 'zwembad laten aanleggen kosten', 'inbouwzwembad prijs' en 'zwembadbouwer [stad]'. De lange oriëntatiefase maakt online aanwezigheid essentieel — wie gedurende die maanden zichtbaar is, wint het vertrouwen en de opdracht.",
+        body: "Een zwembad is een droomproject: klanten investeren 25.000 tot 100.000 euro en nemen maanden de tijd om te oriënteren. Ze zoeken op 'zwembad laten aanleggen kosten', 'inbouwzwembad prijs' en 'zwembadbouwer [stad]'. De lange oriëntatiefase maakt online aanwezigheid essentieel - wie gedurende die maanden zichtbaar is, wint het vertrouwen en de opdracht.",
       },
       {
         heading: "Google Business met droombeelden",
-        body: "Vermeld je specialisaties: inbouwzwembaden, skimmer zwembaden, overloopzwembaden, natuurzwembaden, plunge pools, poolhouses, spa's. Upload de mooiste foto's van je projecten: zwembaden in tuinen, bij avondverlichting, met terras en poolhouse. Zwembaden verkoop je op emotie en lifestyle — laat je foto's het verhaal vertellen.",
+        body: "Vermeld je specialisaties: inbouwzwembaden, skimmer zwembaden, overloopzwembaden, natuurzwembaden, plunge pools, poolhouses, spa's. Upload de mooiste foto's van je projecten: zwembaden in tuinen, bij avondverlichting, met terras en poolhouse. Zwembaden verkoop je op emotie en lifestyle - laat je foto's het verhaal vertellen.",
       },
       {
         heading: "Portfolio als online showroom",
@@ -3230,7 +3230,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews van tevreden zwembadeigenaren",
-        body: "Een zwembad maakt mensen gelukkig — dat vertaalt zich in enthousiaste reviews. Vraag klanten om hun ervaring te delen: het bouwproces, de samenwerking, het eerste moment van zwemmen. Reviews met emotie en foto's zijn het krachtigste verkoopinstrument. Een zwembadbouwer met 15+ reviews en prachtige projectfoto's domineert de lokale markt.",
+        body: "Een zwembad maakt mensen gelukkig - dat vertaalt zich in enthousiaste reviews. Vraag klanten om hun ervaring te delen: het bouwproces, de samenwerking, het eerste moment van zwemmen. Reviews met emotie en foto's zijn het krachtigste verkoopinstrument. Een zwembadbouwer met 15+ reviews en prachtige projectfoto's domineert de lokale markt.",
       },
       {
         heading: "Wat levert het op?",
@@ -3241,7 +3241,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-trapliften",
     title: "Online marketing voor traplift- en thuisliftbedrijven: meer klanten via Google",
-    description: "Zo krijg je als trapliftleverancier meer klanten via Google — van traplift tot huislift en plateau-traplift.",
+    description: "Zo krijg je als trapliftleverancier meer klanten via Google - van traplift tot huislift en plateau-traplift.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3253,11 +3253,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Trapliften: urgente behoefte bij een groeiende doelgroep",
-        body: "De vergrijzing zorgt voor een groeiende vraag naar trapliften en thuisliften. Klanten — vaak ouderen of hun kinderen — zoeken op 'traplift kosten', 'traplift laten plaatsen' en 'trapliftbedrijf [stad]'. De urgentie is hoog: na een val of operatie moet er snel een oplossing komen. Wie bovenaan Google staat, vangt deze urgente aanvragen op.",
+        body: "De vergrijzing zorgt voor een groeiende vraag naar trapliften en thuisliften. Klanten - vaak ouderen of hun kinderen - zoeken op 'traplift kosten', 'traplift laten plaatsen' en 'trapliftbedrijf [stad]'. De urgentie is hoog: na een val of operatie moet er snel een oplossing komen. Wie bovenaan Google staat, vangt deze urgente aanvragen op.",
       },
       {
         heading: "Google Business voor trapliftbedrijven",
-        body: "Vermeld al je producten: rechte traplift, bochte traplift, plateau-traplift, huislift, stoellift, buitenlift. Vermeld ook tweedehands opties en huurmogelijkheden — dit zijn veelgezochte termen. Upload foto's van geïnstalleerde liften in verschillende woningtypen. Vermeld of je gratis huisbezoek aanbiedt — dit is de perfecte lead-generator.",
+        body: "Vermeld al je producten: rechte traplift, bochte traplift, plateau-traplift, huislift, stoellift, buitenlift. Vermeld ook tweedehands opties en huurmogelijkheden - dit zijn veelgezochte termen. Upload foto's van geïnstalleerde liften in verschillende woningtypen. Vermeld of je gratis huisbezoek aanbiedt - dit is de perfecte lead-generator.",
       },
       {
         heading: "Subsidie en WMO als contentstrategie",
@@ -3265,7 +3265,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Content voor zowel ouderen als hun kinderen",
-        body: "Bij trapliften zijn er twee doelgroepen: de oudere zelf en hun kinderen die meebeslissen. Schrijf content voor beiden: praktische informatie over typen en kosten voor de kinderen, geruststelling en gebruiksgemak voor de ouderen. Maak je website overzichtelijk met groot lettertype en duidelijke knoppen — toegankelijkheid is hier letterlijk een verkoopargument.",
+        body: "Bij trapliften zijn er twee doelgroepen: de oudere zelf en hun kinderen die meebeslissen. Schrijf content voor beiden: praktische informatie over typen en kosten voor de kinderen, geruststelling en gebruiksgemak voor de ouderen. Maak je website overzichtelijk met groot lettertype en duidelijke knoppen - toegankelijkheid is hier letterlijk een verkoopargument.",
       },
       {
         heading: "Reviews die geruststelling bieden",
@@ -3273,14 +3273,14 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Wat levert het op?",
-        body: "Een trapliftbedrijf met goede online vindbaarheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 4.000 euro en een conversie van 30% is dat 12.000 tot 30.000 euro extra omzet per maand. De vergrijzing zorgt ervoor dat de markt jaarlijks groeit — een investering in online marketing betaalt zich elk jaar meer terug.",
+        body: "Een trapliftbedrijf met goede online vindbaarheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 4.000 euro en een conversie van 30% is dat 12.000 tot 30.000 euro extra omzet per maand. De vergrijzing zorgt ervoor dat de markt jaarlijks groeit - een investering in online marketing betaalt zich elk jaar meer terug.",
       },
     ],
   },
   {
     slug: "online-marketing-domotica",
     title: "Online marketing voor domotica-installateurs: meer klanten via Google",
-    description: "Zo krijg je als domotica-specialist meer klanten via Google — van smart home tot KNX-installatie en huisautomatisering.",
+    description: "Zo krijg je als domotica-specialist meer klanten via Google - van smart home tot KNX-installatie en huisautomatisering.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3319,7 +3319,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-beveiligingsinstallateurs",
     title: "Online marketing voor beveiligingsinstallateurs: meer klanten via Google",
-    description: "Zo krijg je als beveiligingsinstallateur meer klanten via Google — van alarmsysteem tot camerabewaking en toegangscontrole.",
+    description: "Zo krijg je als beveiligingsinstallateur meer klanten via Google - van alarmsysteem tot camerabewaking en toegangscontrole.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3331,15 +3331,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Beveiliging: urgentie na inbraak, preventie bij nieuwbouw",
-        body: "Beveiligingsinstallateurs bedienen twee markten: urgente klanten na een inbraak en preventieve klanten bij nieuwbouw of renovatie. Ze zoeken op 'alarmsysteem laten installeren', 'camerabewaking woning' en 'beveiligingsinstallateur [stad]'. Beide groepen beginnen op Google en kiezen snel — veiligheid duldt geen uitstel.",
+        body: "Beveiligingsinstallateurs bedienen twee markten: urgente klanten na een inbraak en preventieve klanten bij nieuwbouw of renovatie. Ze zoeken op 'alarmsysteem laten installeren', 'camerabewaking woning' en 'beveiligingsinstallateur [stad]'. Beide groepen beginnen op Google en kiezen snel - veiligheid duldt geen uitstel.",
       },
       {
         heading: "Google Business met gecertificeerd profiel",
-        body: "Vermeld al je diensten: alarmsystemen, camerabewaking, toegangscontrole, intercomsystemen, brandmeldinstallaties, inbraakpreventie. Toon je certificeringen: BORG-gecertificeerd, VEB-lid, NCP-erkend. Certificeringen zijn in de beveiligingsbranche een harde eis voor veel verzekeraars — benadruk dit prominent. Upload foto's van geïnstalleerde systemen (zonder locatiegegevens).",
+        body: "Vermeld al je diensten: alarmsystemen, camerabewaking, toegangscontrole, intercomsystemen, brandmeldinstallaties, inbraakpreventie. Toon je certificeringen: BORG-gecertificeerd, VEB-lid, NCP-erkend. Certificeringen zijn in de beveiligingsbranche een harde eis voor veel verzekeraars - benadruk dit prominent. Upload foto's van geïnstalleerde systemen (zonder locatiegegevens).",
       },
       {
         heading: "Content over inbraakpreventie",
-        body: "Klanten zoeken op 'huis beveiligen', 'inbraakpreventie tips' en 'alarmsysteem kosten'. Schrijf informatieve content over beveiligingsmaatregelen: welk type alarm past bij welke woning, de voordelen van camerabewaking, slimme sloten en sensoren. Eindig met een gratis beveiligingsscan als call-to-action — dit is de natuurlijke eerste stap naar een offerte.",
+        body: "Klanten zoeken op 'huis beveiligen', 'inbraakpreventie tips' en 'alarmsysteem kosten'. Schrijf informatieve content over beveiligingsmaatregelen: welk type alarm past bij welke woning, de voordelen van camerabewaking, slimme sloten en sensoren. Eindig met een gratis beveiligingsscan als call-to-action - dit is de natuurlijke eerste stap naar een offerte.",
       },
       {
         heading: "Zakelijke markt bedienen",
@@ -3351,14 +3351,14 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Wat levert het op?",
-        body: "Een beveiligingsinstallateur met sterke online aanwezigheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 30% is dat 9.000 tot 22.500 euro extra omzet per maand. Onderhoudscontracten zorgen daarnaast voor terugkerende omzet — elke nieuwe klant is een langetermijninvestering.",
+        body: "Een beveiligingsinstallateur met sterke online aanwezigheid kan rekenen op 10-25 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 30% is dat 9.000 tot 22.500 euro extra omzet per maand. Onderhoudscontracten zorgen daarnaast voor terugkerende omzet - elke nieuwe klant is een langetermijninvestering.",
       },
     ],
   },
   {
     slug: "online-marketing-aannemers",
     title: "Online marketing voor aannemers: meer bouwprojecten via Google",
-    description: "Zo krijg je als aannemer meer klanten via Google — van verbouwing tot nieuwbouw en renovatie. Compleet overzicht.",
+    description: "Zo krijg je als aannemer meer klanten via Google - van verbouwing tot nieuwbouw en renovatie. Compleet overzicht.",
     category: "Marketing",
     readTime: "8 min",
     date: "2026-04-16",
@@ -3378,7 +3378,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Een website die leads genereert",
-        body: "Jouw website moet meer doen dan er mooi uitzien. Maak aparte pagina's per dienst: verbouwingen, renovaties, uitbouwen, dakkapellen, badkamerrenovatie. Elke pagina scoort op andere zoektermen en trekt een ander type klant aan. Voeg projectfoto's, richtprijzen en een offerteformulier toe. Een website zonder duidelijke call-to-action is een gemiste kans — bezoekers weten niet wat ze moeten doen.",
+        body: "Jouw website moet meer doen dan er mooi uitzien. Maak aparte pagina's per dienst: verbouwingen, renovaties, uitbouwen, dakkapellen, badkamerrenovatie. Elke pagina scoort op andere zoektermen en trekt een ander type klant aan. Voeg projectfoto's, richtprijzen en een offerteformulier toe. Een website zonder duidelijke call-to-action is een gemiste kans - bezoekers weten niet wat ze moeten doen.",
       },
       {
         heading: "Lokale SEO: vindbaar in je werkgebied",
@@ -3386,7 +3386,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews: het nieuwe mond-tot-mond",
-        body: "Vroeger koos je een aannemer op aanbeveling van buren of familie. Nu zijn Google reviews het nieuwe mond-tot-mond. Een aannemer met 40+ reviews boven de 4,5 sterren wint het vertrouwen van klanten nog voor het eerste gesprek. Stuur na elk project een automatisch reviewverzoek. Reageer op elke review — ook de negatieve. Zo bouw je online dezelfde reputatie op die je offline al hebt.",
+        body: "Vroeger koos je een aannemer op aanbeveling van buren of familie. Nu zijn Google reviews het nieuwe mond-tot-mond. Een aannemer met 40+ reviews boven de 4,5 sterren wint het vertrouwen van klanten nog voor het eerste gesprek. Stuur na elk project een automatisch reviewverzoek. Reageer op elke review - ook de negatieve. Zo bouw je online dezelfde reputatie op die je offline al hebt.",
       },
       {
         heading: "Social media en portfoliocontent",
@@ -3401,7 +3401,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-meubelmakers",
     title: "Online marketing voor meubelmakers: meer opdrachten via Google",
-    description: "Zo krijg je als meubelmaker meer klanten via Google — van maatwerk meubels tot inbouwkasten en houten tafels.",
+    description: "Zo krijg je als meubelmaker meer klanten via Google - van maatwerk meubels tot inbouwkasten en houten tafels.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3417,7 +3417,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Portfolio als online etalage",
-        body: "Meubelmakerij is een visueel vak bij uitstek. Maak een uitgebreide online portfolio met professionele foto's van je werk: tafels, kasten, keukens, badkamermeubels, wandkleden, inbouwoplossingen. Toon elk stuk vanuit meerdere hoeken en vermeld de houtsoort, afmetingen en prijs-indicatie. Je portfolio is je sterkste verkoopinstrument — klanten beslissen op basis van wat ze zien.",
+        body: "Meubelmakerij is een visueel vak bij uitstek. Maak een uitgebreide online portfolio met professionele foto's van je werk: tafels, kasten, keukens, badkamermeubels, wandkleden, inbouwoplossingen. Toon elk stuk vanuit meerdere hoeken en vermeld de houtsoort, afmetingen en prijs-indicatie. Je portfolio is je sterkste verkoopinstrument - klanten beslissen op basis van wat ze zien.",
       },
       {
         heading: "Google Business voor meubelmakers",
@@ -3433,14 +3433,14 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Wat levert het op?",
-        body: "Een meubelmaker met sterke online zichtbaarheid kan rekenen op 5-15 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 35% is dat 5.250 tot 15.750 euro extra omzet per maand. De premium positionering van maatwerk trekt klanten aan die op kwaliteit selecteren — precies de klanten die bereid zijn om te betalen voor vakmanschap.",
+        body: "Een meubelmaker met sterke online zichtbaarheid kan rekenen op 5-15 aanvragen per maand. Bij een gemiddelde projectwaarde van 3.000 euro en een conversie van 35% is dat 5.250 tot 15.750 euro extra omzet per maand. De premium positionering van maatwerk trekt klanten aan die op kwaliteit selecteren - precies de klanten die bereid zijn om te betalen voor vakmanschap.",
       },
     ],
   },
   {
     slug: "online-marketing-ontruiming",
     title: "Online marketing voor ontruimingsbedrijven: meer opdrachten via Google",
-    description: "Zo krijg je als ontruimingsbedrijf meer klanten via Google — van woningontruiming tot bedrijfsontruiming en boedelontruiming.",
+    description: "Zo krijg je als ontruimingsbedrijf meer klanten via Google - van woningontruiming tot bedrijfsontruiming en boedelontruiming.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3456,7 +3456,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business voor ontruimingsbedrijven",
-        body: "Vermeld al je diensten: woningontruiming, bedrijfsontruiming, boedelontruiming, inboedelverwijdering, nalatenschap afhandelen, opkoop inboedel. Vermeld of je ook waardeschatting en afvoer van afval verzorgt. Upload foto's van netjes opgeruimde ruimtes (geen foto's van voor de ontruiming — dat is respectloos naar de vorige bewoners). Toon professionaliteit en empathie.",
+        body: "Vermeld al je diensten: woningontruiming, bedrijfsontruiming, boedelontruiming, inboedelverwijdering, nalatenschap afhandelen, opkoop inboedel. Vermeld of je ook waardeschatting en afvoer van afval verzorgt. Upload foto's van netjes opgeruimde ruimtes (geen foto's van voor de ontruiming - dat is respectloos naar de vorige bewoners). Toon professionaliteit en empathie.",
       },
       {
         heading: "Content over het ontruimingsproces",
@@ -3464,7 +3464,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Empathie in communicatie",
-        body: "Ontruiming is vaak gerelateerd aan verlies. Je website en communicatie moeten dit weerspiegelen. Geen schreeuwerige marketing maar rustige, respectvolle teksten. Vermeld dat je discreet en zorgvuldig werkt. Bied een gratis gesprek aan om de situatie te bespreken. Klanten kiezen het bedrijf waarbij ze zich op hun gemak voelen — empathie is je sterkste verkoopargument.",
+        body: "Ontruiming is vaak gerelateerd aan verlies. Je website en communicatie moeten dit weerspiegelen. Geen schreeuwerige marketing maar rustige, respectvolle teksten. Vermeld dat je discreet en zorgvuldig werkt. Bied een gratis gesprek aan om de situatie te bespreken. Klanten kiezen het bedrijf waarbij ze zich op hun gemak voelen - empathie is je sterkste verkoopargument.",
       },
       {
         heading: "Reviews met waardering voor zorgvuldigheid",
@@ -3479,7 +3479,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-opruimservice",
     title: "Online marketing voor opruimservices: meer klanten via Google",
-    description: "Zo krijg je als opruimservice meer klanten via Google — van garage opruimen tot container verhuur en afvalafvoer.",
+    description: "Zo krijg je als opruimservice meer klanten via Google - van garage opruimen tot container verhuur en afvalafvoer.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3495,11 +3495,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business voor opruimservices",
-        body: "Vermeld al je diensten: opruimen, afval ophalen, container verhuur, grof vuil afvoeren, tuin opruimen, zolder legen, bouwafval verwijderen. Vermeld duidelijk je werkgebied en tarieven (per uur of per m³). Upload foto's van voor en na: een volle garage die leeg en netjes is opgeleverd. Vermeld of je zelf sorteert en recyclet — duurzaamheid is een pluspunt.",
+        body: "Vermeld al je diensten: opruimen, afval ophalen, container verhuur, grof vuil afvoeren, tuin opruimen, zolder legen, bouwafval verwijderen. Vermeld duidelijk je werkgebied en tarieven (per uur of per m³). Upload foto's van voor en na: een volle garage die leeg en netjes is opgeleverd. Vermeld of je zelf sorteert en recyclet - duurzaamheid is een pluspunt.",
       },
       {
         heading: "Transparante prijzen online",
-        body: "Klanten willen weten wat het kost voordat ze bellen. Publiceer duidelijke richtprijzen: per uur, per m³, per container. Geef voorbeelden: 'garage opruimen vanaf €250', 'bouwafval afvoeren per container €350'. Transparantie verlaagt de drempel om contact op te nemen en trekt klanten aan die serieus zijn — geen shoppers die alleen maar even bellen voor een prijs.",
+        body: "Klanten willen weten wat het kost voordat ze bellen. Publiceer duidelijke richtprijzen: per uur, per m³, per container. Geef voorbeelden: 'garage opruimen vanaf €250', 'bouwafval afvoeren per container €350'. Transparantie verlaagt de drempel om contact op te nemen en trekt klanten aan die serieus zijn - geen shoppers die alleen maar even bellen voor een prijs.",
       },
       {
         heading: "Seizoensgebonden content",
@@ -3507,7 +3507,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews en betrouwbaarheid",
-        body: "Opruimen betekent dat je in iemands huis of tuin komt. Betrouwbaarheid is essentieel. Reviews die vermelden dat het team netjes, snel en vriendelijk was, nemen de drempel weg. Vraag na elke klus om een review. Een opruimservice met 30+ reviews domineert de lokale zoekresultaten — simpelweg omdat de meeste concurrenten geen enkel online profiel hebben.",
+        body: "Opruimen betekent dat je in iemands huis of tuin komt. Betrouwbaarheid is essentieel. Reviews die vermelden dat het team netjes, snel en vriendelijk was, nemen de drempel weg. Vraag na elke klus om een review. Een opruimservice met 30+ reviews domineert de lokale zoekresultaten - simpelweg omdat de meeste concurrenten geen enkel online profiel hebben.",
       },
       {
         heading: "Wat levert het op?",
@@ -3518,7 +3518,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-binnenhuisarchitecten",
     title: "Online marketing voor binnenhuisarchitecten: meer opdrachten via Google",
-    description: "Zo krijg je als binnenhuisarchitect meer klanten via Google — van interieuradvies tot totaalontwerp en projectbegeleiding.",
+    description: "Zo krijg je als binnenhuisarchitect meer klanten via Google - van interieuradvies tot totaalontwerp en projectbegeleiding.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3538,15 +3538,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business en lokale vindbaarheid",
-        body: "Vermeld je diensten: interieuradvies, interieurontwerp, kleuradvies, lichtplan, meubeladvies, projectbegeleiding, styling. Upload je beste projectfoto's op Google Business. Vermeld of je ook online consultaties aanbiedt — dit vergroot je werkgebied. Klanten zoeken op 'interieuradvies aan huis' en 'binnenhuisarchitect in de buurt' — een goed profiel vangt deze zoekopdrachten op.",
+        body: "Vermeld je diensten: interieuradvies, interieurontwerp, kleuradvies, lichtplan, meubeladvies, projectbegeleiding, styling. Upload je beste projectfoto's op Google Business. Vermeld of je ook online consultaties aanbiedt - dit vergroot je werkgebied. Klanten zoeken op 'interieuradvies aan huis' en 'binnenhuisarchitect in de buurt' - een goed profiel vangt deze zoekopdrachten op.",
       },
       {
         heading: "Inspiratiecontent en stijlgidsen",
-        body: "Publiceer content over interieurtrends, kleurcombinaties en inrichtingstips. Schrijf stijlgidsen: 'Scandinavisch interieur inrichten', 'industriële woonkamer styling'. Deze content trekt bezoekers aan die in de inspiratiefase zitten en positioneert je als expert. Eindig met een aanbod voor een vrijblijvend kennismakingsgesprek — de natuurlijke volgende stap.",
+        body: "Publiceer content over interieurtrends, kleurcombinaties en inrichtingstips. Schrijf stijlgidsen: 'Scandinavisch interieur inrichten', 'industriële woonkamer styling'. Deze content trekt bezoekers aan die in de inspiratiefase zitten en positioneert je als expert. Eindig met een aanbod voor een vrijblijvend kennismakingsgesprek - de natuurlijke volgende stap.",
       },
       {
         heading: "Reviews die de samenwerking beschrijven",
-        body: "Klanten kiezen een binnenhuisarchitect op persoonlijke klik en vertrouwen. Reviews die de samenwerking beschrijven — luistervaardigheid, creativiteit, oog voor budget — zijn het meest overtuigend. Vraag klanten om specifiek te vermelden wat het eindresultaat voor hun dagelijkse beleving betekent. 'We komen elke dag thuis in een ruimte die helemaal bij ons past' verkoopt beter dan vijf sterren.",
+        body: "Klanten kiezen een binnenhuisarchitect op persoonlijke klik en vertrouwen. Reviews die de samenwerking beschrijven - luistervaardigheid, creativiteit, oog voor budget - zijn het meest overtuigend. Vraag klanten om specifiek te vermelden wat het eindresultaat voor hun dagelijkse beleving betekent. 'We komen elke dag thuis in een ruimte die helemaal bij ons past' verkoopt beter dan vijf sterren.",
       },
       {
         heading: "Wat levert het op?",
@@ -3557,7 +3557,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
   {
     slug: "online-marketing-interieurontwerp",
     title: "Online marketing voor interieurontwerpers: meer klanten via Google",
-    description: "Zo krijg je als interieurontwerper meer klanten via Google — van woningstyling tot commercieel interieurontwerp en 3D-visualisatie.",
+    description: "Zo krijg je als interieurontwerper meer klanten via Google - van woningstyling tot commercieel interieurontwerp en 3D-visualisatie.",
     category: "Marketing",
     readTime: "7 min",
     date: "2026-04-16",
@@ -3577,7 +3577,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Google Business met projectdiversiteit",
-        body: "Vermeld je diensten: interieurontwerp, woningstyling, kantoorinrichting, horeca-interieur, 3D-visualisatie, kleuradvies, meubelinkoop. Toon de breedte van je werk: particulier en zakelijk, klein en groot, modern en klassiek. Upload je beste foto's per categorie. Klanten willen zien dat je hun type project aankan — of het nu een studio-appartement is of een restaurant.",
+        body: "Vermeld je diensten: interieurontwerp, woningstyling, kantoorinrichting, horeca-interieur, 3D-visualisatie, kleuradvies, meubelinkoop. Toon de breedte van je werk: particulier en zakelijk, klein en groot, modern en klassiek. Upload je beste foto's per categorie. Klanten willen zien dat je hun type project aankan - of het nu een studio-appartement is of een restaurant.",
       },
       {
         heading: "3D-visualisatie als onderscheidend vermogen",
@@ -3585,7 +3585,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Reviews en samenwerkingservaring",
-        body: "Interieurontwerp is persoonlijk: klanten delen hun huis en hun smaak met je. Reviews die de samenwerking, het creatieve proces en het eindresultaat beschrijven, zijn het meest overtuigend. Foto's bij reviews versterken het effect. Vraag klanten specifiek om te delen hoe het ontwerp hun dagelijkse leven heeft verbeterd — dat is het verhaal dat toekomstige klanten willen horen.",
+        body: "Interieurontwerp is persoonlijk: klanten delen hun huis en hun smaak met je. Reviews die de samenwerking, het creatieve proces en het eindresultaat beschrijven, zijn het meest overtuigend. Foto's bij reviews versterken het effect. Vraag klanten specifiek om te delen hoe het ontwerp hun dagelijkse leven heeft verbeterd - dat is het verhaal dat toekomstige klanten willen horen.",
       },
       {
         heading: "Wat levert het op?",
@@ -3608,11 +3608,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom Google Mijn Bedrijf het belangrijkste marketingkanaal is voor aannemers",
-        body: "Wanneer een huiseigenaar 'aannemer [stad]' googelt, verschijnen eerst drie kaartresultaten: het zogenaamde local pack. 70% van de klikken gaat naar deze drie bedrijven. Daaronder staan pas de organische zoekresultaten. Als aannemer wil je in dat local pack staan — en dat bepaalt Google op basis van je Google Mijn Bedrijf (GMB) profiel. Een volledig, actief en goed geoptimaliseerd profiel is het belangrijkste dat je kunt doen voor lokale vindbaarheid.",
+        body: "Wanneer een huiseigenaar 'aannemer [stad]' googelt, verschijnen eerst drie kaartresultaten: het zogenaamde local pack. 70% van de klikken gaat naar deze drie bedrijven. Daaronder staan pas de organische zoekresultaten. Als aannemer wil je in dat local pack staan - en dat bepaalt Google op basis van je Google Mijn Bedrijf (GMB) profiel. Een volledig, actief en goed geoptimaliseerd profiel is het belangrijkste dat je kunt doen voor lokale vindbaarheid.",
       },
       {
         heading: "Stap 1: Kies de juiste hoofd- en subcategorieën",
-        body: "Je hoofdcategorie is het belangrijkst: kies de meest specifieke die bij je past. Algemene aannemers kiezen 'Aannemer' of 'Bouwbedrijf'. Specialisten kiezen 'Loodgieter', 'Elektricien', 'Tegelzetter' etc. Voeg daarna zoveel mogelijk relevante subcategorieën toe (tot 9): 'Badkamerrenovatie', 'Keukenmontage', 'Dakdekker'. Elke subcategorie is een kans om in extra zoekopdrachten te verschijnen. Kies alleen categorieën die écht bij je passen — Google straft keyword stuffing af.",
+        body: "Je hoofdcategorie is het belangrijkst: kies de meest specifieke die bij je past. Algemene aannemers kiezen 'Aannemer' of 'Bouwbedrijf'. Specialisten kiezen 'Loodgieter', 'Elektricien', 'Tegelzetter' etc. Voeg daarna zoveel mogelijk relevante subcategorieën toe (tot 9): 'Badkamerrenovatie', 'Keukenmontage', 'Dakdekker'. Elke subcategorie is een kans om in extra zoekopdrachten te verschijnen. Kies alleen categorieën die écht bij je passen - Google straft keyword stuffing af.",
       },
       {
         heading: "Stap 2: Vul alle velden volledig in",
@@ -3620,11 +3620,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Stap 3: Upload minstens 30 foto's",
-        body: "Google geeft voorkeur aan profielen met veel actuele foto's. Upload: buitenkant en logo van je bedrijf, teamfoto's, foto's per dienst, voor-en-na projectfoto's, je gereedschap en bedrijfswagen. Voeg elke maand 3-5 nieuwe foto's toe zodat je profiel 'actief' blijft. Noem de foto's bij opslaan beschrijvend ('badkamer-renovatie-amsterdam.jpg') — dit helpt met vindbaarheid op afbeeldingen.",
+        body: "Google geeft voorkeur aan profielen met veel actuele foto's. Upload: buitenkant en logo van je bedrijf, teamfoto's, foto's per dienst, voor-en-na projectfoto's, je gereedschap en bedrijfswagen. Voeg elke maand 3-5 nieuwe foto's toe zodat je profiel 'actief' blijft. Noem de foto's bij opslaan beschrijvend ('badkamer-renovatie-amsterdam.jpg') - dit helpt met vindbaarheid op afbeeldingen.",
       },
       {
         heading: "Stap 4: Verzamel minstens 20 reviews",
-        body: "Profielen met 20+ reviews en 4,5+ sterren domineren het local pack. Vraag na elke klus om een review via WhatsApp of email. Stuur een directe Google-reviewlink (te genereren via je GMB dashboard). Reageer op elke review binnen 48 uur — ook de negatieve. Reacties tonen Google dat je profiel actief beheerd wordt en dat straalt uit naar toekomstige klanten.",
+        body: "Profielen met 20+ reviews en 4,5+ sterren domineren het local pack. Vraag na elke klus om een review via WhatsApp of email. Stuur een directe Google-reviewlink (te genereren via je GMB dashboard). Reageer op elke review binnen 48 uur - ook de negatieve. Reacties tonen Google dat je profiel actief beheerd wordt en dat straalt uit naar toekomstige klanten.",
       },
       {
         heading: "Stap 5: Post elke week een update",
@@ -3655,7 +3655,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom Google reviews dé game-changer zijn voor aannemers",
-        body: "88% van de consumenten leest online reviews voordat ze een lokaal bedrijf kiezen. Voor aannemers is dit nog sterker: een investering van duizenden euro's doe je alleen bij een bedrijf dat bewezen betrouwbaar is. Een aannemer met 30+ reviews en een gemiddelde van 4,8 sterren krijgt 3x zoveel aanvragen als een concurrent met 5 reviews — ook als de concurrent technisch beter is. Reviews zijn het krachtigste marketinginstrument dat je hebt.",
+        body: "88% van de consumenten leest online reviews voordat ze een lokaal bedrijf kiezen. Voor aannemers is dit nog sterker: een investering van duizenden euro's doe je alleen bij een bedrijf dat bewezen betrouwbaar is. Een aannemer met 30+ reviews en een gemiddelde van 4,8 sterren krijgt 3x zoveel aanvragen als een concurrent met 5 reviews - ook als de concurrent technisch beter is. Reviews zijn het krachtigste marketinginstrument dat je hebt.",
       },
       {
         heading: "De juiste timing: vraag direct na oplevering",
@@ -3667,19 +3667,19 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Automatiseer het reviewproces",
-        body: "Handmatig om reviews vragen werkt — maar schaalt niet. Bouw een systeem waarbij elke klant automatisch na oplevering een reviewverzoek krijgt via WhatsApp of SMS. Bij Aannemer Systeem hoort dit standaard bij het review funnel systeem: de klant krijgt eerst een interne beoordeling (1-5 sterren). Bij 4-5 sterren ga je direct door naar Google, bij 1-3 sterren vang je de feedback privé op. Zo verzamel je alleen 5-sterren reviews publiek.",
+        body: "Handmatig om reviews vragen werkt - maar schaalt niet. Bouw een systeem waarbij elke klant automatisch na oplevering een reviewverzoek krijgt via WhatsApp of SMS. Bij Aannemer Systeem hoort dit standaard bij het review funnel systeem: de klant krijgt eerst een interne beoordeling (1-5 sterren). Bij 4-5 sterren ga je direct door naar Google, bij 1-3 sterren vang je de feedback privé op. Zo verzamel je alleen 5-sterren reviews publiek.",
       },
       {
         heading: "Hoe je omgaat met negatieve reviews",
-        body: "Een negatieve review is geen ramp — mits je er goed op reageert. Reageer binnen 24 uur, professioneel en oplossingsgericht. Erken het probleem, bied een oplossing aan en vraag om een gesprek offline. Toekomstige klanten lezen je reactie en oordelen op basis van hoe je met kritiek omgaat. Een goed beheerd profiel met 1-2 negatieve reviews (en goede reacties) kan zelfs geloofwaardiger zijn dan een profiel met alleen perfect 5-sterren reviews.",
+        body: "Een negatieve review is geen ramp - mits je er goed op reageert. Reageer binnen 24 uur, professioneel en oplossingsgericht. Erken het probleem, bied een oplossing aan en vraag om een gesprek offline. Toekomstige klanten lezen je reactie en oordelen op basis van hoe je met kritiek omgaat. Een goed beheerd profiel met 1-2 negatieve reviews (en goede reacties) kan zelfs geloofwaardiger zijn dan een profiel met alleen perfect 5-sterren reviews.",
       },
       {
         heading: "Scripts die werken: wat je exact kunt zeggen",
-        body: "Persoonlijk: 'Bedankt dat we voor je mochten werken! Als je tevreden bent, zou een Google review enorm helpen — het kost 2 minuten.' WhatsApp: 'Hoi [naam], bedankt voor de samenwerking. Zou je deze link willen openen om ons een review te geven? [link] Alvast bedankt!' Email: 'Beste [naam], we hopen dat u tevreden bent met het resultaat. Wilt u ons helpen door een korte review achter te laten? [link] Het helpt andere huiseigenaren om te zien wat ze van ons kunnen verwachten.'",
+        body: "Persoonlijk: 'Bedankt dat we voor je mochten werken! Als je tevreden bent, zou een Google review enorm helpen - het kost 2 minuten.' WhatsApp: 'Hoi [naam], bedankt voor de samenwerking. Zou je deze link willen openen om ons een review te geven? [link] Alvast bedankt!' Email: 'Beste [naam], we hopen dat u tevreden bent met het resultaat. Wilt u ons helpen door een korte review achter te laten? [link] Het helpt andere huiseigenaren om te zien wat ze van ons kunnen verwachten.'",
       },
       {
         heading: "Wat levert meer reviews op?",
-        body: "Een aannemer die van 10 naar 30 reviews gaat, ziet gemiddeld 40-60% meer aanvragen via Google. Voor een bedrijf met 20 klussen per maand betekent dat 8-12 extra aanvragen per maand zonder extra marketingbudget — alleen door actief om reviews te vragen. De tijd die je erin stopt (2 minuten per klant) is de beste ROI die je kunt behalen als aannemer.",
+        body: "Een aannemer die van 10 naar 30 reviews gaat, ziet gemiddeld 40-60% meer aanvragen via Google. Voor een bedrijf met 20 klussen per maand betekent dat 8-12 extra aanvragen per maand zonder extra marketingbudget - alleen door actief om reviews te vragen. De tijd die je erin stopt (2 minuten per klant) is de beste ROI die je kunt behalen als aannemer.",
       },
     ],
   },
@@ -3702,7 +3702,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Wat kost een website voor aannemers?",
-        body: "De prijzen variëren enorm. Een goedkope template-website (€500-€1.500) mist vaak lokale SEO en werkt niet op mobiel. Een lokaal webbureau vraagt €3.000-€8.000 opstartkosten plus €50-€150/maand hosting en onderhoud. Een premium bureau rekent €10.000-€25.000. Bij Aannemer Systeem betaal je €279/maand all-in: website, hosting, SEO, reviews en automatiseringen — zonder opstartkosten. Maandelijks opzegbaar.",
+        body: "De prijzen variëren enorm. Een goedkope template-website (€500-€1.500) mist vaak lokale SEO en werkt niet op mobiel. Een lokaal webbureau vraagt €3.000-€8.000 opstartkosten plus €50-€150/maand hosting en onderhoud. Een premium bureau rekent €10.000-€25.000. Bij Aannemer Systeem betaal je €279/maand all-in: website, hosting, SEO, reviews en automatiseringen - zonder opstartkosten. Maandelijks opzegbaar.",
       },
       {
         heading: "Wat heb je minimaal nodig als aannemer?",
@@ -3710,23 +3710,23 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Lokale SEO: het belangrijkste onderdeel",
-        body: "Een mooie website zonder SEO is als een folder in een afgesloten kast. Zorg dat elke dienstpagina geoptimaliseerd is voor 'service + stad' zoekopdrachten ('badkamer renoveren Utrecht'). Voeg lokale landingspagina's toe voor de belangrijkste steden in je werkgebied. Integreer je Google Mijn Bedrijf profiel. Zonder deze elementen scoor je nooit in Google — en is je website dus waardeloos voor leadgeneratie.",
+        body: "Een mooie website zonder SEO is als een folder in een afgesloten kast. Zorg dat elke dienstpagina geoptimaliseerd is voor 'service + stad' zoekopdrachten ('badkamer renoveren Utrecht'). Voeg lokale landingspagina's toe voor de belangrijkste steden in je werkgebied. Integreer je Google Mijn Bedrijf profiel. Zonder deze elementen scoor je nooit in Google - en is je website dus waardeloos voor leadgeneratie.",
       },
       {
         heading: "Valkuilen bij een website laten maken",
-        body: "1) Vastgezet in een contract: veel bureaus zetten je in een 3-jarig contract met dure opzegvergoeding. Vermijd dit. 2) Website blijft van het bureau: zorg dat je eigenaar bent van je domeinnaam én website. 3) Geen SEO inbegrepen: veel bureaus leveren alleen de website zonder optimalisatie — je betaalt later €750-€2.000/maand extra. 4) Geen mobiele optimalisatie: 70% van het verkeer is mobiel. Als je website niet perfect werkt op telefoon, verlies je 70% van je potentiële klanten.",
+        body: "1) Vastgezet in een contract: veel bureaus zetten je in een 3-jarig contract met dure opzegvergoeding. Vermijd dit. 2) Website blijft van het bureau: zorg dat je eigenaar bent van je domeinnaam én website. 3) Geen SEO inbegrepen: veel bureaus leveren alleen de website zonder optimalisatie - je betaalt later €750-€2.000/maand extra. 4) Geen mobiele optimalisatie: 70% van het verkeer is mobiel. Als je website niet perfect werkt op telefoon, verlies je 70% van je potentiële klanten.",
       },
       {
         heading: "Hoe snel zie je resultaat?",
-        body: "Een nieuwe website levert niet direct leads op. Eerste weken: Google Mijn Bedrijf optimalisatie zorgt voor snelle quick wins. Maand 1-2: eerste organische rankings op lange zoektermen. Maand 3-6: stabiele stroom leads via Google. Maand 6+: pagina 1 posities op belangrijke zoektermen in je regio. De meeste aannemers zien binnen 3 maanden meer leads dan ze via Werkspot binnenkrijgen — zonder leadkosten.",
+        body: "Een nieuwe website levert niet direct leads op. Eerste weken: Google Mijn Bedrijf optimalisatie zorgt voor snelle quick wins. Maand 1-2: eerste organische rankings op lange zoektermen. Maand 3-6: stabiele stroom leads via Google. Maand 6+: pagina 1 posities op belangrijke zoektermen in je regio. De meeste aannemers zien binnen 3 maanden meer leads dan ze via Werkspot binnenkrijgen - zonder leadkosten.",
       },
       {
         heading: "Template of maatwerk: wat is beter?",
-        body: "Voor aannemers is 'custom maatwerk' vaak overkill. Je hebt geen uniek design nodig — je hebt een website nodig die werkt. Een gestandaardiseerd systeem dat specifiek voor aannemers is ontworpen (Aannemer Systeem) biedt alle noodzakelijke elementen zonder de kosten en doorlooptijd van maatwerk. Bovendien profiteer je van continue verbeteringen die we voor alle aannemerswebsites uitrollen.",
+        body: "Voor aannemers is 'custom maatwerk' vaak overkill. Je hebt geen uniek design nodig - je hebt een website nodig die werkt. Een gestandaardiseerd systeem dat specifiek voor aannemers is ontworpen (Aannemer Systeem) biedt alle noodzakelijke elementen zonder de kosten en doorlooptijd van maatwerk. Bovendien profiteer je van continue verbeteringen die we voor alle aannemerswebsites uitrollen.",
       },
       {
         heading: "Wat levert een goede website op?",
-        body: "Een aannemer met een professionele, SEO-geoptimaliseerde website ontvangt gemiddeld 15-40 aanvragen per maand via Google. Bij een gemiddelde projectwaarde van €8.000 en een conversie van 25% is dat €30.000-€80.000 extra omzet per maand. De investering (€279/maand vast) verdient zichzelf terug met één extra project per maand — alles daarboven is pure winst.",
+        body: "Een aannemer met een professionele, SEO-geoptimaliseerde website ontvangt gemiddeld 15-40 aanvragen per maand via Google. Bij een gemiddelde projectwaarde van €8.000 en een conversie van 25% is dat €30.000-€80.000 extra omzet per maand. De investering (€279/maand vast) verdient zichzelf terug met één extra project per maand - alles daarboven is pure winst.",
       },
     ],
   },
@@ -3745,7 +3745,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Wat is lokale SEO en waarom is het cruciaal voor aannemers?",
-        body: "Lokale SEO is het proces van optimaliseren zodat je verschijnt in zoekresultaten met een geografische component: 'aannemer Amsterdam', 'loodgieter in de buurt', 'keukenmonteur Utrecht'. Voor aannemers is dit dé manier om klanten te krijgen — 46% van alle Google-zoekopdrachten heeft een lokale intentie. Anders dan algemene SEO, draait lokale SEO om: Google Mijn Bedrijf, lokale backlinks, NAP-consistentie en reviews. Wie deze 4 pilaren beheerst, domineert de regio.",
+        body: "Lokale SEO is het proces van optimaliseren zodat je verschijnt in zoekresultaten met een geografische component: 'aannemer Amsterdam', 'loodgieter in de buurt', 'keukenmonteur Utrecht'. Voor aannemers is dit dé manier om klanten te krijgen - 46% van alle Google-zoekopdrachten heeft een lokale intentie. Anders dan algemene SEO, draait lokale SEO om: Google Mijn Bedrijf, lokale backlinks, NAP-consistentie en reviews. Wie deze 4 pilaren beheerst, domineert de regio.",
       },
       {
         heading: "Pilaar 1: Google Mijn Bedrijf als fundament",
@@ -3753,11 +3753,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Pilaar 2: Lokale landingspagina's per stad",
-        body: "Als je in meerdere steden werkt, maak dan voor elke stad een eigen landingspagina. 'Aannemer Rotterdam', 'Aannemer Capelle aan den IJssel', 'Aannemer Spijkenisse'. Elke pagina: unieke content over je werk in die stad, lokale projecten, adres van je werkgebied, lokale klantreviews. Vermijd duplicate content — elke pagina moet écht uniek zijn. Zo scoor je op 'aannemer [elke stad]' in plaats van alleen je hoofdvestiging.",
+        body: "Als je in meerdere steden werkt, maak dan voor elke stad een eigen landingspagina. 'Aannemer Rotterdam', 'Aannemer Capelle aan den IJssel', 'Aannemer Spijkenisse'. Elke pagina: unieke content over je werk in die stad, lokale projecten, adres van je werkgebied, lokale klantreviews. Vermijd duplicate content - elke pagina moet écht uniek zijn. Zo scoor je op 'aannemer [elke stad]' in plaats van alleen je hoofdvestiging.",
       },
       {
         heading: "Pilaar 3: NAP-consistentie op het hele web",
-        body: "NAP staat voor Name, Address, Phone. Google controleert of je bedrijfsnaam, adres en telefoonnummer exact hetzelfde geschreven zijn op alle online vermeldingen: je website, GMB, KvK, Facebook, LinkedIn, Werkspot, lokale bedrijvenregisters. Kleine verschillen ('Jansen Bouw BV' vs 'Jansen Bouw') verwarren Google en schaden je rankings. Zorg dat alle vermeldingen identiek zijn — tot op de punt en komma.",
+        body: "NAP staat voor Name, Address, Phone. Google controleert of je bedrijfsnaam, adres en telefoonnummer exact hetzelfde geschreven zijn op alle online vermeldingen: je website, GMB, KvK, Facebook, LinkedIn, Werkspot, lokale bedrijvenregisters. Kleine verschillen ('Jansen Bouw BV' vs 'Jansen Bouw') verwarren Google en schaden je rankings. Zorg dat alle vermeldingen identiek zijn - tot op de punt en komma.",
       },
       {
         heading: "Pilaar 4: Lokale backlinks opbouwen",
@@ -3765,7 +3765,7 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Pilaar 5: Reviews als rankingfactor",
-        body: "Google gebruikt reviews als rankingsignaal. Niet alleen het aantal, maar ook de kwaliteit (gemiddelde score), de versheid (recent gepost) en de diversiteit (niet allemaal tegelijk). Streef naar 2-4 nieuwe reviews per maand. Reageer op alle reviews. Reviews die lokale termen bevatten ('geweldige aannemer in Eindhoven') zijn extra waardevol — ze bevestigen Google dat je relevant bent voor die stad.",
+        body: "Google gebruikt reviews als rankingsignaal. Niet alleen het aantal, maar ook de kwaliteit (gemiddelde score), de versheid (recent gepost) en de diversiteit (niet allemaal tegelijk). Streef naar 2-4 nieuwe reviews per maand. Reageer op alle reviews. Reviews die lokale termen bevatten ('geweldige aannemer in Eindhoven') zijn extra waardevol - ze bevestigen Google dat je relevant bent voor die stad.",
       },
       {
         heading: "Veelgemaakte lokale SEO-fouten",
@@ -3792,15 +3792,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Werkt social media eigenlijk wel voor aannemers?",
-        body: "Ja — maar anders dan veel aannemers denken. Social media is geen directe lead-machine zoals Google. Je krijgt niet dagelijks aanvragen via Instagram of Facebook. Wat social media wél doet: naamsbekendheid opbouwen in je regio, vertrouwen kweken bij mensen die je Google-profiel al vonden, en huidige klanten actief houden voor herhalingswerk en verwijzingen. Social media is ondersteunend, niet leidend. De echte leads komen via Google — social versterkt dat.",
+        body: "Ja - maar anders dan veel aannemers denken. Social media is geen directe lead-machine zoals Google. Je krijgt niet dagelijks aanvragen via Instagram of Facebook. Wat social media wél doet: naamsbekendheid opbouwen in je regio, vertrouwen kweken bij mensen die je Google-profiel al vonden, en huidige klanten actief houden voor herhalingswerk en verwijzingen. Social media is ondersteunend, niet leidend. De echte leads komen via Google - social versterkt dat.",
       },
       {
         heading: "Facebook: de basis voor lokale aannemers",
-        body: "Facebook werkt nog steeds voor aannemers, vooral in de doelgroep 35-65 jaar (je belangrijkste klanten). Maak een bedrijfspagina met dezelfde informatie als je GMB-profiel. Post 1-2x per week: afgeronde projecten, team-momenten, een seizoensgebonden tip. Gebruik Facebook lokale groepen ('Amsterdam-West verbouwingen') om actief mee te praten — niet te verkopen. Mensen herkennen je naam wanneer ze later bij Google zoeken.",
+        body: "Facebook werkt nog steeds voor aannemers, vooral in de doelgroep 35-65 jaar (je belangrijkste klanten). Maak een bedrijfspagina met dezelfde informatie als je GMB-profiel. Post 1-2x per week: afgeronde projecten, team-momenten, een seizoensgebonden tip. Gebruik Facebook lokale groepen ('Amsterdam-West verbouwingen') om actief mee te praten - niet te verkopen. Mensen herkennen je naam wanneer ze later bij Google zoeken.",
       },
       {
         heading: "Instagram: voor visueel vakwerk",
-        body: "Instagram is perfect voor aannemers met visueel werk: tegelzetters, keukenmonteurs, badkamerrenovaties, gietvloeren, meubelmakers, interieurontwerpers. Post voor-en-na foto's, timelapse video's van een verbouwing en detail-shots van strak vakwerk. Gebruik lokale hashtags (#AmsterdamVerbouwing, #BadkamerRenovatieUtrecht). Reels met een voor-en-na transitie kunnen viraal gaan en tienduizenden views opleveren — perfecte naamsbekendheid in je regio.",
+        body: "Instagram is perfect voor aannemers met visueel werk: tegelzetters, keukenmonteurs, badkamerrenovaties, gietvloeren, meubelmakers, interieurontwerpers. Post voor-en-na foto's, timelapse video's van een verbouwing en detail-shots van strak vakwerk. Gebruik lokale hashtags (#AmsterdamVerbouwing, #BadkamerRenovatieUtrecht). Reels met een voor-en-na transitie kunnen viraal gaan en tienduizenden views opleveren - perfecte naamsbekendheid in je regio.",
       },
       {
         heading: "LinkedIn: voor zakelijke opdrachten",
@@ -3808,11 +3808,11 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "TikTok: alleen voor wie mikt op jonge huiseigenaren",
-        body: "TikTok groeit snel in Nederland, ook in de leeftijdsgroep 25-40. Voor aannemers die mikken op jonge huiseigenaren (eerste koop, starters-renovaties) kan TikTok interessant zijn. Content die werkt: korte video's met renovatie-tips, 'hoe herken je een goede aannemer', transformatie-video's. Maar: het kost veel tijd om succes te hebben op TikTok. Voor de meeste aannemers is Facebook + Instagram genoeg — TikTok is optioneel.",
+        body: "TikTok groeit snel in Nederland, ook in de leeftijdsgroep 25-40. Voor aannemers die mikken op jonge huiseigenaren (eerste koop, starters-renovaties) kan TikTok interessant zijn. Content die werkt: korte video's met renovatie-tips, 'hoe herken je een goede aannemer', transformatie-video's. Maar: het kost veel tijd om succes te hebben op TikTok. Voor de meeste aannemers is Facebook + Instagram genoeg - TikTok is optioneel.",
       },
       {
         heading: "Hoeveel tijd moet je erin stoppen?",
-        body: "Realistisch: 1-2 uur per week. Maak eens per week tijd vrij om 2-3 posts voor Facebook en Instagram voor te bereiden (of in te plannen via een tool als Later of Buffer). Neem foto's van al je klussen — verzamel content on-the-go. Besteed het niet uit aan een marketingbureau dat €500+ per maand rekent voor social media; de authenticiteit verdwijnt. Doe het zelf, maar efficiënt.",
+        body: "Realistisch: 1-2 uur per week. Maak eens per week tijd vrij om 2-3 posts voor Facebook en Instagram voor te bereiden (of in te plannen via een tool als Later of Buffer). Neem foto's van al je klussen - verzamel content on-the-go. Besteed het niet uit aan een marketingbureau dat €500+ per maand rekent voor social media; de authenticiteit verdwijnt. Doe het zelf, maar efficiënt.",
       },
       {
         heading: "Welke content werkt bewezen voor aannemers?",
@@ -3839,35 +3839,35 @@ export const kennisbankArticles: KennisbankArticle[] = [
     sections: [
       {
         heading: "Waarom de meeste aannemersoffertes niet converteren",
-        body: "Een doorsnee aannemer wint 15-25% van zijn offertes. De top-aannemers winnen 40-60%. Het verschil zit zelden in de prijs — het zit in hoe de offerte eruit ziet, hoe snel hij wordt verstuurd en hoe opgevolgd wordt. Klanten die offertes van meerdere aannemers krijgen, kiezen vaak niet de goedkoopste maar die die het meest professioneel overkomt en het duidelijkst communiceert wat je krijgt.",
+        body: "Een doorsnee aannemer wint 15-25% van zijn offertes. De top-aannemers winnen 40-60%. Het verschil zit zelden in de prijs - het zit in hoe de offerte eruit ziet, hoe snel hij wordt verstuurd en hoe opgevolgd wordt. Klanten die offertes van meerdere aannemers krijgen, kiezen vaak niet de goedkoopste maar die die het meest professioneel overkomt en het duidelijkst communiceert wat je krijgt.",
       },
       {
         heading: "Reageer binnen 24 uur",
-        body: "De belangrijkste conversie-factor is snelheid. Aannemers die binnen 24 uur een offerte sturen, winnen 2x vaker dan aannemers die 3-5 dagen nodig hebben. Een klant die 5 dagen wacht, heeft intussen een concurrent gebeld die wel snel leverde. Wacht liever niet op perfectie — stuur binnen een dag een duidelijke offerte en verfijn later als de klant doorvraagt.",
+        body: "De belangrijkste conversie-factor is snelheid. Aannemers die binnen 24 uur een offerte sturen, winnen 2x vaker dan aannemers die 3-5 dagen nodig hebben. Een klant die 5 dagen wacht, heeft intussen een concurrent gebeld die wel snel leverde. Wacht liever niet op perfectie - stuur binnen een dag een duidelijke offerte en verfijn later als de klant doorvraagt.",
       },
       {
         heading: "Wat staat in een winnende offerte?",
-        body: "Structuur: (1) duidelijke projectomschrijving in klanttaal, (2) wat is inbegrepen (punten), (3) wat niet (punten), (4) planning/doorlooptijd, (5) totaalprijs inclusief BTW, (6) betaalvoorwaarden, (7) garanties, (8) een korte bio van je bedrijf met foto en reviews, (9) duidelijke volgende stap ('bel me om akkoord te gaan'). Klanten die twijfelen, kiezen de offerte die het meest vertrouwen wekt — niet de goedkoopste.",
+        body: "Structuur: (1) duidelijke projectomschrijving in klanttaal, (2) wat is inbegrepen (punten), (3) wat niet (punten), (4) planning/doorlooptijd, (5) totaalprijs inclusief BTW, (6) betaalvoorwaarden, (7) garanties, (8) een korte bio van je bedrijf met foto en reviews, (9) duidelijke volgende stap ('bel me om akkoord te gaan'). Klanten die twijfelen, kiezen de offerte die het meest vertrouwen wekt - niet de goedkoopste.",
       },
       {
         heading: "Prijsstrategie: één prijs of meerdere opties?",
-        body: "Klanten kiezen uit opties — dus geef ze opties. Bied minimaal 2 pakketten: een basis en een premium. Bijvoorbeeld bij een badkamer: 'basis' (standaard tegels, basic douche) vs 'premium' (natuursteen, regendouche, extra verlichting). 70% van klanten kiest voor premium. Een enkele prijs nodigt uit tot onderhandelen of vergelijken met concurrenten. Twee of drie opties zetten de klant in de vergelijkingsmodus binnen jouw offerte.",
+        body: "Klanten kiezen uit opties - dus geef ze opties. Bied minimaal 2 pakketten: een basis en een premium. Bijvoorbeeld bij een badkamer: 'basis' (standaard tegels, basic douche) vs 'premium' (natuursteen, regendouche, extra verlichting). 70% van klanten kiest voor premium. Een enkele prijs nodigt uit tot onderhandelen of vergelijken met concurrenten. Twee of drie opties zetten de klant in de vergelijkingsmodus binnen jouw offerte.",
       },
       {
         heading: "Digitale offertes winnen van papieren",
         body: "Een PDF per email is oké, maar een interactieve digitale offerte (bijvoorbeeld via Qwilr of een eigen offertesysteem) wint significant vaker. Waarom? Klanten kunnen klikken op 'akkoord', je ziet wanneer ze de offerte openen, je kunt video's en projectfoto's insluiten en aanpassingen maken zonder een nieuwe versie te sturen. Digitale offertes converteren 20-40% beter dan PDF-offertes.",
       },
       {
-        heading: "Volg altijd op — twee keer",
-        body: "50% van de offertes wordt genegeerd als er niet wordt opgevolgd. Stuur 3 dagen na de offerte een korte WhatsApp: 'Hoi [naam], heb je de offerte ontvangen? Laat het me weten als er vragen zijn.' Nog geen reactie na 7 dagen? Tweede follow-up: 'Ik hoor graag of deze offerte aan je verwachting voldoet — of dat je nog ergens over twijfelt?' Elke opvolging verhoogt je conversie met 10-20%. De meeste aannemers doen geen opvolging en laten hierdoor duizenden euro's liggen.",
+        heading: "Volg altijd op - twee keer",
+        body: "50% van de offertes wordt genegeerd als er niet wordt opgevolgd. Stuur 3 dagen na de offerte een korte WhatsApp: 'Hoi [naam], heb je de offerte ontvangen? Laat het me weten als er vragen zijn.' Nog geen reactie na 7 dagen? Tweede follow-up: 'Ik hoor graag of deze offerte aan je verwachting voldoet - of dat je nog ergens over twijfelt?' Elke opvolging verhoogt je conversie met 10-20%. De meeste aannemers doen geen opvolging en laten hierdoor duizenden euro's liggen.",
       },
       {
         heading: "Omgaan met prijsonderhandeling",
-        body: "Wanneer een klant vraagt om korting, is dat meestal geen prijsprobleem maar een waardeprobleem. Ga niet direct zakken — vraag eerst: 'Wat maakt dat u de prijs hoog vindt?' Vaak ligt het antwoord in onzekerheid over wat ze precies krijgen. Herhaal wat inbegrepen is en wat de klant bespaart op lange termijn (kwaliteit, garantie, geen herstelkosten). Als je écht moet zakken, geef dan iets weg (extra) in plaats van simpelweg de prijs te verlagen — zo behoud je je marge en waarde.",
+        body: "Wanneer een klant vraagt om korting, is dat meestal geen prijsprobleem maar een waardeprobleem. Ga niet direct zakken - vraag eerst: 'Wat maakt dat u de prijs hoog vindt?' Vaak ligt het antwoord in onzekerheid over wat ze precies krijgen. Herhaal wat inbegrepen is en wat de klant bespaart op lange termijn (kwaliteit, garantie, geen herstelkosten). Als je écht moet zakken, geef dan iets weg (extra) in plaats van simpelweg de prijs te verlagen - zo behoud je je marge en waarde.",
       },
       {
         heading: "Automatiseer je offerteproces",
-        body: "Handmatig offertes maken kost 30-90 minuten per stuk. Bij 20 offertes per maand is dat 10-30 uur — tijd die je niet aan werk kunt besteden. Automatiseer met templates, digitale offerte-software en opvolg-automatisering. Bij Aannemer Systeem hoort dit bij het offerte systeem: je maakt offertes in minuten, de opvolging gaat automatisch, en je ziet real-time wanneer klanten de offerte bekijken en accepteren.",
+        body: "Handmatig offertes maken kost 30-90 minuten per stuk. Bij 20 offertes per maand is dat 10-30 uur - tijd die je niet aan werk kunt besteden. Automatiseer met templates, digitale offerte-software en opvolg-automatisering. Bij Aannemer Systeem hoort dit bij het offerte systeem: je maakt offertes in minuten, de opvolging gaat automatisch, en je ziet real-time wanneer klanten de offerte bekijken en accepteren.",
       },
     ],
   },
@@ -3890,26 +3890,26 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Stap 1: Zorg dat je überhaupt bestaat voor Google",
-        body: "Google kent jouw bedrijf alleen als het van jou weet. Check of je verschijnt in Google door te zoeken op je bedrijfsnaam. Niks? Dan begin je bij nul. Claim een Google Mijn Bedrijf profiel (gratis via business.google.com), verifieer je adres via post of telefoon en maak een basis-website met minstens 5 pagina's. Zonder deze twee dingen bestaat je bedrijf niet voor Google — ongeacht hoe goed je bent in het echt.",
+        body: "Google kent jouw bedrijf alleen als het van jou weet. Check of je verschijnt in Google door te zoeken op je bedrijfsnaam. Niks? Dan begin je bij nul. Claim een Google Mijn Bedrijf profiel (gratis via business.google.com), verifieer je adres via post of telefoon en maak een basis-website met minstens 5 pagina's. Zonder deze twee dingen bestaat je bedrijf niet voor Google - ongeacht hoe goed je bent in het echt.",
       },
       {
         heading: "Stap 2: Schrijf content op wat klanten zoeken",
-        body: "Klanten zoeken op 'keukenmonteur Amsterdam' of 'badkamer renovatie Utrecht' — niet op 'Jansen Bouw BV'. Je moet content hebben die exact overeenkomt met wat klanten typen. Voor elke dienst en elke belangrijke stad een aparte pagina met die zoekterm in de titel, in de H1, in de tekst en in de URL. Dit klinkt mechanisch maar is essentieel: Google kan jouw pagina alleen tonen als hij ziet dat jouw inhoud past bij de zoekopdracht.",
+        body: "Klanten zoeken op 'keukenmonteur Amsterdam' of 'badkamer renovatie Utrecht' - niet op 'Jansen Bouw BV'. Je moet content hebben die exact overeenkomt met wat klanten typen. Voor elke dienst en elke belangrijke stad een aparte pagina met die zoekterm in de titel, in de H1, in de tekst en in de URL. Dit klinkt mechanisch maar is essentieel: Google kan jouw pagina alleen tonen als hij ziet dat jouw inhoud past bij de zoekopdracht.",
       },
       {
         heading: "Stap 3: Bouw autoriteit op via reviews",
-        body: "Google's algoritme kijkt naar vertrouwen: hoe weten we dat dit bedrijf betrouwbaar is? Het sterkste signaal is Google reviews. Elk nieuwe review is een positief signaal — zeker als ze spontaan en divers zijn (niet allemaal tegelijk, niet allemaal kort). Vraag actief om reviews na elke klus. 20+ reviews met 4,5+ sterren is de benchmark om in het local pack te komen staan.",
+        body: "Google's algoritme kijkt naar vertrouwen: hoe weten we dat dit bedrijf betrouwbaar is? Het sterkste signaal is Google reviews. Elk nieuwe review is een positief signaal - zeker als ze spontaan en divers zijn (niet allemaal tegelijk, niet allemaal kort). Vraag actief om reviews na elke klus. 20+ reviews met 4,5+ sterren is de benchmark om in het local pack te komen staan.",
       },
       {
         heading: "Stap 4: Maak je website technisch gezond",
-        body: "Google ranks snelle, mobiel-vriendelijke sites hoger. Check je site met Google PageSpeed Insights en Google's Mobile-Friendly Test. Je wilt een laadtijd onder 3 seconden en een score boven 90 op mobiel. Veelvoorkomende problemen: grote ongeoptimaliseerde afbeeldingen, trage hosting, te veel plugins. Een langzame site kan je rankings tientallen posities verlagen — ongeacht hoe goed je content is.",
+        body: "Google ranks snelle, mobiel-vriendelijke sites hoger. Check je site met Google PageSpeed Insights en Google's Mobile-Friendly Test. Je wilt een laadtijd onder 3 seconden en een score boven 90 op mobiel. Veelvoorkomende problemen: grote ongeoptimaliseerde afbeeldingen, trage hosting, te veel plugins. Een langzame site kan je rankings tientallen posities verlagen - ongeacht hoe goed je content is.",
       },
       {
         heading: "Stap 5: Krijg andere sites om naar jou te linken",
         body: "Backlinks zijn Google's 'stemmen' voor je website. Hoe meer relevante sites naar jou linken, hoe hoger je autoriteit. Voor aannemers werken lokale backlinks het best: lokale sponsoring (voetbalclub, scouting), vermeldingen in de lokale krant, branchespecifieke directories (Bouwpas, KvK, lokale ondernemersvereniging). Eén goede lokale backlink is meer waard dan 100 algemene links van random websites.",
       },
       {
-        heading: "Stap 6: Wees geduldig — SEO duurt tijd",
+        heading: "Stap 6: Wees geduldig - SEO duurt tijd",
         body: "Google's algoritme straft nieuwe sites die te snel veel links en content produceren. Bouw organisch: 2-4 blogposts per maand, 2-4 reviews per maand, regelmatig nieuwe foto's op je GMB profiel. Resultaten op lange-tail zoektermen ('badkamerrenovatie Utrecht oost') zie je binnen 1-3 maanden. Korte-tail termen ('aannemer Utrecht') duren 6-12 maanden. Wie geduld heeft, wint.",
       },
       {
@@ -3941,15 +3941,15 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
       {
         heading: "Vaste kosten vs variabele kosten",
-        body: "Marketinguitgaven vallen in twee categorieën. Vaste kosten: website hosting (€20-€200/maand), SEO-abonnement of bureau (€500-€3.000/maand), marketingsoftware (€50-€300/maand). Variabele kosten: Google Ads (schaalt met hoeveel leads je wilt), social media advertising, betaalde leads van platforms. Zorg dat minstens 60% van je budget naar assets gaat die blijvend waarde opleveren (website, SEO, content) — niet naar tijdelijke uitgaven (Ads, platformleads).",
+        body: "Marketinguitgaven vallen in twee categorieën. Vaste kosten: website hosting (€20-€200/maand), SEO-abonnement of bureau (€500-€3.000/maand), marketingsoftware (€50-€300/maand). Variabele kosten: Google Ads (schaalt met hoeveel leads je wilt), social media advertising, betaalde leads van platforms. Zorg dat minstens 60% van je budget naar assets gaat die blijvend waarde opleveren (website, SEO, content) - niet naar tijdelijke uitgaven (Ads, platformleads).",
       },
       {
         heading: "Werkspot en andere platforms: tellen die mee?",
-        body: "Ja, absoluut. Als je €400/maand aan Werkspot-leads uitgeeft, is dat marketingbudget. Het probleem: deze kosten schalen lineair met leads en je bouwt er niets mee op. Aannemers die €200-€800/maand aan leadplatforms uitgeven, verdienen meestal meer door dit geld te verschuiven naar een eigen website en SEO — en Werkspot als aanvulling te gebruiken.",
+        body: "Ja, absoluut. Als je €400/maand aan Werkspot-leads uitgeeft, is dat marketingbudget. Het probleem: deze kosten schalen lineair met leads en je bouwt er niets mee op. Aannemers die €200-€800/maand aan leadplatforms uitgeven, verdienen meestal meer door dit geld te verschuiven naar een eigen website en SEO - en Werkspot als aanvulling te gebruiken.",
       },
       {
         heading: "ROI meten: weet wat elke euro oplevert",
-        body: "Tracking is essentieel. Gebruik een aparte trackings-telefoonnummer voor je website (via bijvoorbeeld CallRail), zodat je weet welke leads via welk kanaal komen. Meet per kanaal: kosten per lead, conversie naar klus, gemiddelde projectwaarde, ROI. Na 3 maanden zie je welk kanaal €50 per lead oplevert en welk €200 — dan kun je je budget herverdelen naar wat écht werkt.",
+        body: "Tracking is essentieel. Gebruik een aparte trackings-telefoonnummer voor je website (via bijvoorbeeld CallRail), zodat je weet welke leads via welk kanaal komen. Meet per kanaal: kosten per lead, conversie naar klus, gemiddelde projectwaarde, ROI. Na 3 maanden zie je welk kanaal €50 per lead oplevert en welk €200 - dan kun je je budget herverdelen naar wat écht werkt.",
       },
       {
         heading: "Voorbeeldverdeling: €20.000 per jaar (aannemer met €400k omzet)",

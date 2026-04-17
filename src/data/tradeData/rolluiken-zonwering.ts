@@ -5,11 +5,11 @@ export const ROLLUIKEN_ZONWERING_DATA: TradeData = {
   singular: "rolluiken & zonwering specialist",
   plural: "rolluiken & zonwering bedrijven",
   bedrijf: "rolluiken & zonwering bedrijf",
-  metaTitle: "Website & Marketing voor Rolluiken & Zonwering Bedrijven | Meer Klanten — Aannemer Systeem",
-  metaDescription: "Speciaal voor rolluiken & zonwering bedrijven: een professionele website, automatische reviews en lokale SEO. Wij helpen zonwering specialisten meer klanten te krijgen — zonder gedoe.",
+  metaTitle: "Website & Marketing voor Rolluiken & Zonwering Bedrijven | Meer Klanten - Aannemer Systeem",
+  metaDescription: "Speciaal voor rolluiken & zonwering bedrijven: een professionele website, automatische reviews en lokale SEO. Wij helpen zonwering specialisten meer klanten te krijgen - zonder gedoe.",
   hero: {
     badge: "Speciaal voor Rolluiken & Zonwering Bedrijven",
-    headline: "Meer Klanten als Zonwering Specialist — Zonder Marketing Gedoe",
+    headline: "Meer Klanten als Zonwering Specialist - Zonder Marketing Gedoe",
     subheadline: "Wij bouwen het complete online systeem zodat woningeigenaren jou vinden, vertrouwen en bellen. Jij monteert de perfecte zonwering. Wij regelen de rest.",
     stats: [
       { value: "80%", label: "van klanten zoekt online naar rolluiken of zonwering" },
@@ -28,7 +28,7 @@ export const ROLLUIKEN_ZONWERING_DATA: TradeData = {
   },
   solution: {
     sectionTitle: "Hoe wij rolluiken & zonwering bedrijven laten groeien",
-    intro: "Ons systeem is specifiek ingericht voor rolluiken & zonwering specialisten. Geen standaard template — maar een aanpak die werkt voor jouw diensten, jouw regio en jouw type klant.",
+    intro: "Ons systeem is specifiek ingericht voor rolluiken & zonwering specialisten. Geen standaard template - maar een aanpak die werkt voor jouw diensten, jouw regio en jouw type klant.",
     items: [
       { title: "Een website die jouw complete assortiment toont", description: "Een professionele website met aparte pagina's voor rolluiken, screens, knikarmschermen, markiezen, lamellen en garagedeuren. Elke pagina geoptimaliseerd voor lokale zoekopdrachten zoals 'zonwering op maat [jouw stad]' of 'rolluiken laten plaatsen'.", keywords: ["rolluiken", "screens", "knikarmschermen", "markiezen", "lamellen", "garagedeuren"] },
       { title: "Lokale SEO die jou boven de concurrent zet", description: "Wij optimaliseren je Google Mijn Bedrijf profiel volledig: categorieën, diensten, servicegebied en foto's van je montages. Daarnaast bouwen wij dienstenpagina's die scoren op zoekopdrachten als 'zonwering specialist in de buurt' of 'rolluiken monteren [stad]'.", keywords: ["google mijn bedrijf", "lokale seo", "zonwering specialist", "rolluiken monteren"] },
@@ -39,16 +39,16 @@ export const ROLLUIKEN_ZONWERING_DATA: TradeData = {
   industryContent: {
     sectionTitle: "Marketing voor rolluiken & zonwering bedrijven: wat werkt in 2026?",
     paragraphs: [
-      "De markt voor rolluiken en zonwering in Nederland groeit door meerdere factoren. Warmere zomers door klimaatverandering verhogen de vraag naar screens en zonwering. Tegelijkertijd stijgt de vraag naar rolluiken vanwege inbraakpreventie en energiebesparing. In 2026 zoeken steeds meer woningeigenaren online naar 'zonwering op maat', 'screens laten plaatsen' of 'rolluiken met motor' — en wie bovenaan staat, krijgt de opdracht.",
-      "Veel zonwering bedrijven vertrouwen op seizoensgebonden advertenties of dealernetwerken van grote merken. Dit maakt je afhankelijk van externe partijen. Met een eigen website en sterke lokale vindbaarheid bouw je een directe relatie op met klanten. Je betaalt geen commissie per lead en je merk groeit — niet dat van het platform of de fabrikant.",
+      "De markt voor rolluiken en zonwering in Nederland groeit door meerdere factoren. Warmere zomers door klimaatverandering verhogen de vraag naar screens en zonwering. Tegelijkertijd stijgt de vraag naar rolluiken vanwege inbraakpreventie en energiebesparing. In 2026 zoeken steeds meer woningeigenaren online naar 'zonwering op maat', 'screens laten plaatsen' of 'rolluiken met motor' - en wie bovenaan staat, krijgt de opdracht.",
+      "Veel zonwering bedrijven vertrouwen op seizoensgebonden advertenties of dealernetwerken van grote merken. Dit maakt je afhankelijk van externe partijen. Met een eigen website en sterke lokale vindbaarheid bouw je een directe relatie op met klanten. Je betaalt geen commissie per lead en je merk groeit - niet dat van het platform of de fabrikant.",
       "Google Mijn Bedrijf is voor zonwering bedrijven een onmisbaar kanaal. Wanneer iemand zoekt naar 'zonwering specialist [stad]' of 'rolluiken laten plaatsen in de buurt', toont Google eerst de kaartresultaten. Bedrijven met projectfoto's, complete dienstvermeldingen en sterke reviews domineren deze posities. Ons systeem zorgt ervoor dat jouw profiel er precies zo uitziet.",
-      "Daarnaast zien we dat zonwering bedrijven die content maken over energiebesparing, subsidies voor isolerende rolluiken, het verschil tussen binnen- en buitenzonwering, en smart home integratie met systemen als Somfy en Velux — significant meer vertrouwen opbouwen. Klanten willen een specialist die adviseert, niet alleen monteert.",
+      "Daarnaast zien we dat zonwering bedrijven die content maken over energiebesparing, subsidies voor isolerende rolluiken, het verschil tussen binnen- en buitenzonwering, en smart home integratie met systemen als Somfy en Velux - significant meer vertrouwen opbouwen. Klanten willen een specialist die adviseert, niet alleen monteert.",
     ],
   },
   comparison: {
     sectionTitle: "Waarom niet gewoon Werkspot of een duur bureau?",
     rows: [
-      { aspect: "Kosten per lead", werkspot: "€20–€55 per lead, ongeacht kwaliteit", bureau: "€1.000–€3.000/maand + opstartkosten", groeisysteem: "€279/maand vast — onbeperkte leads" },
+      { aspect: "Kosten per lead", werkspot: "€20–€55 per lead, ongeacht kwaliteit", bureau: "€1.000–€3.000/maand + opstartkosten", groeisysteem: "€279/maand vast - onbeperkte leads" },
       { aspect: "Eigenaarschap website", werkspot: "Geen eigen website", bureau: "Vaak vastgezet in contract", groeisysteem: "Jouw website, altijd in jouw beheer" },
       { aspect: "Reviews automatisering", werkspot: "Reviews alleen op het platform", bureau: "Zelden inbegrepen", groeisysteem: "Volledig automatisch na elke montage" },
       { aspect: "Lokale SEO", werkspot: "Je concurreert met tientallen bedrijven op het platform", bureau: "Vaak apart geprijsd", groeisysteem: "Inbegrepen en specifiek ingericht voor zonwering bedrijven" },
@@ -65,11 +65,11 @@ export const ROLLUIKEN_ZONWERING_DATA: TradeData = {
   },
   faqs: [
     { question: "Hoeveel kost een website voor een zonwering bedrijf?", answer: "Bij Aannemer Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstartkosten. Je website staat binnen 7 dagen live." },
-    { question: "Hoe zorg ik dat mijn zonwering bedrijf gevonden wordt op Google?", answer: "De drie pijlers: (1) Een professionele website met aparte pagina's per product — screens, rolluiken, markiezen, knikarmschermen, lamellen — geoptimaliseerd op lokale zoekopdrachten. (2) Een volledig Google Mijn Bedrijf-profiel met foto's van montages. (3) Een constante stroom Google reviews boven de 4,5 sterren. Ons systeem automatiseert al deze drie stappen." },
+    { question: "Hoe zorg ik dat mijn zonwering bedrijf gevonden wordt op Google?", answer: "De drie pijlers: (1) Een professionele website met aparte pagina's per product - screens, rolluiken, markiezen, knikarmschermen, lamellen - geoptimaliseerd op lokale zoekopdrachten. (2) Een volledig Google Mijn Bedrijf-profiel met foto's van montages. (3) Een constante stroom Google reviews boven de 4,5 sterren. Ons systeem automatiseert al deze drie stappen." },
     { question: "Werkt dit ook als ik meerdere merken verkoop en monteer?", answer: "Absoluut. Wij maken aparte pagina's voor elk producttype en kunnen ook merkpagina's aanmaken als je dealer bent van Somfy, Luxaflex of andere merken. Zo scoor je op zowel generieke als merk-specifieke zoekopdrachten." },
-    { question: "Wat is het verschil met Werkspot of Offerteadviseur?", answer: "Op Werkspot sta je naast tientallen andere zonwering bedrijven en vergelijkt de klant op prijs. Met Aannemer Systeem bouw je een eigen online aanwezigheid: klanten vinden jou via Google, lezen je reviews en bellen jou rechtstreeks — zonder tussenpartij." },
+    { question: "Wat is het verschil met Werkspot of Offerteadviseur?", answer: "Op Werkspot sta je naast tientallen andere zonwering bedrijven en vergelijkt de klant op prijs. Met Aannemer Systeem bouw je een eigen online aanwezigheid: klanten vinden jou via Google, lezen je reviews en bellen jou rechtstreeks - zonder tussenpartij." },
     { question: "Kan ik seizoensgebonden diensten apart promoten?", answer: "Zeker. Wij passen je website en Google Mijn Bedrijf profiel aan per seizoen. In het voorjaar en de zomer focus op screens en zonwering, in het najaar en de winter op rolluiken, garagedeuren en reparaties. Zo ben je het hele jaar door relevant." },
-    { question: "Hoe snel zie ik resultaat?", answer: "Google Mijn Bedrijf reageert snel op optimalisaties — verbeteringen zijn vaak al binnen weken zichtbaar. Organische zoekresultaten bouwen over 2 tot 4 maanden op. Zonwering bedrijven bereiken gemiddeld pagina 1 binnen 3 maanden voor hun belangrijkste zoektermen." },
+    { question: "Hoe snel zie ik resultaat?", answer: "Google Mijn Bedrijf reageert snel op optimalisaties - verbeteringen zijn vaak al binnen weken zichtbaar. Organische zoekresultaten bouwen over 2 tot 4 maanden op. Zonwering bedrijven bereiken gemiddeld pagina 1 binnen 3 maanden voor hun belangrijkste zoektermen." },
   ],
   relatedTrades: [
     { label: "Kozijnen & Ramen", slug: "kozijnen-ramen" },

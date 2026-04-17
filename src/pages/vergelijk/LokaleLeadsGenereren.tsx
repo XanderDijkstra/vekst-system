@@ -38,7 +38,7 @@ const channels = [
     name: "Eigen website + SEO",
     tagline: "De basis waar alles op rust",
     pros: [
-      "Onbeperkte leads — geen kosten per aanvraag",
+      "Onbeperkte leads - geen kosten per aanvraag",
       "Eigen merk en directe klantrelatie",
       "Werkt 24/7 zonder dat je betaalt per click",
       "Groeit exponentieel in waarde over tijd",
@@ -49,8 +49,8 @@ const channels = [
     ],
     cost: "€279/maand (all-in bij Aannemer Systeem)",
     speed: "2–4 maanden tot eerste pagina Google",
-    leadQuality: "Hoog — klanten zoeken gericht",
-    scalability: "Enorm — elke extra pagina = extra long-tail leads",
+    leadQuality: "Hoog - klanten zoeken gericht",
+    scalability: "Enorm - elke extra pagina = extra long-tail leads",
   },
   {
     icon: MapPin,
@@ -60,7 +60,7 @@ const channels = [
       "Gratis om aan te maken en te beheren",
       "Verschijnt bovenaan lokale zoekopdrachten (kaart)",
       "Google reviews wegen extreem zwaar in SERP",
-      "Snelle resultaten — vaak binnen weken zichtbaar",
+      "Snelle resultaten - vaak binnen weken zichtbaar",
     ],
     cons: [
       "Vereist actief onderhoud (foto's, posts, vragen)",
@@ -68,7 +68,7 @@ const channels = [
     ],
     cost: "Gratis (maar tijd-intensief om te onderhouden)",
     speed: "2–6 weken zichtbaar effect",
-    leadQuality: "Zeer hoog — directe bel- en rij-intentie",
+    leadQuality: "Zeer hoog - directe bel- en rij-intentie",
     scalability: "Beperkt tot servicegebied, maar binnen gebied zeer sterk",
   },
   {
@@ -88,8 +88,8 @@ const channels = [
       "Hoge concurrentie voor populaire termen",
     ],
     cost: "€300–€2.000/maand plus beheer",
-    speed: "Direct — vanaf dag 1 clicks",
-    leadQuality: "Gemiddeld — afhankelijk van landingspagina",
+    speed: "Direct - vanaf dag 1 clicks",
+    leadQuality: "Gemiddeld - afhankelijk van landingspagina",
     scalability: "Stopt zodra budget stopt",
   },
   {
@@ -97,7 +97,7 @@ const channels = [
     name: "Werkspot / Platforms",
     tagline: "Snelle leads, maar tegen een prijs",
     pros: [
-      "Geen eigen marketing nodig — leads komen binnen",
+      "Geen eigen marketing nodig - leads komen binnen",
       "Handig als tijdelijke brug als je net begint",
       "Duidelijke offerteaanvragen met budget",
     ],
@@ -108,8 +108,8 @@ const channels = [
       "Maakt je afhankelijk van het platform",
     ],
     cost: "€200–€800/maand afhankelijk van volume",
-    speed: "Direct — leads binnen dagen",
-    leadQuality: "Laag–gemiddeld — prijsvergelijking",
+    speed: "Direct - leads binnen dagen",
+    leadQuality: "Laag–gemiddeld - prijsvergelijking",
     scalability: "Beperkt en duur bij volume",
   },
   {
@@ -130,13 +130,13 @@ const channels = [
     ],
     cost: "Gratis (organisch) tot €200+/maand (paid)",
     speed: "Maanden tot merkeffect",
-    leadQuality: "Gemiddeld — lage intentie, hoge inspiratie",
+    leadQuality: "Gemiddeld - lage intentie, hoge inspiratie",
     scalability: "Beperkt zonder betaalde campagnes",
   },
   {
     icon: Star,
     name: "Mond-tot-mond & referenties",
-    tagline: "De ultieme lead — maar onvoorspelbaar",
+    tagline: "De ultieme lead - maar onvoorspelbaar",
     pros: [
       "Hoogste conversiepercentage (50%+)",
       "Gratis",
@@ -148,9 +148,9 @@ const channels = [
       "Werkt alleen als je klantenbestand al groot is",
       "Geen controle over volume",
     ],
-    cost: "€0 direct — investering in service",
-    speed: "Onvoorspelbaar — afhankelijk van klanten",
-    leadQuality: "Hoogste — warme leads",
+    cost: "€0 direct - investering in service",
+    speed: "Onvoorspelbaar - afhankelijk van klanten",
+    leadQuality: "Hoogste - warme leads",
     scalability: "Niet schaalbaar",
   },
 ];
@@ -231,27 +231,27 @@ const faqs = [
   {
     question: "Moet ik Google Ads doen of juist mijn website verbeteren?",
     answer:
-      "Op korte termijn geeft Google Ads directer resultaat, maar elke euro die je stopt in Ads verdwijnt zodra je stopt met betalen. Elke euro die je investeert in een goede website en lokale SEO blijft jarenlang werken. De meeste aannemers zijn beter af met een sterke website en GMB als fundament — en Google Ads alleen inzetten in piekperiodes of voor nieuwe vestigingen.",
+      "Op korte termijn geeft Google Ads directer resultaat, maar elke euro die je stopt in Ads verdwijnt zodra je stopt met betalen. Elke euro die je investeert in een goede website en lokale SEO blijft jarenlang werken. De meeste aannemers zijn beter af met een sterke website en GMB als fundament - en Google Ads alleen inzetten in piekperiodes of voor nieuwe vestigingen.",
   },
   {
     question: "Is Google Mijn Bedrijf echt zo belangrijk?",
     answer:
-      "Ja — voor lokale bedrijven zoals aannemers is GMB waarschijnlijk het belangrijkste gratis marketingkanaal dat bestaat. Wanneer iemand zoekt naar 'dakdekker Amsterdam' of 'loodgieter in de buurt', toont Google eerst de kaartresultaten. Dat is waar de eerste 3–5 klikken naartoe gaan. Zonder een geoptimaliseerd GMB profiel ben je voor die klanten compleet onzichtbaar.",
+      "Ja - voor lokale bedrijven zoals aannemers is GMB waarschijnlijk het belangrijkste gratis marketingkanaal dat bestaat. Wanneer iemand zoekt naar 'dakdekker Amsterdam' of 'loodgieter in de buurt', toont Google eerst de kaartresultaten. Dat is waar de eerste 3–5 klikken naartoe gaan. Zonder een geoptimaliseerd GMB profiel ben je voor die klanten compleet onzichtbaar.",
   },
   {
     question: "Hoeveel leads per maand kan ik redelijkerwijs verwachten?",
     answer:
-      "Dat hangt af van je vakgebied en regio. Een loodgieter in Amsterdam kan binnen 3–6 maanden naar 20–40 aanvragen per maand via eigen website en GMB. Een kelderbouwer met grotere, specialistische projecten zit eerder op 3–8 hoogwaardige aanvragen per maand. De hoeveelheid is minder belangrijk dan de kwaliteit — één website-lead voor een €45.000 klus is meer waard dan 20 Werkspot-leads.",
+      "Dat hangt af van je vakgebied en regio. Een loodgieter in Amsterdam kan binnen 3–6 maanden naar 20–40 aanvragen per maand via eigen website en GMB. Een kelderbouwer met grotere, specialistische projecten zit eerder op 3–8 hoogwaardige aanvragen per maand. De hoeveelheid is minder belangrijk dan de kwaliteit - één website-lead voor een €45.000 klus is meer waard dan 20 Werkspot-leads.",
   },
   {
     question: "Moet ik alle kanalen tegelijk inzetten?",
     answer:
-      "Nee — dat is een valkuil. Begin met het fundament: een goede website en een volledig GMB profiel. Pas wanneer die lopen, voeg je eventueel Google Ads toe voor piekperiodes en social media voor merkopbouw. Werkspot kan een tijdelijke brug zijn terwijl je eigen kanalen opbouwen. De fout die de meeste aannemers maken is overal tegelijk 'iets' doen zonder ergens echt in te investeren.",
+      "Nee - dat is een valkuil. Begin met het fundament: een goede website en een volledig GMB profiel. Pas wanneer die lopen, voeg je eventueel Google Ads toe voor piekperiodes en social media voor merkopbouw. Werkspot kan een tijdelijke brug zijn terwijl je eigen kanalen opbouwen. De fout die de meeste aannemers maken is overal tegelijk 'iets' doen zonder ergens echt in te investeren.",
   },
   {
     question: "Wat is de snelste manier om leads te krijgen als ik vandaag begin?",
     answer:
-      "Snelste effect: (1) maak vandaag je Google Mijn Bedrijf profiel compleet en vraag 5 recente klanten om een review, (2) zet een simpele maar professionele website online met duidelijke diensten en contactinfo, (3) overweeg eventueel een beperkt Google Ads budget voor je belangrijkste zoektermen. Met dit pakket kun je binnen 4–6 weken de eerste echte aanvragen zien — zonder per lead te betalen.",
+      "Snelste effect: (1) maak vandaag je Google Mijn Bedrijf profiel compleet en vraag 5 recente klanten om een review, (2) zet een simpele maar professionele website online met duidelijke diensten en contactinfo, (3) overweeg eventueel een beperkt Google Ads budget voor je belangrijkste zoektermen. Met dit pakket kun je binnen 4–6 weken de eerste echte aanvragen zien - zonder per lead te betalen.",
   },
 ];
 
@@ -287,7 +287,7 @@ const LokaleLeadsGenereren = () => (
       <title>Beste Manieren om Lokale Leads te Genereren als Aannemer | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Website, Google Mijn Bedrijf, Google Ads, Werkspot of social media — welk kanaal levert de meeste lokale leads op voor aannemers? Eerlijke vergelijking."
+        content="Website, Google Mijn Bedrijf, Google Ads, Werkspot of social media - welk kanaal levert de meeste lokale leads op voor aannemers? Eerlijke vergelijking."
       />
       <link rel="canonical" href={PAGE_URL} />
       <meta property="og:title" content="Beste Manieren om Lokale Leads te Genereren als Aannemer" />
@@ -320,7 +320,7 @@ const LokaleLeadsGenereren = () => (
           {...fadeInUp}
           className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/75 leading-relaxed"
         >
-          Website, Google Mijn Bedrijf, Google Ads, Werkspot of social media — welk
+          Website, Google Mijn Bedrijf, Google Ads, Werkspot of social media - welk
           kanaal levert écht de meeste lokale klanten op voor aannemers? We zetten
           alle opties eerlijk naast elkaar.
         </motion.p>
@@ -492,7 +492,7 @@ const LokaleLeadsGenereren = () => (
           </p>
           <p>
             Een eigen website met goede lokale SEO blijft jarenlang werken. Elke
-            euro die je erin investeert blijft leads opleveren — ook jaren later.
+            euro die je erin investeert blijft leads opleveren - ook jaren later.
             Google Mijn Bedrijf is gratis en zet je bovenaan de kaart bij lokale
             zoekopdrachten. Samen dekken deze twee kanalen 70–90% van alle zoekende
             klanten.
@@ -501,12 +501,12 @@ const LokaleLeadsGenereren = () => (
             Google Ads kan nuttig zijn in piek-periodes of voor nieuwe vestigingen,
             maar het stopt zodra je budget op is. Werkspot is handig als tijdelijke
             brug als je nét begint, maar zorg dat je er niet van afhankelijk wordt.
-            Social media werkt vooral voor visueel werk en merkopbouw — niet voor
+            Social media werkt vooral voor visueel werk en merkopbouw - niet voor
             directe leads.
           </p>
           <p className="text-foreground font-semibold">
             Onze klanten zien gemiddeld binnen 3 maanden meer leads via hun eigen
-            website dan ze ooit via Werkspot haalden — en zonder per lead te
+            website dan ze ooit via Werkspot haalden - en zonder per lead te
             betalen.
           </p>
         </motion.div>

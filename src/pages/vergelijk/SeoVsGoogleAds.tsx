@@ -30,9 +30,9 @@ const channels = [
     icon: Search,
     tagline: "Organisch ranken in Google door je website te optimaliseren.",
     pros: [
-      "Geen kosten per klik — gratis verkeer na de opbouwfase",
+      "Geen kosten per klik - gratis verkeer na de opbouwfase",
       "Vertrouwen: klanten klikken liever op organische resultaten",
-      "Effect bouwt op — hoe langer je bestaat, hoe meer leads",
+      "Effect bouwt op - hoe langer je bestaat, hoe meer leads",
       "Combineert met Google Mijn Bedrijf voor dominantie in je regio",
     ],
     cons: [
@@ -52,17 +52,17 @@ const channels = [
       "Resultaten binnen 24 uur na activering",
       "Volledige controle over budget en regio",
       "Perfect om pieken op te vangen of nieuwe regio's te testen",
-      "Direct meetbaar — je ziet exact wat elke euro oplevert",
+      "Direct meetbaar - je ziet exact wat elke euro oplevert",
     ],
     cons: [
-      "Elke klik kost geld — stopt de campagne, stopt de leadstroom",
+      "Elke klik kost geld - stopt de campagne, stopt de leadstroom",
       "Hoge klikprijzen in populaire niches (€5–€15 per klik)",
       "Vereist goed ingerichte landingspagina om te converteren",
       "Moet continu geoptimaliseerd worden om rendabel te blijven",
     ],
     cost: "€300–€2.000+ per maand (afhankelijk van regio)",
     speed: "Direct (binnen 24 uur)",
-    roi: "Hoog bij goede setup — 0 bij slechte setup",
+    roi: "Hoog bij goede setup - 0 bij slechte setup",
   },
 ];
 
@@ -74,43 +74,43 @@ const comparison = [
   },
   {
     aspect: "Kosten per klik",
-    seo: "€0 — gratis na opbouw",
+    seo: "€0 - gratis na opbouw",
     ads: "€2–€15 per klik (vakafhankelijk)",
   },
   {
     aspect: "Vast maandbudget",
     seo: "€279/maand (bij Aannemer Systeem)",
-    ads: "Variabel — €300 tot €2.000+ per maand",
+    ads: "Variabel - €300 tot €2.000+ per maand",
   },
   {
     aspect: "Stopt direct als je betaalt",
-    seo: "Nee — leads blijven binnenkomen",
-    ads: "Ja — geen budget = geen leads",
+    seo: "Nee - leads blijven binnenkomen",
+    ads: "Ja - geen budget = geen leads",
   },
   {
     aspect: "Vertrouwen van klanten",
-    seo: "Hoog — organische resultaten",
-    ads: "Lager — wordt als advertentie herkend",
+    seo: "Hoog - organische resultaten",
+    ads: "Lager - wordt als advertentie herkend",
   },
   {
     aspect: "Effect op lange termijn",
     seo: "Groeit maand na maand",
-    ads: "Vlak — je blijft betalen om zichtbaar te blijven",
+    ads: "Vlak - je blijft betalen om zichtbaar te blijven",
   },
   {
     aspect: "Controle over regio",
-    seo: "Gemiddeld — via lokale SEO",
-    ads: "Volledig — exact per plaats instelbaar",
+    seo: "Gemiddeld - via lokale SEO",
+    ads: "Volledig - exact per plaats instelbaar",
   },
   {
     aspect: "Werkt naast Google Mijn Bedrijf",
-    seo: "Ja — versterkt elkaar",
-    ads: "Ja — maar minder synergie",
+    seo: "Ja - versterkt elkaar",
+    ads: "Ja - maar minder synergie",
   },
   {
     aspect: "Risico bij opzeggen",
-    seo: "Laag — website blijft bestaan",
-    ads: "Hoog — leads verdwijnen per direct",
+    seo: "Laag - website blijft bestaan",
+    ads: "Hoog - leads verdwijnen per direct",
   },
 ];
 
@@ -118,7 +118,7 @@ const recommendations = [
   {
     title: "Begin je net? Start met SEO + Google Mijn Bedrijf",
     description:
-      "Je bouwt in 2–4 maanden een fundament op dat jarenlang leads blijft opleveren zonder kosten per klik. De investering is €279/maand — elke maand dat je bestaat, wordt het fundament sterker.",
+      "Je bouwt in 2–4 maanden een fundament op dat jarenlang leads blijft opleveren zonder kosten per klik. De investering is €279/maand - elke maand dat je bestaat, wordt het fundament sterker.",
   },
   {
     title: "Moet het per direct? Gebruik Google Ads tijdelijk",
@@ -146,17 +146,17 @@ const faqs = [
   {
     question: "Hoe snel rankt een aannemerswebsite in Google?",
     answer:
-      "Google Mijn Bedrijf optimalisaties geven vaak binnen 2–6 weken al resultaat — je lokale vindbaarheid neemt zichtbaar toe. Organische zoekresultaten voor regio-specifieke termen bouwen op in 2–4 maanden. Na 6 maanden heb je in de meeste regio's een stevige eerste pagina positie en komt het grootste deel van je leads gratis via Google.",
+      "Google Mijn Bedrijf optimalisaties geven vaak binnen 2–6 weken al resultaat - je lokale vindbaarheid neemt zichtbaar toe. Organische zoekresultaten voor regio-specifieke termen bouwen op in 2–4 maanden. Na 6 maanden heb je in de meeste regio's een stevige eerste pagina positie en komt het grootste deel van je leads gratis via Google.",
   },
   {
     question: "Kan ik Google Ads zelf doen of heb ik een expert nodig?",
     answer:
-      "Je kunt Google Ads zelf opzetten, maar zonder ervaring verbrand je vaak snel veel geld. De instellingen (keywords, match types, biedingsstrategieën, negatieve keywords) bepalen of je €100 per lead of €500 per lead betaalt. Voor aannemers die serieus willen investeren is een expert die de campagnes opzet en beheert meestal de moeite waard — of kies voor SEO waar de return voorspelbaarder is.",
+      "Je kunt Google Ads zelf opzetten, maar zonder ervaring verbrand je vaak snel veel geld. De instellingen (keywords, match types, biedingsstrategieën, negatieve keywords) bepalen of je €100 per lead of €500 per lead betaalt. Voor aannemers die serieus willen investeren is een expert die de campagnes opzet en beheert meestal de moeite waard - of kies voor SEO waar de return voorspelbaarder is.",
   },
   {
     question: "Zijn SEO en Google Ads niet hetzelfde?",
     answer:
-      "Nee. SEO is het optimaliseren van je website zodat Google hem organisch bovenaan plaatst — zonder betaling. Google Ads is betaald verkeer waarbij je per klik betaalt om bovenaan te verschijnen. Ze staan in dezelfde zoekresultaten (Ads boven, SEO eronder) maar werken volledig verschillend: SEO is een eenmalige opbouw met lange-termijn rendement, Ads is een continue uitgave met directe resultaten.",
+      "Nee. SEO is het optimaliseren van je website zodat Google hem organisch bovenaan plaatst - zonder betaling. Google Ads is betaald verkeer waarbij je per klik betaalt om bovenaan te verschijnen. Ze staan in dezelfde zoekresultaten (Ads boven, SEO eronder) maar werken volledig verschillend: SEO is een eenmalige opbouw met lange-termijn rendement, Ads is een continue uitgave met directe resultaten.",
   },
   {
     question: "Wat als ik nu al Google Ads draai?",
@@ -203,7 +203,7 @@ const SeoVsGoogleAds = () => (
       <meta property="og:title" content="SEO vs Google Ads voor Aannemers: Wat Werkt Beter?" />
       <meta
         property="og:description"
-        content="Eerlijke vergelijking tussen SEO en Google Ads voor aannemers — kosten, snelheid en rendement naast elkaar."
+        content="Eerlijke vergelijking tussen SEO en Google Ads voor aannemers - kosten, snelheid en rendement naast elkaar."
       />
       <meta property="og:url" content={PAGE_URL} />
       <meta property="og:type" content="website" />
@@ -231,7 +231,7 @@ const SeoVsGoogleAds = () => (
           className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/75 leading-relaxed"
         >
           Betaal je per klik of bouw je een fundament dat gratis blijft
-          opleveren? Kosten, snelheid en rendement naast elkaar — zodat je
+          opleveren? Kosten, snelheid en rendement naast elkaar - zodat je
           weet welk kanaal past bij jouw bouwbedrijf.
         </motion.p>
         <motion.div
@@ -263,7 +263,7 @@ const SeoVsGoogleAds = () => (
           {...fadeInUp}
           className="mt-4 text-center text-lg text-muted-foreground max-w-2xl mx-auto"
         >
-          Beide brengen klanten — maar ze werken fundamenteel verschillend.
+          Beide brengen klanten - maar ze werken fundamenteel verschillend.
         </motion.p>
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {channels.map((c, i) => (
@@ -330,7 +330,7 @@ const SeoVsGoogleAds = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-bold tracking-tight text-foreground text-center"
         >
-          SEO vs Google Ads — naast elkaar
+          SEO vs Google Ads - naast elkaar
         </motion.h2>
         <motion.p
           {...fadeInUp}

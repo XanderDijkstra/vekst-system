@@ -38,13 +38,13 @@ const features = [
     icon: Mail,
     title: "Niets meer missen",
     description:
-      "Elke aanvraag — of die nu via Facebook, Instagram, SMS of e-mail binnenkomt — wordt automatisch op één plek verzameld. Zo valt er nooit meer iets tussen wal en schip.",
+      "Elke aanvraag - of die nu via Facebook, Instagram, SMS of e-mail binnenkomt - wordt automatisch op één plek verzameld. Zo valt er nooit meer iets tussen wal en schip.",
   },
   {
     icon: Facebook,
     title: "Alle kanalen gekoppeld",
     description:
-      "Koppel al je communicatiekanalen in enkele minuten. Geen technische kennis nodig — wij zorgen dat alles naadloos samenwerkt zodat jij je kunt focussen op de werf.",
+      "Koppel al je communicatiekanalen in enkele minuten. Geen technische kennis nodig - wij zorgen dat alles naadloos samenwerkt zodat jij je kunt focussen op de werf.",
   },
 ];
 
@@ -78,10 +78,10 @@ const AllInOneInbox = () => {
     <PageShell>
       <Helmet>
         <title>All-in-One Inbox | Aannemer Systeem</title>
-        <meta name="description" content="Al je berichten op één plek — SMS, e-mail, WhatsApp en social media. Reageer sneller en mis nooit een bericht." />
+        <meta name="description" content="Al je berichten op één plek - SMS, e-mail, WhatsApp en social media. Reageer sneller en mis nooit een bericht." />
         <link rel="canonical" href="https://aannemersysteem.com/diensten/all-in-one-inbox" />
         <meta property="og:title" content="All-in-One Inbox | Aannemer Systeem" />
-        <meta property="og:description" content="Al je berichten op één plek — SMS, e-mail, WhatsApp en social media." />
+        <meta property="og:description" content="Al je berichten op één plek - SMS, e-mail, WhatsApp en social media." />
         <meta property="og:url" content="https://aannemersysteem.com/diensten/all-in-one-inbox" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
@@ -96,7 +96,7 @@ const AllInOneInbox = () => {
             Alles-in-Één Inbox
           </motion.h1>
 
-          {/* Mobile video — after title */}
+          {/* Mobile video - after title */}
           <motion.div
             {...fadeInUp}
             transition={{ duration: 0.4, ease: systemEase, delay: 0.1 }}
@@ -131,7 +131,7 @@ const AllInOneInbox = () => {
               ))}
             </div>
 
-            {/* Video right — desktop only */}
+            {/* Video right - desktop only */}
             <motion.div
               {...fadeInUp}
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
@@ -167,7 +167,7 @@ const AllInOneInbox = () => {
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Eén plek voor al je berichten — Facebook, Instagram, SMS en e-mail — zodat je nooit meer iets mist.
+            Eén plek voor al je berichten - Facebook, Instagram, SMS en e-mail - zodat je nooit meer iets mist.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">

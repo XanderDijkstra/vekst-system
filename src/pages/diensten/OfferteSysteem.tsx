@@ -25,7 +25,7 @@ const SITE_URL = "https://aannemersysteem.com";
 
 const stats = [
   { value: "45 min", description: "gemiddelde tijd die aannemers besteden aan het handmatig maken van één offerte." },
-  { value: "38%", description: "van offertes wordt nooit opgevolgd — en daarmee verloren." },
+  { value: "38%", description: "van offertes wordt nooit opgevolgd - en daarmee verloren." },
   { value: "2,4x", description: "hogere sluitingsratio met automatische follow-up op offertes." },
 ];
 
@@ -83,7 +83,7 @@ const features = [
     icon: CheckCircle2,
     title: "Online akkoord & handtekening",
     description:
-      "Klanten accepteren je offerte met één klik en zetten een digitale handtekening. Geen geprint papier, geen gedoe — direct starten.",
+      "Klanten accepteren je offerte met één klik en zetten een digitale handtekening. Geen geprint papier, geen gedoe - direct starten.",
   },
 ];
 
@@ -115,7 +115,7 @@ const faqs = [
   {
     question: "Kan ik mijn eigen offerte-layout gebruiken?",
     answer:
-      "Ja. We bouwen de templates op basis van jouw huidige stijl en branding. Je offerte ziet eruit alsof je het zelf hebt ontworpen — maar dan in een fractie van de tijd.",
+      "Ja. We bouwen de templates op basis van jouw huidige stijl en branding. Je offerte ziet eruit alsof je het zelf hebt ontworpen - maar dan in een fractie van de tijd.",
   },
   {
     question: "Hoe werkt het online akkoord?",
@@ -172,7 +172,7 @@ const OfferteSysteem = () => (
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
           Het handmatig maken van offertes kost uren en follow-ups worden vaak vergeten.
-          Ons systeem automatiseert het hele proces — van aanvraag tot akkoord.
+          Ons systeem automatiseert het hele proces - van aanvraag tot akkoord.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -236,7 +236,7 @@ const OfferteSysteem = () => (
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Van aanvraag tot getekende offerte — alles in één systeem.
+          Van aanvraag tot getekende offerte - alles in één systeem.
         </motion.p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

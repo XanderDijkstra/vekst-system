@@ -50,11 +50,11 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Wat is patroonrapport en hoeveel extra behang kost dat?",
-    a: "Patroonrapport is de verticale afstand waarna het patroon zich herhaalt. Bij elke baan moet je het patroon laten aansluiten, waardoor je per baan materiaal verliest. Bij een rapport van 53 cm en een plafondhoogte van 2,60 m verlies je tot 53 cm per baan — dat kan 2-3 extra rollen kosten. Bij uni (effen) behang is er geen rapport en dus geen verlies.",
+    a: "Patroonrapport is de verticale afstand waarna het patroon zich herhaalt. Bij elke baan moet je het patroon laten aansluiten, waardoor je per baan materiaal verliest. Bij een rapport van 53 cm en een plafondhoogte van 2,60 m verlies je tot 53 cm per baan - dat kan 2-3 extra rollen kosten. Bij uni (effen) behang is er geen rapport en dus geen verlies.",
   },
   {
     q: "Moet ik ramen en deuren aftrekken?",
-    a: "Grote openingen (ramen, deuren, schouwen) trek je af van de wandoppervlakte. Kleine ramen (< 1 m²) worden meestal niet afgetrokken — het extra behang dient als reserve. De calculator laat je het totale oppervlak aan openingen invoeren.",
+    a: "Grote openingen (ramen, deuren, schouwen) trek je af van de wandoppervlakte. Kleine ramen (< 1 m²) worden meestal niet afgetrokken - het extra behang dient als reserve. De calculator laat je het totale oppervlak aan openingen invoeren.",
   },
   {
     q: "Hoeveel behanglijm heb ik nodig?",
@@ -76,10 +76,10 @@ const pageSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      name: "Behang berekenen — hoeveel rollen behang nodig | Aannemer Systeem",
+      name: "Behang berekenen - hoeveel rollen behang nodig | Aannemer Systeem",
       url: PAGE_URL,
       description:
-        "Bereken hoeveel rollen behang en lijm je nodig hebt. Vul kameromtrek, plafondhoogte en patroonrapport in — direct resultaat.",
+        "Bereken hoeveel rollen behang en lijm je nodig hebt. Vul kameromtrek, plafondhoogte en patroonrapport in - direct resultaat.",
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -163,10 +163,10 @@ const BehangBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Behang berekenen — hoeveel rollen behang nodig | Aannemer Systeem</title>
+        <title>Behang berekenen - hoeveel rollen behang nodig | Aannemer Systeem</title>
         <meta
           name="description"
-          content="Bereken hoeveel rollen behang en lijm je nodig hebt. Vul kameromtrek, plafondhoogte en patroonrapport in — gratis calculator voor aannemers."
+          content="Bereken hoeveel rollen behang en lijm je nodig hebt. Vul kameromtrek, plafondhoogte en patroonrapport in - gratis calculator voor aannemers."
         />
         <link rel="canonical" href={PAGE_URL} />
         <meta property="og:title" content="Behang berekenen | Gratis calculator | Aannemer Systeem" />
@@ -199,7 +199,7 @@ const BehangBerekenen = () => {
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
             Bereken hoeveel rollen behang je nodig hebt op basis van je kameromtrek,
-            plafondhoogte en patroonrapport — inclusief lijm.
+            plafondhoogte en patroonrapport - inclusief lijm.
           </motion.p>
         </div>
       </section>
@@ -293,7 +293,7 @@ const BehangBerekenen = () => {
               variant="hero"
               label="Rollen behang"
               value={`${result.rollen} rollen`}
-              caption={`${numInt.format(result.aantalBanen)} banen × ${num.format(result.baanLengte)} m lang — ${result.banenPerRol} banen per rol`}
+              caption={`${numInt.format(result.aantalBanen)} banen × ${num.format(result.baanLengte)} m lang - ${result.banenPerRol} banen per rol`}
               icon={<Package className="h-5 w-5" />}
             />
             <CalcResultCard
@@ -341,7 +341,7 @@ const BehangBerekenen = () => {
               patroonrapport. Het aantal banen per rol bepaalt hoeveel rollen je nodig hebt.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld — slaapkamer 4 × 4 m, 2,60 m hoog, standaardrol, rapport 32 cm:</p>
+              <p className="font-semibold">Voorbeeld - slaapkamer 4 × 4 m, 2,60 m hoog, standaardrol, rapport 32 cm:</p>
               <p>Omtrek: 4 × 4 = <strong>16 m</strong></p>
               <p>Banen: 16 / 0,53 = 30,2 → <strong>31 banen</strong></p>
               <p>Baanlengte: ⌈2,65 / 0,32⌉ × 0,32 + 0,05 = 9 × 0,32 + 0,05 = <strong>2,93 m</strong></p>
@@ -358,25 +358,25 @@ const BehangBerekenen = () => {
             </h2>
             <ol className="list-decimal list-inside space-y-3 text-muted-foreground leading-relaxed">
               <li>
-                <strong className="text-foreground">Koop altijd 1 rol extra</strong> — rollen uit
+                <strong className="text-foreground">Koop altijd 1 rol extra</strong> - rollen uit
                 dezelfde batch hebben exact dezelfde kleur. Nabijbestellen kan een subtiel
                 kleurverschil opleveren.
               </li>
               <li>
-                <strong className="text-foreground">Check het batchnummer</strong> — alle rollen
+                <strong className="text-foreground">Check het batchnummer</strong> - alle rollen
                 moeten hetzelfde batchnummer hebben om kleurverschil te voorkomen.
               </li>
               <li>
-                <strong className="text-foreground">Begin naast het raam</strong> — werk vanaf het
+                <strong className="text-foreground">Begin naast het raam</strong> - werk vanaf het
                 licht weg. Zo vallen de naden het minst op in het strijklicht.
               </li>
               <li>
-                <strong className="text-foreground">Gebruik een loodlijn</strong> — trek een
-                verticale lijn op de muur als startpunt. Muren zijn zelden perfect recht — zonder
+                <strong className="text-foreground">Gebruik een loodlijn</strong> - trek een
+                verticale lijn op de muur als startpunt. Muren zijn zelden perfect recht - zonder
                 loodlijn loopt je behang al na een paar banen scheef.
               </li>
               <li>
-                <strong className="text-foreground">Wek de lijm</strong> — bij papierbehang moet de
+                <strong className="text-foreground">Wek de lijm</strong> - bij papierbehang moet de
                 lijm 5-10 minuten intrekken (weken) voordat je plakt. Bij vliesbehang breng je de
                 lijm direct op de muur aan en plak je droog.
               </li>

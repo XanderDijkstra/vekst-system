@@ -27,7 +27,7 @@ const SystemsGridSection = () => {
           Digitale systemen die voor je werken
         </motion.h2>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-          Elk systeem is ontworpen om een specifiek probleem op te lossen — samen vormen ze het digitale fundament van jouw aannemersbedrijf.
+          Elk systeem is ontworpen om een specifiek probleem op te lossen - samen vormen ze het digitale fundament van jouw aannemersbedrijf.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

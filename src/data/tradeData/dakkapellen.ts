@@ -5,11 +5,11 @@ export const DAKKAPELLEN_DATA: TradeData = {
   singular: "dakkapel specialist",
   plural: "dakkapel specialisten",
   bedrijf: "dakkapelbedrijf",
-  metaTitle: "Website & Marketing voor Dakkapel Specialisten | Meer Klanten — Aannemer Systeem",
-  metaDescription: "Speciaal voor dakkapel specialisten: een professionele website, automatische reviews en lokale SEO. Wij helpen dakkapelbedrijven meer klanten te krijgen — zonder gedoe.",
+  metaTitle: "Website & Marketing voor Dakkapel Specialisten | Meer Klanten - Aannemer Systeem",
+  metaDescription: "Speciaal voor dakkapel specialisten: een professionele website, automatische reviews en lokale SEO. Wij helpen dakkapelbedrijven meer klanten te krijgen - zonder gedoe.",
   hero: {
     badge: "Speciaal voor Dakkapel Specialisten",
-    headline: "Meer Dakkapel Opdrachten — Zonder Marketing Gedoe",
+    headline: "Meer Dakkapel Opdrachten - Zonder Marketing Gedoe",
     subheadline: "Wij bouwen het complete online systeem zodat huiseigenaren met slaapkamer-plannen jou vinden, vertrouwen en bellen. Jij plaatst de dakkapel. Wij regelen de rest.",
     stats: [
       { value: "91%", label: "van klanten zoekt eerst online naar een dakkapel specialist" },
@@ -28,7 +28,7 @@ export const DAKKAPELLEN_DATA: TradeData = {
   },
   solution: {
     sectionTitle: "Hoe wij dakkapel specialisten laten groeien",
-    intro: "Ons systeem is specifiek ingericht voor dakkapel specialisten. Geen standaard template — maar een aanpak die werkt voor jouw type project, jouw werkgebied en jouw klant.",
+    intro: "Ons systeem is specifiek ingericht voor dakkapel specialisten. Geen standaard template - maar een aanpak die werkt voor jouw type project, jouw werkgebied en jouw klant.",
     items: [
       { title: "Een website die jouw vakmanschap zichtbaar maakt", description: "Een professionele website met aparte pagina's voor prefab dakkapellen, maatwerk dakkapellen, kunststof dakkapellen, houten dakkapellen en dakkapel vervangen. Elke pagina geoptimaliseerd voor zoekopdrachten als 'dakkapel laten plaatsen [stad]' of 'prefab dakkapel prijs'. Inclusief uitgebreid portfolio met voor/na foto's.", keywords: ["prefab dakkapel", "maatwerk dakkapel", "kunststof dakkapel", "dakkapel vervangen", "dakkapel plaatsen"] },
       { title: "Lokale SEO die jou boven de landelijke spelers zet", description: "Wij optimaliseren je Google Mijn Bedrijf profiel volledig en bouwen dienstenpagina's per stad en regio. Zo scoor je op 'dakkapel specialist [regio]' ook al concurreer je met miljoenenbudgetten.", keywords: ["google mijn bedrijf", "lokale seo", "dakkapel specialist", "dakkapel regio"] },
@@ -42,13 +42,13 @@ export const DAKKAPELLEN_DATA: TradeData = {
       "De markt voor dakkapellen blijft groeien in Nederland. Met stijgende huizenprijzen kiezen steeds meer huiseigenaren voor verbouwen in plaats van verhuizen. Een dakkapel verdient zichzelf terug doordat het de woning vergroot en vaak tienduizenden euro's in waarde toevoegt. Zoekopdrachten als 'dakkapel laten plaatsen', 'prefab dakkapel kosten' en 'dakkapel specialist in de buurt' zijn elke maand goed voor tienduizenden zoekopdrachten in Nederland.",
       "Veel dakkapel specialisten zijn afhankelijk van vergelijkingssites zoals Offerteadviseur, Slimster en Solvari. Je betaalt €30 tot €90 per lead en concurreert met 3-5 andere bedrijven om dezelfde klant. De klant vergelijkt op prijs en de marge wordt minimaal. Met een eigen website en sterke lokale vindbaarheid trek je klanten aan die jou al vertrouwen voordat ze contact opnemen.",
       "Google Mijn Bedrijf is voor dakkapel specialisten het belangrijkste marketing kanaal. Wanneer iemand zoekt naar 'dakkapel specialist [stad]', toont Google eerst de kaartresultaten. Bedrijven met een volledig profiel, portfolio foto's van geplaatste dakkapellen en consistent hoge reviews domineren deze posities. Ons systeem automatiseert precies dit proces.",
-      "Daarnaast zien we dat dakkapel specialisten die content maken over vergunningen, plaatsingstijd, verschil tussen prefab en maatwerk, isolatiewaarden en financieringsopties — significant meer vertrouwen opbouwen. Klanten investeren fors en willen een specialist die eerlijk adviseert, niet alleen de laagste prijs biedt.",
+      "Daarnaast zien we dat dakkapel specialisten die content maken over vergunningen, plaatsingstijd, verschil tussen prefab en maatwerk, isolatiewaarden en financieringsopties - significant meer vertrouwen opbouwen. Klanten investeren fors en willen een specialist die eerlijk adviseert, niet alleen de laagste prijs biedt.",
     ],
   },
   comparison: {
     sectionTitle: "Waarom niet gewoon een vergelijkingssite of een duur bureau?",
     rows: [
-      { aspect: "Kosten per lead", werkspot: "€30–€90 per lead, gedeeld met concurrenten", bureau: "€1.500–€4.000/maand + opstartkosten", groeisysteem: "€279/maand vast — onbeperkte leads" },
+      { aspect: "Kosten per lead", werkspot: "€30–€90 per lead, gedeeld met concurrenten", bureau: "€1.500–€4.000/maand + opstartkosten", groeisysteem: "€279/maand vast - onbeperkte leads" },
       { aspect: "Eigenaarschap website", werkspot: "Geen eigen website", bureau: "Vaak vastgezet in contract", groeisysteem: "Jouw website, altijd in jouw beheer" },
       { aspect: "Reviews automatisering", werkspot: "Reviews alleen op het platform", bureau: "Zelden inbegrepen", groeisysteem: "Volledig automatisch na elke plaatsing" },
       { aspect: "Portfolio & voor/na foto's", werkspot: "Geen eigen portfolio mogelijk", bureau: "Vaak extra kosten voor updates", groeisysteem: "Onbeperkt, makkelijk zelf toevoegen" },
@@ -65,11 +65,11 @@ export const DAKKAPELLEN_DATA: TradeData = {
   },
   faqs: [
     { question: "Hoeveel kost een website voor een dakkapel specialist?", answer: "Bij Aannemer Systeem betaal je €279 per maand voor een complete website inclusief hosting, onderhoud, lokale SEO en marketing automatiseringen. Er zijn geen opstartkosten. Je website staat binnen 7 dagen live." },
-    { question: "Hoe zorg ik dat mijn dakkapelbedrijf gevonden wordt op Google?", answer: "De drie pijlers: (1) Een professionele website met aparte pagina's per type dakkapel — prefab, maatwerk, kunststof, hout — geoptimaliseerd op lokale zoekopdrachten. (2) Een volledig Google Mijn Bedrijf-profiel met portfolio foto's van geplaatste dakkapellen. (3) Een constante stroom Google reviews boven de 4,5 sterren. Ons systeem automatiseert al deze drie stappen." },
+    { question: "Hoe zorg ik dat mijn dakkapelbedrijf gevonden wordt op Google?", answer: "De drie pijlers: (1) Een professionele website met aparte pagina's per type dakkapel - prefab, maatwerk, kunststof, hout - geoptimaliseerd op lokale zoekopdrachten. (2) Een volledig Google Mijn Bedrijf-profiel met portfolio foto's van geplaatste dakkapellen. (3) Een constante stroom Google reviews boven de 4,5 sterren. Ons systeem automatiseert al deze drie stappen." },
     { question: "Kan ik ook prefab en maatwerk dakkapellen los promoten?", answer: "Absoluut. Wij maken aparte dienstenpagina's voor prefab dakkapellen, maatwerk dakkapellen, kunststof dakkapellen en houten dakkapellen. Elke variant trekt een ander type klant aan en heeft eigen zoekopdrachten. Met gerichte pagina's scoor je op elke niche." },
-    { question: "Wat is het verschil met vergelijkingssites zoals Offerteadviseur?", answer: "Op vergelijkingssites sta je naast 3-5 andere dakkapelbedrijven en concurreert de klant alleen op prijs. Met Aannemer Systeem bouw je een eigen online aanwezigheid: klanten vinden jou via Google, lezen je reviews, bekijken je portfolio en bellen jou rechtstreeks — zonder commissie per lead." },
+    { question: "Wat is het verschil met vergelijkingssites zoals Offerteadviseur?", answer: "Op vergelijkingssites sta je naast 3-5 andere dakkapelbedrijven en concurreert de klant alleen op prijs. Met Aannemer Systeem bouw je een eigen online aanwezigheid: klanten vinden jou via Google, lezen je reviews, bekijken je portfolio en bellen jou rechtstreeks - zonder commissie per lead." },
     { question: "Kan ik informatie over vergunningen en financiering op mijn website zetten?", answer: "Zeker. Wij richten informatieve pagina's in over dakkapel vergunningen, vergunningsvrij plaatsen, plaatsingstijd en financieringsmogelijkheden. Dit zijn de meest gezochte onderwerpen en trekken klanten aan die serieus overwegen om een dakkapel te laten plaatsen." },
-    { question: "Hoe snel zie ik resultaat?", answer: "Google Mijn Bedrijf reageert snel op optimalisaties — verbeteringen zijn vaak al binnen weken zichtbaar. Organische zoekresultaten bouwen over 2 tot 4 maanden op. Dakkapel specialisten bereiken gemiddeld pagina 1 binnen 3-4 maanden voor hun belangrijkste zoektermen." },
+    { question: "Hoe snel zie ik resultaat?", answer: "Google Mijn Bedrijf reageert snel op optimalisaties - verbeteringen zijn vaak al binnen weken zichtbaar. Organische zoekresultaten bouwen over 2 tot 4 maanden op. Dakkapel specialisten bereiken gemiddeld pagina 1 binnen 3-4 maanden voor hun belangrijkste zoektermen." },
   ],
   relatedTrades: [
     { label: "Dakdekkers", slug: "dakdekkers" },

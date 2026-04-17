@@ -25,7 +25,7 @@ import {
 const SITE_URL = "https://aannemersysteem.com";
 
 const stats = [
-  { value: "72%", description: "van aannemers doet geen actieve marketing — en mist daardoor klanten." },
+  { value: "72%", description: "van aannemers doet geen actieve marketing - en mist daardoor klanten." },
   { value: "3,6x", description: "meer herhaalopdrachten door geautomatiseerde klantcampagnes." },
   { value: "€0", description: "extra tijdsinvestering per campagne na de initiële opzet." },
 ];
@@ -37,11 +37,11 @@ const problems = [
   },
   {
     title: "Bestaande klanten worden vergeten",
-    description: "Je hebt een lijst met tevreden klanten, maar je doet er niets mee. Seizoensgebonden werk, onderhoud en herhaalopdrachten — het blijft liggen omdat niemand ze benadert.",
+    description: "Je hebt een lijst met tevreden klanten, maar je doet er niets mee. Seizoensgebonden werk, onderhoud en herhaalopdrachten - het blijft liggen omdat niemand ze benadert.",
   },
   {
     title: "Marketing voelt als geld weggooien",
-    description: "Je hebt misschien ooit iets geprobeerd — een Facebook-advertentie of een flyer — maar zonder systeem weet je niet wat werkt en wat niet.",
+    description: "Je hebt misschien ooit iets geprobeerd - een Facebook-advertentie of een flyer - maar zonder systeem weet je niet wat werkt en wat niet.",
   },
   {
     title: "Je weet niet wat je moet communiceren",
@@ -54,7 +54,7 @@ const features = [
     icon: Mail,
     title: "E-mail & SMS campagnes",
     description:
-      "Stuur gerichte campagnes naar je klantenlijst. Seizoensaanbiedingen, onderhoudstips of nieuwe diensten — alles automatisch en op het juiste moment.",
+      "Stuur gerichte campagnes naar je klantenlijst. Seizoensaanbiedingen, onderhoudstips of nieuwe diensten - alles automatisch en op het juiste moment.",
   },
   {
     icon: Target,
@@ -66,7 +66,7 @@ const features = [
     icon: Repeat,
     title: "Terugkerende campagnes",
     description:
-      "Stel één keer in, draait elk seizoen. Dakgoot reiniging in het najaar, buitenschilderwerk in het voorjaar — automatische campagnes op het perfecte moment.",
+      "Stel één keer in, draait elk seizoen. Dakgoot reiniging in het najaar, buitenschilderwerk in het voorjaar - automatische campagnes op het perfecte moment.",
   },
   {
     icon: Megaphone,
@@ -112,7 +112,7 @@ const steps = [
     title: "Campagnes bouwen & inplannen",
     duration: "1 week",
     description:
-      "We schrijven de berichten, ontwerpen de e-mails en stellen alles in. Triggers, timing en segmentatie — alles wordt geconfigureerd.",
+      "We schrijven de berichten, ontwerpen de e-mails en stellen alles in. Triggers, timing en segmentatie - alles wordt geconfigureerd.",
   },
   {
     step: "03",
@@ -157,7 +157,7 @@ const MarketingAutomatisering = () => (
       <title>Marketing Automatisering voor Aannemers | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Automatische marketingcampagnes die draaien terwijl jij op de werf staat. E-mail, SMS en social media — zonder tijdsinvestering."
+        content="Automatische marketingcampagnes die draaien terwijl jij op de werf staat. E-mail, SMS en social media - zonder tijdsinvestering."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/marketing-automatisering`} />
       <meta property="og:title" content="Marketing Automatisering voor Aannemers | Aannemer Systeem" />
@@ -184,7 +184,7 @@ const MarketingAutomatisering = () => (
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
           De meeste aannemers weten dat marketing belangrijk is, maar hebben er geen tijd voor.
-          Onze automatische campagnes draaien op de achtergrond en leveren klanten op — zonder dat jij er iets voor hoeft te doen.
+          Onze automatische campagnes draaien op de achtergrond en leveren klanten op - zonder dat jij er iets voor hoeft te doen.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">

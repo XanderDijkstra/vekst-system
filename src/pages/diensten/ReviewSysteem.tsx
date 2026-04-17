@@ -71,7 +71,7 @@ const features = [
     icon: ThumbsUp,
     title: "Reviews op je website",
     description:
-      "Je beste reviews worden automatisch op je website getoond. Bezoekers zien direct sociale bewijskracht — zonder dat jij iets hoeft te doen.",
+      "Je beste reviews worden automatisch op je website getoond. Bezoekers zien direct sociale bewijskracht - zonder dat jij iets hoeft te doen.",
   },
   {
     icon: Shield,
@@ -107,7 +107,7 @@ const steps = [
     title: "Automatisch draaien",
     duration: "doorlopend",
     description:
-      "Vanaf nu stuurt het systeem automatisch review verzoeken na elk project. Je hoeft er niet meer aan te denken — de reviews stromen vanzelf binnen.",
+      "Vanaf nu stuurt het systeem automatisch review verzoeken na elk project. Je hoeft er niet meer aan te denken - de reviews stromen vanzelf binnen.",
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: "Worden reviews automatisch op mijn website getoond?",
     answer:
-      "Ja. Je Google reviews worden automatisch gesynchroniseerd met je website. Nieuwe reviews verschijnen automatisch — zonder handmatig werk.",
+      "Ja. Je Google reviews worden automatisch gesynchroniseerd met je website. Nieuwe reviews verschijnen automatisch - zonder handmatig werk.",
   },
 ];
 
@@ -165,14 +165,14 @@ const ReviewSysteem = () => (
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Laat je werk voor zich spreken — met 5-sterren reviews
+          Laat je werk voor zich spreken - met 5-sterren reviews
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
           Tevreden klanten laten zelden een review achter. Ons systeem stuurt automatisch een verzoek
-          na elk project — zodat je reputatie groeit terwijl jij doorwerkt.
+          na elk project - zodat je reputatie groeit terwijl jij doorwerkt.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">

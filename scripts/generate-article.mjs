@@ -119,9 +119,9 @@ async function main() {
   const prompt = `Je bent een content writer voor AannemerSysteem.com. AannemerSysteem helpt aannemers, ZZP'ers en vakmensen (schilders, loodgieters, dakdekkers, elektriciens, timmerlieden, stukadoors, tegelzetters, metselaars) aan meer klanten via digitale marketing.
 
 Wij leveren:
-1. Professionele websites — snelle, mobiele websites die bezoekers omzetten in aanvragen
-2. Review funnel — automatisch Google-reviews verzamelen van tevreden klanten
-3. Missed Call Text Back — gemiste oproepen automatisch opvolgen met een sms
+1. Professionele websites - snelle, mobiele websites die bezoekers omzetten in aanvragen
+2. Review funnel - automatisch Google-reviews verzamelen van tevreden klanten
+3. Missed Call Text Back - gemiste oproepen automatisch opvolgen met een sms
 
 Wij leveren GEEN bouwsoftware, ERP, calculatie, planning tools, urenregistratie, BIM of projectadministratie.
 

@@ -171,7 +171,7 @@ const MarketingScan = () => {
           </motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
             Vul je website-URL in en krijg binnen 30 seconden een gratis rapport met
-            concrete verbeterpunten — speciaal voor aannemers en bouwbedrijven.
+            concrete verbeterpunten - speciaal voor aannemers en bouwbedrijven.
           </motion.p>
 
           <motion.form
@@ -379,7 +379,7 @@ const MarketingScan = () => {
                   {
                     icon: Search,
                     title: "Vindbaarheid (SEO)",
-                    desc: "Title tag, meta description, h1, canonical URL, structured data — alles wat Google nodig heeft.",
+                    desc: "Title tag, meta description, h1, canonical URL, structured data - alles wat Google nodig heeft.",
                   },
                   {
                     icon: ShieldCheck,
@@ -389,12 +389,12 @@ const MarketingScan = () => {
                   {
                     icon: Eye,
                     title: "Vertrouwen",
-                    desc: "Telefoonnummer, e-mailadres, KVK-nummer, WhatsApp — signalen die bezoekers overtuigen.",
+                    desc: "Telefoonnummer, e-mailadres, KVK-nummer, WhatsApp - signalen die bezoekers overtuigen.",
                   },
                   {
                     icon: MousePointerClick,
                     title: "Conversie",
-                    desc: "Contactformulier, klikbaar telefoonnummer, call-to-action — kan een bezoeker makkelijk actie ondernemen?",
+                    desc: "Contactformulier, klikbaar telefoonnummer, call-to-action - kan een bezoeker makkelijk actie ondernemen?",
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-3">

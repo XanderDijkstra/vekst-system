@@ -109,7 +109,7 @@ const KennisbankOverview = () => (
               <div>
                 <h2 className="font-semibold text-foreground text-lg">Marketing Wiki</h2>
                 <p className="mt-1 text-sm text-muted-foreground leading-relaxed max-w-lg">
-                  SEO, leads, conversie — wat betekent het allemaal? Alle marketing begrippen uitgelegd in gewoon Nederlands.
+                  SEO, leads, conversie - wat betekent het allemaal? Alle marketing begrippen uitgelegd in gewoon Nederlands.
                 </p>
               </div>
             </div>

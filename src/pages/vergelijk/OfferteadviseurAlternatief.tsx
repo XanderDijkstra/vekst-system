@@ -28,7 +28,7 @@ const problems = [
   {
     title: "Je betaalt per aanvraag, niet per opdracht",
     description:
-      "Offerteadviseur rekent per lead die je ontvangt, ongeacht of de klant reageert, reageert met een absurd budget of de klus nooit doorgaat. Je rendement hangt volledig af van de kwaliteit van de leads — en die heb je niet in de hand.",
+      "Offerteadviseur rekent per lead die je ontvangt, ongeacht of de klant reageert, reageert met een absurd budget of de klus nooit doorgaat. Je rendement hangt volledig af van de kwaliteit van de leads - en die heb je niet in de hand.",
   },
   {
     title: "Klanten vergelijken je op prijs, niet op vakmanschap",
@@ -38,12 +38,12 @@ const problems = [
   {
     title: "Je hebt geen eigen online aanwezigheid",
     description:
-      "Alles wat je via Offerteadviseur binnenhaalt, versterkt het platform — niet jouw eigen naam. Potentiële klanten die jou googelen vinden niks, zien geen eigen website en kunnen je niet rechtstreeks benaderen. Stop je morgen, dan is je leadstroom weg.",
+      "Alles wat je via Offerteadviseur binnenhaalt, versterkt het platform - niet jouw eigen naam. Potentiële klanten die jou googelen vinden niks, zien geen eigen website en kunnen je niet rechtstreeks benaderen. Stop je morgen, dan is je leadstroom weg.",
   },
   {
     title: "Offertes vergelijken is een prijzenoorlog",
     description:
-      "Omdat elke lead naar 3–5 aannemers gaat, ontstaat er automatisch een race naar de bodem. Wie het goedkoopste werkt, wint. Dat is funest voor je marges en je professionaliteit — je zit structureel onder je normale tarief.",
+      "Omdat elke lead naar 3–5 aannemers gaat, ontstaat er automatisch een race naar de bodem. Wie het goedkoopste werkt, wint. Dat is funest voor je marges en je professionaliteit - je zit structureel onder je normale tarief.",
   },
 ];
 
@@ -51,7 +51,7 @@ const comparison = [
   {
     aspect: "Kostenmodel",
     offerte: "Per aanvraag betalen, ongeacht resultaat",
-    systeem: "€279/maand vast — onbeperkt leads",
+    systeem: "€279/maand vast - onbeperkt leads",
   },
   {
     aspect: "Kosten per gewonnen klus",
@@ -71,7 +71,7 @@ const comparison = [
   {
     aspect: "Eigen website & merk",
     offerte: "Nee",
-    systeem: "Ja — eigen merk en domein",
+    systeem: "Ja - eigen merk en domein",
   },
   {
     aspect: "Google vindbaarheid",
@@ -99,17 +99,17 @@ const faqs = [
   {
     question: "Is Offerteadviseur hetzelfde als Werkspot?",
     answer:
-      "Offerteadviseur en Werkspot werken volgens hetzelfde principe: de klant vult een aanvraagformulier in en het platform verstuurt die naar meerdere aannemers. De business-modellen verschillen in details (abonnementen, credits, betaal-per-lead), maar het eindresultaat is hetzelfde — jij concurreert op prijs en bouwt geen eigen merk op.",
+      "Offerteadviseur en Werkspot werken volgens hetzelfde principe: de klant vult een aanvraagformulier in en het platform verstuurt die naar meerdere aannemers. De business-modellen verschillen in details (abonnementen, credits, betaal-per-lead), maar het eindresultaat is hetzelfde - jij concurreert op prijs en bouwt geen eigen merk op.",
   },
   {
     question: "Waarom krijg ik vaak slechte leads via Offerteadviseur?",
     answer:
-      "Offerteplatforms zijn ontworpen om zo veel mogelijk aanvragen te verzamelen — niet per se kwalitatieve. Klanten kunnen snel en vrijblijvend een formulier invullen, en veel van die aanvragen zijn tire-kickers, prijs-shoppers of mensen met onrealistische verwachtingen. Een eigen website trekt klanten aan die jou zelf hebben gevonden en al overtuigd zijn van jouw vakmanschap.",
+      "Offerteplatforms zijn ontworpen om zo veel mogelijk aanvragen te verzamelen - niet per se kwalitatieve. Klanten kunnen snel en vrijblijvend een formulier invullen, en veel van die aanvragen zijn tire-kickers, prijs-shoppers of mensen met onrealistische verwachtingen. Een eigen website trekt klanten aan die jou zelf hebben gevonden en al overtuigd zijn van jouw vakmanschap.",
   },
   {
     question: "Wat is rendabeler: Offerteadviseur of een eigen website?",
     answer:
-      "Op de lange termijn is een eigen website vrijwel altijd rendabeler. Bij Offerteadviseur betaal je per aanvraag en die kosten stoppen nooit. Een eigen website kost je een vast bedrag per maand en de leadstroom bouwt zich op tijd op — hoe langer je bestaat, hoe meer leads. Na 6–12 maanden leveren eigen kanalen meestal 2–5x meer klussen op voor hetzelfde budget.",
+      "Op de lange termijn is een eigen website vrijwel altijd rendabeler. Bij Offerteadviseur betaal je per aanvraag en die kosten stoppen nooit. Een eigen website kost je een vast bedrag per maand en de leadstroom bouwt zich op tijd op - hoe langer je bestaat, hoe meer leads. Na 6–12 maanden leveren eigen kanalen meestal 2–5x meer klussen op voor hetzelfde budget.",
   },
   {
     question: "Kan ik beide gebruiken?",
@@ -119,7 +119,7 @@ const faqs = [
   {
     question: "Wat kost Aannemer Systeem precies?",
     answer:
-      "€279 per maand vast — inclusief website, lokale SEO, review automatisering, lead opvolging en gemiste-oproep-terugbelsysteem. Geen opstartkosten, geen lange contracten, maandelijks opzegbaar. Voor dat bedrag krijg je een volledig eigen systeem dat 24/7 voor je werkt.",
+      "€279 per maand vast - inclusief website, lokale SEO, review automatisering, lead opvolging en gemiste-oproep-terugbelsysteem. Geen opstartkosten, geen lange contracten, maandelijks opzegbaar. Voor dat bedrag krijg je een volledig eigen systeem dat 24/7 voor je werkt.",
   },
 ];
 
@@ -155,7 +155,7 @@ const OfferteadviseurAlternatief = () => (
       <title>Offerteadviseur Alternatief: Stop met Prijzenoorlog | Aannemer Systeem</title>
       <meta
         name="description"
-        content="Offerteadviseur zet je tegenover 3–5 andere aannemers in een prijzenoorlog. Een eigen website levert onbeperkte leads voor €279/maand — zonder concurrentie op prijs."
+        content="Offerteadviseur zet je tegenover 3–5 andere aannemers in een prijzenoorlog. Een eigen website levert onbeperkte leads voor €279/maand - zonder concurrentie op prijs."
       />
       <link rel="canonical" href={PAGE_URL} />
       <meta property="og:title" content="Offerteadviseur Alternatief: Stop met Prijzenoorlog" />
@@ -190,7 +190,7 @@ const OfferteadviseurAlternatief = () => (
         >
           Offerteadviseur stuurt dezelfde aanvraag naar 3–5 aannemers tegelijk.
           Je concurreert op prijs, niet op vakmanschap. Lees hoe een eigen
-          website jou eruit haalt als dé keuze — niet als de goedkoopste.
+          website jou eruit haalt als dé keuze - niet als de goedkoopste.
         </motion.p>
         <motion.div
           {...fadeInUp}
@@ -249,7 +249,7 @@ const OfferteadviseurAlternatief = () => (
           {...fadeInUp}
           className="mt-4 text-center text-lg text-muted-foreground max-w-2xl mx-auto"
         >
-          Niet gekleurd — gewoon naast elkaar gezet.
+          Niet gekleurd - gewoon naast elkaar gezet.
         </motion.p>
         <motion.div
           {...fadeInUp}
@@ -291,18 +291,18 @@ const OfferteadviseurAlternatief = () => (
         <motion.div {...fadeInUp} className="mt-8 space-y-5 text-lg text-muted-foreground leading-relaxed">
           <p>
             Offerteplatforms verkopen jouw lead aan meerdere aannemers tegelijk.
-            Dat is precies waarom je op prijs moet concurreren — de klant ziet
+            Dat is precies waarom je op prijs moet concurreren - de klant ziet
             drie vergelijkbare offertes en kiest de goedkoopste.
           </p>
           <p>
             Een eigen website draait die dynamiek om. De klant heeft jou gevonden
-            via Google, jouw site gelezen, jouw reviews gezien — en belt
+            via Google, jouw site gelezen, jouw reviews gezien - en belt
             vervolgens alleen jou. Er is geen directe concurrentie meer, geen
             vergelijking met drie anderen. Je bent al gekozen voordat het
             gesprek begint.
           </p>
           <p>
-            Dat betekent dat je je normale tarief kunt rekenen — of zelfs hoger —
+            Dat betekent dat je je normale tarief kunt rekenen - of zelfs hoger -
             omdat vakmanschap, professionaliteit en reviews meetellen in plaats
             van alleen de prijs.
           </p>

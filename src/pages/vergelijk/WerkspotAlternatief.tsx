@@ -33,7 +33,7 @@ const problems = [
   {
     title: "Je concurreert met 3–5 andere aannemers op prijs",
     description:
-      "Zodra een klant een aanvraag doet, wordt die naar meerdere aannemers tegelijk gestuurd. De klant vergelijkt vervolgens alleen op prijs. Jouw vakmanschap, reviews en kwaliteit tellen nauwelijks — wie het goedkoopste is, wint.",
+      "Zodra een klant een aanvraag doet, wordt die naar meerdere aannemers tegelijk gestuurd. De klant vergelijkt vervolgens alleen op prijs. Jouw vakmanschap, reviews en kwaliteit tellen nauwelijks - wie het goedkoopste is, wint.",
   },
   {
     title: "Je bouwt geen eigen klantenbestand of merk op",
@@ -43,7 +43,7 @@ const problems = [
   {
     title: "De reviews op Werkspot helpen jouw Google-positie niet",
     description:
-      "Reviews op Werkspot blijven op Werkspot. Ze verschijnen niet in Google zoekresultaten en helpen niet met je lokale vindbaarheid. Google Mijn Bedrijf en Google reviews zijn waar klanten écht kijken — en dat bouw je met Werkspot niet op.",
+      "Reviews op Werkspot blijven op Werkspot. Ze verschijnen niet in Google zoekresultaten en helpen niet met je lokale vindbaarheid. Google Mijn Bedrijf en Google reviews zijn waar klanten écht kijken - en dat bouw je met Werkspot niet op.",
   },
 ];
 
@@ -56,7 +56,7 @@ const comparison = [
   {
     aspect: "Kosten per lead",
     werkspot: "€20–€80 per lead, ook bij geen opdracht",
-    systeem: "€0 — onbeperkte leads via eigen website",
+    systeem: "€0 - onbeperkte leads via eigen website",
   },
   {
     aspect: "Concurrentie per aanvraag",
@@ -65,8 +65,8 @@ const comparison = [
   },
   {
     aspect: "Eigen website",
-    werkspot: "Nee — je staat op het platform",
-    systeem: "Ja — eigen merk en domein",
+    werkspot: "Nee - je staat op het platform",
+    systeem: "Ja - eigen merk en domein",
   },
   {
     aspect: "Google vindbaarheid",
@@ -85,7 +85,7 @@ const comparison = [
   },
   {
     aspect: "Terugkerende klanten",
-    werkspot: "Moeilijk — via Werkspot heen werken",
+    werkspot: "Moeilijk - via Werkspot heen werken",
     systeem: "Klanten vinden je direct terug",
   },
   {
@@ -129,32 +129,32 @@ const faqs = [
   {
     question: "Is Werkspot helemaal niet nuttig?",
     answer:
-      "Werkspot kan nuttig zijn als je net begint en nog geen klantenstroom hebt. Het probleem ontstaat wanneer je er afhankelijk van blijft. Je betaalt per lead, concurreert op prijs en bouwt geen eigen merk op. De meeste aannemers zijn beter af met een eigen website die ze 24/7 klanten oplevert — en Werkspot eventueel als extra bijverdienste.",
+      "Werkspot kan nuttig zijn als je net begint en nog geen klantenstroom hebt. Het probleem ontstaat wanneer je er afhankelijk van blijft. Je betaalt per lead, concurreert op prijs en bouwt geen eigen merk op. De meeste aannemers zijn beter af met een eigen website die ze 24/7 klanten oplevert - en Werkspot eventueel als extra bijverdienste.",
   },
   {
     question: "Wat is het verschil met een 'gewoon' marketingbureau?",
     answer:
-      "Een traditioneel marketingbureau rekent €1.500–€4.000 per maand plus opstartkosten, en levert meestal alleen een website of SEO. Aannemer Systeem is een compleet pakket: website, lokale SEO, review automatisering, lead opvolging én gemiste-oproep-terugbelsysteem — voor €279 per maand, zonder opstartkosten.",
+      "Een traditioneel marketingbureau rekent €1.500–€4.000 per maand plus opstartkosten, en levert meestal alleen een website of SEO. Aannemer Systeem is een compleet pakket: website, lokale SEO, review automatisering, lead opvolging én gemiste-oproep-terugbelsysteem - voor €279 per maand, zonder opstartkosten.",
   },
   {
     question: "Wat als ik al een website heb?",
     answer:
-      "Dat is geen probleem. In een gratis gesprek kijken we of je bestaande site een upgrade nodig heeft of dat we beter helemaal opnieuw beginnen. Veel aannemers ontdekken dat hun huidige site visueel wel oké is, maar technisch en qua SEO onderpresteert — waardoor Google ze nauwelijks laat zien.",
+      "Dat is geen probleem. In een gratis gesprek kijken we of je bestaande site een upgrade nodig heeft of dat we beter helemaal opnieuw beginnen. Veel aannemers ontdekken dat hun huidige site visueel wel oké is, maar technisch en qua SEO onderpresteert - waardoor Google ze nauwelijks laat zien.",
   },
   {
     question: "Hoe snel krijg ik leads via mijn eigen website?",
     answer:
-      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken al eerste resultaten op. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden significant meer aanvragen via hun eigen website dan ze via Werkspot kregen — en zonder leadkosten.",
+      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken al eerste resultaten op. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden significant meer aanvragen via hun eigen website dan ze via Werkspot kregen - en zonder leadkosten.",
   },
   {
     question: "Kan ik Werkspot blijven gebruiken naast Aannemer Systeem?",
     answer:
-      "Ja, absoluut. Veel klanten gebruiken Werkspot nog als extra kanaal terwijl hun eigen website groeit. Het verschil is dat je dan niet meer afhankelijk bent van één platform — en je Werkspot-kosten kunnen verlagen zodra je eigen leads binnenstromen.",
+      "Ja, absoluut. Veel klanten gebruiken Werkspot nog als extra kanaal terwijl hun eigen website groeit. Het verschil is dat je dan niet meer afhankelijk bent van één platform - en je Werkspot-kosten kunnen verlagen zodra je eigen leads binnenstromen.",
   },
   {
     question: "Wat als ik niet tevreden ben?",
     answer:
-      "Aannemer Systeem heeft geen lange contracten. Je betaalt maandelijks en kunt altijd opzeggen. De website blijft van jou — we vergrendelen je niet in een technisch contract zoals veel bureaus doen.",
+      "Aannemer Systeem heeft geen lange contracten. Je betaalt maandelijks en kunt altijd opzeggen. De website blijft van jou - we vergrendelen je niet in een technisch contract zoals veel bureaus doen.",
   },
 ];
 
@@ -225,7 +225,7 @@ const WerkspotAlternatief = () => (
         >
           Werkspot rekent €20–€80 per lead, jaagt je in prijs-concurrentie met 3–5
           andere aannemers en bouwt geen eigen merk op. Lees waarom een eigen
-          website bijna altijd meer oplevert — en wat het verschil is.
+          website bijna altijd meer oplevert - en wat het verschil is.
         </motion.p>
         <motion.div
           {...fadeInUp}
@@ -390,12 +390,12 @@ const WerkspotAlternatief = () => (
           <p>
             Het probleem ontstaat wanneer Werkspot je enige bron van leads is.
             Dan ben je 100% afhankelijk van een platform waar je geen controle
-            over hebt — en waar de prijzen per lead jaarlijks stijgen.
+            over hebt - en waar de prijzen per lead jaarlijks stijgen.
           </p>
           <p>
             De slimste aannemers gebruiken Werkspot als extraatje, terwijl ze hun
             eigen website, Google Mijn Bedrijf en reviews opbouwen. Na 3–6 maanden
-            komt het grootste deel van hun leads via hun eigen kanaal — gratis —
+            komt het grootste deel van hun leads via hun eigen kanaal - gratis -
             en is Werkspot gewoon "leuke bijkomstigheid" geworden.
           </p>
         </motion.div>

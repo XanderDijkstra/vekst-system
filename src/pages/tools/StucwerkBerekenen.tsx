@@ -37,7 +37,7 @@ const faqs = [
   { q: "Hoeveel kg stuc heb ik nodig per m²?", a: "Dat hangt af van het type en de laagdikte. Gipspleister: ~5 kg/m² bij 5 mm dikte. Kalkcement: ~18 kg/m² bij 10 mm. Sierpleister: ~3 kg/m² bij 2 mm. De calculator berekent het automatisch op basis van je gekozen type en dikte." },
   { q: "Hoeveel lagen stuc moet ik aanbrengen?", a: "Gipspleister: meestal 1 laag (5-8 mm). Kalkcement: 2-3 lagen (spuitlaag + ruw + glad). Sierpleister: 1 laag over een gladde ondergrond. Bij grote oneffenheden eerst een egalisatielaag aanbrengen." },
   { q: "Moet ik een primer gebruiken voor het stucen?", a: "Ja, altijd. Primer verbetert de hechting en reguleert het zuiggedrag van de ondergrond. Sterk zuigende materialen (gasbeton, gipsblokken) hebben soms twee lagen primer nodig. Reken op ~0,125 liter per m²." },
-  { q: "Kan ik over bestaand stucwerk heen stucen?", a: "Ja, mits het bestaande stuc stevig vastzit, niet poedert en geen holle plekken heeft. Klop de muur af met je knokkels — een holle klank betekent loslating. Verwijder loslatend stuc en grond de muur voor je begint." },
+  { q: "Kan ik over bestaand stucwerk heen stucen?", a: "Ja, mits het bestaande stuc stevig vastzit, niet poedert en geen holle plekken heeft. Klop de muur af met je knokkels - een holle klank betekent loslating. Verwijder loslatend stuc en grond de muur voor je begint." },
   { q: "Hoe lang moet stucwerk drogen?", a: "Gipspleister: 1-2 dagen droogtijd per mm dikte. Kalkcement: 1 dag per mm. Een laag van 10 mm kalkcement heeft dus ~10 dagen nodig voor volledige droging. Versneld drogen (verwarming) veroorzaakt scheuren." },
 ];
 
@@ -79,8 +79,8 @@ const StucwerkBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Stucwerk berekenen — hoeveel kg stuc en primer | Aannemer Systeem</title>
-        <meta name="description" content="Bereken hoeveel kg stuc, zakken pleister en primer je nodig hebt. Kies stuctype, vul de m² en laagdikte in — direct resultaat." />
+        <title>Stucwerk berekenen - hoeveel kg stuc en primer | Aannemer Systeem</title>
+        <meta name="description" content="Bereken hoeveel kg stuc, zakken pleister en primer je nodig hebt. Kies stuctype, vul de m² en laagdikte in - direct resultaat." />
         <link rel="canonical" href={PAGE} />
         <meta property="og:title" content="Stucwerk berekenen | Aannemer Systeem" />
         <meta property="og:description" content="Bereken hoeveel kg stuc en primer je nodig hebt." />
@@ -97,7 +97,7 @@ const StucwerkBerekenen = () => {
           </motion.div>
           <motion.h1 {...fadeInUp} className="mt-4 text-4xl md:text-5xl font-bold tracking-tight">Stucwerk berekenen</motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-            Bereken hoeveel kg stuc, zakken pleister en primer je nodig hebt — kies stuctype, vul je m² en laagdikte in.
+            Bereken hoeveel kg stuc, zakken pleister en primer je nodig hebt - kies stuctype, vul je m² en laagdikte in.
           </motion.p>
         </div>
       </section>
@@ -123,7 +123,7 @@ const StucwerkBerekenen = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <CalcResultCard variant="hero" label="Totaal stuc" value={`${nI.format(r.totaalKg)} kg`} caption={`${r.zakken} zakken van ${st.zakKg} kg — ${n1.format(r.kgPerM2)} kg/m² bij ${dikte} mm`} icon={<Package className="h-5 w-5" />} />
+            <CalcResultCard variant="hero" label="Totaal stuc" value={`${nI.format(r.totaalKg)} kg`} caption={`${r.zakken} zakken van ${st.zakKg} kg - ${n1.format(r.kgPerM2)} kg/m² bij ${dikte} mm`} icon={<Package className="h-5 w-5" />} />
             <CalcResultCard label="Primer" value={`${n1.format(r.primerL)} liter`} caption={`${r.primerEmmers} ${r.primerEmmers === 1 ? "emmer" : "emmers"} van ${PRIMER_EMMER_L} liter`} icon={<Droplets className="h-5 w-5" />} />
           </div>
 
@@ -159,7 +159,7 @@ const StucwerkBerekenen = () => {
               Het verbruik hangt af van het <strong>stuctype</strong> en de <strong>laagdikte</strong>. Elke stucsoort heeft een eigen dichtheid (kg per m² per mm). De calculator vermenigvuldigt dit met je oppervlakte en telt speling op voor morsverlies.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld — woonkamer 30 m², gipspleister 5 mm:</p>
+              <p className="font-semibold">Voorbeeld - woonkamer 30 m², gipspleister 5 mm:</p>
               <p>Verbruik: 1,0 kg/m²/mm × 5 mm = <strong>5,0 kg/m²</strong></p>
               <p>Met 10% speling: 30 × 1,10 = <strong>33 m²</strong></p>
               <p>Totaal: 33 × 5,0 = <strong>165 kg → 7 zakken</strong></p>

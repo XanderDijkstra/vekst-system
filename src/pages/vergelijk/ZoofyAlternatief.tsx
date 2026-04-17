@@ -33,7 +33,7 @@ const problems = [
   {
     title: "Platform bepaalt je tarief en planning",
     description:
-      "Zoofy bepaalt de prijs, koppelt klussen aan je agenda en neemt een commissie. Je bent in feite een onderaannemer van het platform — niet een onafhankelijk bedrijf. Naarmate Zoofy groeit, groeien hun commissies mee en dalen jouw marges.",
+      "Zoofy bepaalt de prijs, koppelt klussen aan je agenda en neemt een commissie. Je bent in feite een onderaannemer van het platform - niet een onafhankelijk bedrijf. Naarmate Zoofy groeit, groeien hun commissies mee en dalen jouw marges.",
   },
   {
     title: "Geen eigen merk of klantrelatie",
@@ -51,7 +51,7 @@ const comparison = [
   { aspect: "Kosten", zoofy: "Commissie per klus (15-30%)", systeem: "€279/maand vast" },
   { aspect: "Prijsbepaling", zoofy: "Platform bepaalt de prijs", systeem: "Jij bepaalt je eigen tarieven" },
   { aspect: "Type klussen", zoofy: "Voornamelijk kleine klusjes (€75–€200)", systeem: "Alle projectgroottes via eigen leads" },
-  { aspect: "Eigen website", zoofy: "Nee — je staat op het platform", systeem: "Ja — eigen merk en domein" },
+  { aspect: "Eigen website", zoofy: "Nee - je staat op het platform", systeem: "Ja - eigen merk en domein" },
   { aspect: "Google vindbaarheid", zoofy: "Geen impact op je positie", systeem: "Volledig geoptimaliseerd voor lokale SEO" },
   { aspect: "Google reviews", zoofy: "Reviews op Zoofy, niet op Google", systeem: "Automatische Google reviews na elke klus" },
   { aspect: "Klantrelatie", zoofy: "Klant boekt via Zoofy", systeem: "Klant belt en boekt bij jou" },
@@ -94,17 +94,17 @@ const faqs = [
   {
     question: "Hoeveel commissie neemt Zoofy?",
     answer:
-      "Zoofy neemt een commissie van 15-30% per klus, afhankelijk van het type werk en je profiel. Bij een klusje van €150 houd je dus €105–€127 over. Bij Aannemer Systeem betaal je €279 per maand vast en houd je 100% van je omzet — zonder commissie per klus.",
+      "Zoofy neemt een commissie van 15-30% per klus, afhankelijk van het type werk en je profiel. Bij een klusje van €150 houd je dus €105–€127 over. Bij Aannemer Systeem betaal je €279 per maand vast en houd je 100% van je omzet - zonder commissie per klus.",
   },
   {
     question: "Wat als ik nu vooral kleine klussen doe?",
     answer:
-      "Kleine klussen zijn een prima startpunt, maar je wilt doorgroeien. Met een eigen website trek je niet alleen de kleine klusjes aan, maar ook de grotere projecten: badkamerrenovaties, keukeninstallaties, verbouwingen. Eén groter project van €3.000 levert meer op dan twintig Zoofy-klusjes — met minder rijtijd en overhead.",
+      "Kleine klussen zijn een prima startpunt, maar je wilt doorgroeien. Met een eigen website trek je niet alleen de kleine klusjes aan, maar ook de grotere projecten: badkamerrenovaties, keukeninstallaties, verbouwingen. Eén groter project van €3.000 levert meer op dan twintig Zoofy-klusjes - met minder rijtijd en overhead.",
   },
   {
     question: "Hoe snel krijg ik leads via mijn eigen website?",
     answer:
-      "Google Mijn Bedrijf optimalisaties leveren vaak binnen weken al eerste resultaten. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste vakmannen zien binnen 3 maanden een stabiele stroom eigen leads via Google — zonder commissie af te dragen.",
+      "Google Mijn Bedrijf optimalisaties leveren vaak binnen weken al eerste resultaten. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste vakmannen zien binnen 3 maanden een stabiele stroom eigen leads via Google - zonder commissie af te dragen.",
   },
   {
     question: "Kan ik Zoofy gebruiken naast een eigen website?",
@@ -112,9 +112,9 @@ const faqs = [
       "Ja. Veel vakmannen gebruiken Zoofy voor de kleine vulklussen terwijl hun eigen website grotere projecten aantrekt. Het verschil is dat je niet meer afhankelijk bent van één platform en je grotere, winstgevendere projecten via je eigen kanaal binnenhaalt.",
   },
   {
-    question: "Ik ben net begonnen als zzp'er — wat is de beste start?",
+    question: "Ik ben net begonnen als zzp'er - wat is de beste start?",
     answer:
-      "Als starter kun je Zoofy gebruiken om snel aan de slag te gaan en ervaring op te doen. Maar investeer tegelijkertijd in je eigen website en Google-profiel. Binnen 3–6 maanden heb je een eigen klantenstroom en kun je kiezen welke klussen je aanneemt — in plaats van te wachten op wat het platform je toewijst.",
+      "Als starter kun je Zoofy gebruiken om snel aan de slag te gaan en ervaring op te doen. Maar investeer tegelijkertijd in je eigen website en Google-profiel. Binnen 3–6 maanden heb je een eigen klantenstroom en kun je kiezen welke klussen je aanneemt - in plaats van te wachten op wat het platform je toewijst.",
   },
 ];
 

@@ -54,11 +54,11 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Moet ik ramen en deuren van de oppervlakte aftrekken?",
-    a: "Ja. Een standaard binnendeur is ~1,6 m², een raam verschilt maar meet gemiddeld 1–2 m². Trek de totale raam- en deuroppervlakte af van je wandoppervlakte. Doe je dit niet, dan bestel je ~10–15% te veel — niet dramatisch, maar onnodig.",
+    a: "Ja. Een standaard binnendeur is ~1,6 m², een raam verschilt maar meet gemiddeld 1–2 m². Trek de totale raam- en deuroppervlakte af van je wandoppervlakte. Doe je dit niet, dan bestel je ~10–15% te veel - niet dramatisch, maar onnodig.",
   },
   {
     q: "Wat is het verschil tussen latex en acrylaat?",
-    a: "Beide zijn watergedragen muurverven. Acrylaat is iets slijtvaster en vochbestendiger — geschikt voor keukens, badkamers en drukke gangen. Latex is goedkoper en prima voor slaapkamers en woonkamers. Qua dekking zit er weinig verschil: 9–10 m² per liter.",
+    a: "Beide zijn watergedragen muurverven. Acrylaat is iets slijtvaster en vochbestendiger - geschikt voor keukens, badkamers en drukke gangen. Latex is goedkoper en prima voor slaapkamers en woonkamers. Qua dekking zit er weinig verschil: 9–10 m² per liter.",
   },
   {
     q: "Hoeveel kost het om een kamer te laten schilderen?",
@@ -75,10 +75,10 @@ const faqs: { q: string; a: string }[] = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Verf berekenen — hoeveel verf heb ik nodig?",
+  name: "Verf berekenen - hoeveel verf heb ik nodig?",
   url: PAGE_URL,
   description:
-    "Gratis verfcalculator. Bereken hoeveel liter verf en hoeveel blikken je nodig hebt. Kies verftype, vul m² in — klaar.",
+    "Gratis verfcalculator. Bereken hoeveel liter verf en hoeveel blikken je nodig hebt. Kies verftype, vul m² in - klaar.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
@@ -139,13 +139,13 @@ const VerfBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Verf berekenen — hoeveel verf heb ik nodig? | Aannemer Systeem</title>
+        <title>Verf berekenen - hoeveel verf heb ik nodig? | Aannemer Systeem</title>
         <meta
           name="description"
           content="Gratis verfcalculator: bereken hoeveel liter verf en blikken je nodig hebt. Kies verftype, vul je oppervlakte in en bestel precies genoeg."
         />
         <link rel="canonical" href={PAGE_URL} />
-        <meta property="og:title" content="Verf berekenen — hoeveel verf heb ik nodig?" />
+        <meta property="og:title" content="Verf berekenen - hoeveel verf heb ik nodig?" />
         <meta property="og:description" content="Bereken in 10 seconden hoeveel verf je nodig hebt. Gratis, geen registratie." />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:type" content="website" />
@@ -171,7 +171,7 @@ const VerfBerekenen = () => {
           </motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
             Kies je verftype, vul de oppervlakte en het aantal lagen in. De calculator geeft
-            je het exacte aantal liters en blikken — geen giswerk, geen tekort halverwege.
+            je het exacte aantal liters en blikken - geen giswerk, geen tekort halverwege.
           </motion.p>
         </div>
       </section>
@@ -348,7 +348,7 @@ const VerfBerekenen = () => {
           </motion.h2>
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: "Altijd grondverf op nieuw stucwerk", text: "Nieuw stucwerk zuigt verf op als een spons. Zonder grondverf heb je 3–4 lagen nodig in plaats van 2. Grondverf is goedkoper — en bespaart uiteindelijk verf." },
+              { title: "Altijd grondverf op nieuw stucwerk", text: "Nieuw stucwerk zuigt verf op als een spons. Zonder grondverf heb je 3–4 lagen nodig in plaats van 2. Grondverf is goedkoper - en bespaart uiteindelijk verf." },
               { title: "Roer voor gebruik, niet schudden", text: "Schudden creëert luchtbellen die als kratertjes drogen. Roer langzaam met een verfstok of een mixer op lage snelheid." },
               { title: "Snijd bij met een kwast, rol het vlak", text: "Gebruik een kwast voor randen, hoeken en kozijnen (bijsnijden). Doe daarna het grote vlak met een roller. Werk nat-in-nat: snijd een wand bij en rol direct daarna, zodat er geen droogrand ontstaat." },
               { title: "Koop alles uit één batch", text: "Net als bij tegels: kleurverschillen tussen batches zijn subtiel maar zichtbaar bij groot licht. Koop al je blikken tegelijk en check het batchnummer." },

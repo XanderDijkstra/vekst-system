@@ -9,7 +9,7 @@ export const TEGELZETTERS_DATA: TradeData = {
   metaDescription: "Tegelzetter website laten maken? Professionele website met projectfoto's, reviews en lokale SEO. Meer klanten zonder via platforms te concurreren op prijs.",
   hero: {
     badge: "Speciaal voor Tegelzetters",
-    headline: "Meer Klanten voor Jouw Tegelzetbedrijf — Zonder Marketing Gedoe",
+    headline: "Meer Klanten voor Jouw Tegelzetbedrijf - Zonder Marketing Gedoe",
     subheadline: "Wij bouwen het complete online systeem zodat huiseigenaren jou vinden, vertrouwen en bellen. Jij legt de tegels. Wij regelen de rest.",
     stats: [
       { value: "87%", label: "van klanten zoekt online naar een tegelzetter" },
@@ -22,13 +22,13 @@ export const TEGELZETTERS_DATA: TradeData = {
     items: [
       { title: "Afhankelijk van mond-tot-mond en aannemers", description: "Je krijgt werk via vaste aannemers of via via, maar zodra één opdrachtgever wegvalt, merk je direct dat je eigen stroom aan klanten ontbreekt. Zonder online zichtbaarheid ben je overgeleverd aan andermans agenda." },
       { title: "Concurrentie op prijs via platforms", description: "Op Werkspot en vergelijkbare platformen sta je naast tientallen tegelzetters die elkaar overbieden op de laagste prijs. Klanten vergelijken alleen op kosten en zien niet wat jouw vakmanschap waard is." },
-      { title: "Geen visueel bewijs van je vakmanschap", description: "Tegelwerk is een visueel vak — een strak betegelde badkamer of een perfect gelegde vloer spreekt boekdelen. Maar zonder professionele foto's en een sterke online presentatie ziet niemand het verschil tussen jou en de concurrent." },
+      { title: "Geen visueel bewijs van je vakmanschap", description: "Tegelwerk is een visueel vak - een strak betegelde badkamer of een perfect gelegde vloer spreekt boekdelen. Maar zonder professionele foto's en een sterke online presentatie ziet niemand het verschil tussen jou en de concurrent." },
       { title: "Leads die niet converteren", description: "Mensen bellen voor een 'prijsje' zonder te weten wat goed tegelwerk kost. Je besteedt uren aan offertes voor klanten die uiteindelijk kiezen voor de goedkoopste optie. Zonder vooraf opgebouwd vertrouwen trek je de verkeerde klanten aan." },
     ],
   },
   solution: {
     sectionTitle: "Hoe wij tegelzetters laten groeien",
-    intro: "Ons systeem is specifiek ingericht voor tegelzetbedrijven. Geen generieke template — maar een aanpak die jouw tegelwerk laat zien, in jouw regio, aan de juiste klant.",
+    intro: "Ons systeem is specifiek ingericht voor tegelzetbedrijven. Geen generieke template - maar een aanpak die jouw tegelwerk laat zien, in jouw regio, aan de juiste klant.",
     items: [
       { title: "Een website die jouw tegelwerk laat spreken", description: "Een professionele website met aparte pagina's per specialisme: badkamertegels, keukentegels, vloertegels, wandtegels, mozaïek en natuursteen. Elke pagina bevat voor/na-foto's en is geoptimaliseerd op lokale zoekopdrachten zoals 'tegelzetter [jouw stad]' of 'badkamer betegelen'.", keywords: ["badkamertegels", "vloertegels", "wandtegels", "mozaïek", "natuursteen", "tegelzetter"] },
       { title: "Lokale SEO die jou bovenaan Google zet", description: "Wij optimaliseren je Google Mijn Bedrijf profiel volledig: categorieën, diensten, werkgebied, foto's van afgerond tegelwerk en een gekoppelde website. Daarnaast schrijven wij pagina's die scoren op zoekopdrachten als 'tegelzetter in de buurt' of 'badkamer laten betegelen'.", keywords: ["google mijn bedrijf", "lokale seo", "tegelzetter in de buurt", "vindbaarheid"] },
@@ -48,7 +48,7 @@ export const TEGELZETTERS_DATA: TradeData = {
   comparison: {
     sectionTitle: "Waarom niet gewoon Werkspot of een duur bureau?",
     rows: [
-      { aspect: "Kosten per lead", werkspot: "€20–€60 per lead, ongeacht kwaliteit", bureau: "€750–€2.500/maand + opstartkosten", groeisysteem: "€279/maand vast — onbeperkte leads" },
+      { aspect: "Kosten per lead", werkspot: "€20–€60 per lead, ongeacht kwaliteit", bureau: "€750–€2.500/maand + opstartkosten", groeisysteem: "€279/maand vast - onbeperkte leads" },
       { aspect: "Eigenaarschap website", werkspot: "Geen eigen website", bureau: "Vaak vastgezet in contract", groeisysteem: "Jouw website, altijd in jouw beheer" },
       { aspect: "Reviews automatisering", werkspot: "Reviews alleen op het platform", bureau: "Zelden inbegrepen", groeisysteem: "Volledig automatisch na elk project" },
       { aspect: "Lokale SEO", werkspot: "Je concurreert met tientallen tegelzetters op het platform", bureau: "Vaak apart geprijsd", groeisysteem: "Inbegrepen en specifiek ingericht voor tegelzetters" },
@@ -69,7 +69,7 @@ export const TEGELZETTERS_DATA: TradeData = {
     { question: "Hoe onderscheid ik mij van goedkopere tegelzetters?", answer: "Voor/na-foto's bewijzen je vakmanschap beter dan woorden. Reviews op Google laten zien dat eerdere klanten tevreden zijn. Een professionele website geeft vertrouwen en toont je specialisatie. Klanten die kwaliteit willen, zoeken dit bewijs online." },
     { question: "Wat is het verschil met Werkspot?", answer: "Op Werkspot sta je naast tien andere tegelzetters en vergelijkt de klant op prijs. Met Aannemer Systeem bouw je een eigen online aanwezigheid: klanten vinden jou via Google, bekijken je portfolio, lezen je reviews en bellen jou rechtstreeks." },
     { question: "Kan ik mijn bestaande portfolio meenemen?", answer: "Absoluut. Wij verwerken je bestaande foto's van badkamers, keukens en vloerprojecten in je nieuwe website. Heb je nog geen professionele foto's? Wij adviseren je hoe je met je telefoon al sterke voor/na-beelden maakt." },
-    { question: "Hoe snel zie ik resultaat?", answer: "Google Mijn Bedrijf reageert snel op optimalisaties — verbeteringen zijn vaak al binnen weken zichtbaar. Organische zoekresultaten bouwen over 2 tot 4 maanden op. Tegelzetters bereiken gemiddeld pagina 1 binnen 3 maanden." },
+    { question: "Hoe snel zie ik resultaat?", answer: "Google Mijn Bedrijf reageert snel op optimalisaties - verbeteringen zijn vaak al binnen weken zichtbaar. Organische zoekresultaten bouwen over 2 tot 4 maanden op. Tegelzetters bereiken gemiddeld pagina 1 binnen 3 maanden." },
   ],
   relatedTrades: [
     { label: "Badkamerrenovatie", slug: "badkamerrenovatie" },

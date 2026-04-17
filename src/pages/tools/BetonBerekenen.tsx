@@ -40,7 +40,7 @@ interface BetonType {
 
 const BETON_TYPES: BetonType[] = [
   {
-    label: "C20/25 — standaard",
+    label: "C20/25 - standaard",
     desc: "Funderingen, vloeren, opritten",
     cementKg: 300,
     zandKg: 700,
@@ -48,7 +48,7 @@ const BETON_TYPES: BetonType[] = [
     waterL: 150,
   },
   {
-    label: "C12/15 — mager beton",
+    label: "C12/15 - mager beton",
     desc: "Onderlagen, vullingen, niet-dragend",
     cementKg: 200,
     zandKg: 800,
@@ -56,7 +56,7 @@ const BETON_TYPES: BetonType[] = [
     waterL: 160,
   },
   {
-    label: "C30/37 — constructief",
+    label: "C30/37 - constructief",
     desc: "Dragende muren, kolommen, balkons",
     cementKg: 350,
     zandKg: 650,
@@ -64,7 +64,7 @@ const BETON_TYPES: BetonType[] = [
     waterL: 155,
   },
   {
-    label: "C35/45 — zwaar belast",
+    label: "C35/45 - zwaar belast",
     desc: "Kelders, waterdicht, industrievloeren",
     cementKg: 400,
     zandKg: 600,
@@ -101,7 +101,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "Welke verhouding cement-zand-grind moet ik gebruiken?",
-    a: "De klassieke verhouding voor standaardbeton is 1:2:3 (cement:zand:grind op gewicht). In de praktijk varieert dit per sterkteklasse. De calculator gebruikt de juiste verhoudingen per betontype — je hoeft zelf niet te rekenen.",
+    a: "De klassieke verhouding voor standaardbeton is 1:2:3 (cement:zand:grind op gewicht). In de praktijk varieert dit per sterkteklasse. De calculator gebruikt de juiste verhoudingen per betontype - je hoeft zelf niet te rekenen.",
   },
 ];
 
@@ -111,7 +111,7 @@ const pageSchema = {
   "@graph": [
     {
       "@type": "WebPage",
-      name: "Beton berekenen — hoeveel cement, zand en grind per m³ | Aannemer Systeem",
+      name: "Beton berekenen - hoeveel cement, zand en grind per m³ | Aannemer Systeem",
       url: PAGE_URL,
       description:
         "Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand en grind je moet bestellen. Gratis calculator voor aannemers.",
@@ -183,10 +183,10 @@ const BetonBerekenen = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Beton berekenen — hoeveel cement, zand en grind | Aannemer Systeem</title>
+        <title>Beton berekenen - hoeveel cement, zand en grind | Aannemer Systeem</title>
         <meta
           name="description"
-          content="Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand en grind je moet bestellen. Kies betontype, vul afmetingen in — direct resultaat."
+          content="Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand en grind je moet bestellen. Kies betontype, vul afmetingen in - direct resultaat."
         />
         <link rel="canonical" href={PAGE_URL} />
         <meta property="og:title" content="Beton berekenen | Gratis calculator | Aannemer Systeem" />
@@ -219,7 +219,7 @@ const BetonBerekenen = () => {
             className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
             Bereken hoeveel m³ beton je nodig hebt en hoeveel zakken cement, zand
-            en grind je moet bestellen — inclusief speling voor morsverlies.
+            en grind je moet bestellen - inclusief speling voor morsverlies.
           </motion.p>
         </div>
       </section>
@@ -350,13 +350,13 @@ const BetonBerekenen = () => {
                   <tr>
                     <td className="py-3 font-medium text-foreground">Water</td>
                     <td className="py-3 text-right tabular-nums">{numInt.format(result.waterL)} liter</td>
-                    <td className="py-3 text-right text-muted-foreground">—</td>
+                    <td className="py-3 text-right text-muted-foreground">-</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="mt-4 text-xs text-muted-foreground">
-              💡 Meer dan 1 m³ nodig? Overweeg stortklaar beton van een betoncentrale — vaak voordeliger en sneller.
+              💡 Meer dan 1 m³ nodig? Overweeg stortklaar beton van een betoncentrale - vaak voordeliger en sneller.
             </p>
           </motion.div>
 
@@ -372,7 +372,7 @@ const BetonBerekenen = () => {
               en grind berekend.
             </p>
             <div className="bg-muted rounded-xl p-5 text-sm text-foreground leading-relaxed space-y-2">
-              <p className="font-semibold">Voorbeeld — oprit 5 × 3 m, 15 cm dik (C20/25):</p>
+              <p className="font-semibold">Voorbeeld - oprit 5 × 3 m, 15 cm dik (C20/25):</p>
               <p>Netto volume: 5 × 3 × 0,15 = <strong>2,25 m³</strong></p>
               <p>Met 10% speling: 2,25 × 1,10 = <strong>2,48 m³</strong></p>
               <p>Cement: 2,48 × 300 = <strong>743 kg → 30 zakken</strong></p>
@@ -389,24 +389,24 @@ const BetonBerekenen = () => {
             </h2>
             <ol className="list-decimal list-inside space-y-3 text-muted-foreground leading-relaxed">
               <li>
-                <strong className="text-foreground">Bereid de ondergrond goed voor</strong> — verdicht
+                <strong className="text-foreground">Bereid de ondergrond goed voor</strong> - verdicht
                 de grond en leg eventueel een laag mager beton als ondervloer. Slechte ondergrond
                 leidt tot scheuren.
               </li>
               <li>
-                <strong className="text-foreground">Gebruik de juiste water-cementfactor</strong> — te
+                <strong className="text-foreground">Gebruik de juiste water-cementfactor</strong> - te
                 veel water maakt het beton zwakker. Houd de mix klam maar niet nat.
               </li>
               <li>
-                <strong className="text-foreground">Stort in één keer</strong> — werknaden zijn
+                <strong className="text-foreground">Stort in één keer</strong> - werknaden zijn
                 zwakke plekken. Plan zo dat je de hele plaat in één sessie kunt storten.
               </li>
               <li>
-                <strong className="text-foreground">Trillen of stampen</strong> — verwijder
+                <strong className="text-foreground">Trillen of stampen</strong> - verwijder
                 luchtbellen door het verse beton te trillen met een betontrilnaald of af te stampen.
               </li>
               <li>
-                <strong className="text-foreground">Nabehandelen</strong> — houd het beton de eerste
+                <strong className="text-foreground">Nabehandelen</strong> - houd het beton de eerste
                 dagen vochtig (afdekken met folie of nat houden). Te snel drogen veroorzaakt
                 krimpscheuren.
               </li>
