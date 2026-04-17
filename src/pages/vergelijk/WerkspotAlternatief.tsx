@@ -21,157 +21,157 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 import CtaSection from "@/components/home/CtaSection";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/vergelijk/werkspot-alternatief`;
 
 const problems = [
   {
-    title: "Je betaalt €20–€80 per lead, ongeacht of je de klus krijgt",
+    title: "Du betaler 150–800 kr per lead, uansett om du får jobben",
     description:
-      "Werkspot rekent een vast bedrag per lead, ook als de klant niet reageert, de klus niet doorgaat of drie andere aannemers ook hebben gereageerd. Veel aannemers betalen €200–€500 per maand aan leads zonder zeker te weten wat ze ervoor terugkrijgen.",
+      "Mittanbud tar et fast kreditt-beløp per lead du kjøper, også når kunden ikke svarer, jobben faller bort eller 3-4 andre håndverkere har meldt seg på samme oppdrag. Mange håndverkere bruker 3 000-6 000 kr i måneden på leads uten å vite sikkert hva de får igjen.",
   },
   {
-    title: "Je concurreert met 3–5 andere aannemers op prijs",
+    title: "Du konkurrerer med 3–5 andre håndverkere på pris",
     description:
-      "Zodra een klant een aanvraag doet, wordt die naar meerdere aannemers tegelijk gestuurd. De klant vergelijkt vervolgens alleen op prijs. Jouw vakmanschap, reviews en kwaliteit tellen nauwelijks - wie het goedkoopste is, wint.",
+      "Så snart en kunde legger ut en forespørsel, sendes den til flere håndverkere samtidig. Kunden sammenligner etterpå mest på pris. Fagkunnskapen din, anmeldelsene og kvaliteten teller knapt - den billigste vinner.",
   },
   {
-    title: "Je bouwt geen eigen klantenbestand of merk op",
+    title: "Du bygger ikke opp egen kundebase eller merkevare",
     description:
-      "Alle klanten die via Werkspot komen, blijven 'Werkspot klanten'. Stop je met het platform, dan stopt ook je leadstroom. Je bouwt geen naamsbekendheid op, geen reviews op je eigen website en geen terugkerende klanten via Google.",
+      "Kundene som kommer via Mittanbud forblir \"Mittanbud-kunder\". Slutter du på plattformen, stopper også leadstrømmen. Du bygger ingen navngjenkjennelse, ingen anmeldelser på din egen nettside og ingen faste kunder via Google.",
   },
   {
-    title: "De reviews op Werkspot helpen jouw Google-positie niet",
+    title: "Anmeldelser på Mittanbud løfter ikke Google-posisjonen din",
     description:
-      "Reviews op Werkspot blijven op Werkspot. Ze verschijnen niet in Google zoekresultaten en helpen niet met je lokale vindbaarheid. Google Mijn Bedrijf en Google reviews zijn waar klanten écht kijken - en dat bouw je met Werkspot niet op.",
+      "Anmeldelser på Mittanbud forblir på Mittanbud. De dukker ikke opp i Google-søk og hjelper ikke den lokale synligheten din. Google Bedriftsprofil og Google-anmeldelser er der kundene faktisk leser seg opp - og det bygger du ikke med Mittanbud.",
   },
 ];
 
 const comparison = [
   {
-    aspect: "Kosten per maand",
-    werkspot: "€200–€800/maand (variabel, betaal per lead)",
-    systeem: "€279/maand vast",
+    aspect: "Kostnad per måned",
+    werkspot: "3 000-6 000 kr/mnd (variabelt, betal per lead)",
+    systeem: "2 990 kr/mnd fast",
   },
   {
-    aspect: "Kosten per lead",
-    werkspot: "€20–€80 per lead, ook bij geen opdracht",
-    systeem: "€0 - onbeperkte leads via eigen website",
+    aspect: "Kostnad per lead",
+    werkspot: "150-800 kr per lead, også uten oppdrag",
+    systeem: "0 kr - ubegrensede leads via egen nettside",
   },
   {
-    aspect: "Concurrentie per aanvraag",
-    werkspot: "3–5 andere aannemers zien dezelfde lead",
-    systeem: "Klant belt rechtstreeks jou",
+    aspect: "Konkurrenter per forespørsel",
+    werkspot: "3–5 andre håndverkere ser samme lead",
+    systeem: "Kunden ringer deg direkte",
   },
   {
-    aspect: "Eigen website",
-    werkspot: "Nee - je staat op het platform",
-    systeem: "Ja - eigen merk en domein",
+    aspect: "Egen nettside",
+    werkspot: "Nei - du står på plattformen",
+    systeem: "Ja - egen merkevare og domene",
   },
   {
-    aspect: "Google vindbaarheid",
-    werkspot: "Geen impact",
-    systeem: "Volledig geoptimaliseerd voor lokale SEO",
+    aspect: "Google-synlighet",
+    werkspot: "Ingen effekt",
+    systeem: "Fullt optimalisert for lokal SEO",
   },
   {
-    aspect: "Google reviews",
-    werkspot: "Reviews blijven op Werkspot",
-    systeem: "Automatische Google reviews na elke klus",
+    aspect: "Google-anmeldelser",
+    werkspot: "Anmeldelser forblir på Mittanbud",
+    systeem: "Automatiske Google-anmeldelser etter hver jobb",
   },
   {
-    aspect: "Klantrelatie",
-    werkspot: "Werkspot is de tussenpersoon",
-    systeem: "Directe relatie met klant",
+    aspect: "Kunderelasjon",
+    werkspot: "Mittanbud er mellommannen",
+    systeem: "Direkte kontakt med kunden",
   },
   {
-    aspect: "Terugkerende klanten",
-    werkspot: "Moeilijk - via Werkspot heen werken",
-    systeem: "Klanten vinden je direct terug",
+    aspect: "Gjentagende kunder",
+    werkspot: "Vanskelig - må gå via Mittanbud",
+    systeem: "Kundene finner deg igjen direkte",
   },
   {
-    aspect: "Afhankelijkheid",
-    werkspot: "100% afhankelijk van platform",
-    systeem: "Eigen systeem, altijd in beheer",
+    aspect: "Avhengighet",
+    werkspot: "100 % avhengig av plattformen",
+    systeem: "Eget system, alltid i din kontroll",
   },
   {
-    aspect: "Opzettijd",
-    werkspot: "Direct",
-    systeem: "Live binnen 7 dagen",
+    aspect: "Oppstartstid",
+    werkspot: "Umiddelbart",
+    systeem: "Live innen 7 dager",
   },
 ];
 
 const caseMath = [
   {
-    label: "Werkspot scenario",
+    label: "Mittanbud-scenario",
     items: [
-      { k: "Leads per maand", v: "10" },
-      { k: "Kosten per lead", v: "€45" },
-      { k: "Conversie naar opdracht", v: "20%" },
-      { k: "Aantal klussen per maand", v: "2" },
-      { k: "Kosten per gewonnen klus", v: "€225" },
-      { k: "Maandkosten totaal", v: "€450" },
+      { k: "Leads per måned", v: "10" },
+      { k: "Kostnad per lead", v: "500 kr" },
+      { k: "Konvertering til oppdrag", v: "20 %" },
+      { k: "Antall jobber per måned", v: "2" },
+      { k: "Kostnad per vunnet jobb", v: "2 500 kr" },
+      { k: "Månedskostnad totalt", v: "5 000 kr" },
     ],
   },
   {
-    label: "Aannemer Systeem scenario",
+    label: "Vekst Systemet-scenario",
     items: [
-      { k: "Leads per maand (via Google)", v: "15–25" },
-      { k: "Kosten per lead", v: "€0 (onbeperkt)" },
-      { k: "Conversie naar opdracht", v: "35% (direct contact)" },
-      { k: "Aantal klussen per maand", v: "5–8" },
-      { k: "Kosten per gewonnen klus", v: "€35–€55" },
-      { k: "Maandkosten totaal", v: "€279" },
+      { k: "Leads per måned (via Google)", v: "15–25" },
+      { k: "Kostnad per lead", v: "0 kr (ubegrenset)" },
+      { k: "Konvertering til oppdrag", v: "35 % (direkte kontakt)" },
+      { k: "Antall jobber per måned", v: "5–8" },
+      { k: "Kostnad per vunnet jobb", v: "400-600 kr" },
+      { k: "Månedskostnad totalt", v: "2 990 kr" },
     ],
   },
 ];
 
 const faqs = [
   {
-    question: "Is Werkspot helemaal niet nuttig?",
+    question: "Er Mittanbud helt uten nytte?",
     answer:
-      "Werkspot kan nuttig zijn als je net begint en nog geen klantenstroom hebt. Het probleem ontstaat wanneer je er afhankelijk van blijft. Je betaalt per lead, concurreert op prijs en bouwt geen eigen merk op. De meeste aannemers zijn beter af met een eigen website die ze 24/7 klanten oplevert - en Werkspot eventueel als extra bijverdienste.",
+      "Mittanbud kan være nyttig hvis du akkurat har startet og ikke har noen egen kundestrøm. Problemet oppstår når du blir avhengig av plattformen. Du betaler per lead, konkurrerer på pris og bygger ingen egen merkevare. De fleste håndverkere kommer bedre ut med en egen nettside som gir kunder døgnet rundt - og eventuelt Mittanbud som en ekstra bi-kanal.",
   },
   {
-    question: "Wat is het verschil met een 'gewoon' marketingbureau?",
+    question: "Hva er forskjellen på Vekst Systemet og et vanlig markedsføringsbyrå?",
     answer:
-      "Een traditioneel marketingbureau rekent €1.500–€4.000 per maand plus opstartkosten, en levert meestal alleen een website of SEO. Aannemer Systeem is een compleet pakket: website, lokale SEO, review automatisering, lead opvolging én gemiste-oproep-terugbelsysteem - voor €279 per maand, zonder opstartkosten.",
+      "Et tradisjonelt markedsføringsbyrå tar 15 000-40 000 kr per måned pluss oppstartskostnader, og leverer som regel bare en nettside eller SEO. Vekst Systemet er en komplett pakke: nettside, lokal SEO, anmeldelsesautomatisering, lead-oppfølging og SMS-system for tapte anrop - til 2 990 kr per måned, uten oppstartskostnader.",
   },
   {
-    question: "Wat als ik al een website heb?",
+    question: "Hva om jeg allerede har en nettside?",
     answer:
-      "Dat is geen probleem. In een gratis gesprek kijken we of je bestaande site een upgrade nodig heeft of dat we beter helemaal opnieuw beginnen. Veel aannemers ontdekken dat hun huidige site visueel wel oké is, maar technisch en qua SEO onderpresteert - waardoor Google ze nauwelijks laat zien.",
+      "Det er ikke noe problem. I en gratis samtale ser vi på om nettsiden din trenger en oppgradering eller om det er bedre å bygge helt på nytt. Mange håndverkere oppdager at siden deres ser helt ok ut visuelt, men underpresterer teknisk og på SEO - slik at Google knapt viser dem fram.",
   },
   {
-    question: "Hoe snel krijg ik leads via mijn eigen website?",
+    question: "Hvor fort får jeg leads via min egen nettside?",
     answer:
-      "Google Mijn Bedrijf optimalisaties leveren vaak binnen enkele weken al eerste resultaten op. Organische zoekresultaten bouwen over 2–4 maanden op. De meeste aannemers zien binnen 3 maanden significant meer aanvragen via hun eigen website dan ze via Werkspot kregen - en zonder leadkosten.",
+      "Google Bedriftsprofil-optimaliseringer gir ofte første resultater på noen uker. Organiske søkeresultater bygger seg opp over 2-4 måneder. De fleste håndverkere ser innen 3 måneder vesentlig flere forespørsler via sin egen nettside enn de fikk via Mittanbud - uten lead-kostnader.",
   },
   {
-    question: "Kan ik Werkspot blijven gebruiken naast Aannemer Systeem?",
+    question: "Kan jeg bruke Mittanbud i tillegg til Vekst Systemet?",
     answer:
-      "Ja, absoluut. Veel klanten gebruiken Werkspot nog als extra kanaal terwijl hun eigen website groeit. Het verschil is dat je dan niet meer afhankelijk bent van één platform - en je Werkspot-kosten kunnen verlagen zodra je eigen leads binnenstromen.",
+      "Ja, absolutt. Mange kunder bruker fortsatt Mittanbud som en ekstra kanal mens den egne nettsiden vokser. Forskjellen er at du da ikke lenger er avhengig av én plattform - og du kan redusere Mittanbud-forbruket etter hvert som dine egne leads begynner å strømme inn.",
   },
   {
-    question: "Wat als ik niet tevreden ben?",
+    question: "Hva om jeg ikke er fornøyd?",
     answer:
-      "Aannemer Systeem heeft geen lange contracten. Je betaalt maandelijks en kunt altijd opzeggen. De website blijft van jou - we vergrendelen je niet in een technisch contract zoals veel bureaus doen.",
+      "Vekst Systemet har ingen lange kontrakter. Du betaler månedlig og kan si opp når som helst. Nettsiden er din - vi låser deg ikke inn i en teknisk avtale slik mange byråer gjør.",
   },
 ];
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Werkspot Alternatief: Stop met Betalen per Lead | Aannemer Systeem",
+  name: "Mittanbud-alternativ: Slutt å betale per lead | Vekst Systemet",
   url: PAGE_URL,
   description:
-    "Werkspot kost €20–€80 per lead en je concurreert met 3–5 andere aannemers. Een eigen website levert onbeperkte leads voor €279/maand. Vergelijk hier.",
-  inLanguage: "nl-NL",
+    "Mittanbud koster 150-800 kr per lead og du konkurrerer med 3-5 andre håndverkere. En egen nettside gir ubegrensede leads for 2 990 kr/mnd. Sammenlign her.",
+  inLanguage: "nb-NO",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Vergelijkingen", item: `${SITE_URL}/vergelijk` },
-      { "@type": "ListItem", position: 3, name: "Werkspot alternatief", item: PAGE_URL },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Sammenligninger", item: `${SITE_URL}/vergelijk` },
+      { "@type": "ListItem", position: 3, name: "Mittanbud-alternativ", item: PAGE_URL },
     ],
   },
   mainEntity: {
@@ -187,20 +187,20 @@ const schema = {
 const WerkspotAlternatief = () => (
   <PageShell>
     <Helmet>
-      <title>Werkspot Alternatief: Stop met Betalen per Lead | Aannemer Systeem</title>
+      <title>Mittanbud-alternativ: Slutt å betale per lead | Vekst Systemet</title>
       <meta
         name="description"
-        content="Werkspot kost €20–€80 per lead en je concurreert met 3–5 andere aannemers. Een eigen website levert onbeperkte leads voor €279/maand. Vergelijk hier."
+        content="Mittanbud koster 150-800 kr per lead og du konkurrerer med 3-5 andre håndverkere. En egen nettside gir ubegrensede leads for 2 990 kr/mnd. Sammenlign her."
       />
       <link rel="canonical" href={PAGE_URL} />
-      <meta property="og:title" content="Werkspot Alternatief: Stop met Betalen per Lead" />
+      <meta property="og:title" content="Mittanbud-alternativ: Slutt å betale per lead" />
       <meta
         property="og:description"
-        content="Werkspot kost €20–€80 per lead. Een eigen website levert onbeperkte leads voor €279/maand."
+        content="Mittanbud koster 150-800 kr per lead. En egen nettside gir ubegrensede leads for 2 990 kr/mnd."
       />
       <meta property="og:url" content={PAGE_URL} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
     </Helmet>
 
@@ -211,21 +211,21 @@ const WerkspotAlternatief = () => (
           {...fadeInUp}
           className="mb-4 inline-block rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-accent-foreground"
         >
-          Vergelijking
+          Sammenligning
         </motion.span>
         <motion.h1
           {...fadeInUp}
           className="mt-4 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary-foreground"
         >
-          Werkspot Alternatief: Stop met Betalen per Lead
+          Mittanbud-alternativ: Slutt å betale per lead
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mx-auto mt-6 max-w-2xl text-lg md:text-xl text-primary-foreground/75 leading-relaxed"
         >
-          Werkspot rekent €20–€80 per lead, jaagt je in prijs-concurrentie met 3–5
-          andere aannemers en bouwt geen eigen merk op. Lees waarom een eigen
-          website bijna altijd meer oplevert - en wat het verschil is.
+          Mittanbud tar 150-800 kr per lead, jager deg inn i priskonkurranse med
+          3-5 andre håndverkere og bygger ingen egen merkevare. Les hvorfor en
+          egen nettside nesten alltid gir mer tilbake - og hva forskjellen er.
         </motion.p>
         <motion.div
           {...fadeInUp}
@@ -233,24 +233,24 @@ const WerkspotAlternatief = () => (
         >
           <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
             <Link to="/demo">
-              Boek een gratis gesprek <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill en gratis samtale <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
           <Button asChild variant="link" className="text-primary-foreground/80 hover:text-primary-foreground">
-            <Link to="/prijzen">Bekijk onze prijzen →</Link>
+            <Link to="/prijzen">Se prisene våre →</Link>
           </Button>
         </motion.div>
       </div>
     </section>
 
-    {/* Problems with Werkspot */}
+    {/* Problems with Mittanbud */}
     <section className="py-20 md:py-28 bg-background">
       <div className="container max-w-4xl">
         <motion.h2
           {...fadeInUp}
           className="text-3xl md:text-4xl font-bold tracking-tight text-foreground"
         >
-          De 4 problemen met Werkspot die niemand vertelt
+          De 4 problemene med Mittanbud ingen snakker om
         </motion.h2>
         <div className="mt-10 grid gap-5 sm:grid-cols-2">
           {problems.map((p, i) => (
@@ -278,13 +278,13 @@ const WerkspotAlternatief = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-bold tracking-tight text-foreground text-center"
         >
-          Werkspot vs Eigen Website (Aannemer Systeem)
+          Mittanbud vs egen nettside (Vekst Systemet)
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-center text-lg text-muted-foreground max-w-2xl mx-auto"
         >
-          Een eerlijke, puntgewijze vergelijking. Geen marketingpraatjes.
+          En ærlig, punkt-for-punkt-sammenligning. Ingen salgspitch.
         </motion.p>
         <motion.div
           {...fadeInUp}
@@ -294,8 +294,8 @@ const WerkspotAlternatief = () => (
             <TableHeader>
               <TableRow>
                 <TableHead className="w-1/3"></TableHead>
-                <TableHead>Werkspot</TableHead>
-                <TableHead className="text-accent font-semibold">Aannemer Systeem</TableHead>
+                <TableHead>Mittanbud</TableHead>
+                <TableHead className="text-accent font-semibold">Vekst Systemet</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -321,13 +321,13 @@ const WerkspotAlternatief = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-bold tracking-tight text-foreground text-center"
         >
-          De echte wiskunde voor een typische aannemer
+          Det faktiske regnestykket for en typisk håndverker
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-center text-lg text-muted-foreground max-w-2xl mx-auto"
         >
-          Zelfde vakman, twee kanalen. Kijk wat elke euro oplevert.
+          Samme håndverker, to kanaler. Se hva hver krone gir tilbake.
         </motion.p>
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {caseMath.map((scenario, i) => (
@@ -366,37 +366,37 @@ const WerkspotAlternatief = () => (
           ))}
         </div>
         <motion.p {...fadeInUp} className="mt-8 text-center text-sm text-muted-foreground max-w-2xl mx-auto">
-          Cijfers gebaseerd op gemiddelde resultaten bij Nederlandse aannemers in de
-          eerste 6 maanden na implementatie. Individuele resultaten variëren.
+          Tallene baseres på gjennomsnittlige resultater hos norske håndverkere i de første
+          6 månedene etter implementering. Individuelle resultater varierer.
         </motion.p>
       </div>
     </section>
 
-    {/* When Werkspot is still useful */}
+    {/* When Mittanbud is still useful */}
     <section className="py-20 md:py-28 bg-secondary">
       <div className="container max-w-3xl">
         <motion.h2
           {...fadeInUp}
           className="text-3xl md:text-4xl font-bold tracking-tight text-foreground"
         >
-          Wanneer is Werkspot dan wél handig?
+          Når er Mittanbud likevel nyttig?
         </motion.h2>
         <motion.div {...fadeInUp} className="mt-8 space-y-5 text-lg text-muted-foreground leading-relaxed">
           <p>
-            We zijn eerlijk: Werkspot heeft bestaansrecht. Als je net begint,
-            nog geen klantenstroom hebt en snel aan de bak wilt, kan het platform
-            een nuttige aanvulling zijn op je bestaande kanalen.
+            Vi er ærlige: Mittanbud har sin berettigelse. Hvis du akkurat har
+            startet, ennå ikke har en egen kundestrøm og trenger å komme raskt i
+            gang, kan plattformen være et nyttig supplement til de andre kanalene dine.
           </p>
           <p>
-            Het probleem ontstaat wanneer Werkspot je enige bron van leads is.
-            Dan ben je 100% afhankelijk van een platform waar je geen controle
-            over hebt - en waar de prijzen per lead jaarlijks stijgen.
+            Problemet oppstår når Mittanbud er din eneste kilde til leads. Da er
+            du 100 % avhengig av en plattform du ikke kontrollerer - og der
+            prisene per lead stiger hvert år.
           </p>
           <p>
-            De slimste aannemers gebruiken Werkspot als extraatje, terwijl ze hun
-            eigen website, Google Mijn Bedrijf en reviews opbouwen. Na 3–6 maanden
-            komt het grootste deel van hun leads via hun eigen kanaal - gratis -
-            en is Werkspot gewoon "leuke bijkomstigheid" geworden.
+            De smarteste håndverkerne bruker Mittanbud som et tillegg mens de
+            bygger sin egen nettside, Google Bedriftsprofil og anmeldelser. Etter
+            3-6 måneder kommer mesteparten av leadsene deres via egen kanal -
+            gratis - og Mittanbud blir bare en "hyggelig bonus".
           </p>
         </motion.div>
         <motion.div {...fadeInUp} className="mt-10 grid gap-3 sm:grid-cols-2">
@@ -404,20 +404,20 @@ const WerkspotAlternatief = () => (
             <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-accent/10 text-accent">
               <Check className="h-4 w-4" />
             </div>
-            <p className="font-semibold text-foreground">Werkspot werkt als:</p>
+            <p className="font-semibold text-foreground">Mittanbud fungerer når:</p>
             <p className="mt-2 text-sm text-muted-foreground">
-              Je net begint, je capaciteit hebt en het als extra kanaal naast
-              eigen marketing ziet.
+              Du akkurat har startet, har kapasitet og ser det som et ekstra
+              kanal ved siden av egen markedsføring.
             </p>
           </div>
           <div className="rounded-2xl bg-card border border-border p-6">
             <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-destructive/10 text-destructive">
               <X className="h-4 w-4" />
             </div>
-            <p className="font-semibold text-foreground">Werkspot werkt niet als:</p>
+            <p className="font-semibold text-foreground">Mittanbud fungerer ikke når:</p>
             <p className="mt-2 text-sm text-muted-foreground">
-              Het je enige bron van klanten is, of je geen eigen merk opbouwt
-              naast het platform.
+              Det er din eneste kundekilde, eller du ikke bygger egen merkevare
+              ved siden av plattformen.
             </p>
           </div>
         </motion.div>
@@ -431,7 +431,7 @@ const WerkspotAlternatief = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-bold tracking-tight text-foreground"
         >
-          Veelgestelde vragen over Werkspot alternatieven
+          Ofte stilte spørsmål om Mittanbud-alternativer
         </motion.h2>
         <motion.div {...fadeInUp} className="mt-10">
           <Accordion type="single" collapsible className="space-y-3">
@@ -454,21 +454,18 @@ const WerkspotAlternatief = () => (
       </div>
     </section>
 
-    {/* Related comparison */}
+    {/* Related links */}
     <section className="py-12 bg-card">
       <div className="container max-w-4xl text-center">
         <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
-          Ook interessant
+          Også interessant
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/vergelijk/homedeal-alternatief">Homedeal alternatief</Link>
+            <Link to="/prijzen">Se prisene våre</Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/vergelijk/instapro-alternatief">Instapro alternatief</Link>
-          </Button>
-          <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/vergelijk/lokale-leads-genereren">Alle kanalen vergelijken <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            <Link to="/contact">Ta kontakt <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
         </div>
       </div>
