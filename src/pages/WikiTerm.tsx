@@ -7,8 +7,7 @@ import { fadeInUp } from "@/lib/animations";
 import { ArrowLeft, ArrowRight, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WikiLinkedText from "@/components/WikiLinkedText";
-
-const SITE_URL = "https://aannemersysteem.com";
+import { SITE_URL, SITE_NAME, OG_IMAGE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 const WikiTerm = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -62,6 +61,13 @@ const WikiTerm = () => {
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="nl_NL" />
+        <meta property="og:site_name" content={SITE_NAME} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={TWITTER_HANDLE} />
+        <meta name="twitter:title" content={`${term.term} — uitgelegd voor aannemers`} />
+        <meta name="twitter:description" content={term.shortDescription} />
+        <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 

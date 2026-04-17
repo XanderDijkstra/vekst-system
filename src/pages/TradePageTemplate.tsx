@@ -22,12 +22,11 @@ import PageShell from "@/components/PageShell";
 import type { TradeData } from "@/data/tradePages";
 import { SERVICE_PAGES } from "@/data/servicePages";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
+import { SITE_URL, SITE_NAME, OG_IMAGE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 interface TradePageTemplateProps {
   data: TradeData;
 }
-
-const SITE_URL = "https://aannemersysteem.com";
 
 // Trades where the online-marketing article uses a different slug than the trade slug.
 const TRADE_TO_ARTICLE_SLUG: Record<string, string> = {
@@ -105,6 +104,13 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
+        <meta property="og:site_name" content={SITE_NAME} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={TWITTER_HANDLE} />
+        <meta name="twitter:title" content={d.metaTitle} />
+        <meta name="twitter:description" content={d.metaDescription} />
+        <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

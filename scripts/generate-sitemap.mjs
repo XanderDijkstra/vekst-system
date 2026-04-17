@@ -116,8 +116,10 @@ const TOOLS_PAGES = [
 
 // ---------- Build ----------
 
+const TODAY = new Date().toISOString().slice(0, 10);
+
 function urlEntry(loc, priority, changefreq) {
-  return `  <url><loc>${SITE_URL}${loc}</loc><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
+  return `  <url><loc>${SITE_URL}${loc}</loc><lastmod>${TODAY}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
 }
 
 function build() {

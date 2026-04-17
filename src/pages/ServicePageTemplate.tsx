@@ -13,12 +13,11 @@ import {
 import PageShell from "@/components/PageShell";
 import type { ServicePageData } from "@/data/servicePages";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
+import { SITE_URL, SITE_NAME, OG_IMAGE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 interface Props {
   data: ServicePageData;
 }
-
-const SITE_URL = "https://aannemersysteem.com";
 
 // Service pages link via `trade` slug to their matching online-marketing article.
 // Handles slug mismatches between trade-data and kennisbank article slugs.
@@ -103,6 +102,13 @@ const ServicePageTemplate = ({ data: d }: Props) => {
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nl_NL" />
+        <meta property="og:site_name" content={SITE_NAME} />
+        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={TWITTER_HANDLE} />
+        <meta name="twitter:title" content={d.metaTitle} />
+        <meta name="twitter:description" content={d.metaDescription} />
+        <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>

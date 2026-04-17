@@ -8,8 +8,7 @@ import { Clock, ArrowLeft, ArrowRight, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WikiLinkedText from "@/components/WikiLinkedText";
 import authorImg from "@/assets/xander-dijkstra.png";
-
-const SITE_URL = "https://aannemersysteem.com";
+import { SITE_URL, SITE_NAME, OG_IMAGE_URL, TWITTER_HANDLE } from "@/lib/seo";
 
 const KennisbankArticle = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -44,13 +43,18 @@ const KennisbankArticle = () => {
     headline: article.title,
     description: article.description,
     url: canonicalUrl,
+    datePublished: article.date,
+    dateModified: article.date,
     wordCount,
     articleSection: article.category,
     inLanguage: "nl",
+    image: OG_IMAGE_URL,
+    author: { "@type": "Person", name: "Xander Dijkstra" },
     publisher: {
       "@type": "Organization",
-      name: "Aannemer Systeem",
+      name: SITE_NAME,
       url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
     breadcrumb: {
@@ -69,11 +73,21 @@ const KennisbankArticle = () => {
         <title>{article.title} | Kennisbank | Aannemer Systeem</title>
         <meta name="description" content={article.description} />
         <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:site_name" content={SITE_NAME} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.description} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="nl_NL" />
+        <meta property="og:image" content={OG_IMAGE_URL} />
+        <meta property="article:published_time" content={article.date} />
+        <meta property="article:author" content="Xander Dijkstra" />
+        <meta property="article:section" content={article.category} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content={TWITTER_HANDLE} />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.description} />
+        <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
