@@ -5,48 +5,48 @@ import { Link } from "react-router-dom";
 import { Check, ArrowRight, X } from "lucide-react";
 import { motion } from "framer-motion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const features = [
-  "Functionele website (10–20 pagina's)",
-  "Automatische lead follow-up",
-  "Gemiste oproep → SMS",
-  "5-sterren review funnel",
-  "One-click marketing campagnes",
-  "All-in-one inbox",
+  "Funksjonell nettside (10–20 sider)",
+  "Automatisk lead-oppfølging",
+  "Tapt anrop → SMS",
+  "5-stjerners anmeldelsesfunnel",
+  "One-click markedsføringskampanjer",
+  "Alt-i-én innboks",
   "On-site SEO",
-  "Hosting & onderhoud inbegrepen",
+  "Hosting & vedlikehold inkludert",
 ];
 
 const PrijzenPage = () => (
   <PageShell>
     <Helmet>
-      <title>Prijzen | Aannemer Systeem</title>
+      <title>Priser | Vekst Systemet</title>
       <meta
         name="description"
-        content="Eén helder tarief, alles inbegrepen. Website, automatisering en marketing voor €279 per maand. Geen verborgen kosten."
+        content="Én tydelig pris, alt inkludert. Nettside, automatisering og markedsføring for 2 990 kr per måned. Ingen skjulte kostnader."
       />
       <link rel="canonical" href={`${SITE_URL}/prijzen`} />
-      <meta property="og:title" content="Prijzen | Aannemer Systeem" />
+      <meta property="og:title" content="Priser | Vekst Systemet" />
       <meta
         property="og:description"
-        content="Eén helder tarief, alles inbegrepen. Website, automatisering en marketing voor €279 per maand."
+        content="Én tydelig pris, alt inkludert. Nettside, automatisering og markedsføring for 2 990 kr per måned."
       />
       <meta property="og:url" content={`${SITE_URL}/prijzen`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Product",
-          name: "Aannemer Systeem – Compleet Pakket",
+          name: "Vekst Systemet – Komplett pakke",
           description:
-            "Website, automatisering en marketing voor aannemers in één maandelijks abonnement.",
-          brand: { "@type": "Brand", name: "Aannemer Systeem" },
+            "Nettside, automatisering og markedsføring for håndverkere i ett månedlig abonnement.",
+          brand: { "@type": "Brand", name: "Vekst Systemet" },
           offers: {
             "@type": "Offer",
-            price: "279",
-            priceCurrency: "EUR",
+            price: "2990",
+            priceCurrency: "NOK",
             priceValidUntil: "2027-12-31",
             availability: "https://schema.org/InStock",
             url: `${SITE_URL}/prijzen`,
@@ -67,7 +67,7 @@ const PrijzenPage = () => (
               transition={{ duration: 0.5 }}
               className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
             >
-              Prijzen
+              Priser
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 16 }}
@@ -75,7 +75,7 @@ const PrijzenPage = () => (
               transition={{ duration: 0.6, delay: 0.05 }}
               className="text-4xl md:text-5xl font-bold tracking-tight text-foreground"
             >
-              Eén helder tarief. Alles inbegrepen.
+              Én tydelig pris. Alt inkludert.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -83,8 +83,8 @@ const PrijzenPage = () => (
               transition={{ duration: 0.6, delay: 0.12 }}
               className="mt-4 text-lg text-muted-foreground leading-relaxed max-w-xl"
             >
-              Geen verborgen kosten, geen losse modules. Je krijgt het complete
-              digitale systeem voor jouw aannemersbedrijf.
+              Ingen skjulte kostnader, ingen løse moduler. Du får hele det
+              digitale systemet for håndverkerbedriften din.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 16 }}
@@ -92,10 +92,10 @@ const PrijzenPage = () => (
               transition={{ duration: 0.6, delay: 0.18 }}
               className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl"
             >
-              Een professionele website, automatische lead opvolging, gemiste
-              oproepen die direct worden afgevangen en een slimme review funnel
-              - alles draait vanaf dag één. Jij focust op het werk op de werf,
-              wij zorgen dat de klussen blijven binnenkomen.
+              En profesjonell nettside, automatisk lead-oppfølging, tapte anrop
+              som fanges opp umiddelbart og en smart anmeldelsesfunnel - alt
+              kjører fra dag én. Du fokuserer på arbeidet på byggeplassen, vi
+              sørger for at jobbene fortsetter å komme inn.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 12 }}
@@ -107,7 +107,7 @@ const PrijzenPage = () => (
                 to="/configurator"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline underline-offset-4 transition-colors"
               >
-                Stel je eigen pakket samen met onze configurator
+                Sett sammen din egen pakke med konfiguratoren vår
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </motion.div>
@@ -124,12 +124,12 @@ const PrijzenPage = () => (
               {/* Header */}
               <div className="px-8 pt-10 pb-8 text-center">
                 <span className="inline-block text-xs font-bold uppercase tracking-widest text-primary bg-primary-foreground/90 rounded-full px-4 py-1.5 mb-5">
-                  Meest gekozen
+                  Mest valgte
                 </span>
-                <h2 className="text-2xl font-bold">Compleet Pakket</h2>
+                <h2 className="text-2xl font-bold">Komplett pakke</h2>
                 <p className="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight leading-none">
-                  €279
-                  <span className="text-lg font-medium opacity-80">/maand</span>
+                  2 990 kr
+                  <span className="text-lg font-medium opacity-80">/måned</span>
                 </p>
               </div>
 
@@ -154,7 +154,7 @@ const PrijzenPage = () => (
                   className="w-full rounded-xl bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-bold text-base h-12"
                 >
                   <Link to="/demo">
-                    Boek een gesprek
+                    Bestill en samtale
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
@@ -176,18 +176,18 @@ const PrijzenPage = () => (
           className="text-center mb-12"
         >
           <span className="inline-block text-xs font-bold uppercase tracking-widest text-accent border border-accent/30 rounded-full px-4 py-1.5 mb-5">
-            Vergelijking
+            Sammenligning
           </span>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">
-            Waarom Aannemer Systeem?
+            Hvorfor Vekst Systemet?
           </h2>
           <p className="mt-3 text-muted-foreground max-w-lg mx-auto">
-            Een 'mooie' website is tegenwoordig niet meer genoeg. Je hebt een digitaal fundament nodig dat je tijd bespaart en daadwerkelijk nieuwe klussen oplevert.
+            En "pen" nettside er ikke nok lenger. Du trenger et digitalt fundament som sparer deg tid og faktisk gir nye jobber.
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-[1fr_auto_1fr] gap-6 md:gap-4 items-center">
-          {/* Gewone webbouwers */}
+          {/* Vanlige nettbyråer */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -196,14 +196,14 @@ const PrijzenPage = () => (
             className="rounded-2xl bg-card border border-border p-8 shadow-system-card h-full"
           >
             <h3 className="text-sm font-bold uppercase tracking-widest text-foreground mb-6">
-              Gewone webbouwers
+              Vanlige nettbyråer
             </h3>
             <div className="space-y-5">
               {[
-                "Vraagt direct €3.000+ vooraf voor een simpele site",
-                "Levert een statisch 'online visitekaartje' af",
-                "Jij moet zelf alle teksten bedenken en aanleveren",
-                "Doet helemaal niets als jij op de steiger een telefoontje mist",
+                "Krever 30 000+ kr på forhånd for en enkel side",
+                "Leverer et statisk \"digitalt visittkort\"",
+                "Du må selv skrive og sende inn alle tekstene",
+                "Gjør ingenting når du står på stillaset og mister et anrop",
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <div className="mt-0.5 flex-shrink-0 h-7 w-7 rounded-full bg-destructive/10 flex items-center justify-center">
@@ -228,7 +228,7 @@ const PrijzenPage = () => (
             </span>
           </motion.div>
 
-          {/* Aannemer Systeem */}
+          {/* Vekst Systemet */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -237,14 +237,14 @@ const PrijzenPage = () => (
             className="rounded-2xl bg-accent text-accent-foreground p-8 shadow-system-card-hover h-full"
           >
             <h3 className="text-sm font-bold uppercase tracking-widest mb-6">
-              Aannemer Systeem
+              Vekst Systemet
             </h3>
             <div className="space-y-5">
               {[
-                "Geen opstartkosten, gewoon een vast laag maandbedrag",
-                "Levert een compleet systeem dat bezoekers omzet in klanten",
-                "Wij regelen de techniek én schrijven de teksten voor je",
-                "Vangt gemiste oproepen direct automatisch op via SMS",
+                "Ingen oppstartskostnader, bare en fast lav månedspris",
+                "Leverer et komplett system som gjør besøkende til kunder",
+                "Vi ordner teknikken og skriver tekstene for deg",
+                "Fanger automatisk opp tapte anrop med SMS",
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <div className="mt-0.5 flex-shrink-0 h-7 w-7 rounded-full bg-accent-foreground/20 flex items-center justify-center">
@@ -267,26 +267,26 @@ const PrijzenPage = () => (
           transition={{ duration: 0.5 }}
           className="text-2xl md:text-3xl font-bold tracking-tight text-foreground text-center"
         >
-          Veelgestelde vragen over onze prijzen
+          Ofte stilte spørsmål om prisene våre
         </motion.h2>
 
         <div className="space-y-8">
           {[
             {
-              q: "Zijn er opstartkosten?",
-              a: "Nee. Je betaalt alleen het maandelijkse tarief. We maken je volledige systeem zonder opstartkosten.",
+              q: "Er det noen oppstartskostnader?",
+              a: "Nei. Du betaler bare den månedlige prisen. Vi bygger hele systemet ditt uten oppstartskostnader.",
             },
             {
-              q: "Zit er een contract aan vast?",
-              a: "Nee, je zit nergens aan vast. Je kunt maandelijks opzeggen. We geloven dat je blijft omdat het werkt, niet omdat het moet.",
+              q: "Er jeg bundet til en kontrakt?",
+              a: "Nei, du er ikke bundet til noe. Du kan si opp månedlig. Vi tror du blir værende fordi det fungerer, ikke fordi du må.",
             },
             {
-              q: "Wat als ik maar één systeem nodig heb?",
-              a: "Ons pakket is ontworpen als compleet systeem. De onderdelen versterken elkaar - daarom bieden we alles samen aan voor één prijs.",
+              q: "Hva om jeg bare trenger ett system?",
+              a: "Pakken vår er laget som et komplett system. Delene forsterker hverandre - derfor tilbyr vi alt sammen til én pris.",
             },
             {
-              q: "Is de website echt inbegrepen?",
-              a: "Ja. Een professionele, SEO-geoptimaliseerde website met 10 tot 20 pagina's, volledig op maat voor jouw bedrijf. Hosting en onderhoud zitten erbij.",
+              q: "Er nettsiden virkelig inkludert?",
+              a: "Ja. En profesjonell, SEO-optimalisert nettside med 10 til 20 sider, fullt skreddersydd for bedriften din. Hosting og vedlikehold er inkludert.",
             },
           ].map((item, i) => (
             <motion.div
