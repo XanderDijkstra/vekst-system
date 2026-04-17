@@ -57,11 +57,26 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Contact</h4>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Meer</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Boek een demo
+                <Link to="/vakgebieden" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Vakgebieden
+                </Link>
+              </li>
+              <li>
+                <Link to="/vergelijk" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Vergelijk
+                </Link>
+              </li>
+              <li>
+                <Link to="/tools" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Tools
+                </Link>
+              </li>
+              <li>
+                <Link to="/prijzen" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Prijzen
                 </Link>
               </li>
               <li>
@@ -75,8 +90,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/vakgebieden" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Vakgebieden
+                <Link to="/demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Boek een demo
                 </Link>
               </li>
               <li>
