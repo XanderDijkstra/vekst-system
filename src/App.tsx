@@ -67,6 +67,8 @@ import GipsplatenBerekenen from "./pages/tools/GipsplatenBerekenen";
 import StucwerkBerekenen from "./pages/tools/StucwerkBerekenen";
 import BouwmaterialenHub from "./pages/tools/BouwmaterialenHub";
 import MarketingScan from "./pages/tools/MarketingScan";
+import DownloadsOverview from "./pages/DownloadsOverview";
+import DownloadDetail from "./pages/DownloadDetail";
 import ScrollToTop from "./components/ScrollToTop";
 
 /** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
@@ -148,6 +150,8 @@ const App = () => (
           <Route path="/tools/gipsplaten-berekenen" element={<GipsplatenBerekenen />} />
           <Route path="/tools/stucwerk-berekenen" element={<StucwerkBerekenen />} />
           <Route path="/tools/marketing-scan" element={<MarketingScan />} />
+          <Route path="/downloads" element={<DownloadsOverview />} />
+          <Route path="/downloads/:slug" element={<DownloadDetail />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
           <Route path="/systemen" element={<Navigate to="/diensten" replace />} />

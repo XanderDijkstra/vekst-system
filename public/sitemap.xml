@@ -13,6 +13,7 @@
   <url><loc>https://aannemersysteem.com/demo</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/prijzen</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://aannemersysteem.com/sector/digitalisering-voor-aannemers</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/downloads</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Diensten -->
   <url><loc>https://aannemersysteem.com/diensten/lead-generatie</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -271,4 +272,10 @@
   <url><loc>https://aannemersysteem.com/wiki/social-proof</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/ssl-certificaat</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://aannemersysteem.com/wiki/webchat</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Downloads (4) -->
+  <url><loc>https://aannemersysteem.com/downloads/google-review-scripts-aannemer</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/downloads/lead-opvolging-playbook-aannemer</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/downloads/offerte-template-aannemer</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://aannemersysteem.com/downloads/website-audit-checklist-aannemer</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -64,6 +64,7 @@ const STATIC_PAGES = [
   { loc: "/demo", priority: "0.8", changefreq: "monthly" },
   { loc: "/prijzen", priority: "0.8", changefreq: "monthly" },
   { loc: "/sector/digitalisering-voor-aannemers", priority: "0.7", changefreq: "monthly" },
+  { loc: "/downloads", priority: "0.8", changefreq: "monthly" },
 ];
 
 // Service/systeem detail pages (explicit routes in App.tsx, not covered by
@@ -128,6 +129,7 @@ function build() {
   const serviceSlugs = getSlugsFromFile("src/data/servicePages.ts");
   const kennisbankSlugs = getSlugsFromFile("src/data/kennisbankArticles.ts");
   const wikiSlugs = getSlugsFromFile("src/data/wikiTerms.ts");
+  const downloadSlugs = getSlugsFromFile("src/data/downloads.ts");
 
   const lines = [];
   lines.push('<?xml version="1.0" encoding="UTF-8"?>');
@@ -180,6 +182,12 @@ function build() {
     lines.push(urlEntry(`/wiki/${slug}`, "0.6", "monthly"));
   }
 
+  lines.push("");
+  lines.push(`  <!-- Downloads (${downloadSlugs.length}) -->`);
+  for (const slug of downloadSlugs.sort()) {
+    lines.push(urlEntry(`/downloads/${slug}`, "0.7", "monthly"));
+  }
+
   lines.push("</urlset>");
   lines.push("");
 
@@ -194,10 +202,11 @@ function build() {
     tradeSlugs.length +
     serviceSlugs.length +
     kennisbankSlugs.length +
-    wikiSlugs.length;
+    wikiSlugs.length +
+    downloadSlugs.length;
   console.log(`sitemap.xml generated: ${totalUrls} URLs`);
   console.log(
-    `  static=${STATIC_PAGES.length} diensten=${DIENSTEN_PAGES.length} vergelijk=${VERGELIJK_PAGES.length} tools=${TOOLS_PAGES.length} vakgebieden=${tradeSlugs.length} services=${serviceSlugs.length} kennisbank=${kennisbankSlugs.length} wiki=${wikiSlugs.length}`
+    `  static=${STATIC_PAGES.length} diensten=${DIENSTEN_PAGES.length} vergelijk=${VERGELIJK_PAGES.length} tools=${TOOLS_PAGES.length} vakgebieden=${tradeSlugs.length} services=${serviceSlugs.length} kennisbank=${kennisbankSlugs.length} wiki=${wikiSlugs.length} downloads=${downloadSlugs.length}`
   );
 }
 
