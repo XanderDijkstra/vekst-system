@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/accordion";
 import PageShell from "@/components/PageShell";
 import type { ServicePageData } from "@/data/servicePages";
+import { kennisbankArticles } from "@/data/kennisbankArticles";
 
 interface Props {
   data: ServicePageData;
@@ -19,8 +20,25 @@ interface Props {
 
 const SITE_URL = "https://aannemersysteem.com";
 
+// Service pages link via `trade` slug to their matching online-marketing article.
+// Handles slug mismatches between trade-data and kennisbank article slugs.
+const TRADE_TO_ARTICLE_SLUG: Record<string, string> = {
+  "verhuisbedrijven": "online-marketing-verhuizers",
+  "warmtepomp-installatie": "online-marketing-warmtepomp-installateurs",
+  "cv-ketel-montage": "online-marketing-cv-monteurs",
+  "zonnepanelen": "online-marketing-zonnepanelen-installateurs",
+  "bestrating": "online-marketing-stratenmakers",
+  "vloerlegger": "online-marketing-vloerleggers",
+  "metselwerk": "online-marketing-metselaars",
+  "voegwerk": "online-marketing-voegbedrijven",
+  "kozijnen-ramen": "online-marketing-kozijnmonteurs",
+  "trapliften-thuisliften": "online-marketing-trapliften",
+};
+
 const ServicePageTemplate = ({ data: d }: Props) => {
   const pageUrl = `${SITE_URL}/${d.slug}`;
+  const articleSlug = TRADE_TO_ARTICLE_SLUG[d.trade] ?? `online-marketing-${d.trade}`;
+  const marketingArticle = kennisbankArticles.find((a) => a.slug === articleSlug);
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -286,6 +304,30 @@ const ServicePageTemplate = ({ data: d }: Props) => {
           </Accordion>
         </div>
       </section>
+
+      {/* ── KENNISBANK CROSS-LINK ── */}
+      {marketingArticle && (
+        <section className="py-12 bg-card">
+          <div className="container max-w-4xl text-center">
+            <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
+              Lees meer over marketing voor {d.tradeName}
+            </p>
+            <h3 className="text-2xl font-bold text-foreground">
+              {marketingArticle.title}
+            </h3>
+            <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
+              {marketingArticle.description}
+            </p>
+            <div className="mt-6">
+              <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+                <Link to={`/kennisbank/${marketingArticle.slug}`}>
+                  Lees het artikel <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── CTA ── */}
       <section className="py-20 md:py-28 bg-primary">
