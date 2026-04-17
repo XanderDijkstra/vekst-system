@@ -3683,4 +3683,98 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "website-laten-maken-aannemer",
+    title: "Website laten maken als aannemer: wat kost het en wat krijg je?",
+    description: "Wat kost een professionele website voor aannemers? Prijzen, opties, valkuilen en wat je écht nodig hebt voor leads via Google.",
+    category: "Marketing",
+    readTime: "8 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Prijzen", href: "/prijzen" },
+      { label: "Werkspot alternatief", href: "/vergelijk/werkspot-alternatief" },
+    ],
+    sections: [
+      {
+        heading: "Waarom een professionele website geen luxe is voor aannemers",
+        body: "92% van de huiseigenaren checkt eerst online voordat ze een aannemer bellen. Zonder website besta je voor deze mensen simpelweg niet. Maar 'een website' is niet genoeg: een slechte website kan zelfs afschrikken. Een professionele website geeft vertrouwen, laat je projecten zien, bewijst je vakmanschap via reviews en converteert bezoekers naar aanvragen. Het is het fundament waar al je andere marketing op bouwt.",
+      },
+      {
+        heading: "Wat kost een website voor aannemers?",
+        body: "De prijzen variëren enorm. Een goedkope template-website (€500-€1.500) mist vaak lokale SEO en werkt niet op mobiel. Een lokaal webbureau vraagt €3.000-€8.000 opstartkosten plus €50-€150/maand hosting en onderhoud. Een premium bureau rekent €10.000-€25.000. Bij Aannemer Systeem betaal je €279/maand all-in: website, hosting, SEO, reviews en automatiseringen — zonder opstartkosten. Maandelijks opzegbaar.",
+      },
+      {
+        heading: "Wat heb je minimaal nodig als aannemer?",
+        body: "Een effectieve aannemerswebsite heeft: (1) professionele homepage met duidelijke boodschap en contact-CTA, (2) aparte pagina per dienst (badkamer, keuken, verbouwing), (3) portfolio met minstens 10 projecten met foto's, (4) reviews-sectie met Google-integratie, (5) over ons met teamfoto's, (6) contactformulier dat direct naar je telefoon gaat. Mist er iets? Dan mis je conversies.",
+      },
+      {
+        heading: "Lokale SEO: het belangrijkste onderdeel",
+        body: "Een mooie website zonder SEO is als een folder in een afgesloten kast. Zorg dat elke dienstpagina geoptimaliseerd is voor 'service + stad' zoekopdrachten ('badkamer renoveren Utrecht'). Voeg lokale landingspagina's toe voor de belangrijkste steden in je werkgebied. Integreer je Google Mijn Bedrijf profiel. Zonder deze elementen scoor je nooit in Google — en is je website dus waardeloos voor leadgeneratie.",
+      },
+      {
+        heading: "Valkuilen bij een website laten maken",
+        body: "1) Vastgezet in een contract: veel bureaus zetten je in een 3-jarig contract met dure opzegvergoeding. Vermijd dit. 2) Website blijft van het bureau: zorg dat je eigenaar bent van je domeinnaam én website. 3) Geen SEO inbegrepen: veel bureaus leveren alleen de website zonder optimalisatie — je betaalt later €750-€2.000/maand extra. 4) Geen mobiele optimalisatie: 70% van het verkeer is mobiel. Als je website niet perfect werkt op telefoon, verlies je 70% van je potentiële klanten.",
+      },
+      {
+        heading: "Hoe snel zie je resultaat?",
+        body: "Een nieuwe website levert niet direct leads op. Eerste weken: Google Mijn Bedrijf optimalisatie zorgt voor snelle quick wins. Maand 1-2: eerste organische rankings op lange zoektermen. Maand 3-6: stabiele stroom leads via Google. Maand 6+: pagina 1 posities op belangrijke zoektermen in je regio. De meeste aannemers zien binnen 3 maanden meer leads dan ze via Werkspot binnenkrijgen — zonder leadkosten.",
+      },
+      {
+        heading: "Template of maatwerk: wat is beter?",
+        body: "Voor aannemers is 'custom maatwerk' vaak overkill. Je hebt geen uniek design nodig — je hebt een website nodig die werkt. Een gestandaardiseerd systeem dat specifiek voor aannemers is ontworpen (Aannemer Systeem) biedt alle noodzakelijke elementen zonder de kosten en doorlooptijd van maatwerk. Bovendien profiteer je van continue verbeteringen die we voor alle aannemerswebsites uitrollen.",
+      },
+      {
+        heading: "Wat levert een goede website op?",
+        body: "Een aannemer met een professionele, SEO-geoptimaliseerde website ontvangt gemiddeld 15-40 aanvragen per maand via Google. Bij een gemiddelde projectwaarde van €8.000 en een conversie van 25% is dat €30.000-€80.000 extra omzet per maand. De investering (€279/maand vast) verdient zichzelf terug met één extra project per maand — alles daarboven is pure winst.",
+      },
+    ],
+  },
+  {
+    slug: "lokale-seo-aannemer",
+    title: "Lokale SEO voor aannemers: hoe scoor je op pagina 1 in jouw regio?",
+    description: "Complete gids voor lokale SEO als aannemer: Google Mijn Bedrijf, lokale landingspagina's, backlinks, NAP-consistentie en reviews.",
+    category: "SEO",
+    readTime: "8 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Google Mijn Bedrijf optimaliseren", href: "/kennisbank/google-mijn-bedrijf-optimaliseren-aannemer" },
+      { label: "SEO vs Google Ads", href: "/vergelijk/seo-vs-google-ads" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+    ],
+    sections: [
+      {
+        heading: "Wat is lokale SEO en waarom is het cruciaal voor aannemers?",
+        body: "Lokale SEO is het proces van optimaliseren zodat je verschijnt in zoekresultaten met een geografische component: 'aannemer Amsterdam', 'loodgieter in de buurt', 'keukenmonteur Utrecht'. Voor aannemers is dit dé manier om klanten te krijgen — 46% van alle Google-zoekopdrachten heeft een lokale intentie. Anders dan algemene SEO, draait lokale SEO om: Google Mijn Bedrijf, lokale backlinks, NAP-consistentie en reviews. Wie deze 4 pilaren beheerst, domineert de regio.",
+      },
+      {
+        heading: "Pilaar 1: Google Mijn Bedrijf als fundament",
+        body: "Je Google Mijn Bedrijf (GMB) profiel is de basis. 80% van het lokale zoekverkeer gaat via het local pack (de 3 kaartresultaten bovenaan). Een volledig en actief GMB-profiel met 20+ reviews, 30+ foto's, wekelijkse posts en volledige dienstenlijst staat meestal in dit pack voor relevante zoekopdrachten in je regio. Zonder sterk GMB-profiel is andere SEO grotendeels zinloos.",
+      },
+      {
+        heading: "Pilaar 2: Lokale landingspagina's per stad",
+        body: "Als je in meerdere steden werkt, maak dan voor elke stad een eigen landingspagina. 'Aannemer Rotterdam', 'Aannemer Capelle aan den IJssel', 'Aannemer Spijkenisse'. Elke pagina: unieke content over je werk in die stad, lokale projecten, adres van je werkgebied, lokale klantreviews. Vermijd duplicate content — elke pagina moet écht uniek zijn. Zo scoor je op 'aannemer [elke stad]' in plaats van alleen je hoofdvestiging.",
+      },
+      {
+        heading: "Pilaar 3: NAP-consistentie op het hele web",
+        body: "NAP staat voor Name, Address, Phone. Google controleert of je bedrijfsnaam, adres en telefoonnummer exact hetzelfde geschreven zijn op alle online vermeldingen: je website, GMB, KvK, Facebook, LinkedIn, Werkspot, lokale bedrijvenregisters. Kleine verschillen ('Jansen Bouw BV' vs 'Jansen Bouw') verwarren Google en schaden je rankings. Zorg dat alle vermeldingen identiek zijn — tot op de punt en komma.",
+      },
+      {
+        heading: "Pilaar 4: Lokale backlinks opbouwen",
+        body: "Backlinks (links van andere sites naar jouw site) zijn nog steeds een rankingfactor. Voor lokale SEO zijn lokale backlinks het waardevolst: sponsorsectie van de lokale voetbalvereniging, vermelding in lokale krant, KvK-partner, leverancier-vermeldingen. Vraag bestaande klanten om een link vanaf hun website als je een bedrijfspand hebt opgeknapt. Elke lokale backlink versterkt je positie in je werkgebied.",
+      },
+      {
+        heading: "Pilaar 5: Reviews als rankingfactor",
+        body: "Google gebruikt reviews als rankingsignaal. Niet alleen het aantal, maar ook de kwaliteit (gemiddelde score), de versheid (recent gepost) en de diversiteit (niet allemaal tegelijk). Streef naar 2-4 nieuwe reviews per maand. Reageer op alle reviews. Reviews die lokale termen bevatten ('geweldige aannemer in Eindhoven') zijn extra waardevol — ze bevestigen Google dat je relevant bent voor die stad.",
+      },
+      {
+        heading: "Veelgemaakte lokale SEO-fouten",
+        body: "1) Één pagina voor alle steden tegelijk: Google wil specifieke content per locatie. 2) Nep-adressen in andere steden: leidt tot een Google-penalty. 3) Keyword stuffing in bedrijfsnaam: 'Jansen Aannemer Amsterdam Rotterdam Utrecht' is verboden. 4) Geen mobiele optimalisatie: lokaal verkeer is 70% mobiel. 5) Trage laadtijd: Google ranks langzame sites lager. Vermijd deze fouten en je staat al voor op veel concurrenten.",
+      },
+      {
+        heading: "Hoe meet je lokale SEO-succes?",
+        body: "Track maandelijks: (1) rankings voor belangrijkste zoektermen in je belangrijkste steden, (2) GMB-inzichten (views, calls, direction-requests), (3) organisch verkeer per stad via Google Analytics, (4) aantal leads via website. Verbeter continu op basis van data: welke steden scoren goed, waar liggen kansen, welke zoektermen lopen nog achter? Lokale SEO is geen eenmalig project maar een doorlopend proces.",
+      },
+    ],
+  },
 ];
