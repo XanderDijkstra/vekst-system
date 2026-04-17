@@ -460,17 +460,15 @@ const WerkspotAlternatief = () => (
         <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
           Ook interessant
         </p>
-        <h3 className="text-2xl font-bold text-foreground">
-          Welke lead-bron is de beste voor aannemers?
-        </h3>
-        <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-          Vergelijk website, Google Ads, Google Mijn Bedrijf, Werkspot en social media naast elkaar.
-        </p>
-        <div className="mt-6">
+        <div className="flex flex-wrap justify-center gap-3">
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/vergelijk/lokale-leads-genereren">
-              Bekijk de vergelijking <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            <Link to="/vergelijk/homedeal-alternatief">Homedeal alternatief</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+            <Link to="/vergelijk/instapro-alternatief">Instapro alternatief</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+            <Link to="/vergelijk/lokale-leads-genereren">Alle kanalen vergelijken <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
         </div>
       </div>

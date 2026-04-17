@@ -366,17 +366,15 @@ const OfferteadviseurAlternatief = () => (
         <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
           Ook interessant
         </p>
-        <h3 className="text-2xl font-bold text-foreground">
-          Werkspot als lead-bron vergelijken
-        </h3>
-        <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-          De grootste offerte-concurrent in Nederland naast een eigen systeem gezet.
-        </p>
-        <div className="mt-6">
+        <div className="flex flex-wrap justify-center gap-3">
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/vergelijk/werkspot-alternatief">
-              Bekijk de vergelijking <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
+            <Link to="/vergelijk/werkspot-alternatief">Werkspot alternatief</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+            <Link to="/vergelijk/homedeal-alternatief">Homedeal alternatief</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+            <Link to="/vergelijk/lokale-leads-genereren">Alle kanalen vergelijken <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
         </div>
       </div>
