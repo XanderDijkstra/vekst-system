@@ -21,6 +21,7 @@ import {
 import PageShell from "@/components/PageShell";
 import type { TradeData } from "@/data/tradePages";
 import { SERVICE_PAGES } from "@/data/servicePages";
+import { kennisbankArticles } from "@/data/kennisbankArticles";
 
 interface TradePageTemplateProps {
   data: TradeData;
@@ -28,9 +29,25 @@ interface TradePageTemplateProps {
 
 const SITE_URL = "https://aannemersysteem.com";
 
+// Trades where the online-marketing article uses a different slug than the trade slug.
+const TRADE_TO_ARTICLE_SLUG: Record<string, string> = {
+  "verhuisbedrijven": "online-marketing-verhuizers",
+  "warmtepomp-installatie": "online-marketing-warmtepomp-installateurs",
+  "cv-ketel-montage": "online-marketing-cv-monteurs",
+  "zonnepanelen": "online-marketing-zonnepanelen-installateurs",
+  "bestrating": "online-marketing-stratenmakers",
+  "vloerlegger": "online-marketing-vloerleggers",
+  "metselwerk": "online-marketing-metselaars",
+  "voegwerk": "online-marketing-voegbedrijven",
+  "kozijnen-ramen": "online-marketing-kozijnmonteurs",
+  "trapliften-thuisliften": "online-marketing-trapliften",
+};
+
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
   const pageUrl = `${SITE_URL}/vakgebieden/${d.slug}`;
   const servicePageSlug = Object.values(SERVICE_PAGES).find((sp) => sp.trade === d.slug)?.slug;
+  const articleSlug = TRADE_TO_ARTICLE_SLUG[d.slug] ?? `online-marketing-${d.slug}`;
+  const marketingArticle = kennisbankArticles.find((a) => a.slug === articleSlug);
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -327,8 +344,32 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
         </section>
       )}
 
+      {/* ── KENNISBANK CROSS-LINK ── */}
+      {marketingArticle && (
+        <section className="py-12 bg-background">
+          <div className="container max-w-4xl text-center">
+            <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
+              Lees meer
+            </p>
+            <h3 className="text-2xl font-bold text-foreground">
+              {marketingArticle.title}
+            </h3>
+            <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
+              {marketingArticle.description}
+            </p>
+            <div className="mt-6">
+              <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
+                <Link to={`/kennisbank/${marketingArticle.slug}`}>
+                  Lees het artikel <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ── RELATED TRADES (SEO interlinking) ── */}
-      <section className="py-12 bg-background">
+      <section className="py-12 bg-card">
         <div className="container max-w-4xl">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
             Ook voor andere vakgebieden
