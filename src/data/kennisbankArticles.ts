@@ -3777,4 +3777,98 @@ export const kennisbankArticles: KennisbankArticle[] = [
       },
     ],
   },
+  {
+    slug: "social-media-voor-aannemers",
+    title: "Social media voor aannemers: welke kanalen werken écht in 2026?",
+    description: "Welk social medium werkt voor aannemers? Facebook, Instagram, LinkedIn en TikTok naast elkaar. Met concrete content-ideeën en tijdsinvestering.",
+    category: "Marketing",
+    readTime: "7 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+      { label: "Lead Generatie", href: "/diensten/lead-generatie" },
+      { label: "Lokale leads genereren", href: "/vergelijk/lokale-leads-genereren" },
+    ],
+    sections: [
+      {
+        heading: "Werkt social media eigenlijk wel voor aannemers?",
+        body: "Ja — maar anders dan veel aannemers denken. Social media is geen directe lead-machine zoals Google. Je krijgt niet dagelijks aanvragen via Instagram of Facebook. Wat social media wél doet: naamsbekendheid opbouwen in je regio, vertrouwen kweken bij mensen die je Google-profiel al vonden, en huidige klanten actief houden voor herhalingswerk en verwijzingen. Social media is ondersteunend, niet leidend. De echte leads komen via Google — social versterkt dat.",
+      },
+      {
+        heading: "Facebook: de basis voor lokale aannemers",
+        body: "Facebook werkt nog steeds voor aannemers, vooral in de doelgroep 35-65 jaar (je belangrijkste klanten). Maak een bedrijfspagina met dezelfde informatie als je GMB-profiel. Post 1-2x per week: afgeronde projecten, team-momenten, een seizoensgebonden tip. Gebruik Facebook lokale groepen ('Amsterdam-West verbouwingen') om actief mee te praten — niet te verkopen. Mensen herkennen je naam wanneer ze later bij Google zoeken.",
+      },
+      {
+        heading: "Instagram: voor visueel vakwerk",
+        body: "Instagram is perfect voor aannemers met visueel werk: tegelzetters, keukenmonteurs, badkamerrenovaties, gietvloeren, meubelmakers, interieurontwerpers. Post voor-en-na foto's, timelapse video's van een verbouwing en detail-shots van strak vakwerk. Gebruik lokale hashtags (#AmsterdamVerbouwing, #BadkamerRenovatieUtrecht). Reels met een voor-en-na transitie kunnen viraal gaan en tienduizenden views opleveren — perfecte naamsbekendheid in je regio.",
+      },
+      {
+        heading: "LinkedIn: voor zakelijke opdrachten",
+        body: "LinkedIn is interessant voor aannemers die zakelijke klanten zoeken: kantoorverbouwingen, winkelinrichting, bedrijfsonderhoud. Connect met facility managers, projectleiders en makelaars in je regio. Deel projectupdates met zakelijke toon. Een aannemer die op LinkedIn actief is met zakelijke projecten komt veel sneller op het netvlies bij beslissers dan via koude acquisitie. Vooral voor grotere aannemers (€500k+ omzet) een niet te negeren kanaal.",
+      },
+      {
+        heading: "TikTok: alleen voor wie mikt op jonge huiseigenaren",
+        body: "TikTok groeit snel in Nederland, ook in de leeftijdsgroep 25-40. Voor aannemers die mikken op jonge huiseigenaren (eerste koop, starters-renovaties) kan TikTok interessant zijn. Content die werkt: korte video's met renovatie-tips, 'hoe herken je een goede aannemer', transformatie-video's. Maar: het kost veel tijd om succes te hebben op TikTok. Voor de meeste aannemers is Facebook + Instagram genoeg — TikTok is optioneel.",
+      },
+      {
+        heading: "Hoeveel tijd moet je erin stoppen?",
+        body: "Realistisch: 1-2 uur per week. Maak eens per week tijd vrij om 2-3 posts voor Facebook en Instagram voor te bereiden (of in te plannen via een tool als Later of Buffer). Neem foto's van al je klussen — verzamel content on-the-go. Besteed het niet uit aan een marketingbureau dat €500+ per maand rekent voor social media; de authenticiteit verdwijnt. Doe het zelf, maar efficiënt.",
+      },
+      {
+        heading: "Welke content werkt bewezen voor aannemers?",
+        body: "Top-presterende content types: (1) voor-en-na foto's met context, (2) timelapse video's van een klus, (3) tips-posts ('5 dingen om op te letten bij een aannemer'), (4) team-momenten voor vertrouwen, (5) klant-testimonials met foto. Vermijd: stockfoto's, generieke motivatie-quotes, verkooppraatjes. Mensen volgen authentieke aannemers, geen marketing-accounts.",
+      },
+      {
+        heading: "Wat levert social media op?",
+        body: "Directe leads: 1-3 per maand gemiddeld (voor actieve aannemers). Indirect: 30-50% hogere conversie van Google-bezoekers die je social-profielen al hadden gezien, plus meer verwijzingen van bestaande klanten. De ROI is moeilijk te meten maar reëel. Zie social media als het versterken van je Google-lead-machine, niet als vervanger ervan.",
+      },
+    ],
+  },
+  {
+    slug: "offerte-maken-aannemer",
+    title: "Offerte maken als aannemer: template, tips en conversiehacks",
+    description: "Hoe maak je een offerte die wint? Van template tot prijsstrategie, opvolging en digitale tools. Bewezen tips voor aannemers.",
+    category: "Sales",
+    readTime: "8 min",
+    date: "2026-04-17",
+    relatedLinks: [
+      { label: "Offerte Systeem", href: "/diensten/offerte-systeem" },
+      { label: "Lead Follow-up", href: "/diensten/lead-follow-up" },
+      { label: "Uurtarief calculator", href: "/tools/uurtarief-calculator-aannemer" },
+    ],
+    sections: [
+      {
+        heading: "Waarom de meeste aannemersoffertes niet converteren",
+        body: "Een doorsnee aannemer wint 15-25% van zijn offertes. De top-aannemers winnen 40-60%. Het verschil zit zelden in de prijs — het zit in hoe de offerte eruit ziet, hoe snel hij wordt verstuurd en hoe opgevolgd wordt. Klanten die offertes van meerdere aannemers krijgen, kiezen vaak niet de goedkoopste maar die die het meest professioneel overkomt en het duidelijkst communiceert wat je krijgt.",
+      },
+      {
+        heading: "Reageer binnen 24 uur",
+        body: "De belangrijkste conversie-factor is snelheid. Aannemers die binnen 24 uur een offerte sturen, winnen 2x vaker dan aannemers die 3-5 dagen nodig hebben. Een klant die 5 dagen wacht, heeft intussen een concurrent gebeld die wel snel leverde. Wacht liever niet op perfectie — stuur binnen een dag een duidelijke offerte en verfijn later als de klant doorvraagt.",
+      },
+      {
+        heading: "Wat staat in een winnende offerte?",
+        body: "Structuur: (1) duidelijke projectomschrijving in klanttaal, (2) wat is inbegrepen (punten), (3) wat niet (punten), (4) planning/doorlooptijd, (5) totaalprijs inclusief BTW, (6) betaalvoorwaarden, (7) garanties, (8) een korte bio van je bedrijf met foto en reviews, (9) duidelijke volgende stap ('bel me om akkoord te gaan'). Klanten die twijfelen, kiezen de offerte die het meest vertrouwen wekt — niet de goedkoopste.",
+      },
+      {
+        heading: "Prijsstrategie: één prijs of meerdere opties?",
+        body: "Klanten kiezen uit opties — dus geef ze opties. Bied minimaal 2 pakketten: een basis en een premium. Bijvoorbeeld bij een badkamer: 'basis' (standaard tegels, basic douche) vs 'premium' (natuursteen, regendouche, extra verlichting). 70% van klanten kiest voor premium. Een enkele prijs nodigt uit tot onderhandelen of vergelijken met concurrenten. Twee of drie opties zetten de klant in de vergelijkingsmodus binnen jouw offerte.",
+      },
+      {
+        heading: "Digitale offertes winnen van papieren",
+        body: "Een PDF per email is oké, maar een interactieve digitale offerte (bijvoorbeeld via Qwilr of een eigen offertesysteem) wint significant vaker. Waarom? Klanten kunnen klikken op 'akkoord', je ziet wanneer ze de offerte openen, je kunt video's en projectfoto's insluiten en aanpassingen maken zonder een nieuwe versie te sturen. Digitale offertes converteren 20-40% beter dan PDF-offertes.",
+      },
+      {
+        heading: "Volg altijd op — twee keer",
+        body: "50% van de offertes wordt genegeerd als er niet wordt opgevolgd. Stuur 3 dagen na de offerte een korte WhatsApp: 'Hoi [naam], heb je de offerte ontvangen? Laat het me weten als er vragen zijn.' Nog geen reactie na 7 dagen? Tweede follow-up: 'Ik hoor graag of deze offerte aan je verwachting voldoet — of dat je nog ergens over twijfelt?' Elke opvolging verhoogt je conversie met 10-20%. De meeste aannemers doen geen opvolging en laten hierdoor duizenden euro's liggen.",
+      },
+      {
+        heading: "Omgaan met prijsonderhandeling",
+        body: "Wanneer een klant vraagt om korting, is dat meestal geen prijsprobleem maar een waardeprobleem. Ga niet direct zakken — vraag eerst: 'Wat maakt dat u de prijs hoog vindt?' Vaak ligt het antwoord in onzekerheid over wat ze precies krijgen. Herhaal wat inbegrepen is en wat de klant bespaart op lange termijn (kwaliteit, garantie, geen herstelkosten). Als je écht moet zakken, geef dan iets weg (extra) in plaats van simpelweg de prijs te verlagen — zo behoud je je marge en waarde.",
+      },
+      {
+        heading: "Automatiseer je offerteproces",
+        body: "Handmatig offertes maken kost 30-90 minuten per stuk. Bij 20 offertes per maand is dat 10-30 uur — tijd die je niet aan werk kunt besteden. Automatiseer met templates, digitale offerte-software en opvolg-automatisering. Bij Aannemer Systeem hoort dit bij het offerte systeem: je maakt offertes in minuten, de opvolging gaat automatisch, en je ziet real-time wanneer klanten de offerte bekijken en accepteren.",
+      },
+    ],
+  },
 ];
