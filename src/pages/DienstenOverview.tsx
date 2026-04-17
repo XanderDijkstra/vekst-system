@@ -8,29 +8,29 @@ import {
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const sections = [
   {
-    heading: "Systemen",
-    description: "Digitale systemen die 24/7 voor je werken - elk ontworpen om een specifiek probleem op te lossen.",
+    heading: "Systemer",
+    description: "Digitale systemer som jobber for deg 24/7 - hvert laget for å løse ett konkret problem.",
     items: [
-      { icon: Globe, title: "Lead Generatie Website", href: "/diensten/lead-generatie", description: "Een website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt." },
-      { icon: PhoneOff, title: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie", description: "Automatisch een bericht sturen wanneer je een oproep mist." },
-      { icon: UserCheck, title: "Lead Follow-Up", href: "/diensten/lead-follow-up", description: "Automatische opvolging van nieuwe leads via SMS en e-mail." },
-      { icon: Star, title: "Review Systeem", href: "/diensten/review-funnel", description: "Verzamel automatisch Google reviews van tevreden klanten." },
-      { icon: BarChart3, title: "Marketing Campagnes", href: "/diensten/marketing-campagnes", description: "Bereik je doelgroep automatisch met de juiste boodschap." },
-      { icon: MessageSquare, title: "All-in-One Inbox", href: "/diensten/all-in-one-inbox", description: "Al je berichten op één plek - SMS, e-mail, WhatsApp en meer." },
+      { icon: Globe, title: "Leadgenerering-nettside", href: "/diensten/lead-generatie", description: "En nettside som tiltrekker nye kunder og samler tilbudsforespørsler automatisk." },
+      { icon: PhoneOff, title: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie", description: "Send automatisk en melding når du mister et anrop." },
+      { icon: UserCheck, title: "Lead-oppfølging", href: "/diensten/lead-follow-up", description: "Automatisk oppfølging av nye leads via SMS og e-post." },
+      { icon: Star, title: "Anmeldelsessystem", href: "/diensten/review-funnel", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk." },
+      { icon: BarChart3, title: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes", description: "Nå målgruppen din automatisk med riktig budskap." },
+      { icon: MessageSquare, title: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox", description: "Alle meldinger på ett sted - SMS, e-post, WhatsApp og mer." },
     ],
   },
   {
-    heading: "Services",
-    description: "Van strategie tot implementatie - wij maken de digitale infrastructuur die jouw aannemersbedrijf nodig heeft.",
+    heading: "Tjenester",
+    description: "Fra strategi til implementering - vi bygger den digitale infrastrukturen håndverkerbedriften din trenger.",
     items: [
-      { icon: Settings, title: "Digitalisering Aannemers", href: "/diensten/digitalisering-aannemers", description: "Van papier naar digitaal. Wij helpen je bedrijf moderniseren." },
-      { icon: Zap, title: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers", description: "Automatiseer repetitieve taken en bespaar uren per week." },
-      { icon: Plug, title: "Software Integraties", href: "/diensten/software-integraties", description: "Koppel je bestaande tools en laat ze naadloos samenwerken." },
-      { icon: Bot, title: "AI Oplossingen", href: "/diensten/ai-oplossingen", description: "Gebruik AI om slimmer te werken, niet harder." },
+      { icon: Settings, title: "Digitalisering for håndverkere", href: "/diensten/digitalisering-aannemers", description: "Fra papir til digitalt. Vi hjelper bedriften din å modernisere seg." },
+      { icon: Zap, title: "Automatisering for håndverkere", href: "/diensten/automatisering-aannemers", description: "Automatiser repetitive oppgaver og spar timer hver uke." },
+      { icon: Plug, title: "Programvareintegrasjoner", href: "/diensten/software-integraties", description: "Koble sammen verktøyene du bruker, så de jobber sømløst." },
+      { icon: Bot, title: "AI-løsninger", href: "/diensten/ai-oplossingen", description: "Bruk AI til å jobbe smartere, ikke hardere." },
     ],
   },
 ];
@@ -40,14 +40,14 @@ const allDiensten = sections.flatMap((s) => s.items);
 const dienstenSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Diensten | Aannemer Systeem",
+  name: "Tjenester | Vekst Systemet",
   url: `${SITE_URL}/diensten`,
-  description: "Digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes en automatisering.",
+  description: "Digitale systemer og tjenester for håndverkere: leadgenerering, anmeldelsesfunnel, markedsføringskampanjer og automatisering.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Diensten", item: `${SITE_URL}/diensten` },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Tjenester", item: `${SITE_URL}/diensten` },
     ],
   },
   mainEntity: {
@@ -65,22 +65,22 @@ const dienstenSchema = {
 const DienstenOverview = () => (
   <PageShell>
     <Helmet>
-      <title>Diensten | Aannemer Systeem</title>
-      <meta name="description" content="Ontdek onze digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes, automatisering en meer." />
+      <title>Tjenester | Vekst Systemet</title>
+      <meta name="description" content="Se våre digitale systemer og tjenester for håndverkere: leadgenerering, anmeldelsesfunnel, markedsføringskampanjer, automatisering og mer." />
       <link rel="canonical" href={`${SITE_URL}/diensten`} />
-      <meta property="og:title" content="Diensten | Aannemer Systeem" />
-      <meta property="og:description" content="Ontdek onze digitale systemen en services voor aannemers: lead generatie, review funnel, marketing campagnes, automatisering en meer." />
+      <meta property="og:title" content="Tjenester | Vekst Systemet" />
+      <meta property="og:description" content="Se våre digitale systemer og tjenester for håndverkere: leadgenerering, anmeldelsesfunnel, markedsføringskampanjer, automatisering og mer." />
       <meta property="og:url" content={`${SITE_URL}/diensten`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(dienstenSchema)}</script>
     </Helmet>
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
-        <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Onze diensten</motion.p>
-        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Alles wat je nodig hebt om te groeien</motion.h1>
+        <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Våre tjenester</motion.p>
+        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Alt du trenger for å vokse</motion.h1>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-          Van slimme systemen tot volledige implementatie - ontdek hoe wij aannemers helpen digitaliseren en automatiseren.
+          Fra smarte systemer til full implementering - se hvordan vi hjelper håndverkere å digitalisere og automatisere.
         </motion.p>
       </div>
     </section>
