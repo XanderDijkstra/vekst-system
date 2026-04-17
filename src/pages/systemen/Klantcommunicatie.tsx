@@ -16,48 +16,48 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 /* ───── Stats ───── */
 const stats = [
-  { value: "85%", description: "van klanten waardeert het om een SMS terug te krijgen na een gemist telefoontje." },
-  { value: "72%", description: "meer klanten reageren op een SMS dan op een voicemail." },
-  { value: "69%", description: "van bedrijven wint meer klanten met automatische gemiste-oproep opvolging." },
+  { value: "85%", description: "av kundene setter pris på å få en SMS tilbake etter et tapt anrop." },
+  { value: "72%", description: "flere kunder svarer på en SMS enn på en talemelding." },
+  { value: "69%", description: "av bedriftene vinner flere kunder med automatisk oppfølging av tapte anrop." },
 ];
 
 /* ───── Features ───── */
 const features = [
   {
     icon: Star,
-    title: "Val op tussen je concurrenten",
+    title: "Skill deg ut fra konkurrentene",
     description:
-      "Elke aannemer mist weleens een telefoontje, maar weinigen reageren snel. Val op met een instant, persoonlijk SMS-bericht namens jou, waarin je de gemiste oproep erkent en de klant doorverwijst naar je offerte-formulier.",
+      "Hver håndverker mister et anrop en gang i blant, men få reagerer raskt. Skill deg ut med en umiddelbar, personlig SMS på dine vegne, som bekrefter det tapte anropet og henviser kunden til tilbudsskjemaet ditt.",
   },
   {
     icon: PhoneOff,
-    title: "Nooit meer leads verliezen",
+    title: "Mist aldri flere leads",
     description:
-      "Wanneer klanten een project willen laten uitvoeren, willen ze direct contact. Als hun oproep onbeantwoord blijft, gaan ze naar de volgende aannemer. Ons systeem start direct een gesprek om dat te voorkomen.",
+      "Når kunder vil få utført et prosjekt, vil de ha direkte kontakt. Hvis anropet deres går ubesvart, går de videre til neste håndverker. Systemet vårt starter umiddelbart en samtale for å forhindre det.",
   },
   {
     icon: Clock,
-    title: "24/7 bereikbaar",
+    title: "Tilgjengelig 24/7",
     description:
-      "Ons systeem draait 24/7, zodat je nooit een kans mist. Zelfs als je buiten kantooruren een oproep mist, reageren wij direct op elke potentiële lead. Zo weet je zeker dat elke aanvraag wordt opgepakt.",
+      "Systemet vårt kjører 24/7, slik at du aldri går glipp av en mulighet. Selv om du mister et anrop utenfor kontortiden, reagerer vi umiddelbart på hver potensielle lead. Slik er du sikker på at hver forespørsel blir fulgt opp.",
   },
   {
     icon: MessageSquare,
-    title: "Persoonlijk SMS-bericht",
+    title: "Personlig SMS-melding",
     description:
-      "Geen generieke berichten. Elk SMS-bericht wordt aangepast aan jouw bedrijfsnaam en tone-of-voice, zodat het voelt alsof jij persoonlijk reageert - ook als je op de werf staat.",
+      "Ingen generiske meldinger. Hver SMS blir tilpasset bedriftsnavnet og tonen din, slik at det føles som at du selv svarer personlig - også når du står på byggeplassen.",
   },
   {
     icon: Zap,
-    title: "Binnen 5 seconden verzonden",
+    title: "Sendt innen 5 sekunder",
     description:
-      "Snelheid is alles. Ons systeem verstuurt het SMS-bericht binnen 5 seconden na de gemiste oproep. De klant voelt zich direct gehoord en blijft bij jou in plaats van de concurrent te bellen.",
+      "Hastighet er alt. Systemet vårt sender SMS-en innen 5 sekunder etter det tapte anropet. Kunden føler seg umiddelbart hørt og blir hos deg i stedet for å ringe konkurrenten.",
   },
   {
     icon: Users,
-    title: "Automatisch gesprek starten",
+    title: "Start automatisk en samtale",
     description:
-      "Het SMS-bericht is pas het begin. Het systeem start automatisch een conversatie zodat je de lead kunt kwalificeren, een afspraak kunt plannen of direct een offerte kunt aanbieden.",
+      "SMS-en er bare begynnelsen. Systemet starter automatisk en samtale slik at du kan kvalifisere leaden, avtale et møte eller sende et tilbud direkte.",
   },
 ];
 
@@ -65,24 +65,24 @@ const features = [
 const steps = [
   {
     step: "01",
-    title: "Kennismakingsgesprek",
-    duration: "20 minuten",
+    title: "Bli-kjent-samtale",
+    duration: "20 minutter",
     description:
-      "We bespreken je huidige situatie, beantwoorden al je vragen en laten zien hoe het systeem werkt met resultaten van bestaande klanten.",
+      "Vi diskuterer situasjonen din, svarer på alle spørsmålene dine og viser hvordan systemet fungerer med resultater fra eksisterende kunder.",
   },
   {
     step: "02",
-    title: "Wij maken je systeem",
-    duration: "7–10 dagen",
+    title: "Vi bygger systemet ditt",
+    duration: "7–10 dager",
     description:
-      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna stellen wij je klantcommunicatie systeem in met gepersonaliseerde SMS-berichten en automatische opvolging.",
+      "Du fyller ut et kort onboarding-skjema med bedriftsopplysningene dine. Deretter setter vi opp kundekommunikasjonssystemet ditt med personlige SMS-meldinger og automatisk oppfølging.",
   },
   {
     step: "03",
-    title: "Livegang & uitleg",
-    duration: "25 minuten",
+    title: "Lansering og gjennomgang",
+    duration: "25 minutter",
     description:
-      "We lopen samen door je nieuwe systeem, beantwoorden je vragen en laten zien hoe alles werkt. Daarna ga je live en wordt elke gemiste oproep automatisch opgevolgd.",
+      "Vi går gjennom det nye systemet sammen, svarer på spørsmål og viser hvordan alt fungerer. Deretter går du live og hvert tapt anrop blir automatisk fulgt opp.",
   },
 ];
 
@@ -90,14 +90,14 @@ const Klantcommunicatie = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Automatische SMS bij Gemiste Oproep | Aannemer Systeem</title>
-        <meta name="description" content="Automatisch een SMS sturen bij een gemiste oproep op de werf. Mis nooit meer een klant - 85% reageert sneller op SMS dan op voicemail." />
-        <link rel="canonical" href="https://aannemersysteem.com/diensten/klantcommunicatie" />
-        <meta property="og:title" content="Gemiste Oproep → SMS Bericht | Aannemer Systeem" />
-        <meta property="og:description" content="Automatisch een SMS sturen wanneer je een oproep mist op de werf." />
-        <meta property="og:url" content="https://aannemersysteem.com/diensten/klantcommunicatie" />
+        <title>Automatisk SMS ved tapt anrop | Vekst Systemet</title>
+        <meta name="description" content="Send automatisk en SMS ved et tapt anrop på byggeplassen. Mist aldri en kunde igjen - 85 % svarer raskere på SMS enn på talemelding." />
+        <link rel="canonical" href="https://vekst-systemet.no/diensten/klantcommunicatie" />
+        <meta property="og:title" content="Tapt anrop → SMS-melding | Vekst Systemet" />
+        <meta property="og:description" content="Send automatisk en SMS når du mister et anrop på byggeplassen." />
+        <meta property="og:url" content="https://vekst-systemet.no/diensten/klantcommunicatie" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
       </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
@@ -106,7 +106,7 @@ const Klantcommunicatie = () => {
             {...fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center max-w-3xl mx-auto"
           >
-            Gemiste Oproep → SMS Bericht
+            Tapt anrop → SMS-melding
           </motion.h1>
 
           <div className="mt-14 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
@@ -131,9 +131,9 @@ const Klantcommunicatie = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
               className="lg:col-span-3"
             >
-              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
+              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Se en kort demo</h2>
               <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm font-medium">Video binnenkort beschikbaar</p>
+                <p className="text-muted-foreground text-sm font-medium">Video kommer snart</p>
               </div>
             </motion.div>
           </div>
@@ -147,13 +147,13 @@ const Klantcommunicatie = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
           >
-            Wat is het klantcommunicatie systeem?
+            Hva er kundekommunikasjonssystemet?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Automatische opvolging van gemiste oproepen zodat je nooit meer een potentiële klant verliest.
+            Automatisk oppfølging av tapte anrop slik at du aldri mister en potensiell kunde igjen.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -184,11 +184,11 @@ const Klantcommunicatie = () => {
           >
             <div className="max-w-lg">
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-                Wil je zien hoe dit voor jouw bedrijf werkt?
+                Vil du se hvordan dette fungerer for din bedrift?
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-                Plan een kort gesprek en we laten je precies zien hoe het klantcommunicatie systeem
-                werkt voor jouw type aannemersbedrijf.
+                Book en kort samtale så viser vi deg nøyaktig hvordan kundekommunikasjonssystemet
+                fungerer for din type håndverkerbedrift.
               </p>
             </div>
             <Button
@@ -197,7 +197,7 @@ const Klantcommunicatie = () => {
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
             >
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -212,13 +212,13 @@ const Klantcommunicatie = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
           >
-            Hoe werkt het?
+            Hvordan fungerer det?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
           >
-            Van kennismaking tot livegang in drie eenvoudige stappen.
+            Fra bli-kjent-samtale til lansering i tre enkle trinn.
           </motion.p>
 
           <div className="mt-16 space-y-12">
@@ -254,23 +254,23 @@ const Klantcommunicatie = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
-            Nooit meer een klant missen?
+            Aldri miste en kunde igjen?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Boek een gratis demo en ontdek hoe automatische opvolging van gemiste oproepen jouw bedrijf kan laten groeien.
+            Bestill en gratis demo og oppdag hvordan automatisk oppfølging av tapte anrop kan få bedriften din til å vokse.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/diensten">Bekijk alle diensten</Link>
+              <Link to="/diensten">Se alle tjenester</Link>
             </Button>
           </motion.div>
         </div>

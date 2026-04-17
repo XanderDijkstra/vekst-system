@@ -22,169 +22,169 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "34%", description: "van aannemers zegt dat slechte planning hun grootste frustratie is." },
-  { value: "8 uur", description: "per week besteden aannemers gemiddeld aan plannen en coördineren." },
-  { value: "50%", description: "minder no-shows en dubbele boekingen met een centraal planningssysteem." },
+  { value: "34%", description: "av håndverkere sier dårlig planlegging er deres største frustrasjon." },
+  { value: "8 timer", description: "i uken bruker håndverkere i snitt på å planlegge og koordinere." },
+  { value: "50%", description: "færre no-shows og dobbeltbookinger med et sentralt planleggingssystem." },
 ];
 
 const problems = [
   {
-    title: "Planning verspreid over meerdere plekken",
-    description: "Excel-sheets, WhatsApp-groepen, papieren agenda's en Google Agenda door elkaar. Niemand weet precies wat de planning is en wijzigingen worden gemist.",
+    title: "Planlegging spredt på flere steder",
+    description: "Excel-ark, WhatsApp-grupper, papirkalendre og Google Kalender om hverandre. Ingen vet nøyaktig hva planleggingen er, og endringer blir oversett.",
   },
   {
-    title: "Dubbele boekingen en vergeten afspraken",
-    description: "Zonder centraal systeem gebeurt het regelmatig dat je team op de verkeerde plek staat of dat een klant vergeten wordt. Dat kost vertrouwen en geld.",
+    title: "Dobbeltbookinger og glemte avtaler",
+    description: "Uten et sentralt system skjer det regelmessig at teamet ditt står på feil sted eller at en kunde blir glemt. Det koster tillit og penger.",
   },
   {
-    title: "Klanten weten niet wanneer je komt",
-    description: "Klanten bellen om te vragen wanneer je langskomt. Je team weet het soms zelf ook niet zeker. Dit leidt tot frustratie aan beide kanten.",
+    title: "Kundene vet ikke når du kommer",
+    description: "Kunder ringer for å spørre når du kommer. Teamet ditt vet det noen ganger heller ikke sikkert selv. Dette fører til frustrasjon på begge sider.",
   },
   {
-    title: "Wijzigingen communiceren is een chaos",
-    description: "Als een project uitloopt of een afspraak verschuift, moet je iedereen handmatig informeren. Berichten worden gemist en mensen staan voor een dichte deur.",
+    title: "Å kommunisere endringer er et kaos",
+    description: "Hvis et prosjekt drar ut eller en avtale flyttes, må du informere alle manuelt. Meldinger blir oversett og folk står for lukket dør.",
   },
 ];
 
 const features = [
   {
     icon: CalendarDays,
-    title: "Centrale planning",
+    title: "Sentral planlegging",
     description:
-      "Eén overzichtelijke agenda voor je hele team. Iedereen ziet dezelfde planning - op kantoor, op de werf of onderweg.",
+      "Én oversiktlig kalender for hele teamet. Alle ser samme plan - på kontoret, på byggeplassen eller underveis.",
   },
   {
     icon: Users,
-    title: "Teamplanning & toewijzing",
+    title: "Teamplanlegging og tildeling",
     description:
-      "Wijs projecten toe aan specifieke teamleden. Zie direct wie beschikbaar is en wie waar aan het werk is.",
+      "Tildel prosjekter til bestemte teammedlemmer. Se direkte hvem som er tilgjengelig og hvem som jobber hvor.",
   },
   {
     icon: MapPin,
-    title: "Route optimalisatie",
+    title: "Ruteoptimalisering",
     description:
-      "Plan afspraken slim op basis van locatie. Minder rijden, meer productieve uren op de werf.",
+      "Planlegg avtaler smart basert på lokasjon. Mindre kjøring, mer produktive timer på byggeplassen.",
   },
   {
     icon: Bell,
-    title: "Automatische herinneringen",
+    title: "Automatiske påminnelser",
     description:
-      "Klanten ontvangen automatisch een herinnering de dag ervoor en een uur voor aankomst. Minder no-shows, meer professionaliteit.",
+      "Kundene mottar automatisk en påminnelse dagen før og en time før ankomst. Færre no-shows, mer profesjonalitet.",
   },
   {
     icon: LayoutGrid,
-    title: "Dag-, week- en maandoverzicht",
+    title: "Dag-, uke- og månedsoversikt",
     description:
-      "Bekijk je planning zoals het jou uitkomt. Zoom in op een enkele dag of bekijk de komende maand in één overzicht.",
+      "Se planleggingen slik det passer deg. Zoom inn på en enkelt dag eller se kommende måned i én oversikt.",
   },
   {
     icon: Smartphone,
-    title: "Mobiel toegankelijk",
+    title: "Tilgjengelig på mobil",
     description:
-      "Je team bekijkt en beheert de planning vanaf hun telefoon. Adresgegevens, klantnotities en routebeschrijving - alles bij de hand.",
+      "Teamet ditt ser og administrerer planleggingen fra telefonen. Adresser, kundenotater og veibeskrivelse - alt for hånden.",
   },
 ];
 
 const included = [
-  "Centrale teamagenda",
-  "Klant-afspraakbevestigingen",
-  "Automatische herinneringen (SMS)",
-  "Dag/week/maand overzicht",
-  "Teamlid toewijzing",
-  "Google Agenda sync",
-  "Klantnotities per afspraak",
-  "Mobiele toegang",
+  "Sentral teamkalender",
+  "Kundeavtalebekreftelser",
+  "Automatiske påminnelser (SMS)",
+  "Dag/uke/måned-oversikt",
+  "Tildeling til teammedlem",
+  "Synkronisering med Google Kalender",
+  "Kundenotater per avtale",
+  "Mobiltilgang",
 ];
 
 const steps = [
   {
     step: "01",
-    title: "Huidige planning analyseren",
-    duration: "30 minuten",
+    title: "Analysere dagens planlegging",
+    duration: "30 minutter",
     description:
-      "We bekijken hoe je nu plant en waar de knelpunten zitten. Welke informatie ontbreekt? Waar gaan dingen mis?",
+      "Vi ser på hvordan du planlegger nå og hvor flaskehalsene ligger. Hvilken informasjon mangler? Hvor går ting galt?",
   },
   {
     step: "02",
-    title: "Systeem inrichten",
-    duration: "3–5 dagen",
+    title: "Sette opp systemet",
+    duration: "3–5 dager",
     description:
-      "We zetten je planning op, importeren bestaande afspraken en configureren automatische herinneringen en notificaties.",
+      "Vi setter opp planleggingen din, importerer eksisterende avtaler og konfigurerer automatiske påminnelser og varsler.",
   },
   {
     step: "03",
-    title: "Team trainen & starten",
-    duration: "45 minuten",
+    title: "Opplæring av team og oppstart",
+    duration: "45 minutter",
     description:
-      "We zorgen dat jij en je team met het systeem kunnen werken. Daarna schakel je over en merk je direct het verschil.",
+      "Vi sørger for at du og teamet ditt kan jobbe med systemet. Deretter går du over og merker forskjellen umiddelbart.",
   },
 ];
 
 const faqs = [
   {
-    question: "Kunnen meerdere teamleden de planning bewerken?",
+    question: "Kan flere teammedlemmer redigere planleggingen?",
     answer:
-      "Ja. Elk teamlid kan de planning bekijken en - afhankelijk van de rechten die je instelt - ook bewerken. Wijzigingen zijn direct zichtbaar voor iedereen.",
+      "Ja. Hvert teammedlem kan se planleggingen og - avhengig av rettighetene du setter - også redigere. Endringene er umiddelbart synlige for alle.",
   },
   {
-    question: "Synchroniseert dit met Google Agenda?",
+    question: "Synkroniserer dette med Google Kalender?",
     answer:
-      "Ja. De planning synchroniseert met Google Agenda en Outlook. Afspraken verschijnen automatisch in je persoonlijke agenda.",
+      "Ja. Planleggingen synkroniserer med Google Kalender og Outlook. Avtaler vises automatisk i den personlige kalenderen din.",
   },
   {
-    question: "Ontvangen klanten automatisch een bericht?",
+    question: "Mottar kundene automatisk en melding?",
     answer:
-      "Ja. Bij het inplannen van een afspraak ontvangt de klant automatisch een bevestiging. De dag ervoor en een uur voor aankomst ontvangen ze een herinnering.",
+      "Ja. Når en avtale planlegges, mottar kunden automatisk en bekreftelse. Dagen før og en time før ankomst mottar de en påminnelse.",
   },
   {
-    question: "Kan ik de planning ook op mijn telefoon zien?",
+    question: "Kan jeg se planleggingen på telefonen også?",
     answer:
-      "Ja. De planning is volledig mobiel-responsief. Je team kan op de werf de planning bekijken, klantgegevens inzien en afspraken beheren.",
+      "Ja. Planleggingen er fullstendig mobiloptimalisert. Teamet ditt kan se planleggingen, sjekke kundeopplysninger og administrere avtaler på byggeplassen.",
   },
   {
-    question: "Wat als een project uitloopt?",
+    question: "Hva hvis et prosjekt drar ut?",
     answer:
-      "Je verschuift eenvoudig de vervolgafspraken in het systeem. Betrokken klanten worden automatisch geïnformeerd over de wijziging.",
+      "Du flytter enkelt de etterfølgende avtalene i systemet. Berørte kunder blir automatisk informert om endringen.",
   },
 ];
 
 const PlanningSysteem = () => (
   <PageShell>
     <Helmet>
-      <title>Planning Systeem voor Aannemers | Aannemer Systeem</title>
+      <title>Planleggingssystem for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Eén centraal planningssysteem voor je hele team. Automatische herinneringen, teamtoewijzing en mobiel toegankelijk. Nooit meer dubbele boekingen."
+        content="Ett sentralt planleggingssystem for hele teamet ditt. Automatiske påminnelser, teamtildeling og mobiltilgang. Aldri mer dobbeltbookinger."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/planning-systeem`} />
-      <meta property="og:title" content="Planning Systeem voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Centrale planning voor aannemers. Automatische herinneringen en mobiel toegankelijk." />
+      <meta property="og:title" content="Planleggingssystem for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Sentral planlegging for håndverkere. Automatiske påminnelser og mobiltilgang." />
       <meta property="og:url" content={`${SITE_URL}/diensten/planning-systeem`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Planning Systeem
+          Planleggingssystem
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Eén planning voor je hele team - altijd up-to-date
+          Én planlegging for hele teamet - alltid oppdatert
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Planning verspreid over Excel, WhatsApp en papieren agenda's zorgt voor chaos.
-          Eén centraal systeem brengt overzicht - voor jou, je team en je klanten.
+          Planlegging spredt på Excel, WhatsApp og papirkalendre skaper kaos.
+          Ett sentralt system gir oversikt - for deg, teamet ditt og kundene.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -207,10 +207,10 @@ const PlanningSysteem = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Herkenbaar?
+          Kjenner du deg igjen?
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          De planningsproblemen die aannemers herkennen
+          Planleggingsproblemene håndverkere kjenner igjen
         </motion.h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           {problems.map((item, i) => (
@@ -242,7 +242,7 @@ const PlanningSysteem = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Wat zit er in ons planning systeem?
+          Hva er med i planleggingssystemet vårt?
         </motion.h2>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, i) => (
@@ -267,10 +267,10 @@ const PlanningSysteem = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Inbegrepen
+          Inkludert
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Alles wat je nodig hebt voor een goede planning
+          Alt du trenger for god planlegging
         </motion.h2>
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {included.map((item, i) => (
@@ -297,10 +297,10 @@ const PlanningSysteem = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Klaar met planningschaos?
+              Ferdig med planleggingskaos?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Plan een kort gesprek en we laten je zien hoe een centraal planningssysteem je uren per week bespaart.
+              Book en kort samtale så viser vi deg hvordan et sentralt planleggingssystem sparer deg for timer hver uke.
             </p>
           </div>
           <Button
@@ -309,7 +309,7 @@ const PlanningSysteem = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -323,7 +323,7 @@ const PlanningSysteem = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          Hoe werkt het?
+          Hvordan fungerer det?
         </motion.h2>
         <div className="mt-16 space-y-12">
           {steps.map((step, i) => (
@@ -355,7 +355,7 @@ const PlanningSysteem = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -382,17 +382,17 @@ const PlanningSysteem = () => (
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container text-center">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight">
-          Klaar voor overzichtelijke planning?
+          Klar for oversiktlig planlegging?
         </motion.h2>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
-          Boek een gratis demo en ontdek hoe ons planningssysteem je team efficiënter maakt.
+          Bestill en gratis demo og oppdag hvordan planleggingssystemet vårt gjør teamet ditt mer effektivt.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link to="/demo">Boek een demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            <Link to="/demo">Bestill demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

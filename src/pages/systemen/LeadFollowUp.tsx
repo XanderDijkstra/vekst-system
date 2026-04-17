@@ -14,36 +14,36 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 /* ───── Stats ───── */
 const stats = [
-  { value: "70%", description: "van mensen reageert binnen 24 uur op SMS follow-ups." },
-  { value: "72%", description: "van aannemers verhoogt de omzet met automatische follow-ups." },
-  { value: "97%", description: "van mensen leest SMS-berichten binnen 24 uur." },
+  { value: "70%", description: "av folk svarer på SMS-oppfølginger innen 24 timer." },
+  { value: "72%", description: "av håndverkere øker omsetningen med automatiske oppfølginger." },
+  { value: "97%", description: "av folk leser SMS-meldinger innen 24 timer." },
 ];
 
 /* ───── Features ───── */
 const features = [
   {
     icon: FileText,
-    title: "Website Offerte Formulieren",
+    title: "Tilbudsskjema på nettsiden",
     description:
-      "Wanneer een klant je offerte-formulier invult, sturen wij automatisch een sms om het verzoek te bevestigen en het gesprek te starten. Zo val je op en weet de klant dat zijn aanvraag wordt behandeld.",
+      "Når en kunde fyller ut tilbudsskjemaet ditt, sender vi automatisk en SMS for å bekrefte forespørselen og starte samtalen. Slik skiller du deg ut, og kunden vet at henvendelsen blir behandlet.",
   },
   {
     icon: MessageCircle,
-    title: "Chat Widget",
+    title: "Chat-widget",
     description:
-      "Wanneer een klant de chat widget op je website gebruikt, sturen wij automatisch een sms om te bevestigen dat het verzoek is ontvangen. Dit onderscheidt je van de concurrentie en je krijgt direct een melding.",
+      "Når en kunde bruker chat-widgeten på nettsiden din, sender vi automatisk en SMS for å bekrefte at forespørselen er mottatt. Dette skiller deg fra konkurrentene, og du får umiddelbart en varsling.",
   },
   {
     icon: PhoneOff,
-    title: "Gemiste Oproep SMS",
+    title: "SMS ved tapt anrop",
     description:
-      "Wanneer een klant je niet bereikt, sturen wij automatisch een sms om te laten weten dat je hebt geprobeerd te bellen. Dit laat zien dat je klaarstaat om te helpen en je krijgt een melding om snel op te volgen.",
+      "Når en kunde ikke får tak i deg, sender vi automatisk en SMS for å informere om at du har prøvd å ringe. Dette viser at du er klar til å hjelpe, og du får en varsling slik at du raskt kan følge opp.",
   },
   {
     icon: Facebook,
-    title: "Instagram & Facebook Auto Responder",
+    title: "Instagram og Facebook Auto Responder",
     description:
-      "Wanneer een klant je een bericht stuurt op Facebook of Instagram, reageren wij automatisch om te laten weten dat je zo snel mogelijk terugkomt. Plus, je krijgt direct een melding.",
+      "Når en kunde sender deg en melding på Facebook eller Instagram, svarer vi automatisk for å si ifra om at du kommer tilbake så snart som mulig. I tillegg får du umiddelbart en varsling.",
   },
 ];
 
@@ -51,24 +51,24 @@ const features = [
 const steps = [
   {
     step: "01",
-    title: "Kennismakingsgesprek",
-    duration: "20 minuten",
+    title: "Bli-kjent-samtale",
+    duration: "20 minutter",
     description:
-      "We bespreken je huidige situatie, beantwoorden al je vragen en laten zien hoe het systeem werkt met resultaten van bestaande klanten.",
+      "Vi diskuterer situasjonen din, svarer på alle spørsmålene dine og viser hvordan systemet fungerer med resultater fra eksisterende kunder.",
   },
   {
     step: "02",
-    title: "Wij maken je systeem",
-    duration: "7–10 dagen",
+    title: "Vi bygger systemet ditt",
+    duration: "7–10 dager",
     description:
-      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna stellen wij je automatische lead follow-up in op al je kanalen.",
+      "Du fyller ut et kort onboarding-skjema med bedriftsopplysningene dine. Deretter setter vi opp automatisk lead-oppfølging på alle kanalene dine.",
   },
   {
     step: "03",
-    title: "Livegang & uitleg",
-    duration: "25 minuten",
+    title: "Lansering og gjennomgang",
+    duration: "25 minutter",
     description:
-      "We lopen samen door je nieuwe systeem, beantwoorden je vragen en laten zien hoe alles werkt. Daarna ga je live en wordt elke lead automatisch opgevolgd.",
+      "Vi går gjennom det nye systemet sammen, svarer på spørsmål og viser hvordan alt fungerer. Deretter går du live og hver lead blir automatisk fulgt opp.",
   },
 ];
 
@@ -76,14 +76,14 @@ const LeadFollowUp = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Lead Follow-Up Systeem | Aannemer Systeem</title>
-        <meta name="description" content="Automatische opvolging van nieuwe leads via SMS en e-mail. Verhoog je conversie met snelle, persoonlijke follow-ups." />
-        <link rel="canonical" href="https://aannemersysteem.com/diensten/lead-follow-up" />
-        <meta property="og:title" content="Lead Follow-Up Systeem | Aannemer Systeem" />
-        <meta property="og:description" content="Automatische opvolging van nieuwe leads via SMS en e-mail." />
-        <meta property="og:url" content="https://aannemersysteem.com/diensten/lead-follow-up" />
+        <title>Lead-oppfølgingssystem | Vekst Systemet</title>
+        <meta name="description" content="Automatisk oppfølging av nye leads via SMS og e-post. Øk konverteringen din med raske, personlige oppfølginger." />
+        <link rel="canonical" href="https://vekst-systemet.no/diensten/lead-follow-up" />
+        <meta property="og:title" content="Lead-oppfølgingssystem | Vekst Systemet" />
+        <meta property="og:description" content="Automatisk oppfølging av nye leads via SMS og e-post." />
+        <meta property="og:url" content="https://vekst-systemet.no/diensten/lead-follow-up" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
       </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
@@ -92,7 +92,7 @@ const LeadFollowUp = () => {
             {...fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center max-w-3xl mx-auto"
           >
-            Automatische SMS Lead Follow-Up
+            Automatisk SMS-lead-oppfølging
           </motion.h1>
 
           <div className="mt-14 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
@@ -115,9 +115,9 @@ const LeadFollowUp = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
               className="lg:col-span-3"
             >
-              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
+              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Se en kort demo</h2>
               <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm font-medium">Video binnenkort beschikbaar</p>
+                <p className="text-muted-foreground text-sm font-medium">Video kommer snart</p>
               </div>
             </motion.div>
           </div>
@@ -131,13 +131,13 @@ const LeadFollowUp = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
           >
-            Wat is automatische SMS lead follow-up?
+            Hva er automatisk SMS-lead-oppfølging?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Elke lead wordt automatisch opgevolgd via SMS - of die nu via je website, chat, telefoon of social media binnenkomt.
+            Hver lead blir automatisk fulgt opp via SMS - enten den kommer inn via nettsiden din, chatten, telefonen eller sosiale medier.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -168,11 +168,11 @@ const LeadFollowUp = () => {
           >
             <div className="max-w-lg">
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-                Wil je zien hoe dit voor jouw bedrijf werkt?
+                Vil du se hvordan dette fungerer for din bedrift?
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-                Plan een kort gesprek en we laten je precies zien hoe automatische lead follow-up
-                werkt voor jouw type aannemersbedrijf.
+                Book en kort samtale så viser vi deg nøyaktig hvordan automatisk lead-oppfølging
+                fungerer for din type håndverkerbedrift.
               </p>
             </div>
             <Button
@@ -181,7 +181,7 @@ const LeadFollowUp = () => {
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
             >
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -196,13 +196,13 @@ const LeadFollowUp = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
           >
-            Hoe werkt het?
+            Hvordan fungerer det?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
           >
-            Van kennismaking tot livegang in drie eenvoudige stappen.
+            Fra bli-kjent-samtale til lansering i tre enkle trinn.
           </motion.p>
 
           <div className="mt-16 space-y-12">
@@ -238,23 +238,23 @@ const LeadFollowUp = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
-            Klaar om elke lead automatisch op te volgen?
+            Klar for å følge opp hver lead automatisk?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Boek een gratis demo en ontdek hoe automatische SMS follow-up jouw conversie kan verhogen.
+            Bestill en gratis demo og oppdag hvordan automatisk SMS-oppfølging kan øke konverteringen din.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/diensten">Bekijk alle diensten</Link>
+              <Link to="/diensten">Se alle tjenester</Link>
             </Button>
           </motion.div>
         </div>

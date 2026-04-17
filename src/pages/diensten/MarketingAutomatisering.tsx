@@ -22,169 +22,169 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "72%", description: "van aannemers doet geen actieve marketing - en mist daardoor klanten." },
-  { value: "3,6x", description: "meer herhaalopdrachten door geautomatiseerde klantcampagnes." },
-  { value: "€0", description: "extra tijdsinvestering per campagne na de initiële opzet." },
+  { value: "72%", description: "av håndverkere driver ikke aktiv markedsføring - og mister dermed kunder." },
+  { value: "3,6x", description: "flere gjenkjøp gjennom automatiserte kundekampanjer." },
+  { value: "0 kr", description: "ekstra tidsinvestering per kampanje etter det første oppsettet." },
 ];
 
 const problems = [
   {
-    title: "Geen tijd voor marketing",
-    description: "Je staat de hele dag op de werf en hebt 's avonds geen energie meer om aan marketing te denken. Social media posts, e-mails en campagnes blijven liggen.",
+    title: "Ingen tid til markedsføring",
+    description: "Du står på byggeplassen hele dagen og har ikke energi om kvelden til å tenke på markedsføring. Innlegg på sosiale medier, e-poster og kampanjer blir liggende.",
   },
   {
-    title: "Bestaande klanten worden vergeten",
-    description: "Je hebt een lijst met tevreden klanten, maar je doet er niets mee. Seizoensgebonden werk, onderhoud en herhaalopdrachten - het blijft liggen omdat niemand ze benadert.",
+    title: "Eksisterende kunder blir glemt",
+    description: "Du har en liste med fornøyde kunder, men gjør ingenting med den. Sesongarbeid, vedlikehold og gjenkjøp - det blir liggende fordi ingen tar kontakt med dem.",
   },
   {
-    title: "Marketing voelt als geld weggooien",
-    description: "Je hebt misschien ooit iets geprobeerd - een Facebook-advertentie of een flyer - maar zonder systeem weet je niet wat werkt en wat niet.",
+    title: "Markedsføring føles som å kaste penger ut av vinduet",
+    description: "Du har kanskje prøvd noe en gang - en Facebook-annonse eller en flyer - men uten et system vet du ikke hva som fungerer og hva som ikke gjør det.",
   },
   {
-    title: "Je weet niet wat je moet communiceren",
-    description: "Wat stuur je naar klanten? Hoe vaak? Via welk kanaal? Zonder strategie voelt elke poging ongemakkelijk en ineffectief.",
+    title: "Du vet ikke hva du skal kommunisere",
+    description: "Hva sender du til kundene? Hvor ofte? Via hvilken kanal? Uten en strategi føles hvert forsøk ubehagelig og lite effektivt.",
   },
 ];
 
 const features = [
   {
     icon: Mail,
-    title: "E-mail & SMS campagnes",
+    title: "E-post- og SMS-kampanjer",
     description:
-      "Stuur gerichte campagnes naar je klantenlijst. Seizoensaanbiedingen, onderhoudstips of nieuwe diensten - alles automatisch en op het juiste moment.",
+      "Send målrettede kampanjer til kundelisten din. Sesongtilbud, vedlikeholdstips eller nye tjenester - alt automatisk og på riktig tidspunkt.",
   },
   {
     icon: Target,
-    title: "Segmentatie op maat",
+    title: "Skreddersydd segmentering",
     description:
-      "Stuur niet dezelfde boodschap naar iedereen. Segmenteer op type klant, locatie, eerder werk of interesse. Relevante berichten converteren beter.",
+      "Ikke send samme budskap til alle. Segmenter etter kundetype, lokasjon, tidligere arbeid eller interesser. Relevante meldinger konverterer bedre.",
   },
   {
     icon: Repeat,
-    title: "Terugkerende campagnes",
+    title: "Gjentakende kampanjer",
     description:
-      "Stel één keer in, draait elk seizoen. Dakgoot reiniging in het najaar, buitenschilderwerk in het voorjaar - automatische campagnes op het perfecte moment.",
+      "Sett opp én gang, kjører hver sesong. Takrennerens om høsten, utvendig maling om våren - automatiske kampanjer på perfekt tidspunkt.",
   },
   {
     icon: Megaphone,
-    title: "Social media integratie",
+    title: "Integrasjon med sosiale medier",
     description:
-      "Plan social media berichten vooruit en publiceer automatisch. Laat je werk zien op Facebook en Instagram zonder er dagelijks mee bezig te zijn.",
+      "Planlegg innlegg på sosiale medier på forhånd og publiser automatisk. Vis frem arbeidet ditt på Facebook og Instagram uten å måtte drive med det daglig.",
   },
   {
     icon: Users,
-    title: "Reactivatie van oude klanten",
+    title: "Reaktivering av gamle kunder",
     description:
-      "Klanten die je langer dan 6 maanden niet hebt gesproken krijgen automatisch een bericht. 'Hoe gaat het met het schilderwerk?' levert verrassend vaak een nieuwe opdracht op.",
+      "Kunder du ikke har snakket med på over 6 måneder får automatisk en melding. 'Hvordan går det med malingen?' gir overraskende ofte en ny oppdrag.",
   },
   {
     icon: BarChart3,
-    title: "Meetbare resultaten",
+    title: "Målbare resultater",
     description:
-      "Zie precies hoeveel mensen je campagne openen, klikken en contact opnemen. Geen onderbuikgevoel, maar harde cijfers over wat werkt.",
+      "Se nøyaktig hvor mange som åpner kampanjen din, klikker og tar kontakt. Ingen magefølelse, men harde tall på hva som fungerer.",
   },
 ];
 
 const campaignExamples = [
-  "Seizoensgebonden aanbiedingen (voorjaar/najaar)",
-  "Onderhouds-herinneringen voor bestaande klanten",
-  "Nieuwjaarsactie met korting op vroegboeken",
-  "Reactivatie-campagne voor inactieve klanten",
-  "Nieuwsbrief met projectupdates en tips",
-  "Referral-campagne: klant-werft-klant",
-  "Review-verzoek campagne na oplevering",
-  "Welkomstsequentie voor nieuwe leads",
+  "Sesongtilbud (vår/høst)",
+  "Vedlikeholdspåminnelser til eksisterende kunder",
+  "Nyttårskampanje med rabatt ved tidlig bestilling",
+  "Reaktiveringskampanje for inaktive kunder",
+  "Nyhetsbrev med prosjektoppdateringer og tips",
+  "Referanse-kampanje: kunde verver kunde",
+  "Anmeldelsesforespørsel-kampanje etter levering",
+  "Velkomstsekvens for nye leads",
 ];
 
 const steps = [
   {
     step: "01",
-    title: "Marketing strategie bepalen",
-    duration: "30 minuten",
+    title: "Bestemme markedsstrategi",
+    duration: "30 minutter",
     description:
-      "We bepalen welke campagnes het meeste opleveren voor jouw type werk. Seizoensgebonden? Reactivatie? Referrals? We kiezen de best passende aanpak.",
+      "Vi bestemmer hvilke kampanjer som gir mest for din type arbeid. Sesongbasert? Reaktivering? Referanser? Vi velger den best tilpassede tilnærmingen.",
   },
   {
     step: "02",
-    title: "Campagnes bouwen & inplannen",
-    duration: "1 week",
+    title: "Bygge og planlegge kampanjer",
+    duration: "1 uke",
     description:
-      "We schrijven de berichten, ontwerpen de e-mails en stellen alles in. Triggers, timing en segmentatie - alles wordt geconfigureerd.",
+      "Vi skriver meldingene, designer e-postene og setter opp alt. Triggere, timing og segmentering - alt konfigureres.",
   },
   {
     step: "03",
-    title: "Automatisch draaien & optimaliseren",
-    duration: "doorlopend",
+    title: "Automatisk kjøring og optimalisering",
+    duration: "løpende",
     description:
-      "De campagnes draaien op de achtergrond. We monitoren de resultaten en optimaliseren op basis van open rates, clicks en conversies.",
+      "Kampanjene kjører i bakgrunnen. Vi overvåker resultatene og optimaliserer basert på åpningsrater, klikk og konverteringer.",
   },
 ];
 
 const faqs = [
   {
-    question: "Hoeveel tijd kost marketing automatisering mij?",
+    question: "Hvor mye tid koster markedsføringsautomatisering meg?",
     answer:
-      "Na de initiële opzet kost het je vrijwel geen tijd. De campagnes draaien automatisch. Je hoeft alleen af en toe de resultaten te bekijken en eventueel content goed te keuren.",
+      "Etter det første oppsettet tar det knapt tid. Kampanjene kjører automatisk. Du trenger bare av og til å se på resultatene og eventuelt godkjenne innhold.",
   },
   {
-    question: "Heb ik een grote klantenlijst nodig?",
+    question: "Trenger jeg en stor kundeliste?",
     answer:
-      "Nee. Zelfs met een lijst van 50 contacten kun je effectieve campagnes draaien. De lijst groeit automatisch naarmate je meer leads en klanten verzamelt via je website.",
+      "Nei. Selv med en liste på 50 kontakter kan du kjøre effektive kampanjer. Listen vokser automatisk etter hvert som du samler flere leads og kunder via nettsiden.",
   },
   {
-    question: "Schrijven jullie de campagne-teksten?",
+    question: "Skriver dere kampanjetekstene?",
     answer:
-      "Ja. Wij schrijven alle e-mails, SMS-berichten en social media posts. In jouw toon en stijl. Je keurt alles goed voordat het live gaat.",
+      "Ja. Vi skriver alle e-poster, SMS-meldinger og innlegg på sosiale medier. I din tone og stil. Du godkjenner alt før det går live.",
   },
   {
-    question: "Kunnen klanten zich afmelden?",
+    question: "Kan kunder melde seg av?",
     answer:
-      "Ja, uiteraard. Elke e-mail bevat een afmeldlink conform de AVG. Afmeldingen worden automatisch verwerkt zodat je altijd compliant bent.",
+      "Ja, selvfølgelig. Hver e-post inneholder en avmeldingslenke i henhold til GDPR. Avmeldinger behandles automatisk slik at du alltid er compliant.",
   },
   {
-    question: "Wat levert marketing automatisering concreet op?",
+    question: "Hva gir markedsføringsautomatisering konkret?",
     answer:
-      "Onze klanten zien gemiddeld 20-30% meer herhaalopdrachten en 15% meer referrals. De exacte resultaten hangen af van je type werk, seizoen en klantenbestand.",
+      "Kundene våre ser i snitt 20-30 % flere gjenkjøp og 15 % flere referanser. De nøyaktige resultatene avhenger av typen arbeid, sesong og kundebase.",
   },
 ];
 
 const MarketingAutomatisering = () => (
   <PageShell>
     <Helmet>
-      <title>Marketing Automatisering voor Aannemers | Aannemer Systeem</title>
+      <title>Markedsføringsautomatisering for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Automatische marketingcampagnes die draaien terwijl jij op de werf staat. E-mail, SMS en social media - zonder tijdsinvestering."
+        content="Automatiske markedsføringskampanjer som kjører mens du står på byggeplassen. E-post, SMS og sosiale medier - uten tidsinvestering."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/marketing-automatisering`} />
-      <meta property="og:title" content="Marketing Automatisering voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Automatische campagnes die klanten opleveren terwijl jij op de werf staat." />
+      <meta property="og:title" content="Markedsføringsautomatisering for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Automatiske kampanjer som gir kunder mens du står på byggeplassen." />
       <meta property="og:url" content={`${SITE_URL}/diensten/marketing-automatisering`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Marketing Automatisering
+          Markedsføringsautomatisering
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Marketing die draait terwijl jij op de werf staat
+          Markedsføring som kjører mens du står på byggeplassen
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          De meeste aannemers weten dat marketing belangrijk is, maar hebben er geen tijd voor.
-          Onze automatische campagnes draaien op de achtergrond en leveren klanten op - zonder dat jij er iets voor hoeft te doen.
+          De fleste håndverkere vet at markedsføring er viktig, men har ikke tid til det.
+          Våre automatiske kampanjer kjører i bakgrunnen og gir kunder - uten at du trenger å gjøre noe.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -207,10 +207,10 @@ const MarketingAutomatisering = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Herkenbaar?
+          Kjenner du deg igjen?
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Waarom de meeste aannemers geen marketing doen
+          Hvorfor de fleste håndverkere ikke driver markedsføring
         </motion.h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           {problems.map((item, i) => (
@@ -242,13 +242,13 @@ const MarketingAutomatisering = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Wat wij automatiseren
+          Hva vi automatiserer
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Campagnes die automatisch de juiste boodschap op het juiste moment versturen.
+          Kampanjer som automatisk sender riktig budskap på riktig tidspunkt.
         </motion.p>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, i) => (
@@ -273,10 +273,10 @@ const MarketingAutomatisering = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Voorbeelden
+          Eksempler
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Campagnes die wij voor je opzetten
+          Kampanjer vi setter opp for deg
         </motion.h2>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {campaignExamples.map((item, i) => (
@@ -303,10 +303,10 @@ const MarketingAutomatisering = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Hoeveel herhaalopdrachten laat jij liggen?
+              Hvor mange gjenkjøp lar du ligge?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Plan een kort gesprek en we laten je zien welke campagnes het meeste opleveren voor jouw bedrijf.
+              Book en kort samtale så viser vi deg hvilke kampanjer som gir mest for bedriften din.
             </p>
           </div>
           <Button
@@ -315,7 +315,7 @@ const MarketingAutomatisering = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -329,7 +329,7 @@ const MarketingAutomatisering = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          Hoe werkt het?
+          Hvordan fungerer det?
         </motion.h2>
         <div className="mt-16 space-y-12">
           {steps.map((step, i) => (
@@ -361,7 +361,7 @@ const MarketingAutomatisering = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -388,17 +388,17 @@ const MarketingAutomatisering = () => (
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container text-center">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight">
-          Klaar om marketing op autopilot te zetten?
+          Klar for å sette markedsføringen på autopilot?
         </motion.h2>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
-          Boek een gratis demo en ontdek hoe automatische campagnes jou meer klanten opleveren.
+          Bestill en gratis demo og oppdag hvordan automatiske kampanjer gir deg flere kunder.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link to="/demo">Boek een demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            <Link to="/demo">Bestill demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

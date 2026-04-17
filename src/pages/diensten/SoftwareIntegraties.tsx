@@ -21,154 +21,154 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "73%", description: "van aannemers gebruikt 3+ losse tools die niet met elkaar communiceren." },
-  { value: "6 uur", description: "per week gaat verloren aan handmatig data overzetten tussen systemen." },
-  { value: "89%", description: "minder fouten wanneer data automatisch doorstroomt tussen tools." },
+  { value: "73%", description: "av håndverkere bruker 3+ separate verktøy som ikke kommuniserer med hverandre." },
+  { value: "6 timer", description: "i uken går tapt til manuell overføring av data mellom systemer." },
+  { value: "89%", description: "færre feil når data flyter automatisk mellom verktøy." },
 ];
 
 const features = [
   {
     icon: Link2,
-    title: "Alles aan elkaar gekoppeld",
+    title: "Alt koblet sammen",
     description:
-      "Je website, CRM, boekhouding en planning praten met elkaar. Een nieuwe lead op je website verschijnt automatisch in je CRM en planning.",
+      "Nettsiden din, CRM, regnskap og planlegging snakker med hverandre. En ny lead på nettsiden dukker automatisk opp i CRM-systemet og planleggingen din.",
   },
   {
     icon: Database,
-    title: "Eén bron van waarheid",
+    title: "Én sannhetskilde",
     description:
-      "Geen dubbele data meer in verschillende systemen. Klantgegevens, projecten en communicatie staan op één centrale plek en worden overal gesynchroniseerd.",
+      "Ingen duplikatdata i forskjellige systemer lenger. Kundeopplysninger, prosjekter og kommunikasjon ligger på ett sentralt sted og synkroniseres overalt.",
   },
   {
     icon: Workflow,
-    title: "Naadloze workflows",
+    title: "Sømløse arbeidsflyter",
     description:
-      "Van offerte-aanvraag tot factuur - elke stap triggert automatisch de volgende actie in het juiste systeem. Geen handmatig overtypen.",
+      "Fra tilbudsforespørsel til faktura - hvert steg utløser automatisk neste handling i riktig system. Ingen manuell overføring.",
   },
   {
     icon: BarChart3,
-    title: "Gecombineerde rapportages",
+    title: "Kombinerte rapporter",
     description:
-      "Zie in één dashboard data uit al je systemen. Hoeveel leads, offertes, projecten en omzet - zonder zelf spreadsheets samen te voegen.",
+      "Se i ett dashboard data fra alle systemene dine. Hvor mange leads, tilbud, prosjekter og omsetning - uten å slå sammen regneark selv.",
   },
   {
     icon: Shield,
-    title: "Betrouwbaar & veilig",
+    title: "Pålitelig og sikkert",
     description:
-      "Alle koppelingen worden beveiligd opgezet en gemonitord. Als er iets misgaat, krijg je een melding en grijpen wij in.",
+      "Alle koblinger settes opp og overvåkes sikkert. Hvis noe går galt, får du et varsel og vi griper inn.",
   },
   {
     icon: Plug,
-    title: "Koppeling met bestaande tools",
+    title: "Kobling til eksisterende verktøy",
     description:
-      "Je hoeft niet alles te vervangen. Wij koppelen aan wat je al gebruikt - van Exact en Moneybird tot Google Agenda en WhatsApp Business.",
+      "Du trenger ikke erstatte alt. Vi kobler til det du allerede bruker - fra Tripletex og Fiken til Google Kalender og WhatsApp Business.",
   },
 ];
 
 const integrations = [
-  "Google Mijn Bedrijf",
-  "Google Agenda",
+  "Google Min Bedrift",
+  "Google Kalender",
   "WhatsApp Business",
-  "Exact Online",
-  "Moneybird",
+  "Tripletex",
+  "Fiken",
   "Mailchimp",
-  "Facebook & Instagram",
+  "Facebook og Instagram",
   "Zapier",
   "Google Analytics",
   "Microsoft Outlook",
-  "Stripe / Mollie",
-  "Custom API koppelingen",
+  "Stripe / Vipps",
+  "Egendefinerte API-koblinger",
 ];
 
 const steps = [
   {
     step: "01",
-    title: "Inventarisatie van je toolstack",
-    duration: "30 minuten",
+    title: "Kartlegging av verktøyene dine",
+    duration: "30 minutter",
     description:
-      "We brengen in kaart welke tools je gebruikt en hoe data nu tussen systemen beweegt (of juist niet). Waar zijn de knelpunten?",
+      "Vi kartlegger hvilke verktøy du bruker og hvordan data beveger seg mellom systemer nå (eller ikke). Hvor er flaskehalsene?",
   },
   {
     step: "02",
-    title: "Koppelingen bouwen & testen",
-    duration: "1–2 weken",
+    title: "Bygge og teste koblinger",
+    duration: "1–2 uker",
     description:
-      "We bouwen de integraties, testen elke dataflow en zorgen dat alles betrouwbaar samenwerkt. Inclusief foutafhandeling en monitoring.",
+      "Vi bygger integrasjonene, tester hver dataflyt og sørger for at alt fungerer pålitelig sammen. Inkludert feilhåndtering og overvåking.",
   },
   {
     step: "03",
-    title: "Livegang & monitoring",
-    duration: "doorlopend",
+    title: "Lansering og overvåking",
+    duration: "løpende",
     description:
-      "Na livegang monitoren we alle koppelingen. Als een API wijzigt of een integratie hapert, grijpen we direct in.",
+      "Etter lansering overvåker vi alle koblingene. Hvis en API endres eller en integrasjon svikter, griper vi umiddelbart inn.",
   },
 ];
 
 const faqs = [
   {
-    question: "Welke software kunnen jullie koppelen?",
+    question: "Hvilken programvare kan dere koble sammen?",
     answer:
-      "We koppelen aan vrijwel elke moderne software die een API aanbiedt. Denk aan boekhoudsoftware (Exact, Moneybird), planningstools, e-mailplatformen, social media en betalingsproviders. Vraag gerust naar jouw specifieke tools.",
+      "Vi kobler til stort sett all moderne programvare som tilbyr et API. Tenk på regnskapsprogramvare (Tripletex, Fiken), planleggingsverktøy, e-postplattformer, sosiale medier og betalingsleverandører. Spør gjerne om dine spesifikke verktøy.",
   },
   {
-    question: "Moet ik mijn huidige software vervangen?",
+    question: "Må jeg erstatte dagens programvare?",
     answer:
-      "Nee. Het idee is juist dat je bestaande tools beter gaan samenwerken. Alleen als een tool echt verouderd is of geen koppeling mogelijk maakt, adviseren we een alternatief.",
+      "Nei. Idéen er nettopp at de eksisterende verktøyene dine begynner å samarbeide bedre. Kun hvis et verktøy er virkelig utdatert eller ikke tillater koblinger, anbefaler vi et alternativ.",
   },
   {
-    question: "Hoe lang duurt het om alles te koppelen?",
+    question: "Hvor lang tid tar det å koble alt sammen?",
     answer:
-      "Standaard koppelingen (zoals Google, WhatsApp, boekhoudsoftware) zijn vaak binnen een paar dagen klaar. Complexere of custom integraties kunnen 1 tot 2 weken duren.",
+      "Standard koblinger (som Google, WhatsApp, regnskapsprogramvare) er ofte ferdige på noen få dager. Mer komplekse eller egendefinerte integrasjoner kan ta 1 til 2 uker.",
   },
   {
-    question: "Wat als een koppeling stopt met werken?",
+    question: "Hva hvis en kobling slutter å fungere?",
     answer:
-      "Alle integraties worden gemonitord. Als er iets misgaat - bijvoorbeeld door een API-update - krijgen we automatisch een melding en lossen we het op. Support zit inbegrepen.",
+      "Alle integrasjonene overvåkes. Hvis noe går galt - for eksempel på grunn av en API-oppdatering - får vi automatisk et varsel og løser det. Support er inkludert.",
   },
   {
-    question: "Kost dit extra bovenop het standaard abonnement?",
+    question: "Koster dette ekstra utover standardabonnementet?",
     answer:
-      "De standaard koppelingen zitten inbegrepen in je abonnement. Voor complexe custom integraties maken we een maatwerkofferte, zodat je precies weet waar je aan toe bent.",
+      "Standardkoblingene er inkludert i abonnementet ditt. For komplekse egendefinerte integrasjoner lager vi et skreddersydd tilbud, slik at du vet nøyaktig hva du kan forvente.",
   },
 ];
 
 const SoftwareIntegraties = () => (
   <PageShell>
     <Helmet>
-      <title>Software Integraties voor Aannemers | Aannemer Systeem</title>
+      <title>Programvareintegrasjoner for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Koppel je bestaande software tools aan elkaar zodat data automatisch doorstroomt. Geen dubbel werk, geen fouten, één centraal systeem."
+        content="Koble eksisterende programvareverktøy sammen slik at data flyter automatisk. Ingen dobbeltarbeid, ingen feil, ett sentralt system."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/software-integraties`} />
-      <meta property="og:title" content="Software Integraties voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Koppel je bestaande tools en laat ze naadloos samenwerken." />
+      <meta property="og:title" content="Programvareintegrasjoner for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Koble eksisterende verktøy sammen og la dem samarbeide sømløst." />
       <meta property="og:url" content={`${SITE_URL}/diensten/software-integraties`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Integraties
+          Integrasjoner
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Laat je tools met elkaar praten
+          La verktøyene dine snakke sammen
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          De meeste aannemers gebruiken meerdere tools die niet met elkaar communiceren.
-          Wij koppelen alles aan elkaar zodat data automatisch doorstroomt en je niet meer dubbel werk doet.
+          De fleste håndverkere bruker flere verktøy som ikke kommuniserer med hverandre.
+          Vi kobler alt sammen slik at data flyter automatisk og du slipper dobbeltarbeid.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -194,13 +194,13 @@ const SoftwareIntegraties = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Waarom software integraties essentieel zijn
+          Hvorfor programvareintegrasjoner er avgjørende
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Stop met handmatig kopiëren en plakken. Laat je systemen het werk doen.
+          Slutt med manuell kopiering og liming. La systemene gjøre jobben.
         </motion.p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -226,10 +226,10 @@ const SoftwareIntegraties = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Koppelingen
+          Koblinger
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Tools die wij koppelen
+          Verktøy vi kobler sammen
         </motion.h2>
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {integrations.map((item, i) => (
@@ -256,10 +256,10 @@ const SoftwareIntegraties = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Gebruik je tools die niet samenwerken?
+              Bruker du verktøy som ikke samarbeider?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Laat ons kijken welke koppelingen mogelijk zijn en hoeveel tijd je kunt besparen.
+              La oss se på hvilke koblinger som er mulige og hvor mye tid du kan spare.
             </p>
           </div>
           <Button
@@ -268,7 +268,7 @@ const SoftwareIntegraties = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -282,13 +282,13 @@ const SoftwareIntegraties = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          Hoe werkt het?
+          Hvordan fungerer det?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
         >
-          Van inventarisatie tot naadloos gekoppelde systemen in drie stappen.
+          Fra kartlegging til sømløst koblede systemer i tre trinn.
         </motion.p>
 
         <div className="mt-16 space-y-12">
@@ -321,7 +321,7 @@ const SoftwareIntegraties = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -351,22 +351,22 @@ const SoftwareIntegraties = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight"
         >
-          Klaar om je tools te laten samenwerken?
+          Klar for å få verktøyene dine til å samarbeide?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
         >
-          Boek een gratis demo en ontdek welke integraties het meeste opleveren voor jouw bedrijf.
+          Bestill en gratis demo og oppdag hvilke integrasjoner som gir mest for bedriften din.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

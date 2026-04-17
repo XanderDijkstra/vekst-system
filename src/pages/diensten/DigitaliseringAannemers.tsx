@@ -22,119 +22,119 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "62%", description: "van aannemers werkt nog met papieren processen die dagelijks tijd kosten." },
-  { value: "4,5 uur", description: "per week besteden aannemers gemiddeld aan administratie die geautomatiseerd kan worden." },
-  { value: "3x", description: "sneller werken bedrijven die hun processen hebben gedigitaliseerd." },
+  { value: "62%", description: "av håndverkere jobber fortsatt med papirprosesser som koster tid hver dag." },
+  { value: "4,5 timer", description: "i uken bruker håndverkere i snitt på administrasjon som kan automatiseres." },
+  { value: "3x", description: "raskere jobber bedrifter som har digitalisert prosessene sine." },
 ];
 
 const features = [
   {
     icon: FileText,
-    title: "Digitale offertes & facturen",
+    title: "Digitale tilbud og fakturaer",
     description:
-      "Maak en verstuur professionele offertes en facturen vanaf je telefoon. Klanten kunnen direct online akkoord geven en je houdt alles overzichtelijk bij.",
+      "Lag og send profesjonelle tilbud og fakturaer fra telefonen. Kunder kan godkjenne direkte på nett, og du holder oversikt over alt.",
   },
   {
     icon: Globe,
-    title: "Professionele online aanwezigheid",
+    title: "Profesjonell tilstedeværelse på nett",
     description:
-      "Een moderne website die 24/7 voor je werkt. Potentiële klanten vinden je online, zien je werk en kunnen direct een offerte aanvragen.",
+      "En moderne nettside som jobber for deg 24/7. Potensielle kunder finner deg på nett, ser arbeidet ditt og kan be om tilbud direkte.",
   },
   {
     icon: Smartphone,
-    title: "Alles op je telefoon",
+    title: "Alt på telefonen",
     description:
-      "Beheer je bedrijf vanaf de bouwplaats. Berichten, leads, planning en klantgegevens - allemaal toegankelijk op je mobiel.",
+      "Styr bedriften fra byggeplassen. Meldinger, leads, planlegging og kundeopplysninger - alt tilgjengelig på mobilen.",
   },
   {
     icon: Cloud,
-    title: "Klantgegevens in de cloud",
+    title: "Kundeopplysninger i skyen",
     description:
-      "Geen losse briefjes of Excel-sheets meer. Al je klantgegevens, projecten en communicatie staan veilig op één centrale plek.",
+      "Slutt på løse lapper og Excel-ark. Alle kundeopplysninger, prosjekter og kommunikasjon ligger trygt på ett sentralt sted.",
   },
   {
     icon: TrendingUp,
-    title: "Inzicht in je bedrijfsprestaties",
+    title: "Innsikt i bedriftens ytelse",
     description:
-      "Zie in één dashboard hoeveel leads er binnenkomen, hoeveel offertes je verstuurt en wat je conversieratio is. Data in plaats van onderbuikgevoel.",
+      "Se i ett dashboard hvor mange leads som kommer inn, hvor mange tilbud du sender og hva konverteringsraten din er. Data i stedet for magefølelse.",
   },
   {
     icon: Users,
-    title: "Betere klantcommunicatie",
+    title: "Bedre kundekommunikasjon",
     description:
-      "Automatische bevestigingen, herinneringen en updates. Je klanten weten altijd waar ze aan toe zijn, zonder dat jij er tijd aan kwijt bent.",
+      "Automatiske bekreftelser, påminnelser og oppdateringer. Kundene dine vet alltid hvor de står, uten at du bruker tid på det.",
   },
 ];
 
 const steps = [
   {
     step: "01",
-    title: "Analyse van je huidige processen",
-    duration: "30 minuten",
+    title: "Analyse av dagens prosesser",
+    duration: "30 minutter",
     description:
-      "We brengen in kaart hoe je nu werkt: van eerste klantcontact tot facturatie. Waar verlies je tijd? Waar gaan leads verloren? Dit vormt de basis voor je digitale strategie.",
+      "Vi kartlegger hvordan du jobber nå: fra første kundekontakt til fakturering. Hvor taper du tid? Hvor går leads tapt? Dette danner grunnlaget for den digitale strategien din.",
   },
   {
     step: "02",
-    title: "Implementatie op maat",
-    duration: "1–2 weken",
+    title: "Skreddersydd implementering",
+    duration: "1–2 uker",
     description:
-      "We zetten je digitale systemen op: website, CRM, automatische opvolging en communicatietools. Alles wordt afgestemd op jouw type werk en werkwijze.",
+      "Vi setter opp de digitale systemene dine: nettside, CRM, automatisk oppfølging og kommunikasjonsverktøy. Alt blir tilpasset din type arbeid og arbeidsmåte.",
   },
   {
     step: "03",
-    title: "Training & livegang",
-    duration: "45 minuten",
+    title: "Opplæring og lansering",
+    duration: "45 minutter",
     description:
-      "We lopen samen door alle systemen, beantwoorden je vragen en zorgen dat je team ermee kan werken. Daarna ga je live en merk je direct het verschil.",
+      "Vi går gjennom alle systemene sammen, svarer på spørsmål og sørger for at teamet ditt kan bruke dem. Deretter går du live og merker forskjellen umiddelbart.",
   },
 ];
 
 const faqs = [
   {
-    question: "Moet ik technisch onderlegd zijn om dit te gebruiken?",
+    question: "Må jeg være teknisk kyndig for å bruke dette?",
     answer:
-      "Absoluut niet. Onze systemen zijn gebouwd voor aannemers, niet voor IT-specialisten. Als je een smartphone kunt bedienen, kun je hiermee werken. Bovendien krijg je volledige uitleg en ondersteuning.",
+      "Absolutt ikke. Systemene våre er bygget for håndverkere, ikke IT-spesialister. Kan du betjene en smarttelefon, kan du jobbe med dette. I tillegg får du full forklaring og støtte.",
   },
   {
-    question: "Hoe lang duurt het voordat alles draait?",
+    question: "Hvor lang tid tar det før alt er oppe å gå?",
     answer:
-      "De meeste bedrijven zijn binnen 1 tot 2 weken volledig operationeel. De website en basis-systemen staan er vaak al binnen een week. Complexere integraties kunnen iets langer duren.",
+      "De fleste bedrifter er fullt operative innen 1 til 2 uker. Nettsiden og grunnsystemene er ofte på plass innen en uke. Mer komplekse integrasjoner kan ta litt lenger tid.",
   },
   {
-    question: "Kan ik mijn bestaande tools blijven gebruiken?",
+    question: "Kan jeg fortsette å bruke de eksisterende verktøyene mine?",
     answer:
-      "Ja. We bouwen geen gesloten systeem, maar koppelen waar mogelijk aan je bestaande tools. Gebruik je al een boekhoudprogramma of planningssoftware? Dan zorgen we dat de data doorstroomt.",
+      "Ja. Vi bygger ikke et lukket system, men kobler til eksisterende verktøy der det er mulig. Bruker du allerede et regnskapsprogram eller planleggingsprogramvare? Da sørger vi for at dataene flyter.",
   },
   {
-    question: "Wat kost digitalisering voor mijn bedrijf?",
+    question: "Hva koster digitalisering for bedriften min?",
     answer:
-      "We werken met een vast maandelijks tarief van €279 per maand. Daarin zit alles: website, automatisering, onderhoud en support. Geen verrassingen, geen verborgen kosten.",
+      "Vi jobber med en fast månedspris på 2 990 kr per måned. Alt er inkludert: nettside, automatisering, vedlikehold og support. Ingen overraskelser, ingen skjulte kostnader.",
   },
   {
-    question: "Wat als ik al een website heb?",
+    question: "Hva hvis jeg allerede har en nettside?",
     answer:
-      "Dan bekijken we samen of je huidige website voldoet of dat een upgrade nodig is. In veel gevallen bouwen we een nieuwe website die specifiek is ingericht op lead generatie - maar we dwingen niets af.",
+      "Da ser vi sammen på om nettsiden din holder mål eller om den trenger en oppgradering. I mange tilfeller bygger vi en ny nettside som er spesifikt innrettet for lead-generering - men vi tvinger ingenting.",
   },
 ];
 
 const DigitaliseringAannemers = () => (
   <PageShell>
     <Helmet>
-      <title>Digitalisering voor Aannemers | Aannemer Systeem</title>
+      <title>Digitalisering for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Van papier naar digitaal. Wij helpen aannemers de stap te maken naar digitale processen die tijd besparen, fouten voorkomen en meer klanten opleveren."
+        content="Fra papir til digitalt. Vi hjelper håndverkere med overgangen til digitale prosesser som sparer tid, forhindrer feil og gir flere kunder."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/digitalisering-aannemers`} />
-      <meta property="og:title" content="Digitalisering voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Van papier naar digitaal. Wij helpen aannemers digitaliseren." />
+      <meta property="og:title" content="Digitalisering for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Fra papir til digitalt. Vi hjelper håndverkere å digitalisere." />
       <meta property="og:url" content={`${SITE_URL}/diensten/digitalisering-aannemers`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
@@ -147,14 +147,14 @@ const DigitaliseringAannemers = () => (
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Van papier naar digitaal - zonder gedoe
+          Fra papir til digitalt - uten krøll
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          De meeste aannemers werken nog met losse briefjes, Excel-sheets en WhatsApp-groepen.
-          Wij helpen je de stap te maken naar digitale systemen die écht werken op de bouwplaats.
+          De fleste håndverkere jobber fortsatt med løse lapper, Excel-ark og WhatsApp-grupper.
+          Vi hjelper deg med overgangen til digitale systemer som faktisk fungerer på byggeplassen.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -180,13 +180,13 @@ const DigitaliseringAannemers = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Wat betekent digitalisering voor jouw bedrijf?
+          Hva betyr digitalisering for bedriften din?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Geen ingewikkelde software, maar praktische tools die aansluiten bij hoe aannemers werken.
+          Ingen komplisert programvare, men praktiske verktøy som passer til hvordan håndverkere jobber.
         </motion.p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -212,25 +212,25 @@ const DigitaliseringAannemers = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Wat je krijgt
+          Hva du får
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Eén systeem voor je hele bedrijf
+          Ett system for hele bedriften
         </motion.h2>
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {[
-            "Professionele website",
-            "Online offerteformulier",
-            "Automatische lead opvolging",
-            "Gemiste oproep → SMS",
-            "Google Reviews verzamelen",
-            "Klant-CRM systeem",
-            "E-mail & SMS campagnes",
-            "Centrale inbox",
-            "Mobiele app",
-            "Rapportage dashboard",
-            "SEO optimalisatie",
-            "Hosting & onderhoud",
+            "Profesjonell nettside",
+            "Tilbudsskjema på nett",
+            "Automatisk lead-oppfølging",
+            "Tapt anrop → SMS",
+            "Samle inn Google-anmeldelser",
+            "Kunde-CRM-system",
+            "E-post- og SMS-kampanjer",
+            "Sentral innboks",
+            "Mobilapp",
+            "Rapportdashboard",
+            "SEO-optimalisering",
+            "Hosting og vedlikehold",
           ].map((item, i) => (
             <motion.div
               key={item}
@@ -255,10 +255,10 @@ const DigitaliseringAannemers = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Benieuwd wat digitalisering voor jouw bedrijf kan betekenen?
+              Nysgjerrig på hva digitalisering kan bety for bedriften din?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Plan een kort gesprek en we laten je zien hoe andere aannemers hun bedrijf hebben getransformeerd.
+              Book en kort samtale så viser vi deg hvordan andre håndverkere har transformert bedriften sin.
             </p>
           </div>
           <Button
@@ -267,7 +267,7 @@ const DigitaliseringAannemers = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -281,13 +281,13 @@ const DigitaliseringAannemers = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          Hoe werkt het?
+          Hvordan fungerer det?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
         >
-          Van eerste gesprek tot volledig digitaal in drie stappen.
+          Fra første samtale til fullstendig digitalt i tre trinn.
         </motion.p>
 
         <div className="mt-16 space-y-12">
@@ -320,7 +320,7 @@ const DigitaliseringAannemers = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -350,22 +350,22 @@ const DigitaliseringAannemers = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight"
         >
-          Klaar om je bedrijf te digitaliseren?
+          Klar for å digitalisere bedriften din?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
         >
-          Boek een gratis demo en ontdek hoe digitalisering jouw aannemersbedrijf naar het volgende niveau tilt.
+          Bestill en gratis demo og oppdag hvordan digitalisering løfter håndverkerbedriften din til neste nivå.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

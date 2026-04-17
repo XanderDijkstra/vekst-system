@@ -21,152 +21,152 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "40%", description: "snellere reactietijd op klantberichten dankzij AI-gestuurde antwoorden." },
-  { value: "5x", description: "meer leads kwalificeren zonder extra personeel door AI-classificatie." },
-  { value: "24/7", description: "beschikbaarheid voor klanten via slimme chatbots en automatische reacties." },
+  { value: "40%", description: "raskere responstid på kundemeldinger takket være AI-drevne svar." },
+  { value: "5x", description: "flere leads kvalifisert uten ekstra bemanning gjennom AI-klassifisering." },
+  { value: "24/7", description: "tilgjengelighet for kunder via smarte chatbots og automatiske svar." },
 ];
 
 const features = [
   {
     icon: MessageCircle,
-    title: "AI Chatbot voor je website",
+    title: "AI-chatbot for nettsiden din",
     description:
-      "Een slimme chatbot die vragen van bezoekers beantwoordt, offerteaanvragen opvangt en afspraken plant - ook buiten kantooruren. Getraind op jouw diensten en werkgebied.",
+      "En smart chatbot som svarer på spørsmål fra besøkende, tar imot tilbudsforespørsler og avtaler møter - også utenfor kontortiden. Trent på dine tjenester og ditt arbeidsområde.",
   },
   {
     icon: Brain,
-    title: "Slimme lead kwalificatie",
+    title: "Smart lead-kvalifisering",
     description:
-      "AI analyseert binnenkomende leads en beoordeelt automatisch de kans op een opdracht. Zo weet je welke leads je het eerst moet opvolgen.",
+      "AI analyserer innkommende leads og vurderer automatisk sannsynligheten for en oppdrag. Slik vet du hvilke leads du bør følge opp først.",
   },
   {
     icon: FileSearch,
-    title: "Automatische offerte suggesties",
+    title: "Automatiske tilbudsforslag",
     description:
-      "Op basis van eerdere projecten en klantgegevens genereert AI een concept-offerte die je alleen nog hoeft te controleren en te versturen.",
+      "Basert på tidligere prosjekter og kundedata genererer AI et tilbudsutkast du bare trenger å kontrollere og sende.",
   },
   {
     icon: Sparkles,
-    title: "AI-gegenereerde content",
+    title: "AI-generert innhold",
     description:
-      "Van social media posts tot projectbeschrijvingen - AI schrijft content die past bij jouw bedrijf en doelgroep. Je hoeft alleen nog te reviewen.",
+      "Fra innlegg på sosiale medier til prosjektbeskrivelser - AI skriver innhold som passer til bedriften og målgruppen din. Du trenger bare å se over det.",
   },
   {
     icon: Target,
-    title: "Predictieve marketing",
+    title: "Prediktiv markedsføring",
     description:
-      "AI analyseert welke klanten het meest waarschijnlijk terugkomen en wanneer. Automatische seizoenscampagnes op precies het juiste moment.",
+      "AI analyserer hvilke kunder som mest sannsynlig kommer tilbake og når. Automatiske sesongkampanjer på akkurat riktig tidspunkt.",
   },
   {
     icon: Bot,
-    title: "Slimme antwoordsuggesties",
+    title: "Smarte svarforslag",
     description:
-      "Bij elk binnenkomend bericht krijg je AI-suggesties voor een passend antwoord. Eén klik en het bericht is verstuurd - professioneel en persoonlijk.",
+      "For hver innkommende melding får du AI-forslag til et passende svar. Ett klikk og meldingen er sendt - profesjonelt og personlig.",
   },
 ];
 
 const useCases = [
-  "Chatbot beantwoordt veelgestelde vragen",
-  "AI classificeert leads op urgentie en waarde",
-  "Automatische offerte concepten genereren",
-  "Social media content schrijven",
-  "E-mail antwoorden suggereren",
-  "Review responses schrijven",
-  "Projectbeschrijvingen voor je website",
-  "Seizoensgebonden campagne timing",
-  "Klantsentiment analyse op reviews",
-  "Marktanalyse en concurrentie-inzichten",
+  "Chatbot svarer på ofte stilte spørsmål",
+  "AI klassifiserer leads etter hastegrad og verdi",
+  "Generere automatiske tilbudsutkast",
+  "Skrive innhold til sosiale medier",
+  "Foreslå e-postsvar",
+  "Skrive svar på anmeldelser",
+  "Prosjektbeskrivelser til nettsiden din",
+  "Sesongbasert kampanjetiming",
+  "Kundesentiment-analyse på anmeldelser",
+  "Markedsanalyse og konkurrentinnsikt",
 ];
 
 const steps = [
   {
     step: "01",
-    title: "AI-scan van je bedrijf",
-    duration: "30 minuten",
+    title: "AI-skanning av bedriften din",
+    duration: "30 minutter",
     description:
-      "We analyseren je huidige werkprocessen en identificeren waar AI het meeste impact kan maken. Niet alles hoeft AI te zijn - we focussen op waar het écht helpt.",
+      "Vi analyserer dagens arbeidsprosesser og identifiserer hvor AI kan gi størst effekt. Ikke alt må være AI - vi fokuserer på der det virkelig hjelper.",
   },
   {
     step: "02",
-    title: "Implementatie & training",
-    duration: "1–2 weken",
+    title: "Implementering og trening",
+    duration: "1–2 uker",
     description:
-      "We zetten de AI-tools op en trainen ze met jouw bedrijfsinformatie, diensten en veelgestelde vragen. Zo geeft de AI relevante en accurate antwoorden.",
+      "Vi setter opp AI-verktøyene og trener dem med bedriftsinformasjonen din, tjenestene og ofte stilte spørsmål. Slik gir AI-en relevante og nøyaktige svar.",
   },
   {
     step: "03",
-    title: "Optimalisatie & uitbreiding",
-    duration: "doorlopend",
+    title: "Optimalisering og utvidelse",
+    duration: "løpende",
     description:
-      "AI wordt slimmer naarmate het meer data krijgt. We monitoren de prestaties en breiden de toepassingen uit op basis van resultaten.",
+      "AI blir smartere etter hvert som den får mer data. Vi overvåker ytelsen og utvider bruksområdene basert på resultatene.",
   },
 ];
 
 const faqs = [
   {
-    question: "Is AI niet te ingewikkeld voor een aannemersbedrijf?",
+    question: "Er ikke AI for komplisert for en håndverkerbedrift?",
     answer:
-      "Helemaal niet. Wij zorgen dat de AI op de achtergrond werkt. Je merkt het alleen aan betere antwoorden, snellere opvolging en minder handmatig werk. Je hoeft zelf niets technisch te doen.",
+      "Absolutt ikke. Vi sørger for at AI-en fungerer i bakgrunnen. Du merker det bare gjennom bedre svar, raskere oppfølging og mindre manuelt arbeid. Du trenger ikke gjøre noe teknisk selv.",
   },
   {
-    question: "Merken klanten dat ze met een AI praten?",
+    question: "Merker kundene at de snakker med en AI?",
     answer:
-      "De chatbot is transparant - klanten weten dat het een assistent is. Maar de antwoorden zijn zo goed dat de meeste klanten geen probleem hebben met de interactie. Bij complexe vragen wordt er altijd doorgeschakeld.",
+      "Chatboten er transparent - kundene vet at det er en assistent. Men svarene er så gode at de fleste kundene ikke har noe problem med interaksjonen. Ved komplekse spørsmål blir de alltid satt videre.",
   },
   {
-    question: "Hoe weet de AI wat mijn bedrijf doet?",
+    question: "Hvordan vet AI-en hva bedriften min gjør?",
     answer:
-      "We trainen de AI met jouw bedrijfsinformatie: diensten, werkgebied, prijsindicaties en veelgestelde vragen. De AI leert continu bij op basis van nieuwe interacties.",
+      "Vi trener AI-en med bedriftsinformasjonen din: tjenester, arbeidsområde, prisindikasjoner og ofte stilte spørsmål. AI-en lærer kontinuerlig basert på nye interaksjoner.",
   },
   {
-    question: "Kan AI echt offertes schrijven?",
+    question: "Kan AI virkelig skrive tilbud?",
     answer:
-      "AI maakt een concept-offerte op basis van eerdere projecten en de specifieke klantvraag. Jij controleert, past aan waar nodig en verstuurt. Het bespaart je de eerste 80% van het werk.",
+      "AI lager et tilbudsutkast basert på tidligere prosjekter og kundens spesifikke forespørsel. Du kontrollerer, justerer der det trengs, og sender. Det sparer deg for de første 80 % av jobben.",
   },
   {
-    question: "Wat kost het om AI toe te voegen?",
+    question: "Hva koster det å legge til AI?",
     answer:
-      "De basis AI-functionaliteiten (chatbot, antwoordsuggesties) zitten inbegrepen in je abonnement. Geavanceerde AI-toepassingen zoals offerte-generatie zijn beschikbaar als uitbreiding.",
+      "De grunnleggende AI-funksjonene (chatbot, svarforslag) er inkludert i abonnementet ditt. Avanserte AI-bruksområder som tilbudsgenerering er tilgjengelige som utvidelser.",
   },
 ];
 
 const AiOplossingen = () => (
   <PageShell>
     <Helmet>
-      <title>AI Oplossingen voor Aannemers | Aannemer Systeem</title>
+      <title>AI-løsninger for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Gebruik kunstmatige intelligentie om slimmer te werken als aannemer. Van AI chatbots tot automatische offertes - ontdek wat AI voor jouw bedrijf kan doen."
+        content="Bruk kunstig intelligens til å jobbe smartere som håndverker. Fra AI-chatbots til automatiske tilbud - oppdag hva AI kan gjøre for bedriften din."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/ai-oplossingen`} />
-      <meta property="og:title" content="AI Oplossingen voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Gebruik AI om slimmer te werken, niet harder. Ontdek onze AI oplossingen." />
+      <meta property="og:title" content="AI-løsninger for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Bruk AI til å jobbe smartere, ikke hardere. Oppdag våre AI-løsninger." />
       <meta property="og:url" content={`${SITE_URL}/diensten/ai-oplossingen`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          AI Oplossingen
+          AI-løsninger
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Slimmer werken met AI - niet harder
+          Jobb smartere med AI - ikke hardere
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Kunstmatige intelligentie is geen toekomstmuziek meer. Wij passen AI praktisch toe
-          in je aannemersbedrijf - van chatbots en lead kwalificatie tot automatische offertes.
+          Kunstig intelligens er ikke lenger framtidsmusikk. Vi bruker AI praktisk
+          i håndverkerbedriften din - fra chatbots og lead-kvalifisering til automatiske tilbud.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -192,13 +192,13 @@ const AiOplossingen = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Hoe gebruiken aannemers AI?
+          Hvordan bruker håndverkere AI?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Praktische AI-toepassingen die direct resultaat leveren - geen buzzwords, maar tools die werken.
+          Praktiske AI-bruksområder som gir umiddelbare resultater - ingen buzzwords, bare verktøy som fungerer.
         </motion.p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -224,10 +224,10 @@ const AiOplossingen = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Toepassingen
+          Bruksområder
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Wat AI allemaal kan voor jouw bedrijf
+          Alt AI kan gjøre for bedriften din
         </motion.h2>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {useCases.map((item, i) => (
@@ -254,10 +254,10 @@ const AiOplossingen = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Benieuwd wat AI voor jouw bedrijf kan betekenen?
+              Nysgjerrig på hva AI kan bety for bedriften din?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Plan een kort gesprek en we laten je zien welke AI-toepassingen direct resultaat opleveren.
+              Book en kort samtale så viser vi deg hvilke AI-bruksområder som gir umiddelbare resultater.
             </p>
           </div>
           <Button
@@ -266,7 +266,7 @@ const AiOplossingen = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -280,13 +280,13 @@ const AiOplossingen = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          Hoe werkt het?
+          Hvordan fungerer det?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
         >
-          Van AI-scan tot werkende oplossingen in drie stappen.
+          Fra AI-skanning til fungerende løsninger i tre trinn.
         </motion.p>
 
         <div className="mt-16 space-y-12">
@@ -319,7 +319,7 @@ const AiOplossingen = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -349,22 +349,22 @@ const AiOplossingen = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight"
         >
-          Klaar om AI in te zetten voor je bedrijf?
+          Klar for å bruke AI i bedriften din?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
         >
-          Boek een gratis demo en ontdek hoe AI jouw aannemersbedrijf slimmer en efficiënter maakt.
+          Bestill en gratis demo og oppdag hvordan AI gjør håndverkerbedriften din smartere og mer effektiv.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

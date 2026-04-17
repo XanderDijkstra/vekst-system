@@ -21,130 +21,130 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "15+ uur", description: "per maand besparen aannemers gemiddeld met automatisering van repetitieve taken." },
-  { value: "94%", description: "minder gemiste leads door automatische opvolging binnen 5 minuten." },
-  { value: "2,8x", description: "hogere conversie wanneer leads automatisch en snel worden opgevolgd." },
+  { value: "15+ timer", description: "i måneden sparer håndverkere i snitt med automatisering av repetitive oppgaver." },
+  { value: "94%", description: "færre tapte leads gjennom automatisk oppfølging innen 5 minutter." },
+  { value: "2,8x", description: "høyere konvertering når leads blir fulgt opp automatisk og raskt." },
 ];
 
 const features = [
   {
     icon: Mail,
-    title: "Automatische lead opvolging",
+    title: "Automatisk lead-oppfølging",
     description:
-      "Elke nieuwe lead ontvangt automatisch een persoonlijk bericht via SMS of e-mail. Geen handmatig werk, geen vertraging - ook als je op de steiger staat.",
+      "Hver nye lead mottar automatisk en personlig melding via SMS eller e-post. Ingen manuelt arbeid, ingen forsinkelse - også når du står på stillaset.",
   },
   {
     icon: Bell,
-    title: "Slimme herinneringen & notificaties",
+    title: "Smarte påminnelser og varsler",
     description:
-      "Nooit meer een follow-up vergeten. Het systeem herinnert je aan openstaande offertes, geplande terugbelafspraken en klanten die wachten op een reactie.",
+      "Aldri glem en oppfølging igjen. Systemet minner deg på åpne tilbud, planlagte tilbakeringinger og kunder som venter på svar.",
   },
   {
     icon: CalendarCheck,
-    title: "Geautomatiseerde afspraken",
+    title: "Automatiserte avtaler",
     description:
-      "Klanten plannen zelf een afspraak in je agenda. Bevestigingen en herinneringen gaan automatisch - geen heen-en-weer ge-WhatsApp meer.",
+      "Kundene avtaler selv et møte i kalenderen din. Bekreftelser og påminnelser går automatisk - slutt på WhatsApp-frem-og-tilbake.",
   },
   {
     icon: RefreshCw,
-    title: "Terugkerende taken op autopilot",
+    title: "Gjentakende oppgaver på autopilot",
     description:
-      "Review verzoeken na oplevering, seizoenscampagnes voor bestaande klanten, verjaardagsberichten - alles draait automatisch op de achtergrond.",
+      "Forespørsel om anmeldelser etter levering, sesongkampanjer til eksisterende kunder, bursdagsmeldinger - alt kjører automatisk i bakgrunnen.",
   },
   {
     icon: Clock,
-    title: "Tijdbesparende workflows",
+    title: "Tidsbesparende arbeidsflyter",
     description:
-      "Definieer één keer hoe je werkt en het systeem volgt het proces elke keer op dezelfde manier. Van eerste contact tot factuur.",
+      "Definer én gang hvordan du jobber, og systemet følger prosessen på samme måte hver gang. Fra første kontakt til faktura.",
   },
   {
     icon: Zap,
-    title: "Directe actie bij triggers",
+    title: "Umiddelbar handling ved triggere",
     description:
-      "Nieuwe offerte aanvraag? Automatisch een bevestiging. Gemiste oproep? Direct een SMS. Review ontvangen? Automatisch bedankt. Het systeem reageert sneller dan jij kunt.",
+      "Ny tilbudsforespørsel? Automatisk bekreftelse. Tapt anrop? Umiddelbar SMS. Fått en anmeldelse? Automatisk takk. Systemet reagerer raskere enn du klarer.",
   },
 ];
 
 const automations = [
-  "Nieuwe lead → automatische welkomst-SMS",
-  "Gemiste oproep → direct SMS terugbelverzoek",
-  "Offerte verstuurd → follow-up na 3 dagen",
-  "Project afgerond → review verzoek",
-  "Review ontvangen → automatisch bedankbericht",
-  "Geen reactie op offerte → herinnering na 7 dagen",
-  "Nieuwe klant → welkomstmail met bedrijfsinfo",
-  "Seizoensstart → campagne naar bestaande klanten",
+  "Ny lead → automatisk velkomst-SMS",
+  "Tapt anrop → umiddelbar SMS om tilbakeringing",
+  "Tilbud sendt → oppfølging etter 3 dager",
+  "Prosjekt fullført → forespørsel om anmeldelse",
+  "Anmeldelse mottatt → automatisk takkemelding",
+  "Ingen respons på tilbud → påminnelse etter 7 dager",
+  "Ny kunde → velkomst-e-post med bedriftsinfo",
+  "Sesongstart → kampanje til eksisterende kunder",
 ];
 
 const steps = [
   {
     step: "01",
-    title: "We brengen je processen in kaart",
-    duration: "30 minuten",
+    title: "Vi kartlegger prosessene dine",
+    duration: "30 minutter",
     description:
-      "Samen bekijken we welke taken je dagelijks herhaalt en waar de meeste tijd verloren gaat. Dit vormt de basis voor je automatiseringsstrategie.",
+      "Sammen ser vi på hvilke oppgaver du gjentar daglig og hvor mest tid går tapt. Dette danner grunnlaget for automatiseringsstrategien din.",
   },
   {
     step: "02",
-    title: "We bouwen je workflows",
-    duration: "1–2 weken",
+    title: "Vi bygger arbeidsflytene dine",
+    duration: "1–2 uker",
     description:
-      "Op basis van jouw processen bouwen we de automatiseringen. Elke workflow wordt getest en afgestemd op jouw werkwijze.",
+      "Basert på dine prosesser bygger vi automatiseringene. Hver arbeidsflyt blir testet og tilpasset din arbeidsmåte.",
   },
   {
     step: "03",
-    title: "Livegang & optimalisatie",
-    duration: "doorlopend",
+    title: "Lansering og optimalisering",
+    duration: "løpende",
     description:
-      "Na livegang monitoren we de resultaten en optimaliseren we waar nodig. Je automatiseringen worden steeds slimmer naarmate er meer data binnenkomt.",
+      "Etter lansering overvåker vi resultatene og optimaliserer der det trengs. Automatiseringene dine blir stadig smartere etter hvert som det kommer inn mer data.",
   },
 ];
 
 const faqs = [
   {
-    question: "Verlies ik het persoonlijke contact met mijn klanten?",
+    question: "Mister jeg den personlige kontakten med kundene mine?",
     answer:
-      "Juist niet. Automatisering neemt de repetitieve taken over zodat jij meer tijd hebt voor persoonlijk contact waar het ertoe doet. Berichten worden in jouw naam en stijl verstuurd.",
+      "Tvert imot. Automatisering tar over de repetitive oppgavene slik at du får mer tid til personlig kontakt der det betyr noe. Meldingene sendes i ditt navn og din stil.",
   },
   {
-    question: "Kan ik zelf aanpassingen maken aan de automatiseringen?",
+    question: "Kan jeg selv gjøre endringer i automatiseringene?",
     answer:
-      "Ja, je kunt berichten aanpassen, timing wijzigen en workflows aan- of uitzetten. Wij helpen je met de initiële opzet en je kunt daarna zelf bijsturen.",
+      "Ja, du kan justere meldinger, endre timing og slå arbeidsflyter av eller på. Vi hjelper deg med det første oppsettet, og du kan justere selv etterpå.",
   },
   {
-    question: "Werkt dit ook voor een klein aannemersbedrijf?",
+    question: "Fungerer dette også for en liten håndverkerbedrift?",
     answer:
-      "Zeker. Juist kleinere bedrijven hebben het meeste baat bij automatisering. Je hebt geen personeel nodig voor administratie - het systeem doet het voor je.",
+      "Absolutt. Det er nettopp mindre bedrifter som har mest nytte av automatisering. Du trenger ikke bemanning til administrasjon - systemet gjør det for deg.",
   },
   {
-    question: "Hoeveel tijd bespaar ik realistisch gezien?",
+    question: "Hvor mye tid sparer jeg realistisk sett?",
     answer:
-      "De meeste aannemers besparen 10 tot 20 uur per maand aan administratieve taken. Denk aan lead opvolging, review verzoeken, afspraakbevestigingen en campagnes.",
+      "De fleste håndverkere sparer 10 til 20 timer i måneden på administrative oppgaver. Tenk på lead-oppfølging, anmeldelsesforespørsler, avtalebekreftelser og kampanjer.",
   },
   {
-    question: "Wat gebeurt er als een automatisering niet goed werkt?",
+    question: "Hva skjer hvis en automatisering ikke fungerer som den skal?",
     answer:
-      "We monitoren alle automatiseringen en grijpen in wanneer nodig. Je kunt ons altijd bereiken voor aanpassingen of vragen. Support zit inbegrepen in je abonnement.",
+      "Vi overvåker alle automatiseringer og griper inn når det trengs. Du kan alltid kontakte oss for justeringer eller spørsmål. Support er inkludert i abonnementet.",
   },
 ];
 
 const AutomatiseringAannemers = () => (
   <PageShell>
     <Helmet>
-      <title>Automatisering voor Aannemers | Aannemer Systeem</title>
+      <title>Automatisering for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Automatiseer repetitieve taken zoals lead opvolging, review verzoeken en klantcommunicatie. Bespaar 15+ uur per maand als aannemer."
+        content="Automatiser repetitive oppgaver som lead-oppfølging, forespørsler om anmeldelser og kundekommunikasjon. Spar 15+ timer i måneden som håndverker."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/automatisering-aannemers`} />
-      <meta property="og:title" content="Automatisering voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Automatiseer repetitieve taken en bespaar uren per week als aannemer." />
+      <meta property="og:title" content="Automatisering for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Automatiser repetitive oppgaver og spar timer hver uke som håndverker." />
       <meta property="og:url" content={`${SITE_URL}/diensten/automatisering-aannemers`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
@@ -157,14 +157,14 @@ const AutomatiseringAannemers = () => (
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Laat het systeem werken terwijl jij op de werf staat
+          La systemet jobbe mens du står på byggeplassen
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Lead opvolging, review verzoeken, afspraakbevestigingen - alles wat je elke dag handmatig doet,
-          kan automatisch. Zodat jij je kunt focussen op het werk dat ertoe doet.
+          Lead-oppfølging, forespørsler om anmeldelser, avtalebekreftelser - alt du gjør manuelt hver dag,
+          kan automatiseres. Slik at du kan fokusere på arbeidet som betyr noe.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -190,13 +190,13 @@ const AutomatiseringAannemers = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Wat automatiseren wij voor aannemers?
+          Hva automatiserer vi for håndverkere?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
         >
-          Slimme automatiseringen die op de achtergrond draaien en jou uren per week besparen.
+          Smarte automatiseringer som kjører i bakgrunnen og sparer deg for timer hver uke.
         </motion.p>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -222,10 +222,10 @@ const AutomatiseringAannemers = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Voorbeelden
+          Eksempler
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Automatiseringen die direct resultaat leveren
+          Automatiseringer som gir umiddelbare resultater
         </motion.h2>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {automations.map((item, i) => (
@@ -252,10 +252,10 @@ const AutomatiseringAannemers = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Wil je zien welke automatiseringen het meeste opleveren?
+              Vil du se hvilke automatiseringer som gir mest?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Plan een kort gesprek en we laten je zien welke workflows het meeste tijd besparen voor jouw type bedrijf.
+              Book en kort samtale så viser vi deg hvilke arbeidsflyter som sparer mest tid for din type bedrift.
             </p>
           </div>
           <Button
@@ -264,7 +264,7 @@ const AutomatiseringAannemers = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -278,13 +278,13 @@ const AutomatiseringAannemers = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          Hoe werkt het?
+          Hvordan fungerer det?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
         >
-          Van analyse tot volledig geautomatiseerd in drie stappen.
+          Fra analyse til fullautomatisert i tre trinn.
         </motion.p>
 
         <div className="mt-16 space-y-12">
@@ -317,7 +317,7 @@ const AutomatiseringAannemers = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -347,22 +347,22 @@ const AutomatiseringAannemers = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight"
         >
-          Klaar om uren per week te besparen?
+          Klar for å spare timer hver uke?
         </motion.h2>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
         >
-          Boek een gratis demo en ontdek welke automatiseringen het meeste opleveren voor jouw bedrijf.
+          Bestill en gratis demo og oppdag hvilke automatiseringer som gir mest for bedriften din.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

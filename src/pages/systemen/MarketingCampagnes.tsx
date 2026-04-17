@@ -14,36 +14,36 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 /* ───── Stats ───── */
 const stats = [
-  { value: "98%", description: "van sms-berichten wordt binnen 3 minuten gelezen." },
-  { value: "30%", description: "van SMS-marketingcampagnes leidt tot directe verkoop." },
-  { value: "62%", description: "van consumenten zegt bereid te zijn om op SMS-promoties te reageren." },
+  { value: "98%", description: "av SMS-meldinger blir lest innen 3 minutter." },
+  { value: "30%", description: "av SMS-markedsføringskampanjer fører til direkte salg." },
+  { value: "62%", description: "av forbrukere sier at de er villige til å reagere på SMS-tilbud." },
 ];
 
 /* ───── Features ───── */
 const features = [
   {
     icon: BatteryCharging,
-    title: "Lead Revival Campagne",
+    title: "Lead Revival-kampanje",
     description:
-      "Geef ons een lijst van minimaal 150 eerdere klanten of leads die je niet hebt kunnen sluiten. Wij draaien een campagne om ze opnieuw binnen te halen.",
+      "Gi oss en liste over minst 150 tidligere kunder eller leads du ikke klarte å lande. Vi kjører en kampanje for å hente dem tilbake.",
   },
   {
     icon: Star,
-    title: "5-Sterren Review Injector",
+    title: "5-stjerners Review Injector",
     description:
-      "Lever een lijst van minimaal 150 eerdere klanten aan. Wij lanceren een review-campagne met een incentive om hen aan te moedigen een review achter te laten en terug te komen.",
+      "Lever en liste over minst 150 tidligere kunder. Vi lanserer en anmeldelseskampanje med et incentiv for å oppmuntre dem til å legge igjen en anmeldelse og komme tilbake.",
   },
   {
     icon: Gift,
-    title: "Feestdagen Promoties",
+    title: "Høytidstilbud",
     description:
-      "Deel een lijst van minimaal 150 eerdere klanten of leads en wij draaien een feestdagen-promo om ze terug te halen. Met speciale kortingen en aanbiedingen boost je je seizoensverkoop.",
+      "Del en liste over minst 150 tidligere kunder eller leads, og vi kjører en høytidskampanje for å hente dem tilbake. Med spesialrabatter og tilbud booster du sesongsalget.",
   },
   {
     icon: HeartHandshake,
-    title: "Klant Nurture Campagne",
+    title: "Kunde-nurture-kampanje",
     description:
-      "Geef ons een lijst van minimaal 150 eerdere klanten of leads en wij draaien een nurture-campagne. Met gepersonaliseerde follow-ups en aanbiedingen blijf je top-of-mind.",
+      "Gi oss en liste over minst 150 tidligere kunder eller leads, og vi kjører en nurture-kampanje. Med personlige oppfølginger og tilbud holder du deg top-of-mind.",
   },
 ];
 
@@ -51,24 +51,24 @@ const features = [
 const steps = [
   {
     step: "01",
-    title: "Kennismakingsgesprek",
-    duration: "20 minuten",
+    title: "Bli-kjent-samtale",
+    duration: "20 minutter",
     description:
-      "We bespreken je huidige situatie, beantwoorden al je vragen en laten zien hoe het systeem werkt met resultaten van bestaande klanten.",
+      "Vi diskuterer situasjonen din, svarer på alle spørsmålene dine og viser hvordan systemet fungerer med resultater fra eksisterende kunder.",
   },
   {
     step: "02",
-    title: "Wij maken je systeem",
-    duration: "7–10 dagen",
+    title: "Vi bygger systemet ditt",
+    duration: "7–10 dager",
     description:
-      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna zetten wij je marketingcampagnes op met gepersonaliseerde berichten en automatische opvolging.",
+      "Du fyller ut et kort onboarding-skjema med bedriftsopplysningene dine. Deretter setter vi opp markedsføringskampanjene dine med personlige meldinger og automatisk oppfølging.",
   },
   {
     step: "03",
-    title: "Livegang & uitleg",
-    duration: "25 minuten",
+    title: "Lansering og gjennomgang",
+    duration: "25 minutter",
     description:
-      "We lopen samen door je nieuwe systeem, beantwoorden je vragen en laten zien hoe alles werkt. Daarna ga je live en draaien je campagnes automatisch.",
+      "Vi går gjennom det nye systemet sammen, svarer på spørsmål og viser hvordan alt fungerer. Deretter går du live og kampanjene dine kjører automatisk.",
   },
 ];
 
@@ -76,14 +76,14 @@ const MarketingCampagnes = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Marketing Campagnes | Aannemer Systeem</title>
-        <meta name="description" content="Bereik je doelgroep automatisch met SMS en e-mail campagnes. Lead revival, review requests en seizoensgebonden promoties." />
-        <link rel="canonical" href="https://aannemersysteem.com/diensten/marketing-campagnes" />
-        <meta property="og:title" content="Marketing Campagnes | Aannemer Systeem" />
-        <meta property="og:description" content="Bereik je doelgroep automatisch met SMS en e-mail campagnes." />
-        <meta property="og:url" content="https://aannemersysteem.com/diensten/marketing-campagnes" />
+        <title>Markedsføringskampanjer | Vekst Systemet</title>
+        <meta name="description" content="Nå målgruppen din automatisk med SMS- og e-postkampanjer. Lead revival, review requests og sesongbaserte tilbud." />
+        <link rel="canonical" href="https://vekst-systemet.no/diensten/marketing-campagnes" />
+        <meta property="og:title" content="Markedsføringskampanjer | Vekst Systemet" />
+        <meta property="og:description" content="Nå målgruppen din automatisk med SMS- og e-postkampanjer." />
+        <meta property="og:url" content="https://vekst-systemet.no/diensten/marketing-campagnes" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
       </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
@@ -92,7 +92,7 @@ const MarketingCampagnes = () => {
             {...fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center max-w-3xl mx-auto"
           >
-            One-Click Marketing Campagnes
+            One-Click markedsføringskampanjer
           </motion.h1>
 
           <div className="mt-14 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
@@ -117,9 +117,9 @@ const MarketingCampagnes = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
               className="lg:col-span-3"
             >
-              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
+              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Se en kort demo</h2>
               <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm font-medium">Video binnenkort beschikbaar</p>
+                <p className="text-muted-foreground text-sm font-medium">Video kommer snart</p>
               </div>
             </motion.div>
           </div>
@@ -133,13 +133,13 @@ const MarketingCampagnes = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
           >
-            Waarom heb ik marketing campagnes nodig?
+            Hvorfor trenger jeg markedsføringskampanjer?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Bereik je bestaande klanten opnieuw en genereer meer omzet met geautomatiseerde SMS-campagnes.
+            Nå eksisterende kunder på nytt og generer mer omsetning med automatiserte SMS-kampanjer.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -170,11 +170,11 @@ const MarketingCampagnes = () => {
           >
             <div className="max-w-lg">
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-                Wil je zien hoe dit voor jouw bedrijf werkt?
+                Vil du se hvordan dette fungerer for din bedrift?
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-                Plan een kort gesprek en we laten je precies zien hoe onze marketing campagnes
-                werken voor jouw type aannemersbedrijf.
+                Book en kort samtale så viser vi deg nøyaktig hvordan markedsføringskampanjene våre
+                fungerer for din type håndverkerbedrift.
               </p>
             </div>
             <Button
@@ -183,7 +183,7 @@ const MarketingCampagnes = () => {
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
             >
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -198,13 +198,13 @@ const MarketingCampagnes = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
           >
-            Hoe werkt het?
+            Hvordan fungerer det?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
           >
-            Van kennismaking tot livegang in drie eenvoudige stappen.
+            Fra bli-kjent-samtale til lansering i tre enkle trinn.
           </motion.p>
 
           <div className="mt-16 space-y-12">
@@ -240,23 +240,23 @@ const MarketingCampagnes = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
-            Klaar om je klanten opnieuw te bereiken?
+            Klar for å nå kundene dine på nytt?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Boek een gratis demo en ontdek hoe onze marketing campagnes jouw omzet kunnen verhogen.
+            Bestill en gratis demo og oppdag hvordan markedsføringskampanjene våre kan øke omsetningen din.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/diensten">Bekijk alle diensten</Link>
+              <Link to="/diensten">Se alle tjenester</Link>
             </Button>
           </motion.div>
         </div>

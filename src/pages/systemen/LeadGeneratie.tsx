@@ -16,48 +16,48 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 /* ───── Stats ───── */
 const stats = [
-  { value: "75%", description: "van mensen beoordeelt de geloofwaardigheid van een bedrijf op basis van hun website." },
-  { value: "78%", description: "van kleine bedrijven zegt dat een website hun groei heeft versneld." },
-  { value: "67%", description: "van gebruikers vertrouwt bedrijven met een professionele website meer." },
+  { value: "75%", description: "av folk vurderer troverdigheten til et selskap basert på nettsiden deres." },
+  { value: "78%", description: "av små bedrifter sier at en nettside har satt fart på veksten deres." },
+  { value: "67%", description: "av brukerne stoler mer på bedrifter med en profesjonell nettside." },
 ];
 
 /* ───── Features ───── */
 const features = [
   {
     icon: Search,
-    title: "Gevonden worden in Google",
+    title: "Bli funnet i Google",
     description:
-      "Wij zorgen dat je website correct geïndexeerd wordt en voldoet aan alle SEO best practices. De juiste zoekwoorden, meta tags, koppen en snelle laadtijden - alles wordt geoptimaliseerd zodat potentiële klanten jou vinden.",
+      "Vi sørger for at nettsiden din blir riktig indeksert og oppfyller alle SEO-praksisene. Riktige søkeord, metatagger, overskrifter og raske lastetider - alt optimaliseres slik at potensielle kunder finner deg.",
   },
   {
     icon: Star,
-    title: "Toon je beste reviews",
+    title: "Vis frem dine beste anmeldelser",
     description:
-      "Een sterke online reputatie is onmisbaar. Wij tonen je beste Google reviews op elke pagina van je website zodat bezoekers direct vertrouwen krijgen in je bedrijf.",
+      "Et sterkt omdømme på nett er uunnværlig. Vi viser dine beste Google-anmeldelser på hver side av nettsiden slik at besøkende umiddelbart får tillit til bedriften din.",
   },
   {
     icon: Smartphone,
-    title: "Mobiel geoptimaliseerd",
+    title: "Mobiloptimalisert",
     description:
-      "87% van klanten zoekt lokale bedrijven op hun telefoon. Je website laadt snel, ziet er perfect uit op mobiel en heeft duidelijke call-to-actions en klikbare telefoonnummers.",
+      "87 % av kundene søker etter lokale bedrifter på mobilen. Nettsiden din laster raskt, ser perfekt ut på mobil og har tydelige call-to-actions og klikkbare telefonnumre.",
   },
   {
     icon: MessageSquare,
-    title: "Direct contact via SMS of WhatsApp",
+    title: "Direkte kontakt via SMS eller WhatsApp",
     description:
-      "Elke website bevat een offerte-formulier en chat-widget die direct een gesprek start. Bezoekers ontvangen meteen een bevestiging en je hebt hun gegevens om op te volgen - ook als ze de website verlaten.",
+      "Hver nettside har et tilbudsskjema og chat-widget som starter en samtale med en gang. Besøkende får umiddelbart en bekreftelse og du har opplysningene deres til oppfølging - også hvis de forlater nettsiden.",
   },
   {
     icon: FileText,
-    title: "Automatische offerte aanvragen",
+    title: "Automatiske tilbudsforespørsler",
     description:
-      "Offerte-formulieren die automatisch binnenkomen in je systeem. Geen handmatig overtypen, geen gemiste aanvragen. Elke lead wordt direct vastgelegd en opgepakt.",
+      "Tilbudsskjemaer som automatisk kommer inn i systemet ditt. Ingen manuell overføring, ingen tapte forespørsler. Hver lead blir umiddelbart registrert og fulgt opp.",
   },
   {
     icon: BarChart3,
-    title: "Inzicht in je resultaten",
+    title: "Innsikt i resultatene dine",
     description:
-      "Zie precies hoeveel bezoekers je website heeft, waar ze vandaan komen en hoeveel offerte aanvragen binnenkomen. Data-gedreven beslissingen in plaats van onderbuikgevoel.",
+      "Se nøyaktig hvor mange besøkende nettsiden din har, hvor de kommer fra og hvor mange tilbudsforespørsler som kommer inn. Datadrevne beslutninger i stedet for magefølelse.",
   },
 ];
 
@@ -65,24 +65,24 @@ const features = [
 const steps = [
   {
     step: "01",
-    title: "Kennismakingsgesprek",
-    duration: "20 minuten",
+    title: "Bli-kjent-samtale",
+    duration: "20 minutter",
     description:
-      "We bespreken je huidige situatie, beantwoorden al je vragen en laten zien hoe het systeem werkt met resultaten van bestaande klanten.",
+      "Vi diskuterer situasjonen din, svarer på alle spørsmålene dine og viser hvordan systemet fungerer med resultater fra eksisterende kunder.",
   },
   {
     step: "02",
-    title: "Wij maken je website",
-    duration: "7–10 dagen",
+    title: "Vi bygger nettsiden din",
+    duration: "7–10 dager",
     description:
-      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna gaan wij aan de slag met het maken van je nieuwe website en lead generatie systeem.",
+      "Du fyller ut et kort onboarding-skjema med bedriftsopplysningene dine. Deretter setter vi i gang med å lage den nye nettsiden og lead-genereringssystemet ditt.",
   },
   {
     step: "03",
-    title: "Livegang & uitleg",
-    duration: "25 minuten",
+    title: "Lansering og gjennomgang",
+    duration: "25 minutter",
     description:
-      "We lopen samen door je nieuwe website, beantwoorden je vragen en laten zien hoe alles werkt. Daarna ga je live en stromen de eerste leads binnen.",
+      "Vi går gjennom den nye nettsiden sammen, svarer på spørsmål og viser hvordan alt fungerer. Deretter går du live og de første leadsene strømmer inn.",
   },
 ];
 
@@ -90,33 +90,33 @@ const LeadGeneratie = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Lead Generatie Website | Aannemer Systeem</title>
-        <meta name="description" content="Een professionele website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt. Gebouwd voor aannemers." />
-        <link rel="canonical" href="https://aannemersysteem.com/diensten/lead-generatie" />
-        <meta property="og:title" content="Lead Generatie Website | Aannemer Systeem" />
-        <meta property="og:description" content="Een professionele website die nieuwe klanten aantrekt en offerte aanvragen automatisch verzamelt." />
-        <meta property="og:url" content="https://aannemersysteem.com/diensten/lead-generatie" />
+        <title>Lead-genererende nettside | Vekst Systemet</title>
+        <meta name="description" content="En profesjonell nettside som tiltrekker nye kunder og samler inn tilbudsforespørsler automatisk. Bygget for håndverkere." />
+        <link rel="canonical" href="https://vekst-systemet.no/diensten/lead-generatie" />
+        <meta property="og:title" content="Lead-genererende nettside | Vekst Systemet" />
+        <meta property="og:description" content="En profesjonell nettside som tiltrekker nye kunder og samler inn tilbudsforespørsler automatisk." />
+        <meta property="og:url" content="https://vekst-systemet.no/diensten/lead-generatie" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
       </Helmet>
       {/* ═══ Hero with Stats + Video ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container">
           <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Dienst
+            Tjeneste
           </motion.p>
           <motion.h1
             {...fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
           >
-            Lead Generatie Website
+            Lead-genererende nettside
           </motion.h1>
           <motion.p
             {...fadeInUp}
             className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
           >
-            Een professionele website die niet alleen mooi is, maar daadwerkelijk nieuwe klanten aantrekt
-            en automatisch offerte aanvragen voor je verzamelt.
+            En profesjonell nettside som ikke bare er pen, men som faktisk tiltrekker nye kunder
+            og samler inn tilbudsforespørsler automatisk for deg.
           </motion.p>
 
           {/* Video - shown here on mobile, hidden on lg */}
@@ -133,7 +133,7 @@ const LeadGeneratie = () => {
                 preload="metadata"
               >
                 <source src="/videos/lead-generatie-demo.mp4" type="video/mp4" />
-                Je browser ondersteunt geen video.
+                Nettleseren din støtter ikke video.
               </video>
             </div>
           </motion.div>
@@ -160,7 +160,7 @@ const LeadGeneratie = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.2 }}
               className="hidden lg:block lg:col-span-3"
             >
-              <h3 className="text-xl md:text-2xl font-semibold mb-4">Bekijk een korte demo</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">Se en kort demo</h3>
               <div className="aspect-video rounded-2xl overflow-hidden bg-foreground/10 border border-primary-foreground/10">
                 <video
                   className="w-full h-full object-cover"
@@ -169,7 +169,7 @@ const LeadGeneratie = () => {
                   preload="metadata"
                 >
                   <source src="/videos/lead-generatie-demo.mp4" type="video/mp4" />
-                  Je browser ondersteunt geen video.
+                  Nettleseren din støtter ikke video.
                 </video>
               </div>
             </motion.div>
@@ -184,13 +184,13 @@ const LeadGeneratie = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
           >
-            Wat maakt onze websites anders?
+            Hva gjør nettsidene våre annerledes?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Geen visitekaartje-website, maar een lead generatie machine die 24/7 voor je werkt.
+            Ikke en visittkort-nettside, men en lead-genereringsmaskin som jobber for deg 24/7.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -221,11 +221,11 @@ const LeadGeneratie = () => {
           >
             <div className="max-w-lg">
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-                Wil je zien hoe dit voor jouw bedrijf werkt?
+                Vil du se hvordan dette fungerer for din bedrift?
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-                Plan een kort gesprek en we laten je precies zien hoe een lead generatie website eruitziet
-                voor jouw type aannemersbedrijf.
+                Book en kort samtale så viser vi deg nøyaktig hvordan en lead-genererende nettside ser ut
+                for din type håndverkerbedrift.
               </p>
             </div>
             <Button
@@ -234,7 +234,7 @@ const LeadGeneratie = () => {
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
             >
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -249,13 +249,13 @@ const LeadGeneratie = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
           >
-            Hoe werkt het?
+            Hvordan fungerer det?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
           >
-            Van kennismaking tot livegang in drie eenvoudige stappen.
+            Fra bli-kjent-samtale til lansering i tre enkle trinn.
           </motion.p>
 
           <div className="mt-16 space-y-12">
@@ -291,23 +291,23 @@ const LeadGeneratie = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
-            Klaar om meer leads te genereren?
+            Klar for å generere flere leads?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Boek een gratis demo en ontdek wat een professionele website voor jouw aannemersbedrijf kan betekenen.
+            Bestill en gratis demo og oppdag hva en profesjonell nettside kan bety for din håndverkerbedrift.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/diensten">Bekijk alle diensten</Link>
+              <Link to="/diensten">Se alle tjenester</Link>
             </Button>
           </motion.div>
         </div>

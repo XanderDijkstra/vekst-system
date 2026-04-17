@@ -21,158 +21,158 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const stats = [
-  { value: "92%", description: "van consumenten leest online reviews voordat ze een aannemer kiezen." },
-  { value: "4,7★", description: "gemiddelde score van onze klanten na implementatie van het review systeem." },
-  { value: "8x", description: "meer reviews per maand door automatische verzoeken na oplevering." },
+  { value: "92%", description: "av forbrukerne leser anmeldelser på nett før de velger en håndverker." },
+  { value: "4,7★", description: "gjennomsnittlig score hos kundene våre etter implementering av anmeldelsessystemet." },
+  { value: "8x", description: "flere anmeldelser per måned gjennom automatiske forespørsler etter levering." },
 ];
 
 const problems = [
   {
-    title: "Tevreden klanten laten geen review achter",
-    description: "Je levert uitstekend werk af, maar klanten vergeten een review te plaatsen. Ondertussen hebben je concurrenten tientallen 5-sterren reviews die nieuwe klanten overtuigen.",
+    title: "Fornøyde kunder legger ikke igjen anmeldelser",
+    description: "Du leverer utmerket arbeid, men kundene glemmer å legge igjen en anmeldelse. Imens har konkurrentene dine titalls 5-stjerners anmeldelser som overbeviser nye kunder.",
   },
   {
-    title: "Negatieve reviews hebben te veel impact",
-    description: "Eén ontevreden klant kan je reputatie schaden als je geen positieve reviews hebt om het te compenseren. Zonder actief reviewbeleid ben je kwetsbaar.",
+    title: "Negative anmeldelser har for stor effekt",
+    description: "Én misfornøyd kunde kan skade omdømmet ditt hvis du ikke har positive anmeldelser å veie opp med. Uten en aktiv anmeldelsesstrategi er du sårbar.",
   },
   {
-    title: "Je durft niet om reviews te vragen",
-    description: "Het voelt ongemakkelijk om klanten te vragen een review te plaatsen. Je wilt niet opdringerig overkomen, maar zonder reviews mis je een krachtig marketinginstrument.",
+    title: "Du tør ikke be om anmeldelser",
+    description: "Det føles ubehagelig å be kunder om å legge igjen en anmeldelse. Du vil ikke virke påtrengende, men uten anmeldelser går du glipp av et kraftig markedsføringsverktøy.",
   },
   {
-    title: "Reviews staan niet op de juiste plekken",
-    description: "Misschien heb je wat reviews, maar ze staan verspreid of op platforms die niemand bekijkt. Google en je website zijn de plekken die ertoe doen.",
+    title: "Anmeldelsene ligger ikke på de riktige stedene",
+    description: "Kanskje har du noen anmeldelser, men de ligger spredt eller på plattformer ingen ser på. Google og nettsiden din er stedene som betyr noe.",
   },
 ];
 
 const features = [
   {
     icon: Send,
-    title: "Automatische review verzoeken",
+    title: "Automatiske anmeldelsesforespørsler",
     description:
-      "Na elk afgerond project stuurt het systeem automatisch een review verzoek via SMS of e-mail. De klant hoeft alleen maar te klikken en een score te geven.",
+      "Etter hvert avsluttet prosjekt sender systemet automatisk en anmeldelsesforespørsel via SMS eller e-post. Kunden trenger bare å klikke og gi en score.",
   },
   {
     icon: Star,
-    title: "Slim review-filter",
+    title: "Smart anmeldelsesfilter",
     description:
-      "Tevreden klanten (4-5 sterren) worden direct naar Google doorgestuurd. Bij een lagere score krijg jij eerst een melding zodat je het kunt oplossen voordat het online staat.",
+      "Fornøyde kunder (4-5 stjerner) blir sendt direkte til Google. Ved lavere score får du først et varsel slik at du kan løse det før det legges ut offentlig.",
   },
   {
     icon: MessageSquare,
-    title: "Automatische review responses",
+    title: "Automatiske svar på anmeldelser",
     description:
-      "Elke review krijgt automatisch een persoonlijk en professioneel antwoord. Dit laat zien dat je betrokken bent en verhoogt je zichtbaarheid in Google.",
+      "Hver anmeldelse får automatisk et personlig og profesjonelt svar. Dette viser at du er engasjert og øker synligheten din i Google.",
   },
   {
     icon: ThumbsUp,
-    title: "Reviews op je website",
+    title: "Anmeldelser på nettsiden din",
     description:
-      "Je beste reviews worden automatisch op je website getoond. Bezoekers zien direct sociale bewijskracht - zonder dat jij iets hoeft te doen.",
+      "De beste anmeldelsene dine vises automatisk på nettsiden. Besøkende ser umiddelbart sosialt bevis - uten at du trenger å gjøre noe.",
   },
   {
     icon: Shield,
-    title: "Reputatie monitoring",
+    title: "Omdømmeovervåking",
     description:
-      "Krijg direct een melding bij nieuwe reviews. Zie in één dashboard je gemiddelde score, aantal reviews en trends over tijd.",
+      "Få et varsel med en gang ved nye anmeldelser. Se i ett dashboard gjennomsnittsscoren din, antall anmeldelser og trender over tid.",
   },
   {
     icon: TrendingUp,
-    title: "Meer reviews = meer klanten",
+    title: "Flere anmeldelser = flere kunder",
     description:
-      "Bedrijven met meer en betere reviews staan hoger in Google en worden vaker gekozen. Elke review is een investering in je toekomstige groei.",
+      "Bedrifter med flere og bedre anmeldelser rangerer høyere i Google og blir oftere valgt. Hver anmeldelse er en investering i framtidig vekst.",
   },
 ];
 
 const steps = [
   {
     step: "01",
-    title: "Review systeem opzetten",
-    duration: "2–3 dagen",
+    title: "Sette opp anmeldelsessystemet",
+    duration: "2–3 dager",
     description:
-      "We configureren het review systeem met jouw bedrijfsgegevens, branding en voorkeuren. SMS en e-mail templates worden op maat gemaakt.",
+      "Vi konfigurerer anmeldelsessystemet med bedriftsopplysningene dine, profil og preferanser. SMS- og e-postmaler lages skreddersydd.",
   },
   {
     step: "02",
-    title: "Eerste reviews verzamelen",
-    duration: "1–2 weken",
+    title: "Samle inn de første anmeldelsene",
+    duration: "1–2 uker",
     description:
-      "We sturen de eerste review verzoeken naar je recente klanten. De meeste aannemers hebben binnen twee weken al 5-10 nieuwe Google reviews.",
+      "Vi sender de første anmeldelsesforespørslene til dine nylige kunder. De fleste håndverkere har allerede 5-10 nye Google-anmeldelser innen to uker.",
   },
   {
     step: "03",
-    title: "Automatisch draaien",
-    duration: "doorlopend",
+    title: "Automatisk drift",
+    duration: "løpende",
     description:
-      "Vanaf nu stuurt het systeem automatisch review verzoeken na elk project. Je hoeft er niet meer aan te denken - de reviews stromen vanzelf binnen.",
+      "Fra nå av sender systemet automatisk anmeldelsesforespørsler etter hvert prosjekt. Du trenger ikke tenke på det - anmeldelsene strømmer inn av seg selv.",
   },
 ];
 
 const faqs = [
   {
-    question: "Hoe weten klanten dat ze een review moeten plaatsen?",
+    question: "Hvordan vet kundene at de må legge igjen en anmeldelse?",
     answer:
-      "Na oplevering ontvangen ze automatisch een SMS of e-mail met een directe link naar je Google-bedrijfsprofiel. Het kost ze letterlijk 30 seconden.",
+      "Etter levering mottar de automatisk en SMS eller e-post med en direkte lenke til Google-bedriftsprofilen din. Det tar dem bokstavelig talt 30 sekunder.",
   },
   {
-    question: "Wat als een klant een slechte review wil plaatsen?",
+    question: "Hva hvis en kunde vil legge igjen en dårlig anmeldelse?",
     answer:
-      "Het systeem filtert op tevredenheid. Bij een score lager dan 4 sterren krijg jij eerst een melding zodat je contact kunt opnemen. De klant wordt niet direct naar Google gestuurd.",
+      "Systemet filtrerer på tilfredshet. Ved en score lavere enn 4 stjerner får du først et varsel slik at du kan ta kontakt. Kunden blir ikke sendt direkte til Google.",
   },
   {
-    question: "Kan ik de berichten aanpassen?",
+    question: "Kan jeg justere meldingene?",
     answer:
-      "Ja. Je kunt de tekst van het review verzoek, de timing en het aantal herinneringen helemaal naar wens instellen. Wij helpen met de initiële opzet.",
+      "Ja. Du kan sette teksten i anmeldelsesforespørselen, tidspunktet og antallet påminnelser helt etter eget ønske. Vi hjelper med det første oppsettet.",
   },
   {
-    question: "Hoeveel reviews kan ik verwachten?",
+    question: "Hvor mange anmeldelser kan jeg forvente?",
     answer:
-      "Gemiddeld plaatst 25-35% van de klanten een review na een automatisch verzoek. Bij 10 projecten per maand betekent dat 2-4 nieuwe reviews per maand.",
+      "I snitt legger 25-35 % av kundene igjen en anmeldelse etter en automatisk forespørsel. Ved 10 prosjekter i måneden betyr det 2-4 nye anmeldelser i måneden.",
   },
   {
-    question: "Worden reviews automatisch op mijn website getoond?",
+    question: "Vises anmeldelsene automatisk på nettsiden min?",
     answer:
-      "Ja. Je Google reviews worden automatisch gesynchroniseerd met je website. Nieuwe reviews verschijnen automatisch - zonder handmatig werk.",
+      "Ja. Google-anmeldelsene dine synkroniseres automatisk med nettsiden. Nye anmeldelser vises automatisk - uten manuelt arbeid.",
   },
 ];
 
 const ReviewSysteem = () => (
   <PageShell>
     <Helmet>
-      <title>Review Systeem voor Aannemers | Aannemer Systeem</title>
+      <title>Anmeldelsessystem for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Verzamel automatisch Google reviews van tevreden klanten. Verhoog je online reputatie en win meer opdrachten als aannemer."
+        content="Samle inn Google-anmeldelser automatisk fra fornøyde kunder. Øk omdømmet ditt på nett og vinn flere oppdrag som håndverker."
       />
       <link rel="canonical" href={`${SITE_URL}/diensten/review-systeem`} />
-      <meta property="og:title" content="Review Systeem voor Aannemers | Aannemer Systeem" />
-      <meta property="og:description" content="Verzamel automatisch 5-sterren reviews en bouw een sterke online reputatie." />
+      <meta property="og:title" content="Anmeldelsessystem for håndverkere | Vekst Systemet" />
+      <meta property="og:description" content="Samle inn 5-stjerners anmeldelser automatisk og bygg et sterkt omdømme på nett." />
       <meta property="og:url" content={`${SITE_URL}/diensten/review-systeem`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
 
     {/* Hero */}
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Review Systeem
+          Anmeldelsessystem
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-3xl"
         >
-          Laat je werk voor zich spreken - met 5-sterren reviews
+          La arbeidet ditt tale for seg - med 5-stjerners anmeldelser
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Tevreden klanten laten zelden een review achter. Ons systeem stuurt automatisch een verzoek
-          na elk project - zodat je reputatie groeit terwijl jij doorwerkt.
+          Fornøyde kunder legger sjelden igjen en anmeldelse. Systemet vårt sender automatisk en forespørsel
+          etter hvert prosjekt - slik at omdømmet ditt vokser mens du jobber videre.
         </motion.p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
@@ -195,10 +195,10 @@ const ReviewSysteem = () => (
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-          Herkenbaar?
+          Kjenner du deg igjen?
         </motion.p>
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
-          Waarom de meeste aannemers te weinig reviews hebben
+          Hvorfor de fleste håndverkere har for få anmeldelser
         </motion.h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           {problems.map((item, i) => (
@@ -230,7 +230,7 @@ const ReviewSysteem = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
         >
-          Hoe ons review systeem werkt
+          Hvordan anmeldelsessystemet vårt fungerer
         </motion.h2>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, i) => (
@@ -260,10 +260,10 @@ const ReviewSysteem = () => (
         >
           <div className="max-w-lg">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-              Hoeveel 5-sterren reviews mis je nu per maand?
+              Hvor mange 5-stjerners anmeldelser går du glipp av hver måned?
             </h2>
             <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-              Laat ons berekenen hoeveel reviews je kunt verzamelen op basis van je huidige aantal projecten.
+              La oss regne ut hvor mange anmeldelser du kan samle inn basert på antallet prosjekter du har nå.
             </p>
           </div>
           <Button
@@ -272,7 +272,7 @@ const ReviewSysteem = () => (
             className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 flex-shrink-0"
           >
             <Link to="/demo">
-              Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+              Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
         </motion.div>
@@ -286,7 +286,7 @@ const ReviewSysteem = () => (
           {...fadeInUp}
           className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
         >
-          In drie stappen naar meer reviews
+          Tre trinn til flere anmeldelser
         </motion.h2>
         <div className="mt-16 space-y-12">
           {steps.map((step, i) => (
@@ -318,7 +318,7 @@ const ReviewSysteem = () => (
     <section className="py-20 md:py-28 bg-card">
       <div className="container max-w-3xl">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-          Veelgestelde vragen
+          Ofte stilte spørsmål
         </motion.h2>
         <Accordion type="multiple" className="space-y-3">
           {faqs.map((faq, i) => (
@@ -345,17 +345,17 @@ const ReviewSysteem = () => (
     <section className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container text-center">
         <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-semibold tracking-tight">
-          Klaar om je online reputatie te versterken?
+          Klar for å styrke omdømmet ditt på nett?
         </motion.h2>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed">
-          Boek een gratis demo en ontdek hoe je automatisch meer 5-sterren reviews verzamelt.
+          Bestill en gratis demo og oppdag hvordan du automatisk samler inn flere 5-stjerners anmeldelser.
         </motion.p>
         <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link to="/demo">Boek een demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            <Link to="/demo">Bestill demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Bekijk alle diensten</Link>
+            <Link to="/diensten">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

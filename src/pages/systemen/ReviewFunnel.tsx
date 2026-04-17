@@ -14,36 +14,36 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 
 /* ───── Stats ───── */
 const stats = [
-  { value: "97%", description: "van mensen leest reviews voordat ze een bedrijf kiezen." },
-  { value: "72%", description: "van mensen gebruikt Google Reviews om een bedrijf te vinden." },
-  { value: "2.7x", description: "meer mensen kiezen een bedrijf met veel positieve reviews." },
+  { value: "97%", description: "av folk leser anmeldelser før de velger en bedrift." },
+  { value: "72%", description: "av folk bruker Google-anmeldelser for å finne en bedrift." },
+  { value: "2.7x", description: "flere velger en bedrift med mange positive anmeldelser." },
 ];
 
 /* ───── Features ───── */
 const features = [
   {
     icon: Star,
-    title: "Alleen 5-sterren reviews",
+    title: "Kun 5-stjerners anmeldelser",
     description:
-      "We maken een aangepaste review-link voor je klanten. Geeft iemand minder dan 4 sterren? Dan wordt hij doorgestuurd naar een privé-feedbackformulier en krijg jij een melding om het probleem direct op te lossen.",
+      "Vi lager en tilpasset anmeldelseslenke for kundene dine. Gir noen mindre enn 4 stjerner? Da blir de sendt videre til et privat tilbakemeldingsskjema, og du får en varsling slik at du kan løse problemet med en gang.",
   },
   {
     icon: Bell,
-    title: "Automatische follow-up herinneringen",
+    title: "Automatiske påminnelser",
     description:
-      "Je klanten zijn druk en vergeten vaak een review achter te laten, zelfs als ze tevreden zijn. Wij sturen 4-5 herinneringen over vier weken, met gepersonaliseerde berichten en voldoende tussentijd.",
+      "Kundene dine har det travelt og glemmer ofte å legge igjen en anmeldelse, selv når de er fornøyde. Vi sender 4-5 påminnelser over fire uker, med personlige meldinger og nok tid imellom.",
   },
   {
     icon: MousePointerClick,
-    title: "Reviews vragen in één klik",
+    title: "Be om anmeldelser med ett klikk",
     description:
-      "Simpel: vul de naam en het telefoonnummer van je klant in, klik op verzenden en ons systeem doet de rest. Geen gedoe, geen technische kennis nodig.",
+      "Enkelt: fyll inn navnet og telefonnummeret til kunden, klikk send, og systemet vårt gjør resten. Ingen krøll, ingen teknisk kunnskap nødvendig.",
   },
   {
     icon: Syringe,
-    title: "Review Injector voor aannemers",
+    title: "Review Injector for håndverkere",
     description:
-      "Heb je een lijst met eerdere klanten? Wij draaien onze 'Review Injector' campagne om geleidelijk reviews op te halen bij je volledige klantenbestand.",
+      "Har du en liste med tidligere kunder? Vi kjører vår 'Review Injector'-kampanje for å gradvis hente inn anmeldelser fra hele kundebasen din.",
   },
 ];
 
@@ -51,24 +51,24 @@ const features = [
 const steps = [
   {
     step: "01",
-    title: "Kennismakingsgesprek",
-    duration: "20 minuten",
+    title: "Bli-kjent-samtale",
+    duration: "20 minutter",
     description:
-      "We bespreken je huidige situatie, beantwoorden al je vragen en laten zien hoe het systeem werkt met resultaten van bestaande klanten.",
+      "Vi diskuterer situasjonen din, svarer på alle spørsmålene dine og viser hvordan systemet fungerer med resultater fra eksisterende kunder.",
   },
   {
     step: "02",
-    title: "Wij maken je systeem",
-    duration: "7–10 dagen",
+    title: "Vi bygger systemet ditt",
+    duration: "7–10 dager",
     description:
-      "Je vult een kort onboarding-formulier in met je bedrijfsgegevens. Daarna stellen wij je review funnel in met gepersonaliseerde berichten en automatische opvolging.",
+      "Du fyller ut et kort onboarding-skjema med bedriftsopplysningene dine. Deretter setter vi opp review-funnelen din med personlige meldinger og automatisk oppfølging.",
   },
   {
     step: "03",
-    title: "Livegang & uitleg",
-    duration: "25 minuten",
+    title: "Lansering og gjennomgang",
+    duration: "25 minutter",
     description:
-      "We lopen samen door je nieuwe systeem, beantwoorden je vragen en laten zien hoe alles werkt. Daarna ga je live en worden reviews automatisch verzameld.",
+      "Vi går gjennom det nye systemet sammen, svarer på spørsmål og viser hvordan alt fungerer. Deretter går du live og anmeldelser blir samlet inn automatisk.",
   },
 ];
 
@@ -76,14 +76,14 @@ const ReviewFunnel = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>5-Sterren Review Funnel | Aannemer Systeem</title>
-        <meta name="description" content="Verzamel automatisch Google reviews van tevreden klanten. Bescherm je reputatie met ons slimme review systeem." />
-        <link rel="canonical" href="https://aannemersysteem.com/diensten/review-funnel" />
-        <meta property="og:title" content="5-Sterren Review Funnel | Aannemer Systeem" />
-        <meta property="og:description" content="Verzamel automatisch Google reviews van tevreden klanten." />
-        <meta property="og:url" content="https://aannemersysteem.com/diensten/review-funnel" />
+        <title>5-stjerners Review Funnel | Vekst Systemet</title>
+        <meta name="description" content="Samle inn Google-anmeldelser automatisk fra fornøyde kunder. Beskytt omdømmet ditt med vårt smarte anmeldelsessystem." />
+        <link rel="canonical" href="https://vekst-systemet.no/diensten/review-funnel" />
+        <meta property="og:title" content="5-stjerners Review Funnel | Vekst Systemet" />
+        <meta property="og:description" content="Samle inn Google-anmeldelser automatisk fra fornøyde kunder." />
+        <meta property="og:url" content="https://vekst-systemet.no/diensten/review-funnel" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
       </Helmet>
       {/* ═══ Hero ═══ */}
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
@@ -92,7 +92,7 @@ const ReviewFunnel = () => {
             {...fadeInUp}
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-center max-w-3xl mx-auto"
           >
-            5-Sterren Review Funnel
+            5-stjerners Review Funnel
           </motion.h1>
 
           <div className="mt-14 grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
@@ -117,9 +117,9 @@ const ReviewFunnel = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
               className="lg:col-span-3"
             >
-              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Bekijk een korte demo</h2>
+              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Se en kort demo</h2>
               <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm font-medium">Video binnenkort beschikbaar</p>
+                <p className="text-muted-foreground text-sm font-medium">Video kommer snart</p>
               </div>
             </motion.div>
           </div>
@@ -133,13 +133,13 @@ const ReviewFunnel = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center max-w-2xl mx-auto"
           >
-            Wat is de 5-sterren review funnel?
+            Hva er 5-stjerners review-funnelen?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center max-w-2xl mx-auto leading-relaxed"
           >
-            Automatisch 5-sterren reviews verzamelen zodat jouw bedrijf bovenaan Google verschijnt.
+            Samle inn 5-stjerners anmeldelser automatisk slik at bedriften din vises øverst i Google.
           </motion.p>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -170,11 +170,11 @@ const ReviewFunnel = () => {
           >
             <div className="max-w-lg">
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-primary-foreground">
-                Wil je zien hoe dit voor jouw bedrijf werkt?
+                Vil du se hvordan dette fungerer for din bedrift?
               </h2>
               <p className="mt-3 text-primary-foreground/70 leading-relaxed">
-                Plan een kort gesprek en we laten je precies zien hoe de review funnel
-                werkt voor jouw type aannemersbedrijf.
+                Book en kort samtale så viser vi deg nøyaktig hvordan review-funnelen
+                fungerer for din type håndverkerbedrift.
               </p>
             </div>
             <Button
@@ -183,7 +183,7 @@ const ReviewFunnel = () => {
               className="rounded-lg text-base px-8 bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-250 ease-system-ease hover:scale-[1.02] active:scale-[0.98] flex-shrink-0"
             >
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -198,13 +198,13 @@ const ReviewFunnel = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight text-foreground text-center"
           >
-            Hoe werkt het?
+            Hvordan fungerer det?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-muted-foreground text-center leading-relaxed"
           >
-            Van kennismaking tot livegang in drie eenvoudige stappen.
+            Fra bli-kjent-samtale til lansering i tre enkle trinn.
           </motion.p>
 
           <div className="mt-16 space-y-12">
@@ -240,23 +240,23 @@ const ReviewFunnel = () => {
             {...fadeInUp}
             className="text-3xl md:text-4xl font-semibold tracking-tight"
           >
-            Klaar om meer 5-sterren reviews te verzamelen?
+            Klar for å samle flere 5-stjerners anmeldelser?
           </motion.h2>
           <motion.p
             {...fadeInUp}
             className="mt-4 text-lg text-primary-foreground/70 max-w-xl mx-auto leading-relaxed"
           >
-            Boek een gratis demo en ontdek hoe onze review funnel jouw bedrijf laat groeien op Google.
+            Bestill en gratis demo og oppdag hvordan review-funnelen vår får bedriften din til å vokse i Google.
           </motion.p>
           <motion.div {...fadeInUp} className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="rounded-lg bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een demo
+                Bestill demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/diensten">Bekijk alle diensten</Link>
+              <Link to="/diensten">Se alle tjenester</Link>
             </Button>
           </motion.div>
         </div>
