@@ -6,7 +6,7 @@ import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 interface Tool {
   title: string;
@@ -18,49 +18,49 @@ interface Tool {
 
 const tools: Tool[] = [
   {
-    title: "Gratis Marketing Scan",
+    title: "Gratis markedsføringsscan",
     description:
-      "Scan je aannemer-website en krijg direct een rapport met concrete verbeterpunten voor vindbaarheid, techniek, vertrouwen en conversie.",
+      "Skann nettsiden din og få en rapport med konkrete forbedringspunkter for synlighet, teknikk, tillit og konvertering.",
     href: "/tools/marketing-scan",
     icon: Search,
     status: "live",
   },
   {
-    title: "Leadwaarde calculator",
+    title: "Leadverdi-kalkulator",
     description:
-      "Bereken wat een lead jouw aannemersbedrijf oplevert. Vul aanvragen per maand, scorings­percentage en projectwaarde in - krijg direct je omzet per maand.",
+      "Beregn hva en lead gir håndverkerbedriften din. Fyll inn forespørsler per måned, konverteringsrate og prosjektverdi - se omsetningen per måned direkte.",
     href: "/tools/leadwaarde-calculator",
     icon: TrendingUp,
     status: "live",
   },
   {
-    title: "Uurtarief calculator aannemer",
+    title: "Timepris-kalkulator for håndverkere",
     description:
-      "Bereken wat je minimaal per uur moet rekenen als aannemer. Op basis van je inkomensdoel, werkbare uren, overhead en belasting - geen giswerk meer.",
+      "Beregn hva du minimum må ta per time som håndverker. Basert på inntektsmål, fakturerbare timer, overhead og skatt - slutt med gjetting.",
     href: "/tools/uurtarief-calculator-aannemer",
     icon: Clock,
     status: "live",
   },
   {
-    title: "Projectmarge calculator",
+    title: "Prosjektmargin-kalkulator",
     description:
-      "Vul je offertebedrag en kostenposten in - zie direct je bruto- en nettomarge, en hoeveel de kosten mogen stijgen voordat je break-even draait.",
+      "Fyll inn tilbudsbeløp og kostnadsposter - se brutto- og nettomargin direkte, og hvor mye kostnadene kan stige før du går i null.",
     href: "/tools/projectmarge-calculator",
     icon: Euro,
     status: "live",
   },
   {
-    title: "Personeelskosten calculator",
+    title: "Personalkostnad-kalkulator",
     description:
-      "Bereken wat een werknemer écht kost: bruto salaris → totale werkgeverskosten inclusief premies, vakantiegeld, verzuim en werkkleding.",
+      "Beregn hva en ansatt faktisk koster: fra bruttolønn → totale arbeidsgiverkostnader inkludert feriepenger, arbeidsgiveravgift, sykefravær og arbeidstøy.",
     href: "/tools/personeelskosten-calculator",
     icon: Users,
     status: "live",
   },
   {
-    title: "Bouwmaterialen berekenen",
+    title: "Byggematerialer-kalkulator",
     description:
-      "Bereken hoeveel tegels, verf, beton, laminaat en andere bouwmaterialen je nodig hebt - inclusief snijverlies en hulpmaterialen.",
+      "Beregn hvor mange fliser, hvor mye maling, betong, laminat og andre byggematerialer du trenger - inkludert svinn og hjelpematerialer.",
     href: "/tools/bouwmaterialen-berekenen",
     icon: Hammer,
     status: "live",
@@ -70,15 +70,15 @@ const tools: Tool[] = [
 const toolsSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Gratis rekentools voor aannemers | Aannemer Systeem",
+  name: "Gratis kalkulatorer for håndverkere | Vekst Systemet",
   url: `${SITE_URL}/tools`,
   description:
-    "Gratis rekentools voor aannemers: leadwaarde, marketing ROI, uurtarief en meer. Direct in je browser, geen registratie.",
+    "Gratis kalkulatorer for håndverkere: leadverdi, markedsførings-ROI, timepris og mer. Direkte i nettleseren, ingen registrering.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
     ],
   },
   mainEntity: {
@@ -98,20 +98,20 @@ const toolsSchema = {
 const ToolsOverview = () => (
   <PageShell>
     <Helmet>
-      <title>Rekentools voor aannemers | Aannemer Systeem</title>
+      <title>Kalkulatorer for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Gratis rekentools voor aannemers: bereken leadwaarde, marketing ROI, uurtarief en meer. Direct in je browser - geen registratie, geen e-mailadres."
+        content="Gratis kalkulatorer for håndverkere: beregn leadverdi, markedsførings-ROI, timepris og mer. Direkte i nettleseren - ingen registrering, ingen e-postadresse."
       />
       <link rel="canonical" href={`${SITE_URL}/tools`} />
-      <meta property="og:title" content="Rekentools voor aannemers | Aannemer Systeem" />
+      <meta property="og:title" content="Kalkulatorer for håndverkere | Vekst Systemet" />
       <meta
         property="og:description"
-        content="Gratis rekentools voor aannemers: leadwaarde, marketing ROI, uurtarief en meer."
+        content="Gratis kalkulatorer for håndverkere: leadverdi, markedsførings-ROI, timepris og mer."
       />
       <meta property="og:url" content={`${SITE_URL}/tools`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(toolsSchema)}</script>
     </Helmet>
 
@@ -121,20 +121,20 @@ const ToolsOverview = () => (
           {...fadeInUp}
           className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
         >
-          Rekentools
+          Kalkulatorer
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground"
         >
-          Gratis rekentools voor aannemers
+          Gratis kalkulatorer for håndverkere
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Snelle, eerlijke cijfers voor je eigen bedrijf. Geen registratie, geen e-mailadres -
-          vul je getallen in en zie direct waar je staat.
+          Raske, ærlige tall for din egen bedrift. Ingen registrering, ingen e-postadresse -
+          fyll inn tallene dine og se hvor du står med en gang.
         </motion.p>
       </div>
     </section>
@@ -155,7 +155,7 @@ const ToolsOverview = () => (
                 </p>
                 {tool.status === "soon" && (
                   <span className="inline-block mt-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                    Binnenkort
+                    Kommer snart
                   </span>
                 )}
               </div>
@@ -175,14 +175,14 @@ const ToolsOverview = () => (
 
         <motion.div {...fadeInUp} className="mt-16 max-w-2xl">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-            Meer tools op komst
+            Flere verktøy på vei
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We bouwen deze toolkit in de open. Volgende releases: max-CPC calculator (wat mag
-            een lead kosten), marketing ROI calculator en uurtarief calculator voor
-            aannemers. Suggesties?{" "}
+            Vi bygger denne verktøykassa i åpenhet. Neste ut: max-CPC-kalkulator (hva en lead
+            bør få lov til å koste), markedsførings-ROI-kalkulator og timepris-kalkulator for
+            håndverkere. Forslag?{" "}
             <Link to="/contact" className="underline hover:text-accent transition-colors">
-              Laat het weten
+              Si fra
             </Link>
             .
           </p>
