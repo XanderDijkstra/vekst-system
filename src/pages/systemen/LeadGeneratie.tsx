@@ -146,7 +146,7 @@ const LeadGeneratie = () => {
                   key={stat.value}
                   {...fadeInUp}
                   transition={{ duration: 0.4, ease: systemEase, delay: i * 0.08 }}
-                  className="border border-primary-foreground/10 rounded-2xl p-6"
+                  className="border border-primary-foreground/15 bg-primary-foreground/[0.06] shadow-lg shadow-black/10 rounded-2xl p-6"
                 >
                   <span className="text-4xl md:text-5xl font-bold text-accent">{stat.value}</span>
                   <p className="mt-3 text-sm text-primary-foreground/70 leading-relaxed">{stat.description}</p>

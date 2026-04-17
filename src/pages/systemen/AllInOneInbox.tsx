@@ -123,7 +123,7 @@ const AllInOneInbox = () => {
                   key={stat.value}
                   {...fadeInUp}
                   transition={{ duration: 0.4, ease: systemEase, delay: 0.1 + i * 0.08 }}
-                  className="border border-primary-foreground/10 rounded-xl p-5"
+                  className="border border-primary-foreground/15 bg-primary-foreground/[0.06] shadow-lg shadow-black/10 rounded-xl p-5"
                 >
                   <span className="text-3xl md:text-4xl font-bold text-accent">{stat.value}</span>
                   <p className="mt-2 text-sm text-primary-foreground/70 leading-relaxed">{stat.description}</p>
