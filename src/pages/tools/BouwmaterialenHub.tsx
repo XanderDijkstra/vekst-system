@@ -6,7 +6,7 @@ import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 interface MaterialTool {
   title: string;
@@ -18,57 +18,57 @@ interface MaterialTool {
 
 const materialTools: MaterialTool[] = [
   {
-    title: "Tegels berekenen",
+    title: "Fliser beregne",
     description:
-      "Hoeveel tegels, dozen, tegellijm en voegmortel heb je nodig? Kies je formaat, vul de m² in en bestel precies genoeg.",
+      "Hvor mange fliser, esker, flislim og fugemasse trenger du? Velg format, fyll inn m² og bestill akkurat nok.",
     href: "/tools/tegels-berekenen",
     icon: Grid3X3,
     status: "live",
   },
   {
-    title: "Verf berekenen",
+    title: "Maling beregne",
     description:
-      "Hoeveel liter verf en blikken heb je nodig? Kies verftype, vul de m² in en weet precies wat je moet bestellen.",
+      "Hvor mange liter maling og spann trenger du? Velg malingstype, fyll inn m² og vit nøyaktig hva du skal bestille.",
     href: "/tools/verf-berekenen",
     icon: Paintbrush,
     status: "live",
   },
   {
-    title: "Beton berekenen",
+    title: "Betong beregne",
     description:
-      "Bereken hoeveel m³ beton, zakken cement, zand en grind je nodig hebt voor je project.",
+      "Beregn hvor mange m³ betong, sekker sement, sand og grus du trenger til prosjektet.",
     href: "/tools/beton-berekenen",
     icon: HardHat,
     status: "live",
   },
   {
-    title: "Laminaat berekenen",
+    title: "Laminat beregne",
     description:
-      "Hoeveel pakken laminaat en ondervloer heb je nodig? Vul de m² in en reken snijverlies mee.",
+      "Hvor mange pakker laminat og undergulv trenger du? Fyll inn m² og ta hensyn til kappsvinn.",
     href: "/tools/laminaat-berekenen",
     icon: Layers,
     status: "live",
   },
   {
-    title: "Behang berekenen",
+    title: "Tapet beregne",
     description:
-      "Bereken hoeveel rollen behang je nodig hebt op basis van kamermaten, raambreedte en patroonrapport.",
+      "Beregn hvor mange ruller tapet du trenger basert på rommål, vindusbredde og mønsterrapport.",
     href: "/tools/behang-berekenen",
     icon: Ruler,
     status: "live",
   },
   {
-    title: "Gipsplaten berekenen",
+    title: "Gipsplater beregne",
     description:
-      "Bereken hoeveel gipsplaten, metal stud profielen, schroeven en voegband je nodig hebt.",
+      "Beregn hvor mange gipsplater, stenderverk i stål, skruer og sparkelbånd du trenger.",
     href: "/tools/gipsplaten-berekenen",
     icon: Package,
     status: "live",
   },
   {
-    title: "Stucwerk berekenen",
+    title: "Pussarbeid beregne",
     description:
-      "Bereken hoeveel kg stuc, zakken pleister en primer je nodig hebt per m² wand of plafond.",
+      "Beregn hvor mange kg puss, sekker med gipspuss og primer du trenger per m² vegg eller himling.",
     href: "/tools/stucwerk-berekenen",
     icon: Droplets,
     status: "live",
@@ -78,19 +78,19 @@ const materialTools: MaterialTool[] = [
 const hubSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem",
+  name: "Byggematerialer beregne | Gratis kalkulatorer | Vekst Systemet",
   url: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
   description:
-    "Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers - direct resultaat, geen registratie.",
+    "Beregn hvor mye byggematerialer du trenger: fliser, maling, betong, laminat og mer. Gratis kalkulatorer for håndverkere - umiddelbart resultat, ingen registrering.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
       {
         "@type": "ListItem",
         position: 3,
-        name: "Bouwmaterialen berekenen",
+        name: "Byggematerialer beregne",
         item: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
       },
     ],
@@ -112,23 +112,23 @@ const hubSchema = {
 const BouwmaterialenHub = () => (
   <PageShell>
     <Helmet>
-      <title>Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem</title>
+      <title>Byggematerialer beregne | Gratis kalkulatorer | Vekst Systemet</title>
       <meta
         name="description"
-        content="Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer. Gratis calculators voor aannemers - direct resultaat, geen registratie."
+        content="Beregn hvor mye byggematerialer du trenger: fliser, maling, betong, laminat og mer. Gratis kalkulatorer for håndverkere - umiddelbart resultat, ingen registrering."
       />
       <link rel="canonical" href={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
       <meta
         property="og:title"
-        content="Bouwmaterialen berekenen | Gratis calculators | Aannemer Systeem"
+        content="Byggematerialer beregne | Gratis kalkulatorer | Vekst Systemet"
       />
       <meta
         property="og:description"
-        content="Bereken hoeveel bouwmaterialen je nodig hebt: tegels, verf, beton, laminaat en meer."
+        content="Beregn hvor mye byggematerialer du trenger: fliser, maling, betong, laminat og mer."
       />
       <meta property="og:url" content={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(hubSchema)}</script>
     </Helmet>
 
@@ -139,22 +139,22 @@ const BouwmaterialenHub = () => (
             to="/tools"
             className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
           >
-            ← Alle rekentools
+            ← Alle kalkulatorer
           </Link>
         </motion.div>
         <motion.h1
           {...fadeInUp}
           className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground"
         >
-          Bouwmaterialen berekenen
+          Byggematerialer beregne
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Nooit meer te veel of te weinig bestellen. Kies het materiaal, vul je
-          afmetingen in en zie direct hoeveel je nodig hebt - inclusief
-          snijverlies en hulpmaterialen.
+          Aldri mer bestille for mye eller for lite. Velg materialet, fyll inn
+          målene dine og se umiddelbart hvor mye du trenger - inkludert
+          kappsvinn og hjelpemidler.
         </motion.p>
       </div>
     </section>
@@ -175,7 +175,7 @@ const BouwmaterialenHub = () => (
                 </p>
                 {tool.status === "soon" && (
                   <span className="inline-block mt-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                    Binnenkort
+                    Kommer snart
                   </span>
                 )}
               </div>
@@ -195,13 +195,13 @@ const BouwmaterialenHub = () => (
 
         <motion.div {...fadeInUp} className="mt-16 max-w-2xl">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-            Meer materiaalcalculators op komst
+            Flere materialkalkulatorer på vei
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            We bouwen deze toolkit uit met calculators voor elk materiaal: beton,
-            laminaat, behang, isolatie, gipsplaten, stucwerk en meer. Suggesties?{" "}
+            Vi bygger ut denne verktøykassen med kalkulatorer for hvert materiale: betong,
+            laminat, tapet, isolasjon, gipsplater, pussarbeid og mer. Forslag?{" "}
             <Link to="/contact" className="underline hover:text-accent transition-colors">
-              Laat het weten
+              Gi oss beskjed
             </Link>
             .
           </p>
