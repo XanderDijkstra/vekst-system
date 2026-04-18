@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const AANNEMERS_DATA: TradeData = {
-  slug: "aannemers",
+  slug: "entreprenorer",
   singular: "entreprenør",
   plural: "entreprenører",
   bedrijf: "byggefirma",
@@ -72,10 +72,10 @@ export const AANNEMERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Entreprenører når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Taktekkere", slug: "dakdekkers" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Murere og pussere", slug: "stukadoors" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
+    { label: "Taktekkere", slug: "takleggere" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Murere og pussere", slug: "pussere" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
   ],
   cta: {
     headline: "Klar for å vinne flere byggeprosjekter?",

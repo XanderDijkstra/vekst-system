@@ -72,10 +72,10 @@ export const ASBESTSANERING_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Asbestsanerere når i gjennomsnitt side 1 innen 3-4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Taktekkere", slug: "dakdekkers" },
-    { label: "Utrydning", slug: "ontruiming" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Entreprenører", slug: "aannemers" },
+    { label: "Taktekkere", slug: "takleggere" },
+    { label: "Utrydning", slug: "rydding" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
+    { label: "Entreprenører", slug: "entreprenorer" },
   ],
   cta: {
     headline: "Klar for å vinne flere asbestsaneringsoppdrag?",

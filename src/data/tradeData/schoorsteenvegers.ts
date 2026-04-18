@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const SCHOORSTEENVEGERS_DATA: TradeData = {
-  slug: "schoorsteenvegers",
+  slug: "feiere",
   singular: "feier",
   plural: "feiere",
   bedrijf: "feierfirma",
@@ -72,10 +72,10 @@ export const SCHOORSTEENVEGERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Feiere når i snitt side 1 innen 2-3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Takleggere", slug: "dakdekkers" },
-    { label: "VVS", slug: "hvac" },
-    { label: "Kjele-montering", slug: "cv-ketel-montage" },
-    { label: "Takrenner", slug: "dakgoten" },
+    { label: "Takleggere", slug: "takleggere" },
+    { label: "VVS", slug: "vvs-klima" },
+    { label: "Kjele-montering", slug: "fyrmontering" },
+    { label: "Takrenner", slug: "takrenner" },
   ],
   cta: {
     headline: "Klar til å hente inn flere feieoppdrag?",

@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const SERREBOUWERS_DATA: TradeData = {
-  slug: "serrebouwers",
+  slug: "vinterhagebyggere",
   singular: "vinterhagebygger",
   plural: "vinterhagebyggere",
   bedrijf: "vinterhage-firma",
@@ -72,10 +72,10 @@ export const SERREBOUWERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Vinterhagebyggere når i snitt side 1 innen 3-4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Karmer og vinduer", slug: "kozijnen-ramen" },
-    { label: "Glassmestre", slug: "beglazing" },
-    { label: "Håndverkere", slug: "aannemers" },
-    { label: "Gartnere", slug: "hoveniers" },
+    { label: "Karmer og vinduer", slug: "karmer-vinduer" },
+    { label: "Glassmestre", slug: "glassarbeid" },
+    { label: "Håndverkere", slug: "entreprenorer" },
+    { label: "Gartnere", slug: "gartnere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere vinterhage- og orangerioppdrag?",

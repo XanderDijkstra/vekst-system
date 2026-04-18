@@ -22,7 +22,7 @@ import { fadeInUp, systemEase } from "@/lib/animations";
 import CtaSection from "@/components/home/CtaSection";
 
 const SITE_URL = "https://vekst-systemet.no";
-const PAGE_URL = `${SITE_URL}/vergelijk/werkspot-alternatief`;
+const PAGE_URL = `${SITE_URL}/sammenlign/mittanbud-alternativ`;
 
 const problems = [
   {
@@ -170,7 +170,7 @@ const schema = {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Sammenligninger", item: `${SITE_URL}/vergelijk` },
+      { "@type": "ListItem", position: 2, name: "Sammenligninger", item: `${SITE_URL}/sammenlign` },
       { "@type": "ListItem", position: 3, name: "Mittanbud-alternativ", item: PAGE_URL },
     ],
   },
@@ -237,7 +237,7 @@ const WerkspotAlternatief = () => (
             </Link>
           </Button>
           <Button asChild variant="link" className="text-primary-foreground/80 hover:text-primary-foreground">
-            <Link to="/prijzen">Se prisene våre →</Link>
+            <Link to="/priser">Se prisene våre →</Link>
           </Button>
         </motion.div>
       </div>
@@ -462,10 +462,10 @@ const WerkspotAlternatief = () => (
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/prijzen">Se prisene våre</Link>
+            <Link to="/priser">Se prisene våre</Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-            <Link to="/contact">Ta kontakt <ArrowRight className="ml-2 h-4 w-4" /></Link>
+            <Link to="/kontakt">Ta kontakt <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
         </div>
       </div>

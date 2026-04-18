@@ -25,7 +25,7 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const SITE_URL = "https://vekst-systemet.no";
-const PAGE_URL = `${SITE_URL}/tools/leadwaarde-calculator`;
+const PAGE_URL = `${SITE_URL}/verktoy/leadverdi-kalkulator`;
 
 // ---------- Formatters ----------
 
@@ -93,7 +93,7 @@ const pageSchema = {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
       {
         "@type": "ListItem",
         position: 3,
@@ -174,7 +174,7 @@ const LeadwaardeCalculator = () => {
         <div className="container max-w-4xl">
           <motion.div {...fadeInUp} className="flex items-center gap-2 mb-4">
             <Link
-              to="/tools"
+              to="/verktoy"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
               Kalkulatorer
@@ -416,19 +416,19 @@ const LeadwaardeCalculator = () => {
               {
                 title: "Raskere respons",
                 text: "Leads som ringes innen 5 minutter konverterer opptil 4x bedre enn leads som først følges opp etter 24 timer. Automatisk oppfølging er den billigste gevinsten.",
-                href: "/diensten/lead-follow-up",
+                href: "/tjenester/lead-oppfolging",
                 cta: "Lead-oppfølgingssystem",
               },
               {
                 title: "Bedre kvalifisering",
                 text: "En god inntaksflyt filtrerer bort pris-shoppere før de spiser opp tilbudstiden din. Færre tilbud, høyere hit-rate.",
-                href: "/diensten/lead-generatie",
+                href: "/tjenester/leadgenerering",
                 cta: "Leadgenerering-system",
               },
               {
                 title: "Flere anmeldelser",
                 text: "Ved like tilbud velger folk håndverkeren med 180 anmeldelser, ikke han med 12. En anmeldelsesfunnel løfter anmeldelses-scoren din jevnt.",
-                href: "/diensten/review-funnel",
+                href: "/tjenester/anmeldelsesfunnel",
                 cta: "Anmeldelsesfunnel",
               },
             ].map((item, i) => (

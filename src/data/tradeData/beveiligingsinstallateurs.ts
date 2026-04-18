@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const BEVEILIGINGSINSTALLATEURS_DATA: TradeData = {
-  slug: "beveiligingsinstallateurs",
+  slug: "sikkerhetsinstallatorer",
   singular: "sikkerhetsinstallatør",
   plural: "sikkerhetsinstallatører",
   bedrijf: "sikkerhetsfirma",
@@ -72,10 +72,10 @@ export const BEVEILIGINGSINSTALLATEURS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Sikkerhetsinstallatører når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Smarthus", slug: "domotica" },
-    { label: "Gjerder og porter", slug: "hekwerk-poorten" },
-    { label: "Rullegardiner og solskjerming", slug: "rolluiken-zonwering" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Smarthus", slug: "smarthus" },
+    { label: "Gjerder og porter", slug: "gjerder-porter" },
+    { label: "Rullegardiner og solskjerming", slug: "persienner-solskjerming" },
   ],
   cta: {
     headline: "Klar for å vinne flere sikkerhetsoppdrag?",

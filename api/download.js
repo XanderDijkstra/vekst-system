@@ -1,10 +1,10 @@
 export const config = { maxDuration: 10 };
 
 const VALID_SLUGS = new Set([
-  "google-review-scripts-aannemer",
-  "offerte-template-aannemer",
-  "website-audit-checklist-aannemer",
-  "lead-opvolging-playbook-aannemer",
+  "google-anmeldelsesskript-handverkere",
+  "tilbudsmal-handverkere",
+  "nettside-audit-sjekkliste",
+  "lead-oppfolging-playbook",
 ]);
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

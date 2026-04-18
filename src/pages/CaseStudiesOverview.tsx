@@ -13,8 +13,8 @@ const cases = [
     slug: "offerte-automatisering-aannemer",
     result: "10 timer i uken spart",
     relatedLinks: [
-      { label: "Lead-oppfølging", href: "/diensten/lead-follow-up" },
-      { label: "Automatisering for håndverkere", href: "/diensten/automatisering-aannemers" },
+      { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Automatisering for håndverkere", href: "/tjenester/automatisering" },
     ],
   },
   {
@@ -22,8 +22,8 @@ const cases = [
     slug: "review-systeem-installatiebedrijf",
     result: "80+ Google-anmeldelser",
     relatedLinks: [
-      { label: "Anmeldelsessystem", href: "/diensten/review-funnel" },
-      { label: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes" },
+      { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
     ],
   },
   {
@@ -31,9 +31,9 @@ const cases = [
     slug: "crm-implementatie-aannemer",
     result: "50 % raskere kundeoppfølging",
     relatedLinks: [
-      { label: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox" },
-      { label: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie" },
-      { label: "Leadgenerering-nettside", href: "/diensten/lead-generatie" },
+      { label: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks" },
+      { label: "Tapt anrop → SMS", href: "/tjenester/kundekommunikasjon" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
     ],
   },
 ];
@@ -43,10 +43,10 @@ const CaseStudiesOverview = () => (
     <Helmet>
       <title>Kundecase | Vekst Systemet</title>
       <meta name="description" content="Se hvordan andre håndverkere har transformert bedriften sin med våre digitale systemer og automatisering." />
-      <link rel="canonical" href={`${SITE_URL}/case-studies`} />
+      <link rel="canonical" href={`${SITE_URL}/kundecase`} />
       <meta property="og:title" content="Kundecase | Vekst Systemet" />
       <meta property="og:description" content="Se hvordan andre håndverkere har transformert bedriften sin med våre digitale systemer." />
-      <meta property="og:url" content={`${SITE_URL}/case-studies`} />
+      <meta property="og:url" content={`${SITE_URL}/kundecase`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>

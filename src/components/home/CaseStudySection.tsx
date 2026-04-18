@@ -56,7 +56,7 @@ const CaseStudySection = () => {
 
           <div className="mt-8">
             <Button asChild variant="outline" className="rounded-lg">
-              <Link to="/case-studies">
+              <Link to="/kundecase">
                 Se alle kundecase
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>

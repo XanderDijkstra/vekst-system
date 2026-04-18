@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const LAADPAAL_INSTALLATEURS_DATA: TradeData = {
-  slug: "laadpaal-installateurs",
+  slug: "ladestasjon-installatorer",
   singular: "ladestasjon-installatør",
   plural: "ladestasjon-installatører",
   bedrijf: "ladestasjonsfirma",
@@ -72,10 +72,10 @@ export const LAADPAAL_INSTALLATEURS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Fordi markedet for ladestasjoner fortsatt er ungt og mange installatører ikke har sterk SEO, når ladestasjon-installatører i snitt side 1 innen 2 til 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Solceller", slug: "zonnepanelen" },
-    { label: "Smarthus", slug: "domotica" },
-    { label: "Varmepumpe-installasjon", slug: "warmtepomp-installatie" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Solceller", slug: "solcellepaneler" },
+    { label: "Smarthus", slug: "smarthus" },
+    { label: "Varmepumpe-installasjon", slug: "varmepumpe-installasjon" },
   ],
   cta: {
     headline: "Klar til å hente inn flere ladestasjon-oppdrag?",

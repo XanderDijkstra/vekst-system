@@ -98,7 +98,7 @@ export interface TradeData {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 const schildersData: TradeData = {
-  slug: "schilders",
+  slug: "malere",
   singular: "maler",
   plural: "malere",
   bedrijf: "malerfirma",
@@ -169,10 +169,10 @@ const schildersData: TradeData = {
     { question: "Må jeg gjøre noe selv, eller ordnes alt for meg?", answer: "Vi ordner 95 % - nettsiden, SEO-en, automatiseringene og det tekniske vedlikeholdet. Det eneste vi ber om fra deg: send oss bilder av arbeidet ditt (før/etter), og bruk appen til å sende en anmeldelsesforespørsel etter en jobb med ett klikk. Det er bokstavelig talt to trykk på telefonen." },
   ],
   relatedTrades: [
-    { label: "Takleggere", slug: "dakdekkers" },
-    { label: "Pussere", slug: "stukadoors" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-    { label: "Gartnere", slug: "hoveniers" },
+    { label: "Takleggere", slug: "takleggere" },
+    { label: "Pussere", slug: "pussere" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+    { label: "Gartnere", slug: "gartnere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere malerjobber?",
@@ -192,9 +192,9 @@ const schildersData: TradeData = {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 export const TRADE_PAGES: Record<string, TradeData> = {
-  schilders: schildersData,
-  dakdekkers: {
-    slug: "dakdekkers",
+  malere: schildersData,
+  takleggere: {
+    slug: "takleggere",
     singular: "taktekker",
     plural: "takleggere",
     bedrijf: "takleggerfirma",
@@ -265,10 +265,10 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       { question: "Hvordan skiller dette seg fra en Mittanbud-profil?", answer: "På Mittanbud betaler du per lead og konkurrerer med andre takleggere om den samme kunden. Med Vekst Systemet jobber du med ditt eget digitale merke. Kunder som kommer til nettsiden din via Google, har allerede valgt deg basert på anmeldelser, portefølje og nettside. Konverteringen er høyere og kostnaden per kunde lavere." },
     ],
     relatedTrades: [
-      { label: "Malere", slug: "schilders" },
-      { label: "Rørleggere", slug: "loodgieters" },
-      { label: "Isolasjonsfirmaer", slug: "isolatiebedrijven" },
-      { label: "Altmuligfirmaer", slug: "klusbedrijven" },
+      { label: "Malere", slug: "malere" },
+      { label: "Rørleggere", slug: "rorleggere" },
+      { label: "Isolasjonsfirmaer", slug: "isolering" },
+      { label: "Altmuligfirmaer", slug: "altmuligmenn" },
     ],
     cta: {
       headline: "Klar til å være den første taktekkeren de ringer?",
@@ -277,8 +277,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       buttonUrl: "/demo",
     },
   },
-  loodgieters: {
-    slug: "loodgieters",
+  rorleggere: {
+    slug: "rorleggere",
     singular: "rørlegger",
     plural: "rørleggere",
     bedrijf: "rørleggerfirma",
@@ -349,10 +349,10 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       { question: "Hvor lang tid tar det før jeg ser resultater?", answer: "Google Maps-resultatene forbedrer seg ofte allerede innen 2-4 uker etter optimalisering og første omgang anmeldelser. Organiske søkeresultater tar 2-4 måneder. Tapt-anrop-SMS og automatisering av anmeldelser fungerer fra dag 1." },
     ],
     relatedTrades: [
-      { label: "Takleggere", slug: "dakdekkers" },
-      { label: "Elektrikere", slug: "elektriciens" },
-      { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-      { label: "Baderomsrenovering", slug: "badkamerrenovatie" },
+      { label: "Takleggere", slug: "takleggere" },
+      { label: "Elektrikere", slug: "elektrikere" },
+      { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+      { label: "Baderomsrenovering", slug: "baderomsrenovering" },
     ],
     cta: {
       headline: "Klar til å bli rørleggeren de ringer først?",
@@ -361,8 +361,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       buttonUrl: "/demo",
     },
   },
-  stukadoors: {
-    slug: "stukadoors",
+  pussere: {
+    slug: "pussere",
     singular: "pusser",
     plural: "pussere",
     bedrijf: "pusser-firma",
@@ -432,10 +432,10 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       { question: "Fungerer dette også for spesialiserte overflatebehandlinger?", answer: "Nettopp for det. Vi lager egne sider for betonglook, mikrosement, kalkpuss, dekorpuss og andre nisje-overflater. Disse sidene rangerer ofte raskt fordi det knapt er konkurranse på dem, og trekker til seg kunder som er villige til å betale mer for kvalitet." },
     ],
     relatedTrades: [
-      { label: "Malere", slug: "schilders" },
-      { label: "Flisleggere", slug: "tegelzetters" },
-      { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-      { label: "Baderomsrenovering", slug: "badkamerrenovatie" },
+      { label: "Malere", slug: "malere" },
+      { label: "Flisleggere", slug: "flisleggere" },
+      { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+      { label: "Baderomsrenovering", slug: "baderomsrenovering" },
     ],
     cta: {
       headline: "Klar til å hente inn flere private pusse-jobber?",
@@ -444,8 +444,8 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       buttonUrl: "/demo",
     },
   },
-  hoveniers: {
-    slug: "hoveniers",
+  gartnere: {
+    slug: "gartnere",
     singular: "gartner",
     plural: "gartnere",
     bedrijf: "gartnerfirma",
@@ -515,10 +515,10 @@ export const TRADE_PAGES: Record<string, TradeData> = {
       { question: "Kan jeg også fylle opp hagevedlikehold-abonnementer med dette?", answer: "Ja. En egen side for 'hagevedlikehold-abonnement' eller 'gartner fast avtale' trekker til seg kunder med strukturelt behov. Kombinert med sesongkampanjer til den eksisterende kundebasen din fyller du vedlikeholdskapasiteten uten ekstra annonsekostnader." },
     ],
     relatedTrades: [
-      { label: "Malere", slug: "schilders" },
-      { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-      { label: "Flisleggere", slug: "tegelzetters" },
-      { label: "Rengjøringsfirmaer", slug: "schoonmaakbedrijven" },
+      { label: "Malere", slug: "malere" },
+      { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+      { label: "Flisleggere", slug: "flisleggere" },
+      { label: "Rengjøringsfirmaer", slug: "rengjoringsfirma" },
     ],
     cta: {
       headline: "Klar til å hente inn flere hageprosjekter?",
@@ -528,105 +528,105 @@ export const TRADE_PAGES: Record<string, TradeData> = {
     },
   },
   // ━━ KLUSBEDRIJVEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  klusbedrijven: KLUSBEDRIJVEN_DATA,
+  altmuligmenn: KLUSBEDRIJVEN_DATA,
   // ━━ TEGELZETTERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  tegelzetters: TEGELZETTERS_DATA,
+  flisleggere: TEGELZETTERS_DATA,
   // ━━ ELEKTRICIENS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  elektriciens: ELEKTRICIENS_DATA,
+  elektrikere: ELEKTRICIENS_DATA,
   // ━━ TIMMERLIEDEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  timmerlieden: TIMMERLIEDEN_DATA,
+  tomrere: TIMMERLIEDEN_DATA,
   // ━━ SCHOONMAAKBEDRIJVEN ━━━━━━━━━━━━━━━━━━━━━━━━━━
-  schoonmaakbedrijven: SCHOONMAAKBEDRIJVEN_DATA,
+  rengjoringsfirma: SCHOONMAAKBEDRIJVEN_DATA,
   // ━━ GLAZENWASSERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  glazenwassers: GLAZENWASSERS_DATA,
+  vindusvaskere: GLAZENWASSERS_DATA,
   // ━━ KEUKENMONTEURS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  keukenmonteurs: KEUKENMONTEURS_DATA,
+  kjokkenmontorer: KEUKENMONTEURS_DATA,
   // ━━ BADKAMERRENOVATIE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  badkamerrenovatie: BADKAMERRENOVATIE_DATA,
+  baderomsrenovering: BADKAMERRENOVATIE_DATA,
   // ━━ ISOLATIEBEDRIJVEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  isolatiebedrijven: ISOLATIEBEDRIJVEN_DATA,
+  isolering: ISOLATIEBEDRIJVEN_DATA,
   // ━━ VERHUISBEDRIJVEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  verhuisbedrijven: VERHUISBEDRIJVEN_DATA,
+  flyttefirma: VERHUISBEDRIJVEN_DATA,
   // ━━ HVAC ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  hvac: HVAC_DATA,
+  "vvs-klima": HVAC_DATA,
   // ━━ AANNEMERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  aannemers: AANNEMERS_DATA,
+  entreprenorer: AANNEMERS_DATA,
   // ━━ GEVELREINIGING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  gevelreiniging: GEVELREINIGING_DATA,
+  fasaderens: GEVELREINIGING_DATA,
   // ━━ PARKETVLOEREN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  parketvloeren: PARKETVLOEREN_DATA,
+  parkett: PARKETVLOEREN_DATA,
   // ━━ BEGLAZING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  beglazing: BEGLAZING_DATA,
+  glassarbeid: BEGLAZING_DATA,
   // ━━ HEKWERK & POORTEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  "hekwerk-poorten": HEKWERK_POORTEN_DATA,
+  "gjerder-porter": HEKWERK_POORTEN_DATA,
   // ━━ RIOOLSERVICE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  rioolservice: RIOOLSERVICE_DATA,
+  avlopstjeneste: RIOOLSERVICE_DATA,
   // ━━ BESTRATING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  bestrating: BESTRATING_DATA,
+  belegning: BESTRATING_DATA,
   // ━━ INTERIEURONTWERP ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  interieurontwerp: INTERIEURONTWERP_DATA,
+  interiordesign: INTERIEURONTWERP_DATA,
   // ━━ ROLLUIKEN & ZONWERING ━━━━━━━━━━━━━━━━━━━━━━━
-  "rolluiken-zonwering": ROLLUIKEN_ZONWERING_DATA,
+  "persienner-solskjerming": ROLLUIKEN_ZONWERING_DATA,
   // ━━ BETON & CEMENT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  "beton-cement": BETON_CEMENT_DATA,
+  "betong-sement": BETON_CEMENT_DATA,
   // ━━ KOZIJNEN & RAMEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  "kozijnen-ramen": KOZIJNEN_RAMEN_DATA,
+  "karmer-vinduer": KOZIJNEN_RAMEN_DATA,
   // ━━ VLOERLEGGER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  vloerlegger: VLOERLEGGER_DATA,
+  gulvlegger: VLOERLEGGER_DATA,
   // ━━ CV-KETEL MONTAGE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  "cv-ketel-montage": CV_KETEL_MONTAGE_DATA,
+  "fyrmontering": CV_KETEL_MONTAGE_DATA,
   // ━━ METSELWERK ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  metselwerk: METSELWERK_DATA,
+  murerarbeid: METSELWERK_DATA,
   // ━━ VOEGWERK ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  voegwerk: VOEGWERK_DATA,
+  fugearbeid: VOEGWERK_DATA,
   // ━━ DAKGOTEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  dakgoten: DAKGOTEN_DATA,
+  takrenner: DAKGOTEN_DATA,
   // ━━ ONTRUIMING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  ontruiming: ONTRUIMING_DATA,
+  rydding: ONTRUIMING_DATA,
   // ━━ WARMTEPOMP INSTALLATIE ━━━━━━━━━━━━━━━━━━━━━━
-  "warmtepomp-installatie": WARMTEPOMP_INSTALLATIE_DATA,
+  "varmepumpe-installasjon": WARMTEPOMP_INSTALLATIE_DATA,
   // ━━ DOMOTICA ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  domotica: DOMOTICA_DATA,
+  smarthus: DOMOTICA_DATA,
   // ━━ OPRUIMSERVICE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  opruimservice: OPRUIMSERVICE_DATA,
+  ryddetjeneste: OPRUIMSERVICE_DATA,
   // ━━ ZONNEPANELEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  zonnepanelen: ZONNEPANELEN_DATA,
+  solcellepaneler: ZONNEPANELEN_DATA,
   // ━━ DAKKAPELLEN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  dakkapellen: DAKKAPELLEN_DATA,
+  takark: DAKKAPELLEN_DATA,
   // ━━ AIRCO INSTALLATEURS ━━━━━━━━━━━━━━━━━━━━━━━━━
-  "airco-installateurs": AIRCO_INSTALLATEURS_DATA,
+  "klimaanlegg-installatorer": AIRCO_INSTALLATEURS_DATA,
   // ━━ ASBESTSANERING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   asbestsanering: ASBESTSANERING_DATA,
   // ━━ VOCHTBESTRIJDING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  vochtbestrijding: VOCHTBESTRIJDING_DATA,
+  fuktbekjempelse: VOCHTBESTRIJDING_DATA,
   // ━━ SCHOORSTEENVEGERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  schoorsteenvegers: SCHOORSTEENVEGERS_DATA,
+  feiere: SCHOORSTEENVEGERS_DATA,
   // ━━ MEUBELMAKERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  meubelmakers: MEUBELMAKERS_DATA,
+  mobelsnekkere: MEUBELMAKERS_DATA,
   // ━━ ZWEMBADBOUWERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  zwembadbouwers: ZWEMBADBOUWERS_DATA,
+  "svommebasseng-byggere": ZWEMBADBOUWERS_DATA,
   // ━━ SERREBOUWERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  serrebouwers: SERREBOUWERS_DATA,
+  vinterhagebyggere: SERREBOUWERS_DATA,
   // ━━ BINNENHUISARCHITECTEN ━━━━━━━━━━━━━━━━━━━━━━━
-  binnenhuisarchitecten: BINNENHUISARCHITECTEN_DATA,
+  interiorarkitekter: BINNENHUISARCHITECTEN_DATA,
   // ━━ KELDERBOUW ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  kelderbouw: KELDERBOUW_DATA,
+  kjellerbygging: KELDERBOUW_DATA,
   // ━━ GARAGEDEUREN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  garagedeuren: GARAGEDEUREN_DATA,
+  garasjeporter: GARAGEDEUREN_DATA,
   // ━━ BEVEILIGINGSINSTALLATEURS ━━━━━━━━━━━━━━━━━━━
-  beveiligingsinstallateurs: BEVEILIGINGSINSTALLATEURS_DATA,
+  sikkerhetsinstallatorer: BEVEILIGINGSINSTALLATEURS_DATA,
   // ━━ RIETDEKKERS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  rietdekkers: RIETDEKKERS_DATA,
+  stratekkere: RIETDEKKERS_DATA,
   // ━━ AANBOUW & UITBOUW ━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  "aanbouw-uitbouw": AANBOUW_UITBOUW_DATA,
+  "tilbygg-paabygg": AANBOUW_UITBOUW_DATA,
   // ━━ LAADPAAL INSTALLATEURS ━━━━━━━━━━━━━━━━━━━━━━
-  "laadpaal-installateurs": LAADPAAL_INSTALLATEURS_DATA,
+  "ladestasjon-installatorer": LAADPAAL_INSTALLATEURS_DATA,
   // ━━ FUNDERINGSHERSTEL ━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  funderingsherstel: FUNDERINGSHERSTEL_DATA,
+  fundamentreparasjon: FUNDERINGSHERSTEL_DATA,
   // ━━ TRAPLIFTEN & THUISLIFTEN ━━━━━━━━━━━━━━━━━━━━
-  "trapliften-thuisliften": TRAPLIFTEN_THUISLIFTEN_DATA,
+  "trappeheis-hjemmeheis": TRAPLIFTEN_THUISLIFTEN_DATA,
   // ━━ GIETVLOEREN ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  gietvloeren: GIETVLOEREN_DATA,
+  stopegulv: GIETVLOEREN_DATA,
 };
 
 export const TRADE_SLUGS = Object.keys(TRADE_PAGES);

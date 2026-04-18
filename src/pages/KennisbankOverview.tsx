@@ -47,14 +47,14 @@ const kennisbankSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Kunnskapsbank | Vekst Systemet",
-  url: `${SITE_URL}/kennisbank`,
+  url: `${SITE_URL}/kunnskapsbank`,
   description: "Praktiske artikler om digitalisering, markedsføring og automatisering for håndverkere.",
   inLanguage: "nb-NO",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Kunnskapsbank", item: `${SITE_URL}/kennisbank` },
+      { "@type": "ListItem", position: 2, name: "Kunnskapsbank", item: `${SITE_URL}/kunnskapsbank` },
     ],
   },
   mainEntity: {
@@ -64,7 +64,7 @@ const kennisbankSchema = {
       "@type": "ListItem",
       position: i + 1,
       name: a.title,
-      url: `${SITE_URL}/kennisbank/${a.slug}`,
+      url: `${SITE_URL}/kunnskapsbank/${a.slug}`,
     })),
   },
 };
@@ -74,10 +74,10 @@ const KennisbankOverview = () => (
     <Helmet>
       <title>Kunnskapsbank | Vekst Systemet</title>
       <meta name="description" content="Praktiske artikler om digitalisering, markedsføring og automatisering for håndverkere. Lær hvordan du tiltrekker flere kunder." />
-      <link rel="canonical" href={`${SITE_URL}/kennisbank`} />
+      <link rel="canonical" href={`${SITE_URL}/kunnskapsbank`} />
       <meta property="og:title" content="Kunnskapsbank | Vekst Systemet" />
       <meta property="og:description" content="Praktiske artikler om digitalisering, markedsføring og automatisering for håndverkere." />
-      <meta property="og:url" content={`${SITE_URL}/kennisbank`} />
+      <meta property="og:url" content={`${SITE_URL}/kunnskapsbank`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(kennisbankSchema)}</script>
@@ -117,7 +117,7 @@ const KennisbankOverview = () => (
           </Link>
 
           <Link
-            to="/blog"
+            to="/blogg"
             className="group flex items-center justify-between rounded-2xl bg-card border border-border p-6 md:p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250 ease-system-ease"
           >
             <div className="flex items-start gap-4">
@@ -135,7 +135,7 @@ const KennisbankOverview = () => (
           </Link>
 
           <Link
-            to="/tools"
+            to="/verktoy"
             className="group flex items-center justify-between rounded-2xl bg-card border border-border p-6 md:p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250 ease-system-ease"
           >
             <div className="flex items-start gap-4">
@@ -166,7 +166,7 @@ const KennisbankOverview = () => (
             {latestArticles.map((a) => (
               <Link
                 key={a.slug}
-                to={`/kennisbank/${a.slug}`}
+                to={`/kunnskapsbank/${a.slug}`}
                 className="group flex flex-col bg-card rounded-2xl p-6 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-1 transition-all duration-250 ease-system-ease"
               >
                 <span className="inline-block self-start text-xs font-bold uppercase tracking-widest text-accent mb-3">
@@ -227,7 +227,7 @@ const KennisbankOverview = () => (
                   {articles.map((a) => (
                     <li key={a.slug}>
                       <Link
-                        to={`/kennisbank/${a.slug}`}
+                        to={`/kunnskapsbank/${a.slug}`}
                         className="block text-sm leading-snug text-muted-foreground hover:text-accent transition-colors"
                       >
                         {a.title}

@@ -6,14 +6,14 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const systems = [
-  { icon: Globe, title: "Leadgenerering-nettside", description: "En nettside som tiltrekker nye kunder og samler tilbudsforespørsler automatisk.", href: "/diensten/lead-generatie" },
-  { icon: PhoneOff, title: "Tapt anrop → SMS", description: "Send automatisk en melding når du mister et anrop.", href: "/diensten/klantcommunicatie" },
-  { icon: FileText, title: "Tilbudsautomatisering", description: "Lag tilbud raskere og følg dem opp automatisk.", href: "/diensten/offerte-systeem" },
-  { icon: Star, title: "Anmeldelsessystem", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk.", href: "/diensten/review-systeem" },
-  { icon: BarChart3, title: "Markedsføringsautomatisering", description: "Nå målgruppen din automatisk med riktig budskap til riktig tid.", href: "/diensten/marketing-automatisering" },
-  { icon: Calendar, title: "Planleggingssystem", description: "Administrer prosjekter og planlegging på ett sentralt sted.", href: "/diensten/planning-systeem" },
-  { icon: Settings, title: "Digitalisering", description: "Fra papir til digitalt. Vi hjelper firmaet ditt å modernisere seg.", href: "/diensten/digitalisering-aannemers" },
-  { icon: Plug, title: "Integrasjoner & Automatisering", description: "Koble sammen verktøyene du allerede bruker, så de jobber sømløst.", href: "/diensten/software-integraties" },
+  { icon: Globe, title: "Leadgenerering-nettside", description: "En nettside som tiltrekker nye kunder og samler tilbudsforespørsler automatisk.", href: "/tjenester/leadgenerering" },
+  { icon: PhoneOff, title: "Tapt anrop → SMS", description: "Send automatisk en melding når du mister et anrop.", href: "/tjenester/kundekommunikasjon" },
+  { icon: FileText, title: "Tilbudsautomatisering", description: "Lag tilbud raskere og følg dem opp automatisk.", href: "/tjenester/tilbudssystem" },
+  { icon: Star, title: "Anmeldelsessystem", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk.", href: "/tjenester/anmeldelsessystem" },
+  { icon: BarChart3, title: "Markedsføringsautomatisering", description: "Nå målgruppen din automatisk med riktig budskap til riktig tid.", href: "/tjenester/markedsforingsautomatisering" },
+  { icon: Calendar, title: "Planleggingssystem", description: "Administrer prosjekter og planlegging på ett sentralt sted.", href: "/tjenester/planleggingssystem" },
+  { icon: Settings, title: "Digitalisering", description: "Fra papir til digitalt. Vi hjelper firmaet ditt å modernisere seg.", href: "/tjenester/digitalisering" },
+  { icon: Plug, title: "Integrasjoner & Automatisering", description: "Koble sammen verktøyene du allerede bruker, så de jobber sømløst.", href: "/tjenester/programvareintegrasjoner" },
 ];
 
 const SystemsGridSection = () => {

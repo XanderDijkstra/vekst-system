@@ -21,7 +21,7 @@ const materialTools: MaterialTool[] = [
     title: "Fliser beregne",
     description:
       "Hvor mange fliser, esker, flislim og fugemasse trenger du? Velg format, fyll inn m² og bestill akkurat nok.",
-    href: "/tools/tegels-berekenen",
+    href: "/verktoy/fliser-kalkulator",
     icon: Grid3X3,
     status: "live",
   },
@@ -29,7 +29,7 @@ const materialTools: MaterialTool[] = [
     title: "Maling beregne",
     description:
       "Hvor mange liter maling og spann trenger du? Velg malingstype, fyll inn m² og vit nøyaktig hva du skal bestille.",
-    href: "/tools/verf-berekenen",
+    href: "/verktoy/maling-kalkulator",
     icon: Paintbrush,
     status: "live",
   },
@@ -37,7 +37,7 @@ const materialTools: MaterialTool[] = [
     title: "Betong beregne",
     description:
       "Beregn hvor mange m³ betong, sekker sement, sand og grus du trenger til prosjektet.",
-    href: "/tools/beton-berekenen",
+    href: "/verktoy/betong-kalkulator",
     icon: HardHat,
     status: "live",
   },
@@ -45,7 +45,7 @@ const materialTools: MaterialTool[] = [
     title: "Laminat beregne",
     description:
       "Hvor mange pakker laminat og undergulv trenger du? Fyll inn m² og ta hensyn til kappsvinn.",
-    href: "/tools/laminaat-berekenen",
+    href: "/verktoy/laminat-kalkulator",
     icon: Layers,
     status: "live",
   },
@@ -53,7 +53,7 @@ const materialTools: MaterialTool[] = [
     title: "Tapet beregne",
     description:
       "Beregn hvor mange ruller tapet du trenger basert på rommål, vindusbredde og mønsterrapport.",
-    href: "/tools/behang-berekenen",
+    href: "/verktoy/tapet-kalkulator",
     icon: Ruler,
     status: "live",
   },
@@ -61,7 +61,7 @@ const materialTools: MaterialTool[] = [
     title: "Gipsplater beregne",
     description:
       "Beregn hvor mange gipsplater, stenderverk i stål, skruer og sparkelbånd du trenger.",
-    href: "/tools/gipsplaten-berekenen",
+    href: "/verktoy/gipsplate-kalkulator",
     icon: Package,
     status: "live",
   },
@@ -69,7 +69,7 @@ const materialTools: MaterialTool[] = [
     title: "Pussarbeid beregne",
     description:
       "Beregn hvor mange kg puss, sekker med gipspuss og primer du trenger per m² vegg eller himling.",
-    href: "/tools/stucwerk-berekenen",
+    href: "/verktoy/puss-kalkulator",
     icon: Droplets,
     status: "live",
   },
@@ -79,19 +79,19 @@ const hubSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Byggematerialer beregne | Gratis kalkulatorer | Vekst Systemet",
-  url: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
+  url: `${SITE_URL}/verktoy/byggematerialer-kalkulator`,
   description:
     "Beregn hvor mye byggematerialer du trenger: fliser, maling, betong, laminat og mer. Gratis kalkulatorer for håndverkere - umiddelbart resultat, ingen registrering.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
       {
         "@type": "ListItem",
         position: 3,
         name: "Byggematerialer beregne",
-        item: `${SITE_URL}/tools/bouwmaterialen-berekenen`,
+        item: `${SITE_URL}/verktoy/byggematerialer-kalkulator`,
       },
     ],
   },
@@ -117,7 +117,7 @@ const BouwmaterialenHub = () => (
         name="description"
         content="Beregn hvor mye byggematerialer du trenger: fliser, maling, betong, laminat og mer. Gratis kalkulatorer for håndverkere - umiddelbart resultat, ingen registrering."
       />
-      <link rel="canonical" href={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
+      <link rel="canonical" href={`${SITE_URL}/verktoy/byggematerialer-kalkulator`} />
       <meta
         property="og:title"
         content="Byggematerialer beregne | Gratis kalkulatorer | Vekst Systemet"
@@ -126,7 +126,7 @@ const BouwmaterialenHub = () => (
         property="og:description"
         content="Beregn hvor mye byggematerialer du trenger: fliser, maling, betong, laminat og mer."
       />
-      <meta property="og:url" content={`${SITE_URL}/tools/bouwmaterialen-berekenen`} />
+      <meta property="og:url" content={`${SITE_URL}/verktoy/byggematerialer-kalkulator`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(hubSchema)}</script>
@@ -136,7 +136,7 @@ const BouwmaterialenHub = () => (
       <div className="container">
         <motion.div {...fadeInUp}>
           <Link
-            to="/tools"
+            to="/verktoy"
             className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
           >
             ← Alle kalkulatorer
@@ -200,7 +200,7 @@ const BouwmaterialenHub = () => (
           <p className="text-muted-foreground leading-relaxed">
             Vi bygger ut denne verktøykassen med kalkulatorer for hvert materiale: betong,
             laminat, tapet, isolasjon, gipsplater, pussarbeid og mer. Forslag?{" "}
-            <Link to="/contact" className="underline hover:text-accent transition-colors">
+            <Link to="/kontakt" className="underline hover:text-accent transition-colors">
               Gi oss beskjed
             </Link>
             .

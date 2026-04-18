@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const TIMMERLIEDEN_DATA: TradeData = {
-  slug: "timmerlieden",
+  slug: "tomrere",
   singular: "tømrer",
   plural: "tømrere",
   bedrijf: "tømrerfirma",
@@ -72,10 +72,10 @@ export const TIMMERLIEDEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Tømrerfirmaer når i snitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Malere", slug: "schilders" },
-    { label: "Takleggere", slug: "dakdekkers" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-    { label: "Pussere", slug: "stukadoors" },
+    { label: "Malere", slug: "malere" },
+    { label: "Takleggere", slug: "takleggere" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+    { label: "Pussere", slug: "pussere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere tømrerprosjekter?",

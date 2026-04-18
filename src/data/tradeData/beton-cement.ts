@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const BETON_CEMENT_DATA: TradeData = {
-  slug: "beton-cement",
+  slug: "betong-sement",
   singular: "betongspesialist",
   plural: "betong- og sementfirmaer",
   bedrijf: "betong- og sementfirma",
@@ -72,10 +72,10 @@ export const BETON_CEMENT_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Betongfirmaer når i gjennomsnitt side 1 innen 4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Entreprenører", slug: "aannemers" },
-    { label: "Brolegging", slug: "bestrating" },
-    { label: "Murere og pussere", slug: "stukadoors" },
-    { label: "Flisleggere", slug: "tegelzetters" },
+    { label: "Entreprenører", slug: "entreprenorer" },
+    { label: "Brolegging", slug: "belegning" },
+    { label: "Murere og pussere", slug: "pussere" },
+    { label: "Flisleggere", slug: "flisleggere" },
   ],
   cta: {
     headline: "Klar for å vinne flere betongprosjekter?",

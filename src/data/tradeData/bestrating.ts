@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const BESTRATING_DATA: TradeData = {
-  slug: "bestrating",
+  slug: "belegning",
   singular: "brolegger",
   plural: "brolegger-firmaer",
   bedrijf: "brolegger-firma",
@@ -72,10 +72,10 @@ export const BESTRATING_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Brolegger-firmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Anleggsgartnere", slug: "hoveniers" },
-    { label: "Entreprenører", slug: "aannemers" },
-    { label: "Flisleggere", slug: "tegelzetters" },
-    { label: "Betong og sement", slug: "beton-cement" },
+    { label: "Anleggsgartnere", slug: "gartnere" },
+    { label: "Entreprenører", slug: "entreprenorer" },
+    { label: "Flisleggere", slug: "flisleggere" },
+    { label: "Betong og sement", slug: "betong-sement" },
   ],
   cta: {
     headline: "Klar for å vinne flere brolegger-prosjekter?",

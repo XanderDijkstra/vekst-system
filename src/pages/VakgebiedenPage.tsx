@@ -20,85 +20,85 @@ import aannemerImg from "@/assets/trades/aannemer.jpg";
 import tegelzetterImg from "@/assets/trades/tegelzetter.jpg";
 
 const trades = [
-  { name: "Takleggere", image: dakdekkersImg, slug: "dakdekkers" },
-  { name: "Rørleggere", image: loodgieterImg, slug: "loodgieters" },
-  { name: "Elektrikere", image: elektricienImg, slug: "elektriciens" },
-  { name: "Altmuligmenn", image: klusbedrijfImg, slug: "klusbedrijven" },
-  { name: "Malere", image: schilderImg, slug: "schilders" },
-  { name: "Gartnere", image: tuinmanImg, slug: "hoveniers" },
-  { name: "VVS & Klima", image: hvacImg, slug: "hvac" },
-  { name: "Entreprenører", image: aannemerImg, slug: "aannemers" },
-  { name: "Flisleggere", image: tegelzetterImg, slug: "tegelzetters" },
+  { name: "Takleggere", image: dakdekkersImg, slug: "takleggere" },
+  { name: "Rørleggere", image: loodgieterImg, slug: "rorleggere" },
+  { name: "Elektrikere", image: elektricienImg, slug: "elektrikere" },
+  { name: "Altmuligmenn", image: klusbedrijfImg, slug: "altmuligmenn" },
+  { name: "Malere", image: schilderImg, slug: "malere" },
+  { name: "Gartnere", image: tuinmanImg, slug: "gartnere" },
+  { name: "VVS & Klima", image: hvacImg, slug: "vvs-klima" },
+  { name: "Entreprenører", image: aannemerImg, slug: "entreprenorer" },
+  { name: "Flisleggere", image: tegelzetterImg, slug: "flisleggere" },
 ];
 
 const allTrades = [
-  { name: "Altmuligmenn", slug: "klusbedrijven" },
+  { name: "Altmuligmenn", slug: "altmuligmenn" },
   { name: "Asbestsanering", slug: "asbestsanering" },
-  { name: "Avløpstjeneste", slug: "rioolservice" },
-  { name: "Baderomsrenovering", slug: "badkamerrenovatie" },
-  { name: "Belegning & Brostein", slug: "bestrating" },
-  { name: "Betong & Sement", slug: "beton-cement" },
-  { name: "Elektrikere", slug: "elektriciens" },
-  { name: "Entreprenører", slug: "aannemers" },
-  { name: "Fasaderens", slug: "gevelreiniging" },
-  { name: "Feiere", slug: "schoorsteenvegers" },
-  { name: "Flisleggere", slug: "tegelzetters" },
-  { name: "Fuktbekjempelse", slug: "vochtbestrijding" },
-  { name: "Fundamentreparasjon", slug: "funderingsherstel" },
-  { name: "Fugearbeid", slug: "voegwerk" },
-  { name: "Fyrmontering", slug: "cv-ketel-montage" },
-  { name: "Garasjeporter", slug: "garagedeuren" },
-  { name: "Gartnere", slug: "hoveniers" },
-  { name: "Gjerder & Porter", slug: "hekwerk-poorten" },
-  { name: "Glassarbeid", slug: "beglazing" },
-  { name: "Glassmester", slug: "glazenwassers" },
-  { name: "Gulvlegger", slug: "vloerlegger" },
-  { name: "HVAC & Klima", slug: "hvac" },
-  { name: "Interiørarkitekter", slug: "binnenhuisarchitecten" },
-  { name: "Interiørdesign", slug: "interieurontwerp" },
-  { name: "Isolering", slug: "isolatiebedrijven" },
-  { name: "Karmer & Vinduer", slug: "kozijnen-ramen" },
-  { name: "Kjellerbygging", slug: "kelderbouw" },
-  { name: "Kjøkkenmontering", slug: "keukenmonteurs" },
-  { name: "Klimaanlegg-installatører", slug: "airco-installateurs" },
-  { name: "Ladestasjon-installatører", slug: "laadpaal-installateurs" },
-  { name: "Malere", slug: "schilders" },
-  { name: "Møbelsnekker", slug: "meubelmakers" },
-  { name: "Murerarbeid", slug: "metselwerk" },
-  { name: "Parkettgulv", slug: "parketvloeren" },
-  { name: "Persienner & Solskjerming", slug: "rolluiken-zonwering" },
-  { name: "Pussere", slug: "stukadoors" },
-  { name: "Rengjøringsfirma", slug: "schoonmaakbedrijven" },
-  { name: "Rydding", slug: "ontruiming" },
-  { name: "Ryddetjeneste", slug: "opruimservice" },
-  { name: "Rørleggere", slug: "loodgieters" },
-  { name: "Sikkerhetsinstallatører", slug: "beveiligingsinstallateurs" },
-  { name: "Smarthus", slug: "domotica" },
-  { name: "Solcellepaneler", slug: "zonnepanelen" },
-  { name: "Stråtekkere", slug: "rietdekkers" },
-  { name: "Støpegulv", slug: "gietvloeren" },
-  { name: "Svømmebassengbyggere", slug: "zwembadbouwers" },
-  { name: "Takleggere", slug: "dakdekkers" },
-  { name: "Takopplett", slug: "dakkapellen" },
-  { name: "Takrenner", slug: "dakgoten" },
-  { name: "Tilbygg & Påbygg", slug: "aanbouw-uitbouw" },
-  { name: "Tømrer", slug: "timmerlieden" },
-  { name: "Trappeheis & Hjemmeheis", slug: "trapliften-thuisliften" },
-  { name: "Varmepumpe-installasjon", slug: "warmtepomp-installatie" },
-  { name: "Vinterhagebyggere", slug: "serrebouwers" },
+  { name: "Avløpstjeneste", slug: "avlopstjeneste" },
+  { name: "Baderomsrenovering", slug: "baderomsrenovering" },
+  { name: "Belegning & Brostein", slug: "belegning" },
+  { name: "Betong & Sement", slug: "betong-sement" },
+  { name: "Elektrikere", slug: "elektrikere" },
+  { name: "Entreprenører", slug: "entreprenorer" },
+  { name: "Fasaderens", slug: "fasaderens" },
+  { name: "Feiere", slug: "feiere" },
+  { name: "Flisleggere", slug: "flisleggere" },
+  { name: "Fuktbekjempelse", slug: "fuktbekjempelse" },
+  { name: "Fundamentreparasjon", slug: "fundamentreparasjon" },
+  { name: "Fugearbeid", slug: "fugearbeid" },
+  { name: "Fyrmontering", slug: "fyrmontering" },
+  { name: "Garasjeporter", slug: "garasjeporter" },
+  { name: "Gartnere", slug: "gartnere" },
+  { name: "Gjerder & Porter", slug: "gjerder-porter" },
+  { name: "Glassarbeid", slug: "glassarbeid" },
+  { name: "Glassmester", slug: "vindusvaskere" },
+  { name: "Gulvlegger", slug: "gulvlegger" },
+  { name: "HVAC & Klima", slug: "vvs-klima" },
+  { name: "Interiørarkitekter", slug: "interiorarkitekter" },
+  { name: "Interiørdesign", slug: "interiordesign" },
+  { name: "Isolering", slug: "isolering" },
+  { name: "Karmer & Vinduer", slug: "karmer-vinduer" },
+  { name: "Kjellerbygging", slug: "kjellerbygging" },
+  { name: "Kjøkkenmontering", slug: "kjokkenmontorer" },
+  { name: "Klimaanlegg-installatører", slug: "klimaanlegg-installatorer" },
+  { name: "Ladestasjon-installatører", slug: "ladestasjon-installatorer" },
+  { name: "Malere", slug: "malere" },
+  { name: "Møbelsnekker", slug: "mobelsnekkere" },
+  { name: "Murerarbeid", slug: "murerarbeid" },
+  { name: "Parkettgulv", slug: "parkett" },
+  { name: "Persienner & Solskjerming", slug: "persienner-solskjerming" },
+  { name: "Pussere", slug: "pussere" },
+  { name: "Rengjøringsfirma", slug: "rengjoringsfirma" },
+  { name: "Rydding", slug: "rydding" },
+  { name: "Ryddetjeneste", slug: "ryddetjeneste" },
+  { name: "Rørleggere", slug: "rorleggere" },
+  { name: "Sikkerhetsinstallatører", slug: "sikkerhetsinstallatorer" },
+  { name: "Smarthus", slug: "smarthus" },
+  { name: "Solcellepaneler", slug: "solcellepaneler" },
+  { name: "Stråtekkere", slug: "stratekkere" },
+  { name: "Støpegulv", slug: "stopegulv" },
+  { name: "Svømmebassengbyggere", slug: "svommebasseng-byggere" },
+  { name: "Takleggere", slug: "takleggere" },
+  { name: "Takopplett", slug: "takark" },
+  { name: "Takrenner", slug: "takrenner" },
+  { name: "Tilbygg & Påbygg", slug: "tilbygg-paabygg" },
+  { name: "Tømrer", slug: "tomrere" },
+  { name: "Trappeheis & Hjemmeheis", slug: "trappeheis-hjemmeheis" },
+  { name: "Varmepumpe-installasjon", slug: "varmepumpe-installasjon" },
+  { name: "Vinterhagebyggere", slug: "vinterhagebyggere" },
 ];
 
 const collectionSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Fagområder | Vekst Systemet",
-  url: `${SITE_URL}/vakgebieden`,
+  url: `${SITE_URL}/fagomrader`,
   description: "Alle fagområder vi leverer digitale systemer, nettsider og markedsføringsautomatisering for.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Fagområder", item: `${SITE_URL}/vakgebieden` },
+      { "@type": "ListItem", position: 2, name: "Fagområder", item: `${SITE_URL}/fagomrader` },
     ],
   },
   mainEntity: {
@@ -108,7 +108,7 @@ const collectionSchema = {
       "@type": "ListItem",
       position: i + 1,
       name: t.name,
-      url: `${SITE_URL}/vakgebieden/${t.slug}`,
+      url: `${SITE_URL}/fagomrader/${t.slug}`,
     })),
   },
 };
@@ -119,10 +119,10 @@ const VakgebiedenPage = () => {
       <Helmet>
         <title>Fagområder | Vekst Systemet</title>
         <meta name="description" content="Fra taklegger til gartner - se hvilke fagområder vi bygger digitale systemer for. Utforsk våre spesialiseringer." />
-        <link rel="canonical" href={`${SITE_URL}/vakgebieden`} />
+        <link rel="canonical" href={`${SITE_URL}/fagomrader`} />
         <meta property="og:title" content="Fagområder | Vekst Systemet" />
         <meta property="og:description" content="Fra taklegger til gartner - se hvilke fagområder vi bygger digitale systemer for." />
-        <meta property="og:url" content={`${SITE_URL}/vakgebieden`} />
+        <meta property="og:url" content={`${SITE_URL}/fagomrader`} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(collectionSchema)}</script>
@@ -168,7 +168,7 @@ const VakgebiedenPage = () => {
                 transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }}
               >
                 <Link
-                  to={`/vakgebieden/${trade.slug}`}
+                  to={`/fagomrader/${trade.slug}`}
                   className="group relative rounded-2xl overflow-hidden aspect-[5/4] block"
                 >
                   <img src={trade.image} alt={trade.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
@@ -200,7 +200,7 @@ const VakgebiedenPage = () => {
                 className="flex items-center gap-2.5"
               >
                 <CheckCircle2 className="h-5 w-5 text-accent shrink-0" />
-                <Link to={`/vakgebieden/${trade.slug}`} className="text-sm md:text-base text-foreground hover:text-accent transition-colors underline underline-offset-2 decoration-accent/30 hover:decoration-accent">
+                <Link to={`/fagomrader/${trade.slug}`} className="text-sm md:text-base text-foreground hover:text-accent transition-colors underline underline-offset-2 decoration-accent/30 hover:decoration-accent">
                   {trade.name}
                 </Link>
               </motion.div>
@@ -212,7 +212,7 @@ const VakgebiedenPage = () => {
               Står ikke ditt fagområde her? Ingen problem - ta kontakt, så ser vi sammen hva vi kan gjøre for deg.
             </p>
             <Button asChild size="lg">
-              <Link to="/contact">Ta kontakt</Link>
+              <Link to="/kontakt">Ta kontakt</Link>
             </Button>
           </motion.div>
         </div>

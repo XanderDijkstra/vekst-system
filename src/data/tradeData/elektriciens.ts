@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const ELEKTRICIENS_DATA: TradeData = {
-  slug: "elektriciens",
+  slug: "elektrikere",
   singular: "elektriker",
   plural: "elektrikere",
   bedrijf: "elektrikerfirma",
@@ -72,10 +72,10 @@ export const ELEKTRICIENS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Elektrikere når i gjennomsnitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "VVS-installatører", slug: "hvac" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "VVS-installatører", slug: "vvs-klima" },
   ],
   cta: {
     headline: "Klar for å vinne flere oppdrag?",

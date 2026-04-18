@@ -22,16 +22,16 @@ interface Props {
 // Service pages link via `trade` slug to their matching online-marketing article.
 // Handles slug mismatches between trade-data and kennisbank article slugs.
 const TRADE_TO_ARTICLE_SLUG: Record<string, string> = {
-  "verhuisbedrijven": "online-marketing-verhuizers",
-  "warmtepomp-installatie": "online-marketing-warmtepomp-installateurs",
-  "cv-ketel-montage": "online-marketing-cv-monteurs",
-  "zonnepanelen": "online-marketing-zonnepanelen-installateurs",
-  "bestrating": "online-marketing-stratenmakers",
-  "vloerlegger": "online-marketing-vloerleggers",
-  "metselwerk": "online-marketing-metselaars",
-  "voegwerk": "online-marketing-voegbedrijven",
-  "kozijnen-ramen": "online-marketing-kozijnmonteurs",
-  "trapliften-thuisliften": "online-marketing-trapliften",
+  "flyttefirma": "online-marketing-verhuizers",
+  "varmepumpe-installasjon": "online-marketing-warmtepomp-installateurs",
+  "fyrmontering": "online-marketing-cv-monteurs",
+  "solcellepaneler": "online-marketing-zonnepanelen-installateurs",
+  "belegning": "online-marketing-stratenmakers",
+  "gulvlegger": "online-marketing-vloerleggers",
+  "murerarbeid": "online-marketing-metselaars",
+  "fugearbeid": "online-marketing-voegbedrijven",
+  "karmer-vinduer": "online-marketing-kozijnmonteurs",
+  "trappeheis-hjemmeheis": "online-marketing-trapliften",
 };
 
 const ServicePageTemplate = ({ data: d }: Props) => {
@@ -80,12 +80,12 @@ const ServicePageTemplate = ({ data: d }: Props) => {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Fagområder", item: `${SITE_URL}/vakgebieden` },
+      { "@type": "ListItem", position: 2, name: "Fagområder", item: `${SITE_URL}/fagomrader` },
       {
         "@type": "ListItem",
         position: 3,
         name: d.tradeName.charAt(0).toUpperCase() + d.tradeName.slice(1),
-        item: `${SITE_URL}/vakgebieden/${d.trade}`,
+        item: `${SITE_URL}/fagomrader/${d.trade}`,
       },
       { "@type": "ListItem", position: 4, name: `Nettsider`, item: pageUrl },
     ],
@@ -148,7 +148,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to={`/vakgebieden/${d.trade}`}>
+              <Link to={`/fagomrader/${d.trade}`}>
                 Se {d.tradeName}-siden
               </Link>
             </Button>
@@ -326,7 +326,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
             </p>
             <div className="mt-6">
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-                <Link to={`/kennisbank/${marketingArticle.slug}`}>
+                <Link to={`/kunnskapsbank/${marketingArticle.slug}`}>
                   Les artikkelen <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -357,7 +357,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/prijzen">Se priser</Link>
+              <Link to="/priser">Se priser</Link>
             </Button>
           </motion.div>
         </div>

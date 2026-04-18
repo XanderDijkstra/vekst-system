@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const ROLLUIKEN_ZONWERING_DATA: TradeData = {
-  slug: "rolluiken-zonwering",
+  slug: "persienner-solskjerming",
   singular: "persienne- og solskjerming-spesialist",
   plural: "persienner- og solskjermingfirmaer",
   bedrijf: "persienner- og solskjermingfirma",
@@ -72,10 +72,10 @@ export const ROLLUIKEN_ZONWERING_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Solskjermingfirmaer når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Karmer og vinduer", slug: "kozijnen-ramen" },
-    { label: "Glassmestre", slug: "beglazing" },
-    { label: "Smarthus", slug: "domotica" },
-    { label: "Isolasjonsfirmaer", slug: "isolatiebedrijven" },
+    { label: "Karmer og vinduer", slug: "karmer-vinduer" },
+    { label: "Glassmestre", slug: "glassarbeid" },
+    { label: "Smarthus", slug: "smarthus" },
+    { label: "Isolasjonsfirmaer", slug: "isolering" },
   ],
   cta: {
     headline: "Klar til å hente inn flere solskjerming-oppdrag?",

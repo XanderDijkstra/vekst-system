@@ -147,10 +147,10 @@ const ReviewSysteem = () => (
         name="description"
         content="Samle inn Google-anmeldelser automatisk fra fornøyde kunder. Øk omdømmet ditt på nett og vinn flere oppdrag som håndverker."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/review-systeem`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/anmeldelsessystem`} />
       <meta property="og:title" content="Anmeldelsessystem for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Samle inn 5-stjerners anmeldelser automatisk og bygg et sterkt omdømme på nett." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/review-systeem`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/anmeldelsessystem`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -355,7 +355,7 @@ const ReviewSysteem = () => (
             <Link to="/demo">Bestill demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

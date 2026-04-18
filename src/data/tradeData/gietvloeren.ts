@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const GIETVLOEREN_DATA: TradeData = {
-  slug: "gietvloeren",
+  slug: "stopegulv",
   singular: "støpegulv-spesialist",
   plural: "støpegulv-spesialister",
   bedrijf: "støpegulvfirma",
@@ -72,10 +72,10 @@ export const GIETVLOEREN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Støpegulv-spesialister når i gjennomsnitt side 1 innen 2 til 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Gulvlegger", slug: "vloerlegger" },
-    { label: "Parkettgulv", slug: "parketvloeren" },
-    { label: "Flisleggere", slug: "tegelzetters" },
-    { label: "Interiørarkitekter", slug: "binnenhuisarchitecten" },
+    { label: "Gulvlegger", slug: "gulvlegger" },
+    { label: "Parkettgulv", slug: "parkett" },
+    { label: "Flisleggere", slug: "flisleggere" },
+    { label: "Interiørarkitekter", slug: "interiorarkitekter" },
   ],
   cta: {
     headline: "Klar for å vinne flere støpegulvoppdrag?",

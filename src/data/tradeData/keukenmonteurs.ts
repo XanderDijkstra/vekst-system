@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const KEUKENMONTEURS_DATA: TradeData = {
-  slug: "keukenmonteurs",
+  slug: "kjokkenmontorer",
   singular: "kjøkkenmontør",
   plural: "kjøkkenmontører",
   bedrijf: "kjøkkenmonteringsfirma",
@@ -72,10 +72,10 @@ export const KEUKENMONTEURS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Kjøkkenmontører når i snitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Flisleggere", slug: "tegelzetters" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Flisleggere", slug: "flisleggere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere kjøkkenprosjekter?",

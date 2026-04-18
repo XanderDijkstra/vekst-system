@@ -129,10 +129,10 @@ const DigitaliseringAannemers = () => (
         name="description"
         content="Fra papir til digitalt. Vi hjelper håndverkere med overgangen til digitale prosesser som sparer tid, forhindrer feil og gir flere kunder."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/digitalisering-aannemers`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/digitalisering`} />
       <meta property="og:title" content="Digitalisering for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Fra papir til digitalt. Vi hjelper håndverkere å digitalisere." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/digitalisering-aannemers`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/digitalisering`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -365,7 +365,7 @@ const DigitaliseringAannemers = () => (
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

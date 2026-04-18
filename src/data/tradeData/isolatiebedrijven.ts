@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const ISOLATIEBEDRIJVEN_DATA: TradeData = {
-  slug: "isolatiebedrijven",
+  slug: "isolering",
   singular: "isoleringsspesialist",
   plural: "isoleringsfirmaer",
   bedrijf: "isoleringsfirma",
@@ -72,10 +72,10 @@ export const ISOLATIEBEDRIJVEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Isoleringsfirmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste lokale søk." },
   ],
   relatedTrades: [
-    { label: "Taktekkere", slug: "dakdekkers" },
-    { label: "Murere og pussere", slug: "stukadoors" },
+    { label: "Taktekkere", slug: "takleggere" },
+    { label: "Murere og pussere", slug: "pussere" },
     { label: "VVS-installatører", slug: "hvac-installateurs" },
-    { label: "Malere", slug: "schilders" },
+    { label: "Malere", slug: "malere" },
   ],
   cta: {
     headline: "Klar for å vinne flere isoleringsoppdrag?",

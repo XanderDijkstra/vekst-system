@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const TRAPLIFTEN_THUISLIFTEN_DATA: TradeData = {
-  slug: "trapliften-thuisliften",
+  slug: "trappeheis-hjemmeheis",
   singular: "trappeheis- og hjemmeheis-spesialist",
   plural: "trappeheis- og hjemmeheis-spesialister",
   bedrijf: "trappeheis- og hjemmeheis-firma",
@@ -72,10 +72,10 @@ export const TRAPLIFTEN_THUISLIFTEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Trappeheis-spesialister når i snitt side 1 innen 2 til 3 måneder for sine viktigste søkeord, nettopp fordi konkurransen hovedsakelig består av landsdekkende merker som er svakere lokalt." },
   ],
   relatedTrades: [
-    { label: "Baderomsrenovering", slug: "badkamerrenovatie" },
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
+    { label: "Baderomsrenovering", slug: "baderomsrenovering" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
   ],
   cta: {
     headline: "Klar til å hente inn flere trappeheis-oppdrag?",

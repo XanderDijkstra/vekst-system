@@ -15,22 +15,22 @@ const sections = [
     heading: "Systemer",
     description: "Digitale systemer som jobber for deg 24/7 - hvert laget for å løse ett konkret problem.",
     items: [
-      { icon: Globe, title: "Leadgenerering-nettside", href: "/diensten/lead-generatie", description: "En nettside som tiltrekker nye kunder og samler tilbudsforespørsler automatisk." },
-      { icon: PhoneOff, title: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie", description: "Send automatisk en melding når du mister et anrop." },
-      { icon: UserCheck, title: "Lead-oppfølging", href: "/diensten/lead-follow-up", description: "Automatisk oppfølging av nye leads via SMS og e-post." },
-      { icon: Star, title: "Anmeldelsessystem", href: "/diensten/review-funnel", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk." },
-      { icon: BarChart3, title: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes", description: "Nå målgruppen din automatisk med riktig budskap." },
-      { icon: MessageSquare, title: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox", description: "Alle meldinger på ett sted - SMS, e-post, WhatsApp og mer." },
+      { icon: Globe, title: "Leadgenerering-nettside", href: "/tjenester/leadgenerering", description: "En nettside som tiltrekker nye kunder og samler tilbudsforespørsler automatisk." },
+      { icon: PhoneOff, title: "Tapt anrop → SMS", href: "/tjenester/kundekommunikasjon", description: "Send automatisk en melding når du mister et anrop." },
+      { icon: UserCheck, title: "Lead-oppfølging", href: "/tjenester/lead-oppfolging", description: "Automatisk oppfølging av nye leads via SMS og e-post." },
+      { icon: Star, title: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk." },
+      { icon: BarChart3, title: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer", description: "Nå målgruppen din automatisk med riktig budskap." },
+      { icon: MessageSquare, title: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks", description: "Alle meldinger på ett sted - SMS, e-post, WhatsApp og mer." },
     ],
   },
   {
     heading: "Tjenester",
     description: "Fra strategi til implementering - vi bygger den digitale infrastrukturen håndverkerbedriften din trenger.",
     items: [
-      { icon: Settings, title: "Digitalisering for håndverkere", href: "/diensten/digitalisering-aannemers", description: "Fra papir til digitalt. Vi hjelper bedriften din å modernisere seg." },
-      { icon: Zap, title: "Automatisering for håndverkere", href: "/diensten/automatisering-aannemers", description: "Automatiser repetitive oppgaver og spar timer hver uke." },
-      { icon: Plug, title: "Programvareintegrasjoner", href: "/diensten/software-integraties", description: "Koble sammen verktøyene du bruker, så de jobber sømløst." },
-      { icon: Bot, title: "AI-løsninger", href: "/diensten/ai-oplossingen", description: "Bruk AI til å jobbe smartere, ikke hardere." },
+      { icon: Settings, title: "Digitalisering for håndverkere", href: "/tjenester/digitalisering", description: "Fra papir til digitalt. Vi hjelper bedriften din å modernisere seg." },
+      { icon: Zap, title: "Automatisering for håndverkere", href: "/tjenester/automatisering", description: "Automatiser repetitive oppgaver og spar timer hver uke." },
+      { icon: Plug, title: "Programvareintegrasjoner", href: "/tjenester/programvareintegrasjoner", description: "Koble sammen verktøyene du bruker, så de jobber sømløst." },
+      { icon: Bot, title: "AI-løsninger", href: "/tjenester/ai-losninger", description: "Bruk AI til å jobbe smartere, ikke hardere." },
     ],
   },
 ];
@@ -41,13 +41,13 @@ const dienstenSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Tjenester | Vekst Systemet",
-  url: `${SITE_URL}/diensten`,
+  url: `${SITE_URL}/tjenester`,
   description: "Digitale systemer og tjenester for håndverkere: leadgenerering, anmeldelsesfunnel, markedsføringskampanjer og automatisering.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Tjenester", item: `${SITE_URL}/diensten` },
+      { "@type": "ListItem", position: 2, name: "Tjenester", item: `${SITE_URL}/tjenester` },
     ],
   },
   mainEntity: {
@@ -67,10 +67,10 @@ const DienstenOverview = () => (
     <Helmet>
       <title>Tjenester | Vekst Systemet</title>
       <meta name="description" content="Se våre digitale systemer og tjenester for håndverkere: leadgenerering, anmeldelsesfunnel, markedsføringskampanjer, automatisering og mer." />
-      <link rel="canonical" href={`${SITE_URL}/diensten`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester`} />
       <meta property="og:title" content="Tjenester | Vekst Systemet" />
       <meta property="og:description" content="Se våre digitale systemer og tjenester for håndverkere: leadgenerering, anmeldelsesfunnel, markedsføringskampanjer, automatisering og mer." />
-      <meta property="og:url" content={`${SITE_URL}/diensten`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(dienstenSchema)}</script>

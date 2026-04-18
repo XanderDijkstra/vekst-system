@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const PARKETVLOEREN_DATA: TradeData = {
-  slug: "parketvloeren",
+  slug: "parkett",
   singular: "parkettgulvlegger",
   plural: "parkettgulv-firmaer",
   bedrijf: "parkettgulv-firma",
@@ -72,10 +72,10 @@ export const PARKETVLOEREN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Parkettgulv-firmaer når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Gulvleggere", slug: "vloerlegger" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Kjøkkenmontører", slug: "keukenmonteurs" },
-    { label: "Interiørdesign", slug: "interieurontwerp" },
+    { label: "Gulvleggere", slug: "gulvlegger" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Kjøkkenmontører", slug: "kjokkenmontorer" },
+    { label: "Interiørdesign", slug: "interiordesign" },
   ],
   cta: {
     headline: "Klar til å hente inn flere parkettgulv-prosjekter?",

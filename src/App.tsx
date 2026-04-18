@@ -62,10 +62,10 @@ import DownloadsOverview from "./pages/DownloadsOverview";
 import DownloadDetail from "./pages/DownloadDetail";
 import ScrollToTop from "./components/ScrollToTop";
 
-/** Redirect old /voor/:slug URLs to /vakgebieden/:slug */
+/** Redirect legacy /voor/:slug URLs to /fagomrader/:slug */
 const VoorRedirect = () => {
   const { slug } = useParams();
-  return <Navigate to={`/vakgebieden/${slug}`} replace />;
+  return <Navigate to={`/fagomrader/${slug}`} replace />;
 };
 
 const queryClient = new QueryClient();
@@ -80,33 +80,33 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/diensten" element={<DienstenOverview />} />
-          <Route path="/diensten/lead-generatie" element={<LeadGeneratie />} />
-          <Route path="/diensten/klantcommunicatie" element={<Klantcommunicatie />} />
-          <Route path="/diensten/review-funnel" element={<ReviewFunnel />} />
-          <Route path="/diensten/all-in-one-inbox" element={<AllInOneInbox />} />
-          <Route path="/diensten/marketing-campagnes" element={<MarketingCampagnes />} />
-          <Route path="/diensten/lead-follow-up" element={<LeadFollowUp />} />
-          <Route path="/diensten/digitalisering-aannemers" element={<DigitaliseringAannemers />} />
-          <Route path="/diensten/automatisering-aannemers" element={<AutomatiseringAannemers />} />
-          <Route path="/diensten/software-integraties" element={<SoftwareIntegraties />} />
-          <Route path="/diensten/ai-oplossingen" element={<AiOplossingen />} />
-          <Route path="/diensten/offerte-systeem" element={<OfferteSysteem />} />
-          <Route path="/diensten/review-systeem" element={<ReviewSysteem />} />
-          <Route path="/diensten/planning-systeem" element={<PlanningSysteem />} />
-          <Route path="/diensten/marketing-automatisering" element={<MarketingAutomatisering />} />
-          <Route path="/diensten/:slug" element={<DienstDetail />} />
-          <Route path="/sector/digitalisering-voor-aannemers" element={<SectorPage />} />
-          <Route path="/kennisbank" element={<KennisbankOverview />} />
-          <Route path="/kennisbank/:slug" element={<KennisbankArticle />} />
-          <Route path="/case-studies" element={<CaseStudiesOverview />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/tjenester" element={<DienstenOverview />} />
+          <Route path="/tjenester/leadgenerering" element={<LeadGeneratie />} />
+          <Route path="/tjenester/kundekommunikasjon" element={<Klantcommunicatie />} />
+          <Route path="/tjenester/anmeldelsesfunnel" element={<ReviewFunnel />} />
+          <Route path="/tjenester/alt-i-en-innboks" element={<AllInOneInbox />} />
+          <Route path="/tjenester/markedsforingskampanjer" element={<MarketingCampagnes />} />
+          <Route path="/tjenester/lead-oppfolging" element={<LeadFollowUp />} />
+          <Route path="/tjenester/digitalisering" element={<DigitaliseringAannemers />} />
+          <Route path="/tjenester/automatisering" element={<AutomatiseringAannemers />} />
+          <Route path="/tjenester/programvareintegrasjoner" element={<SoftwareIntegraties />} />
+          <Route path="/tjenester/ai-losninger" element={<AiOplossingen />} />
+          <Route path="/tjenester/tilbudssystem" element={<OfferteSysteem />} />
+          <Route path="/tjenester/anmeldelsessystem" element={<ReviewSysteem />} />
+          <Route path="/tjenester/planleggingssystem" element={<PlanningSysteem />} />
+          <Route path="/tjenester/markedsforingsautomatisering" element={<MarketingAutomatisering />} />
+          <Route path="/tjenester/:slug" element={<DienstDetail />} />
+          <Route path="/bransje/digitalisering-for-handverkere" element={<SectorPage />} />
+          <Route path="/kunnskapsbank" element={<KennisbankOverview />} />
+          <Route path="/kunnskapsbank/:slug" element={<KennisbankArticle />} />
+          <Route path="/kundecase" element={<CaseStudiesOverview />} />
+          <Route path="/kontakt" element={<ContactPage />} />
           <Route path="/demo" element={<DemoPage />} />
-          <Route path="/prijzen" element={<PrijzenPage />} />
-          <Route path="/blog" element={<BlogOverview />} />
+          <Route path="/priser" element={<PrijzenPage />} />
+          <Route path="/blogg" element={<BlogOverview />} />
           <Route path="/wiki" element={<WikiOverview />} />
           <Route path="/wiki/:slug" element={<WikiTerm />} />
-          <Route path="/configurator" element={<ConfiguratorPage />} />
+          <Route path="/konfigurator" element={<ConfiguratorPage />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index element={<AdminDashboard />} />
             <Route path="configurator" element={<AdminConfiguratorPage />} />
@@ -116,28 +116,28 @@ const App = () => (
             <Route path="wiki" element={<AdminWiki />} />
             <Route path="wiki/:slug" element={<AdminWikiEdit />} />
           </Route>
-          <Route path="/vakgebieden" element={<VakgebiedenPage />} />
-          <Route path="/vakgebieden/:slug" element={<TradePageWrapper />} />
-          <Route path="/vergelijk" element={<VergelijkOverview />} />
-          <Route path="/vergelijk/werkspot-alternatief" element={<WerkspotAlternatief />} />
-          <Route path="/tools" element={<ToolsOverview />} />
-          <Route path="/tools/leadwaarde-calculator" element={<LeadwaardeCalculator />} />
-          <Route path="/tools/projectmarge-calculator" element={<ProjectmargeCalculator />} />
-          <Route path="/tools/bouwmaterialen-berekenen" element={<BouwmaterialenHub />} />
-          <Route path="/tools/tegels-berekenen" element={<TegelsBerekenen />} />
-          <Route path="/tools/verf-berekenen" element={<VerfBerekenen />} />
-          <Route path="/tools/beton-berekenen" element={<BetonBerekenen />} />
-          <Route path="/tools/laminaat-berekenen" element={<LaminaatBerekenen />} />
-          <Route path="/tools/behang-berekenen" element={<BehangBerekenen />} />
-          <Route path="/tools/gipsplaten-berekenen" element={<GipsplatenBerekenen />} />
-          <Route path="/tools/stucwerk-berekenen" element={<StucwerkBerekenen />} />
-          <Route path="/tools/marketing-scan" element={<MarketingScan />} />
-          <Route path="/downloads" element={<DownloadsOverview />} />
-          <Route path="/downloads/:slug" element={<DownloadDetail />} />
+          <Route path="/fagomrader" element={<VakgebiedenPage />} />
+          <Route path="/fagomrader/:slug" element={<TradePageWrapper />} />
+          <Route path="/sammenlign" element={<VergelijkOverview />} />
+          <Route path="/sammenlign/mittanbud-alternativ" element={<WerkspotAlternatief />} />
+          <Route path="/verktoy" element={<ToolsOverview />} />
+          <Route path="/verktoy/leadverdi-kalkulator" element={<LeadwaardeCalculator />} />
+          <Route path="/verktoy/prosjektmargin-kalkulator" element={<ProjectmargeCalculator />} />
+          <Route path="/verktoy/byggematerialer-kalkulator" element={<BouwmaterialenHub />} />
+          <Route path="/verktoy/fliser-kalkulator" element={<TegelsBerekenen />} />
+          <Route path="/verktoy/maling-kalkulator" element={<VerfBerekenen />} />
+          <Route path="/verktoy/betong-kalkulator" element={<BetonBerekenen />} />
+          <Route path="/verktoy/laminat-kalkulator" element={<LaminaatBerekenen />} />
+          <Route path="/verktoy/tapet-kalkulator" element={<BehangBerekenen />} />
+          <Route path="/verktoy/gipsplate-kalkulator" element={<GipsplatenBerekenen />} />
+          <Route path="/verktoy/puss-kalkulator" element={<StucwerkBerekenen />} />
+          <Route path="/verktoy/markedsforingsscan" element={<MarketingScan />} />
+          <Route path="/nedlastinger" element={<DownloadsOverview />} />
+          <Route path="/nedlastinger/:slug" element={<DownloadDetail />} />
           {/* Redirects from old routes */}
           <Route path="/voor/:slug" element={<VoorRedirect />} />
-          <Route path="/systemen" element={<Navigate to="/diensten" replace />} />
-          <Route path="/systemen/:slug" element={<Navigate to="/diensten" replace />} />
+          <Route path="/systemen" element={<Navigate to="/tjenester" replace />} />
+          <Route path="/systemen/:slug" element={<Navigate to="/tjenester" replace />} />
           <Route path="/:slug" element={<ServicePageWrapper />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

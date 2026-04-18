@@ -22,7 +22,7 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const SITE_URL = "https://vekst-systemet.no";
-const PAGE_URL = `${SITE_URL}/tools/beton-berekenen`;
+const PAGE_URL = `${SITE_URL}/verktoy/betong-kalkulator`;
 
 const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
 const numInt = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
@@ -119,8 +119,8 @@ const pageSchema = {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
-          { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE_URL}/tools/bouwmaterialen-berekenen` },
+          { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
+          { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE_URL}/verktoy/byggematerialer-kalkulator` },
           { "@type": "ListItem", position: 4, name: "Betong kalkulator", item: PAGE_URL },
         ],
       },
@@ -202,7 +202,7 @@ const BetonBerekenen = () => {
         <div className="container max-w-3xl">
           <motion.div {...fadeInUp}>
             <Link
-              to="/tools/bouwmaterialen-berekenen"
+              to="/verktoy/byggematerialer-kalkulator"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
               ← Byggematerialer
@@ -420,7 +420,7 @@ const BetonBerekenen = () => {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link
-                to="/tools/tegels-berekenen"
+                to="/verktoy/fliser-kalkulator"
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">
@@ -431,7 +431,7 @@ const BetonBerekenen = () => {
                 </p>
               </Link>
               <Link
-                to="/tools/verf-berekenen"
+                to="/verktoy/maling-kalkulator"
                 className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all"
               >
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">

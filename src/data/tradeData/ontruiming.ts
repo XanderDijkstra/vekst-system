@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const ONTRUIMING_DATA: TradeData = {
-  slug: "ontruiming",
+  slug: "rydding",
   singular: "boligrydder",
   plural: "ryddefirmaer",
   bedrijf: "ryddefirma",
@@ -72,10 +72,10 @@ export const ONTRUIMING_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Ryddefirmaer når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Flyttefirmaer", slug: "verhuisbedrijven" },
-    { label: "Ryddetjeneste", slug: "opruimservice" },
-    { label: "Rengjøringsfirmaer", slug: "schoonmaakbedrijven" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
+    { label: "Flyttefirmaer", slug: "flyttefirma" },
+    { label: "Ryddetjeneste", slug: "ryddetjeneste" },
+    { label: "Rengjøringsfirmaer", slug: "rengjoringsfirma" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
   ],
   cta: {
     headline: "Klar til å hente inn flere ryddeoppdrag?",

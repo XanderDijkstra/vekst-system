@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const BADKAMERRENOVATIE_DATA: TradeData = {
-  slug: "badkamerrenovatie",
+  slug: "baderomsrenovering",
   singular: "baderomsspesialist",
   plural: "baderomsrenoveringsfirmaer",
   bedrijf: "baderomsrenoveringsfirma",
@@ -72,10 +72,10 @@ export const BADKAMERRENOVATIE_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Baderomsrenoveringsfirmaer når i gjennomsnitt side 1 innen 3 måneder for lokale søk." },
   ],
   relatedTrades: [
-    { label: "Flisleggere", slug: "tegelzetters" },
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Murere og pussere", slug: "stukadoors" },
-    { label: "Kjøkkenmontører", slug: "keukenmonteurs" },
+    { label: "Flisleggere", slug: "flisleggere" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Murere og pussere", slug: "pussere" },
+    { label: "Kjøkkenmontører", slug: "kjokkenmontorer" },
   ],
   cta: {
     headline: "Klar for å vinne flere baderomsrenoveringer?",

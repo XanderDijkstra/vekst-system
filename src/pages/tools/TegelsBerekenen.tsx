@@ -23,7 +23,7 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const SITE_URL = "https://vekst-systemet.no";
-const PAGE_URL = `${SITE_URL}/tools/tegels-berekenen`;
+const PAGE_URL = `${SITE_URL}/verktoy/fliser-kalkulator`;
 
 const num = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
 const numInt = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
@@ -86,7 +86,7 @@ const pageSchema = {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
       { "@type": "ListItem", position: 3, name: "Fliskalkulator", item: PAGE_URL },
     ],
   },
@@ -168,7 +168,7 @@ const TegelsBerekenen = () => {
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="container max-w-4xl">
           <motion.div {...fadeInUp} className="flex items-center gap-2 mb-4">
-            <Link to="/tools" className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors">
+            <Link to="/verktoy" className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors">
               Kalkulatorer
             </Link>
             <span className="text-primary-foreground/40">/</span>

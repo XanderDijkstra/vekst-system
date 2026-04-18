@@ -21,7 +21,7 @@ const tools: Tool[] = [
     title: "Gratis markedsføringsscan",
     description:
       "Skann nettsiden din og få en rapport med konkrete forbedringspunkter for synlighet, teknikk, tillit og konvertering.",
-    href: "/tools/marketing-scan",
+    href: "/verktoy/markedsforingsscan",
     icon: Search,
     status: "live",
   },
@@ -29,7 +29,7 @@ const tools: Tool[] = [
     title: "Leadverdi-kalkulator",
     description:
       "Beregn hva en lead gir håndverkerbedriften din. Fyll inn forespørsler per måned, konverteringsrate og prosjektverdi - se omsetningen per måned direkte.",
-    href: "/tools/leadwaarde-calculator",
+    href: "/verktoy/leadverdi-kalkulator",
     icon: TrendingUp,
     status: "live",
   },
@@ -37,7 +37,7 @@ const tools: Tool[] = [
     title: "Prosjektmargin-kalkulator",
     description:
       "Fyll inn tilbudsbeløp og kostnadsposter - se brutto- og nettomargin direkte, og hvor mye kostnadene kan stige før du går i null.",
-    href: "/tools/projectmarge-calculator",
+    href: "/verktoy/prosjektmargin-kalkulator",
     icon: Euro,
     status: "live",
   },
@@ -45,7 +45,7 @@ const tools: Tool[] = [
     title: "Byggematerialer-kalkulator",
     description:
       "Beregn hvor mange fliser, hvor mye maling, betong, laminat og andre byggematerialer du trenger - inkludert svinn og hjelpematerialer.",
-    href: "/tools/bouwmaterialen-berekenen",
+    href: "/verktoy/byggematerialer-kalkulator",
     icon: Hammer,
     status: "live",
   },
@@ -55,14 +55,14 @@ const toolsSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Gratis kalkulatorer for håndverkere | Vekst Systemet",
-  url: `${SITE_URL}/tools`,
+  url: `${SITE_URL}/verktoy`,
   description:
     "Gratis kalkulatorer for håndverkere: leadverdi, markedsførings-ROI, timepris og mer. Direkte i nettleseren, ingen registrering.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
     ],
   },
   mainEntity: {
@@ -87,13 +87,13 @@ const ToolsOverview = () => (
         name="description"
         content="Gratis kalkulatorer for håndverkere: beregn leadverdi, markedsførings-ROI, timepris og mer. Direkte i nettleseren - ingen registrering, ingen e-postadresse."
       />
-      <link rel="canonical" href={`${SITE_URL}/tools`} />
+      <link rel="canonical" href={`${SITE_URL}/verktoy`} />
       <meta property="og:title" content="Kalkulatorer for håndverkere | Vekst Systemet" />
       <meta
         property="og:description"
         content="Gratis kalkulatorer for håndverkere: leadverdi, markedsførings-ROI, timepris og mer."
       />
-      <meta property="og:url" content={`${SITE_URL}/tools`} />
+      <meta property="og:url" content={`${SITE_URL}/verktoy`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(toolsSchema)}</script>
@@ -165,7 +165,7 @@ const ToolsOverview = () => (
             Vi bygger denne verktøykassa i åpenhet. Neste ut: max-CPC-kalkulator (hva en lead
             bør få lov til å koste), markedsførings-ROI-kalkulator og timepris-kalkulator for
             håndverkere. Forslag?{" "}
-            <Link to="/contact" className="underline hover:text-accent transition-colors">
+            <Link to="/kontakt" className="underline hover:text-accent transition-colors">
               Si fra
             </Link>
             .

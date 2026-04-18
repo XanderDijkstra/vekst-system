@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const ZWEMBADBOUWERS_DATA: TradeData = {
-  slug: "zwembadbouwers",
+  slug: "svommebasseng-byggere",
   singular: "svømmebassengbygger",
   plural: "svømmebassengbyggere",
   bedrijf: "svømmebassengfirma",
@@ -72,10 +72,10 @@ export const ZWEMBADBOUWERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Svømmebassengbyggere når i snitt side 1 innen 3-4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Gartnere", slug: "hoveniers" },
-    { label: "Brolegging", slug: "bestrating" },
-    { label: "Betong og sement", slug: "beton-cement" },
-    { label: "Flisleggere", slug: "tegelzetters" },
+    { label: "Gartnere", slug: "gartnere" },
+    { label: "Brolegging", slug: "belegning" },
+    { label: "Betong og sement", slug: "betong-sement" },
+    { label: "Flisleggere", slug: "flisleggere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere svømmebassengoppdrag?",

@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const KOZIJNEN_RAMEN_DATA: TradeData = {
-  slug: "kozijnen-ramen",
+  slug: "karmer-vinduer",
   singular: "vinduskarm-spesialist",
   plural: "karmer- og vindusfirmaer",
   bedrijf: "karmer- og vindusfirma",
@@ -72,10 +72,10 @@ export const KOZIJNEN_RAMEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Vindusfirmaer når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Glassmestre", slug: "beglazing" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Isolasjonsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Malere", slug: "schilders" },
+    { label: "Glassmestre", slug: "glassarbeid" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Isolasjonsfirmaer", slug: "isolering" },
+    { label: "Malere", slug: "malere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere vinduskarm-prosjekter?",

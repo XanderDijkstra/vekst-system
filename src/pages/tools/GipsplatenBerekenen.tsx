@@ -11,7 +11,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { fadeInUp } from "@/lib/animations";
 
 const SITE = "https://vekst-systemet.no";
-const PAGE = `${SITE}/tools/gipsplaten-berekenen`;
+const PAGE = `${SITE}/verktoy/gipsplate-kalkulator`;
 const n1 = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
 const nI = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });
 
@@ -41,8 +41,8 @@ const schema = { "@context": "https://schema.org", "@graph": [
   { "@type": "WebPage", name: "Gipsplate kalkulator | Vekst Systemet", url: PAGE,
     breadcrumb: { "@type": "BreadcrumbList", itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE },
-      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE}/tools` },
-      { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE}/tools/bouwmaterialen-berekenen` },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE}/verktoy` },
+      { "@type": "ListItem", position: 3, name: "Byggematerialer", item: `${SITE}/verktoy/byggematerialer-kalkulator` },
       { "@type": "ListItem", position: 4, name: "Gipsplate kalkulator", item: PAGE },
     ]}},
   { "@type": "SoftwareApplication", name: "Gipsplate kalkulator", url: PAGE, applicationCategory: "BusinessApplication", operatingSystem: "Web", offers: { "@type": "Offer", price: "0", priceCurrency: "NOK" }},
@@ -84,7 +84,7 @@ const GipsplatenBerekenen = () => {
       <section className="py-20 md:py-28 bg-primary text-primary-foreground">
         <div className="container max-w-3xl">
           <motion.div {...fadeInUp}>
-            <Link to="/tools/bouwmaterialen-berekenen" className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors">← Byggematerialer</Link>
+            <Link to="/verktoy/byggematerialer-kalkulator" className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors">← Byggematerialer</Link>
           </motion.div>
           <motion.h1 {...fadeInUp} className="mt-4 text-4xl md:text-5xl font-bold tracking-tight">Gipsplate kalkulator</motion.h1>
           <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
@@ -162,11 +162,11 @@ const GipsplatenBerekenen = () => {
           <motion.div {...fadeInUp} className="max-w-2xl">
             <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">Relaterte verktøy</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link to="/tools/stucwerk-berekenen" className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all">
+              <Link to="/verktoy/puss-kalkulator" className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all">
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">Puss kalkulator →</p>
                 <p className="text-sm text-muted-foreground mt-1">Hvor mye kg puss og primer trenger du?</p>
               </Link>
-              <Link to="/tools/verf-berekenen" className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all">
+              <Link to="/verktoy/maling-kalkulator" className="group block bg-card rounded-2xl p-5 border border-border hover:border-accent/40 transition-all">
                 <p className="font-semibold text-foreground group-hover:text-accent transition-colors">Maling kalkulator →</p>
                 <p className="text-sm text-muted-foreground mt-1">Hvor mange liter maling og spann trenger du?</p>
               </Link>

@@ -11,10 +11,10 @@ const SectorPage = () => (
     <Helmet>
       <title>Digitalisering for håndverkere | Vekst Systemet</title>
       <meta name="description" content="Håndverkerbransjen digitaliserer. Se hvordan håndverkere sparer tid og vokser raskere med smarte digitale systemer." />
-      <link rel="canonical" href={`${SITE_URL}/sector/digitalisering-voor-aannemers`} />
+      <link rel="canonical" href={`${SITE_URL}/bransje/digitalisering-for-handverkere`} />
       <meta property="og:title" content="Digitalisering for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Håndverkerbransjen digitaliserer. Se hvordan håndverkere sparer tid og vokser raskere med smarte digitale systemer." />
-      <meta property="og:url" content={`${SITE_URL}/sector/digitalisering-voor-aannemers`} />
+      <meta property="og:url" content={`${SITE_URL}/bransje/digitalisering-for-handverkere`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>

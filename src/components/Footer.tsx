@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
 
 const footerDiensten = [
-  { label: "Leadgenerering", href: "/diensten/lead-generatie" },
-  { label: "Kundekommunikasjon", href: "/diensten/klantcommunicatie" },
-  { label: "Tilbudssystem", href: "/diensten/offerte-systeem" },
-  { label: "Anmeldelsessystem", href: "/diensten/review-systeem" },
-  { label: "Planleggingssystem", href: "/diensten/planning-systeem" },
-  { label: "Markedsføring", href: "/diensten/marketing-automatisering" },
+  { label: "Leadgenerering", href: "/tjenester/leadgenerering" },
+  { label: "Kundekommunikasjon", href: "/tjenester/kundekommunikasjon" },
+  { label: "Tilbudssystem", href: "/tjenester/tilbudssystem" },
+  { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsessystem" },
+  { label: "Planleggingssystem", href: "/tjenester/planleggingssystem" },
+  { label: "Markedsføring", href: "/tjenester/markedsforingsautomatisering" },
 ];
 
 const footerServices = [
-  { label: "Digitalisering", href: "/diensten/digitalisering-aannemers" },
-  { label: "Automatisering", href: "/diensten/automatisering-aannemers" },
-  { label: "Programvareintegrasjoner", href: "/diensten/software-integraties" },
-  { label: "AI-løsninger", href: "/diensten/ai-oplossingen" },
+  { label: "Digitalisering", href: "/tjenester/digitalisering" },
+  { label: "Automatisering", href: "/tjenester/automatisering" },
+  { label: "Programvareintegrasjoner", href: "/tjenester/programvareintegrasjoner" },
+  { label: "AI-løsninger", href: "/tjenester/ai-losninger" },
 ];
 
 const Footer = () => {
@@ -60,32 +60,32 @@ const Footer = () => {
             <h4 className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Mer</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/vakgebieden" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/fagomrader" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Fagområder
                 </Link>
               </li>
               <li>
-                <Link to="/vergelijk" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/sammenlign" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Sammenlign
                 </Link>
               </li>
               <li>
-                <Link to="/tools" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/verktoy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Verktøy
                 </Link>
               </li>
               <li>
-                <Link to="/prijzen" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/priser" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Priser
                 </Link>
               </li>
               <li>
-                <Link to="/kennisbank" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/kunnskapsbank" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Kunnskapsbank
                 </Link>
               </li>
               <li>
-                <Link to="/case-studies" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/kundecase" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Kundecase
                 </Link>
               </li>
@@ -95,7 +95,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/kontakt" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Kontakt
                 </Link>
               </li>

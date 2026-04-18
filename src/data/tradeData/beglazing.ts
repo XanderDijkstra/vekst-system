@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const BEGLAZING_DATA: TradeData = {
-  slug: "beglazing",
+  slug: "glassarbeid",
   singular: "glassmester",
   plural: "glassmesterfirmaer",
   bedrijf: "glassmesterfirma",
@@ -72,10 +72,10 @@ export const BEGLAZING_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Glassmesterfirmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Malere", slug: "schilders" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Entreprenører", slug: "aannemers" },
+    { label: "Malere", slug: "malere" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
+    { label: "Entreprenører", slug: "entreprenorer" },
   ],
   cta: {
     headline: "Klar for å vinne flere glassprosjekter?",

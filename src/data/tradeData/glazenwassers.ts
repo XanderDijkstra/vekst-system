@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const GLAZENWASSERS_DATA: TradeData = {
-  slug: "glazenwassers",
+  slug: "vindusvaskere",
   singular: "vindusvasker",
   plural: "vindusvaskere",
   bedrijf: "vindusvaskerfirma",
@@ -72,10 +72,10 @@ export const GLAZENWASSERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Vindusvaskere når i gjennomsnitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Rengjøringsbyråer", slug: "schoonmaakbedrijven" },
-    { label: "Malere", slug: "schilders" },
-    { label: "Anleggsgartnere", slug: "hoveniers" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
+    { label: "Rengjøringsbyråer", slug: "rengjoringsfirma" },
+    { label: "Malere", slug: "malere" },
+    { label: "Anleggsgartnere", slug: "gartnere" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
   ],
   cta: {
     headline: "Klar for å få flere kunder som vindusvasker?",

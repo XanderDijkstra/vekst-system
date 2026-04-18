@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const SCHOONMAAKBEDRIJVEN_DATA: TradeData = {
-  slug: "schoonmaakbedrijven",
+  slug: "rengjoringsfirma",
   singular: "renholder",
   plural: "rengjøringsfirmaer",
   bedrijf: "rengjøringsfirma",
@@ -72,10 +72,10 @@ export const SCHOONMAAKBEDRIJVEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Rengjøringsfirmaer når i snitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Vindusvaskere", slug: "glazenwassers" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
-    { label: "Gartnere", slug: "hoveniers" },
-    { label: "Flyttefirmaer", slug: "verhuisbedrijven" },
+    { label: "Vindusvaskere", slug: "vindusvaskere" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
+    { label: "Gartnere", slug: "gartnere" },
+    { label: "Flyttefirmaer", slug: "flyttefirma" },
   ],
   cta: {
     headline: "Klar til å hente inn flere rengjøringsoppdrag?",

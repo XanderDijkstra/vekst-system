@@ -26,13 +26,13 @@ const PrijzenPage = () => (
         name="description"
         content="Én tydelig pris, alt inkludert. Nettside, automatisering og markedsføring for 2 990 kr per måned. Ingen skjulte kostnader."
       />
-      <link rel="canonical" href={`${SITE_URL}/prijzen`} />
+      <link rel="canonical" href={`${SITE_URL}/priser`} />
       <meta property="og:title" content="Priser | Vekst Systemet" />
       <meta
         property="og:description"
         content="Én tydelig pris, alt inkludert. Nettside, automatisering og markedsføring for 2 990 kr per måned."
       />
-      <meta property="og:url" content={`${SITE_URL}/prijzen`} />
+      <meta property="og:url" content={`${SITE_URL}/priser`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">
@@ -49,7 +49,7 @@ const PrijzenPage = () => (
             priceCurrency: "NOK",
             priceValidUntil: "2027-12-31",
             availability: "https://schema.org/InStock",
-            url: `${SITE_URL}/prijzen`,
+            url: `${SITE_URL}/priser`,
           },
         })}
       </script>
@@ -104,7 +104,7 @@ const PrijzenPage = () => (
               className="mt-6"
             >
               <Link
-                to="/configurator"
+                to="/konfigurator"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline underline-offset-4 transition-colors"
               >
                 Sett sammen din egen pakke med konfiguratoren vår

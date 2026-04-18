@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const BINNENHUISARCHITECTEN_DATA: TradeData = {
-  slug: "binnenhuisarchitecten",
+  slug: "interiorarkitekter",
   singular: "interiørarkitekt",
   plural: "interiørarkitekter",
   bedrijf: "interiørarkitektkontor",
@@ -72,10 +72,10 @@ export const BINNENHUISARCHITECTEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Interiørarkitekter når i gjennomsnitt side 1 innen 3-4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Interiørdesign", slug: "interieurontwerp" },
-    { label: "Møbelsnekkere", slug: "meubelmakers" },
-    { label: "Kjøkkenmontører", slug: "keukenmonteurs" },
-    { label: "Baderomsrenovering", slug: "badkamerrenovatie" },
+    { label: "Interiørdesign", slug: "interiordesign" },
+    { label: "Møbelsnekkere", slug: "mobelsnekkere" },
+    { label: "Kjøkkenmontører", slug: "kjokkenmontorer" },
+    { label: "Baderomsrenovering", slug: "baderomsrenovering" },
   ],
   cta: {
     headline: "Klar for å vinne flere designoppdrag?",

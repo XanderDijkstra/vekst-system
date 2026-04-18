@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const DAKKAPELLEN_DATA: TradeData = {
-  slug: "dakkapellen",
+  slug: "takark",
   singular: "takarkspesialist",
   plural: "takarkspesialister",
   bedrijf: "takarkfirma",
@@ -72,10 +72,10 @@ export const DAKKAPELLEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Takarkspesialister når i gjennomsnitt side 1 innen 3-4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Taktekkere", slug: "dakdekkers" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Karmer og vinduer", slug: "kozijnen-ramen" },
+    { label: "Taktekkere", slug: "takleggere" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
+    { label: "Karmer og vinduer", slug: "karmer-vinduer" },
   ],
   cta: {
     headline: "Klar for å vinne flere takarkoppdrag?",

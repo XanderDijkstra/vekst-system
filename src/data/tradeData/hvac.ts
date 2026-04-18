@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const HVAC_DATA: TradeData = {
-  slug: "hvac",
+  slug: "vvs-klima",
   singular: "VVS- og klimatekniker",
   plural: "VVS- og klimafirmaer",
   bedrijf: "VVS- og klimafirma",
@@ -72,10 +72,10 @@ export const HVAC_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. VVS- og klimafirmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Taktekkere", slug: "dakdekkers" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
+    { label: "Taktekkere", slug: "takleggere" },
   ],
   cta: {
     headline: "Klar for å vinne flere installasjoner?",

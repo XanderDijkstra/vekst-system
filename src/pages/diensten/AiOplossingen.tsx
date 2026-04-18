@@ -141,10 +141,10 @@ const AiOplossingen = () => (
         name="description"
         content="Bruk kunstig intelligens til å jobbe smartere som håndverker. Fra AI-chatbots til automatiske tilbud - oppdag hva AI kan gjøre for bedriften din."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/ai-oplossingen`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/ai-losninger`} />
       <meta property="og:title" content="AI-løsninger for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Bruk AI til å jobbe smartere, ikke hardere. Oppdag våre AI-løsninger." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/ai-oplossingen`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/ai-losninger`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -364,7 +364,7 @@ const AiOplossingen = () => (
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

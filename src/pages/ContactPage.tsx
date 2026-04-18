@@ -92,10 +92,10 @@ const ContactPage = () => {
       <Helmet>
         <title>Kontakt | Vekst Systemet</title>
         <meta name="description" content="Ta kontakt med Vekst Systemet. Still spørsmålet ditt via skjemaet eller bestill en gratis demo direkte i kalenderen vår." />
-        <link rel="canonical" href={`${SITE_URL}/contact`} />
+        <link rel="canonical" href={`${SITE_URL}/kontakt`} />
         <meta property="og:title" content="Kontakt | Vekst Systemet" />
         <meta property="og:description" content="Ta kontakt med Vekst Systemet. Still spørsmålet ditt eller bestill en gratis demo." />
-        <meta property="og:url" content={`${SITE_URL}/contact`} />
+        <meta property="og:url" content={`${SITE_URL}/kontakt`} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

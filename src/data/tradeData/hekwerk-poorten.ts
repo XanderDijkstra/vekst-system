@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const HEKWERK_POORTEN_DATA: TradeData = {
-  slug: "hekwerk-poorten",
+  slug: "gjerder-porter",
   singular: "gjerdespesialist",
   plural: "gjerde- og portfirmaer",
   bedrijf: "gjerde- og portfirma",
@@ -72,10 +72,10 @@ export const HEKWERK_POORTEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Gjerdefirmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Anleggsgartnere", slug: "hoveniers" },
-    { label: "Brolegging", slug: "bestrating" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Murerarbeid", slug: "metselwerk" },
+    { label: "Anleggsgartnere", slug: "gartnere" },
+    { label: "Brolegging", slug: "belegning" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Murerarbeid", slug: "murerarbeid" },
   ],
   cta: {
     headline: "Klar for å vinne flere gjerde- og portprosjekter?",

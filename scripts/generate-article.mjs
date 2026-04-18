@@ -47,13 +47,13 @@ const TOPICS = [
 
 // Actual service pages on vekst-systemet.no
 const RELATED_LINKS = [
-  { label: "Profesjonell nettside", href: "/diensten/lead-generatie" },
-  { label: "Anmeldelsessystem", href: "/diensten/review-funnel" },
-  { label: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie" },
-  { label: "Lead-oppfølgingssystem", href: "/diensten/lead-follow-up" },
-  { label: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox" },
-  { label: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes" },
-  { label: "Våre tjenester", href: "/diensten" },
+  { label: "Profesjonell nettside", href: "/tjenester/leadgenerering" },
+  { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+  { label: "Tapt anrop → SMS", href: "/tjenester/kundekommunikasjon" },
+  { label: "Lead-oppfølgingssystem", href: "/tjenester/lead-oppfolging" },
+  { label: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks" },
+  { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+  { label: "Våre tjenester", href: "/tjenester" },
 ];
 
 function slugify(text) {
@@ -151,9 +151,9 @@ Gi svaret KUN som JSON (ingen markdown, ingen forklaringer utenfor):
     { "heading": "Seksjonstittel", "body": "Avsnitt på 3-5 setninger." }
   ],
   "relatedLinks": [
-    { "label": "Label", "href": "/diensten/..." },
-    { "label": "Label", "href": "/diensten/..." },
-    { "label": "Label", "href": "/diensten/..." }
+    { "label": "Label", "href": "/tjenester/..." },
+    { "label": "Label", "href": "/tjenester/..." },
+    { "label": "Label", "href": "/tjenester/..." }
   ]
 }
 

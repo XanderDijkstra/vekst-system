@@ -159,10 +159,10 @@ const PlanningSysteem = () => (
         name="description"
         content="Ett sentralt planleggingssystem for hele teamet ditt. Automatiske påminnelser, teamtildeling og mobiltilgang. Aldri mer dobbeltbookinger."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/planning-systeem`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/planleggingssystem`} />
       <meta property="og:title" content="Planleggingssystem for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Sentral planlegging for håndverkere. Automatiske påminnelser og mobiltilgang." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/planning-systeem`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/planleggingssystem`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -392,7 +392,7 @@ const PlanningSysteem = () => (
             <Link to="/demo">Bestill demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

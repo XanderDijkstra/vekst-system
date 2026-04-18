@@ -28,7 +28,7 @@ function getTradeSlugs() {
   const section = body.slice(0, end);
   const slugs = [];
   // Match either bare identifier keys (e.g. schilders:) or quoted keys
-  // (e.g. "hekwerk-poorten":) at exactly 2-space indent.
+  // (e.g. "gjerder-porter":) at exactly 2-space indent.
   const re = /^  (?:"([a-z][a-z0-9-]*)"|([a-z][a-z0-9-]*)):/gm;
   let m;
   while ((m = re.exec(section)) !== null) {
@@ -53,58 +53,58 @@ function getSlugsFromFile(rel) {
 
 const STATIC_PAGES = [
   { loc: "/", priority: "1.0", changefreq: "weekly" },
-  { loc: "/diensten", priority: "0.8", changefreq: "monthly" },
-  { loc: "/vakgebieden", priority: "0.8", changefreq: "monthly" },
-  { loc: "/vergelijk", priority: "0.8", changefreq: "monthly" },
-  { loc: "/kennisbank", priority: "0.7", changefreq: "weekly" },
+  { loc: "/tjenester", priority: "0.8", changefreq: "monthly" },
+  { loc: "/fagomrader", priority: "0.8", changefreq: "monthly" },
+  { loc: "/sammenlign", priority: "0.8", changefreq: "monthly" },
+  { loc: "/kunnskapsbank", priority: "0.7", changefreq: "weekly" },
   { loc: "/wiki", priority: "0.7", changefreq: "weekly" },
-  { loc: "/blog", priority: "0.7", changefreq: "weekly" },
-  { loc: "/case-studies", priority: "0.6", changefreq: "monthly" },
-  { loc: "/contact", priority: "0.6", changefreq: "monthly" },
+  { loc: "/blogg", priority: "0.7", changefreq: "weekly" },
+  { loc: "/kundecase", priority: "0.6", changefreq: "monthly" },
+  { loc: "/kontakt", priority: "0.6", changefreq: "monthly" },
   { loc: "/demo", priority: "0.8", changefreq: "monthly" },
-  { loc: "/prijzen", priority: "0.8", changefreq: "monthly" },
-  { loc: "/sector/digitalisering-voor-aannemers", priority: "0.7", changefreq: "monthly" },
-  { loc: "/downloads", priority: "0.8", changefreq: "monthly" },
+  { loc: "/priser", priority: "0.8", changefreq: "monthly" },
+  { loc: "/bransje/digitalisering-for-handverkere", priority: "0.7", changefreq: "monthly" },
+  { loc: "/nedlastinger", priority: "0.8", changefreq: "monthly" },
 ];
 
 // Service/systeem detail pages (explicit routes in App.tsx, not covered by
 // a data file). Keep in sync with src/App.tsx.
 const DIENSTEN_PAGES = [
-  "/diensten/lead-generatie",
-  "/diensten/klantcommunicatie",
-  "/diensten/review-funnel",
-  "/diensten/all-in-one-inbox",
-  "/diensten/marketing-campagnes",
-  "/diensten/lead-follow-up",
-  "/diensten/digitalisering-aannemers",
-  "/diensten/automatisering-aannemers",
-  "/diensten/software-integraties",
-  "/diensten/ai-oplossingen",
-  "/diensten/offerte-systeem",
-  "/diensten/review-systeem",
-  "/diensten/planning-systeem",
-  "/diensten/marketing-automatisering",
+  "/tjenester/leadgenerering",
+  "/tjenester/kundekommunikasjon",
+  "/tjenester/anmeldelsesfunnel",
+  "/tjenester/alt-i-en-innboks",
+  "/tjenester/markedsforingskampanjer",
+  "/tjenester/lead-oppfolging",
+  "/tjenester/digitalisering",
+  "/tjenester/automatisering",
+  "/tjenester/programvareintegrasjoner",
+  "/tjenester/ai-losninger",
+  "/tjenester/tilbudssystem",
+  "/tjenester/anmeldelsessystem",
+  "/tjenester/planleggingssystem",
+  "/tjenester/markedsforingsautomatisering",
 ];
 
 // Comparison pages under /vergelijk. Keep in sync with src/App.tsx.
 const VERGELIJK_PAGES = [
-  "/vergelijk/werkspot-alternatief",
+  "/sammenlign/mittanbud-alternativ",
 ];
 
 // Calculator / tool pages under /tools. Keep in sync with src/App.tsx.
 const TOOLS_PAGES = [
-  "/tools",
-  "/tools/leadwaarde-calculator",
-  "/tools/projectmarge-calculator",
-  "/tools/bouwmaterialen-berekenen",
-  "/tools/tegels-berekenen",
-  "/tools/verf-berekenen",
-  "/tools/beton-berekenen",
-  "/tools/laminaat-berekenen",
-  "/tools/behang-berekenen",
-  "/tools/gipsplaten-berekenen",
-  "/tools/stucwerk-berekenen",
-  "/tools/marketing-scan",
+  "/verktoy",
+  "/verktoy/leadverdi-kalkulator",
+  "/verktoy/prosjektmargin-kalkulator",
+  "/verktoy/byggematerialer-kalkulator",
+  "/verktoy/fliser-kalkulator",
+  "/verktoy/maling-kalkulator",
+  "/verktoy/betong-kalkulator",
+  "/verktoy/laminat-kalkulator",
+  "/verktoy/tapet-kalkulator",
+  "/verktoy/gipsplate-kalkulator",
+  "/verktoy/puss-kalkulator",
+  "/verktoy/markedsforingsscan",
 ];
 
 // ---------- Build ----------
@@ -152,7 +152,7 @@ function build() {
   lines.push("");
   lines.push(`  <!-- Vakgebieden (${tradeSlugs.length}) -->`);
   for (const slug of tradeSlugs.sort()) {
-    lines.push(urlEntry(`/vakgebieden/${slug}`, "0.8", "monthly"));
+    lines.push(urlEntry(`/fagomrader/${slug}`, "0.8", "monthly"));
   }
 
   if (serviceSlugs.length > 0) {
@@ -167,7 +167,7 @@ function build() {
     lines.push("");
     lines.push(`  <!-- Kennisbank articles (${kennisbankSlugs.length}) -->`);
     for (const slug of kennisbankSlugs.sort()) {
-      lines.push(urlEntry(`/kennisbank/${slug}`, "0.6", "monthly"));
+      lines.push(urlEntry(`/kunnskapsbank/${slug}`, "0.6", "monthly"));
     }
   }
 
@@ -183,7 +183,7 @@ function build() {
     lines.push("");
     lines.push(`  <!-- Downloads (${downloadSlugs.length}) -->`);
     for (const slug of downloadSlugs.sort()) {
-      lines.push(urlEntry(`/downloads/${slug}`, "0.7", "monthly"));
+      lines.push(urlEntry(`/nedlastinger/${slug}`, "0.7", "monthly"));
     }
   }
 

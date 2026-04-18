@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const VOEGWERK_DATA: TradeData = {
-  slug: "voegwerk",
+  slug: "fugearbeid",
   singular: "fugespesialist",
   plural: "fugefirmaer",
   bedrijf: "fugefirma",
@@ -72,10 +72,10 @@ export const VOEGWERK_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Fugefirmaer når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Muring", slug: "metselwerk" },
-    { label: "Fasaderens", slug: "gevelreiniging" },
-    { label: "Takleggere", slug: "dakdekkers" },
-    { label: "Malere", slug: "schilders" },
+    { label: "Muring", slug: "murerarbeid" },
+    { label: "Fasaderens", slug: "fasaderens" },
+    { label: "Takleggere", slug: "takleggere" },
+    { label: "Malere", slug: "malere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere fugearbeid-oppdrag?",

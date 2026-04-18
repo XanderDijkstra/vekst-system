@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const MEUBELMAKERS_DATA: TradeData = {
-  slug: "meubelmakers",
+  slug: "mobelsnekkere",
   singular: "møbelsnekker",
   plural: "møbelsnekkere",
   bedrijf: "møbelsnekkerverksted",
@@ -72,10 +72,10 @@ export const MEUBELMAKERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Møbelsnekkere når i snitt side 1 innen 3-4 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Kjøkkenmontører", slug: "keukenmonteurs" },
-    { label: "Interiørdesign", slug: "interieurontwerp" },
-    { label: "Parkettgulv", slug: "parketvloeren" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Kjøkkenmontører", slug: "kjokkenmontorer" },
+    { label: "Interiørdesign", slug: "interiordesign" },
+    { label: "Parkettgulv", slug: "parkett" },
   ],
   cta: {
     headline: "Klar til å hente inn flere skreddersøm-oppdrag?",

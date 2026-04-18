@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const INTERIEURONTWERP_DATA: TradeData = {
-  slug: "interieurontwerp",
+  slug: "interiordesign",
   singular: "interiørdesigner",
   plural: "interiørdesignstudioer",
   bedrijf: "interiørdesignstudio",
@@ -72,10 +72,10 @@ export const INTERIEURONTWERP_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Interiørdesignstudioer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Kjøkkenmontører", slug: "keukenmonteurs" },
-    { label: "Baderomsrenovering", slug: "badkamerrenovatie" },
-    { label: "Malere", slug: "schilders" },
-    { label: "Tømrere", slug: "timmerlieden" },
+    { label: "Kjøkkenmontører", slug: "kjokkenmontorer" },
+    { label: "Baderomsrenovering", slug: "baderomsrenovering" },
+    { label: "Malere", slug: "malere" },
+    { label: "Tømrere", slug: "tomrere" },
   ],
   cta: {
     headline: "Klar for å vinne flere interiørprosjekter?",

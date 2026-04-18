@@ -23,14 +23,14 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Sammenligninger | Vekst Systemet",
-  url: `${SITE_URL}/vergelijk`,
+  url: `${SITE_URL}/sammenlign`,
   description:
     "Ærlige sammenligninger mellom markedsføringskanaler og plattformer for håndverkere. Mittanbud, Google Ads, Google My Business og egen nettside side om side.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Sammenligninger", item: `${SITE_URL}/vergelijk` },
+      { "@type": "ListItem", position: 2, name: "Sammenligninger", item: `${SITE_URL}/sammenlign` },
     ],
   },
   mainEntity: {
@@ -40,7 +40,7 @@ const schema = {
       "@type": "ListItem",
       position: i + 1,
       name: c.title,
-      url: `${SITE_URL}/vergelijk/${c.slug}`,
+      url: `${SITE_URL}/sammenlign/${c.slug}`,
     })),
   },
 };
@@ -53,13 +53,13 @@ const VergelijkOverview = () => (
         name="description"
         content="Ærlige sammenligninger mellom markedsføringskanaler og plattformer for håndverkere. Mittanbud, Google Ads, Google My Business og egen nettside side om side."
       />
-      <link rel="canonical" href={`${SITE_URL}/vergelijk`} />
+      <link rel="canonical" href={`${SITE_URL}/sammenlign`} />
       <meta property="og:title" content="Sammenligninger | Vekst Systemet" />
       <meta
         property="og:description"
         content="Ærlige sammenligninger mellom markedsføringskanaler og plattformer for håndverkere."
       />
-      <meta property="og:url" content={`${SITE_URL}/vergelijk`} />
+      <meta property="og:url" content={`${SITE_URL}/sammenlign`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
@@ -101,7 +101,7 @@ const VergelijkOverview = () => (
               transition={{ duration: 0.4, ease: systemEase, delay: i * 0.06 }}
             >
               <Link
-                to={`/vergelijk/${c.slug}`}
+                to={`/sammenlign/${c.slug}`}
                 className="group block rounded-2xl bg-card border border-border p-8 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-0.5 transition-all duration-250"
               >
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent/10 text-accent mb-5">
@@ -130,7 +130,7 @@ const VergelijkOverview = () => (
             Mangler du en sammenligning? Si fra - vi legger den gjerne til.
           </p>
           <Button asChild size="lg" variant="outline">
-            <Link to="/contact">Send forslag</Link>
+            <Link to="/kontakt">Send forslag</Link>
           </Button>
         </motion.div>
       </div>

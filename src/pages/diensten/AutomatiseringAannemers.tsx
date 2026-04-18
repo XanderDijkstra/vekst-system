@@ -139,10 +139,10 @@ const AutomatiseringAannemers = () => (
         name="description"
         content="Automatiser repetitive oppgaver som lead-oppfølging, forespørsler om anmeldelser og kundekommunikasjon. Spar 15+ timer i måneden som håndverker."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/automatisering-aannemers`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/automatisering`} />
       <meta property="og:title" content="Automatisering for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Automatiser repetitive oppgaver og spar timer hver uke som håndverker." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/automatisering-aannemers`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/automatisering`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -362,7 +362,7 @@ const AutomatiseringAannemers = () => (
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

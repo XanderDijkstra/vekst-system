@@ -22,7 +22,7 @@ const KennisbankArticle = () => {
             <h1 className="text-4xl font-bold text-foreground">Artikkel ikke funnet</h1>
             <p className="mt-4 text-muted-foreground">Denne artikkelen finnes ikke eller er flyttet.</p>
             <Button asChild className="mt-8">
-              <Link to="/kennisbank">Tilbake til kunnskapsbank</Link>
+              <Link to="/kunnskapsbank">Tilbake til kunnskapsbank</Link>
             </Button>
           </div>
         </section>
@@ -34,7 +34,7 @@ const KennisbankArticle = () => {
   const nextArticle = kennisbankArticles[currentIndex + 1];
   const prevArticle = kennisbankArticles[currentIndex - 1];
 
-  const canonicalUrl = `${SITE_URL}/kennisbank/${article.slug}`;
+  const canonicalUrl = `${SITE_URL}/kunnskapsbank/${article.slug}`;
   const wordCount = article.sections.reduce((sum, s) => sum + s.body.split(" ").length, 0);
 
   const jsonLd = {
@@ -61,7 +61,7 @@ const KennisbankArticle = () => {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-        { "@type": "ListItem", position: 2, name: "Kunnskapsbank", item: `${SITE_URL}/kennisbank` },
+        { "@type": "ListItem", position: 2, name: "Kunnskapsbank", item: `${SITE_URL}/kunnskapsbank` },
         { "@type": "ListItem", position: 3, name: article.title, item: canonicalUrl },
       ],
     },
@@ -94,7 +94,7 @@ const KennisbankArticle = () => {
       {/* Hero */}
       <section className="py-20 md:py-28 bg-primary">
         <div className="container max-w-3xl">
-          <Link to="/kennisbank" className="inline-flex items-center gap-1.5 text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors mb-8">
+          <Link to="/kunnskapsbank" className="inline-flex items-center gap-1.5 text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors mb-8">
             <ArrowLeft className="h-4 w-4" /> Kunnskapsbank
           </Link>
           <motion.span {...fadeInUp} className="block text-xs font-bold uppercase tracking-widest text-accent mb-4">
@@ -177,14 +177,14 @@ const KennisbankArticle = () => {
           {/* Navigation */}
           <div className="mt-12 flex items-center justify-between border-t border-border pt-8">
             {prevArticle ? (
-              <Link to={`/kennisbank/${prevArticle.slug}`} className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link to={`/kunnskapsbank/${prevArticle.slug}`} className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
                 <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform" />
                 <span className="hidden sm:inline">{prevArticle.title}</span>
                 <span className="sm:hidden">Forrige</span>
               </Link>
             ) : <div />}
             {nextArticle ? (
-              <Link to={`/kennisbank/${nextArticle.slug}`} className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto">
+              <Link to={`/kunnskapsbank/${nextArticle.slug}`} className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto">
                 <span className="hidden sm:inline">{nextArticle.title}</span>
                 <span className="sm:hidden">Neste</span>
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />

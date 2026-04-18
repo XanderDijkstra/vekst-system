@@ -104,7 +104,7 @@ const ConfiguratorPage = () => {
       <Helmet>
         <title>Konfigurator | Vekst Systemet</title>
         <meta name="description" content="Sett sammen ditt ideelle digitale system og se hvor mye du sparer med Komplett pakke fra Vekst Systemet." />
-        <link rel="canonical" href={`${SITE_URL}/configurator`} />
+        <link rel="canonical" href={`${SITE_URL}/konfigurator`} />
       </Helmet>
 
       <section className="py-16 md:py-24">

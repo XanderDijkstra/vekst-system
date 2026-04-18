@@ -159,10 +159,10 @@ const MarketingAutomatisering = () => (
         name="description"
         content="Automatiske markedsføringskampanjer som kjører mens du står på byggeplassen. E-post, SMS og sosiale medier - uten tidsinvestering."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/marketing-automatisering`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/markedsforingsautomatisering`} />
       <meta property="og:title" content="Markedsføringsautomatisering for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Automatiske kampanjer som gir kunder mens du står på byggeplassen." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/marketing-automatisering`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/markedsforingsautomatisering`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -398,7 +398,7 @@ const MarketingAutomatisering = () => (
             <Link to="/demo">Bestill demo <ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

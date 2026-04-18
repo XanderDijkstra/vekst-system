@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const TEGELZETTERS_DATA: TradeData = {
-  slug: "tegelzetters",
+  slug: "flisleggere",
   singular: "flislegger",
   plural: "flisleggere",
   bedrijf: "flisleggerfirma",
@@ -72,10 +72,10 @@ export const TEGELZETTERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Flisleggere når i snitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Baderomsrenovering", slug: "badkamerrenovatie" },
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Pussere", slug: "stukadoors" },
-    { label: "Kjøkkenmontører", slug: "keukenmonteurs" },
+    { label: "Baderomsrenovering", slug: "baderomsrenovering" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Pussere", slug: "pussere" },
+    { label: "Kjøkkenmontører", slug: "kjokkenmontorer" },
   ],
   cta: {
     headline: "Klar til å hente inn flere flisprosjekter?",

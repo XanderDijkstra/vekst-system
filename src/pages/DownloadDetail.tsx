@@ -25,7 +25,7 @@ const DownloadDetail = () => {
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
 
   if (!item) {
-    return <Navigate to="/downloads" replace />;
+    return <Navigate to="/nedlastinger" replace />;
   }
 
   const relatedArticles = item.relatedArticleSlugs
@@ -69,7 +69,7 @@ const DownloadDetail = () => {
     "@type": "Article",
     headline: item.title,
     description: item.description,
-    url: `${SITE_URL}/downloads/${item.slug}`,
+    url: `${SITE_URL}/nedlastinger/${item.slug}`,
     author: { "@type": "Organization", name: "Vekst Systemet" },
     publisher: { "@type": "Organization", name: "Vekst Systemet" },
   };
@@ -79,10 +79,10 @@ const DownloadDetail = () => {
       <Helmet>
         <title>{`${item.title} | Gratis nedlasting`}</title>
         <meta name="description" content={item.description.slice(0, 155)} />
-        <link rel="canonical" href={`${SITE_URL}/downloads/${item.slug}`} />
+        <link rel="canonical" href={`${SITE_URL}/nedlastinger/${item.slug}`} />
         <meta property="og:title" content={`${item.title} | Gratis nedlasting`} />
         <meta property="og:description" content={item.description.slice(0, 200)} />
-        <meta property="og:url" content={`${SITE_URL}/downloads/${item.slug}`} />
+        <meta property="og:url" content={`${SITE_URL}/nedlastinger/${item.slug}`} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
@@ -91,7 +91,7 @@ const DownloadDetail = () => {
       <section className="py-16 md:py-20 bg-primary text-primary-foreground">
         <div className="container">
           <Link
-            to="/downloads"
+            to="/nedlastinger"
             className="inline-flex items-center gap-1.5 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors mb-6"
           >
             <ArrowLeft className="h-4 w-4" strokeWidth={1.5} />
@@ -169,7 +169,7 @@ const DownloadDetail = () => {
                     {relatedArticles.map((article) => (
                       <li key={article.slug}>
                         <Link
-                          to={`/kennisbank/${article.slug}`}
+                          to={`/kunnskapsbank/${article.slug}`}
                           className="text-accent hover:underline"
                         >
                           {article.title}

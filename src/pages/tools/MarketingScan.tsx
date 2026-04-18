@@ -21,7 +21,7 @@ import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp } from "@/lib/animations";
 import { SITE_URL, SITE_NAME } from "@/lib/seo";
 
-const PAGE_URL = `${SITE_URL}/tools/marketing-scan`;
+const PAGE_URL = `${SITE_URL}/verktoy/markedsforingsscan`;
 
 interface Finding {
   status: "good" | "warning" | "error";
@@ -131,7 +131,7 @@ const MarketingScan = () => {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-        { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+        { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
         { "@type": "ListItem", position: 3, name: "Markedsføringsscan", item: PAGE_URL },
       ],
     },

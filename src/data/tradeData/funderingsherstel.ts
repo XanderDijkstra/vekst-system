@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const FUNDERINGSHERSTEL_DATA: TradeData = {
-  slug: "funderingsherstel",
+  slug: "fundamentreparasjon",
   singular: "fundamentreparatør",
   plural: "fundamentreparasjon-spesialister",
   bedrijf: "fundamentreparasjonsfirma",
@@ -72,10 +72,10 @@ export const FUNDERINGSHERSTEL_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Fundamentreparasjon-spesialister når i gjennomsnitt side 1 innen 2 til 3 måneder for sine viktigste søkeord, blant annet fordi konkurransen hovedsakelig består av landsdekkende aktører." },
   ],
   relatedTrades: [
-    { label: "Entreprenører", slug: "aannemers" },
-    { label: "Kjellerbygging", slug: "kelderbouw" },
-    { label: "Betong og sement", slug: "beton-cement" },
-    { label: "Fuktbekjempelse", slug: "vochtbestrijding" },
+    { label: "Entreprenører", slug: "entreprenorer" },
+    { label: "Kjellerbygging", slug: "kjellerbygging" },
+    { label: "Betong og sement", slug: "betong-sement" },
+    { label: "Fuktbekjempelse", slug: "fuktbekjempelse" },
   ],
   cta: {
     headline: "Klar for å vinne flere fundamentreparasjonsoppdrag?",

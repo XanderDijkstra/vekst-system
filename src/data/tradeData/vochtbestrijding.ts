@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const VOCHTBESTRIJDING_DATA: TradeData = {
-  slug: "vochtbestrijding",
+  slug: "fuktbekjempelse",
   singular: "fuktbekjemper",
   plural: "fuktbekjempere",
   bedrijf: "fuktbekjempelse-firma",
@@ -72,10 +72,10 @@ export const VOCHTBESTRIJDING_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Fuktbekjempere når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Isolasjonsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Fasaderens", slug: "gevelreiniging" },
-    { label: "Muring", slug: "metselwerk" },
-    { label: "Fugearbeid", slug: "voegwerk" },
+    { label: "Isolasjonsfirmaer", slug: "isolering" },
+    { label: "Fasaderens", slug: "fasaderens" },
+    { label: "Muring", slug: "murerarbeid" },
+    { label: "Fugearbeid", slug: "fugearbeid" },
   ],
   cta: {
     headline: "Klar til å hente inn flere fuktbekjempelse-oppdrag?",

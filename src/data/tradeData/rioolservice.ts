@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const RIOOLSERVICE_DATA: TradeData = {
-  slug: "rioolservice",
+  slug: "avlopstjeneste",
   singular: "avløpsspesialist",
   plural: "avløpstjeneste-firmaer",
   bedrijf: "avløpstjeneste-firma",
@@ -72,10 +72,10 @@ export const RIOOLSERVICE_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. For akuttsøk som 'avløpsåpning' ser vi ofte resultater allerede innen 4 til 8 uker. Avløpstjeneste-firmaer når i snitt side 1 innen 2 måneder." },
   ],
   relatedTrades: [
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Håndverkere", slug: "aannemers" },
-    { label: "Brolegging", slug: "bestrating" },
-    { label: "Rengjøringsfirmaer", slug: "schoonmaakbedrijven" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Håndverkere", slug: "entreprenorer" },
+    { label: "Brolegging", slug: "belegning" },
+    { label: "Rengjøringsfirmaer", slug: "rengjoringsfirma" },
   ],
   cta: {
     headline: "Klar til å hente inn flere avløpsjobber?",

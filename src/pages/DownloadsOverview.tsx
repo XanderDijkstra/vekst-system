@@ -13,14 +13,14 @@ const downloadsSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Gratis nedlastinger for håndverkere | Vekst Systemet",
-  url: `${SITE_URL}/downloads`,
+  url: `${SITE_URL}/nedlastinger`,
   description:
     "Gratis PDF-er, maler og sjekklister for håndverkere: anmeldelses-skript, tilbudsmal, nettside-audit, lead-oppfølgingsplaybook. Last ned direkte.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Nedlastinger", item: `${SITE_URL}/downloads` },
+      { "@type": "ListItem", position: 2, name: "Nedlastinger", item: `${SITE_URL}/nedlastinger` },
     ],
   },
   mainEntity: {
@@ -30,7 +30,7 @@ const downloadsSchema = {
       "@type": "ListItem",
       position: i + 1,
       name: d.title,
-      url: `${SITE_URL}/downloads/${d.slug}`,
+      url: `${SITE_URL}/nedlastinger/${d.slug}`,
     })),
   },
 };
@@ -43,13 +43,13 @@ const DownloadsOverview = () => (
         name="description"
         content="Gratis PDF-er, maler og sjekklister for håndverkere: anmeldelsesskript, tilbudsmal, nettside-audit-sjekkliste og mer. Kan lastes ned direkte."
       />
-      <link rel="canonical" href={`${SITE_URL}/downloads`} />
+      <link rel="canonical" href={`${SITE_URL}/nedlastinger`} />
       <meta property="og:title" content="Gratis nedlastinger for håndverkere | Vekst Systemet" />
       <meta
         property="og:description"
         content="Gratis PDF-er, maler og sjekklister for håndverkere. Kan lastes ned direkte."
       />
-      <meta property="og:url" content={`${SITE_URL}/downloads`} />
+      <meta property="og:url" content={`${SITE_URL}/nedlastinger`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(downloadsSchema)}</script>
@@ -128,7 +128,7 @@ const DownloadsOverview = () => (
                 {...fadeInUp}
                 transition={{ duration: 0.4, ease: systemEase, delay: i * 0.04 }}
               >
-                <Link to={`/downloads/${item.slug}`}>{card}</Link>
+                <Link to={`/nedlastinger/${item.slug}`}>{card}</Link>
               </motion.div>
             );
           })}

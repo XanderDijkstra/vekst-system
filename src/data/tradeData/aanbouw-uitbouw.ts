@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const AANBOUW_UITBOUW_DATA: TradeData = {
-  slug: "aanbouw-uitbouw",
+  slug: "tilbygg-paabygg",
   singular: "tilbygg- og påbyggspesialist",
   plural: "tilbygg- og påbyggspesialister",
   bedrijf: "tilbyggfirma",
@@ -72,10 +72,10 @@ export const AANBOUW_UITBOUW_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Tilbyggspesialister når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Entreprenører", slug: "aannemers" },
-    { label: "Vinterhagebyggere", slug: "serrebouwers" },
-    { label: "Kjellerbygging", slug: "kelderbouw" },
-    { label: "Takarker", slug: "dakkapellen" },
+    { label: "Entreprenører", slug: "entreprenorer" },
+    { label: "Vinterhagebyggere", slug: "vinterhagebyggere" },
+    { label: "Kjellerbygging", slug: "kjellerbygging" },
+    { label: "Takarker", slug: "takark" },
   ],
   cta: {
     headline: "Klar for å vinne flere tilbyggoppdrag?",

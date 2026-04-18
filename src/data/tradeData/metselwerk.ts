@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const METSELWERK_DATA: TradeData = {
-  slug: "metselwerk",
+  slug: "murerarbeid",
   singular: "murer",
   plural: "murerfirmaer",
   bedrijf: "murerfirma",
@@ -72,10 +72,10 @@ export const METSELWERK_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Murerfirmaer når i snitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Pussere", slug: "stukadoors" },
-    { label: "Håndverkere", slug: "aannemers" },
-    { label: "Betong og sement", slug: "beton-cement" },
-    { label: "Fasaderens", slug: "gevelreiniging" },
+    { label: "Pussere", slug: "pussere" },
+    { label: "Håndverkere", slug: "entreprenorer" },
+    { label: "Betong og sement", slug: "betong-sement" },
+    { label: "Fasaderens", slug: "fasaderens" },
   ],
   cta: {
     headline: "Klar til å hente inn flere mureroppdrag?",

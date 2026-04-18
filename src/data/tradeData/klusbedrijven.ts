@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const KLUSBEDRIJVEN_DATA: TradeData = {
-  slug: "klusbedrijven",
+  slug: "altmuligmenn",
   singular: "altmuligmann",
   plural: "altmuligfirmaer",
   bedrijf: "altmuligfirma",
@@ -72,10 +72,10 @@ export const KLUSBEDRIJVEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Altmuligfirmaer når i snitt side 1 innen 3 måneder." },
   ],
   relatedTrades: [
-    { label: "Malere", slug: "schilders" },
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Tømrere", slug: "timmerlieden" },
+    { label: "Malere", slug: "malere" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Tømrere", slug: "tomrere" },
   ],
   cta: {
     headline: "Klar til å hente inn flere jobber?",

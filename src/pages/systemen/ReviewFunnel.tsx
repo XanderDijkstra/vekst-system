@@ -256,7 +256,7 @@ const ReviewFunnel = () => {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/diensten">Se alle tjenester</Link>
+              <Link to="/tjenester">Se alle tjenester</Link>
             </Button>
           </motion.div>
         </div>

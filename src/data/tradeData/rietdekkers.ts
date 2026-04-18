@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const RIETDEKKERS_DATA: TradeData = {
-  slug: "rietdekkers",
+  slug: "stratekkere",
   singular: "stråtekker",
   plural: "stråtekkere",
   bedrijf: "stråtekkerfirma",
@@ -72,10 +72,10 @@ export const RIETDEKKERS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimaliseringer - forbedringer er ofte synlige innen uker. Fordi stråtekking er en liten nisje med lite konkurranse på nett, når stråtekkere i snitt side 1 innen 2 til 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Takleggere", slug: "dakdekkers" },
-    { label: "Takrenner", slug: "dakgoten" },
-    { label: "Tømrere", slug: "timmerlieden" },
-    { label: "Isolasjonsfirmaer", slug: "isolatiebedrijven" },
+    { label: "Takleggere", slug: "takleggere" },
+    { label: "Takrenner", slug: "takrenner" },
+    { label: "Tømrere", slug: "tomrere" },
+    { label: "Isolasjonsfirmaer", slug: "isolering" },
   ],
   cta: {
     headline: "Klar til å hente inn flere stråtekk-oppdrag?",

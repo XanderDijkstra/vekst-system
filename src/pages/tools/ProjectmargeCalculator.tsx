@@ -24,7 +24,7 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const SITE_URL = "https://vekst-systemet.no";
-const PAGE_URL = `${SITE_URL}/tools/projectmarge-calculator`;
+const PAGE_URL = `${SITE_URL}/verktoy/prosjektmargin-kalkulator`;
 
 const kr = new Intl.NumberFormat("nb-NO", {
   style: "currency",
@@ -92,7 +92,7 @@ const pageSchema = {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/tools` },
+      { "@type": "ListItem", position: 2, name: "Verktøy", item: `${SITE_URL}/verktoy` },
       { "@type": "ListItem", position: 3, name: "Prosjektmargin-kalkulator", item: PAGE_URL },
     ],
   },
@@ -183,7 +183,7 @@ const ProjectmargeCalculator = () => {
         <div className="container max-w-4xl">
           <motion.div {...fadeInUp} className="flex items-center gap-2 mb-4">
             <Link
-              to="/tools"
+              to="/verktoy"
               className="text-xs font-bold uppercase tracking-widest text-accent hover:text-accent/80 transition-colors"
             >
               Kalkulatorer
@@ -491,7 +491,7 @@ const ProjectmargeCalculator = () => {
             </p>
             <div className="mt-3 grid sm:grid-cols-2 gap-4">
               <Link
-                to="/tools/leadwaarde-calculator"
+                to="/verktoy/leadverdi-kalkulator"
                 className="group flex items-center gap-3 text-sm"
               >
                 <TrendingUp className="h-4 w-4 text-muted-foreground group-hover:text-accent transition-colors" strokeWidth={1.75} />

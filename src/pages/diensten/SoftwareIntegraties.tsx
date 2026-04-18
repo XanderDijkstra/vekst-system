@@ -143,10 +143,10 @@ const SoftwareIntegraties = () => (
         name="description"
         content="Koble eksisterende programvareverktøy sammen slik at data flyter automatisk. Ingen dobbeltarbeid, ingen feil, ett sentralt system."
       />
-      <link rel="canonical" href={`${SITE_URL}/diensten/software-integraties`} />
+      <link rel="canonical" href={`${SITE_URL}/tjenester/programvareintegrasjoner`} />
       <meta property="og:title" content="Programvareintegrasjoner for håndverkere | Vekst Systemet" />
       <meta property="og:description" content="Koble eksisterende verktøy sammen og la dem samarbeide sømløst." />
-      <meta property="og:url" content={`${SITE_URL}/diensten/software-integraties`} />
+      <meta property="og:url" content={`${SITE_URL}/tjenester/programvareintegrasjoner`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -366,7 +366,7 @@ const SoftwareIntegraties = () => (
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-lg bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-            <Link to="/diensten">Se alle tjenester</Link>
+            <Link to="/tjenester">Se alle tjenester</Link>
           </Button>
         </motion.div>
       </div>

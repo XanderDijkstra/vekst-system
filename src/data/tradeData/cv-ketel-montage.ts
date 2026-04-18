@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const CV_KETEL_MONTAGE_DATA: TradeData = {
-  slug: "cv-ketel-montage",
+  slug: "fyrmontering",
   singular: "fyrmontør",
   plural: "fyrmontører",
   bedrijf: "fyrmonteringsfirma",
@@ -72,10 +72,10 @@ export const CV_KETEL_MONTAGE_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Fyrmontører når i gjennomsnitt side 1 innen 2 måneder takket være høye søkevolumer." },
   ],
   relatedTrades: [
-    { label: "Rørleggere", slug: "loodgieters" },
-    { label: "VVS og klima", slug: "hvac" },
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
+    { label: "Rørleggere", slug: "rorleggere" },
+    { label: "VVS og klima", slug: "vvs-klima" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
   ],
   cta: {
     headline: "Klar for å vinne flere installasjonsoppdrag?",

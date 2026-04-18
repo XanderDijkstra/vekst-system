@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const AIRCO_INSTALLATEURS_DATA: TradeData = {
-  slug: "airco-installateurs",
+  slug: "klimaanlegg-installatorer",
   singular: "klimaanlegg-installatør",
   plural: "klimaanlegg-installatører",
   bedrijf: "klimaanleggfirma",
@@ -72,10 +72,10 @@ export const AIRCO_INSTALLATEURS_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Klimaanlegg-installatører når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "VVS og klima", slug: "hvac" },
-    { label: "Varmepumpeinstallatører", slug: "warmtepomp-installatie" },
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "Fyrmontering", slug: "cv-ketel-montage" },
+    { label: "VVS og klima", slug: "vvs-klima" },
+    { label: "Varmepumpeinstallatører", slug: "varmepumpe-installasjon" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "Fyrmontering", slug: "fyrmontering" },
   ],
   cta: {
     headline: "Klar for å vinne flere klimaanlegg-installasjoner?",

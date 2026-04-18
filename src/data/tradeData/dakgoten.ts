@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const DAKGOTEN_DATA: TradeData = {
-  slug: "dakgoten",
+  slug: "takrenner",
   singular: "takrennespesialist",
   plural: "takrennefirmaer",
   bedrijf: "takrennefirma",
@@ -72,10 +72,10 @@ export const DAKGOTEN_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Takrennefirmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Taktekkere", slug: "dakdekkers" },
-    { label: "Malere", slug: "schilders" },
-    { label: "Entreprenører", slug: "aannemers" },
-    { label: "Rørleggere", slug: "loodgieters" },
+    { label: "Taktekkere", slug: "takleggere" },
+    { label: "Malere", slug: "malere" },
+    { label: "Entreprenører", slug: "entreprenorer" },
+    { label: "Rørleggere", slug: "rorleggere" },
   ],
   cta: {
     headline: "Klar for å vinne flere takrenneoppdrag?",

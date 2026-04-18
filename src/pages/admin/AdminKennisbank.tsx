@@ -108,7 +108,7 @@ const AdminKennisbank = () => {
                       <Pencil className="h-4 w-4" />
                     </Link>
                     <a
-                      href={`/kennisbank/${article.slug}`}
+                      href={`/kunnskapsbank/${article.slug}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center h-8 w-8 rounded-md hover:bg-accent/10 text-muted-foreground hover:text-accent transition-colors"

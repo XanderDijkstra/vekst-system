@@ -30,20 +30,20 @@ interface TradePageTemplateProps {
 
 // Trades where the online-marketing article uses a different slug than the trade slug.
 const TRADE_TO_ARTICLE_SLUG: Record<string, string> = {
-  "verhuisbedrijven": "online-marketing-verhuizers",
-  "warmtepomp-installatie": "online-marketing-warmtepomp-installateurs",
-  "cv-ketel-montage": "online-marketing-cv-monteurs",
-  "zonnepanelen": "online-marketing-zonnepanelen-installateurs",
-  "bestrating": "online-marketing-stratenmakers",
-  "vloerlegger": "online-marketing-vloerleggers",
-  "metselwerk": "online-marketing-metselaars",
-  "voegwerk": "online-marketing-voegbedrijven",
-  "kozijnen-ramen": "online-marketing-kozijnmonteurs",
-  "trapliften-thuisliften": "online-marketing-trapliften",
+  "flyttefirma": "online-marketing-verhuizers",
+  "varmepumpe-installasjon": "online-marketing-warmtepomp-installateurs",
+  "fyrmontering": "online-marketing-cv-monteurs",
+  "solcellepaneler": "online-marketing-zonnepanelen-installateurs",
+  "belegning": "online-marketing-stratenmakers",
+  "gulvlegger": "online-marketing-vloerleggers",
+  "murerarbeid": "online-marketing-metselaars",
+  "fugearbeid": "online-marketing-voegbedrijven",
+  "karmer-vinduer": "online-marketing-kozijnmonteurs",
+  "trappeheis-hjemmeheis": "online-marketing-trapliften",
 };
 
 const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
-  const pageUrl = `${SITE_URL}/vakgebieden/${d.slug}`;
+  const pageUrl = `${SITE_URL}/fagomrader/${d.slug}`;
   const servicePageSlug = Object.values(SERVICE_PAGES).find((sp) => sp.trade === d.slug)?.slug;
   const articleSlug = TRADE_TO_ARTICLE_SLUG[d.slug] ?? `online-marketing-${d.slug}`;
   const marketingArticle = kennisbankArticles.find((a) => a.slug === articleSlug);
@@ -160,7 +160,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
               </Link>
             </Button>
             <Button asChild variant="link" className="text-primary-foreground/80 hover:text-primary-foreground">
-              <Link to="/diensten">Se våre tjenester →</Link>
+              <Link to="/tjenester">Se våre tjenester →</Link>
             </Button>
           </motion.div>
         </div>
@@ -365,7 +365,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
             </p>
             <div className="mt-6">
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
-                <Link to={`/kennisbank/${marketingArticle.slug}`}>
+                <Link to={`/kunnskapsbank/${marketingArticle.slug}`}>
                   Les artikkelen <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -384,7 +384,7 @@ const TradePageTemplate = ({ data: d }: TradePageTemplateProps) => {
             {d.relatedTrades.map((trade, i) => (
               <Link
                 key={i}
-                to={`/vakgebieden/${trade.slug}`}
+                to={`/fagomrader/${trade.slug}`}
                 className="rounded-xl border border-border px-4 py-2 text-sm font-medium text-muted-foreground hover:border-accent hover:text-accent transition-colors duration-200"
               >
                 Nettside for {trade.label} →

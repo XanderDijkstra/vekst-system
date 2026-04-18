@@ -83,7 +83,7 @@ const AdminKennisbankEdit = () => {
           <p className="text-xs text-muted-foreground">/{original.slug}</p>
         </div>
         <a
-          href={`/kennisbank/${original.slug}`}
+          href={`/kunnskapsbank/${original.slug}`}
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground hover:text-accent"

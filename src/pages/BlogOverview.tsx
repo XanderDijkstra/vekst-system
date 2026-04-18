@@ -27,10 +27,10 @@ const BlogOverview = () => (
     <Helmet>
       <title>Tips & triks | Vekst Systemet</title>
       <meta name="description" content="Praktiske tips om markedsføring, automatisering og å få flere kunder som håndverker." />
-      <link rel="canonical" href={`${SITE_URL}/blog`} />
+      <link rel="canonical" href={`${SITE_URL}/blogg`} />
       <meta property="og:title" content="Tips & triks | Vekst Systemet" />
       <meta property="og:description" content="Praktiske tips om markedsføring, automatisering og å få flere kunder som håndverker." />
-      <meta property="og:url" content={`${SITE_URL}/blog`} />
+      <meta property="og:url" content={`${SITE_URL}/blogg`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
     </Helmet>
@@ -54,7 +54,7 @@ const BlogOverview = () => (
             {sortedArticles.map((a) => (
               <Link
                 key={a.slug}
-                to={`/kennisbank/${a.slug}`}
+                to={`/kunnskapsbank/${a.slug}`}
                 className="group flex flex-col bg-card rounded-2xl p-6 shadow-system-card hover:shadow-system-card-hover hover:-translate-y-1 transition-all duration-250 ease-system-ease"
               >
                 <span className="inline-block self-start text-xs font-bold uppercase tracking-widest text-accent mb-3">

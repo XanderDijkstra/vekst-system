@@ -1,7 +1,7 @@
 import type { TradeData } from "../tradePages";
 
 export const DOMOTICA_DATA: TradeData = {
-  slug: "domotica",
+  slug: "smarthus",
   singular: "smarthus-installatør",
   plural: "smarthusfirmaer",
   bedrijf: "smarthusfirma",
@@ -72,10 +72,10 @@ export const DOMOTICA_DATA: TradeData = {
     { question: "Hvor raskt ser jeg resultater?", answer: "Google Bedriftsprofil reagerer raskt på optimalisering - forbedringer er ofte synlige i løpet av uker. Organiske søkeresultater bygger seg opp over 2 til 4 måneder. Smarthusfirmaer når i gjennomsnitt side 1 innen 3 måneder for sine viktigste søkeord." },
   ],
   relatedTrades: [
-    { label: "Elektrikere", slug: "elektriciens" },
-    { label: "VVS og klima", slug: "hvac" },
-    { label: "Isoleringsfirmaer", slug: "isolatiebedrijven" },
-    { label: "Altmuligfirmaer", slug: "klusbedrijven" },
+    { label: "Elektrikere", slug: "elektrikere" },
+    { label: "VVS og klima", slug: "vvs-klima" },
+    { label: "Isoleringsfirmaer", slug: "isolering" },
+    { label: "Altmuligfirmaer", slug: "altmuligmenn" },
   ],
   cta: {
     headline: "Klar for å vinne flere smarthusprosjekter?",

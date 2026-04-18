@@ -16,7 +16,7 @@ export interface DownloadItem {
 
 export const downloads: DownloadItem[] = [
   {
-    slug: "google-review-scripts-aannemer",
+    slug: "google-anmeldelsesskript-handverkere",
     title: "50 skript for Google-anmeldelsesforespørsler for håndverkere",
     tagline: "Ferdige klipp-og-lim-skript for WhatsApp, SMS og e-post",
     description:
@@ -39,10 +39,10 @@ export const downloads: DownloadItem[] = [
     filePath: null,
     status: "soon",
     relatedArticleSlugs: ["meer-google-reviews-aannemer", "google-bedrijfsprofiel-optimaliseren"],
-    relatedServiceHrefs: ["/diensten/review-systeem"],
+    relatedServiceHrefs: ["/tjenester/anmeldelsessystem"],
   },
   {
-    slug: "offerte-template-aannemer",
+    slug: "tilbudsmal-handverkere",
     title: "Tilbudsmal for håndverkere",
     tagline: "Bevist mal som øker tilbudstreffraten med inntil 35 %",
     description:
@@ -65,10 +65,10 @@ export const downloads: DownloadItem[] = [
     filePath: null,
     status: "soon",
     relatedArticleSlugs: ["offerte-maken-aannemer-tips"],
-    relatedServiceHrefs: ["/diensten/offerte-systeem"],
+    relatedServiceHrefs: ["/tjenester/tilbudssystem"],
   },
   {
-    slug: "website-audit-checklist-aannemer",
+    slug: "nettside-audit-sjekkliste",
     title: "Nettside-audit-sjekkliste: 21 sjekker du kan gjøre selv",
     tagline: "Sjekk nettsiden selv før du setter i gang med markedsføring",
     description:
@@ -94,7 +94,7 @@ export const downloads: DownloadItem[] = [
     relatedServiceHrefs: ["/websites-voor-aannemers"],
   },
   {
-    slug: "lead-opvolging-playbook-aannemer",
+    slug: "lead-oppfolging-playbook",
     title: "Lead-oppfølgingsplaybook for håndverkere",
     tagline: "Hva du gjør de første 5 minuttene etter en forespørsel",
     description:
@@ -117,6 +117,6 @@ export const downloads: DownloadItem[] = [
     filePath: null,
     status: "soon",
     relatedArticleSlugs: ["snelle-opvolging-aannemer"],
-    relatedServiceHrefs: ["/diensten/lead-follow-up", "/systemen/lead-follow-up"],
+    relatedServiceHrefs: ["/tjenester/lead-oppfolging", "/systemen/lead-follow-up"],
   },
 ];

@@ -7,21 +7,21 @@ const dienstenColumns = [
   {
     heading: "Systemer",
     items: [
-      { icon: Globe, label: "Leadgenerering-nettside", href: "/diensten/lead-generatie", desc: "Nettside som tiltrekker kunder" },
-      { icon: PhoneOff, label: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie", desc: "Automatisk melding ved tapt anrop" },
-      { icon: UserCheck, label: "Lead-oppfølging", href: "/diensten/lead-follow-up", desc: "Automatisk oppfølging av leads" },
-      { icon: Star, label: "Anmeldelsessystem", href: "/diensten/review-funnel", desc: "Samle Google-anmeldelser automatisk" },
-      { icon: BarChart3, label: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes", desc: "Nå kunder til rett tid" },
-      { icon: MessageSquare, label: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox", desc: "Alle meldinger på ett sted" },
+      { icon: Globe, label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering", desc: "Nettside som tiltrekker kunder" },
+      { icon: PhoneOff, label: "Tapt anrop → SMS", href: "/tjenester/kundekommunikasjon", desc: "Automatisk melding ved tapt anrop" },
+      { icon: UserCheck, label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging", desc: "Automatisk oppfølging av leads" },
+      { icon: Star, label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel", desc: "Samle Google-anmeldelser automatisk" },
+      { icon: BarChart3, label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer", desc: "Nå kunder til rett tid" },
+      { icon: MessageSquare, label: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks", desc: "Alle meldinger på ett sted" },
     ],
   },
   {
     heading: "Tjenester",
     items: [
-      { icon: Settings, label: "Digitalisering", href: "/diensten/digitalisering-aannemers", desc: "Fra papir til digitalt" },
-      { icon: Zap, label: "Automatisering", href: "/diensten/automatisering-aannemers", desc: "Automatiser repetitive oppgaver" },
-      { icon: Plug, label: "Programvareintegrasjoner", href: "/diensten/software-integraties", desc: "Koble verktøyene dine sammen" },
-      { icon: Bot, label: "AI-løsninger", href: "/diensten/ai-oplossingen", desc: "Jobb smartere med AI" },
+      { icon: Settings, label: "Digitalisering", href: "/tjenester/digitalisering", desc: "Fra papir til digitalt" },
+      { icon: Zap, label: "Automatisering", href: "/tjenester/automatisering", desc: "Automatiser repetitive oppgaver" },
+      { icon: Plug, label: "Programvareintegrasjoner", href: "/tjenester/programvareintegrasjoner", desc: "Koble verktøyene dine sammen" },
+      { icon: Bot, label: "AI-løsninger", href: "/tjenester/ai-losninger", desc: "Jobb smartere med AI" },
     ],
   },
 ];
@@ -41,11 +41,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { label: "Fagområder", href: "/vakgebieden" },
-    { label: "Sammenlign", href: "/vergelijk" },
-    { label: "Priser", href: "/prijzen" },
-    { label: "Kunnskapsbank", href: "/kennisbank" },
-    { label: "Kontakt", href: "/contact" },
+    { label: "Fagområder", href: "/fagomrader" },
+    { label: "Sammenlign", href: "/sammenlign" },
+    { label: "Priser", href: "/priser" },
+    { label: "Kunnskapsbank", href: "/kunnskapsbank" },
+    { label: "Kontakt", href: "/kontakt" },
   ];
 
   return (
@@ -63,7 +63,7 @@ const Navbar = () => {
             onMouseLeave={closeDropdown}
           >
             <Link
-              to="/diensten"
+              to="/tjenester"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-250 ease-system-ease flex items-center gap-1"
             >
               Tjenester

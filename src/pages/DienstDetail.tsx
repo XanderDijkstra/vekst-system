@@ -29,10 +29,10 @@ const DienstDetail = () => {
       <Helmet>
         <title>{data.title} | Vekst Systemet</title>
         <meta name="description" content={data.description} />
-        <link rel="canonical" href={`${SITE_URL}/diensten/${slug}`} />
+        <link rel="canonical" href={`${SITE_URL}/tjenester/${slug}`} />
         <meta property="og:title" content={`${data.title} | Vekst Systemet`} />
         <meta property="og:description" content={data.description} />
-        <meta property="og:url" content={`${SITE_URL}/diensten/${slug}`} />
+        <meta property="og:url" content={`${SITE_URL}/tjenester/${slug}`} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>
