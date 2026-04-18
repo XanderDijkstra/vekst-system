@@ -7,20 +7,20 @@ import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { downloads } from "@/data/downloads";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const downloadsSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Gratis downloads voor aannemers | Aannemer Systeem",
+  name: "Gratis nedlastinger for håndverkere | Vekst Systemet",
   url: `${SITE_URL}/downloads`,
   description:
-    "Gratis PDF's, templates en checklists voor aannemers: review-scripts, offerte-template, website-audit, lead-opvolging playbook. Direct downloaden.",
+    "Gratis PDF-er, maler og sjekklister for håndverkere: anmeldelses-skript, tilbudsmal, nettside-audit, lead-oppfølgingsplaybook. Last ned direkte.",
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Downloads", item: `${SITE_URL}/downloads` },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Nedlastinger", item: `${SITE_URL}/downloads` },
     ],
   },
   mainEntity: {
@@ -38,20 +38,20 @@ const downloadsSchema = {
 const DownloadsOverview = () => (
   <PageShell>
     <Helmet>
-      <title>Gratis downloads voor aannemers | Aannemer Systeem</title>
+      <title>Gratis nedlastinger for håndverkere | Vekst Systemet</title>
       <meta
         name="description"
-        content="Gratis PDF's, templates en checklists voor aannemers: review-scripts, offerte-templates, website-audit checklist en meer. Direct te downloaden."
+        content="Gratis PDF-er, maler og sjekklister for håndverkere: anmeldelsesskript, tilbudsmal, nettside-audit-sjekkliste og mer. Kan lastes ned direkte."
       />
       <link rel="canonical" href={`${SITE_URL}/downloads`} />
-      <meta property="og:title" content="Gratis downloads voor aannemers | Aannemer Systeem" />
+      <meta property="og:title" content="Gratis nedlastinger for håndverkere | Vekst Systemet" />
       <meta
         property="og:description"
-        content="Gratis PDF's, templates en checklists voor aannemers. Direct te downloaden."
+        content="Gratis PDF-er, maler og sjekklister for håndverkere. Kan lastes ned direkte."
       />
       <meta property="og:url" content={`${SITE_URL}/downloads`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
       <script type="application/ld+json">{JSON.stringify(downloadsSchema)}</script>
     </Helmet>
 
@@ -61,20 +61,21 @@ const DownloadsOverview = () => (
           {...fadeInUp}
           className="text-xs font-bold uppercase tracking-widest text-accent mb-4"
         >
-          Downloads
+          Nedlastinger
         </motion.p>
         <motion.h1
           {...fadeInUp}
           className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground"
         >
-          Gratis PDF's, templates en checklists
+          Gratis PDF-er, maler og sjekklister
         </motion.h1>
         <motion.p
           {...fadeInUp}
           className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed"
         >
-          Praktische handleidingen die je direct kunt gebruiken in je bedrijf. Review-scripts,
-          offerte-templates, website-checklists - allemaal gemaakt voor aannemers.
+          Praktiske veiledninger du kan ta i bruk i bedriften din med en gang.
+          Anmeldelsesskript, tilbudsmaler, nettside-sjekklister - alle laget for
+          håndverkere.
         </motion.p>
       </div>
     </section>
@@ -103,19 +104,19 @@ const DownloadsOverview = () => (
                 </p>
 
                 <div className="mt-4 flex items-center gap-4 text-xs text-muted-foreground">
-                  <span>{item.pages} pagina's</span>
+                  <span>{item.pages} sider</span>
                   <span>&middot;</span>
                   <span>{item.format}</span>
                 </div>
 
                 {item.status === "soon" ? (
                   <span className="inline-block mt-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                    Binnenkort
+                    Kommer snart
                   </span>
                 ) : (
                   <span className="inline-flex items-center gap-1.5 mt-4 text-xs font-semibold uppercase tracking-widest text-accent">
                     <Download className="h-3.5 w-3.5" strokeWidth={2} />
-                    Gratis download
+                    Gratis nedlasting
                   </span>
                 )}
               </div>
@@ -135,12 +136,12 @@ const DownloadsOverview = () => (
 
         <motion.div {...fadeInUp} className="mt-16 max-w-2xl">
           <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-3">
-            Wat maakt deze downloads anders?
+            Hva gjør disse nedlastingene annerledes?
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Geen generieke business-templates uit Amerika. Elk document is gemaakt voor de
-            Nederlandse bouwsector - met voorbeelden uit de praktijk, herkenbare situaties en
-            taal die aannemers ook echt zo gebruiken.
+            Ingen generiske business-maler fra USA. Hvert dokument er laget for
+            den norske byggebransjen - med praktiske eksempler, gjenkjennelige
+            situasjoner og et språk håndverkere faktisk bruker.
           </p>
         </motion.div>
       </div>

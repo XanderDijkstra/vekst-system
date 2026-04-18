@@ -9,7 +9,7 @@ import { fadeInUp } from "@/lib/animations";
 import { downloads } from "@/data/downloads";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 
@@ -53,14 +53,14 @@ const DownloadDetail = () => {
 
       const data = await response.json();
       if (!response.ok) {
-        throw new Error(data.error || "Er ging iets mis. Probeer het opnieuw.");
+        throw new Error(data.error || "Noe gikk galt. Prøv igjen.");
       }
 
       setDownloadUrl(data.downloadUrl || null);
       setState("success");
     } catch (err) {
       setState("error");
-      setErrorMessage(err instanceof Error ? err.message : "Onbekende fout.");
+      setErrorMessage(err instanceof Error ? err.message : "Ukjent feil.");
     }
   };
 
@@ -70,21 +70,21 @@ const DownloadDetail = () => {
     headline: item.title,
     description: item.description,
     url: `${SITE_URL}/downloads/${item.slug}`,
-    author: { "@type": "Organization", name: "Aannemer Systeem" },
-    publisher: { "@type": "Organization", name: "Aannemer Systeem" },
+    author: { "@type": "Organization", name: "Vekst Systemet" },
+    publisher: { "@type": "Organization", name: "Vekst Systemet" },
   };
 
   return (
     <PageShell>
       <Helmet>
-        <title>{`${item.title} | Gratis download`}</title>
+        <title>{`${item.title} | Gratis nedlasting`}</title>
         <meta name="description" content={item.description.slice(0, 155)} />
         <link rel="canonical" href={`${SITE_URL}/downloads/${item.slug}`} />
-        <meta property="og:title" content={`${item.title} | Gratis download`} />
+        <meta property="og:title" content={`${item.title} | Gratis nedlasting`} />
         <meta property="og:description" content={item.description.slice(0, 200)} />
         <meta property="og:url" content={`${SITE_URL}/downloads/${item.slug}`} />
         <meta property="og:type" content="article" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 
@@ -95,7 +95,7 @@ const DownloadDetail = () => {
             className="inline-flex items-center gap-1.5 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors mb-6"
           >
             <ArrowLeft className="h-4 w-4" strokeWidth={1.5} />
-            Alle downloads
+            Alle nedlastinger
           </Link>
           <motion.p
             {...fadeInUp}
@@ -124,14 +124,14 @@ const DownloadDetail = () => {
             <div className="lg:col-span-3">
               <motion.div {...fadeInUp}>
                 <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-                  Waar gaat dit over?
+                  Hva handler dette om?
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">{item.description}</p>
               </motion.div>
 
               <motion.div {...fadeInUp} className="mt-10">
                 <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-                  Wat krijg je?
+                  Hva får du?
                 </h2>
                 <ul className="space-y-3">
                   {item.whatYouGet.map((point, i) => (
@@ -148,7 +148,7 @@ const DownloadDetail = () => {
 
               <motion.div {...fadeInUp} className="mt-10">
                 <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-                  Voor wie?
+                  For hvem?
                 </h2>
                 <ul className="space-y-3">
                   {item.whoIsItFor.map((point, i) => (
@@ -163,7 +163,7 @@ const DownloadDetail = () => {
               {relatedArticles.length > 0 && (
                 <motion.div {...fadeInUp} className="mt-10">
                   <h2 className="text-2xl font-semibold tracking-tight text-foreground mb-4">
-                    Gerelateerde artikelen
+                    Relaterte artikler
                   </h2>
                   <ul className="space-y-2">
                     {relatedArticles.map((article) => (
@@ -192,10 +192,10 @@ const DownloadDetail = () => {
                   </div>
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-                      Gratis download
+                      Gratis nedlasting
                     </p>
                     <p className="text-sm text-foreground">
-                      {item.pages} pagina's &middot; {item.format}
+                      {item.pages} sider &middot; {item.format}
                     </p>
                   </div>
                 </div>
@@ -204,12 +204,12 @@ const DownloadDetail = () => {
                   <div className="mt-6">
                     <div className="flex items-center gap-2 text-accent mb-3">
                       <Check className="h-5 w-5" strokeWidth={2} />
-                      <p className="font-semibold">Gelukt!</p>
+                      <p className="font-semibold">Ferdig!</p>
                     </div>
                     <p className="text-sm text-muted-foreground leading-relaxed">
                       {downloadUrl
-                        ? "Je download is klaar. Klik hieronder om te openen."
-                        : "We hebben je aanvraag ontvangen. Zodra de PDF klaar is krijg je hem in je mailbox."}
+                        ? "Nedlastingen er klar. Klikk under for å åpne."
+                        : "Vi har mottatt forespørselen din. Så snart PDF-en er klar, får du den i innboksen."}
                     </p>
                     {downloadUrl && (
                       <a
@@ -219,35 +219,35 @@ const DownloadDetail = () => {
                         className="inline-flex items-center gap-2 mt-4 px-4 py-2.5 bg-accent text-accent-foreground rounded-lg font-semibold text-sm hover:opacity-90 transition-opacity"
                       >
                         <Download className="h-4 w-4" strokeWidth={2} />
-                        Download PDF
+                        Last ned PDF
                       </a>
                     )}
                   </div>
                 ) : item.status === "soon" ? (
                   <div className="mt-6">
                     <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                      Deze download is nog in de maak. Laat je e-mailadres achter en je krijgt
-                      hem als eerste zodra hij live staat.
+                      Denne nedlastingen er fortsatt under arbeid. Legg igjen
+                      e-postadressen din, så får du den som en av de første når den er klar.
                     </p>
                     <form onSubmit={handleSubmit} className="space-y-3">
                       <input
                         type="email"
                         required
-                        placeholder="jouw@email.nl"
+                        placeholder="din@e-post.no"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full px-3 py-2.5 bg-background border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent/50"
                       />
                       <input
                         type="text"
-                        placeholder="Naam (optioneel)"
+                        placeholder="Navn (valgfritt)"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         className="w-full px-3 py-2.5 bg-background border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent/50"
                       />
                       <input
                         type="text"
-                        placeholder="Bedrijf (optioneel)"
+                        placeholder="Firma (valgfritt)"
                         value={company}
                         onChange={(e) => setCompany(e.target.value)}
                         className="w-full px-3 py-2.5 bg-background border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent/50"
@@ -260,10 +260,10 @@ const DownloadDetail = () => {
                         {state === "submitting" ? (
                           <>
                             <Loader2 className="h-4 w-4 animate-spin" strokeWidth={2} />
-                            Bezig...
+                            Jobber…
                           </>
                         ) : (
-                          "Zet mij op de lijst"
+                          "Sett meg på lista"
                         )}
                       </button>
                     </form>
@@ -274,28 +274,28 @@ const DownloadDetail = () => {
                 ) : (
                   <div className="mt-6">
                     <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                      Vul je e-mailadres in en je krijgt direct de downloadlink. Geen spam, geen
-                      nieuwsbrief zonder dat je het wilt.
+                      Fyll inn e-postadressen din, så får du nedlastingslinken direkte.
+                      Ingen spam, ingen nyhetsbrev du ikke har bedt om.
                     </p>
                     <form onSubmit={handleSubmit} className="space-y-3">
                       <input
                         type="email"
                         required
-                        placeholder="jouw@email.nl"
+                        placeholder="din@e-post.no"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full px-3 py-2.5 bg-background border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent/50"
                       />
                       <input
                         type="text"
-                        placeholder="Naam (optioneel)"
+                        placeholder="Navn (valgfritt)"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         className="w-full px-3 py-2.5 bg-background border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent/50"
                       />
                       <input
                         type="text"
-                        placeholder="Bedrijf (optioneel)"
+                        placeholder="Firma (valgfritt)"
                         value={company}
                         onChange={(e) => setCompany(e.target.value)}
                         className="w-full px-3 py-2.5 bg-background border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-accent/50"
@@ -308,12 +308,12 @@ const DownloadDetail = () => {
                         {state === "submitting" ? (
                           <>
                             <Loader2 className="h-4 w-4 animate-spin" strokeWidth={2} />
-                            Bezig...
+                            Jobber…
                           </>
                         ) : (
                           <>
                             <Download className="h-4 w-4" strokeWidth={2} />
-                            Download gratis
+                            Last ned gratis
                           </>
                         )}
                       </button>
@@ -325,8 +325,8 @@ const DownloadDetail = () => {
                 )}
 
                 <p className="mt-4 text-xs text-muted-foreground leading-relaxed">
-                  Door te downloaden ga je akkoord met onze voorwaarden. Je kunt je altijd
-                  afmelden.
+                  Ved å laste ned godtar du vilkårene våre. Du kan alltid melde
+                  deg av.
                 </p>
               </motion.div>
             </div>

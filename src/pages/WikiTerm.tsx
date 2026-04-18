@@ -18,12 +18,12 @@ const WikiTerm = () => {
       <PageShell>
         <section className="py-20 md:py-28">
           <div className="container max-w-3xl text-center">
-            <h1 className="text-4xl font-bold text-foreground">Term niet gevonden</h1>
+            <h1 className="text-4xl font-bold text-foreground">Term ikke funnet</h1>
             <p className="mt-4 text-muted-foreground">
-              Deze term bestaat niet of is verplaatst.
+              Denne termen finnes ikke eller er flyttet.
             </p>
             <Button asChild className="mt-8">
-              <Link to="/wiki">Terug naar wiki</Link>
+              <Link to="/wiki">Tilbake til wiki</Link>
             </Button>
           </div>
         </section>
@@ -45,7 +45,7 @@ const WikiTerm = () => {
     url: canonicalUrl,
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
-      name: "Marketing Wiki voor Aannemers",
+      name: "Markedsførings-wiki for håndverkere",
       url: `${SITE_URL}/wiki`,
     },
   };
@@ -53,19 +53,19 @@ const WikiTerm = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>{term.term} | Wiki | Aannemer Systeem</title>
+        <title>{term.term} | Wiki | Vekst Systemet</title>
         <meta name="description" content={term.shortDescription} />
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={`${term.term} - uitgelegd voor aannemers`} />
+        <meta property="og:title" content={`${term.term} - forklart for håndverkere`} />
         <meta property="og:description" content={term.shortDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="article" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <meta property="og:site_name" content={SITE_NAME} />
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content={TWITTER_HANDLE} />
-        <meta name="twitter:title" content={`${term.term} - uitgelegd voor aannemers`} />
+        <meta name="twitter:title" content={`${term.term} - forklart for håndverkere`} />
         <meta name="twitter:description" content={term.shortDescription} />
         <meta name="twitter:image" content={OG_IMAGE_URL} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
@@ -127,7 +127,7 @@ const WikiTerm = () => {
           {relatedWikiTerms.length > 0 && (
             <div className="mt-16 rounded-2xl border border-border bg-muted/30 p-8">
               <h3 className="text-lg font-semibold text-foreground mb-4">
-                Gerelateerde termen
+                Relaterte termer
               </h3>
               <div className="flex flex-wrap gap-3">
                 {relatedWikiTerms.map((rt) => (
@@ -148,7 +148,7 @@ const WikiTerm = () => {
           {term.relatedLinks.length > 0 && (
             <div className="mt-6 rounded-2xl border border-border bg-muted/30 p-8">
               <h3 className="text-lg font-semibold text-foreground mb-4">
-                Gerelateerde diensten
+                Relaterte tjenester
               </h3>
               <div className="flex flex-wrap gap-3">
                 {term.relatedLinks.map((link) => (
@@ -168,18 +168,18 @@ const WikiTerm = () => {
           {/* CTA */}
           <div className="mt-12 rounded-2xl bg-primary p-8 md:p-12 text-center">
             <h3 className="text-2xl font-bold text-primary-foreground">
-              Klaar om te starten?
+              Klar til å starte?
             </h3>
             <p className="mt-3 text-primary-foreground/70 max-w-lg mx-auto">
-              Ontdek hoe wij jouw aannemersbedrijf kunnen helpen met automatisering
-              en digitalisering.
+              Se hvordan vi kan hjelpe håndverkerbedriften din med automatisering
+              og digitalisering.
             </p>
             <Button
               asChild
               size="lg"
               className="mt-6 bg-accent text-accent-foreground hover:bg-accent/90"
             >
-              <Link to="/demo">Plan een gratis demo</Link>
+              <Link to="/demo">Bestill en gratis demo</Link>
             </Button>
           </div>
 
@@ -190,7 +190,7 @@ const WikiTerm = () => {
               className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
-              Terug naar alle begrippen
+              Tilbake til alle begreper
             </Link>
           </div>
         </div>

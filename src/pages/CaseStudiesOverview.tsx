@@ -5,35 +5,35 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 const cases = [
   {
-    title: "Offerte automatisering voor aannemer",
+    title: "Tilbudsautomatisering for håndverker",
     slug: "offerte-automatisering-aannemer",
-    result: "10 uur per week bespaard",
+    result: "10 timer i uken spart",
     relatedLinks: [
-      { label: "Lead Follow-Up", href: "/diensten/lead-follow-up" },
-      { label: "Automatisering Aannemers", href: "/diensten/automatisering-aannemers" },
+      { label: "Lead-oppfølging", href: "/diensten/lead-follow-up" },
+      { label: "Automatisering for håndverkere", href: "/diensten/automatisering-aannemers" },
     ],
   },
   {
-    title: "Van 0 naar 80+ Google reviews in 3 maanden",
+    title: "Fra 0 til 80+ Google-anmeldelser på 3 måneder",
     slug: "review-systeem-installatiebedrijf",
-    result: "80+ Google reviews",
+    result: "80+ Google-anmeldelser",
     relatedLinks: [
-      { label: "Review Systeem", href: "/diensten/review-funnel" },
-      { label: "Marketing Campagnes", href: "/diensten/marketing-campagnes" },
+      { label: "Anmeldelsessystem", href: "/diensten/review-funnel" },
+      { label: "Markedsføringskampanjer", href: "/diensten/marketing-campagnes" },
     ],
   },
   {
-    title: "CRM en lead-opvolging voor aannemer",
+    title: "CRM og lead-oppfølging for håndverker",
     slug: "crm-implementatie-aannemer",
-    result: "50% snellere klantopvolging",
+    result: "50 % raskere kundeoppfølging",
     relatedLinks: [
-      { label: "All-in-One Inbox", href: "/diensten/all-in-one-inbox" },
-      { label: "Gemiste Oproep → SMS", href: "/diensten/klantcommunicatie" },
-      { label: "Lead Generatie Website", href: "/diensten/lead-generatie" },
+      { label: "Alt-i-én innboks", href: "/diensten/all-in-one-inbox" },
+      { label: "Tapt anrop → SMS", href: "/diensten/klantcommunicatie" },
+      { label: "Leadgenerering-nettside", href: "/diensten/lead-generatie" },
     ],
   },
 ];
@@ -41,21 +41,21 @@ const cases = [
 const CaseStudiesOverview = () => (
   <PageShell>
     <Helmet>
-      <title>Case Studies | Aannemer Systeem</title>
-      <meta name="description" content="Ontdek hoe andere aannemers hun bedrijf hebben getransformeerd met onze digitale systemen en automatisering." />
+      <title>Kundecase | Vekst Systemet</title>
+      <meta name="description" content="Se hvordan andre håndverkere har transformert bedriften sin med våre digitale systemer og automatisering." />
       <link rel="canonical" href={`${SITE_URL}/case-studies`} />
-      <meta property="og:title" content="Case Studies | Aannemer Systeem" />
-      <meta property="og:description" content="Ontdek hoe andere aannemers hun bedrijf hebben getransformeerd met onze digitale systemen." />
+      <meta property="og:title" content="Kundecase | Vekst Systemet" />
+      <meta property="og:description" content="Se hvordan andre håndverkere har transformert bedriften sin med våre digitale systemer." />
       <meta property="og:url" content={`${SITE_URL}/case-studies`} />
       <meta property="og:type" content="website" />
-      <meta property="og:locale" content="nl_NL" />
+      <meta property="og:locale" content="nb_NO" />
     </Helmet>
     <section className="py-20 md:py-28 bg-primary">
       <div className="container">
-        <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Case Studies</motion.p>
-        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Case Studies</motion.h1>
+        <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">Kundecase</motion.p>
+        <motion.h1 {...fadeInUp} className="text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground">Kundecase</motion.h1>
         <motion.p {...fadeInUp} className="mt-4 text-lg text-primary-foreground/70 max-w-2xl leading-relaxed">
-          Ontdek hoe andere aannemers hun bedrijf hebben getransformeerd met onze systemen.
+          Se hvordan andre håndverkere har transformert bedriften sin med systemene våre.
         </motion.p>
       </div>
     </section>

@@ -52,25 +52,25 @@ const ServicePageTemplate = ({ data: d }: Props) => {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `Professionele Website voor ${d.tradeName.charAt(0).toUpperCase() + d.tradeName.slice(1)}`,
+    name: `Profesjonell nettside for ${d.tradeName.charAt(0).toUpperCase() + d.tradeName.slice(1)}`,
     provider: {
       "@type": "Organization",
-      name: "Aannemer Systeem",
+      name: "Vekst Systemet",
       url: SITE_URL,
       telephone: "+4740185596",
-      email: "info@aannemersysteem.com",
+      email: "info@vekst-systemet.no",
     },
     description: d.metaDescription,
-    areaServed: { "@type": "Country", name: "Nederland" },
+    areaServed: { "@type": "Country", name: "Norge" },
     offers: {
       "@type": "Offer",
-      price: "279",
-      priceCurrency: "EUR",
+      price: "2990",
+      priceCurrency: "NOK",
       priceSpecification: {
         "@type": "UnitPriceSpecification",
-        price: "279",
-        priceCurrency: "EUR",
-        unitText: "maand",
+        price: "2990",
+        priceCurrency: "NOK",
+        unitText: "måned",
       },
     },
   };
@@ -79,29 +79,29 @@ const ServicePageTemplate = ({ data: d }: Props) => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Vakgebieden", item: `${SITE_URL}/vakgebieden` },
+      { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Fagområder", item: `${SITE_URL}/vakgebieden` },
       {
         "@type": "ListItem",
         position: 3,
         name: d.tradeName.charAt(0).toUpperCase() + d.tradeName.slice(1),
         item: `${SITE_URL}/vakgebieden/${d.trade}`,
       },
-      { "@type": "ListItem", position: 4, name: `Websites`, item: pageUrl },
+      { "@type": "ListItem", position: 4, name: `Nettsider`, item: pageUrl },
     ],
   };
 
   return (
     <PageShell>
       <Helmet>
-        <title>{d.metaTitle} | Aannemer Systeem</title>
+        <title>{d.metaTitle} | Vekst Systemet</title>
         <meta name="description" content={d.metaDescription} />
         <link rel="canonical" href={pageUrl} />
         <meta property="og:title" content={d.metaTitle} />
         <meta property="og:description" content={d.metaDescription} />
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <meta property="og:site_name" content={SITE_NAME} />
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -144,12 +144,12 @@ const ServicePageTemplate = ({ data: d }: Props) => {
           >
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een demo <ArrowRight className="ml-2 h-4 w-4" />
+                Bestill demo <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
               <Link to={`/vakgebieden/${d.trade}`}>
-                Bekijk {d.tradeName} pagina
+                Se {d.tradeName}-siden
               </Link>
             </Button>
           </motion.div>
@@ -175,7 +175,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
       <section className="py-20 md:py-28 bg-background">
         <div className="container">
           <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Herkenbaar?
+            Kjenner du deg igjen?
           </motion.p>
           <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
             {d.problems.sectionTitle}
@@ -207,7 +207,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
       <section className="py-20 md:py-28 bg-card">
         <div className="container">
           <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Wat wij maken
+            Hva vi bygger
           </motion.p>
           <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
             {d.features.sectionTitle}
@@ -242,7 +242,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
       <section className="py-20 md:py-28 bg-background">
         <div className="container">
           <motion.p {...fadeInUp} className="text-xs font-bold uppercase tracking-widest text-accent mb-4">
-            Pagina's die wij maken
+            Sider vi bygger
           </motion.p>
           <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground max-w-2xl">
             {d.examplePages.sectionTitle}
@@ -288,7 +288,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
       <section className="py-20 md:py-28 bg-background">
         <div className="container max-w-3xl">
           <motion.h2 {...fadeInUp} className="text-3xl md:text-4xl font-bold tracking-tight text-foreground mb-10">
-            Veelgestelde vragen
+            Ofte stilte spørsmål
           </motion.h2>
           <Accordion type="multiple" className="space-y-3">
             {d.faqs.map((faq, i) => (
@@ -316,7 +316,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
         <section className="py-12 bg-card">
           <div className="container max-w-4xl text-center">
             <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
-              Lees meer over marketing voor {d.tradeName}
+              Les mer om markedsføring for {d.tradeName}
             </p>
             <h3 className="text-2xl font-bold text-foreground">
               {marketingArticle.title}
@@ -327,7 +327,7 @@ const ServicePageTemplate = ({ data: d }: Props) => {
             <div className="mt-6">
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent/10">
                 <Link to={`/kennisbank/${marketingArticle.slug}`}>
-                  Lees het artikel <ArrowRight className="ml-2 h-4 w-4" />
+                  Les artikkelen <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
@@ -353,11 +353,11 @@ const ServicePageTemplate = ({ data: d }: Props) => {
           <motion.div {...fadeInUp} className="mt-8 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
               <Link to="/demo">
-                Boek een gratis demo <ArrowRight className="ml-2 h-4 w-4" />
+                Bestill en gratis demo <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
-              <Link to="/prijzen">Bekijk prijzen</Link>
+              <Link to="/prijzen">Se priser</Link>
             </Button>
           </motion.div>
         </div>

@@ -19,10 +19,10 @@ const KennisbankArticle = () => {
       <PageShell>
         <section className="py-20 md:py-28">
           <div className="container max-w-3xl text-center">
-            <h1 className="text-4xl font-bold text-foreground">Artikel niet gevonden</h1>
-            <p className="mt-4 text-muted-foreground">Dit artikel bestaat niet of is verplaatst.</p>
+            <h1 className="text-4xl font-bold text-foreground">Artikkel ikke funnet</h1>
+            <p className="mt-4 text-muted-foreground">Denne artikkelen finnes ikke eller er flyttet.</p>
             <Button asChild className="mt-8">
-              <Link to="/kennisbank">Terug naar kennisbank</Link>
+              <Link to="/kennisbank">Tilbake til kunnskapsbank</Link>
             </Button>
           </div>
         </section>
@@ -47,7 +47,7 @@ const KennisbankArticle = () => {
     dateModified: article.date,
     wordCount,
     articleSection: article.category,
-    inLanguage: "nl",
+    inLanguage: "nb",
     image: OG_IMAGE_URL,
     author: { "@type": "Person", name: "Xander Dijkstra" },
     publisher: {
@@ -60,8 +60,8 @@ const KennisbankArticle = () => {
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
-        { "@type": "ListItem", position: 2, name: "Kennisbank", item: `${SITE_URL}/kennisbank` },
+        { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "Kunnskapsbank", item: `${SITE_URL}/kennisbank` },
         { "@type": "ListItem", position: 3, name: article.title, item: canonicalUrl },
       ],
     },
@@ -70,7 +70,7 @@ const KennisbankArticle = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>{article.title} | Kennisbank | Aannemer Systeem</title>
+        <title>{article.title} | Kunnskapsbank | Vekst Systemet</title>
         <meta name="description" content={article.description} />
         <link rel="canonical" href={canonicalUrl} />
         <meta property="og:site_name" content={SITE_NAME} />
@@ -78,7 +78,7 @@ const KennisbankArticle = () => {
         <meta property="og:description" content={article.description} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="article" />
-        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:locale" content="nb_NO" />
         <meta property="og:image" content={OG_IMAGE_URL} />
         <meta property="article:published_time" content={article.date} />
         <meta property="article:author" content="Xander Dijkstra" />
@@ -95,7 +95,7 @@ const KennisbankArticle = () => {
       <section className="py-20 md:py-28 bg-primary">
         <div className="container max-w-3xl">
           <Link to="/kennisbank" className="inline-flex items-center gap-1.5 text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors mb-8">
-            <ArrowLeft className="h-4 w-4" /> Kennisbank
+            <ArrowLeft className="h-4 w-4" /> Kunnskapsbank
           </Link>
           <motion.span {...fadeInUp} className="block text-xs font-bold uppercase tracking-widest text-accent mb-4">
             {article.category}
@@ -110,11 +110,11 @@ const KennisbankArticle = () => {
               <div className="flex items-center gap-3 text-sm text-primary-foreground/60">
                 <span className="flex items-center gap-1.5">
                   <Calendar className="h-3.5 w-3.5" />
-                  {new Date(article.date).toLocaleDateString("nl-NL", { day: "numeric", month: "long", year: "numeric" })}
+                  {new Date(article.date).toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" })}
                 </span>
                 <span className="flex items-center gap-1.5">
                   <Clock className="h-3.5 w-3.5" />
-                  {article.readTime} leestijd
+                  {article.readTime} lesetid
                 </span>
               </div>
             </div>
@@ -147,7 +147,7 @@ const KennisbankArticle = () => {
           {/* Related services */}
           {article.relatedLinks.length > 0 && (
             <div className="mt-16 rounded-2xl border border-border bg-muted/30 p-8">
-              <h3 className="text-lg font-semibold text-foreground mb-4">Gerelateerde diensten</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-4">Relaterte tjenester</h3>
               <div className="flex flex-wrap gap-3">
                 {article.relatedLinks.map((link) => (
                   <Link
@@ -165,12 +165,12 @@ const KennisbankArticle = () => {
 
           {/* CTA */}
           <div className="mt-12 rounded-2xl bg-primary p-8 md:p-12 text-center">
-            <h3 className="text-2xl font-bold text-primary-foreground">Klaar om te starten?</h3>
+            <h3 className="text-2xl font-bold text-primary-foreground">Klar til å starte?</h3>
             <p className="mt-3 text-primary-foreground/70 max-w-lg mx-auto">
-              Ontdek hoe wij jouw aannemersbedrijf kunnen helpen met automatisering en digitalisering.
+              Se hvordan vi kan hjelpe håndverkerbedriften din med automatisering og digitalisering.
             </p>
             <Button asChild size="lg" className="mt-6 bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link to="/demo">Plan een gratis demo</Link>
+              <Link to="/demo">Bestill en gratis demo</Link>
             </Button>
           </div>
 
@@ -180,13 +180,13 @@ const KennisbankArticle = () => {
               <Link to={`/kennisbank/${prevArticle.slug}`} className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
                 <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform" />
                 <span className="hidden sm:inline">{prevArticle.title}</span>
-                <span className="sm:hidden">Vorige</span>
+                <span className="sm:hidden">Forrige</span>
               </Link>
             ) : <div />}
             {nextArticle ? (
               <Link to={`/kennisbank/${nextArticle.slug}`} className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto">
                 <span className="hidden sm:inline">{nextArticle.title}</span>
-                <span className="sm:hidden">Volgende</span>
+                <span className="sm:hidden">Neste</span>
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             ) : <div />}

@@ -10,3 +10,5 @@ export interface WikiTerm {
 }
 
 export const wikiTerms: WikiTerm[] = [];
+
+export const wikiCategories: string[] = [];
