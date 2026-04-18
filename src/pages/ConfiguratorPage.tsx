@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft, Check, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { supabase } from "@/integrations/supabase/client";
 
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 
 interface Feature {
   id: string;
@@ -26,7 +26,7 @@ interface Settings {
 
 const ConfiguratorPage = () => {
   const [features, setFeatures] = useState<Feature[]>([]);
-  const [settings, setSettings] = useState<Settings>({ bundle_price: "279", bundle_label: "Compleet Pakket" });
+  const [settings, setSettings] = useState<Settings>({ bundle_price: "2990", bundle_label: "Komplett pakke" });
   const [selections, setSelections] = useState<Record<string, boolean>>({});
   const [currentStep, setCurrentStep] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -47,7 +47,7 @@ const ConfiguratorPage = () => {
       if (settData) {
         const s: Record<string, string> = {};
         settData.forEach((row: { key: string; value: string }) => { s[row.key] = row.value; });
-        setSettings({ bundle_price: s.bundle_price || "279", bundle_label: s.bundle_label || "Compleet Pakket" });
+        setSettings({ bundle_price: s.bundle_price || "2990", bundle_label: s.bundle_label || "Komplett pakke" });
       }
       setLoading(false);
     };
@@ -102,8 +102,8 @@ const ConfiguratorPage = () => {
   return (
     <PageShell>
       <Helmet>
-        <title>Configurator | Aannemer Systeem</title>
-        <meta name="description" content="Stel je ideale digitale systeem samen en ontdek hoeveel je bespaart met het Compleet Pakket van Aannemer Systeem." />
+        <title>Konfigurator | Vekst Systemet</title>
+        <meta name="description" content="Sett sammen ditt ideelle digitale system og se hvor mye du sparer med Komplett pakke fra Vekst Systemet." />
         <link rel="canonical" href={`${SITE_URL}/configurator`} />
       </Helmet>
 
@@ -113,10 +113,10 @@ const ConfiguratorPage = () => {
           <div className="mb-10">
             <div className="flex items-center justify-between mb-3">
               <span className="text-xs font-bold uppercase tracking-widest text-accent">
-                Stap {Math.min(currentStep + 1, features.length)} van {features.length}
+                Steg {Math.min(currentStep + 1, features.length)} av {features.length}
               </span>
               <span className="text-xs text-muted-foreground">
-                {selectedCount} geselecteerd
+                {selectedCount} valgt
               </span>
             </div>
             <div className="h-1.5 bg-muted rounded-full overflow-hidden">
@@ -144,15 +144,15 @@ const ConfiguratorPage = () => {
                 >
                   <div className="text-center space-y-6">
                     <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground text-wrap-balance">
-                      Wil je een {currentFeature.title.toLowerCase()}?
+                      Vil du ha {currentFeature.title.toLowerCase()}?
                     </h1>
                     <p className="text-muted-foreground leading-relaxed max-w-lg mx-auto">
                       {currentFeature.description}
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      Normaal: <span className="font-semibold text-foreground">€{currentFeature.individual_price}</span>/maand
+                      Vanlig: <span className="font-semibold text-foreground">{currentFeature.individual_price} kr</span>/mnd
                       {currentFeature.project_price > 0 && (
-                        <span className="ml-2">· Projectprijs: <span className="font-semibold text-foreground">€{currentFeature.project_price}</span> eenmalig</span>
+                        <span className="ml-2">· Prosjektpris: <span className="font-semibold text-foreground">{currentFeature.project_price} kr</span> engang</span>
                       )}
                     </p>
 
@@ -164,7 +164,7 @@ const ConfiguratorPage = () => {
                         onClick={() => select(false)}
                       >
                         <X className="mr-2 h-4 w-4" />
-                        Nee
+                        Nei
                       </Button>
                       <Button
                         size="lg"
@@ -191,12 +191,12 @@ const ConfiguratorPage = () => {
                   <div className="text-center space-y-8">
                     <div>
                       <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-                        Jouw selectie
+                        Ditt valg
                       </h1>
                       <p className="mt-2 text-muted-foreground">
                         {selectedCount === 0
-                          ? "Je hebt geen onderdelen geselecteerd."
-                          : `Je hebt ${selectedCount} onderdelen geselecteerd.`}
+                          ? "Du har ikke valgt noen moduler."
+                          : `Du har valgt ${selectedCount} moduler.`}
                       </p>
                     </div>
 
@@ -236,10 +236,10 @@ const ConfiguratorPage = () => {
                               {selections[f.slug] && (
                                 <div className="text-right">
                                   {f.project_price > 0 && (
-                                    <span className="text-xs text-muted-foreground line-through block">€{f.project_price} eenmalig</span>
+                                    <span className="text-xs text-muted-foreground line-through block">{f.project_price} kr engang</span>
                                   )}
                                   <span className="text-sm text-muted-foreground line-through">
-                                    €{f.individual_price}/mo
+                                    {f.individual_price} kr/mnd
                                   </span>
                                 </div>
                               )}
@@ -251,19 +251,19 @@ const ConfiguratorPage = () => {
                             {selectedProjectTotal > 0 && (
                               <div className="flex items-center justify-between">
                                 <span className="text-sm text-muted-foreground">
-                                  Eenmalige projectkosten
+                                  Engangs prosjektkostnad
                                 </span>
                                 <span className="text-base font-bold text-muted-foreground line-through">
-                                  €{selectedProjectTotal}
+                                  {selectedProjectTotal} kr
                                 </span>
                               </div>
                             )}
                             <div className="flex items-center justify-between">
                               <span className="text-sm font-semibold text-muted-foreground">
-                                Maandelijks los
+                                Månedlig separat
                               </span>
                               <span className="text-lg font-bold text-muted-foreground line-through">
-                                €{selectedTotal}/mo
+                                {selectedTotal} kr/mnd
                               </span>
                             </div>
                           </div>
@@ -280,14 +280,14 @@ const ConfiguratorPage = () => {
                             {settings.bundle_label}
                           </p>
                           <p className="text-4xl md:text-5xl font-extrabold tracking-tight">
-                            €{settings.bundle_price}
-                            <span className="text-lg font-medium opacity-80">/maand</span>
+                            {settings.bundle_price} kr
+                            <span className="text-lg font-medium opacity-80">/mnd</span>
                           </p>
                           <p className="mt-3 text-sm opacity-80">
-                            Alles inbegrepen. Geen opstartkosten. Maandelijks opzegbaar.
+                            Alt inkludert. Ingen oppstartskostnader. Månedlig oppsigelse.
                           </p>
                           <p className="mt-1 text-sm font-semibold">
-                            Je bespaart €{selectedTotal - Number(settings.bundle_price)}/maand
+                            Du sparer {selectedTotal - Number(settings.bundle_price)} kr/mnd
                           </p>
                           <Button
                             asChild
@@ -295,7 +295,7 @@ const ConfiguratorPage = () => {
                             className="mt-6 w-full rounded-xl bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-bold text-base h-12 active:scale-[0.97] transition-transform"
                           >
                             <Link to="/demo">
-                              Boek een gesprek
+                              Bestill en samtale
                               <ArrowRight className="ml-2 h-4 w-4" />
                             </Link>
                           </Button>
@@ -306,7 +306,7 @@ const ConfiguratorPage = () => {
                     {selectedCount === 0 && (
                       <div className="rounded-2xl border border-border bg-card p-8 text-center">
                         <p className="text-muted-foreground mb-4">
-                          Je hebt nog niets geselecteerd. Ga terug om onderdelen te kiezen.
+                          Du har ikke valgt noe ennå. Gå tilbake og velg moduler.
                         </p>
                       </div>
                     )}
@@ -325,7 +325,7 @@ const ConfiguratorPage = () => {
               className="text-muted-foreground active:scale-[0.97] transition-transform"
             >
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Vorige
+              Forrige
             </Button>
             {!isResultStep && (
               <Button
@@ -333,7 +333,7 @@ const ConfiguratorPage = () => {
                 onClick={goNext}
                 className="text-muted-foreground active:scale-[0.97] transition-transform"
               >
-                Overslaan
+                Hopp over
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             )}
@@ -346,7 +346,7 @@ const ConfiguratorPage = () => {
                 }}
                 className="text-muted-foreground active:scale-[0.97] transition-transform"
               >
-                Opnieuw beginnen
+                Start på nytt
               </Button>
             )}
           </div>

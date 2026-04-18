@@ -20,10 +20,10 @@ export default async function handler(req, res) {
   const { slug, email, name, company } = req.body || {};
 
   if (!slug || !VALID_SLUGS.has(slug)) {
-    return res.status(400).json({ error: "Ongeldige download." });
+    return res.status(400).json({ error: "Ugyldig nedlasting." });
   }
   if (!email || !EMAIL_RE.test(email)) {
-    return res.status(400).json({ error: "Vul een geldig e-mailadres in." });
+    return res.status(400).json({ error: "Fyll inn en gyldig e-postadresse." });
   }
 
   try {
@@ -38,8 +38,8 @@ export default async function handler(req, res) {
     success: true,
     downloadUrl,
     message: downloadUrl
-      ? "Je download is klaar."
-      : "We hebben je aanvraag ontvangen. Je krijgt de PDF per e-mail zodra hij klaar is.",
+      ? "Nedlastingen er klar."
+      : "Vi har mottatt forespørselen din. Du får PDF-en på e-post så snart den er klar.",
   });
 }
 

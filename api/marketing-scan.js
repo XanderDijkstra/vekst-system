@@ -20,7 +20,7 @@ export default async function handler(req, res) {
   } catch (err) {
     return res
       .status(500)
-      .json({ error: err.message || "Scan mislukt", success: false });
+      .json({ error: err.message || "Skanning mislyktes", success: false });
   }
 }
 
@@ -32,12 +32,12 @@ async function fetchHtml(url) {
       signal: controller.signal,
       headers: {
         "User-Agent":
-          "Mozilla/5.0 (compatible; AannemerSysteemBot/1.0; +https://aannemersysteem.com)",
+          "Mozilla/5.0 (compatible; VekstSystemetBot/1.0; +https://vekst-systemet.no)",
         Accept: "text/html",
       },
       redirect: "follow",
     });
-    if (!resp.ok) throw new Error(`Website gaf status ${resp.status}`);
+    if (!resp.ok) throw new Error(`Nettsiden returnerte status ${resp.status}`);
     return await resp.text();
   } finally {
     clearTimeout(timeout);
@@ -81,7 +81,7 @@ function parseSignals(html, url) {
     .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
     .replace(/<[^>]*>/g, " ");
 
-  const phoneRegex = /(?:\+31|0)\s*(?:[\d][\s.\-]*){9}/g;
+  const phoneRegex = /(?:\+47|0047)?\s*(?:[\d][\s.\-]*){8}/g;
   const phones = [
     ...new Set(
       (textOnly.match(phoneRegex) || []).map((p) => p.replace(/[\s.\-]/g, ""))
@@ -99,7 +99,7 @@ function parseSignals(html, url) {
 
   const hasTelLink = /href=["']tel:/i.test(html);
   const hasWhatsApp = /whatsapp|wa\.me/i.test(html);
-  const hasKvk = /kvk|kamer\s*van\s*koophandel|\bKvK\b/i.test(textOnly);
+  const hasKvk = /org(?:anisasjons)?[.\s]*nr|brønnøysundregistrene|foretaksregister/i.test(textOnly);
 
   const images = html.match(/<img[^>]*>/gi) || [];
   const imgTotal = images.length;
@@ -138,50 +138,50 @@ function parseSignals(html, url) {
 
 async function analyzeWithClaude(signals) {
   const key = process.env.ANTHROPIC_API_KEY;
-  if (!key) throw new Error("ANTHROPIC_API_KEY niet geconfigureerd");
+  if (!key) throw new Error("ANTHROPIC_API_KEY er ikke konfigurert");
 
-  const prompt = `Je bent een Nederlandse online-marketing expert die websites van aannemers, bouwbedrijven en vakmensen analyseert. Analyseer de volgende website-signalen en geef een eerlijk, concreet rapport.
+  const prompt = `Du er en norsk nettmarkedsføringsekspert som analyserer nettsider til håndverkere, byggefirmaer og fagfolk. Analyser følgende nettside-signaler og lever en ærlig, konkret rapport.
 
-WEBSITE SIGNALEN:
+NETTSIDE-SIGNALER:
 ${JSON.stringify(signals, null, 2)}
 
-Geef je antwoord als pure JSON (geen markdown, geen code blocks, geen uitleg buiten de JSON). Gebruik exact deze structuur:
+Svar kun med ren JSON (ingen markdown, ingen kodeblokk, ingen forklaringer utenfor JSON). Bruk nøyaktig denne strukturen:
 {
-  "score": <getal 0-100>,
-  "summary": "<1 korte zin die de kern raakt>",
+  "score": <tall 0-100>,
+  "summary": "<1 kort setning som treffer kjernen>",
   "categories": [
     {
-      "name": "Vindbaarheid",
+      "name": "Synlighet",
       "score": <0-100>,
       "findings": [
-        { "status": "good" | "warning" | "error", "label": "<kort label>", "detail": "<concrete uitleg, max 2 zinnen>" }
+        { "status": "good" | "warning" | "error", "label": "<kort label>", "detail": "<konkret forklaring, maks 2 setninger>" }
       ]
     },
     {
-      "name": "Technisch",
+      "name": "Teknisk",
       "score": <0-100>,
       "findings": [...]
     },
     {
-      "name": "Vertrouwen",
+      "name": "Tillit",
       "score": <0-100>,
       "findings": [...]
     },
     {
-      "name": "Conversie",
+      "name": "Konvertering",
       "score": <0-100>,
       "findings": [...]
     }
   ],
-  "topActions": ["<actie 1>", "<actie 2>", "<actie 3>"]
+  "topActions": ["<tiltak 1>", "<tiltak 2>", "<tiltak 3>"]
 }
 
-Regels:
-- Geef 2-5 findings per categorie.
-- Gebruik de echte data uit de signalen (title text, h1 text, aantal afbeeldingen zonder alt, etc).
-- topActions moeten direct uitvoerbaar zijn door een aannemer of zijn webdesigner.
-- Score eerlijk: de meeste aannemer-sites scoren 25-55. Een 80+ is uitzonderlijk.
-- Schrijf in het Nederlands, kort en direct, geen wollige taal.`;
+Regler:
+- Gi 2-5 funn per kategori.
+- Bruk faktiske data fra signalene (title-tekst, h1-tekst, antall bilder uten alt, osv.).
+- topActions må kunne gjennomføres direkte av en håndverker eller webdesigneren deres.
+- Skårene skal være ærlige: de fleste håndverker-nettsider skårer 25-55. 80+ er unntakstilfeller.
+- Skriv på norsk bokmål, kort og direkte, ingen svulstig språk.`;
 
   const resp = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -207,22 +207,22 @@ Regels:
       apiMsg = body.slice(0, 200);
     }
     if (resp.status === 400 && /credit balance/i.test(apiMsg)) {
-      throw new Error("De scan-service is tijdelijk niet beschikbaar. Probeer het later opnieuw.");
+      throw new Error("Skanneverktøyet er midlertidig utilgjengelig. Prøv igjen senere.");
     }
     if (resp.status === 401) {
-      throw new Error("De scan-service is niet correct geconfigureerd.");
+      throw new Error("Skanneverktøyet er ikke riktig konfigurert.");
     }
     if (resp.status === 429) {
-      throw new Error("Te veel scans tegelijk. Probeer het over een minuut opnieuw.");
+      throw new Error("For mange skanninger samtidig. Prøv igjen om ett minutt.");
     }
-    throw new Error("Analyse mislukt. Probeer het later opnieuw.");
+    throw new Error("Analysen mislyktes. Prøv igjen senere.");
   }
 
   const data = await resp.json();
   const text = data.content[0].text;
 
   const jsonMatch = text.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) throw new Error("Kon het rapport niet verwerken");
+  if (!jsonMatch) throw new Error("Klarte ikke å behandle rapporten");
 
   return JSON.parse(jsonMatch[0]);
 }

@@ -2,7 +2,7 @@
 /**
  * Generates public/sitemap.xml by parsing the data files at build time.
  * Runs automatically as a prebuild step so the sitemap stays in sync with
- * the actual routes on aannemersysteem.com.
+ * the actual routes on vekst-systemet.no.
  */
 import fs from "fs";
 import path from "path";
@@ -10,7 +10,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.join(__dirname, "..");
-const SITE_URL = "https://aannemersysteem.com";
+const SITE_URL = "https://vekst-systemet.no";
 const OUT_FILE = path.join(REPO_ROOT, "public/sitemap.xml");
 
 const read = (rel) => fs.readFileSync(path.join(REPO_ROOT, rel), "utf-8");
@@ -89,22 +89,13 @@ const DIENSTEN_PAGES = [
 // Comparison pages under /vergelijk. Keep in sync with src/App.tsx.
 const VERGELIJK_PAGES = [
   "/vergelijk/werkspot-alternatief",
-  "/vergelijk/bouwnu-alternatief",
-  "/vergelijk/offerteadviseur-alternatief",
-  "/vergelijk/homedeal-alternatief",
-  "/vergelijk/instapro-alternatief",
-  "/vergelijk/zoofy-alternatief",
-  "/vergelijk/lokale-leads-genereren",
-  "/vergelijk/seo-vs-google-ads",
 ];
 
 // Calculator / tool pages under /tools. Keep in sync with src/App.tsx.
 const TOOLS_PAGES = [
   "/tools",
   "/tools/leadwaarde-calculator",
-  "/tools/uurtarief-calculator-aannemer",
   "/tools/projectmarge-calculator",
-  "/tools/personeelskosten-calculator",
   "/tools/bouwmaterialen-berekenen",
   "/tools/tegels-berekenen",
   "/tools/verf-berekenen",
@@ -164,28 +155,36 @@ function build() {
     lines.push(urlEntry(`/vakgebieden/${slug}`, "0.8", "monthly"));
   }
 
-  lines.push("");
-  lines.push(`  <!-- Service pages: websites-voor-* (${serviceSlugs.length}) -->`);
-  for (const slug of serviceSlugs.sort()) {
-    lines.push(urlEntry(`/${slug}`, "0.7", "monthly"));
+  if (serviceSlugs.length > 0) {
+    lines.push("");
+    lines.push(`  <!-- Service pages: websites-voor-* (${serviceSlugs.length}) -->`);
+    for (const slug of serviceSlugs.sort()) {
+      lines.push(urlEntry(`/${slug}`, "0.7", "monthly"));
+    }
   }
 
-  lines.push("");
-  lines.push(`  <!-- Kennisbank articles (${kennisbankSlugs.length}) -->`);
-  for (const slug of kennisbankSlugs.sort()) {
-    lines.push(urlEntry(`/kennisbank/${slug}`, "0.6", "monthly"));
+  if (kennisbankSlugs.length > 0) {
+    lines.push("");
+    lines.push(`  <!-- Kennisbank articles (${kennisbankSlugs.length}) -->`);
+    for (const slug of kennisbankSlugs.sort()) {
+      lines.push(urlEntry(`/kennisbank/${slug}`, "0.6", "monthly"));
+    }
   }
 
-  lines.push("");
-  lines.push(`  <!-- Wiki terms (${wikiSlugs.length}) -->`);
-  for (const slug of wikiSlugs.sort()) {
-    lines.push(urlEntry(`/wiki/${slug}`, "0.6", "monthly"));
+  if (wikiSlugs.length > 0) {
+    lines.push("");
+    lines.push(`  <!-- Wiki terms (${wikiSlugs.length}) -->`);
+    for (const slug of wikiSlugs.sort()) {
+      lines.push(urlEntry(`/wiki/${slug}`, "0.6", "monthly"));
+    }
   }
 
-  lines.push("");
-  lines.push(`  <!-- Downloads (${downloadSlugs.length}) -->`);
-  for (const slug of downloadSlugs.sort()) {
-    lines.push(urlEntry(`/downloads/${slug}`, "0.7", "monthly"));
+  if (downloadSlugs.length > 0) {
+    lines.push("");
+    lines.push(`  <!-- Downloads (${downloadSlugs.length}) -->`);
+    for (const slug of downloadSlugs.sort()) {
+      lines.push(urlEntry(`/downloads/${slug}`, "0.7", "monthly"));
+    }
   }
 
   lines.push("</urlset>");
