@@ -48,6 +48,8 @@ import VergelijkOverview from "./pages/vergelijk/VergelijkOverview";
 import WerkspotAlternatief from "./pages/vergelijk/WerkspotAlternatief";
 import ToolsOverview from "./pages/tools/ToolsOverview";
 import LeadwaardeCalculator from "./pages/tools/LeadwaardeCalculator";
+import TimeprisCalculator from "./pages/tools/TimeprisCalculator";
+import PersonalkostnadCalculator from "./pages/tools/PersonalkostnadCalculator";
 import ProjectmargeCalculator from "./pages/tools/ProjectmargeCalculator";
 import TegelsBerekenen from "./pages/tools/TegelsBerekenen";
 import VerfBerekenen from "./pages/tools/VerfBerekenen";
@@ -122,6 +124,8 @@ const App = () => (
           <Route path="/sammenlign/mittanbud-alternativ" element={<WerkspotAlternatief />} />
           <Route path="/verktoy" element={<ToolsOverview />} />
           <Route path="/verktoy/leadverdi-kalkulator" element={<LeadwaardeCalculator />} />
+          <Route path="/verktoy/timepris-kalkulator" element={<TimeprisCalculator />} />
+          <Route path="/verktoy/personalkostnad-kalkulator" element={<PersonalkostnadCalculator />} />
           <Route path="/verktoy/prosjektmargin-kalkulator" element={<ProjectmargeCalculator />} />
           <Route path="/verktoy/byggematerialer-kalkulator" element={<BouwmaterialenHub />} />
           <Route path="/verktoy/fliser-kalkulator" element={<TegelsBerekenen />} />

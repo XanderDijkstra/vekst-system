@@ -95,7 +95,9 @@ const VERGELIJK_PAGES = [
 const TOOLS_PAGES = [
   "/verktoy",
   "/verktoy/leadverdi-kalkulator",
+  "/verktoy/timepris-kalkulator",
   "/verktoy/prosjektmargin-kalkulator",
+  "/verktoy/personalkostnad-kalkulator",
   "/verktoy/byggematerialer-kalkulator",
   "/verktoy/fliser-kalkulator",
   "/verktoy/maling-kalkulator",
