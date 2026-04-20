@@ -1,3 +1,4 @@
+import AnimationStage from "../animation-shared/AnimationStage";
 import IOSDevice from "../animation-shared/IOSDevice";
 import StepPill from "../animation-shared/StepPill";
 import { useLoopTime, fadeWindow } from "../animation-shared/useLoopTime";
@@ -17,9 +18,8 @@ const LokalSeoAnimation = () => {
   const t = useLoopTime();
 
   return (
-    <div className="relative w-full flex justify-center items-start py-8">
-      <div className="relative">
-        <IOSDevice>
+    <AnimationStage>
+      <IOSDevice>
           <div style={{ opacity: fadeWindow(t, 0, 0.3, 2.8, 3.1) }}>
             <GoogleSearchScreen t={t} />
           </div>
@@ -66,8 +66,7 @@ const LokalSeoAnimation = () => {
           sub="+38 % henvendelser"
           visible={t >= 9.5 && t < 10.9}
         />
-      </div>
-    </div>
+    </AnimationStage>
   );
 };
 

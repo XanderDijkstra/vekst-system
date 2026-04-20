@@ -1,3 +1,4 @@
+import AnimationStage from "../animation-shared/AnimationStage";
 import IOSDevice from "../animation-shared/IOSDevice";
 import StepPill from "../animation-shared/StepPill";
 import { useLoopTime, fadeWindow } from "../animation-shared/useLoopTime";
@@ -16,9 +17,8 @@ const LeadFollowUpAnimation = () => {
   const darkPhase = t < 3.1;
 
   return (
-    <div className="relative w-full flex justify-center items-start py-8">
-      <div className="relative">
-        <IOSDevice dark={darkPhase}>
+    <AnimationStage>
+      <IOSDevice dark={darkPhase}>
           <div style={{ opacity: fadeWindow(t, 0, 0.3, 2.8, 3.1) }}>
             <IntakeNotificationScreen t={t} />
           </div>
@@ -62,8 +62,7 @@ const LeadFollowUpAnimation = () => {
           sub="I kalenderen"
           visible={t >= 9.3 && t < 10.9}
         />
-      </div>
-    </div>
+    </AnimationStage>
   );
 };
 

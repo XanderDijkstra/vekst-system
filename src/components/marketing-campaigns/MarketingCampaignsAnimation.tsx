@@ -1,3 +1,4 @@
+import AnimationStage from "../animation-shared/AnimationStage";
 import IOSDevice from "../animation-shared/IOSDevice";
 import StepPill from "../animation-shared/StepPill";
 import { useLoopTime, fadeWindow } from "../animation-shared/useLoopTime";
@@ -16,9 +17,8 @@ const MarketingCampaignsAnimation = () => {
   const t = useLoopTime();
 
   return (
-    <div className="relative w-full flex justify-center items-start py-8">
-      <div className="relative">
-        <IOSDevice>
+    <AnimationStage>
+      <IOSDevice>
           <div style={{ opacity: fadeWindow(t, 0, 0.3, 2.8, 3.1) }}>
             <CampaignLaunchScreen t={t} />
           </div>
@@ -65,8 +65,7 @@ const MarketingCampaignsAnimation = () => {
           sub="280k kr estimert"
           visible={t >= 9.3 && t < 10.9}
         />
-      </div>
-    </div>
+    </AnimationStage>
   );
 };
 
