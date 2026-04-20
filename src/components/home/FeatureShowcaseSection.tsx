@@ -4,10 +4,11 @@ import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
-import functioneleWebsiteImg from "@/assets/showcases/functionele-website.webp";
-import reviewFunnelImg from "@/assets/showcases/review-funnel.webp";
-import gemisteOproepImg from "@/assets/gemiste-oproep.webp";
-import marketingCampagnesImg from "@/assets/showcases/marketing-campagnes.webp";
+import ReviewFunnelAnimation from "@/components/review-funnel/ReviewFunnelAnimation";
+import MissedCallAnimation from "@/components/missed-call/MissedCallAnimation";
+import LeadFollowUpAnimation from "@/components/lead-followup/LeadFollowUpAnimation";
+import MarketingCampaignsAnimation from "@/components/marketing-campaigns/MarketingCampaignsAnimation";
+import LokalSeoAnimation from "@/components/lokal-seo/LokalSeoAnimation";
 
 /* ───── Feature showcase data ───── */
 interface FeatureItem {
@@ -21,39 +22,39 @@ interface FeatureShowcase {
   features: FeatureItem[];
   demoLink: string;
   imagePosition: "left" | "right";
-  image?: string;
+  Animation?: React.ComponentType;
 }
 
 const showcases: FeatureShowcase[] = [
   {
-    title: "Funksjonell nettside",
+    title: "Automatisk lead-oppfølging",
     subtitle:
-      "Få en nettside som gjør leads om til samtaler direkte via SMS - rett på telefonen din.",
+      "Hver ny forespørsel gir automatisk en SMS innen sekunder. Fra skjema til avtalt samtale - uten manuell oppfølging.",
     features: [
       {
-        title: "Bli funnet på nett",
+        title: "Svar innen 5 minutter - automatisk",
         description:
-          "Hvis en kunde googler firmaet ditt og ikke finner deg, er det en tapt mulighet. Det sørger vi for at ikke skjer.",
+          "Kunder ringer det firmaet som svarer først. Vi sørger for at det alltid er deg, også når du står i stigen.",
       },
       {
-        title: "Vis frem de beste anmeldelsene dine",
+        title: "Skjemaet blir en samtale",
         description:
-          "Vi får alle en mindre god anmeldelse av og til. Det betyr ikke at kundene dine skal se den først.",
+          "Nye leads fra nettsiden får direkte en personlig SMS. Kunden svarer, og praten er i gang.",
       },
       {
-        title: "Mobilvennlig",
+        title: "Avtaler rett i kalenderen",
         description:
-          "87 % besøker nettsider fra mobilen. Vi sørger for at firmaet ditt ser perfekt ut også på mobil.",
+          "Når kunden svarer, foreslår vi et tidspunkt. Bekreftes det, havner avtalen rett i kalenderen din.",
       },
       {
-        title: "Optimalisert for lokale Google-søk",
+        title: "Aldri mer glemte leads",
         description:
-          "Det sier seg selv, men vi sier det likevel: vi sørger for at firmaet ditt blir funnet på Google.",
+          "Ingen post-it-lapper, ingen «jeg ringer i morgen». Alt er dokumentert, og ingenting faller mellom to stoler.",
       },
     ],
-    demoLink: "/tjenester/leadgenerering",
+    demoLink: "/tjenester/lead-oppfolging",
     imagePosition: "left",
-    image: functioneleWebsiteImg,
+    Animation: LeadFollowUpAnimation,
   },
   {
     title: "5-stjerners anmeldelsesfunnel",
@@ -83,7 +84,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/tjenester/anmeldelsesfunnel",
     imagePosition: "right",
-    image: reviewFunnelImg,
+    Animation: ReviewFunnelAnimation,
   },
   {
     title: "Tapt anrop → SMS-melding",
@@ -113,7 +114,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/tjenester/kundekommunikasjon",
     imagePosition: "left",
-    image: gemisteOproepImg,
+    Animation: MissedCallAnimation,
   },
   {
     title: "One-Click markedsføringskampanjer",
@@ -143,7 +144,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/tjenester/markedsforingskampanjer",
     imagePosition: "right",
-    image: marketingCampagnesImg,
+    Animation: MarketingCampaignsAnimation,
   },
   {
     title: "Lokal SEO",
@@ -168,6 +169,7 @@ const showcases: FeatureShowcase[] = [
     ],
     demoLink: "/tjenester/leadgenerering",
     imagePosition: "left",
+    Animation: LokalSeoAnimation,
   },
 ];
 
@@ -198,20 +200,16 @@ const FeatureShowcaseSection = () => {
                 showcase.imagePosition === "right" ? "lg:direction-normal" : ""
               }`}
             >
-              {/* Image / placeholder */}
+              {/* Animation / placeholder */}
               <div
                 className={`${
                   showcase.imagePosition === "right" ? "lg:order-2" : "lg:order-1"
                 }`}
               >
-                <div className="rounded-2xl bg-muted/50 border border-border flex items-center justify-center overflow-hidden">
-                  {showcase.image ? (
-                    <img
-                      src={showcase.image}
-                      alt={showcase.title}
-                      className="w-full h-auto object-contain"
-                    />
-                  ) : (
+                {showcase.Animation ? (
+                  <showcase.Animation />
+                ) : (
+                  <div className="rounded-2xl bg-muted/50 border border-border flex items-center justify-center overflow-hidden">
                     <div className="aspect-[4/3] w-full flex items-center justify-center text-center p-8">
                       <div>
                         <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mx-auto mb-4">
@@ -224,8 +222,8 @@ const FeatureShowcaseSection = () => {
                         </p>
                       </div>
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
 
               {/* Content */}
