@@ -8,8 +8,8 @@ interface AnimationStageProps {
   width?: number;
 }
 
-/** Total horizontal span we reserve: phone + step-pill columns. */
-const DESIGN_SPAN = 722;
+/** Horizontal span we reserve: phone width + breathing room. */
+const DESIGN_SPAN = 434;
 
 const getScale = (viewportWidth: number): number => {
   const usable = Math.max(0, viewportWidth - 32);

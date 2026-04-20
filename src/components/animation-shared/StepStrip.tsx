@@ -20,7 +20,7 @@ const StepStrip = ({ steps, t }: StepStripProps) => {
   const activeIndex = active ? steps.indexOf(active) : -1;
 
   return (
-    <div className="md:hidden pt-1 pb-5 px-4">
+    <div className="pt-1 pb-5 px-4">
       <div className="flex items-center justify-center">
         {steps.map((s, i) => {
           const isActive = activeIndex === i;
@@ -30,8 +30,8 @@ const StepStrip = ({ steps, t }: StepStripProps) => {
               <div
                 className="flex items-center justify-center font-bold text-xs"
                 style={{
-                  width: 26,
-                  height: 26,
+                  width: 28,
+                  height: 28,
                   borderRadius: 8,
                   background: isActive ? "#F59E0B" : isPast ? "#FDE68A" : "#E5E7EB",
                   color: isActive ? "#fff" : isPast ? "#92400E" : "#6B7280",
@@ -42,9 +42,9 @@ const StepStrip = ({ steps, t }: StepStripProps) => {
               </div>
               {i < steps.length - 1 && (
                 <div
-                  className="mx-1.5"
+                  className="mx-2"
                   style={{
-                    width: 20,
+                    width: 28,
                     height: 2,
                     background: isPast ? "#FDE68A" : "#E5E7EB",
                     transition: "background 200ms",
@@ -55,7 +55,7 @@ const StepStrip = ({ steps, t }: StepStripProps) => {
           );
         })}
       </div>
-      <div className="mt-3 text-center min-h-[38px]">
+      <div className="mt-3 text-center min-h-[40px]">
         {active && (
           <>
             <div className="text-sm font-semibold text-foreground leading-tight">
