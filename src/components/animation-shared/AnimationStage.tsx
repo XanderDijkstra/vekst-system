@@ -11,10 +11,13 @@ interface AnimationStageProps {
 /** Horizontal span we reserve: phone width + breathing room. */
 const DESIGN_SPAN = 434;
 
+const MAX_SCALE = 0.75;
+const MIN_SCALE = 0.42;
+
 const getScale = (viewportWidth: number): number => {
   const usable = Math.max(0, viewportWidth - 32);
   const raw = usable / DESIGN_SPAN;
-  return Math.min(1, Math.max(0.42, raw));
+  return Math.min(MAX_SCALE, Math.max(MIN_SCALE, raw));
 };
 
 /**
