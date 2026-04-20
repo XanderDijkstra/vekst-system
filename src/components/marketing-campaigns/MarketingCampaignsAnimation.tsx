@@ -1,6 +1,7 @@
 import AnimationStage from "../animation-shared/AnimationStage";
 import IOSDevice from "../animation-shared/IOSDevice";
 import StepPill from "../animation-shared/StepPill";
+import StepStrip, { type StepStripItem } from "../animation-shared/StepStrip";
 import { useLoopTime, fadeWindow } from "../animation-shared/useLoopTime";
 import {
   CampaignLaunchScreen,
@@ -9,16 +10,22 @@ import {
   CampaignResultsScreen,
 } from "./screens";
 
-/**
- * 11s loop: admin UI with press → circular progress → responses slide
- * in from right → final stats. Step pills: Kunder · Sendt · Svar · Pipeline.
- */
+type Step = StepStripItem & { side: "left" | "right"; topPct: number };
+
+const STEPS: Step[] = [
+  { step: 1, side: "left",  topPct: 18, label: "Kunder",   sub: "247 mottakere",    from: 0.3, to: 3.0 },
+  { step: 2, side: "right", topPct: 28, label: "Sendt",    sub: "Ett klikk",         from: 3.3, to: 5.5 },
+  { step: 3, side: "left",  topPct: 48, label: "Svar",     sub: "Kommer inn",        from: 5.8, to: 9.0 },
+  { step: 4, side: "right", topPct: 62, label: "Pipeline", sub: "280k kr estimert",  from: 9.3, to: 10.9 },
+];
+
 const MarketingCampaignsAnimation = () => {
   const t = useLoopTime();
 
   return (
-    <AnimationStage>
-      <IOSDevice>
+    <>
+      <AnimationStage>
+        <IOSDevice>
           <div style={{ opacity: fadeWindow(t, 0, 0.3, 2.8, 3.1) }}>
             <CampaignLaunchScreen t={t} />
           </div>
@@ -33,39 +40,20 @@ const MarketingCampaignsAnimation = () => {
           </div>
         </IOSDevice>
 
-        <StepPill
-          side="left"
-          topPct={18}
-          step={1}
-          label="Kunder"
-          sub="247 mottakere"
-          visible={t >= 0.3 && t < 3.0}
-        />
-        <StepPill
-          side="right"
-          topPct={28}
-          step={2}
-          label="Sendt"
-          sub="Ett klikk"
-          visible={t >= 3.3 && t < 5.5}
-        />
-        <StepPill
-          side="left"
-          topPct={48}
-          step={3}
-          label="Svar"
-          sub="Kommer inn"
-          visible={t >= 5.8 && t < 9.0}
-        />
-        <StepPill
-          side="right"
-          topPct={62}
-          step={4}
-          label="Pipeline"
-          sub="280k kr estimert"
-          visible={t >= 9.3 && t < 10.9}
-        />
-    </AnimationStage>
+        {STEPS.map((s) => (
+          <StepPill
+            key={s.step}
+            step={s.step}
+            side={s.side}
+            topPct={s.topPct}
+            label={s.label}
+            sub={s.sub}
+            visible={t >= s.from && t < s.to}
+          />
+        ))}
+      </AnimationStage>
+      <StepStrip steps={STEPS} t={t} />
+    </>
   );
 };
 

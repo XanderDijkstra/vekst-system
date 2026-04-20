@@ -1,6 +1,7 @@
 import AnimationStage from "../animation-shared/AnimationStage";
 import IOSDevice from "../animation-shared/IOSDevice";
 import StepPill from "../animation-shared/StepPill";
+import StepStrip, { type StepStripItem } from "../animation-shared/StepStrip";
 import { useLoopTime, fadeWindow } from "../animation-shared/useLoopTime";
 import {
   SMSScreen,
@@ -9,17 +10,22 @@ import {
   SuccessScreen,
 } from "./screens";
 
-/**
- * 11s loop showing SMS → star rating → review compose → published.
- * Step pills float to either side of the phone with timing aligned
- * to screen transitions.
- */
+type Step = StepStripItem & { side: "left" | "right"; topPct: number };
+
+const STEPS: Step[] = [
+  { step: 1, side: "left",  topPct: 18, label: "Sendt",      sub: "SMS med direktelink", from: 0.3, to: 2.5 },
+  { step: 2, side: "right", topPct: 28, label: "Åpnet",      sub: "Kunden vurderer",     from: 2.8, to: 6.8 },
+  { step: 3, side: "left",  topPct: 50, label: "5 stjerner", sub: "Skriver fritt",       from: 7.0, to: 9.5 },
+  { step: 4, side: "right", topPct: 62, label: "Publisert",  sub: "Live på Google",      from: 9.8, to: 10.9 },
+];
+
 const ReviewFunnelAnimation = () => {
   const t = useLoopTime();
 
   return (
-    <AnimationStage>
-      <IOSDevice>
+    <>
+      <AnimationStage>
+        <IOSDevice>
           <div style={{ opacity: fadeWindow(t, 0, 0.3, 2.3, 2.7) }}>
             <SMSScreen t={t} />
           </div>
@@ -34,39 +40,20 @@ const ReviewFunnelAnimation = () => {
           </div>
         </IOSDevice>
 
-        <StepPill
-          side="left"
-          topPct={18}
-          step={1}
-          label="Sendt"
-          sub="SMS med direktelink"
-          visible={t >= 0.3 && t < 2.5}
-        />
-        <StepPill
-          side="right"
-          topPct={28}
-          step={2}
-          label="Åpnet"
-          sub="Kunden vurderer"
-          visible={t >= 2.8 && t < 6.8}
-        />
-        <StepPill
-          side="left"
-          topPct={50}
-          step={3}
-          label="5 stjerner"
-          sub="Skriver fritt"
-          visible={t >= 7.0 && t < 9.5}
-        />
-        <StepPill
-          side="right"
-          topPct={62}
-          step={4}
-          label="Publisert"
-          sub="Live på Google"
-          visible={t >= 9.8 && t < 10.9}
-        />
-    </AnimationStage>
+        {STEPS.map((s) => (
+          <StepPill
+            key={s.step}
+            step={s.step}
+            side={s.side}
+            topPct={s.topPct}
+            label={s.label}
+            sub={s.sub}
+            visible={t >= s.from && t < s.to}
+          />
+        ))}
+      </AnimationStage>
+      <StepStrip steps={STEPS} t={t} />
+    </>
   );
 };
 

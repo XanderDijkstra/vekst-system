@@ -1,6 +1,7 @@
 import AnimationStage from "../animation-shared/AnimationStage";
 import IOSDevice from "../animation-shared/IOSDevice";
 import StepPill from "../animation-shared/StepPill";
+import StepStrip, { type StepStripItem } from "../animation-shared/StepStrip";
 import { useLoopTime, fadeWindow } from "../animation-shared/useLoopTime";
 import {
   GoogleSearchScreen,
@@ -9,17 +10,22 @@ import {
   SeoResultsScreen,
 } from "./screens";
 
-/**
- * 11s loop: Google query typing → SERP map pack with position climb →
- * expanded business profile with #1 badge → SEO results stats.
- * Step pills: Søkeord · Topp 3 · Din bedrift · Resultat.
- */
+type Step = StepStripItem & { side: "left" | "right"; topPct: number };
+
+const STEPS: Step[] = [
+  { step: 1, side: "left",  topPct: 18, label: "Søkeord",     sub: "«rørlegger oslo»",   from: 0.3, to: 3.0 },
+  { step: 2, side: "right", topPct: 28, label: "Topp 3",      sub: "Kartpakken",          from: 3.3, to: 6.3 },
+  { step: 3, side: "left",  topPct: 48, label: "Din bedrift", sub: "#1 topposisjon",     from: 6.8, to: 9.0 },
+  { step: 4, side: "right", topPct: 62, label: "Resultat",    sub: "+38 % henvendelser", from: 9.5, to: 10.9 },
+];
+
 const LokalSeoAnimation = () => {
   const t = useLoopTime();
 
   return (
-    <AnimationStage>
-      <IOSDevice>
+    <>
+      <AnimationStage>
+        <IOSDevice>
           <div style={{ opacity: fadeWindow(t, 0, 0.3, 2.8, 3.1) }}>
             <GoogleSearchScreen t={t} />
           </div>
@@ -34,39 +40,20 @@ const LokalSeoAnimation = () => {
           </div>
         </IOSDevice>
 
-        <StepPill
-          side="left"
-          topPct={18}
-          step={1}
-          label="Søkeord"
-          sub="«rørlegger oslo»"
-          visible={t >= 0.3 && t < 3.0}
-        />
-        <StepPill
-          side="right"
-          topPct={28}
-          step={2}
-          label="Topp 3"
-          sub="Kartpakken"
-          visible={t >= 3.3 && t < 6.3}
-        />
-        <StepPill
-          side="left"
-          topPct={48}
-          step={3}
-          label="Din bedrift"
-          sub="#1 topposisjon"
-          visible={t >= 6.8 && t < 9.0}
-        />
-        <StepPill
-          side="right"
-          topPct={62}
-          step={4}
-          label="Resultat"
-          sub="+38 % henvendelser"
-          visible={t >= 9.5 && t < 10.9}
-        />
-    </AnimationStage>
+        {STEPS.map((s) => (
+          <StepPill
+            key={s.step}
+            step={s.step}
+            side={s.side}
+            topPct={s.topPct}
+            label={s.label}
+            sub={s.sub}
+            visible={t >= s.from && t < s.to}
+          />
+        ))}
+      </AnimationStage>
+      <StepStrip steps={STEPS} t={t} />
+    </>
   );
 };
 

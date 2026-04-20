@@ -33,7 +33,7 @@ const StepPill = ({ side, topPct, step, label, sub, visible }: StepPillProps) =>
 
   return (
     <div
-      className="absolute flex items-center gap-3 pointer-events-none"
+      className="absolute hidden md:flex items-center gap-3 pointer-events-none"
       style={{
         top: `${topPct}%`,
         [isLeft ? "right" : "left"]: "100%",
