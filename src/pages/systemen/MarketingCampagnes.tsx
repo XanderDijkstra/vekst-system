@@ -11,6 +11,7 @@ import {
   HeartHandshake,
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
+import MarketingCampaignsAnimation from "@/components/marketing-campaigns/MarketingCampaignsAnimation";
 
 /* ───── Stats ───── */
 const stats = [
@@ -117,9 +118,9 @@ const MarketingCampagnes = () => {
               transition={{ duration: 0.4, ease: systemEase, delay: 0.15 }}
               className="lg:col-span-3"
             >
-              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Se en kort demo</h2>
-              <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-sm font-medium">Video kommer snart</p>
+              <h2 className="text-xl md:text-2xl font-semibold text-center mb-6">Se hvordan det virker</h2>
+              <div className="rounded-2xl bg-card border border-border">
+                <MarketingCampaignsAnimation />
               </div>
             </motion.div>
           </div>
