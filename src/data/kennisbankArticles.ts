@@ -141,4 +141,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
     ],
   },
+  {
+    slug: "lokal-seo-for-handverkere",
+    title: "Lokal SEO for håndverkere: Steg-for-steg-guide til topp-plassering",
+    description:
+      "Lokal SEO er forskjellen på å eksistere og å bli valgt når noen googler \"rørlegger Oslo\" eller \"maler Bergen\". Her er steg-for-steg-guiden til å komme inn i kartpakken - inkludert feilene du må unngå.",
+    category: "SEO",
+    readTime: "12 min",
+    date: "2026-04-21",
+    sections: [
+      {
+        heading: "Hva lokal SEO egentlig er - og hvorfor det er annerledes",
+        body:
+          "Lokal SEO handler om å rangere for søk der lokalitet er en del av intensjonen: \"elektriker Trondheim\", \"rørlegger Oslo\", \"maler Bergen\", eller bare \"rørlegger i nærheten\". Google svarer på disse søkene med en egen resultatvisning - kartpakken (også kalt Local Pack eller 3-pack) - der tre bedrifter vises med kart, stjerner, avstand og ring-knapp. Det å komme inn blant disse tre er målet. For håndverkere er lokal SEO den desidert viktigste formen for SEO. De aller fleste kundene dine søker lokalt, enten de innser det eller ikke. En rørlegger, flislegger eller takleggerfirma konkurrerer ikke mot nasjonale aktører; du konkurrerer mot ti-femti andre i samme område. Det er en vinnbar konkurranse hvis du forstår hvordan Google ranker.",
+      },
+      {
+        heading: "De tre rangeringsfaktorene Google bryr seg om",
+        body:
+          "Google dokumenterer åpent at lokal rangering avhenger av tre faktorer: relevans (hvor godt profilen din matcher det som ble søkt), avstand (hvor nær søkeren du er) og autoritet (hvor etablert og anerkjent bedriften er). Av disse tre er autoritet det du kan påvirke mest. Relevans er et resultat av hvor nøye profilen og nettsiden din er utfylt. Avstand bestemmes av søkerens lokasjon og ditt arbeidsområde. Men autoritet - målt i anmeldelser, innhold, nettside-kvalitet og backlinks - er det du bygger over tid. En tømrer eller elektriker med 150 anmeldelser og en solid nettside slår konkurrenten som er nærmere, men har 12 anmeldelser og tom profil. Nesten hver gang.",
+      },
+      {
+        heading: "Grunnmuren: Google Bedriftsprofil satt opp riktig",
+        body:
+          "Lokal SEO starter og slutter med Google Bedriftsprofil. Ingen teknikk på nettsiden, ingen innholdsstrategi og ingen backlinks kompenserer for en halvt utfylt profil. Verifiser riktig første gang, velg riktig primærkategori, list opp alle tjenester eksplisitt, fyll på med minst 20-30 bilder, og hold profilen aktiv med ukentlige innlegg. En egen 10-punkts sjekkliste for Google Bedriftsprofil går gjennom alle detaljene. Målet er å signalisere to ting til Google: dette er en reell, aktiv bedrift, og dette er bedriften som best matcher søket. Profiler uten bilder, med 2 tjenester oppført og siste aktivitet for 14 måneder siden, blir rangert bak.",
+      },
+      {
+        heading: "Egen nettside med by-sider og tjeneste-sider",
+        body:
+          "Google rangerer bedre bedrifter som har tydelig informasjon både i profilen og på en nettside. Forsiden alene er ikke nok. Det du ønsker er en struktur med egne sider for hver av de viktigste byene eller regionene du jobber i (\"Rørlegger Oslo\", \"Rørlegger Bærum\", \"Rørlegger Drammen\"), og egne sider for hver hovedtjeneste (\"Baderom-oppussing\", \"Oppvarming\", \"Akutt-rørlegger\"). Hver side skal være unik, skrevet for mennesker, med konkrete eksempler og lokalt innhold - ikke kopipasta. For malere, elektrikere, flisleggere og takleggere gir denne strukturen 2-4 ganger flere landingssider Google kan rangere, og hver side tar en spesifikk søkeintensjon. Ja, det er arbeid. Ja, det virker.",
+      },
+      {
+        heading: "NAP-konsistens og katalog-oppføringer",
+        body:
+          "NAP-konsistens betyr at bedriftens navn, adresse og telefon er identisk overalt på nett. Google sammenligner disse signalene mellom Google Bedriftsprofil, Proff.no, 1881.no, Gule Sider, Finn.no, Brønnøysundregistrene og nettsiden din. Uoverensstemmelser reduserer tilliten Google har til at bedriften er ekte. Første skritt er å rydde opp: gjør navn, adresse og telefon identiske i alle kilder. Deretter: oppdater alle kilder når noe endres (du flytter, får nytt telefonnummer, endrer bedriftsform). En entreprenør eller rørlegger som flytter til nytt kontor og glemmer å oppdatere Gule Sider, kan se et målbart fall i lokal rangering innen et par uker.",
+      },
+      {
+        heading: "Anmeldelser - kvalitet, kvantitet og friskhet",
+        body:
+          "Google vekter tre ting: antall anmeldelser, gjennomsnittlig stjernescore og hvor nye anmeldelsene er. Alle tre må bygges systematisk. Antall: du trenger flere enn konkurrenten. Hvis topp-3 i ditt område har 80, 65 og 40 anmeldelser, er ditt mål 100+. Score: hold deg over 4,7 i snitt. Under 4,5 blir du sortert ned. Friskhet: gamle anmeldelser hjelper ikke like mye som nye. En bedrift med 200 anmeldelser fra 2019-2023 og null siden blir forbi-rangert av en bedrift med 60 anmeldelser de siste 12 månedene. Den eneste måten å få dette på skala er systematisk oppfølging: etter hver fullført jobb sendes SMS med direktelink, med vennlige påminnelser over 2-3 uker. En god anmeldelsesfunnel flytter konverteringen fra 5-10 % til 30-40 %.",
+      },
+      {
+        heading: "Backlinks fra lokale nettsider",
+        body:
+          "Backlinks er lenker fra andre nettsider til din. For lokal SEO er lokale backlinks det som teller - ikke landsdekkende. Målrettet innsats: få lenker fra kommunens håndverkerregister, lokale fagforeninger, lokale bransjeblader, nabohjemmesider du samarbeider med, underleverandører du jobber med (en maler kan linke til en flislegger og omvendt), leverandører (Würth, Maxbo, Optimera) hvis de har case-studies på kunder. Hvert lenke-signal vurderes i lokal kontekst: en lenke fra Maxbo Oslo er mer verdt for en Oslo-basert tømrer enn en lenke fra en random utenlandsk blogg. Dette er langsiktig arbeid - regn med 3-6 måneder for å bygge 10-15 gode lokale backlinks. Men det er varig.",
+      },
+      {
+        heading: "Teknisk SEO: sidehastighet, mobilvennlighet og schema markup",
+        body:
+          "Google prioriterer nettsider som laster raskt og ser bra ut på mobil. 87 % av håndverker-søk kommer fra mobilen, så en nettside som kræsjer eller tar 8 sekunder å laste, taper leads uansett hvor gode rangeringene er. Målet er under 2,5 sekunders Largest Contentful Paint, test med Google PageSpeed Insights. Responsivt design er påkrevd - ikke forhandlingssak. Schema markup er et lag med strukturert data (JSON-LD) som beskriver bedriften din for Google: LocalBusiness-schema med navn, adresse, telefon, åpningstider og gjennomsnittlig stjernescore. Det gir rike søkeresultater - stjerner, åpningstider og telefonnummer vises direkte i trefflisten. For håndverkere er dette et enkelt, engangs-grep med vedvarende effekt.",
+      },
+      {
+        heading: "Hvor lang tid tar det - og vanlige feil å unngå",
+        body:
+          "Forvent 2-4 uker før de første endringene vises i Google Bedriftsprofil, 4-8 uker før du ser bevegelse i kartpakken, og 3-6 måneder før du rangerer stabilt på toppen for de viktigste søkene. SEO er ikke raskt, men det er varig. Vanlige feil som ødelegger arbeidet: å legge til falske kategorier for å dekke flere søk (Google straffer det), keyword-stuffing i bedriftsnavnet (\"Billigste rørlegger Oslo 24/7 AS\"), falske anmeldelser fra venner (Google filtrerer dem og mistenksomhet sprer seg til ekte profil), hyppige adresseendringer (signaliserer ustabil virksomhet), kopipasta innhold mellom by-sidene på nettsiden. Hver av disse kan sette deg 6 måneder tilbake. Gjør det riktig fra start, bygg jevnt, og du vil være i topp-3 i ditt område innen et halvt år.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+    ],
+  },
 ];
