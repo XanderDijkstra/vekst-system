@@ -24,6 +24,13 @@ const comparisons = [
       "Hva koster kreditt-systemet egentlig, per lead og per vunnet jobb? Nøktern gjennomgang av Mittanbud-prisene med regnestykkene.",
     tag: "Priser og kostnader",
   },
+  {
+    slug: "mittanbud-vs-anbudstorget",
+    title: "Mittanbud vs Anbudstorget",
+    description:
+      "De to største lead-plattformene for håndverkere side om side. Leadsvolum, priser, konkurranse per lead og hvem som passer best hvor.",
+    tag: "Platform mot platform",
+  },
 ];
 
 const schema = {
