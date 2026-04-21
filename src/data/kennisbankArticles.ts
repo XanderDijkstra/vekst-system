@@ -204,4 +204,62 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
     ],
   },
+  {
+    slug: "fem-stjerners-google-anmeldelser-handverker",
+    title: "Slik får du flere 5-stjerners Google-anmeldelser som håndverker",
+    description:
+      "Anmeldelser er det mest undervurderte våpenet en håndverker har. Her er systemet som tar deg fra 12 til 120 Google-anmeldelser - uten å plage kundene, og uten å bryte Googles retningslinjer.",
+    category: "Anmeldelser",
+    readTime: "9 min",
+    date: "2026-04-21",
+    sections: [
+      {
+        heading: "Hvorfor anmeldelser avgjør hvem kunden ringer",
+        body:
+          "To rørleggere står rett ved siden av hverandre i Google Maps. Den ene har 8 anmeldelser, den andre har 94. 97 % av kundene velger den med flest. Dette er ikke nyheter - men de fleste håndverkere undervurderer hvor stor forskjellen faktisk er. Anmeldelser er det eneste signalet som fungerer som både rangering (Google vekter antall og snitt i lokal SEO) og konvertering (kunden velger tryggere). Ingen annen markedsføringsinvestering gir begge deler samtidig. For en etablert maler, elektriker eller flislegger er det å bygge fra 15 til 150 anmeldelser ofte det enkeltgrepet som utløser mest vekst - mer enn ny nettside, mer enn Google Ads.",
+      },
+      {
+        heading: "Hvorfor fornøyde kunder aldri legger igjen anmeldelse spontant",
+        body:
+          "Det er ikke fordi de er misfornøyde. Det er fordi livet går videre. Kunden sto midt i en varmepumpe-installasjon, en bad-oppussing, en tak-reparasjon - det var en stor sak da. Tre dager etter at jobben er ferdig er det neste prosjekt på agendaen. Anmeldelse? De har glemt hele greia. Misfornøyde kunder, derimot, har en sterk trang til å klage. De googler deg opp samme kveld og skriver en knallhard 1-stjerners. Resultatet: profilene til mange solide håndverkere ser dårligere ut på nett enn de fortjener. Løsningen er ikke å håpe at flere kunder husker å anmelde spontant. Løsningen er å be systematisk.",
+      },
+      {
+        heading: "De fire beste tidspunktene å be om anmeldelse",
+        body:
+          "Tidspunktet avgjør konverteringen. Det første beste er umiddelbart etter at jobben er signert ferdig - når kunden fortsatt har jobben friskt i minnet og er glad. Det andre beste er 24 timer etter, der den første eufori er over, men minnet er fortsatt klart. Det tredje er 7 dager etter, som påminnelse for dem som ikke svarte første gang. Det fjerde er 21 dager etter, siste vennlig påminnelse. Studier fra håndverkerbransjen viser at 5-10 % svarer på første spørring, 15-25 % svarer når det sendes tre påminnelser systematisk. Dette er forskjellen på 10 og 40 anmeldelser i året på samme antall jobber.",
+      },
+      {
+        heading: "SMS slår e-post - og telefon slår begge",
+        body:
+          "SMS har 98 % åpningsrate mot e-postens 20 %, og 45 % svarprosent mot 6 %. Kunder leser SMS innen 3 minutter. For en håndverker som vil samle anmeldelser er valget enkelt: send SMS, ikke e-post. Enda bedre er det å be om anmeldelsen mens du fortsatt er på stedet: \"Hvis du er fornøyd med jobben, hadde det betydd mye om du la igjen en anmeldelse. Jeg sender deg link per SMS, det tar 30 sekunder.\" Kunden sier nesten alltid ja. Du sender linken før du går. Konverteringen når dette gjøres muntlig først, er 60-70 % - tre-fem ganger høyere enn kald SMS alene.",
+      },
+      {
+        heading: "Slik skriver du spørringen som faktisk konverterer",
+        body:
+          "Dårlig spørring: \"Hei, legg gjerne igjen en anmeldelse på Google. Takk!\". Bra spørring: \"Hei [kundens navn], takk for tilliten med bad-oppussingen. Hvis du har 30 sekunder, betyr det mye for en liten bedrift som oss om du vil legge igjen en anmeldelse på Google - link her: [direktelink]. Tusen takk, [ditt navn]\". Forskjellen: personalisert, begrunnet, kort, og med direktelink som fjerner all friksjon. Direktelink er kritisk - du skal peke direkte til anmeldelsesvinduet, ikke til profilen der kunden må klikke videre. Google har en egen URL for dette i Bedriftsprofilen (https://g.page/r/... stilen). Bruk den.",
+      },
+      {
+        heading: "Beskytt deg mot dårlige anmeldelser - uten å jukse",
+        body:
+          "Du kan ikke filtrere bort dårlige anmeldelser før de publiseres (det bryter Googles retningslinjer). Men du kan bygge inn et skritt som fanger opp utilfredse kunder før de rekker til Google. Etter jobb spør først: \"Hvordan var opplevelsen, på en skala fra 1-10?\" - via SMS eller kort skjema. Hvis svaret er 9 eller 10, peker neste skritt til Google-anmeldelsen. Hvis svaret er 8 eller lavere, peker det til et internt tilbakemeldingsskjema: \"Takk for tilbakemeldingen. Hva kunne vært bedre?\" Kunden får utløp for frustrasjonen din vei, du får sjansen til å rette opp, og du beskytter profilen. Dette er lovlig og god kundeservice - ikke manipulasjon. En anmeldelsesfunnel gjør dette automatisk, fra første SMS til siste påminnelse.",
+      },
+      {
+        heading: "Svar på alle anmeldelser - også de dårlige",
+        body:
+          "Google vekter aktive profiler høyere. Svar på hver eneste anmeldelse innen 48 timer. Gode anmeldelser: kort, personlig takk med navn. \"Tusen takk Kari, det var en fornøyelse å jobbe med deg på kjøkkenprosjektet. Hilsen Lars.\" 15 sekunder. Dårlige anmeldelser: profesjonelt, ikke defensivt. \"Takk for tilbakemeldingen, det er leit å høre at du ikke ble fornøyd. Vi tar kritikken på alvor og ville gjerne løst dette - kan du ringe meg på [nummer] slik at vi finner en løsning?\" Ikke argumenter i kommentarfeltet. Fremtidige kunder leser disse svarene og vurderer bedriften ut fra hvordan du håndterer kritikk - ikke ut fra at kritikken finnes.",
+      },
+      {
+        heading: "Hva er et realistisk mål? Og hvor lang tid tar det?",
+        body:
+          "For en maler, taktekker eller flislegger med 40-60 jobber i året kan et realistisk mål være 100 nye anmeldelser innen 12 måneder med systematisk oppfølging. Uten system kommer du på 10-15. Med én SMS og én påminnelse: 30-40. Med full funnel (SMS umiddelbart, 7-dagers påminnelse, 21-dagers påminnelse, tilbakemeldingsfilter): 60-100+. Dette er ikke teori - det er tall fra håndverkerbedrifter som har implementert det. Dra sammen med Google-posisjoneringen, betyr 100 nye anmeldelser over et år ofte en dobling i forespørsler fra Google Maps. Det er den enkelte beste SEO-investeringen en etablert håndverker kan gjøre.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Anmeldelsesfunnel-tjeneste", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsessystem" },
+    ],
+  },
 ];
