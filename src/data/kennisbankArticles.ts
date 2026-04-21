@@ -262,4 +262,62 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsessystem" },
     ],
   },
+  {
+    slug: "timepris-for-handverkere-2026",
+    title: "Timepris for håndverkere 2026: Slik setter du riktig sats (med regnestykket)",
+    description:
+      "Hvor mye skal du ta i timen som rørlegger, elektriker, maler eller tømrer i 2026? En gjennomgang av hva markedet faktisk tar, hva kostnadene dine krever, og hvordan du lander på en timepris som både dekker drift og gir en solid margin.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-04-21",
+    sections: [
+      {
+        heading: "Hvorfor timepris er det vanskeligste regnestykket en håndverker gjør",
+        body:
+          "De fleste håndverkere i Norge tar en timepris som ikke er utregnet - den er arvet. \"Jeg tok 850 kr da jeg startet i 2019, så nå er det vel 950.\" Resultatet er at halvparten av bransjen ligger for lavt, ikke dekker sine faktiske kostnader, og jobber seg nesten til lønnsom virksomhet uten å forstå hvorfor. En rørlegger som kjører 1500 fakturerbare timer i året på 950 kr, har en omsetning på 1,4 millioner - men kan lett stå med 200 000 i overskudd når driftskostnader, sosiale utgifter, biler, verktøy og forsikringer er regnet inn. Riktig timepris er det som skiller bedrifter som vokser fra bedrifter som bare overlever.",
+      },
+      {
+        heading: "Hva tar norske håndverkere faktisk i timen i 2026?",
+        body:
+          "Spennene varierer mye etter fag, region og om du er enmannsbedrift eller har ansatte. For enmannsbedrifter i 2026: malere ligger 800-1 100 kr, snekkere og tømrere 850-1 200 kr, elektrikere 900-1 300 kr, rørleggere 950-1 400 kr, spesialiserte flisleggere 900-1 200 kr, taktekkere 900-1 400 kr. Oslo, Bergen og Stavanger ligger i snitt 15-25 % over distriktene. For firmaer med ansatte legges det ofte til 100-200 kr per time for administrasjon og overhead. Disse tallene er ikke veiledende priser - de er det markedet aksepterer. Å ligge under snittet er ikke et konkurransefortrinn; det er ofte et tegn på at du ikke har regnet ut hva du faktisk trenger.",
+      },
+      {
+        heading: "De faktiske kostnadene som ligger bak én fakturerbar time",
+        body:
+          "Dette er der regnestykket blir skremmende første gang du gjør det. For en enmannsbedrift som fakturerer 1 400 timer i året (god drift): bil og drivstoff 80-150 000 kr, verktøy og utstyr 30-80 000 kr, forsikringer (yrkesskade, ansvar, bilforsikring) 25-40 000 kr, regnskap og fakturering 15-25 000 kr, markedsføring 20-60 000 kr, mobil og IT 10-20 000 kr, kurs og sertifikater 5-20 000 kr. Totalt: 185-395 000 kr bare i drift, før du tar ut lønn til deg selv. Med en personalkostnad-kalkulator kan du regne ut hva dette betyr per time - og det er ofte 200-400 kr bare for å dekke drift. Skal du ta ut 700 000 i nettolønn, trenger du ytterligere 500-600 kr per time på toppen.",
+      },
+      {
+        heading: "Fakturerbare timer er færre enn du tror",
+        body:
+          "En fulltids-håndverker jobber rundt 1 700 timer i året etter ferie og helligdager. Men ikke alle timene er fakturerbare. Reisetid mellom jobber, befaringer, innkjøp hos Maxbo eller Würth, tilbudsskriving, administrasjon og oppfølging spiser typisk 20-35 % av arbeidstiden. Det betyr at det du har igjen til å fakturere er 1 100-1 400 timer i året. Mange håndverkere regner feil her og bruker 1 700 timer i regnestykket - og lurer på hvorfor pengene ikke stemmer. Den viktigste øvelsen er å logge faktiske fakturerbare timer over 4 uker og regne ut forholdet. Det gir et realistisk antall å dele totalkostnader på.",
+      },
+      {
+        heading: "Formelen som gir riktig timepris",
+        body:
+          "Riktig timepris = (nettolønn ønsket + sosiale kostnader + driftskostnader + ønsket overskudd) / antall fakturerbare timer. For en enmannsbedrift som ønsker 650 000 i nettolønn, med 180 000 i skatt, 25 000 i pensjon, 350 000 i driftskostnader og 100 000 i overskudd (buffer for dårlige tider, investeringer): totalt 1 305 000 kr. Delt på 1 200 fakturerbare timer gir det 1 087 kr per time. Denne prisen har ingenting å gjøre med hva konkurrenten tar - den er basert på dine faktiske kostnader og mål. Bruk timepris-kalkulatoren vår for å legge inn dine egne tall og se hva din timepris burde være. Mange er overrasket over hvor mye de faktisk må ta.",
+      },
+      {
+        heading: "Er du redd for å ta en høyere pris? Her er hvorfor du ikke bør være",
+        body:
+          "Den største frykten er: \"Mister jeg ikke jobben hvis jeg tar 200 kr mer i timen?\". Svaret er: noen jobber ja, mange ikke. Kunder med lavest priskonkurranse er også de kundene som klager mest, betaler senest, og krever flest tilleggsjobber gratis. Å heve timeprisen med 15-20 % filtrerer ut de dårligste kundene og beholder de beste. De beste kundene ser på timepris som et kvalitetssignal - en rørlegger som tar 1 400 kr virker tryggere enn en som tar 750. Kombiner riktig timepris med tydelige tilbud, profesjonell nettside og gode anmeldelser, så aksepterer kundene prisen uten å blunke. Er du redd for volumsvikt: regn ut hvor mange færre jobber du kan ta på høyere pris og fortsatt tjene mer totalt - svaret er ofte \"de fleste\".",
+      },
+      {
+        heading: "Når du bør vurdere prosjektpris i stedet for timepris",
+        body:
+          "For mange typer jobber - baderomsrenovering, kjøkkeninstallasjon, solcellepanelmontering, takutskifting - er fastpris eller prosjektpris bedre enn timepris. Fordelene er at du kan ta en margin for effektivitet: blir du 20 % raskere med erfaring, beholder du differansen. Kunden får en forutsigbar totalsum og er mer komfortabel med å signere. Bruk prosjektmargin-kalkulator for å regne ut riktig pris basert på estimerte timer, materialer, overhead og ønsket margin. Regelen er: timepris for tett-utregnede småjobber (reparasjoner, servicetimer), prosjektpris for større jobber der du kan planlegge og skalere. De fleste etablerte håndverkere tjener bedre på å flytte 60-70 % av omsetningen sin fra time- til prosjektbasert fakturering.",
+      },
+      {
+        heading: "Justering: hvor ofte og hvor mye",
+        body:
+          "Prisen bør justeres minst én gang i året. Lønnsoppgjør, materialkostnader og drivstoffpriser stiger jevnt - står prisen stille, taper du faktisk penger. En god regel er januar-justering: ny timepris fra første år-dag, annonsert i november-desember til eksisterende kunder. Øk 3-6 % årlig i normalår, mer hvis inflasjonen er høy. Dette tåler markedet, og de fleste kunder forventer det. Den store feilen håndverkere gjør er å holde prisen stille i 3-4 år og så hoppe 25 % - da protesterer kundene. Årlige små justeringer er usynlige.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Timepris-kalkulator", href: "/verktoy/timepris-kalkulator" },
+      { label: "Personalkostnad-kalkulator", href: "/verktoy/personalkostnad-kalkulator" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+    ],
+  },
 ];
