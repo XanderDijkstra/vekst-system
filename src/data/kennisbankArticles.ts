@@ -68,4 +68,77 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Se prisene våre", href: "/priser" },
     ],
   },
+  {
+    slug: "google-bedriftsprofil-handverker-sjekkliste",
+    title: "Google Bedriftsprofil for håndverkere: 10-punkts sjekkliste som virker",
+    description:
+      "Google Bedriftsprofil er gratis og det viktigste lokale SEO-verktøyet en håndverker har. Her er en praktisk 10-punkts sjekkliste som tar profilen fra tom til topp-3 i kartpakken - med tiltak du kan gjøre denne uka.",
+    category: "SEO",
+    readTime: "10 min",
+    date: "2026-04-21",
+    sections: [
+      {
+        heading: "Hvorfor Google Bedriftsprofil er det viktigste verktøyet du ikke bruker",
+        body:
+          "Google Bedriftsprofil er gratis, tar 30 minutter å opprette og er det eneste synlighetsverktøyet som gir målbar effekt samme uke. Likevel står de fleste håndverkerprofiler halvt utfylt: ingen bilder, en kategori, tilfeldig adresse og null anmeldelser. Resultatet er at rørleggere, elektrikere, malere og takleggere med en velholdt profil tar alle de lokale søkene mens andre ikke en gang vises. Denne sjekklisten er skrevet for håndverkere som vil rette dette uten å kaste bort tid. Ti punkter, kan gjøres løpende over en måned, og hver enkelt gir målbar effekt på hvor du rangerer i Google Maps og lokale søk.",
+      },
+      {
+        heading: "1. Verifiser profilen - og gjør det riktig første gang",
+        body:
+          "Uten verifikasjon vises profilen ikke i Google Maps eller lokale søk. Den vanlige metoden er verifiseringskort som Google sender i posten til adressen din - typisk 5-14 dager. Noen håndverkerkategorier kan verifisere per telefon eller video. Viktig: bruk en adresse Google kan tilordne deg, og ikke endre den rett etter verifisering (Google mistenker svindel). Hvis du er mobil håndverker uten fast kontor, ikke bruk hjemmeadressen synlig - sett opp \"service-area business\" der du angir arbeidsområdet i stedet. Da vises du i søk i området, men adressen din er skjult for kunden.",
+      },
+      {
+        heading: "2. Bedriftsnavn og kategori - Google ser på begge",
+        body:
+          "Bedriftsnavnet skal være det juridiske navnet, ikke en keyword-stuffet variant. \"Hansen Rørlegger AS\" går bra; \"Billigste rørlegger Oslo 24/7\" blir straffet og kan få profilen stengt. Primærkategorien er det viktigste SEO-valget i hele profilen - velg den kategorien som matcher kjernevirksomheten din best. Sekundærkategoriene dekker underkategoriene du også tar. En rørlegger kan ha \"Plumber\" som primær og \"Drain cleaner\", \"Water softening\", \"Bathroom remodeler\" som sekundær. Tømrere, elektrikere, malere og flisleggere har tilsvarende underkategorier - bruk alle som faktisk beskriver det du gjør. Ikke legg til kategorier du ikke leverer; Google kan bruke dette til å rangere deg ned ved søk som havner feil.",
+      },
+      {
+        heading: "3. Adresse, arbeidsområde og NAP-konsistens",
+        body:
+          "NAP-konsistens betyr at navn, adresse og telefon skal være identisk på Google Bedriftsprofil, nettsiden din, Proff.no, 1881.no, Gule Sider og Brønnøysundregistrene. Google sammenligner disse signalene, og uoverensstemmelser gjør at du får mindre tillit. Har du byttet adresse, må alle kildene oppdateres - ikke bare Google. Tjenesteområdet (service area) er kilometerradiusen eller poststedene du jobber i. Vær realistisk: en maler i Oslo som velger \"hele Norge\" blir ikke sett av noen. 50 km radius eller spesifikke poststeder er oftest riktig. Arbeidsområdet har også direkte effekt på hvilke søk du vises for.",
+      },
+      {
+        heading: "4. Tjenester - legg dem inn eksplisitt, én etter én",
+        body:
+          "Seksjonen \"Tjenester\" (Services) er der du lister hva du faktisk gjør. Dette er en av de mest underutfylte delene hos håndverkere - de fleste har 2-3 tjenester oppført, mens konkurrenten har 20-30. Legg inn hver tjeneste som en egen linje med navn, pris (om aktuelt), og kort beskrivelse. For en elektriker er det ikke én tjeneste \"Elektrikerarbeid\" - det er 25 forskjellige: installasjon av varmepumpe, sikringsskap-oppgradering, utelys, smarthus, EV-lader, osv. Hver tjeneste du lister, kan vises som treff i relevante Google-søk. Dette er rent og ensidig fordel.",
+      },
+      {
+        heading: "5. Bilder - kvantitet slår kvalitet (nesten)",
+        body:
+          "Bedrifter med 30+ bilder i profilen får i snitt 2-3 ganger flere klikk enn bedrifter med 5 eller færre. Bildene trenger ikke være profesjonelle - telefonbilder fra byggeplassen fungerer fint. Last opp jevnt, ikke alle på én gang: 2-3 bilder per uke over flere måneder signaliserer til Google at profilen er aktiv. Inkluder: logo, cover-bilde, bilder av utførte jobber (før/etter), bilete av teamet ditt, bilder av bilen med logo, bilder av verkstedet/kontoret. For taktekkere, murere, flisleggere og malere er før/etter-bilder særlig verdifulle - de konverterer folk som allerede har vurdert deg.",
+      },
+      {
+        heading: "6. Anmeldelser - og hvordan du får dem systematisk",
+        body:
+          "Antall og snitt er de to faktorene Google ser på. 47 anmeldelser med 4,9 i snitt er et helt annet signal enn 7 anmeldelser med 4,9. Du trenger flere anmeldelser enn konkurrenten - og de må være nye (anmeldelser fra 2021 veier mindre enn fra 2026). Den eneste skalerbare måten er å be systematisk etter hver jobb. Send en direktelink til profilen via SMS samme dag som jobben avsluttes; konverteringen er mye høyere innen 24 timer enn etter en uke. En anmeldelsesfunnel automatiserer dette og sender venlige påminnelser over 2-3 uker. Svar på alle anmeldelser - både gode og dårlige. Det viser at du er aktiv og tar kundene på alvor.",
+      },
+      {
+        heading: "7. Innlegg og oppdateringer - hver uke, kort og enkelt",
+        body:
+          "Google Posts (innlegg) er småoppdateringer som vises på profilen - sesongtilbud, nye prosjektbilder, varsel om hellighetssted, informasjon om vakt. Google liker aktive profiler og rangerer dem høyere. Målet er ett innlegg per uke, ikke mer. Det trenger ikke være langt: et før/etter-bilde fra jobben i dag, en 2-setningers tekst, en handlingsoppfordring. Enkelte håndverkere rydder dette opp på fredag ettermiddag: tre bilder fra ukas jobber, post fra telefonen, ferdig på 10 minutter.",
+      },
+      {
+        heading: "8. Spørsmål og svar (Google Q&A) - svar selv før andre gjør det",
+        body:
+          "Google Bedriftsprofil har en egen \"Spørsmål\"-seksjon der hvem som helst kan stille spørsmål om bedriften din. Svaret fra bedriftseieren veier tyngst. Forhåndsfyll de vanligste spørsmålene selv: \"Kommer dere om kvelden?\", \"Tar dere imot Vipps?\", \"Har dere fagbrev?\", \"Garanti på arbeidet?\". Gjør det som bedriftseier, logget inn på profilen - da får svaret det grønne \"Eier\"-merket. Dette tar 15 minutter engangs, og hindrer at tilfeldige folk svarer feil på vegne av bedriften din.",
+      },
+      {
+        heading: "9. Koble til nettsiden riktig",
+        body:
+          "Lenken fra Google Bedriftsprofil til nettsiden skal peke på forsiden - ikke en tilfeldig underside. Forsiden må ha tydelig kontaktinfo, telefon øverst, og gjerne schema markup som beskriver bedriften strukturert for Google. Se på forsiden din som den gjør som kommer direkte fra Google-profilen: hva ser de, hvor lett er det å ringe, hvor tydelig er det hva du tilbyr? Hvis nettsiden er tom eller tregt lastet, taper du leads rett etter at profilen fikk dem interessert. Sidehastighet og mobilvennlighet på forsiden er en direkte forlengelse av Google Bedriftsprofil.",
+      },
+      {
+        heading: "10. Mål hva som virker i Insights",
+        body:
+          "Google Bedriftsprofil har en egen \"Insights\"-fane (kalles \"Performance\" i nyere grensesnitt) som viser hvor mange søk du vises for, hvor mange som ringer direkte, og hvor mange som klikker seg videre til nettsiden. Sjekk dette én gang i uka de første tre månedene. Trendene forteller deg hva som virker: flere søkevisninger betyr at kategoriene og tjenestene dine matcher flere søk, flere klikk til nettsiden betyr at profilen er interessant nok, flere telefonklikk betyr at anmeldelsene dine bygger tillit. Uten måling er alt du gjør gjetting.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Anmeldelsesfunnel-tjeneste", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+    ],
+  },
 ];
