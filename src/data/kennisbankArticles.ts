@@ -320,4 +320,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
     ],
   },
+  {
+    slug: "handverker-nettside-som-konverterer",
+    title: "Slik bygger du en håndverker-nettside som faktisk konverterer",
+    description:
+      "87 % av besøkene på håndverker-nettsider kommer fra mobil. De fleste konverterer aldri fordi nettsiden ble designet for å se pen ut, ikke for å gjøre besøk til forespørsler. Her er 9 grep som tar konverteringsraten fra 1 % til 5-10 %.",
+    category: "Nettside",
+    readTime: "11 min",
+    date: "2026-04-21",
+    sections: [
+      {
+        heading: "Hvorfor de fleste håndverker-nettsider er pene, men tomme",
+        body:
+          "En rørlegger, elektriker eller maler betaler 30 000-80 000 kr for en nettside fra et byrå. Den ser bra ut: fin hero-bilde, stilige fonter, karusell med referanser. 6 måneder senere har nettsiden gitt kanskje 3 forespørsler totalt. Hva gikk galt? Byrået leverte en visuell nettside, ikke en konverteringsmaskin. De to er forskjellige produkter. En konverterende nettside er bygget rundt én ting: hva skal besøkeren gjøre i løpet av første 15 sekunder? Svaret er nesten alltid \"be om en befaring\" eller \"ringe oss\". Hele designet skal peke mot det ene. I denne artikkelen går vi gjennom 9 konkrete grep som gjør forskjellen.",
+      },
+      {
+        heading: "1. Telefonnummeret synlig overalt, klikkbart på mobil",
+        body:
+          "87 % av besøkene kommer fra mobil. Den viktigste handlingen på mobilen er å ringe. Telefonnummeret skal stå synlig i topp-navigasjonen, tydelig i hero-seksjonen, og gjentatt i bunn og i hver CTA-seksjon. Det skal være klikkbart (bruk tel:+47xxxxxxxx i href), slik at et trykk direkte åpner telefonapp. Mange håndverker-nettsider har telefonnummeret gjemt bak et kontaktskjema eller i bunnteksten med liten font. Bare det å flytte nummeret til header-menyen og gjøre det klikkbart øker telefonklikk fra nettsiden med 30-50 % på mobil.",
+      },
+      {
+        heading: "2. Hero-seksjon med tydelig verdi - ikke generisk bildemateriale",
+        body:
+          "De første 600 pikslene på skjermen avgjør om besøkeren blir værende eller trykker tilbake. Det som virker: en kort setning som beskriver nøyaktig hva du gjør, for hvem og hvor (\"Rørleggerarbeid i Oslo - akutt og planlagt\"). En sekundær setning som tar opp en smertepunkt (\"Stikker i gang innen 24 timer, faste priser på små jobber\"). Én tydelig CTA-knapp (\"Ring oss nå\" eller \"Be om befaring\"). Det som ikke virker: \"Velkommen til oss\" over et stock-bilde. Velkommen-hilsen er dødtid. Besøkeren vet at de er kommet - de vil vite hvorfor de skal bli.",
+      },
+      {
+        heading: "3. Sosiale bevis rett under hero - stjerner, anmeldelser, logoer",
+        body:
+          "Trust-signaler må vises umiddelbart. Direkte under hero bør det stå \"4,9 av 5 stjerner · 127 Google-anmeldelser\", gjerne med de faktiske stjernene visuelt, og 2-3 korte sitatene fra anmeldelser. Hvis du har jobbet for kjente kunder (sameie, bedrifter, kommunen) vis logoene deres. Dette er social proof - beviset som overbeviser. Det er særlig kraftig for håndverkere fordi tillit er den største kjøpsbarrieren. Kombiner dette med en lenke til hele anmeldelses-samlingen og du har fjernet den vanligste innvendingen kunden har.",
+      },
+      {
+        heading: "4. Tydelig tjenesteoversikt - ikke gjemt i navigasjonen",
+        body:
+          "Besøkeren skal kunne se hva du tilbyr uten å navigere til en underside. Lag en tjenesteoversikt på forsiden med 4-8 tydelige kort: \"Bad-oppussing\", \"Kjøkkenarbeid\", \"Akutt-rørlegger\", \"Service og vedlikehold\" osv. Hvert kort har ikon, tittel, 1-2 setningers beskrivelse, og lenke til egen tjenesteside. Dette tjener to formål: forteller besøkeren at du er en komplett leverandør (ikke bare én ting), og gir Google flere sider å rangere (hver tjenesteside er en SEO-mulighet). For malere, flisleggere, elektrikere og rørleggere gir denne strukturen 3-5 ganger flere landingssider enn en forside med alt på en lang rulle.",
+      },
+      {
+        heading: "5. By-sider - egne landingssider per område",
+        body:
+          "Besøkere som søker \"maler Oslo\" vil lande på en side som handler om maling i Oslo. En forside som bare sier \"Vi maler\" uten å nevne Oslo, rangerer dårligere og konverterer dårligere. Lag egne landingssider for de 3-8 viktigste byene eller bydelene du jobber i: \"Maler Oslo\", \"Maler Bærum\", \"Maler Asker\". Innholdet skal være unikt per side - referanse til lokale prosjekter, prisjusteringer der de er relevante, kundeanmeldelser fra det området. Disse sidene tar ofte 40-60 % av SEO-trafikken for etablerte håndverker-nettsider og konverterer bedre fordi de matcher søkeintensjonen nøyaktig.",
+      },
+      {
+        heading: "6. Befaringsskjema - kort, uten unødvendige felt",
+        body:
+          "Kontaktskjemaer som ber om navn, e-post, telefon, postnummer, bedriftsnavn, og en fri-tekst beskrivelse på 300 ord har 5-10 % konverteringsrate. Skjemaer som ber om navn, telefon og ett fritt felt har 30-40 %. Regelen er: spør kun det som er strengt nødvendig for å ringe tilbake. E-post er ofte unødvendig for akutt-jobber. Postnummer kan du spørre om i samtalen. Fritekst-feltet skal være valgfritt. Inne i skjemaet skal knappen si \"Be om befaring\" eller \"Få tilbud\" - ikke \"Send\" (generisk) eller \"Send inn\" (robotaktig). Hvert friksjonspunkt du fjerner er færre leads som faller fra.",
+      },
+      {
+        heading: "7. Mobilvennlighet og sidehastighet - ikke forhandlingssak",
+        body:
+          "Nettsiden må være mobilvennlig med responsivt design. Det betyr ikke bare at alt er synlig på mobil - det betyr at primær-CTA er synlig uten å scrolle, knappene er tommelfingervennlig store, og telefonnummeret er klikkbart. Sidehastighet er den andre dimensjonen: Google gir nettsider som laster under 2,5 sekunder bedre rangering, og brukere forlater sider som bruker over 3 sekunder på å laste. Bruk Google PageSpeed Insights for å måle. Vanlige problemer: for store bilder (komprimer alle under 200 KB), for mange skripter, gammelt tema. Å fikse dette gir ofte 20-40 % flere klikk alene.",
+      },
+      {
+        heading: "8. Automatisk oppfølging - fang opp dem som ikke klikker",
+        body:
+          "En god nettside gir kanskje 5 % konvertering. De andre 95 % av besøkene er mistet - med mindre du fanger dem opp. Automatisk oppfølging på skjema-innsending sender SMS innen sekunder: \"Takk for henvendelsen. Vi ringer deg innen én time.\" Kombinert med tapt anrop → SMS på telefonlinjen din sikrer du at ingen lead forsvinner fordi du ikke rakk å svare. For nettsiden selv kan retargeting på Facebook eller Google vise en diskret påminnelse til besøkere som ikke konverterte. Disse tre mekanismene sammen kan øke den faktiske lead-konverteringen fra 2 % til 8-12 %. Forskjellen er mye synligere i omsetningen enn i selve nettsidedesignet.",
+      },
+      {
+        heading: "9. Mål hva som virker - og juster jevnlig",
+        body:
+          "En nettside er aldri \"ferdig\". Uten måling er alt du gjør gjetting. Sett opp Google Analytics og Google Search Console før nettsiden går live. Månedlige sjekker: hvilke sider får flest besøk? Hvilke konverterer best? Hvilke fører til at folk forlater raskt? Hva søker de på før de lander? Lag små hypoteser hver måned: \"Hvis jeg endrer hero-teksten, øker konverteringen\". A/B-test hvis du har nok trafikk, eller bare endre og sammenlign før/etter. Etablerte håndverker-nettsider forbedres ofte fra 1 % konvertering til 5-8 % over 12 måneders systematisk arbeid. Det er forskjellen på 120 forespørsler og 800 forespørsler på samme trafikk.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
