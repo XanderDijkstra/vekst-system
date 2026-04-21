@@ -11,11 +11,18 @@ const SITE_URL = "https://vekst-systemet.no";
 
 const comparisons = [
   {
-    slug: "werkspot-alternatief",
+    slug: "mittanbud-alternativ",
     title: "Mittanbud-alternativ",
     description:
       "Slutt å betale per lead? Sammenlign Mittanbud med din egen nettside - hva gir mest tilbake for håndverkerbedriften din?",
     tag: "Mittanbud vs eget system",
+  },
+  {
+    slug: "mittanbud-priser",
+    title: "Mittanbud priser forklart",
+    description:
+      "Hva koster kreditt-systemet egentlig, per lead og per vunnet jobb? Nøktern gjennomgang av Mittanbud-prisene med regnestykkene.",
+    tag: "Priser og kostnader",
   },
 ];
 
