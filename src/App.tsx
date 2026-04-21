@@ -48,6 +48,7 @@ import VergelijkOverview from "./pages/vergelijk/VergelijkOverview";
 import WerkspotAlternatief from "./pages/vergelijk/WerkspotAlternatief";
 import MittanbudPriser from "./pages/vergelijk/MittanbudPriser";
 import MittanbudVsAnbudstorget from "./pages/vergelijk/MittanbudVsAnbudstorget";
+import MarkedsforingHandverkere from "./pages/guide/MarkedsforingHandverkere";
 import ToolsOverview from "./pages/tools/ToolsOverview";
 import LeadwaardeCalculator from "./pages/tools/LeadwaardeCalculator";
 import TimeprisCalculator from "./pages/tools/TimeprisCalculator";
@@ -126,6 +127,7 @@ const App = () => (
           <Route path="/sammenlign/mittanbud-alternativ" element={<WerkspotAlternatief />} />
           <Route path="/sammenlign/mittanbud-priser" element={<MittanbudPriser />} />
           <Route path="/sammenlign/mittanbud-vs-anbudstorget" element={<MittanbudVsAnbudstorget />} />
+          <Route path="/guide/markedsforing-for-handverkere" element={<MarkedsforingHandverkere />} />
           <Route path="/verktoy" element={<ToolsOverview />} />
           <Route path="/verktoy/leadverdi-kalkulator" element={<LeadwaardeCalculator />} />
           <Route path="/verktoy/timepris-kalkulator" element={<TimeprisCalculator />} />
