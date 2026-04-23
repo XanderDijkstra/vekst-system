@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft, Check, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { supabase } from "@/integrations/supabase/client";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 interface Feature {
   id: string;

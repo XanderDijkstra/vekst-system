@@ -79,10 +79,10 @@ const ReviewFunnel = () => {
       <Helmet>
         <title>5-stjerners Review Funnel | Vekst Systemet</title>
         <meta name="description" content="Samle inn Google-anmeldelser automatisk fra fornøyde kunder. Beskytt omdømmet ditt med vårt smarte anmeldelsessystem." />
-        <link rel="canonical" href="https://vekst-systemet.no/diensten/review-funnel" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/diensten/review-funnel" />
         <meta property="og:title" content="5-stjerners Review Funnel | Vekst Systemet" />
         <meta property="og:description" content="Samle inn Google-anmeldelser automatisk fra fornøyde kunder." />
-        <meta property="og:url" content="https://vekst-systemet.no/diensten/review-funnel" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/diensten/review-funnel" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

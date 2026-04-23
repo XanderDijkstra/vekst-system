@@ -21,7 +21,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const stats = [
   { value: "45 min", description: "gjennomsnittlig tid håndverkere bruker på å lage ett tilbud manuelt." },

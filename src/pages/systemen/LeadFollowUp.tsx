@@ -79,10 +79,10 @@ const LeadFollowUp = () => {
       <Helmet>
         <title>Lead-oppfølgingssystem | Vekst Systemet</title>
         <meta name="description" content="Automatisk oppfølging av nye leads via SMS og e-post. Øk konverteringen din med raske, personlige oppfølginger." />
-        <link rel="canonical" href="https://vekst-systemet.no/diensten/lead-follow-up" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/diensten/lead-follow-up" />
         <meta property="og:title" content="Lead-oppfølgingssystem | Vekst Systemet" />
         <meta property="og:description" content="Automatisk oppfølging av nye leads via SMS og e-post." />
-        <meta property="og:url" content="https://vekst-systemet.no/diensten/lead-follow-up" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/diensten/lead-follow-up" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

@@ -21,7 +21,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const stats = [
   { value: "73%", description: "av håndverkere bruker 3+ separate verktøy som ikke kommuniserer med hverandre." },

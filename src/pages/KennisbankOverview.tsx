@@ -8,7 +8,7 @@ import { wikiTerms } from "@/data/wikiTerms";
 import { ArrowRight, BookOpen, Lightbulb, Calculator } from "lucide-react";
 import authorImg from "@/assets/xander-dijkstra.png";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const formatDate = (dateStr: string) => {
   const date = new Date(dateStr);

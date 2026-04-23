@@ -9,7 +9,7 @@ import { fadeInUp } from "@/lib/animations";
 import { downloads } from "@/data/downloads";
 import { kennisbankArticles } from "@/data/kennisbankArticles";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 

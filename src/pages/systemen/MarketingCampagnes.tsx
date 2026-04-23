@@ -79,10 +79,10 @@ const MarketingCampagnes = () => {
       <Helmet>
         <title>Markedsføringskampanjer | Vekst Systemet</title>
         <meta name="description" content="Nå målgruppen din automatisk med SMS- og e-postkampanjer. Lead revival, review requests og sesongbaserte tilbud." />
-        <link rel="canonical" href="https://vekst-systemet.no/diensten/marketing-campagnes" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/diensten/marketing-campagnes" />
         <meta property="og:title" content="Markedsføringskampanjer | Vekst Systemet" />
         <meta property="og:description" content="Nå målgruppen din automatisk med SMS- og e-postkampanjer." />
-        <meta property="og:url" content="https://vekst-systemet.no/diensten/marketing-campagnes" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/diensten/marketing-campagnes" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

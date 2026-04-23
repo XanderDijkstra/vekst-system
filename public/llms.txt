@@ -6,121 +6,121 @@ Alle sider er skrevet på norsk bokmål for en B2B-målgruppe: eiere og daglig l
 
 ## Tjenester
 
-- [Alle tjenester](https://vekst-systemet.no/tjenester): Oversikt over hele tjenestestacken - nettside, SEO, anmeldelser, kommunikasjon, automatisering.
-- [Leadgenerering-nettside](https://vekst-systemet.no/tjenester/leadgenerering): Nettside bygget for å konvertere Google-besøk til forespørsler, optimalisert for lokal SEO.
-- [Kundekommunikasjon og tapt-anrop-SMS](https://vekst-systemet.no/tjenester/kundekommunikasjon): Automatisk SMS-svar når du ikke rekker telefonen, slik at leadsene ikke forsvinner.
-- [5-stjerners anmeldelsesfunnel](https://vekst-systemet.no/tjenester/anmeldelsesfunnel): Samler inn Google-anmeldelser automatisk fra fornøyde kunder og beskytter mot dårlige vurderinger.
-- [Alt-i-én-innboks](https://vekst-systemet.no/tjenester/alt-i-en-innboks): Ett sted for SMS, e-post, webchat og skjema-henvendelser fra nettsiden.
-- [Markedsføringskampanjer](https://vekst-systemet.no/tjenester/markedsforingskampanjer): Ferdige SMS- og e-postkampanjer for gjenkjøp og anbefalinger, aktiveres med ett klikk.
-- [Automatisk lead-oppfølging](https://vekst-systemet.no/tjenester/lead-oppfolging): Nye skjemaleads får direkte SMS og kunden bookes inn i kalenderen - uten manuell oppfølging.
-- [Digitalisering for håndverkere](https://vekst-systemet.no/tjenester/digitalisering): Hvordan håndverkerbedrifter digitaliserer drift og markedsføring steg for steg.
-- [Automatisering for håndverkere](https://vekst-systemet.no/tjenester/automatisering): Tidsbesparende automatiseringer for oppfølging, fakturering og planlegging.
-- [Programvareintegrasjoner](https://vekst-systemet.no/tjenester/programvareintegrasjoner): Koble sammen nettside, CRM, faktura og kalender i én sømløs flyt.
-- [AI-løsninger for håndverkere](https://vekst-systemet.no/tjenester/ai-losninger): Praktiske AI-verktøy for tilbudsskriving, kundedialog og innhold.
-- [Tilbudssystem](https://vekst-systemet.no/tjenester/tilbudssystem): Profesjonelle tilbud på 5 minutter med signering og automatisk oppfølging.
-- [Anmeldelsessystem](https://vekst-systemet.no/tjenester/anmeldelsessystem): Helautomatisert prosess for å be om, følge opp og publisere kundeanmeldelser.
-- [Planleggingssystem](https://vekst-systemet.no/tjenester/planleggingssystem): Online booking og kalender for håndverkere - kunder booker samtaler uten telefon-ping-pong.
-- [Markedsføringsautomatisering](https://vekst-systemet.no/tjenester/markedsforingsautomatisering): Hele kundereisen fra første besøk til gjenkjøp, automatisert.
+- [Alle tjenester](https://www.vekst-systemet.no/tjenester): Oversikt over hele tjenestestacken - nettside, SEO, anmeldelser, kommunikasjon, automatisering.
+- [Leadgenerering-nettside](https://www.vekst-systemet.no/tjenester/leadgenerering): Nettside bygget for å konvertere Google-besøk til forespørsler, optimalisert for lokal SEO.
+- [Kundekommunikasjon og tapt-anrop-SMS](https://www.vekst-systemet.no/tjenester/kundekommunikasjon): Automatisk SMS-svar når du ikke rekker telefonen, slik at leadsene ikke forsvinner.
+- [5-stjerners anmeldelsesfunnel](https://www.vekst-systemet.no/tjenester/anmeldelsesfunnel): Samler inn Google-anmeldelser automatisk fra fornøyde kunder og beskytter mot dårlige vurderinger.
+- [Alt-i-én-innboks](https://www.vekst-systemet.no/tjenester/alt-i-en-innboks): Ett sted for SMS, e-post, webchat og skjema-henvendelser fra nettsiden.
+- [Markedsføringskampanjer](https://www.vekst-systemet.no/tjenester/markedsforingskampanjer): Ferdige SMS- og e-postkampanjer for gjenkjøp og anbefalinger, aktiveres med ett klikk.
+- [Automatisk lead-oppfølging](https://www.vekst-systemet.no/tjenester/lead-oppfolging): Nye skjemaleads får direkte SMS og kunden bookes inn i kalenderen - uten manuell oppfølging.
+- [Digitalisering for håndverkere](https://www.vekst-systemet.no/tjenester/digitalisering): Hvordan håndverkerbedrifter digitaliserer drift og markedsføring steg for steg.
+- [Automatisering for håndverkere](https://www.vekst-systemet.no/tjenester/automatisering): Tidsbesparende automatiseringer for oppfølging, fakturering og planlegging.
+- [Programvareintegrasjoner](https://www.vekst-systemet.no/tjenester/programvareintegrasjoner): Koble sammen nettside, CRM, faktura og kalender i én sømløs flyt.
+- [AI-løsninger for håndverkere](https://www.vekst-systemet.no/tjenester/ai-losninger): Praktiske AI-verktøy for tilbudsskriving, kundedialog og innhold.
+- [Tilbudssystem](https://www.vekst-systemet.no/tjenester/tilbudssystem): Profesjonelle tilbud på 5 minutter med signering og automatisk oppfølging.
+- [Anmeldelsessystem](https://www.vekst-systemet.no/tjenester/anmeldelsessystem): Helautomatisert prosess for å be om, følge opp og publisere kundeanmeldelser.
+- [Planleggingssystem](https://www.vekst-systemet.no/tjenester/planleggingssystem): Online booking og kalender for håndverkere - kunder booker samtaler uten telefon-ping-pong.
+- [Markedsføringsautomatisering](https://www.vekst-systemet.no/tjenester/markedsforingsautomatisering): Hele kundereisen fra første besøk til gjenkjøp, automatisert.
 
 ## Fagområder
 
-- [Alle fagområder](https://vekst-systemet.no/fagomrader): Oversikt over håndverker-fagene vi leverer systemer for.
-- [Malere](https://vekst-systemet.no/fagomrader/malere): Nettside og markedsføring for malerfirmaer.
-- [Takleggere og taktekkere](https://vekst-systemet.no/fagomrader/takleggere): Lokal synlighet for takarbeid, inkludert akuttreparasjoner.
-- [Rørleggere](https://vekst-systemet.no/fagomrader/rorleggere): Google-toppplassering for rørleggerfirmaer i hele landet.
-- [Elektrikere](https://vekst-systemet.no/fagomrader/elektrikere): Flere forespørsler til elektrikerbedriften uten å betale per lead.
-- [Tømrere](https://vekst-systemet.no/fagomrader/tomrere): Markedsføring for tømrerfirmaer som vil bygge egen kundebase.
-- [Flisleggere](https://vekst-systemet.no/fagomrader/flisleggere): Nettside og SEO for flisleggere som tar bad- og kjøkkenjobber.
-- [Murere](https://vekst-systemet.no/fagomrader/murerarbeid): Lokal synlighet for murerfirmaer og murerarbeid.
-- [Pussere og stukkatører](https://vekst-systemet.no/fagomrader/pussere): Markedsføring for pusse- og stukkatørfirmaer.
-- [Gartnere](https://vekst-systemet.no/fagomrader/gartnere): Sesongmarkedsføring for gartnerfirmaer og grøntanleggsfirmaer.
-- [Altmuligmenn](https://vekst-systemet.no/fagomrader/altmuligmenn): Lokale småjobber uten platform-avgift.
-- [Rengjøringsfirmaer](https://vekst-systemet.no/fagomrader/rengjoringsfirma): B2B- og B2C-rengjøring med stabil leadsstrøm.
-- [Vindusvaskere](https://vekst-systemet.no/fagomrader/vindusvaskere): Nettside og lokal SEO for vinduspusserfirmaer.
-- [Kjøkkenmontører](https://vekst-systemet.no/fagomrader/kjokkenmontorer): Kjøkkenmontering som faglig spesialist - synlig i hele området.
-- [Baderomsrenovering](https://vekst-systemet.no/fagomrader/baderomsrenovering): Høy-verdi oppdrag fra kunder som allerede har budsjett.
-- [Isoleringsfirmaer](https://vekst-systemet.no/fagomrader/isolering): ENØK-kunder og isoleringsoppdrag via Google.
-- [Flyttefirmaer](https://vekst-systemet.no/fagomrader/flyttefirma): Lokale flyttebyråer som vil eie egen kundekanal.
-- [Entreprenører](https://vekst-systemet.no/fagomrader/entreprenorer): Totalentrepriser og byggeprosjekter fra huseiere med forventning.
-- [Fasaderens](https://vekst-systemet.no/fagomrader/fasaderens): Fasadevask og klargjøring før maling.
-- [Parkettleggere](https://vekst-systemet.no/fagomrader/parkett): Nettside for parkettleggerfirmaer.
-- [Glassmester og glassarbeid](https://vekst-systemet.no/fagomrader/glassarbeid): Akutt og planlagt glassarbeid - høy intensjon fra Google.
-- [Avløpstjenester](https://vekst-systemet.no/fagomrader/avlopstjeneste): Akuttjobber som ringes ut i samme time.
-- [Belegning og steinlegging](https://vekst-systemet.no/fagomrader/belegning): Utendørs belegning, brostein og steinarbeid.
-- [Interiørdesign](https://vekst-systemet.no/fagomrader/interiordesign): Prosjektorienterte leads fra kunder med romoppussing i tankene.
-- [Gulvleggere](https://vekst-systemet.no/fagomrader/gulvlegger): Nettside for gulvleggerfirmaer.
-- [Takrenner](https://vekst-systemet.no/fagomrader/takrenner): Takrennemontering og -rens gjennom sesongen.
-- [Smarthus](https://vekst-systemet.no/fagomrader/smarthus): Smarthusinstallatører og styringssystemer.
-- [Solcellepaneler](https://vekst-systemet.no/fagomrader/solcellepaneler): Solcelle-installatører med ENØK-fokus.
-- [Garasjeporter](https://vekst-systemet.no/fagomrader/garasjeporter): Montering og service av garasjeporter.
-- [Asbestsanering](https://vekst-systemet.no/fagomrader/asbestsanering): Sertifiserte asbestsaneringsfirmaer.
-- [Fuktbekjempelse](https://vekst-systemet.no/fagomrader/fuktbekjempelse): Fuktsikring og muggsanering for boligeiere.
+- [Alle fagområder](https://www.vekst-systemet.no/fagomrader): Oversikt over håndverker-fagene vi leverer systemer for.
+- [Malere](https://www.vekst-systemet.no/fagomrader/malere): Nettside og markedsføring for malerfirmaer.
+- [Takleggere og taktekkere](https://www.vekst-systemet.no/fagomrader/takleggere): Lokal synlighet for takarbeid, inkludert akuttreparasjoner.
+- [Rørleggere](https://www.vekst-systemet.no/fagomrader/rorleggere): Google-toppplassering for rørleggerfirmaer i hele landet.
+- [Elektrikere](https://www.vekst-systemet.no/fagomrader/elektrikere): Flere forespørsler til elektrikerbedriften uten å betale per lead.
+- [Tømrere](https://www.vekst-systemet.no/fagomrader/tomrere): Markedsføring for tømrerfirmaer som vil bygge egen kundebase.
+- [Flisleggere](https://www.vekst-systemet.no/fagomrader/flisleggere): Nettside og SEO for flisleggere som tar bad- og kjøkkenjobber.
+- [Murere](https://www.vekst-systemet.no/fagomrader/murerarbeid): Lokal synlighet for murerfirmaer og murerarbeid.
+- [Pussere og stukkatører](https://www.vekst-systemet.no/fagomrader/pussere): Markedsføring for pusse- og stukkatørfirmaer.
+- [Gartnere](https://www.vekst-systemet.no/fagomrader/gartnere): Sesongmarkedsføring for gartnerfirmaer og grøntanleggsfirmaer.
+- [Altmuligmenn](https://www.vekst-systemet.no/fagomrader/altmuligmenn): Lokale småjobber uten platform-avgift.
+- [Rengjøringsfirmaer](https://www.vekst-systemet.no/fagomrader/rengjoringsfirma): B2B- og B2C-rengjøring med stabil leadsstrøm.
+- [Vindusvaskere](https://www.vekst-systemet.no/fagomrader/vindusvaskere): Nettside og lokal SEO for vinduspusserfirmaer.
+- [Kjøkkenmontører](https://www.vekst-systemet.no/fagomrader/kjokkenmontorer): Kjøkkenmontering som faglig spesialist - synlig i hele området.
+- [Baderomsrenovering](https://www.vekst-systemet.no/fagomrader/baderomsrenovering): Høy-verdi oppdrag fra kunder som allerede har budsjett.
+- [Isoleringsfirmaer](https://www.vekst-systemet.no/fagomrader/isolering): ENØK-kunder og isoleringsoppdrag via Google.
+- [Flyttefirmaer](https://www.vekst-systemet.no/fagomrader/flyttefirma): Lokale flyttebyråer som vil eie egen kundekanal.
+- [Entreprenører](https://www.vekst-systemet.no/fagomrader/entreprenorer): Totalentrepriser og byggeprosjekter fra huseiere med forventning.
+- [Fasaderens](https://www.vekst-systemet.no/fagomrader/fasaderens): Fasadevask og klargjøring før maling.
+- [Parkettleggere](https://www.vekst-systemet.no/fagomrader/parkett): Nettside for parkettleggerfirmaer.
+- [Glassmester og glassarbeid](https://www.vekst-systemet.no/fagomrader/glassarbeid): Akutt og planlagt glassarbeid - høy intensjon fra Google.
+- [Avløpstjenester](https://www.vekst-systemet.no/fagomrader/avlopstjeneste): Akuttjobber som ringes ut i samme time.
+- [Belegning og steinlegging](https://www.vekst-systemet.no/fagomrader/belegning): Utendørs belegning, brostein og steinarbeid.
+- [Interiørdesign](https://www.vekst-systemet.no/fagomrader/interiordesign): Prosjektorienterte leads fra kunder med romoppussing i tankene.
+- [Gulvleggere](https://www.vekst-systemet.no/fagomrader/gulvlegger): Nettside for gulvleggerfirmaer.
+- [Takrenner](https://www.vekst-systemet.no/fagomrader/takrenner): Takrennemontering og -rens gjennom sesongen.
+- [Smarthus](https://www.vekst-systemet.no/fagomrader/smarthus): Smarthusinstallatører og styringssystemer.
+- [Solcellepaneler](https://www.vekst-systemet.no/fagomrader/solcellepaneler): Solcelle-installatører med ENØK-fokus.
+- [Garasjeporter](https://www.vekst-systemet.no/fagomrader/garasjeporter): Montering og service av garasjeporter.
+- [Asbestsanering](https://www.vekst-systemet.no/fagomrader/asbestsanering): Sertifiserte asbestsaneringsfirmaer.
+- [Fuktbekjempelse](https://www.vekst-systemet.no/fagomrader/fuktbekjempelse): Fuktsikring og muggsanering for boligeiere.
 
 ## Verktøy
 
-- [Alle verktøy](https://vekst-systemet.no/verktoy): Kalkulatorer og analyseverktøy for håndverkere.
-- [Leadverdi-kalkulator](https://vekst-systemet.no/verktoy/leadverdi-kalkulator): Regn ut hva én lead faktisk er verdt for din bedrift.
-- [Timepris-kalkulator](https://vekst-systemet.no/verktoy/timepris-kalkulator): Finn riktig timesats basert på kostnader og ønsket resultat.
-- [Personalkostnad-kalkulator](https://vekst-systemet.no/verktoy/personalkostnad-kalkulator): Hva koster en ansatt deg egentlig - inkludert sosiale kostnader og feriepenger.
-- [Prosjektmargin-kalkulator](https://vekst-systemet.no/verktoy/prosjektmargin-kalkulator): Regn ut marginen på et prosjekt før du gir tilbud.
-- [Byggematerialer-kalkulator](https://vekst-systemet.no/verktoy/byggematerialer-kalkulator): Hub med alle byggematerial-kalkulatorer.
-- [Fliser-kalkulator](https://vekst-systemet.no/verktoy/fliser-kalkulator): Hvor mange fliser trenger du til jobben.
-- [Maling-kalkulator](https://vekst-systemet.no/verktoy/maling-kalkulator): Malingsforbruk ut fra flate og antall strøk.
-- [Betong-kalkulator](https://vekst-systemet.no/verktoy/betong-kalkulator): Betongmengde og kostnad for støp og fundament.
-- [Laminat-kalkulator](https://vekst-systemet.no/verktoy/laminat-kalkulator): Laminatgulv beregnet med svinn.
-- [Tapet-kalkulator](https://vekst-systemet.no/verktoy/tapet-kalkulator): Tapetmengde med mønsteravpasning.
-- [Gipsplate-kalkulator](https://vekst-systemet.no/verktoy/gipsplate-kalkulator): Antall gipsplater til vegger og tak.
-- [Puss-kalkulator](https://vekst-systemet.no/verktoy/puss-kalkulator): Pussmengde og arbeidstid.
-- [Markedsføringsscan](https://vekst-systemet.no/verktoy/markedsforingsscan): Gratis sjekk av nettsiden og Google-synligheten din.
+- [Alle verktøy](https://www.vekst-systemet.no/verktoy): Kalkulatorer og analyseverktøy for håndverkere.
+- [Leadverdi-kalkulator](https://www.vekst-systemet.no/verktoy/leadverdi-kalkulator): Regn ut hva én lead faktisk er verdt for din bedrift.
+- [Timepris-kalkulator](https://www.vekst-systemet.no/verktoy/timepris-kalkulator): Finn riktig timesats basert på kostnader og ønsket resultat.
+- [Personalkostnad-kalkulator](https://www.vekst-systemet.no/verktoy/personalkostnad-kalkulator): Hva koster en ansatt deg egentlig - inkludert sosiale kostnader og feriepenger.
+- [Prosjektmargin-kalkulator](https://www.vekst-systemet.no/verktoy/prosjektmargin-kalkulator): Regn ut marginen på et prosjekt før du gir tilbud.
+- [Byggematerialer-kalkulator](https://www.vekst-systemet.no/verktoy/byggematerialer-kalkulator): Hub med alle byggematerial-kalkulatorer.
+- [Fliser-kalkulator](https://www.vekst-systemet.no/verktoy/fliser-kalkulator): Hvor mange fliser trenger du til jobben.
+- [Maling-kalkulator](https://www.vekst-systemet.no/verktoy/maling-kalkulator): Malingsforbruk ut fra flate og antall strøk.
+- [Betong-kalkulator](https://www.vekst-systemet.no/verktoy/betong-kalkulator): Betongmengde og kostnad for støp og fundament.
+- [Laminat-kalkulator](https://www.vekst-systemet.no/verktoy/laminat-kalkulator): Laminatgulv beregnet med svinn.
+- [Tapet-kalkulator](https://www.vekst-systemet.no/verktoy/tapet-kalkulator): Tapetmengde med mønsteravpasning.
+- [Gipsplate-kalkulator](https://www.vekst-systemet.no/verktoy/gipsplate-kalkulator): Antall gipsplater til vegger og tak.
+- [Puss-kalkulator](https://www.vekst-systemet.no/verktoy/puss-kalkulator): Pussmengde og arbeidstid.
+- [Markedsføringsscan](https://www.vekst-systemet.no/verktoy/markedsforingsscan): Gratis sjekk av nettsiden og Google-synligheten din.
 
 ## Sammenligninger
 
-- [Alle sammenligninger](https://vekst-systemet.no/sammenlign): Ærlige sammenligninger mellom plattformer og kanaler for håndverkere.
-- [Mittanbud-alternativ](https://vekst-systemet.no/sammenlign/mittanbud-alternativ): Egen nettside kontra Mittanbud - hva gir mer for pengene.
-- [Mittanbud priser forklart](https://vekst-systemet.no/sammenlign/mittanbud-priser): Kreditt-systemet, lead-prisene og de skjulte kostnadene demystifisert.
-- [Mittanbud vs Anbudstorget](https://vekst-systemet.no/sammenlign/mittanbud-vs-anbudstorget): De to største lead-plattformene for håndverkere side om side.
+- [Alle sammenligninger](https://www.vekst-systemet.no/sammenlign): Ærlige sammenligninger mellom plattformer og kanaler for håndverkere.
+- [Mittanbud-alternativ](https://www.vekst-systemet.no/sammenlign/mittanbud-alternativ): Egen nettside kontra Mittanbud - hva gir mer for pengene.
+- [Mittanbud priser forklart](https://www.vekst-systemet.no/sammenlign/mittanbud-priser): Kreditt-systemet, lead-prisene og de skjulte kostnadene demystifisert.
+- [Mittanbud vs Anbudstorget](https://www.vekst-systemet.no/sammenlign/mittanbud-vs-anbudstorget): De to største lead-plattformene for håndverkere side om side.
 
 ## Pillar-guider
 
-- [Markedsføring for håndverkere 2026](https://vekst-systemet.no/guide/markedsforing-for-handverkere): Komplett guide til de 5 markedsføringskanalene for håndverkere - kostnader, resultater og anbefalt stack.
+- [Markedsføring for håndverkere 2026](https://www.vekst-systemet.no/guide/markedsforing-for-handverkere): Komplett guide til de 5 markedsføringskanalene for håndverkere - kostnader, resultater og anbefalt stack.
 
 ## Kunnskapsbank
 
-- [Kunnskapsbank](https://vekst-systemet.no/kunnskapsbank): Daglig oppdaterte artikler om nettside, SEO, anmeldelser, leadgenerering og automatisering for håndverkere. Hver artikkel har fire hovedtemaer: Lokal SEO, Anmeldelser og omdømme, Leadgenerering og nettside, og CRM/automatisering.
+- [Kunnskapsbank](https://www.vekst-systemet.no/kunnskapsbank): Daglig oppdaterte artikler om nettside, SEO, anmeldelser, leadgenerering og automatisering for håndverkere. Hver artikkel har fire hovedtemaer: Lokal SEO, Anmeldelser og omdømme, Leadgenerering og nettside, og CRM/automatisering.
 
 ## Wiki
 
-- [Wiki-oversikt](https://vekst-systemet.no/wiki): Markedsførings- og SEO-begreper forklart på norsk.
-- [SEO (søkemotoroptimalisering)](https://vekst-systemet.no/wiki/seo): Hvordan Google rangerer nettsider og hva som teller for håndverkere.
-- [Lokal SEO](https://vekst-systemet.no/wiki/local-seo): SEO rettet mot lokale søk som "elektriker Trondheim".
-- [Google Bedriftsprofil](https://vekst-systemet.no/wiki/google-bedriftsprofil): Gratis profil i Google Maps - det viktigste lokale synlighetsverktøyet.
-- [Google Maps](https://vekst-systemet.no/wiki/google-maps): Hvordan kartpakken fungerer og hvordan du kommer til topps.
-- [Google Ads](https://vekst-systemet.no/wiki/google-ads): Betalt annonsering i Google for håndverkere.
-- [Organisk trafikk](https://vekst-systemet.no/wiki/organisk-trafikk): Besøk som kommer gratis via Google-søk.
-- [Backlinks](https://vekst-systemet.no/wiki/backlinks): Lenker fra andre nettsider til din - et av Googles viktigste rangeringssignaler.
-- [NAP-konsistens](https://vekst-systemet.no/wiki/nav-konsistens): Konsistent navn, adresse og telefonnummer på tvers av kataloger.
-- [Schema markup](https://vekst-systemet.no/wiki/schema-markup): Strukturert data som gir rike søkeresultater i Google.
-- [Meta-tittel og meta-beskrivelse](https://vekst-systemet.no/wiki/meta-tittel-og-beskrivelse): Teksten som vises i Google-treffet.
-- [Lead](https://vekst-systemet.no/wiki/lead): Forespørsel fra en potensiell kunde.
-- [Lead-oppfølging](https://vekst-systemet.no/wiki/lead-oppfolging): Hvordan du følger opp leads for å konvertere dem til oppdrag.
-- [Anmeldelser](https://vekst-systemet.no/wiki/anmeldelser): Hva Google-anmeldelser betyr for en håndverkerbedrift.
-- [Anmeldelsesfunnel](https://vekst-systemet.no/wiki/anmeldelsesfunnel): Prosessen som leder fornøyde kunder til 5-stjerners Google-anmeldelser.
-- [CRM](https://vekst-systemet.no/wiki/crm): Kundebehandlingssystem - verktøyet for å ikke miste leads.
-- [Automatisering](https://vekst-systemet.no/wiki/automatisering): Hvordan automatiseringer sparer tid i oppfølging og fakturering.
-- [Landingsside](https://vekst-systemet.no/wiki/landingsside): En side designet for å konvertere - ikke for å vises.
-- [Konverteringsrate](https://vekst-systemet.no/wiki/konverteringsrate): Andelen besøk som blir til forespørsler.
-- [Call-to-action (CTA)](https://vekst-systemet.no/wiki/cta): Knappen eller oppfordringen som får besøkeren til å handle.
-- [Tapt anrop → SMS](https://vekst-systemet.no/wiki/tapt-anrop-sms): Automatisk SMS-svar når du ikke rekker å ta telefonen.
-- [Sidehastighet](https://vekst-systemet.no/wiki/sidehastighet): Hvor raskt nettsiden laster - en direkte Google-rangeringsfaktor.
-- [Mobilvennlig nettside](https://vekst-systemet.no/wiki/mobilvennlig-nettside): Hvorfor 87 % av besøkene gjør mobil uunnværlig.
+- [Wiki-oversikt](https://www.vekst-systemet.no/wiki): Markedsførings- og SEO-begreper forklart på norsk.
+- [SEO (søkemotoroptimalisering)](https://www.vekst-systemet.no/wiki/seo): Hvordan Google rangerer nettsider og hva som teller for håndverkere.
+- [Lokal SEO](https://www.vekst-systemet.no/wiki/local-seo): SEO rettet mot lokale søk som "elektriker Trondheim".
+- [Google Bedriftsprofil](https://www.vekst-systemet.no/wiki/google-bedriftsprofil): Gratis profil i Google Maps - det viktigste lokale synlighetsverktøyet.
+- [Google Maps](https://www.vekst-systemet.no/wiki/google-maps): Hvordan kartpakken fungerer og hvordan du kommer til topps.
+- [Google Ads](https://www.vekst-systemet.no/wiki/google-ads): Betalt annonsering i Google for håndverkere.
+- [Organisk trafikk](https://www.vekst-systemet.no/wiki/organisk-trafikk): Besøk som kommer gratis via Google-søk.
+- [Backlinks](https://www.vekst-systemet.no/wiki/backlinks): Lenker fra andre nettsider til din - et av Googles viktigste rangeringssignaler.
+- [NAP-konsistens](https://www.vekst-systemet.no/wiki/nav-konsistens): Konsistent navn, adresse og telefonnummer på tvers av kataloger.
+- [Schema markup](https://www.vekst-systemet.no/wiki/schema-markup): Strukturert data som gir rike søkeresultater i Google.
+- [Meta-tittel og meta-beskrivelse](https://www.vekst-systemet.no/wiki/meta-tittel-og-beskrivelse): Teksten som vises i Google-treffet.
+- [Lead](https://www.vekst-systemet.no/wiki/lead): Forespørsel fra en potensiell kunde.
+- [Lead-oppfølging](https://www.vekst-systemet.no/wiki/lead-oppfolging): Hvordan du følger opp leads for å konvertere dem til oppdrag.
+- [Anmeldelser](https://www.vekst-systemet.no/wiki/anmeldelser): Hva Google-anmeldelser betyr for en håndverkerbedrift.
+- [Anmeldelsesfunnel](https://www.vekst-systemet.no/wiki/anmeldelsesfunnel): Prosessen som leder fornøyde kunder til 5-stjerners Google-anmeldelser.
+- [CRM](https://www.vekst-systemet.no/wiki/crm): Kundebehandlingssystem - verktøyet for å ikke miste leads.
+- [Automatisering](https://www.vekst-systemet.no/wiki/automatisering): Hvordan automatiseringer sparer tid i oppfølging og fakturering.
+- [Landingsside](https://www.vekst-systemet.no/wiki/landingsside): En side designet for å konvertere - ikke for å vises.
+- [Konverteringsrate](https://www.vekst-systemet.no/wiki/konverteringsrate): Andelen besøk som blir til forespørsler.
+- [Call-to-action (CTA)](https://www.vekst-systemet.no/wiki/cta): Knappen eller oppfordringen som får besøkeren til å handle.
+- [Tapt anrop → SMS](https://www.vekst-systemet.no/wiki/tapt-anrop-sms): Automatisk SMS-svar når du ikke rekker å ta telefonen.
+- [Sidehastighet](https://www.vekst-systemet.no/wiki/sidehastighet): Hvor raskt nettsiden laster - en direkte Google-rangeringsfaktor.
+- [Mobilvennlig nettside](https://www.vekst-systemet.no/wiki/mobilvennlig-nettside): Hvorfor 87 % av besøkene gjør mobil uunnværlig.
 
 ## Optional
 
-- [Priser](https://vekst-systemet.no/priser): Fast månedspris 2 990 kr, ingen oppstartskostnad, ingen lange bindinger.
-- [Bestill gratis demo](https://vekst-systemet.no/demo): 20-minutters gjennomgang av hvordan systemet passer din bedrift.
-- [Kontakt](https://vekst-systemet.no/kontakt): E-post, telefon og kontaktskjema.
-- [Kundecaser](https://vekst-systemet.no/kundecase): Resultater fra norske håndverkerbedrifter som har tatt i bruk systemet.
-- [Nedlastinger](https://vekst-systemet.no/nedlastinger): Gratis maler, sjekklister og guider for håndverkere.
-- [Konfigurator](https://vekst-systemet.no/konfigurator): Sett sammen din egen pakke og se prisen.
-- [Digitalisering for håndverkere (bransjeside)](https://vekst-systemet.no/bransje/digitalisering-for-handverkere): Bransjeoversikt over hvordan håndverkere digitaliserer.
-- [Blogg](https://vekst-systemet.no/blogg): Nyere tanker og resultater fra Vekst Systemet-teamet.
+- [Priser](https://www.vekst-systemet.no/priser): Fast månedspris 2 990 kr, ingen oppstartskostnad, ingen lange bindinger.
+- [Bestill gratis demo](https://www.vekst-systemet.no/demo): 20-minutters gjennomgang av hvordan systemet passer din bedrift.
+- [Kontakt](https://www.vekst-systemet.no/kontakt): E-post, telefon og kontaktskjema.
+- [Kundecaser](https://www.vekst-systemet.no/kundecase): Resultater fra norske håndverkerbedrifter som har tatt i bruk systemet.
+- [Nedlastinger](https://www.vekst-systemet.no/nedlastinger): Gratis maler, sjekklister og guider for håndverkere.
+- [Konfigurator](https://www.vekst-systemet.no/konfigurator): Sett sammen din egen pakke og se prisen.
+- [Digitalisering for håndverkere (bransjeside)](https://www.vekst-systemet.no/bransje/digitalisering-for-handverkere): Bransjeoversikt over hvordan håndverkere digitaliserer.
+- [Blogg](https://www.vekst-systemet.no/blogg): Nyere tanker og resultater fra Vekst Systemet-teamet.

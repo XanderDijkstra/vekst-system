@@ -21,7 +21,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const stats = [
   { value: "15+ timer", description: "i måneden sparer håndverkere i snitt med automatisering av repetitive oppgaver." },

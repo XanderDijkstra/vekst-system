@@ -6,7 +6,7 @@ import { fadeInUp } from "@/lib/animations";
 import { wikiTerms, wikiCategories } from "@/data/wikiTerms";
 import { ArrowRight, BookOpen } from "lucide-react";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const WikiOverview = () => (
   <PageShell>

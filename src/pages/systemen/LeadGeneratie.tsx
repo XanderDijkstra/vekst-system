@@ -92,10 +92,10 @@ const LeadGeneratie = () => {
       <Helmet>
         <title>Lead-genererende nettside | Vekst Systemet</title>
         <meta name="description" content="En profesjonell nettside som tiltrekker nye kunder og samler inn tilbudsforespørsler automatisk. Bygget for håndverkere." />
-        <link rel="canonical" href="https://vekst-systemet.no/diensten/lead-generatie" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/diensten/lead-generatie" />
         <meta property="og:title" content="Lead-genererende nettside | Vekst Systemet" />
         <meta property="og:description" content="En profesjonell nettside som tiltrekker nye kunder og samler inn tilbudsforespørsler automatisk." />
-        <meta property="og:url" content="https://vekst-systemet.no/diensten/lead-generatie" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/diensten/lead-generatie" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

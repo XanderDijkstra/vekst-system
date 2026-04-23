@@ -93,10 +93,10 @@ const Klantcommunicatie = () => {
       <Helmet>
         <title>Automatisk SMS ved tapt anrop | Vekst Systemet</title>
         <meta name="description" content="Send automatisk en SMS ved et tapt anrop på byggeplassen. Mist aldri en kunde igjen - 85 % svarer raskere på SMS enn på talemelding." />
-        <link rel="canonical" href="https://vekst-systemet.no/diensten/klantcommunicatie" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/diensten/klantcommunicatie" />
         <meta property="og:title" content="Tapt anrop → SMS-melding | Vekst Systemet" />
         <meta property="og:description" content="Send automatisk en SMS når du mister et anrop på byggeplassen." />
-        <meta property="og:url" content="https://vekst-systemet.no/diensten/klantcommunicatie" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/diensten/klantcommunicatie" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

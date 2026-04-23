@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 import dakdekkersImg from "@/assets/trades/dakdekkers.jpg";
 import loodgieterImg from "@/assets/trades/loodgieter.jpg";

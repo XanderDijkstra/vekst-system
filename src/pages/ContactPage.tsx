@@ -10,7 +10,7 @@ import { fadeInUp } from "@/lib/animations";
 import { useToast } from "@/hooks/use-toast";
 import { submitToWebhook } from "@/lib/webhook";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const contactMethods = [
   {

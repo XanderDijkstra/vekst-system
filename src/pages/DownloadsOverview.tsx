@@ -7,7 +7,7 @@ import CtaSection from "@/components/home/CtaSection";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { downloads } from "@/data/downloads";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const downloadsSchema = {
   "@context": "https://schema.org",

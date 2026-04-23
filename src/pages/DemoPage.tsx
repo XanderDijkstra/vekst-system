@@ -22,10 +22,10 @@ const DemoPage = () => {
       <Helmet>
         <title>Bestill demo | Vekst Systemet</title>
         <meta name="description" content="Bestill en gratis demo-samtale og se hvordan Vekst Systemet hjelper bedriften din å vokse med smarte digitale systemer." />
-        <link rel="canonical" href="https://vekst-systemet.no/demo" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/demo" />
         <meta property="og:title" content="Bestill demo | Vekst Systemet" />
         <meta property="og:description" content="Bestill en gratis demo-samtale og se hvordan Vekst Systemet hjelper bedriften din å vokse." />
-        <meta property="og:url" content="https://vekst-systemet.no/demo" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/demo" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>

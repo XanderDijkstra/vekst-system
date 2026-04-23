@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Check, ArrowRight, X } from "lucide-react";
 import { motion } from "framer-motion";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const features = [
   "Funksjonell nettside (10–20 sider)",

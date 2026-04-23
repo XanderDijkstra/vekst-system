@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const sections = [
   {

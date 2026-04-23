@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const cases = [
   {

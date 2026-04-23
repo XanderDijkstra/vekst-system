@@ -23,7 +23,7 @@ import {
 } from "@/components/ui/accordion";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/verktoy/personalkostnad-kalkulator`;
 
 const kr = new Intl.NumberFormat("nb-NO", {

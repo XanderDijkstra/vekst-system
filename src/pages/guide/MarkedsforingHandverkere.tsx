@@ -30,7 +30,7 @@ import {
 import { fadeInUp, systemEase } from "@/lib/animations";
 import CtaSection from "@/components/home/CtaSection";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 const PAGE_URL = `${SITE_URL}/guide/markedsforing-for-handverkere`;
 
 type Channel = {

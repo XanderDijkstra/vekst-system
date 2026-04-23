@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import CtaSection from "@/components/home/CtaSection";
 
-const SITE_URL = "https://vekst-systemet.no";
+const SITE_URL = "https://www.vekst-systemet.no";
 
 const comparisons = [
   {

@@ -119,4 +119,4 @@ Allow: /
 Disallow: /admin
 Disallow: /admin/
 
-Sitemap: https://vekst-systemet.no/sitemap.xml
+Sitemap: https://www.vekst-systemet.no/sitemap.xml

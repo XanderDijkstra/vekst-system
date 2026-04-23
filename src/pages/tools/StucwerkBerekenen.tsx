@@ -10,7 +10,7 @@ import CalcResultCard from "@/components/tools/CalcResultCard";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { fadeInUp } from "@/lib/animations";
 
-const SITE = "https://vekst-systemet.no";
+const SITE = "https://www.vekst-systemet.no";
 const PAGE = `${SITE}/verktoy/puss-kalkulator`;
 const n1 = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 1 });
 const nI = new Intl.NumberFormat("nb-NO", { maximumFractionDigits: 0 });

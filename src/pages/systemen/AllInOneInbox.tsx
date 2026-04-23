@@ -79,10 +79,10 @@ const AllInOneInbox = () => {
       <Helmet>
         <title>Alt-i-én innboks | Vekst Systemet</title>
         <meta name="description" content="Alle meldingene dine på ett sted - SMS, e-post, WhatsApp og sosiale medier. Svar raskere og mist aldri en melding." />
-        <link rel="canonical" href="https://vekst-systemet.no/diensten/all-in-one-inbox" />
+        <link rel="canonical" href="https://www.vekst-systemet.no/diensten/all-in-one-inbox" />
         <meta property="og:title" content="Alt-i-én innboks | Vekst Systemet" />
         <meta property="og:description" content="Alle meldingene dine på ett sted - SMS, e-post, WhatsApp og sosiale medier." />
-        <meta property="og:url" content="https://vekst-systemet.no/diensten/all-in-one-inbox" />
+        <meta property="og:url" content="https://www.vekst-systemet.no/diensten/all-in-one-inbox" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="nb_NO" />
       </Helmet>
