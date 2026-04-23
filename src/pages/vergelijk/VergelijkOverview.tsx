@@ -38,6 +38,13 @@ const comparisons = [
       "Norges to største regnskapsverktøy sammenlignet for håndverkerbedrifter. Pris, funksjoner, prosjektstyring og hvem passer best hvor.",
     tag: "Programvare sammenlignet",
   },
+  {
+    slug: "crm-for-handverkere",
+    title: "CRM for håndverkere",
+    description:
+      "SuperOffice, Pipedrive, Tripletex CRM og HubSpot sammenlignet for norske håndverkerbedrifter. Hvilken passer din bedrift - eller trenger du en i det hele tatt?",
+    tag: "Programvare sammenlignet",
+  },
 ];
 
 const schema = {
