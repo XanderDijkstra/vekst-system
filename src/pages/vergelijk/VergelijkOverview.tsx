@@ -52,6 +52,13 @@ const comparisons = [
       "Tripletex, Tigo, Qbis og SmartHverdag side om side. Byggeplass-funksjoner, GPS-stempling, pris og hvem passer best hvor.",
     tag: "Programvare sammenlignet",
   },
+  {
+    slug: "fakturaprogram-for-handverkere",
+    title: "Fakturaprogram for håndverkere",
+    description:
+      "Fiken, Tripletex, Conta, Visma eAccounting, PowerOffice Go og 24SevenOffice sammenlignet for norske håndverkerbedrifter.",
+    tag: "Programvare sammenlignet",
+  },
 ];
 
 const schema = {
