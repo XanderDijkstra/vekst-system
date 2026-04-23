@@ -31,6 +31,13 @@ const comparisons = [
       "De to største lead-plattformene for håndverkere side om side. Leadsvolum, priser, konkurranse per lead og hvem som passer best hvor.",
     tag: "Platform mot platform",
   },
+  {
+    slug: "tripletex-vs-fiken",
+    title: "Tripletex vs Fiken for håndverkere",
+    description:
+      "Norges to største regnskapsverktøy sammenlignet for håndverkerbedrifter. Pris, funksjoner, prosjektstyring og hvem passer best hvor.",
+    tag: "Programvare sammenlignet",
+  },
 ];
 
 const schema = {
