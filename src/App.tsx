@@ -50,6 +50,7 @@ import MittanbudPriser from "./pages/vergelijk/MittanbudPriser";
 import MittanbudVsAnbudstorget from "./pages/vergelijk/MittanbudVsAnbudstorget";
 import TripletexVsFiken from "./pages/vergelijk/TripletexVsFiken";
 import CrmForHandverkere from "./pages/vergelijk/CrmForHandverkere";
+import TimeregistreringForHandverkere from "./pages/vergelijk/TimeregistreringForHandverkere";
 import MarkedsforingHandverkere from "./pages/guide/MarkedsforingHandverkere";
 import ToolsOverview from "./pages/tools/ToolsOverview";
 import LeadwaardeCalculator from "./pages/tools/LeadwaardeCalculator";
@@ -131,6 +132,7 @@ const App = () => (
           <Route path="/sammenlign/mittanbud-vs-anbudstorget" element={<MittanbudVsAnbudstorget />} />
           <Route path="/sammenlign/tripletex-vs-fiken" element={<TripletexVsFiken />} />
           <Route path="/sammenlign/crm-for-handverkere" element={<CrmForHandverkere />} />
+          <Route path="/sammenlign/timeregistrering-for-handverkere" element={<TimeregistreringForHandverkere />} />
           <Route path="/guide/markedsforing-for-handverkere" element={<MarkedsforingHandverkere />} />
           <Route path="/verktoy" element={<ToolsOverview />} />
           <Route path="/verktoy/leadverdi-kalkulator" element={<LeadwaardeCalculator />} />

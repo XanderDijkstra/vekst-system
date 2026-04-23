@@ -45,6 +45,13 @@ const comparisons = [
       "SuperOffice, Pipedrive, Tripletex CRM og HubSpot sammenlignet for norske håndverkerbedrifter. Hvilken passer din bedrift - eller trenger du en i det hele tatt?",
     tag: "Programvare sammenlignet",
   },
+  {
+    slug: "timeregistrering-for-handverkere",
+    title: "Timeregistrering-app for håndverkere",
+    description:
+      "Tripletex, Tigo, Qbis og SmartHverdag side om side. Byggeplass-funksjoner, GPS-stempling, pris og hvem passer best hvor.",
+    tag: "Programvare sammenlignet",
+  },
 ];
 
 const schema = {
