@@ -562,4 +562,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Alt-i-én-innboks", href: "/tjenester/alt-i-en-innboks" },
     ],
   },
+  {
+    slug: "google-ads-for-handverkere",
+    title: "Google Ads for håndverkere: Slik vet du når det lønner seg i 2026",
+    description:
+      "Hva koster klikk og leads via Google Ads for rørleggere, elektrikere og malere i 2026? Når lønner det seg, når taper du penger - og slik setter du det opp riktig.",
+    category: "Leads",
+    readTime: "11 min",
+    date: "2026-04-24",
+    sections: [
+      {
+        heading: "Når Google Ads faktisk er verdt pengene",
+        body:
+          "Mange håndverkere tror Google Ads er den raske veien til flere kunder. Det stemmer bare hvis grunnmuren er på plass. Ads sender trafikk; de konverterer ikke. Hvis nettsiden din har en konverteringsrate under 3 %, vil Google Ads stort sett bare forsterke et lekk system - du betaler for klikk som ikke blir leads. En rørlegger eller elektriker med en landingsside som konverterer rundt 8-10 % kan derimot tjene 3-5 kr per brukt annonsekrone. Regelen er enkel: fiks nettsiden først, så skru på Ads.",
+      },
+      {
+        heading: "Hvordan Google Ads egentlig fungerer",
+        body:
+          "Google Ads er en auksjon som kjører i sanntid hver gang noen søker. Du byr på søkeord, og posisjonen din avgjøres av budet kombinert med kvalitetspoeng - en sum Google regner ut fra hvor relevant annonsen og landingssiden er. For håndverker-søk betyr det at du konkurrerer med både store aktører, kjedene og useriøse firma som byr høyt. En taktekker eller maler som går blindt inn i auksjonen uten å forstå kvalitetspoeng, ender ofte med å betale 50-100 % mer per klikk enn nødvendig.",
+      },
+      {
+        heading: "Søkeord: intensjon slår volum hver gang",
+        body:
+          "Søkeordet \"rørlegger\" har masse volum, men også masse brede klikk fra folk som bare lurer på priser. \"Akutt rørlegger Bærum\" har mindre volum, høyere klikkpris, men konverterer tre-fire ganger bedre fordi intensjonen er tydelig. Samme logikk gjelder en elektriker, flislegger eller tømrer: kombinasjoner med sted pluss behov pluss fag gir de mest lønnsomme klikkene. Prissøk som \"rørleggerservice pris\" er nesten alltid tapt budsjett. Bygg søkeordslisten rundt 10-30 tight kombinasjoner i stedet for 200 brede.",
+      },
+      {
+        heading: "Hva koster et klikk og en lead i 2026",
+        body:
+          "Klikkpriser på håndverker-søkeord i Norge ligger typisk mellom 8 og 45 kr per klikk. Akuttsøk som \"akutt rørlegger\" eller \"taktekker lekkasje\" kan gå opp mot 80 kr i storbyene. Med en landingsside som konverterer 10 % betyr det en kostnad per lead på 200-800 kr. Vinner du hver fjerde lead, havner vunnet jobb på 800-3 200 kr. Sammenlignet med Mittanbud, som ofte ligger på 1 500-4 000 kr per vunnet jobb, er Ads konkurransedyktig - men bare med riktig landingsside og rask lead-oppfølging.",
+      },
+      {
+        heading: "Landingssiden avgjør hele regnestykket",
+        body:
+          "Send aldri Ads-trafikk til forsiden din. En besøkende som søkte \"flislegger bad Oslo\" skal lande på en side om flislegging av bad i Oslo - ikke en generisk velkommen-side med seks fag listet opp. Landingssiden må være mobilvennlig, ha høy sidehastighet, tydelig CTA, telefonnummer synlig øverst og social proof fra anmeldelser. For en murer eller pusser kan forskjellen på forside (2 % konvertering) og riktig landingsside (12 %) være seks ganger flere leads på samme budsjett. Det er ikke markedsføring - det er matematikk.",
+      },
+      {
+        heading: "Rask lead-oppfølging gjør annonsene lønnsomme",
+        body:
+          "Google Ads lover ikke mer enn et klikk. Resten er opp til deg. En kunde som klikker på annonsen din, ser annonser fra fire andre håndverkere samtidig. Svarer du ikke innen 5 minutter, er leaden i praksis borte. Automatisert lead-oppfølging som sender SMS til både deg og kunden i samme sekund skjemaet sendes inn, doblet resultatet for en elektriker vi fulgte over tre måneder - fra 1,8 til 3,9 kr tilbake per brukt annonsekrone. Kombiner det med tapt anrop-fang, så glipper ingen lead fordi du sto på en stige.",
+      },
+      {
+        heading: "Måling: spor hele veien fra klikk til betalt faktura",
+        body:
+          "Mange håndverkere måler Ads på klikk og kostnad per lead. Det er halve bildet. Den viktigste målingen er kostnad per vunnet jobb og faktisk omsetning per annonsekrone - for en tømrer eller taktekker kan den variere fra 2 kr til 15 kr avhengig av søkeord. Koble CRM til Google Ads via konverteringssporing så du ser hvilke søkeord som gir betalte jobber, ikke bare skjemaforespørsler. Da kan du skru opp budet der det lønner seg og slå av resten.",
+      },
+      {
+        heading: "Fem vanlige feil som brenner budsjett",
+        body:
+          "De samme feilene går igjen hos håndverkerbedrifter som taper på Ads. Første: for bredt geografisk område - en flislegger i Trondheim som byr på hele Midt-Norge får klikk fra folk som ikke kommer til å kjøre to timer. Andre: ingen negative søkeord, så du betaler for \"rørleggerutdanning\" og \"rørlegger jobb ledig\". Tredje: automatiske budstrategier aktivert uten nok konverteringsdata. Fjerde: samme annonsetekst til alle søk. Femte: landingsside der skjemaet krever åtte felter - konverteringsraten går i kjelleren.",
+      },
+      {
+        heading: "Når du bør skru Ads av og stole på lokal SEO",
+        body:
+          "Google Ads er et dyrt supplement, ikke en evig løsning. Har du investert 6-12 måneder i lokal SEO, Google Bedriftsprofil og anmeldelser, kommer organisk trafikk gratis - og konverterer typisk bedre enn Ads. Mange etablerte rørleggere og elektrikere bruker Ads aktivt de første 6-12 månedene, og deretter bare i travle sesonger eller på spesielle kampanjer. En taktekker som plutselig får 70 % av jobbene via organisk søk, bør ikke fortsette å betale 40 000 kr i måneden i Ads - den kalkulatoren regner seg selv.",
+      },
+      {
+        heading: "Slik passer Ads inn i den fulle stacken",
+        body:
+          "Google Ads fungerer best som ett lag i et system - ikke som eneste kanal. Du trenger en nettside som konverterer, en anmeldelsesfunnel som bygger tillit, automatisk lead-oppfølging som fanger opp hver klikker, CRM som måler tilbake til vunnet jobb, og tapt anrop-automatisering som fanger opp telefonene du missa. Vekst Systemet leverer hele stacken ferdig satt opp, slik at Ads-budsjettet du bruker, faktisk ender som betalte fakturaer og ikke bare klikk. For en håndverkerbedrift som vurderer Ads, er det forskjellen på gambling og en driftet kanal.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
