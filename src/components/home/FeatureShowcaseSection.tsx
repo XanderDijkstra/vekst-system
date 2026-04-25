@@ -1,14 +1,26 @@
+import { lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { fadeInUp, systemEase } from "@/lib/animations";
 import { ArrowRight } from "lucide-react";
-import ReviewFunnelAnimation from "@/components/review-funnel/ReviewFunnelAnimation";
-import MissedCallAnimation from "@/components/missed-call/MissedCallAnimation";
-import LeadFollowUpAnimation from "@/components/lead-followup/LeadFollowUpAnimation";
-import MarketingCampaignsAnimation from "@/components/marketing-campaigns/MarketingCampaignsAnimation";
-import LokalSeoAnimation from "@/components/lokal-seo/LokalSeoAnimation";
+
+// Each animation is its own chunk — bundled separately so the homepage
+// initial paint isn't blocked by ~250 KB of phone-mockup screens that
+// live below the fold.
+const ReviewFunnelAnimation = lazy(() => import("@/components/review-funnel/ReviewFunnelAnimation"));
+const MissedCallAnimation = lazy(() => import("@/components/missed-call/MissedCallAnimation"));
+const LeadFollowUpAnimation = lazy(() => import("@/components/lead-followup/LeadFollowUpAnimation"));
+const MarketingCampaignsAnimation = lazy(() => import("@/components/marketing-campaigns/MarketingCampaignsAnimation"));
+const LokalSeoAnimation = lazy(() => import("@/components/lokal-seo/LokalSeoAnimation"));
+
+const AnimationFallback = () => (
+  <div
+    className="w-full"
+    style={{ aspectRatio: "402 / 700", maxWidth: 402, margin: "0 auto" }}
+  />
+);
 
 /* ───── Feature showcase data ───── */
 interface FeatureItem {
@@ -207,7 +219,9 @@ const FeatureShowcaseSection = () => {
                 }`}
               >
                 {showcase.Animation ? (
-                  <showcase.Animation />
+                  <Suspense fallback={<AnimationFallback />}>
+                    <showcase.Animation />
+                  </Suspense>
                 ) : (
                   <div className="rounded-2xl bg-muted/50 border border-border flex items-center justify-center overflow-hidden">
                     <div className="aspect-[4/3] w-full flex items-center justify-center text-center p-8">
