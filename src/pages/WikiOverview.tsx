@@ -8,7 +8,37 @@ import { ArrowRight, BookOpen } from "lucide-react";
 
 const SITE_URL = "https://www.vekst-systemet.no";
 
-const WikiOverview = () => (
+const WikiOverview = () => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Wiki | Markedsføringsbegreper for håndverkere | Vekst Systemet",
+    url: `${SITE_URL}/wiki`,
+    description:
+      "Alle markedsførings- og digitale termer forklart på vanlig norsk. Spesielt for håndverkere som vil forstå hvordan nettmarkedsføring fungerer.",
+    inLanguage: "nb-NO",
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Hjem", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "Wiki", item: `${SITE_URL}/wiki` },
+      ],
+    },
+    mainEntity: {
+      "@type": "DefinedTermSet",
+      "@id": `${SITE_URL}/wiki#set`,
+      name: "Vekst Systemet Wiki",
+      url: `${SITE_URL}/wiki`,
+      hasDefinedTerm: wikiTerms.map((t) => ({
+        "@type": "DefinedTerm",
+        name: t.term.replace(/\s*\(.*?\)\s*/g, "").trim(),
+        description: t.shortDescription,
+        url: `${SITE_URL}/wiki/${t.slug}`,
+      })),
+    },
+  };
+
+  return (
   <PageShell>
     <Helmet>
       <title>Wiki | Markedsføringsbegreper for håndverkere | Vekst Systemet</title>
@@ -25,6 +55,7 @@ const WikiOverview = () => (
       <meta property="og:url" content={`${SITE_URL}/wiki`} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="nb_NO" />
+      <script type="application/ld+json">{JSON.stringify(schema)}</script>
     </Helmet>
 
     {/* Hero */}
@@ -101,6 +132,7 @@ const WikiOverview = () => (
       </section>
     )}
   </PageShell>
-);
+  );
+};
 
 export default WikiOverview;
