@@ -630,4 +630,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "facebook-annonser-for-handverkere",
+    title: "Facebook-annonser for håndverkere: Når lønner det seg i 2026",
+    description:
+      "Når fungerer Facebook-annonser for rørleggere, elektrikere og malere - og når kaster du bort budsjettet? Slik setter du det opp lønnsomt i 2026.",
+    category: "Leads",
+    readTime: "11 min",
+    date: "2026-04-25",
+    sections: [
+      {
+        heading: "Facebook eller Google - når Facebook faktisk vinner",
+        body:
+          "Mange håndverkere blir frarådet å bruke Facebook-annonser fordi \"ingen kjøper rørlegger på Facebook\". Det stemmer for akutt-jobber - en kunde med vannlekkasje googler, hun scroller ikke. Men for planlagte jobber med lang beslutningsperiode - kjøkkenoppussing, bad-renovering, bytte av tak, etterisolering - er Facebook ofte den mest lønnsomme kanalen. En tømrer eller maler som fanger oppmerksomheten til en huseier seks måneder før jobben skal starte, vinner forespørselen før konkurrenten i det hele tatt vises i et Google-søk. Spørsmålet er ikke om Facebook fungerer, men hvilke jobber du tar.",
+      },
+      {
+        heading: "Forskjellen i intensjon - og hvorfor det styrer alt",
+        body:
+          "Google Ads fanger folk som har bestemt seg for å kjøpe. Facebook-annonser fanger folk før de har bestemt seg. Det høres dårligere ut, men er ofte bedre: en flislegger som treffer en huseier som planlegger bad-oppussing til våren, har null konkurranse fordi kunden ennå ikke googler. Til gjengjeld må annonsen jobbe hardere for å skape interesse - en før/etter-video av et reelt prosjekt, en kort tekst om hva jobben kostet, og en tydelig CTA. Konverteringsraten er lavere per klikk, men leadkvaliteten kan være høyere fordi det blir mindre prisshopping på fem leverandører samtidig.",
+      },
+      {
+        heading: "De tre annonseformatene som faktisk gir leads",
+        body:
+          "Glem statiske bilder med firmalogo - de leverer null. Tre formater fungerer for en håndverker: før/etter-videoer på 15-30 sekunder vist liggende, bildekarusell med 4-6 bilder fra ett konkret prosjekt, og Lead Ads som lar kunden sende inn forespørsel uten å forlate Facebook. Lead Ads konverterer ofte 2-3 ganger bedre enn klikk til nettsiden fordi friksjonen er lavere. Til gjengjeld kommer leadene noen ganger inn lunkne, så automatisk lead-oppfølging må slå inn samme minutt - ellers er forespørselen kald før du ringer tilbake dagen etter.",
+      },
+      {
+        heading: "Målretting - hvem du faktisk skal treffe",
+        body:
+          "Den vanligste feilen er bredmålretting: \"huseiere 25-65 år, hele Østlandet\". Du betaler for visninger til folk som aldri kjøper. En elektriker eller rørlegger får langt bedre resultater ved å målrette geografisk smalt (10-30 km radius), aldersgruppe 35-65, og interesseprofiler som oppussing, eiendomsmegler-følgere eller IKEA-kjøkken. Custom Audiences fra eksisterende kunder gir deg dessuten Lookalike-målgrupper - folk som ligner dem som allerede har kjøpt av deg. For en murer i Bergen kan en Lookalike bygget på 200 tidligere kunder gi en CPL som er 40-60 % lavere enn kald målretting på samme budsjett.",
+      },
+      {
+        heading: "Kreativ - video og før/etter slår alt",
+        body:
+          "En kort video av et faktisk prosjekt slår en pent designet bilde-annonse hver gang. Ikke produsert reklamefilm - bare en mobilfilm der du går rundt det ferdige badet, kjøkkenet eller det nylagte taket og forteller kort hva jobben innebar og hva det kostet. En taktekker som postet seks slike videoer på tre måneder fikk en CPL som var halvparten av hva generiske annonser leverte. Rådet er enkelt: bruk din egen stemme, vis ekte arbeid, og la annonsen ha samme look som vanlige innlegg på feeden. Hopper kunden over reklame, hopper hun ikke over en kollegas video.",
+      },
+      {
+        heading: "Landingssiden avgjør om du får tilbake pengene",
+        body:
+          "Bruker du klikk-annonser i stedet for Lead Ads, gjelder samme regel som for Google Ads: send aldri trafikken til forsiden. En kunde som klikket på en annonse om kjøkkenoppussing skal lande på en side om kjøkkenoppussing - ikke en oversiktsside. Landingssiden må være mobilvennlig (Facebook-trafikk er nesten 90 % mobil), ha sidehastighet under tre sekunder, ett tydelig CTA, social proof fra anmeldelser og et skjema med maks fire felter. En kjøkkenmontør vi fulgte gikk fra 1,2 % konvertering på forsiden til 9 % på en dedikert landingsside - sju ganger flere leads på samme annonsekrone.",
+      },
+      {
+        heading: "Hva koster en lead via Facebook i 2026",
+        body:
+          "For håndverker-segmentet i Norge ligger CPM (kostnad per 1 000 visninger) typisk på 50-90 kr i 2026. Klikkpriser ender på 4-12 kr, og en Lead Ad-konvertering koster ofte 80-250 kr per lead avhengig av geografi og fag. Storbymarkeder som Oslo og Bergen er dyrere; en taktekker eller flislegger i mindre kommuner kan få leads under 100 kr. Vinner du hver tredje lead, havner kostnad per vunnet jobb på 240-750 kr - betydelig billigere enn Mittanbud, og ofte sammenlignbart med god lokal SEO. Men kun hvis leadkvaliteten matcher, og det henger på målretting og kreativ.",
+      },
+      {
+        heading: "Rask oppfølging - eller annonsekronene er bortkastet",
+        body:
+          "Facebook-leads er kalde sammenlignet med Google-leads. En kunde som fyller ut Lead Ad-skjemaet en lørdag kveld har scrollet videre 30 sekunder etter. Får hun ikke melding tilbake samme kveld, husker hun knapt at hun spurte. En automatisert SMS som går ut innen ett minutt med \"Takk for forespørselen, jeg ringer deg første ledige tid mandag\" redder leadene som ellers ville vært tapt. Kombinert med automatisering som logger leadet i CRM og setter en oppfølging hvis kunden ikke svarer, kan svarrate gå fra 25 til 60 % på Facebook-leads. Det er forskjellen på lønnsom og ulønnsom annonsering.",
+      },
+      {
+        heading: "Fem vanlige feil som tømmer budsjettet",
+        body:
+          "De samme tabbene går igjen. Første: bredmålretting uten Lookalike eller geografisk avgrensning. Andre: å pause annonsen etter to dager fordi \"det kommer ingen leads\" - Facebook trenger 5-7 dager med 50+ konverteringer for å lære algoritmen. Tredje: stockfoto eller firmalogo som hovedbilde i stedet for ekte før/etter-prosjekt. Fjerde: kjøre annonsen til en forside med høy bounce. Femte: ingen retargeting på folk som har klikket men ikke konvertert - selv om det er den billigste konverteringen du kan kjøpe. En maler eller pusser som retargeter de siste 30 dagene med en CPL på 50-80 kr ser ofte at det blir den mest lønnsomme delen av kontoen.",
+      },
+      {
+        heading: "Slik passer Facebook inn i den fulle stacken",
+        body:
+          "Facebook-annonser virker ikke alene. Stacken som faktisk gir avkastning består av en konverterende landingsside, en anmeldelsesfunnel som bygger social proof, automatisert lead-oppfølging som griper hvert nye skjema innen sekunder, tapt anrop-fang for telefonene du missa, og et CRM som måler hvilke annonser som ender som betalte fakturaer. Uten den infrastrukturen brenner du penger på klikk som aldri blir jobber. Vekst Systemet leverer hele stacken ferdig satt opp til en fast månedspris - landingsside, automatisering, CRM, anmeldelser og oppfølging - slik at Facebook-budsjettet faktisk gir deg jobber, ikke bare engasjement-tall i Ads Manager.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
