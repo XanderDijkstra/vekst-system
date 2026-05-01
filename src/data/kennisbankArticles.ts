@@ -955,4 +955,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "fakturaprogram-for-handverkere",
+    title: "Fakturaprogram for håndverkere: Slik velger du riktig system i 2026",
+    description:
+      "Slik finner du fakturaprogrammet som faktisk passer en håndverkerbedrift - fra timeregistrering og prosjektkostnader til Tripletex, Visma, Fiken og PowerOffice. Hva å se etter, hva å unngå.",
+    category: "Teknisk",
+    readTime: "10 min",
+    date: "2026-05-01",
+    sections: [
+      {
+        heading: "Hva et fakturaprogram faktisk skal løse for en håndverker",
+        body:
+          "Et fakturaprogram for en regnskapsfører og et fakturaprogram for en rørlegger eller tømrer er to forskjellige verktøy - selv om de heter det samme. Håndverkerbedrifter har materialer kjøpt på Maxbo og Byggmakker som skal kobles til riktig prosjekt, timer fra fire ansatte på tre byggeplasser som må fordeles korrekt, og dokumentasjon med bilder som hører til sluttfaktura. Et standard fakturaprogram dekker det grunnleggende, men mister 8-12 % av fakturerbart materiell og timer fordi koblingen mellom prosjekt, kvitteringer og fakturalinjer er for svak. For en bedrift med 3 millioner i omsetning betyr det 240 000-360 000 kroner som forsvinner på papiret hvert år.",
+      },
+      {
+        heading: "Timeregistrering og prosjektsporing - kjernen i alt",
+        body:
+          "Timer som ikke registreres samme dag, blir glemt. Kjernen i et fakturaprogram for en elektriker, maler eller flislegger er at hver svenn enkelt kan registrere timer fra mobilen mens jobben pågår - ikke fredag ettermiddag når uka skal oppsummeres. Programmet bør koble timer direkte til prosjekt og fakturalinje, slik at fakturaen genereres automatisk på fredag uten gjetting. Det er også her du oppdager hvilke prosjekter som faktisk er lønnsomme. En tømrer vi snakket med hadde 6 % høyere margin på kjøkken enn på bad - men oppdaget det først da timeregistreringen ble strukturert. Uten den dataen prises hvert prosjekt på følelse.",
+      },
+      {
+        heading: "Integrasjon med CRM, lønn og regnskap",
+        body:
+          "Det største tidstapet i en håndverkerbedrift er ikke selve fakturaen - det er overføringen mellom systemene. Får du leads i ett system, fakturerer i et annet, kjører lønn i et tredje og regnskap i et fjerde, ender du opp med å registrere de samme dataene 3-4 ganger. En rørleggerbedrift med 6 ansatte taper typisk 5-8 timer i uka på dette - rundt 100 000 kroner i året i intern administrasjonstid. Velg et fakturaprogram som integrerer enten direkte eller via Zapier mot CRM-en, lønnssystemet og regnskapet ditt. Tripletex og Visma har dette innebygd; mindre programmer krever ofte tredjepartstillegg som koster mer i vedlikehold enn de sparer.",
+      },
+      {
+        heading: "Tripletex, Visma, Fiken, PowerOffice - hva passer hvem",
+        body:
+          "Fiken passer best for soloentreprenører og bedrifter under 5 ansatte: enkel, rimelig (300-500 kr/mnd), god mobilbruk, men begrenset prosjektmodul. Tripletex (550-1 200 kr/mnd) er det vanlige valget for håndverkerbedrifter mellom 3 og 30 ansatte - god prosjektøkonomi, EHF, integrasjoner og lønnsmodul i samme grensesnitt. Visma eAccounting og Visma.net er overlegne på integrasjon med Vismas øvrige stack, men mer komplekse å sette opp. PowerOffice GO ligger mellom Fiken og Tripletex på pris og funksjon. Generelt: en taktekker eller murer med 5+ ansatte vil sjeldent angre Tripletex; en altmuligmann som driver alene betaler for mye hvis han velger Tripletex i stedet for Fiken.",
+      },
+      {
+        heading: "EHF-faktura og automatisering av purring",
+        body:
+          "EHF (Elektronisk Handelsformat) er obligatorisk for fakturering til offentlig sektor og store private kunder, og blir stadig mer ventet også hos vanlige forbrukere. Et fakturaprogram uten EHF-støtte stenger deg ute fra offentlige oppdrag - som for en glassmester eller flislegger som tar skoleoppdrag kan utgjøre 30-40 % av omsetningen. Like viktig er automatisert purring. En håndverker som purrer manuelt 14, 28 og 42 dager etter forfall mister tid og lar 5-10 % av fakturaene gli for langt før de kommer på inkasso. Et godt fakturaprogram sender purring 1, 2 og 3 automatisk med riktige gebyrsatser - du gjør ingenting og likviditeten holdes oppe.",
+      },
+      {
+        heading: "Mobil bruk - kan du fakturere fra bil og bygg?",
+        body:
+          "En maler eller solcelleinstallatør som er på byggeplass hele dagen kan ikke vente til kvelden med å åpne PC-en for å fakturere. Et godt fakturaprogram har en faktisk fungerende mobilapp - ikke bare en mobilvennlig nettside som tilfeldigvis åpner seg på telefonen. Test før du velger: kan svennen ta bilde av en kvittering på Maxbo og knytte den til et prosjekt på 30 sekunder? Kan du sende ferdig faktura med EHF fra parkeringsplassen utenfor kunden? Hvis svaret er nei, taper du tid hver eneste dag. Tripletex og Fiken har solide mobilapper. Eldre Visma-versjoner og en del nisjeprogrammer halter fortsatt på mobil bruk.",
+      },
+      {
+        heading: "Vanlige feil ved valg av fakturaprogram",
+        body:
+          "Den vanligste feilen er å velge etter pris alene. 200 kr i månedlig forskjell betyr ingenting hvis det dyrere systemet sparer 5 timer i uka. Den nest vanligste er å velge etter hva regnskapsføreren foretrekker - regnskapsføreren skal jobbe med systemet ja, men det er du og svennene som skal bruke det 95 % av tiden. Den tredje feilen er å bytte for ofte. Et bytte koster typisk 30-60 timer i datamigrering og ny opplæring. Bytt kun når den nåværende løsningen aktivt holder bedriften tilbake. Den fjerde er å undervurdere hva integrasjonen mot resten av stacken (CRM, lead-oppfølging, kundekommunikasjon) faktisk krever for å virke smertefritt.",
+      },
+      {
+        heading: "Hva fakturaprogrammet ikke løser",
+        body:
+          "Et fakturaprogram skaper ikke leads, sender ikke ut anmeldelsesforespørsler, og henter ikke kunder fra Google. Det er et viktig poeng som mange tømrere og rørleggere går i fellen på: de tror at oppgradering av fakturaprogrammet skal løse veksten. Det gjør det ikke. Fakturaprogrammet er driftsmotoren - du fakturerer det du har gjort. Vekstmotoren er noe annet: lokal SEO, konvertering på nettsiden, anmeldelsesfunnel og automatisert lead-oppfølging. Disse to lever side om side, men de løser ulike problemer. En bedrift som har orden på fakturaprogrammet, men ikke på leadgenerering og kundekommunikasjon, vokser ikke - den fakturerer bare litt mer effektivt det den allerede har.",
+      },
+      {
+        heading: "Anbefalt stack for 2026 - i denne rekkefølgen",
+        body:
+          "Start med Fiken eller Tripletex avhengig av størrelse - ikke vent. Hver uke uten ordentlig timeregistrering er penger som forsvinner. Sett opp prosjektmodulen riktig fra dag én: hvert prosjekt får sin egen kode, hver kvittering kobles direkte, hver time registreres samme dag på mobilen. Måned to: koble fakturaprogrammet mot CRM og lead-systemet ditt slik at en vunnet jobb automatisk blir et prosjekt med riktig kunde og kontaktinfo. Måned tre: aktiver EHF og automatisert purring slik at likviditeten ikke spiser tid. Vekst Systemet integrerer med Tripletex og Fiken og leverer hele lead-til-faktura-flyten ferdig satt opp - slik at en flislegger eller pusser ikke trenger å koble fem systemer manuelt før det funker.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Timepris for håndverkere 2026", href: "/kunnskapsbank/timepris-for-handverkere-2026" },
+      { label: "CRM for håndverkere", href: "/kunnskapsbank/crm-for-handverkere" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Timepris-kalkulator", href: "/verktoy/timepris-kalkulator" },
+      { label: "Personalkostnad-kalkulator", href: "/verktoy/personalkostnad-kalkulator" },
+    ],
+  },
 ];
