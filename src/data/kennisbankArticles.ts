@@ -1134,4 +1134,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "instagram-for-handverkere",
+    title: "Instagram for håndverkere: Slik vinner du lokale jobber",
+    description:
+      "Instagram er gratis, lokal og perfekt for håndverkere som vil vise frem jobbene sine. Praktisk guide til hva du legger ut, hvor ofte og hvordan det blir til konkrete jobber.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-05-04",
+    sections: [
+      {
+        heading: "Hvorfor Instagram er undervurdert for håndverkere",
+        body:
+          "Instagram blir ofte sett på som et verktøy for influensere, kafeer og treningsstudioer - ikke for håndverkerbedrifter med skitne arbeidssko og fysiske jobber. Det er en grov undervurdering. Plattformen har rundt 3,3 millioner norske brukere, og en betydelig andel er huseiere mellom 30 og 55 år som planlegger oppussing, bad, tak eller kjøkken de neste 12 månedene. For en maler, taktekker eller flislegger med portefølje av visuelt sterke prosjekter, gir Instagram noe Google ikke gjør: muligheten til å vise håndverket før kunden har søkt. Du fanger interesse på et tidlig tidspunkt i kjøpsreisen, før valget av leverandør er bestemt.",
+      },
+      {
+        heading: "Profil-oppsett som virker fra dag én",
+        body:
+          "En håndverkerprofil må være ferdig satt opp før første post. Bruk bedriftsnavnet som brukernavn, ikke en kreativ variant - kunden søker på Hansen Tømrer, ikke @snekkergutta. Bio-en skal i tre linjer fortelle hva du gjør, hvor du jobber og gi en grunn til å ta kontakt: \"Tømrer i Bærum og Asker. Tilbygg, bad og terrasse. Ring 412 34 567 for befaring.\" Lenken i bio-en skal gå direkte til en landingsside med skjema, ikke til forsiden din. Bytt til Business-konto i innstillingene - det er gratis, og du får statistikk på hvilke poster som faktisk gir trafikk. Profilbildet skal være logoen, ikke selfie, slik at kunden gjenkjenner deg når dere møtes på befaring.",
+      },
+      {
+        heading: "Hva du faktisk skal legge ut",
+        body:
+          "Tre typer innhold dominerer for håndverkere. Først: før-og-etter fra reelle prosjekter - en flislegger som viser et utdatert bad i ett bilde og det ferdige resultatet i neste, får 5-10 ganger mer engasjement enn enhver annonse. Andre type: prosess-video. 30 sekunder med en taktekker som legger underlagspapp, eller en murer som blander mørtel, virker fordi det er noe folk aldri ser. Tredje type: praktiske oppussingstips - hva et bad realistisk koster, hva man bør unngå når man velger maler, hvilke fallgruver folk går i når de bestiller takarbeid. Det siste er konvertering forkledd som verdi - kunden lærer noe samtidig som du etablerer deg som fagmannen som vet hva han snakker om.",
+      },
+      {
+        heading: "Før-og-etter-bilder er det enkleste som virker",
+        body:
+          "Hvis du bare gjør én ting på Instagram, gjør dette: ta før-bilder før du begynner på en jobb, og etter-bilder når du er ferdig. En maler som gjør om en utslitt stue fra mørk furu til lys grå-hvit, har et naturlig wow-bilde å publisere. Bruk samme vinkel og samme høyde på begge bildene - det er gjenkjennelsen som får algoritmen til å heve posten. Skriv en kort tekst med to konkrete fakta: hvor lang tid jobben tok og omtrentlig pris. \"3 dager, vannbasert maling, totalpris 28 000 kr inkl. mva\" gir kunden beslutningsgrunnlag - og den som kommenterer eller sender DM, er ofte en måned fra å bestille selv.",
+      },
+      {
+        heading: "Reels og video - 60 sekunder fra rør til ferdig",
+        body:
+          "Reels - korte vertikale videoer på 15-60 sekunder - er det Instagram presser hardest i 2026, og de når langt utenfor følgerlisten din. Filmer du en rørlegger som bytter sluk på 60 sekunder, får videoen ofte 3 000-8 000 visninger fra folk som aldri har hørt om bedriften din før. Du trenger ikke profesjonelt utstyr; et stativ til mobilen og naturlig dagslys holder. Tre formater fungerer pålitelig: tidslapse av en hel arbeidsdag komprimert til 30 sekunder, en saktevideo der du forklarer en fagdetalj med tekst på, og en \"5 ting jeg ser etter på befaring\"-type liste. Det siste er den som oftest gir DM-er fra potensielle kunder.",
+      },
+      {
+        heading: "Hashtag og lokal synlighet",
+        body:
+          "Hashtag-strategien for håndverkere er enklere enn for de fleste andre bransjer fordi du jobber lokalt. Bland tre typer i hver post: en generisk fag-hashtag (#tomrer, #elektriker, #maler), en geografisk hashtag (#oslo, #bergen, #trondelag), og en intent-hashtag som beskriver jobbtypen (#oppussing, #baderomsoppussing, #takomlegging). Fem til åtte hashtags per post er nok - flere skader ikke, men hjelper heller ikke nevneverdig. Merk geografisk plassering på hver eneste post; det er gratis lokal SEO som styrker din synlighet i nærområdet. En tømrer som merker hvert prosjekt med riktig poststed, bygger over tid et halv-organisk publikum av huseiere i området - fjerne fra kjøp i dag, men nære i kjøp om seks måneder.",
+      },
+      {
+        heading: "Stories og DM-er er der jobbene faktisk lukkes",
+        body:
+          "Feed-poster bygger merkevaren din; Stories og DM-er bygger jobbene. Stories er korte, varer 24 timer og får ofte mer engasjement enn vanlige innlegg fordi de oppleves som ærlige og uredigerte. Bruk dem til å dokumentere arbeidsdagen: en flislegger som viser uttørringstid på fugemasse, en taktekker som filmer fra mønet med utsikt utover Oslo. Den som ser ti slike Stories på rad, husker deg når hun selv trenger taktekker. DM-ene er der konverteringen skjer. En \"hei, så at du har lagt tak i Røa - kan du komme på befaring hos meg?\" må besvares innen timer, ikke dager. Tapt anrop og automatisert lead-oppfølging dekker telefon og e-post; for Instagram må du sjekke innboksen daglig.",
+      },
+      {
+        heading: "Hvor ofte du skal poste, og hvor ofte du skal slutte å bekymre deg",
+        body:
+          "Frekvensen er det folk har mest dårlig samvittighet over og som betyr minst. To til tre poster i uka er nok hvis hver enkelt er god. Tre dårlige poster per uke gir mindre enn én god post hver fjortende dag. Sett av en time annenhver uke til å bla gjennom mobilrullen, hente ut de beste bildene fra de siste jobbene og planlegge fire poster forover. Mange håndverkere bruker en CRM eller egen app til å batch-plante poster framfor å publisere ad-hoc. Sluttresultatet etter et halvt år er en visuell katalog over jobbene dine som fungerer som social proof i alle senere salgssamtaler - kunden trenger ikke spørre om referanser, hun ser dem i feed-en.",
+      },
+      {
+        heading: "Slik kobler du Instagram inn i resten av kundereisen",
+        body:
+          "Instagram alene er en god kanal. Som ledd i en helhetlig kundereise blir den en motor. En følger ser et før-og-etter-bilde, klikker lenken i bio, lander på en landingsside med kort skjema, fyller ut og blir automatisk lagt inn i CRM-et med tag \"Instagram\". Automatisert lead-oppfølging sender SMS innen 5 minutter; befaring bookes; jobb utføres. Etter jobben aktiverer en anmeldelsesfunnel forespørsel om Google-anmeldelse - som igjen styrker den lokale SEO-en din. Vekst Systemet leverer hele denne kjeden ferdig satt opp: nettside med konverteringsoptimaliserte landingssider, CRM, anmeldelsesfunnel, automatisering og en innboks som fanger opp leads fra Instagram, Facebook, Mittanbud og Google i samme oversikt - slik at det eneste du trenger å gjøre, er å poste.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Facebook-annonser for håndverkere", href: "/kunnskapsbank/facebook-annonser-for-handverkere" },
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
