@@ -588,17 +588,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "click-through-rate",
     term: "Klikkfrekvens (CTR)",
-    shortDescription: "Hvor stor andel av dem som ser lenken eller annonsen din, faktisk klikker på den.",
+    shortDescription:
+      "CTR (Click-Through Rate, klikkfrekvens) er prosentandelen av dem som ser annonsen, søketreffet eller e-posten din som faktisk klikker. For håndverkere er CTR den raskeste indikatoren på om markedsføringen treffer.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "CTR står for Click-Through Rate - klikkfrekvens på norsk. Det er antall klikk delt på antall visninger, uttrykt i prosent. Brukes overalt: Google-søk, Google Ads, Facebook-annonser, e-postkampanjer. En Google Ads-kampanje med 2 % CTR er svak; 8 %+ er bra." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "CTR er tidligvarsler for om markedsføringen virker. For en SEO-side betyr lav CTR at tittel og beskrivelse er kjedelige, selv om du rangerer. For Google Ads betyr lav CTR at du betaler mer per klikk (Google straffer svake annonser). Og for e-post: sender du tilbud uten emne som fenger, åpnes de ikke." },
-      { heading: "Hvordan fungerer det?", body: "I Google Search Console ser du CTR per søkeord du rangerer på. For Google Ads er CTR synlig i dashboardet. Forbedre CTR ved å teste ulike titler (meta-tittel for SEO, annonsetekst for Ads), legge til tall og garanti, og matche teksten tett med søkeordet." },
+      {
+        heading: "Hva er CTR?",
+        body:
+          "CTR står for Click-Through Rate - klikkfrekvens på norsk. Beregningen er enkel: antall klikk delt på antall visninger, ganget med 100. Et Google-søketreff som vises 1 000 ganger og blir klikket 80 ganger har 8 % CTR. CTR brukes overalt der noe vises og noen kan klikke: Google-søkeresultater, Google Ads, Facebook-annonser, e-postkampanjer, SMS-kampanjer, push-varsler. Det er en av de viktigste markedsføringsmetrikkene fordi den måler hvor godt budskapet ditt fenger - før kunden i det hele tatt har kommet til nettsiden din.",
+      },
+      {
+        heading: "Hva er en god CTR?",
+        body:
+          "Hva som regnes som god CTR varierer kraftig etter kanal. Google Ads i håndverker-bransjen: 2-3 % er svakt, 4-6 % er normalt, 8 %+ er bra. Google organiske treff: posisjon 1 har gjennomsnittlig 30 % CTR, posisjon 5 har ca 7 %, posisjon 10 har 2-3 %. Facebook-annonser: 0,9-1,5 % er normalt, 2 %+ er bra. E-post: 2-5 % CTR er normalt for kommersielle kampanjer. SMS: 15-25 % CTR er typisk. Hvis tallene dine ligger under disse, har du et budskapsproblem - ikke et trafikkproblem.",
+      },
+      {
+        heading: "Hvorfor CTR matters for håndverkere",
+        body:
+          "Lav CTR koster deg penger på flere måter. På Google Ads betaler du mer per klikk når CTR er lav (Google straffer svake annonser med høyere CPC). På SEO mister du klikk selv når du rangerer bra - en topp-3-posisjon med 1 % CTR konverterer til samme antall klikk som posisjon 8 med 5 % CTR. På e-post og SMS betyr lav CTR at du brenner kontaktlisten din uten å få noe tilbake. Tallene er ikke akademiske - de er forskjellen på 50 og 200 leads i måneden på samme markedsføringsbudsjett.",
+      },
+      {
+        heading: "Slik måler du CTR riktig",
+        body:
+          "I Google Search Console ser du organisk CTR per søkeord du rangerer på - finn den under \"Performance\". Filter på sider eller queries for å se hva som virker. I Google Ads er CTR synlig direkte i kampanje-dashboardet under hver annonse, annonsegruppe og kampanje. I Facebook Ads Manager finner du den under \"Performance\". For e-post: åpne din e-postleverandør (Mailchimp, Klaviyo, etc) og se rapporten per kampanje. Mål jevnlig - svingninger på 50 %+ over en måned er signal om at noe har endret seg.",
+      },
+      {
+        heading: "5 grep som hever CTR raskest",
+        body:
+          "1) Inkluder tall i tittelen - \"5 ting å sjekke før du velger rørlegger\" slår \"Velg riktig rørlegger\". 2) Bruk lokale referanser - \"Rørlegger Oslo - akutt service\" slår \"Profesjonell rørlegger\". 3) Legg til prisindikasjon - \"Bad-oppussing fra 180 000 kr\" gir CTR-løft når andre skjuler pris. 4) Speil søkeordet i tittelen - hvis kunden googler \"akutt elektriker Bergen\", skal annonsen din si akkurat det. 5) Test fortløpende - bytt tittel, mål 7-14 dager, behold vinneren. Disse fem grepene tar typiske CTR fra 2 % til 5-7 %.",
+      },
+      {
+        heading: "CTR i Google-søk: meta-tittel og beskrivelse",
+        body:
+          "For organisk SEO er meta-tittelen (under 60 tegn) og meta-beskrivelsen (140-160 tegn) det Google viser i søkeresultatene. Disse to feltene avgjør CTR fra rangering. Skriv tittelen som en lokking - inkluder lokasjon, tjeneste og en grunn til å klikke. Skriv beskrivelsen som en kort pitch - hva tilbyr du, hvorfor velge deg, hva skjer hvis kunden klikker. Test forskjellige varianter ved å rotere meta-beskrivelsen - Google velger ofte selv hva som vises, men dine egne tekster er utgangspunktet.",
+      },
+      {
+        heading: "CTR i Google Ads: tett match med søkeordet",
+        body:
+          "Google belønner annonser som tett matcher søkeordet brukeren skrev. Hvis kunden googler \"akutt rørlegger Oslo\" og annonsen din sier \"Akutt rørlegger Oslo - 30 min responstid\", får du høy CTR og lav CPC. Hvis annonsen sier \"Profesjonelle håndverker-tjenester i Norge\", får du lav CTR og høy CPC. Bruk Dynamic Keyword Insertion (DKI) i Google Ads for å automatisk speile søkeordet i tittelen. Kombinert med riktig negative keywords (utelukke ikke-relevante søk) er dette den enkleste CPC-besparelsen.",
+      },
+      {
+        heading: "Vanlige CTR-feil håndverkere gjør",
+        body:
+          "Generiske titler som \"Velkommen til Hansen Rørlegger AS\" - ingen klikker. Ingen lokal referanse - du konkurrerer mot landsdekkende aktører på generiske termer. Identisk meta-beskrivelse på alle sider - duplikat-straff og forvirring. Annonser uten tilbud eller hook - ingen grunn til å klikke. Lange titler som blir kuttet - 60 tegn er grensen i Google. Disse feilene er gratis å rette opp og gir typisk 30-100 % CTR-løft over noen uker.",
+      },
+      {
+        heading: "CTR vs konverteringsrate - to forskjellige ting",
+        body:
+          "CTR er klikk delt på visninger. Konverteringsrate er konverteringer (skjema, telefon) delt på klikk. De er sekvensielle: visning → klikk → konvertering. Du kan ha høy CTR og lav konverteringsrate (annonsen lokker, men nettsiden konverterer ikke). Eller lav CTR og høy konverteringsrate (annonsen filtrerer hardt, kun de mest interesserte klikker). Begge tall må optimaliseres separat. CTR fikser du i annonsen/søketreffet; konverteringsrate fikser du på landingssiden.",
+      },
+      {
+        heading: "Når lav CTR egentlig er bra",
+        body:
+          "Det finnes ett scenario der lav CTR er sunt: når du jobber med presise søkeord der du bare vil ha de virkelig kvalifiserte klikkene. En annonse for \"baderomsrenovering Oslo over 200 000 kr\" vil ha lav CTR fordi de fleste filtrerer seg selv ut - men de som klikker har høy intensjon. Fokuser ikke på CTR alene; fokuser på CPA (Cost Per Acquisition) eller CAC (Customer Acquisition Cost). En kampanje med 3 % CTR og 1 200 kr per vunnet jobb er bedre enn 8 % CTR og 4 000 kr per vunnet jobb.",
+      },
+      {
+        heading: "CTR i Google Search Console - bruksanvisning",
+        body:
+          "Search Console er gratis og viser eksakt CTR per søkeord du rangerer for. Slik bruker du det: gå til Performance → Queries. Sorter etter Impressions (visninger). For søkeord med mange visninger og lav CTR, klikk inn og se hvilken side din rangerer. Inspect siden, se på meta-tittel og beskrivelse, vurder om de matcher søkeintensjonen. Skriv om, vent 2-4 uker, mål igjen. Dette er den enkleste måten å øke organisk SEO-trafikk uten å bygge nytt innhold - bare bedre presentasjon av eksisterende.",
+      },
+      {
+        heading: "CTR-benchmarks for håndverkerbransjen",
+        body:
+          "Norske håndverker-data viser typisk: organisk Google-søk ved posisjon 1-3 har 15-30 % CTR; posisjon 4-10 har 3-8 %. Google Ads med god optimalisering har 5-8 % CTR; uoptimaliserte ligger på 1-3 %. Facebook-annonser med tydelig lokal målretting har 1,5-3 % CTR; brede kampanjer har 0,5-1 %. Sett dine egne tall mot disse benchmarkene - er du under, har du forbedringspotensial. Er du over, behold det som virker og skaler. Husk at CTR alene ikke er målet - flere leads og lavere kostnad per lead er det.",
+      },
     ],
-    relatedTerms: ["meta-tittel-og-beskrivelse", "google-ads", "konverteringsrate", "a-b-test"],
+    relatedTerms: [
+      "meta-tittel-og-beskrivelse",
+      "google-ads",
+      "konverteringsrate",
+      "a-b-test",
+      "google-analytics",
+      "betalt-trafikk",
+      "seo",
+    ],
     relatedLinks: [
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
       { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
     ],
   },
   {
