@@ -789,17 +789,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "crm",
     term: "CRM",
-    shortDescription: "Kundehåndteringssystem - et verktøy der alle kunder, leads og oppdrag samles på ett sted.",
+    shortDescription:
+      "CRM (Customer Relationship Management) er kundehåndteringssystemet der alle kontakter, leads, tilbud og oppdrag samles på ett sted. For håndverkerbedrifter er en CRM-løsning forskjellen på å miste leads og å skalere kontrollert.",
     category: "Automatisering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "CRM står for Customer Relationship Management - kundehåndtering. Et CRM-system er en database der du samler kontaktinfo, dialoger, tilbud, status og historikk for hver kunde. I stedet for Post-it-lapper og scrollende SMS-tråder har du alt på ett sted, gjerne med automatiske påminnelser." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Når du vokser fra 1 til 3-10 ansatte blir manuell oppfølging umulig. Leads glipper, kunder blir glemt, dobbeltarbeid dukker opp. Et CRM skalerer bedriften. Også som enmannsbedrift: du sparer timer på ikke å lete gjennom e-post for å finne den forrige samtalen med en kunde." },
-      { heading: "Hvordan fungerer det?", body: "Alle nye forespørsler havner automatisk i CRM-et. Du kan se hvem som ringte, hva de sa, hvilket tilbud som ble sendt, og når du skal følge opp. Bra CRM-er for håndverkere har mobil-app, SMS/e-post-integrasjon og enkle rapporter (hvor mange leads i måneden, hvilken andel blir oppdrag)." },
+      {
+        heading: "Hva betyr CRM?",
+        body:
+          "CRM står for Customer Relationship Management - direkte oversatt kunderelasjonsforvaltning, men de fleste norske bedrifter sier rett og slett \"CRM-system\" eller \"CRM-løsning\". Et CRM er en database og et arbeidsverktøy som samler all informasjon om kundene dine på ett sted: kontaktinfo, telefonsamtaler, e-poster, SMS, tilbud, status, historikk og avtaler. I stedet for Post-it-lapper på dashbordet, scrollende SMS-tråder og ti gule notatblokker har du ett sentralt sted der alt finnes søkbart.",
+      },
+      {
+        heading: "Hvorfor en håndverker trenger CRM",
+        body:
+          "Som enmannsbedrift kan du holde 20-30 aktive kunder i hodet. På 50-100 mister du oversikten - en kunde du ringte for tre uker siden faller mellom to stoler, et tilbud du sendte glemmer du å følge opp, en gjentakende kunde får ikke tilbud om vedlikeholdsavtale. Et CRM-verktøy fanger opp alt dette systematisk. For en håndverkerbedrift som vokser fra 1 til 3-10 ansatte er det praktisk talt umulig å fungere uten - leadene glipper, dobbeltarbeid skjer, og du går glipp av åpenbare tilleggsjobber hos eksisterende kunder.",
+      },
+      {
+        heading: "Hva et CRM-system faktisk gjør",
+        body:
+          "Tre kjernefunksjoner. 1) Sentralisert database: hver kunde har et kort med alle samtaler, fakturaer og notater. 2) Pipeline-styring: du ser hvor hver lead står (ny / kvalifisert / tilbud sendt / vunnet / tapt). 3) Automatisering: påminnelser, oppfølgings-SMS, automatiske statusoppdateringer. Bra CRM-er for håndverkere har mobilapp slik at du kan oppdatere kundekortet fra byggeplass, integrasjon med SMS og e-post, og enkle rapporter på hvor mange leads kommer inn og hva konverteringsraten er.",
+      },
+      {
+        heading: "Norske CRM-løsninger sammenlignet",
+        body:
+          "De mest brukte CRM-systemene i Norge for håndverkerbedrifter er: SuperOffice (norsk, etablert, 720+ kr/bruker/mnd, sterk på salgsstyring), Pipedrive (estisk, enkel og billig, fra 150 kr/bruker/mnd, ingen Altinn), Tripletex CRM (modul i Tripletex regnskap, gratis hvis du allerede har Tripletex), HubSpot CRM (amerikansk, gratis grunnplan, dyrt på betalte planer). Hver av disse fungerer for forskjellige bedriftsstørrelser - vår sammenligning av CRM for håndverkere går gjennom alle fire i detalj.",
+      },
+      {
+        heading: "Trenger du virkelig CRM som enmannsbedrift?",
+        body:
+          "Avhenger av antallet kunder og kompleksiteten. En rørlegger med 20-30 servicekunder kan klare seg med Excel og kalender. En tømrer med 100+ aktive prosjektkunder, mange parallelle tilbud og ansatte trenger CRM. Tommelfingerregelen: hvis du noen gang har glemt å følge opp en lead, sendt samme tilbud to ganger, eller mistet kontakten med en god kunde - du trenger CRM. Det er ikke et stort steg fra ingen-CRM til Pipedrive Essential på 150 kr/mnd.",
+      },
+      {
+        heading: "CRM eller fakturaprogram - hva er forskjellen?",
+        body:
+          "Mange håndverkere forveksler de to. Fakturaprogrammer (Tripletex, Fiken, Conta) er bygget rundt regnskap og fakturering - de har kundekort, men salgsoppfølging er svak. CRM-er er bygget rundt salg og dialog - de har Pipeline, automatiseringer og oppfølgingsverktøy, men dårlig regnskap. De beste setupene har begge: Tripletex eller Fiken for regnskap + Pipedrive eller SuperOffice for salg. Eller: Tripletex som hovedverktøy med innebygd CRM for de som vil ha alt i ett.",
+      },
+      {
+        heading: "Hvor mye koster CRM for en håndverker?",
+        body:
+          "Spennet er stort. Gratis: HubSpot CRM grunnplan, Tripletex CRM-modul (hvis du allerede betaler for Tripletex). Rimelig: Pipedrive Essential 150 kr/bruker/mnd. Mellomklassen: SuperOffice 720-1 400 kr/bruker/mnd. Spesialister: byggebransje-CRM-er som Byggmappe og ServiceCard koster 300-600 kr/bruker/mnd. Forventet totalkostnad for en bedrift med 5 brukere er typisk 750-3 600 kr/mnd. Sammenlign det med en lead som koster 500 kr på Mittanbud - CRM er praktisk talt gratis hvis det fanger opp én ekstra konvertering per måned.",
+      },
+      {
+        heading: "Bygg- og håndverker-spesifikke CRM-er",
+        body:
+          "Det finnes spesialiserte CRM-løsninger bygget for byggebransjen: Byggmappe (norsk), ServiceCard (norsk), Joblogic (britisk men norskbrukt), HouseCall Pro. De har ekstra funksjoner som timeregistrering på prosjekt, GPS-stempling, sjekklister for HMS, fakturering integrert. Men prisen er som regel høyere, leverandørmarkedet mindre og integrasjoner færre enn generelle CRM-er. For de fleste håndverkerbedrifter med 1-15 ansatte er Pipedrive eller Tripletex CRM kombinert med en separat timeregistreringsapp et bedre valg.",
+      },
+      {
+        heading: "CRM + automatisering = leveransen",
+        body:
+          "Et CRM uten automatisering er bare en adressebok. Magien skjer når du kobler det til lead-kanalene dine og legger inn automatiske oppfølginger. Eksempel: ny lead fra nettside → CRM oppretter kort → automatisk SMS innen 5 minutter \"Vi tar kontakt\" → oppgave dukker opp i din innboks neste morgen → hvis ikke svart innen 48 timer, automatisk påminnelses-e-post. Dette systemet fanger leads som ellers hadde glippet. Vekst Systemet leverer akkurat denne flyten ferdig satt opp.",
+      },
+      {
+        heading: "Vanlige CRM-feil håndverkere gjør",
+        body:
+          "Velger for komplekst verktøy fra start - bedriftens behov vokser i takt med CRM-bruken. Fyller ikke inn data konsekvent - et halvt utfylt CRM er verre enn ingen. Lar bare sjefen bruke det - ansatte må også bruke det, ellers mister du synlighet. Bytter CRM hver 12 måneder - hver bytte mister du historiske data. Bruker CRM for det det ikke er bygget for - som regnskap eller timeregistrering. Velg ett verktøy, hold deg til det i minst 24 måneder, og pass på at hele teamet bruker det.",
+      },
+      {
+        heading: "Hvordan komme i gang med CRM",
+        body:
+          "Trinn 1: Skriv ned alle kunder du har hatt kontakt med siste 12 måneder - typisk 30-200 stk. Trinn 2: Velg et CRM (start enkelt - Pipedrive eller Tripletex CRM). Trinn 3: Importer kundene via CSV-fil eller manuelt. Trinn 4: Sett opp pipeline med 4-5 stadier som matcher prosessen din. Trinn 5: Tving deg selv til å bruke det daglig i 30 dager - etter det blir det vane. Implementeringen tar 5-10 timer engangs. Etter det sparer det deg 2-3 timer i uka.",
+      },
+      {
+        heading: "CRM uten markedsføringssystem løser ikke alt",
+        body:
+          "Husk at CRM er et verktøy for å håndtere kunder du allerede har kontakt med. Det skaffer deg ingen nye. For å fylle CRM-et med leads trenger du markedsføringskanaler: egen nettside, lokal SEO, anmeldelser, automatisk lead-oppfølging på tapte anrop og skjema. En bedrift som har CRM men ingen markedsføringssystem ender med en tom database og lurer på hvorfor. Den komplette stacken er: Vekst Systemet for å fylle pipelinen + CRM for å lukke jobber + regnskapsverktøy som Tripletex eller Fiken for drift.",
+      },
     ],
-    relatedTerms: ["lead-oppfolging", "automatisering", "automatisk-oppfolging"],
+    relatedTerms: [
+      "lead-oppfolging",
+      "automatisering",
+      "automatisk-oppfolging",
+      "lead",
+      "konverteringsrate",
+      "tapt-anrop-sms",
+    ],
     relatedLinks: [
+      { label: "CRM for håndverkere sammenlignet", href: "/sammenlign/crm-for-handverkere" },
+      { label: "Tripletex vs Fiken for håndverkere", href: "/sammenlign/tripletex-vs-fiken" },
+      { label: "Lead-oppfølgingssystem", href: "/tjenester/lead-oppfolging" },
       { label: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
     ],
   },
   {
