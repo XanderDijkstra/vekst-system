@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
+import ContractorToolsCrossLink from "@/components/tools/ContractorToolsCrossLink";
 import CalcInput from "@/components/tools/CalcInput";
 import CalcResultCard from "@/components/tools/CalcResultCard";
 import {
@@ -431,6 +432,7 @@ const LaminaatBerekenen = () => {
         </div>
       </section>
 
+      <ContractorToolsCrossLink />
       <CtaSection />
     </PageShell>
   );

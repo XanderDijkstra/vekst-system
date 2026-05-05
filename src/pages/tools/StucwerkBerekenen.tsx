@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Calculator, Ruler, Package, Droplets } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
+import ContractorToolsCrossLink from "@/components/tools/ContractorToolsCrossLink";
 import CalcInput from "@/components/tools/CalcInput";
 import CalcResultCard from "@/components/tools/CalcResultCard";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -194,6 +195,7 @@ const StucwerkBerekenen = () => {
           </motion.div>
         </div>
       </section>
+      <ContractorToolsCrossLink />
       <CtaSection />
     </PageShell>
   );

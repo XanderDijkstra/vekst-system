@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Grid3X3, Paintbrush, HardHat, Layers, Ruler, Package, Droplets } from "lucide-react";
 import PageShell from "@/components/PageShell";
 import CtaSection from "@/components/home/CtaSection";
+import ContractorToolsCrossLink from "@/components/tools/ContractorToolsCrossLink";
 import { fadeInUp, systemEase } from "@/lib/animations";
 
 const SITE_URL = "https://www.vekst-systemet.no";
@@ -209,6 +210,7 @@ const BouwmaterialenHub = () => (
       </div>
     </section>
 
+    <ContractorToolsCrossLink />
     <CtaSection />
   </PageShell>
 );
