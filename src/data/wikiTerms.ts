@@ -397,17 +397,87 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "google-ads",
     term: "Google Ads",
-    shortDescription: "Betalte annonser på toppen av Google-søk. Du betaler per klikk, ikke per visning.",
+    shortDescription:
+      "Google Ads (tidligere Google AdWords) er Googles betalte annonseringsplattform. Du betaler per klikk og kan vises på topp i Google-søk på sekunder. For håndverkere er det den raskeste veien til topp av Google - men også en av de dyreste.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Google Ads er reklame-plattformen der du byr på søkeord. Når noen søker på \"baderomsrenovering Oslo\" kan annonsen din dukke opp øverst i treffene. Du betaler kun når noen klikker (CPC - cost per click). For håndverker-søk ligger prisen typisk på 15-80 kr per klikk." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Google Ads gir deg synlighet med en gang - ingen venting på SEO. Nyttig når du akkurat har startet, eller trenger å fylle opp kalenderen i en rolig periode. Ulempen er at kostnaden stopper aldri: så snart du slutter å betale, forsvinner trafikken." },
-      { heading: "Hvordan fungerer det?", body: "Du velger søkeord, skriver en annonse, setter et dagsbudsjett og velger geografisk område. Google kjører en auksjon i sanntid: de med høyest bud × kvalitet vinner plasseringen. En bra håndverker-kampanje krever spesifikke søkeord (ikke \"bygg\") og en landingsside som matcher. Uten det brenner du opp budsjettet." },
+      {
+        heading: "Hva er Google Ads?",
+        body:
+          "Google Ads (het Google AdWords frem til 2018) er Googles annonseringsplattform. I praksis: du byr på søkeord (\"rørlegger Oslo\", \"baderomsrenovering Bergen\"), og når noen søker på det ordet kan annonsen din vises øverst i søketreffet over de organiske resultatene - merket med \"Sponset\" eller \"Annonse\". Du betaler ikke for visning, kun når noen faktisk klikker (CPC - Cost Per Click). For håndverker-søk i Norge ligger prisen typisk på 25-120 kr per klikk, avhengig av konkurransepress og kvaliteten på annonsen din.",
+      },
+      {
+        heading: "Hvorfor og når Google Ads matters for håndverkere",
+        body:
+          "Google Ads har én klar fordel: hastighet. SEO tar 3-6 måneder å bygge; Google Ads gir deg topp-plassering samme dag. Det gjør det verdifullt i tre situasjoner: 1) Nystartet bedrift uten organisk synlighet og som trenger leads umiddelbart. 2) Etablert bedrift som vil fylle kalenderen i en stille periode. 3) Test-kampanjer for å validere nye markeder eller tjenester. Ulempen: så snart du slutter å betale, forsvinner trafikken samme dag. Det bygger ikke noe varig - det er en åpen krane som koster løpende.",
+      },
+      {
+        heading: "Hva en klikk koster i håndverkerbransjen",
+        body:
+          "Norske håndverker-CPC-er typisk: rørlegger akutt 60-120 kr/klikk (høy konkurranse, høy intent). Maler 20-50 kr/klikk. Elektriker 40-90 kr/klikk. Baderomsrenovering 50-100 kr/klikk. Tømrer/snekker 30-60 kr/klikk. Akutt-tjenester er dyrest fordi konkurrentene byr aggressivt - kunder med vannlekkasje konverterer høyt og raskt. Generelle kategorier som \"håndverker\" er overraskende billige (10-25 kr/klikk) men har lav intent. Spesifikke lokale søk (\"baderomsrenovering Oslo over 200 000 kr\") er ofte billigst per faktisk konvertert kunde.",
+      },
+      {
+        heading: "Slik fungerer Google Ads-auksjonen",
+        body:
+          "Hver gang noen søker, kjører Google en auksjon i sanntid blant alle annonsører som byr på søkeordet. Vinneren bestemmes av: maks bud × Quality Score (annonsekvalitet) × forventet CTR × landingsside-relevans. En annonsør med 50 kr bud og høy kvalitet kan slå en med 80 kr bud og lav kvalitet. Det betyr at små optimaliseringer (bedre annonsetekst, bedre landingsside) gir lavere kostnad per klikk - ofte 30-50 % mindre enn dårlig optimaliserte konkurrenter for samme posisjon.",
+      },
+      {
+        heading: "Quality Score - den skjulte kostnadssparingen",
+        body:
+          "Google gir hver annonse en Quality Score fra 1-10 basert på tre faktorer: forventet CTR, annonsens relevans til søkeordet, og landingsside-opplevelsen. Quality Score 8-10 gir 30-50 % rabatt på CPC-en din vs Quality Score 3-4. Slik forbedrer du: skriv annonsetekst som tett matcher søkeordet (\"Rørlegger Oslo Akutt\" som annonse for søk \"akutt rørlegger oslo\"), bruk landingsside spesifikt for søkeordet, ikke generell forside. Dette ene grepet kan spare deg 10 000-30 000 kr i året på samme antall klikk.",
+      },
+      {
+        heading: "Negative keywords - filter ut feil trafikk",
+        body:
+          "Like viktig som hvilke søkeord du byr på er hvilke du IKKE vil vises på. Dette kalles \"negative keywords\". Eksempel: byr du på \"rørlegger\", vil du ikke vises på \"rørleggerstudent\", \"rørleggerlønn\", \"rørlegger kurs\". Disse er informasjons-søk, ikke kjøps-søk. Sett opp negative keyword-liste fra start: gratis, kurs, lønn, jobb, utdanning, student, lære, school, university. Sjekk Search Terms-rapporten i Google Ads ukentlig de første 4 ukene for å oppdage og filtrere bort flere irrelevante søk. Dette alene kan halvere bortkastet annonsering.",
+      },
+      {
+        heading: "Match types: hvordan presist matche søkeord",
+        body:
+          "Google Ads har fire match types: Broad match (vises på beslektede søk), Phrase match (vises på søk som inkluderer frasen), Exact match (kun nøyaktig søkeord), og Negative match. For håndverkere anbefales typisk: bruk Phrase Match som primær (\"rørlegger Oslo\" vises på \"akutt rørlegger Oslo\" og \"rørlegger Oslo billig\" men ikke \"rørlegger\"), Exact Match for de aller viktigste søkene, og Negative Match for filtrering. Broad Match brukt feil er den raskeste måten å brenne budsjett uten resultater.",
+      },
+      {
+        heading: "Landingssider er halve kampanjen",
+        body:
+          "En Google Ads-kampanje er bare så bra som landingssiden klikkene leder til. Klikker noen på \"akutt rørlegger Oslo\" og lander på din generelle hjemmeside, mister du 80 % av konverteringer. Send dem til en dedikert landingsside som matcher søket: tittel \"Akutt rørlegger Oslo - 30 min responstid\", tydelig CTA, tilbudsskjema med 3 felter, ingen distraksjoner. Investering: én godt utformet landingsside per hovedsøkeord. ROI: 3-5x bedre konvertering enn å sende all Ads-trafikk til hjemmesiden.",
+      },
+      {
+        heading: "Budsjett: hvor mye å starte med",
+        body:
+          "Minimum effektivt budsjett for håndverker Google Ads i Norge er 4 000-8 000 kr/mnd. Mindre enn det får for lite data til å optimalisere - du sliter med å lære hva som virker. 4 000 kr/mnd gir deg ca 80-150 klikk i typiske håndverkerbransjer, hvorav 5-15 % konverterer til leads (4-22 leads). Skalér oppover når du har data: 10 000 kr/mnd er typisk for en etablert bedrift som dekker en hel by, 20 000+ kr/mnd for de største. Sett alltid en \"share\" på dagsbudsjett (Google bruker max 2x på enkeltdager) - aldri åpent budsjett uten kapital-vern.",
+      },
+      {
+        heading: "Vanlige Google Ads-feil håndverkere gjør",
+        body:
+          "Setter opp én bred kampanje for alle tjenester - ingen optimering mulig. Bruker bred match uten negative keywords - brenner penger på irrelevante søk. Sender all trafikk til hjemmesiden i stedet for landingssider - lav konvertering. Ser ikke på Search Terms-rapporten ukentlig - mister tilbakemeldinger. Pauser dårlige kampanjer i stedet for å fikse dem - taper potensial. Ignorerer Quality Score - betaler 50 % mer enn nødvendig. Stopper kampanjer i ferier - mister momentum. Ikke kobler til Google Analytics og Conversions - kan ikke måle hva som virker. Disse feilene er gratis å rette opp.",
+      },
+      {
+        heading: "Lønner Google Ads seg for håndverkere?",
+        body:
+          "Avhenger av rente og snittjobb. Beregningen: kostnad per klikk × antall klikk per lead × andel leads som blir oppdrag = kostnad per oppdrag (CPA). Eksempel: 50 kr/klikk × 10 klikk per lead × 30 % konverteringsrate = 1 666 kr per oppdrag. Hvis snittjobb er 18 000 kr, er ROI fortsatt sterk (10x). Hvis snittjobb er 3 000 kr, er CPA-en på 1 666 kr en for stor andel. Generelt: Google Ads lønner seg for høyere-verdi tjenester (baderom, kjøkken, store entrepriser) og dårligere for små reparasjoner. Bruk vår leadverdi-kalkulator til å regne ut din egen rente.",
+      },
+      {
+        heading: "Google Ads vs SEO vs Mittanbud - balansen",
+        body:
+          "Den smarteste håndverkerstrategien bruker alle tre. Google Ads: rask, kontrollerbar, men dyr per lead. Bruk for akutt-tjenester der hastighet er kritisk, og i topper når du trenger ekstra leads. SEO: treig oppstart, men etterpå nær gratis - bygg dette parallelt med Ads. Mittanbud/Anbudstorget: enklest start, men dyrest per vunnet jobb - bruk som supplement når andre kanaler ikke leverer nok. Etter 12 måneder bør SEO være hoveddriveren (60-70 % av leads), Google Ads strategisk (20-30 %), Mittanbud minimal (10-15 % i toppene).",
+      },
     ],
-    relatedTerms: ["seo", "organisk-trafikk", "betalt-trafikk", "landingsside", "konverteringsrate"],
+    relatedTerms: [
+      "seo",
+      "organisk-trafikk",
+      "betalt-trafikk",
+      "landingsside",
+      "konverteringsrate",
+      "click-through-rate",
+      "retargeting",
+      "google-analytics",
+    ],
     relatedLinks: [
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
       { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
   {
