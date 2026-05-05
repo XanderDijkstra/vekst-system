@@ -203,16 +203,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "organisk-trafikk",
     term: "Organisk trafikk",
-    shortDescription: "Besøkende som kommer til nettsiden din gratis via Google-søk, uten at du betaler for annonser.",
+    shortDescription:
+      "Organisk trafikk er besøkende som finner nettsiden din gratis via Google-søk, uten at du har betalt for annonser. For håndverkere er organisk vekst den klart billigste leadkanalen som finnes.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Organisk trafikk er alle besøkende som klikker seg inn på nettsiden din fra et vanlig søketreff - altså ikke fra en annonse. Det motsatte er betalt trafikk (Google Ads, Facebook Ads). Organisk trafikk er gratis per klikk, men krever investering i SEO og innhold." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "For en liten håndverkerbedrift er organisk trafikk ofte det som gjør forskjellen mellom lønnsomt og ikke. Et Mittanbud-lead koster 300-800 kr; en organisk besøkende koster 0 kr. Om du bygger opp 500 organiske besøk i måneden og bare 2 % konverterer, er det 10 gratis forespørsler hver måned." },
-      { heading: "Hvordan fungerer det?", body: "Google sender organisk trafikk når søkeren klikker på et av de 10 blå treffene (ikke annonsene). Hvor mange klikk du får avhenger av posisjonen: plass 1 tar ~30 %, plass 5 tar ~5 %, side 2 tar nesten ingenting. Målet med SEO er å flytte deg fra side 2 til topp 5 på de søkene som betyr penger." },
+      {
+        heading: "Hva er organisk trafikk?",
+        body:
+          "Organisk trafikk er alle besøkende som kommer til nettsiden din gjennom et vanlig søketreff - de såkalte \"blå treffene\" på Google, ikke gjennom betalte annonser. Beregningen er enkel: når noen googler \"rørlegger Bergen\" og klikker på et treff som ikke er merket \"Annonse\", er det organisk trafikk. Det motsatte er betalt trafikk - Google Ads, Facebook Ads, Mittanbud, eller andre kanaler du betaler per klikk eller per lead. Organisk trafikk koster 0 kr per klikk, men du investerer i SEO-arbeid og innholdsproduksjon.",
+      },
+      {
+        heading: "Betydningen av organisk trafikk for håndverkere",
+        body:
+          "For en liten håndverkerbedrift er organisk trafikk ofte forskjellen mellom å være lønnsom og å streve. Tenk på regnestykket: et Mittanbud-lead koster 300-800 kr, en Google Ads-klikk koster 25-120 kr, en Facebook-besøk koster 5-30 kr. En organisk Google-besøk koster 0 kr per klikk. Bygger du opp organisk trafikk til 500-2 000 unike besøk i måneden og 3 % konverterer til forespørsler, er det 15-60 gratis kvalifiserte leads. På Mittanbud ville samme volum kostet 5 000-25 000 kr i måneden.",
+      },
+      {
+        heading: "Hvorfor organisk trafikk varer",
+        body:
+          "Organisk trafikk har en eiendomsverdi som betalt trafikk ikke har. Skrur du av Google Ads i dag, stopper trafikken samme dag. Skrur du av Mittanbud-betalingen, forsvinner leadsene. Men organisk SEO-arbeid utført i 2024 fortsetter å gi gratis trafikk i 2026, 2027, 2028. Det er en investering med vedvarende avkastning - mer som å eie en utleieleilighet enn å betale leie. Det er derfor håndverkerbedrifter som ble seriøse på SEO i 2018-2020 dominerer Google i dag, mens nykommere som bare kjører Mittanbud aldri bygger noe varig.",
+      },
+      {
+        heading: "Hvordan organisk trafikk faktisk fungerer",
+        body:
+          "Google sender besøkende til de 10 første \"organiske\" treffene under annonsene. Hvor mange klikk du får avhenger nesten utelukkende av posisjonen din: posisjon 1 får ~30 % CTR, posisjon 5 får ~7 %, posisjon 10 får 2-3 %, side 2 får under 1 %. For å øke organisk trafikk har du tre veier: (1) rangere høyere på søk du allerede vises på, (2) rangere på flere søk ved å lage mer innhold, eller (3) øke CTR på dine eksisterende rangeringer ved å forbedre meta-tittel og beskrivelse.",
+      },
+      {
+        heading: "Slik måler du organisk trafikk til nettsiden",
+        body:
+          "Bruk Google Analytics og Google Search Console - begge gratis. I GA4 ser du under \"Acquisition → Channels\" hvor mye organisk søketrafikk du har sammenlignet med betalt, direkte og sosial. I Search Console ser du eksakt hvilke søkeord som bringer trafikk, hvor mange visninger og klikk per søk, og din gjennomsnittlige posisjon. Mål månedlig - se på trender, ikke daglige svingninger. Sunn organisk vekst er 10-30 % månedlig økning de første 6-12 månedene, deretter stabilisering.",
+      },
+      {
+        heading: "5 grep som øker organisk trafikk raskest",
+        body:
+          "1) Optimaliser Google Bedriftsprofil - drar tonnevis lokal organisk trafikk til både kart og nettside. 2) Lag bysider for hver by/bydel du jobber i (\"Rørlegger Oslo\", \"Rørlegger Bærum\", etc) - hver er en ny inngang til organisk trafikk. 3) Skriv depth-content om temaer kunder googler (timepris-guide, baderomsrenovering-guide, garanti-regler) - ranger på informasjonssøk. 4) Få lokale backlinks fra leverandører, lokale aviser, fagforeninger. 5) Fiks teknisk SEO - sidehastighet, mobilvennlighet, schema markup. Gjøre alle fem gir typisk 200-500 % økning over 6-12 måneder.",
+      },
+      {
+        heading: "Hvor lang tid tar det å bygge organisk trafikk?",
+        body:
+          "SEO er treigt. Forventningene er: 4-8 uker før Google indekserer nytt innhold og du ser første rangeringer. 3-6 måneder før du har stabile posisjoner på de viktigste søkene. 6-12 måneder før organisk trafikk overgår andre kanaler. 12-24 måneder før du dominerer ditt lokale marked. For en håndverker som starter fra 0 organisk trafikk er regnestykket: måned 1-3 er investering uten avkastning, måned 4-6 begynner du å se de første gratis leadsene, måned 7-12 blir det din viktigste leadkanal.",
+      },
+      {
+        heading: "Vanlige feil som dreper organisk trafikk",
+        body:
+          "Bytter URL-er uten 301-redirect - du mister alle akkumulerte rangeringer. Sletter sider uten å redirige - 404-feil sender signaler om at nettsiden er rotete. Kopipasta innhold mellom by-sider - duplikat-straff. Tregger nettsiden med 30 tredjeparts-skripter - Core Web Vitals-straffes. Glemmer å oppdatere sider i 2-3 år - friskhet er et SEO-signal. Disse feilene kan halvere organisk trafikk på et halvt år. Bruk Google Search Console til å overvåke og fang opp problemer tidlig.",
+      },
+      {
+        heading: "Organisk trafikk vs betalt trafikk - balansen",
+        body:
+          "Den smarteste håndverker-strategien kombinerer begge. Tidlig fase (måned 1-6): tung på betalt trafikk - Mittanbud, Google Ads - mens organisk SEO bygges. Midt fase (måned 6-12): redusér betalt etter hvert som organisk vokser. Moden fase (måned 12+): organisk dominerer (60-70 %), betalt brukes strategisk i topper og for å fange spesifikke kampanjer. Organisk er fundamentet, betalt er finjusteringen. Bedrifter som kun kjører på betalt trafikk har dyrest leads i bransjen; de som har organisk fundament har lavest CAC.",
+      },
+      {
+        heading: "Lokal organisk trafikk for håndverkere",
+        body:
+          "For håndverkere er nesten all relevant organisk trafikk lokal. Du konkurrerer ikke om \"rørlegger\" generelt - du konkurrerer om \"rørlegger Oslo\", \"rørlegger Bærum\", \"akutt rørlegger Oslo\". Lokal organisk trafikk er enklere å vinne enn nasjonal fordi konkurransen er smalere - typisk 10-30 lokale håndverkere mot tusenvis nasjonalt. Optimalisér for lokale søk gjennom by-sider på nettsiden, NAP-konsistens på Proff/1881/Gule Sider, og Google Bedriftsprofil. Lokal SEO er der 80 % av organisk trafikk for håndverkere kommer fra.",
+      },
+      {
+        heading: "Hva 'kvaliteten' av organisk trafikk betyr",
+        body:
+          "Ikke all organisk trafikk er like verdifull. En besøk fra \"rørlegger Oslo akutt\" er gull - høy intensjon, kunden trenger noe nå. En besøk fra \"hva er en rørlegger\" er ubrukelig - skoleelev som gjør lekse. Mål kvalitet via konverteringsrate per kilde. Hvis du har 200 organiske besøk fra \"rørlegger Oslo\" og 5 % konverterer, det er 10 leads. Hvis du har 1 000 besøk fra generiske informasjons-søk og 0,2 % konverterer, det er 2 leads på 5x trafikken. Fokuser på trafikk med kommersiell intensjon, ikke alle ord-volum.",
+      },
+      {
+        heading: "Når organisk trafikk faller - tre vanlige årsaker",
+        body:
+          "Hvis organisk trafikk plutselig faller 20-50 %, sjekk i denne rekkefølgen. 1) Google-algoritmeoppdatering - se på Search Console-data og Google Search Status Dashboard. 2) Teknisk feil på nettsiden - sjekk at sider faktisk laster, sitemap er gyldig, robots.txt ikke blokkerer. 3) Konkurrent har overgått deg - sjekk topp 5 for dine viktigste søk. 4) Du har gjort en endring - URL-struktur, fjerning av sider, kopipasta-innhold. De fleste organiske fall skyldes selvskudd, ikke Google. Bruk Search Console for å diagnostisere innen 48 timer.",
+      },
     ],
-    relatedTerms: ["seo", "local-seo", "betalt-trafikk", "konverteringsrate"],
+    relatedTerms: [
+      "seo",
+      "local-seo",
+      "betalt-trafikk",
+      "konverteringsrate",
+      "google-bedriftsprofil",
+      "google-analytics",
+      "click-through-rate",
+      "backlinks",
+    ],
     relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
     ],
   },
