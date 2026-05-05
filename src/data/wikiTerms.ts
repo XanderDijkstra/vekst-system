@@ -429,17 +429,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "meta-tittel-og-beskrivelse",
     term: "Meta-tittel og meta-beskrivelse",
-    shortDescription: "Teksten som vises for siden din i Google-treffene. Første inntrykk, før klikket.",
+    shortDescription:
+      "Meta-tittel og meta-beskrivelse er teksten som vises for siden din i Google-treff. De er førsteinntrykket før klikket, og er en av de viktigste SEO-faktorene du selv kontrollerer fullt ut.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Meta-tittelen er den blå, klikkbare linjen øverst i et Google-treff (maks ~60 tegn). Meta-beskrivelsen er den grå teksten under (maks ~155 tegn). Begge er kodet inn i nettsiden og kan tilpasses per side. De vises ikke på selve nettsiden - bare i søkeresultatet." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Disse to linjene avgjør om noen klikker seg inn eller går til konkurrenten. Du kan rangere på plass 3, men om tittelen er kjedelig (\"Velkommen til Olsen AS\") mens plass 5 sier \"Maler i Oslo - garanti, 4,9 stjerner på Google\", taper du klikket." },
-      { heading: "Hvordan fungerer det?", body: "Hver side på nettsiden bør ha en unik meta-tittel og meta-beskrivelse. En bra tittel inneholder hovedsøkeordet + byen din + en konkurransefordel: \"Maler Oslo - fast pris, utført innen 2 uker\". Beskrivelsen utdyper: \"Vi har malt 400+ leiligheter i Oslo siden 2015. Be om tilbud i dag - svar innen 24 timer.\"" },
+      {
+        heading: "Hva er meta-tittel og meta-beskrivelse?",
+        body:
+          "Meta-tittelen (engelsk: title tag eller meta title) er den blå klikkbare linjen øverst i et Google-treff. Meta-beskrivelsen (engelsk: meta description) er den grå teksten på 1-2 linjer under tittelen. Begge er HTML-elementer som kodes inn i nettsiden og kan tilpasses per side. De vises ikke på selve nettsiden - kun i søkeresultater og når noen deler lenken. Sammen utgjør de hele førsteinntrykket Google-brukeren får av nettsiden din før de klikker.",
+      },
+      {
+        heading: "Hvorfor disse to linjene avgjør CTR-en din",
+        body:
+          "Du kan rangere på posisjon 3 i Google og likevel få færre klikk enn posisjon 5 hvis tittelen og beskrivelsen er kjedelige. Generisk meta-tittel \"Velkommen til Olsen AS\" konverterer ikke. Spesifikk meta-tittel \"Maler Oslo - fast pris, 4,9 ★ av 127 anmeldelser\" gjør det. Forskjellen i CTR mellom dårlig og god metadata kan være 3-5 ganger. På 100 visninger er det 1 klikk vs 5 klikk - over et år en betydelig forskjell i organisk leads. Meta-data er den eneste SEO-investeringen som gir umiddelbar effekt.",
+      },
+      {
+        heading: "Optimal lengde - 60 og 155 tegn",
+        body:
+          "Meta-tittel: 50-60 tegn for å unngå at Google kutter den med \"...\" på desktop. På mobil er kuttet rundt 55 tegn. Sikt mot 60. Meta-beskrivelse: 140-155 tegn er trygt, opp til 160 går for desktop. Lengre tekster blir kuttet og du mister kontroll over hva som vises. Bruk verktøy som SERP Snippet Generator eller Google Search Console for å forhåndsvise. Hvis du har flere viktige nøkkelord, prioriter de første 50 tegnene - det er hva som garantert vises.",
+      },
+      {
+        heading: "Slik skriver du en konverterende meta-tittel",
+        body:
+          "Formelen som virker for håndverkere: [Tjeneste] [Lokasjon] - [Differensiering]. Eksempler: \"Rørlegger Oslo - akutt service innen 30 min\". \"Baderomsrenovering Bergen - fast pris, ferdig på 4 uker\". \"Maler Trondheim - 4,9 ★ av 200+ anmeldelser\". Tre regler: 1) Inkluder hovedsøkeordet (matcher det kunden googlet). 2) Inkluder lokasjon (lokal SEO-signal og kvalifiserer trafikk). 3) Inkluder en differensiator (pris, tid, anmeldelser, garanti). Skriv aldri \"Velkommen\" eller \"Hjem\" - bortkastet tekstplass.",
+      },
+      {
+        heading: "Slik skriver du en meta-beskrivelse som lokker klikk",
+        body:
+          "Beskrivelsen er din 155-tegns pitch. Form: kort innledning som speiler søket, deretter 2-3 konkrete fordeler, avslutt med tydelig handlingsoppfordring. Eksempel: \"Profesjonell baderomsrenovering i Oslo. 200+ ferdige bad siden 2018. Garanti, fast pris, ferdig på 4-6 uker. Be om gratis befaring i dag.\" Bruk tall der mulig (200+, 4-6 uker), inkluder lokasjon, og inkluder en CTA. Disse løfter typisk CTR med 30-50 % over generiske beskrivelser uten tall eller handlingsoppfordring.",
+      },
+      {
+        heading: "Hver side trenger sin unike metadata",
+        body:
+          "Vanlig feil: én meta-tittel og beskrivelse for hele nettsiden. Det gir duplikat-straff fra Google og forvirrer søkere. Riktig: hver side har unike metadata som matcher den siden. Forsiden: \"Vekst Bygg AS - rørleggertjenester i Oslo\". Tjenesteside for bad: \"Baderomsrenovering Oslo - Vekst Bygg AS\". Tjenesteside for kjøkken: \"Kjøkkeninstallasjon Oslo - Vekst Bygg AS\". Bysider: \"Rørlegger Bærum - Vekst Bygg AS\". Hvert tema krever sin egen metadata. På en typisk håndverker-nettside med 10-30 sider er det 10-30 unike titler og beskrivelser å skrive.",
+      },
+      {
+        heading: "Vanlige metadata-feil håndverkere gjør",
+        body:
+          "Generisk tittel som starter med firmanavn (\"Hansen Rørlegger AS - Velkommen\") - ingenting som skiller eller fenger. Tom meta-beskrivelse - Google velger en tilfeldig tekst fra siden, ofte feil. Identisk metadata på alle sider - duplikat-straff. Keyword-stuffing (\"Rørlegger Oslo Bærum Asker Trondheim akutt 24/7 billigste\") - Google straffer manipulasjon. For lange titler (over 70 tegn) - blir kuttet med \"...\". Disse feilene er gratis å rette opp og gir typisk 30-100 % CTR-løft over noen uker.",
+      },
+      {
+        heading: "Test og iterer - SERP-en er ikke statisk",
+        body:
+          "Etter at du har skrevet metadata, vent 2-4 uker for at Google indekserer endringene. Sjekk så Search Console: Performance → Pages → klikk inn en spesifikk side → Queries. Du ser hvilke søk siden vises på, gjennomsnittlig CTR, og posisjon. Hvis CTR er under 3 % på posisjon 3-5, er metadata svak - skriv om. Test ulike formuleringer over tid. CTR-løft fra 2 % til 5 % på en side med 1 000 månedlige visninger gir 30 ekstra klikk hver måned - over et år 360 ekstra besøk fra én side.",
+      },
+      {
+        heading: "Google velger noen ganger sin egen tekst",
+        body:
+          "Google har siden 2021 ofte erstattet bedrifters meta-tittel og beskrivelse med tekst valgt fra siden, hvis algoritmen tror det matcher søkeintensjonen bedre. Du kan ikke alltid styre dette. Strategi: skriv beste mulige metadata, men sørg også for at H1-overskriften og første avsnitt i brødteksten er sterke - de blir ofte hva Google velger som alternativ. Sjekk Search Console for å se hva som faktisk vises i SERP, ikke bare hva du har skrevet i HTML-en.",
+      },
+      {
+        heading: "Spesielle SERP-funksjoner: stjerner, priser, FAQ",
+        body:
+          "Med riktig schema markup kan metadata utvides med ekstra elementer. AggregateRating-schema viser stjernerating direkte i SERP. FAQPage-schema kan vise utvidet FAQ under treffet. Product/Offer kan vise pris. For håndverkere er stjernerating den mest verdifulle - et SERP-treff med 4,9 ★ ved siden av tittelen får 30-50 % høyere CTR enn ett uten. Sett opp schema markup på nettsiden parallelt med metadata-optimalisering for å maksimere SERP-effekten.",
+      },
+      {
+        heading: "Open Graph - metadata for sosiale medier",
+        body:
+          "Når noen deler lenken din på Facebook, LinkedIn, WhatsApp, Slack eller iMessage, henter plattformene Open Graph-metadata (og:title, og:description, og:image). Dette er separate HTML-tagger fra meta-tittel/beskrivelse. Sett dem aktivt - hvis ikke, vises kun lenken som ren tekst. Format: og:title kan være 60-80 tegn, og:description 140-300 tegn, og:image 1200x630 pixel for best visuell effekt. Twitter har egne tagger (twitter:title, twitter:card) som mange plattformer respekterer som fallback.",
+      },
+      {
+        heading: "Sjekkliste: optimaliser metadata på 1 time",
+        body:
+          "1) List opp alle sidene på nettsiden - typisk 10-30 for håndverker. 2) Identifiser primær søkeordet for hver side. 3) Skriv unik meta-tittel som inkluderer søkeord + lokasjon + differensiering, under 60 tegn. 4) Skriv unik meta-beskrivelse med fordeler + CTA, under 155 tegn. 5) Lim alle inn i et regneark for konsistens. 6) Implementer i nettsiden (CMS, kode, eller via plugin). 7) Vent 2-4 uker. 8) Sjekk Search Console for CTR-endringer. Dette er den enkleste timen-investeringen i SEO med mest umiddelbar effekt.",
+      },
     ],
-    relatedTerms: ["seo", "click-through-rate", "landingsside"],
+    relatedTerms: [
+      "seo",
+      "click-through-rate",
+      "landingsside",
+      "schema-markup",
+      "konverteringsrate",
+      "google-analytics",
+      "local-seo",
+    ],
     relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
