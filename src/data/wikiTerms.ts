@@ -416,17 +416,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "google-analytics",
     term: "Google Analytics",
-    shortDescription: "Gratis måleverktøy fra Google som viser hvor mange besøker nettsiden og hva de gjør der.",
+    shortDescription:
+      "Google Analytics (GA4) er Googles gratis analyseverktøy som måler trafikk, kilde og atferd på nettsiden din. For håndverkere er det forskjellen mellom å markedsføre i blinde og å vite hva som faktisk gir leads.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Google Analytics (nå versjon 4, eller GA4) er et gratis analyseverktøy som samler inn data om de besøkende: hvor mange, hvor kommer de fra, hvilke sider ser de på, hvor lenge blir de, og hva gjør de før de forlater siden. Det installeres som et lite skript på nettsiden." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Uten tall gjetter du. Med Google Analytics ser du om de 300 besøkende i måneden faktisk blir til forespørsler, eller om 90 % hopper av før de kommer til kontaktskjemaet. Det er forskjellen mellom å vite at markedsføringen virker og å betale blindt." },
-      { heading: "Hvordan fungerer det?", body: "Du oppretter en konto på analytics.google.com, får en målings-ID, og installerer et skript på nettsiden (eller lar webdesigneren gjøre det). Etter 24-48 timer begynner data å flyte inn. De viktigste rapportene er: Acquisition (hvor besøkende kommer fra), Engagement (hva de gjør), og Conversions (hvor mange fyller ut skjemaer)." },
+      {
+        heading: "Hva er Google Analytics?",
+        body:
+          "Google Analytics er et gratis analyseverktøy fra Google som samler inn data om besøkende på nettsiden din. Hvor mange er innom hver dag, hvor kommer de fra, hvilke sider ser de på, hvor lenge blir de, og hva gjør de før de forlater siden. Verktøyet er den klart mest brukte løsningen i verden - over halvparten av alle nettsider bruker det. Versjonen i bruk i 2026 heter GA4 (Google Analytics 4); forrige versjon (Universal Analytics) ble avviklet i 2023. Du finner det på analytics.google.com.",
+      },
+      {
+        heading: "Hvorfor Google Analytics matters for håndverkere",
+        body:
+          "Uten data gjetter du på hva som virker. Med Google Analytics ser du om Mittanbud-trafikken konverterer bedre enn organiske Google-besøk, om Facebook-annonsene gir reell verdi, om hvor mange av de 400 månedlige besøkene som faktisk fyller ut tilbudsskjemaet ditt. For en håndverkerbedrift som bruker selv 3 000 kr/mnd på markedsføring betyr Google Analytics forskjellen mellom å se hva som genererer faktiske forespørsler og hva som bare brenner penger. Det er gratis - du har ingen unnskyldning.",
+      },
+      {
+        heading: "GA4 vs Universal Analytics: hva er forskjellen?",
+        body:
+          "GA4 er Googles fjerde versjon og er fundamentalt annerledes enn forrige Universal Analytics. Den gamle målte sidevisninger som primær enhet; GA4 måler hendelser (events) - hver klikk, scroll, skjema-innsending eller filnedlasting kan måles. Den er bygget for moderne SPA-nettsider, mobilapper og personvern (GDPR). Hvis du fortsatt bruker Universal Analytics, ble det nedlagt 1. juli 2023 og samler ikke inn data lenger. Sett opp GA4 i stedet - tar 15 minutter.",
+      },
+      {
+        heading: "Slik kommer du i gang på 15 minutter",
+        body:
+          "Gå til analytics.google.com og logg inn med en Google-konto. Opprett en konto og en property for nettsiden din. Velg \"Web\" som plattform og skriv inn URL-en. Du får en målings-ID (formatet G-XXXXXXXXXX). Lim den inn på nettsiden - via et innebygd Google Tag Manager-skript, via et plugin (WordPress, Webflow), eller direkte i HTML-en. Etter 24-48 timer begynner data å flyte inn. Verifiser ved å besøke nettsiden selv og sjekke \"Realtime\"-rapporten i GA4.",
+      },
+      {
+        heading: "De fire viktigste rapportene",
+        body:
+          "Acquisition (Anskaffelse) viser hvor besøkende kommer fra: organiske Google-søk, Mittanbud-lenker, Facebook, direkte trafikk, e-post. Engagement viser hva de gjør på siden: hvilke sider ser de, hvor lenge er de, hvilke knapper klikker de. Conversions viser hvor mange som fullfører viktige handlinger - tilbudsskjema sendt, telefonklikk på mobil, skjemafelt fylt ut. Realtime viser nåværende besøkere live, nyttig for å verifisere oppsettet ditt.",
+      },
+      {
+        heading: "Hva en håndverker skal måle",
+        body:
+          "Tre nøkkeltall: 1) Hvor mange besøker tilbudsskjema-siden per måned. 2) Hvor mange faktisk sender inn skjemaet (konverteringsrate). 3) Hvilke trafikkilder gir flest skjema-innsendinger - Google organisk vs Mittanbud vs Facebook vs direkte trafikk. Disse tre tallene avgjør om markedsføringen din lønner seg. Sett opp tilbudsskjema-innsending som en \"Conversion\" i GA4 - det tar 5 minutter og åpner alle ROI-rapporter.",
+      },
+      {
+        heading: "Personvern og GDPR i Norge",
+        body:
+          "Google Analytics samler inn personopplysninger og krever samtykke under GDPR. I praksis betyr det: nettsiden din må ha en cookie-banner som spør om samtykke før Google Analytics-skriptet aktiveres. Datatilsynet i Norge har vært tydelig om dette. Bruk Google Consent Mode v2 for å håndtere dette riktig. GA4 har innebygd anonymisering av IP-adresser og kortere lagring (2-14 måneder vs 26 i UA). Likevel: respekter samtykke, ellers risikerer du straff.",
+      },
+      {
+        heading: "Vanlige feil i GA4-oppsett",
+        body:
+          "Glemmer å sette opp Conversions - du måler trafikk, ikke leads. Måler ikke telefonklikk - kritisk for håndverkere der kunden ringer fra mobil. Setter opp filtre feil og ekskluderer sin egen trafikk hjemmefra (oppblåser data). Lar UA-tagger ligge igjen sammen med GA4 - dobbel måling. Ikke installerer Google Search Console-integrasjon - mister gratis innsikt om hvilke søk som genererer trafikk. Sjekk oppsettet med Google Tag Assistant.",
+      },
+      {
+        heading: "Google Analytics + Google Search Console = full bilde",
+        body:
+          "Google Analytics forteller deg hva besøkende gjør på siden din. Google Search Console forteller deg hva de googlet for å komme dit. Sammen er de uvurderlige. Koble dem sammen i GA4 under Admin → Search Console links. Da får du blant annet \"Søkeord\"-rapport som viser hvilke søk gir trafikk og hvor mange klikker. For SEO-arbeid er denne kombinasjonen det viktigste verktøysettet en håndverker har.",
+      },
+      {
+        heading: "Alternativer til Google Analytics",
+        body:
+          "Hvis du vil unngå Google av personvern-grunner finnes alternativer som ikke krever samtykke i Norge: Plausible Analytics, Fathom, Simple Analytics. De er enklere, viser de samme nøkkeltallene, og er typisk 99-299 kr/mnd. Mange norske håndverkere bytter for å slippe cookie-banner og kompleks GDPR-håndtering. Funksjonelt sett er Google Analytics rikere - men 90 % av håndverkerne bruker bare 5 % av funksjonene. For dem er et enklere verktøy bedre.",
+      },
+      {
+        heading: "Hvor mye tid bruker du på Analytics?",
+        body:
+          "Førsteoppsett: 30-60 minutter inkludert konverteringer og Search Console-kobling. Månedlig vedlikehold: 15-30 minutter for å sjekke trender, identifisere nye topp-sider, se hvilke kanaler vokser. Du trenger ikke logge inn daglig - GA4 sender ukentlige e-postrapporter med automatisk oppsummering. For en håndverkerbedrift på 3-10 ansatte er Analytics aldri den største tidsslukeren - det er aktive markedsføringskampanjer som tar tid. Analytics er bare målestokken.",
+      },
+      {
+        heading: "Hva data fra Google Analytics betyr i praksis",
+        body:
+          "Hvis Acquisition viser at 70 % av leads kommer fra organisk Google og 20 % fra Mittanbud - skift budsjettet over på SEO og bort fra plattform-lead. Hvis Engagement viser at \"Bad-oppussing\"-siden har 8 % CTR til kontakt mens \"Generelt rørleggerarbeid\" har 1 %, dobl ned på bad-oppussing-innhold. Hvis 60 % av besøkende kommer fra mobil og bounce-rate på mobil er 65 %, fiks mobilvennligheten på nettsiden. Data uten handling er bortkastet - men handling uten data er bare gjetning.",
+      },
     ],
-    relatedTerms: ["konverteringsrate", "bounce-rate", "organisk-trafikk"],
+    relatedTerms: [
+      "konverteringsrate",
+      "bounce-rate",
+      "organisk-trafikk",
+      "click-through-rate",
+      "google-bedriftsprofil",
+      "seo",
+      "betalt-trafikk",
+    ],
     relatedLinks: [
-      { label: "Alle tjenester", href: "/tjenester" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
     ],
   },
   {
