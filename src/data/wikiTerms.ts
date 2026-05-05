@@ -1405,17 +1405,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "anmeldelser",
     term: "Anmeldelser",
-    shortDescription: "Kundevurderinger på Google, Facebook eller egen nettside. Den viktigste enkeltfaktoren for tillit.",
+    shortDescription:
+      "Anmeldelser (også kalt kundevurderinger eller reviews) er skriftlige tilbakemeldinger fra tidligere kunder med stjernerating. For håndverkere er Google-anmeldelser den enkeltfaktoren som mest påvirker både SEO og konvertering.",
     category: "Anmeldelser",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Anmeldelser er skriftlige vurderinger fra tidligere kunder, vanligvis med en stjerneskår fra 1-5. De viktigste for håndverkere er Google-anmeldelser (fordi de vises i søk og Maps) og Mittanbud-anmeldelser (hvis du bruker plattformen). Facebook-anmeldelser finnes, men vektlegges mindre." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Anmeldelser er ofte avgjørende: 90 % av privatpersoner leser anmeldelser før de velger en håndverker. Forskjellen mellom 4,2 og 4,8 stjerner kan være dobbelt så mange klikk. En bedrift med 80 anmeldelser slår alltid en med 8, selv om begge har 5 stjerner - volum bygger tillit." },
-      { heading: "Hvordan fungerer det?", body: "Spør om anmeldelse etter hver fullført jobb - mens opplevelsen er fersk. Send en SMS eller e-post med direkte lenke til Google-profilen. En anmeldelsesfunnel automatiserer dette. Svar på alle anmeldelser, også de positive - Google belønner aktivitet, og det viser for nye kunder at du bryr deg." },
+      {
+        heading: "Hva er anmeldelser?",
+        body:
+          "Anmeldelser er skriftlige vurderinger fra tidligere kunder, typisk kombinert med en stjerneskår fra 1 til 5. På norsk brukes også \"kundeanmeldelser\", \"vurderinger\" eller engelsk \"reviews\". De viktigste plattformene for håndverkere er: Google-anmeldelser (vises i Google-søk og Google Maps - mest verdifulle), Mittanbud-anmeldelser (innenfor plattformen, ikke synlige andre steder), Facebook-anmeldelser (mindre vekt), Trustpilot (sjelden brukt for håndverkere). Av disse er Google-anmeldelser dominerende - 70-80 % av all anmeldelses-impact for en lokal håndverker kommer derfra.",
+      },
+      {
+        heading: "Hvorfor anmeldelser avgjør hvem kunden ringer",
+        body:
+          "Studier viser at over 90 % av forbrukere leser anmeldelser før de velger en lokal tjeneste. For håndverkere er tallet enda høyere fordi tillit er kritisk - du skal slippe noen inn i hjemmet. Tre konkrete effekter. 1) Volum: en bedrift med 80 anmeldelser slår alltid en med 8, selv om begge har 5 stjerner. 2) Score: forskjellen mellom 4,2 og 4,8 stjerner er nesten fordoblet konvertering. 3) Friskhet: 50 anmeldelser fra de siste 12 månedene slår 200 fra 2018-2020. Samspill av disse tre er mer betydningsfullt enn noen annen lokal SEO-faktor.",
+      },
+      {
+        heading: "Anmeldelser og lokal SEO - direkte rangeringssignal",
+        body:
+          "Google bruker anmeldelser som primærsignal for prominens i lokal SEO. De ser tre dimensjoner: total mengde anmeldelser, gjennomsnittsstjerner, og hvor nye anmeldelsene er. Det er ikke nok å være best - du må være best og synlig som best. En rørlegger som faktisk er teknisk dyktigst men bare har 5 anmeldelser konkurrer ikke i Local Pack mot en med 80 anmeldelser. Veien til topp 3 i Google Maps for ditt fag i din by går alltid gjennom systematisk anmeldelses-bygging.",
+      },
+      {
+        heading: "Hvor mange anmeldelser trenger du?",
+        body:
+          "Avhenger av lokalt konkurransepress. I Oslo for rørleggere/elektrikere/malere er topp 3 i Local Pack typisk på 80-200 anmeldelser. I mindre byer eller nisjer kan 30-50 være nok. Strategien: identifiser topp 3 konkurrenter for ditt fag i din by, sjekk deres anmeldelses-tall, sikt mot 50 % flere innen 12 måneder. Ny bedrift bør sikte mot 30 anmeldelser i løpet av første 6 måneder for å bli synlig. Etter det målet 5-10 nye per måned for å holde momentum.",
+      },
+      {
+        heading: "Slik samler du inn anmeldelser systematisk",
+        body:
+          "Den eneste skalerbare metoden er en anmeldelsesfunnel - et automatisk system som ber kunden om anmeldelse umiddelbart etter jobben er fullført. Send SMS samme dag som jobben avsluttes med direktelink til Google-profilen din. Konvertering fra SMS er typisk 30-40 % - dobbelt så høyt som e-post (15-20 %), tredobbelt høyere enn ingen oppfølging (10-15 %). Direktelink er kritisk - kunden skal ikke måtte søke etter profilen din. Vekst Systemet har en innebygd anmeldelsesfunnel som automatiserer hele prosessen.",
+      },
+      {
+        heading: "Beste tidspunkt å spørre om anmeldelse",
+        body:
+          "Tidspunktet avgjør konverteringen. Best: umiddelbart etter avsluttet jobb mens opplevelsen er fersk. Nest best: 24 timer senere som påminnelse for de som ikke svarte først gang. Tredje: 7 dager senere som siste vennlig nudge. Etter 14 dager glemmer kunden detaljene og responsen synker dramatisk. Fornøyde kunder husker ikke å anmelde - misfornøyde gjør det. Hvis du ikke spør, blir profilen skewed mot negative anmeldelser. Systematisk forespørsel er forsvar mot dette.",
+      },
+      {
+        heading: "Hvordan svare på anmeldelser",
+        body:
+          "Svar på alle anmeldelser, både gode og dårlige, innen 48 timer. Google belønner aktive profiler. Gode anmeldelser: kort, personlig takk. \"Tusen takk Lars, det var en fornøyelse å jobbe med deg på baderoms-prosjektet. Hilsen Ola.\" Dårlige anmeldelser: profesjonelt og løsningsorientert, aldri defensivt. \"Takk for tilbakemeldingen. Det er leit å høre at du ikke ble fornøyd. Kan du ringe meg på [nummer] så vi kan løse dette?\" Husk: nye kunder leser svarene dine og vurderer hvordan du håndterer kritikk - ikke at det finnes kritikk.",
+      },
+      {
+        heading: "Falske anmeldelser - ikke gjør det",
+        body:
+          "Fristelse: be venner og familie skrive 5-stjerners anmeldelser for å pumpe opp profilen. Resultatet: Google har sofistikerte algoritmer for å oppdage dette. De filtrerer ut anmeldelser fra konti som mangler historikk, har samme IP-adresse som bedriften, eller skriver i mistenkelig konsentrert tidsperiode. Verre: gjentatte forsøk fører til \"manuell handling\" som kan suspendere hele Google Bedriftsprofil-en. Anmeldelses-svindel er det desidert farligste \"shortcut\" en håndverker kan ta. Bruk systematisk innsamling fra ekte kunder i stedet.",
+      },
+      {
+        heading: "Slik håndterer du dårlige anmeldelser",
+        body:
+          "Ingen unngår dårlige anmeldelser - 1-5 % av jobber går galt selv hos de beste. Når en dukker opp, gjør tre ting. 1) Pust dypt og ikke svar med en gang. Vent 24 timer slik at du svarer profesjonelt, ikke emosjonelt. 2) Svar offentlig med løsningsforslag og kontakt-invitt. 3) Ring kunden privat hvis mulig - mange dårlige anmeldelser blir til oppdaterte 4-5 stjernerne hvis du tar problemet på alvor. 4) Hvis anmeldelsen er falsk eller fra noen som aldri har vært kunde, flagg den til Google for fjerning - de fjerner ekte regelbrudd, men ikke ærlige negative meninger.",
+      },
+      {
+        heading: "Anmeldelser på nettsiden din - vis dem aktivt",
+        body:
+          "Google-anmeldelser hører hjemme i Google. Men du kan og bør synliggjøre dem på din egen nettside også. Vis stjernerating og 2-4 sitater på forsiden over folden. Bygg en dedikert \"Anmeldelser\"-side med komplett liste. Bruk schema markup (LocalBusiness + AggregateRating) slik at Google kan vise stjerner direkte i søkeresultatet ditt. Et søketreff med stjerner i SERP-en har 30-50 % høyere CTR enn ett uten. Anmeldelses-visning på nettsiden er en av de billigste tillitssignalene du kan implementere.",
+      },
+      {
+        heading: "Mittanbud-anmeldelser vs Google-anmeldelser",
+        body:
+          "Stor forskjell i verdi. Mittanbud-anmeldelser blir på Mittanbud - de hjelper profilen din der, men gir null SEO-effekt og null synlighet for kunder som ikke bruker Mittanbud. Google-anmeldelser hjelper SEO, vises i Maps, gir social proof i Google-søk, og fungerer for alle besøkere. Hvis du må prioritere én, prioriter Google. Hvis du tar leads via Mittanbud, send dem også link til Google-profilen din etter jobb - en kunde kan godt anmelde begge steder. På 12 måneder bygger du dobbel synlighet.",
+      },
+      {
+        heading: "Hvor mye er anmeldelser verdt for omsetningen?",
+        body:
+          "Tall fra håndverkerbransjen viser typisk: en bedrift som går fra 20 til 80 Google-anmeldelser med opprettholdt 4,8+ snitt ser 50-150 % økning i månedlig leads gjennom Google Bedriftsprofil. For en håndverker med 18 000 kr snittjobb og 35 % konvertering er det 100 000-300 000 kr ekstra månedlig omsetning - bare fra anmeldelser. Det er den enkleste ROI-beregningen som finnes. Bruk noen timer i måneden på å systematisere innsamlingen, og du får forskjellen tilbake i økt synlighet og leads.",
+      },
     ],
-    relatedTerms: ["anmeldelsesfunnel", "google-bedriftsprofil", "social-proof", "qr-kode-for-anmeldelser"],
+    relatedTerms: [
+      "anmeldelsesfunnel",
+      "google-bedriftsprofil",
+      "social-proof",
+      "qr-kode-for-anmeldelser",
+      "local-seo",
+      "konverteringsrate",
+      "schema-markup",
+    ],
     relatedLinks: [
+      { label: "Slik får du flere 5-stjerners Google-anmeldelser", href: "/kunnskapsbank/fem-stjerners-google-anmeldelser-handverker" },
       { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
     ],
   },
   {
