@@ -1185,17 +1185,88 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "lead",
     term: "Lead",
-    shortDescription: "En potensiell kunde som har vist interesse - typisk ved å sende en forespørsel eller be om et tilbud.",
+    shortDescription:
+      "En lead er en potensiell kunde som har vist konkret interesse for tjenesten din - typisk ved å fylle ut et tilbudsskjema, ringe, eller sende SMS. For en håndverker er leads selve drivkraften bak omsetningen.",
     category: "Leads",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En lead er en person som har gitt deg kontaktinformasjon og vist at de er interessert i tjenesten din. Som minimum har du navn og telefon eller e-post. En varm lead har bedt om et konkret tilbud; en kald lead har kanskje bare meldt seg på et nyhetsbrev. Alle leads er ikke like verdifulle." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "For en håndverker er \"lead\" hele virksomhetens drivkraft. Uten jevne leads ingen jobber. Det er forskjell på å betale for leads (Mittanbud, Google Ads) og å generere egne (SEO, anbefalinger, egen nettside). Egne leads er billigere per stykk og gir høyere konvertering fordi kunden allerede har valgt deg." },
-      { heading: "Hvordan fungerer det?", body: "Tenk på leads i tre steg: (1) innhente - via nettside, annonser, anmeldelser, (2) kvalifisere - er de i målgruppen, er budsjettet realistisk, (3) følge opp - raskt og systematisk. Den som ringer tilbake innen 5 minutter vinner oppdraget ~4x oftere enn den som venter 24 timer." },
+      {
+        heading: "Hva er en lead?",
+        body:
+          "En lead (norsk uttale \"liid\", flertall \"leads\") er en potensiell kunde som har gitt deg kontaktinformasjon og vist at de er interessert i tjenesten din. Som minimum har du navn og telefon eller e-post. \"A lead\" på engelsk betyr en spor å følge - i markedsføring er det en kontakt du kan gjøre noe med. For en håndverker kan en lead være: noen som fylte ut tilbudsskjema på nettsiden, ringte og spurte om pris, sendte SMS via Mittanbud, eller meldte seg på nyhetsbrev. Alle disse er leads, men de er ikke like verdifulle.",
+      },
+      {
+        heading: "Forskjellige typer leads - varme, lunkne, kalde",
+        body:
+          "Markedsførere deler leads i tre temperaturer. \"Varme leads\" har konkret kjøpsintensjon - de har bedt om tilbud, ringt for å spørre om når du kan komme, eller sammenlignet 2-3 firmaer aktivt. \"Lunkne leads\" har vist interesse men ikke i akutt behov - kanskje for større prosjekter de planlegger om noen måneder. \"Kalde leads\" har bare så vidt registrert eksistens - meldt seg på nyhetsbrev, lastet ned en gratis sjekkliste, klikket en annonse. For håndverkere er varme leads gull, lunkne kvalitetsleads, kalde verdt lite.",
+      },
+      {
+        heading: "Hvorfor leads er hele virksomhetens drivkraft",
+        body:
+          "For en håndverkerbedrift bestemmer antall og kvalitet på leads omsetningen mer enn noe annet. Du kan være den dyktigste rørleggeren i Oslo - hvis ingen vet om deg, har ingen ringt, og pipelinen er tom, har du ingen omsetning. Mens en mindre dyktig konkurrent med 50 nye leads i måneden vinner. Leads er forskjellen på å vente på telefonen og å ha buffer. På bedrifter med 1-15 ansatte er antallet kvalifiserte månedlige leads den enkleste indikatoren på vekst eller stagnasjon.",
+      },
+      {
+        heading: "Hvor leads kommer fra - de fem viktigste kanalene",
+        body:
+          "1) Egen nettside (organisk Google-trafikk) - de billigste leadsene, høy intensjon, koster 0 kr per lead. 2) Google Ads - kontrollerbar, betaler 25-120 kr per klikk og typisk 200-800 kr per lead. 3) Mittanbud og Anbudstorget - rask tilgang men dyr per lead (300-800 kr) og priskonkurranse. 4) Sosiale medier (Facebook/Instagram annonser) - varierer, 200-600 kr per lead, lavere intensjon. 5) Anbefalinger fra fornøyde kunder - billigste og høyest konverterende. De smarteste håndverkerbedriftene har 4-5 av disse aktive samtidig.",
+      },
+      {
+        heading: "Hva en lead er verdt for din bedrift",
+        body:
+          "Leadverdi varierer etter bransje og snittjobb. Beregningen: (snittjobb i kr × konverteringsrate fra lead til oppdrag) - kostnad per lead = leadverdi. Eksempel: rørlegger med snittjobb 18 000 kr, konverterer 35 % av leads, har lead-kost på 400 kr. (18 000 × 0,35) - 400 = 5 900 kr per lead. Kjenner du leadverdien din, vet du hva du har råd å betale per lead - og hvilke kanaler som lønner seg. Bruk vår leadverdi-kalkulator for å beregne din egen tall basert på dine snittjobber og konverteringsrater.",
+      },
+      {
+        heading: "Lead-oppfølging - 5 minutter er magisk",
+        body:
+          "Studier viser at håndverkere som svarer leadene innen 5 minutter konverterer 4x oftere enn de som svarer etter en time, og 21x oftere enn etter 24 timer. Forklaring: når kunden fyller ut tilbudsskjema, googler de typisk 3-4 firmaer parallelt. Den som svarer først, vinner. Praktisk implementasjon: automatisk SMS innen 5 min når noen sender skjema, automatisk SMS innen 5 min når et anrop ikke besvares, og en faktisk tilbakeringing innen 1-2 timer. Dette systemet alene øker konverteringsrate fra 25 % til 45-50 %.",
+      },
+      {
+        heading: "Lead-kvalifisering - ikke alle er gull",
+        body:
+          "Ikke alle leads er verdt å forfølge. Kvalifisering betyr at du raskt vurderer om en lead matcher: er de i ditt geografiske område, har de realistisk budsjett, har de timeplan som passer, har de myndighet til å bestemme. En lead utenfor området, med urealistisk budsjett, eller som \"bare leter\", er ofte tap av tid. Spør 2-3 kvalifiserende spørsmål tidlig - \"Hvor ligger jobben?\", \"Når trenger du det utført?\", \"Hva er omtrentlig budsjett?\". 5 minutter på kvalifisering sparer timer på upassende oppdrag.",
+      },
+      {
+        heading: "Lead generation: prosessen for å skaffe leads",
+        body:
+          "\"Lead generation\" eller leadsgenerering er den systematiske prosessen for å skaffe nye leads. Praktiske komponenter: en nettside som konverterer (god landingsside, tydelig CTA, kort skjema), trafikkkilde som fyller den (SEO, ads, referrals), oppfølgingssystem som ikke mister noen (CRM, automatisk lead-oppfølging), og målesystem som forteller hva som virker (Google Analytics). Bedrifter som mestrer dette har ofte 3-5x flere leads enn konkurrenter med samme markedsføringsbudsjett - fordi prosessen er optimalisert.",
+      },
+      {
+        heading: "Vanlige leadsfeil håndverkere gjør",
+        body:
+          "Tar bare imot leads som kommer av seg selv - mister kontroll på vekst. Svarer på Mittanbud-leads dagen etter - taper til konkurrenten. Fyller ut for komplisert tilbudsskjema - 7 felter senker konvertering med 50 %. Ringer tilbake fra et tilfeldig nummer (ikke firmaets) - kunden vet ikke hvem som ringer. Glemmer å følge opp leads som ikke svarte første gang - 30-40 % av disse konverterer ved tredje forsøk. Sender ikke status-SMS når jobb er booket - kunden går til ny rørlegger fordi de tror de er glemt.",
+      },
+      {
+        heading: "Lead-tracking: vit hvor leadsene kommer fra",
+        body:
+          "Hvis du ikke vet hvor leadsene kommer fra, kan du ikke optimalisere. Implementer tracking: UTM-parametere på alle annonse-lenker (?utm_source=google_ads), unike telefonnummer per kanal (callRail eller lignende), Google Analytics conversion goals på tilbudsskjema. Etter 2-3 måneder data ser du klart hvilke kanaler genererer flest leads og hvilke konverterer best. Skift budsjett mot vinnende kanaler. Uten tracking gjetter du - og gjetting i markedsføring er dyrt.",
+      },
+      {
+        heading: "Lead nurturing - varm opp lunkne leads",
+        body:
+          "Lead nurturing er prosessen for å holde kontakt med lunkne leads til de blir varme. For håndverkere som tar større prosjekter (baderomsoppussing, kjøkken, tilbygg) der beslutningen tar 2-8 uker, er nurturing kritisk. Praktisk implementasjon: leads som ikke konverterte innen første samtale går i en oppfølgingssekvens - automatisk SMS etter 1 uke, e-post med relevant case study etter 3 uker, ny SMS etter 6 uker. Mange leads kommer tilbake måneder senere når de er klare - sørg for at du fortsatt er i tankene deres.",
+      },
+      {
+        heading: "Egne leads vs kjøpte leads",
+        body:
+          "Den viktigste leadstrategiske forskjellen for håndverkere. Kjøpte leads (Mittanbud, Anbudstorget, lead-broker) er raske å skaffe men dyre per stykk (300-800 kr) og lav kvalitet (priskonkurranse, kunden snakker med 3-5 firmaer). Egne leads (egen nettside, SEO, anmeldelser) tar 3-6 måneder å bygge opp, men koster nær 0 kr per stykk og har høyere kvalitet (kunden har valgt deg). Den smarteste tilnærmingen: bruk kjøpte leads de første 3-6 månedene mens du bygger egne kanaler, deretter reduser platform-avhengighet gradvis.",
+      },
     ],
-    relatedTerms: ["lead-oppfolging", "funnel", "konvertering", "konverteringsrate"],
+    relatedTerms: [
+      "lead-oppfolging",
+      "funnel",
+      "konvertering",
+      "konverteringsrate",
+      "automatisk-oppfolging",
+      "tapt-anrop-sms",
+      "crm",
+      "landingsside",
+    ],
     relatedLinks: [
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
       { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Mittanbud-alternativ", href: "/sammenlign/mittanbud-alternativ" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
