@@ -887,17 +887,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "retargeting",
     term: "Retargeting",
-    shortDescription: "Annonser som vises til folk som tidligere har besøkt nettsiden din, for å minne dem på deg.",
+    shortDescription:
+      "Retargeting (også kalt remarketing) er betalt annonsering som vises til folk som allerede har besøkt nettsiden din uten å konvertere. For håndverkere er det den billigste måten å fange opp de 95 % som ikke ringte på første besøk.",
     category: "Leads",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Retargeting (også kalt remarketing) er annonsering som kun treffer folk som allerede har besøkt nettsiden din uten å konvertere. De ser reklamen din på Facebook, Instagram eller andre nettsteder dagene etter - en påminnelse om at du finnes." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "På en håndverker-nettside konverterer bare 2-5 % av besøkende på første besøk. De andre 95 % undersøker, sammenligner, glemmer. Retargeting får en del av disse tilbake. Spesielt effektivt for større prosjekter (bad, kjøkken, tilbygg) der beslutningsprosessen er lang." },
-      { heading: "Hvordan fungerer det?", body: "Legg inn en sporingskode (Meta Pixel for Facebook/Instagram, Google Ads tag for Google) på nettsiden. Deretter oppretter du en annonse som kun vises til folk hvis kode har blitt lastet i kode ditt. For en typisk håndverker er et retargeting-budsjett på 500-1 500 kr i måneden nok til å fange opp de fleste som var nær." },
+      {
+        heading: "Hva er retargeting?",
+        body:
+          "Retargeting - også kalt remarketing - er en form for betalt annonsering som kun viser annonsene dine til folk som tidligere har besøkt nettsiden din. I praksis: kunden googler \"baderomsrenovering Oslo\", klikker på siden din, ser seg rundt 3 minutter, og forlater uten å fylle ut tilbudsskjemaet. Tre dager senere ser de en annonse for ditt firma på Facebook, Instagram eller en helt annen nettside de besøker. Det er retargeting i praksis - en målrettet påminnelse om bedriften de allerede har vurdert.",
+      },
+      {
+        heading: "Hvorfor retargeting matters for håndverkere",
+        body:
+          "På en håndverker-nettside konverterer typisk bare 2-5 % av besøkende på første besøk. De andre 95 % undersøker, sammenligner med 2-3 konkurrenter, leser anmeldelser, og bestemmer seg gjerne dager eller uker senere. Uten retargeting glemmer de fleste deg - kunden kan huske \"jeg så en flink rørlegger sist uke\" men ikke navnet. Retargeting er forskjellen på å være glemt og å være den de bestemmer seg for. Spesielt verdifullt for høyverdiprosjekter (baderom, kjøkken, tilbygg) der beslutningsprosessen er 2-8 uker lang.",
+      },
+      {
+        heading: "Hvordan retargeting teknisk fungerer",
+        body:
+          "Du legger inn en sporingskode (\"pixel\") på nettsiden. De viktigste er Meta Pixel (Facebook/Instagram), Google Ads Tag (Google + YouTube + Display Network), og TikTok Pixel hvis du annonserer der. Pixelen registrerer hver besøkende anonymt - den lagrer ikke personopplysninger, men den merker browseren. Når du oppretter en retargeting-annonse, sier du til Facebook eller Google: vis denne annonsen kun til folk som har vært på nettsiden min siste 30/60/90 dager. Annonsen vises da kun til kvalifiserte, tidligere besøkende.",
+      },
+      {
+        heading: "Retargeting med betalt annonsering: budsjett",
+        body:
+          "Retargeting er overraskende rimelig fordi målgruppen er smal og høyt kvalifisert. For en typisk norsk håndverker med 500-2 000 månedlige nettside-besøk: 500-1 500 kr/mnd dekker hele retargeting-budsjettet. Du betaler typisk 2-8 kr per visning, og en retargeting-besøkende konverterer 5-10x bedre enn en kald besøkende fordi de allerede vet hvem du er. CPA (Cost Per Acquisition) på retargeting er ofte 200-600 kr - mye lavere enn 1 500-4 000 kr på Mittanbud eller 800-1 200 kr på kald Google Ads.",
+      },
+      {
+        heading: "Hvor retargeting-annonsene faktisk vises",
+        body:
+          "Avhengig av plattform: Meta Pixel viser annonser i Facebook News Feed, Instagram Feed og Stories, og Messenger. Google Ads Tag viser annonser i Google-søketreff (du blir på topp neste gang kunden googler), på YouTube før videoer starter, og på over 2 millioner nettsider i Google Display Network (aviser, blogger, fagsider). TikTok Pixel viser annonser i TikTok-feed. For håndverkere fungerer Facebook + Instagram best fordi målgruppen er der ofte og innholdet (før/etter-bilder) passer formatet.",
+      },
+      {
+        heading: "Retargeting vs remarketing - er det forskjell?",
+        body:
+          "Begrepene brukes om hverandre i 2026. Historisk skiller de seg slik: \"remarketing\" var Googles term for e-postoppfølging av tidligere besøkende, mens \"retargeting\" var annonseplattformenes term for displayannonser til besøkende. I dag bruker både Google og andre begrepene som synonymer. Funksjonelt er de samme: målrettet markedsføring til folk som allerede er kjent med deg. Norske håndverkere bruker typisk \"retargeting\" eller \"retargeting med betalt annonsering\" som standardterm.",
+      },
+      {
+        heading: "Hva annonsen skal si - tekst og bilder",
+        body:
+          "Retargeting-annonsen treffer folk som allerede vet hvem du er. Det gir deg lov å skifte budskap fra \"introduksjon\" til \"avslutning\". Effektive retargeting-budskap for håndverkere: \"Vurderer du fortsatt baderomsrenovering? Få et uforpliktende tilbud i dag\". Eller \"Takk for besøket! 4,9 ★ av 127 anmeldelser - klar for befaring?\". Bruk bilder fra ekte prosjekter (før/etter), inkluder stjernerating, og ha en tydelig CTA. Roter 3-5 forskjellige annonser hver 14. dag så ikke samme person ser samme annonse 50 ganger.",
+      },
+      {
+        heading: "Retargeting-segmenter: lag flere målgrupper",
+        body:
+          "Avansert retargeting deler besøkende i segmenter. \"Alle besøkende siste 90 dager\" er én. \"Folk som så på baderomsside\" er en annen - de er nær konvertering, gi dem aggressiv kampanje. \"Folk som la i pris-kalkulator men ikke fullførte\" er en tredje - vis annonse med rabatt. \"Folk som var i sammenlign-fase mer enn 3 minutter\" er en fjerde - vis annonse med kundecaser. Hver segment får tilpasset annonse. Dette setter retargeting fra grunnleggende til strategisk - typisk dobler resultatet.",
+      },
+      {
+        heading: "Frequency caps: ikke spam besøkende",
+        body:
+          "Folk hater å se samme annonse 30 ganger. Sett \"frequency cap\" - maks visninger per person per uke. For håndverkere er 5-10 visninger per uke per person trygt. Mer enn det skaper irritasjon (\"jeg så denne åtte ganger i dag\") og senker både CTR og konverteringsrate. Roter også kreatives - ny tekst eller bilde hver 10-14 dager. Uten frequency cap brenner du budsjett uten effekt; uten kreativ rotasjon ignoreres annonsen.",
+      },
+      {
+        heading: "GDPR og samtykke for retargeting",
+        body:
+          "Retargeting krever samtykke under norske personvernregler. Cookie-banneren på nettsiden må eksplisitt spørre om \"markedsføringscookies\" eller lignende. Datatilsynet er tydelige på dette. Bruk Google Consent Mode v2 og Facebooks tilsvarende for å håndtere samtykke korrekt - retargeting-pixlene aktiveres bare for besøkende som har sagt ja. Dette betyr at retargeting-pulen er mindre enn alle besøkende, men du unngår store bøter. En cookie-banner-løsning som Cookiebot eller Iubenda håndterer dette automatisk.",
+      },
+      {
+        heading: "Når retargeting ikke er verdt det",
+        body:
+          "Retargeting krever et minimum av nettside-trafikk for å virke. Hvis du har under 100-200 unike besøkende per måned, vil retargeting-publikumet være for lite til å gi statistisk signifikante resultater. I så fall: fokuser på å skaffe trafikk først (SEO, Google Ads, Mittanbud), deretter retargeting når du er over 500 mnd-besøk. Også: hvis konverteringsraten på nettsiden er 0 %, fikser ikke retargeting det - fiks nettsiden først, deretter retargeting på besøkende som faktisk har sjanse til å konvertere.",
+      },
+      {
+        heading: "Slik kommer du i gang med retargeting",
+        body:
+          "Steg 1: Installer Meta Pixel og Google Ads Tag på nettsiden (eller bruk Google Tag Manager til å håndtere begge). Steg 2: La pixelen samle data 2-4 uker - du trenger minst 100-200 personer i pixel-publikumet. Steg 3: Lag en enkel retargeting-kampanje med 500 kr/mnd budsjett, ett bilde, én tekst, mål til \"alle besøkende siste 30 dager\". Steg 4: Mål etter 30 dager - hva ble CPA? Steg 5: Hvis CPA er fornuftig (under halvparten av andre kanaler), skaler. Hvis ikke, juster annonse og prøv igjen.",
+      },
     ],
-    relatedTerms: ["google-ads", "betalt-trafikk", "konverteringsrate", "funnel"],
+    relatedTerms: [
+      "google-ads",
+      "betalt-trafikk",
+      "konverteringsrate",
+      "funnel",
+      "google-analytics",
+      "click-through-rate",
+      "landingsside",
+    ],
     relatedLinks: [
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Facebook-annonser for håndverkere", href: "/kunnskapsbank/facebook-annonser-for-handverkere" },
       { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
