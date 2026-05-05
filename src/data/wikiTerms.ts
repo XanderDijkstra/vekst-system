@@ -914,17 +914,87 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "landingsside",
     term: "Landingsside",
-    shortDescription: "En fokusert side bygget for ett formål - gjerne knyttet til én annonse eller ett søkeord.",
+    shortDescription:
+      "En landingsside (engelsk: landing page) er en fokusert nettside bygget for ett enkelt mål: å konvertere besøkende til en handling. For håndverkere er det forskjellen mellom 1 % og 8 % konverteringsrate.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En landingsside (engelsk: landing page) er en enkeltside designet for å få besøkende til å gjøre én ting: fylle ut et skjema, ringe, bestille tilbud. Ingen hovedmeny, ingen distraksjoner - bare én oppgave. Brukes typisk som landingsside for Google Ads-kampanjer eller konkrete tjenestesider." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "En landingsside konverterer vanligvis 3-5x bedre enn en generell forside. Hvis du kjører Google Ads på \"baderomsrenovering Oslo\", bør annonsen lede til en side som handler om nettopp det - ikke firmaets forside der besøkeren må lete. Samme prinsipp gjelder for SEO-sider per tjeneste." },
-      { heading: "Hvordan fungerer det?", body: "En god håndverker-landingsside har: én tydelig overskrift som matcher søkeordet, før/etter-bilder fra ekte prosjekter, 3-5 anmeldelser, prisindikasjon eller \"fra X kr\"-anker, og ett skjema med 3 felter (navn, telefon, kort beskrivelse). All tekst støtter målet - ingen \"om oss\"-avsnitt som stjeler oppmerksomhet." },
+      {
+        heading: "Hva er en landingsside?",
+        body:
+          "En landingsside (engelsk: landing page) er en enkeltside designet med ett tydelig mål: å konvertere besøkende til en handling - fylle ut et skjema, ringe, eller bestille tilbud. I motsetning til en hjemmeside som tilbyr mange muligheter (om oss, tjenester, blogg, kontakt), er en landingsside fokusert som en pil. Den har gjerne ikke engang en hovedmeny - kun overskrift, fordeler, sosiale bevis og ett skjema. Hver eneste piksel støtter ett mål: at besøkeren tar handlingen du ønsker.",
+      },
+      {
+        heading: "Landingsside vs hjemmeside - hva er forskjellen?",
+        body:
+          "Hjemmesiden er en generell inngang for alle besøkende - de som kjenner navnet ditt fra før, de som leter etter informasjon, de som vil sammenligne med konkurrenter. Landingssiden er spesifikt for én målgruppe og én søkeintensjon. Eksempel: kunden googler \"baderomsrenovering Oslo pris\" og klikker på en Google Ads-annonse. Sender du dem til hjemmesiden, må de finne baderomsrenovering selv. Sender du dem til en dedikert landingsside om baderomsrenovering Oslo, ser de umiddelbart relevant innhold. Det er forskjellen på 1 % og 8 % konvertering.",
+      },
+      {
+        heading: "Hvorfor håndverkere trenger landingssider",
+        body:
+          "Hver type oppdrag har forskjellig kjøpsprosess og forskjellige spørsmål. En kunde som søker \"akutt rørlegger Oslo\" har sekunder å beslutte; en kunde som søker \"baderomsrenovering Oslo\" har uker. Du kan ikke optimalisere én hjemmeside for begge. Landingssider gir deg muligheten til å lage tilpassede sider per tjeneste og per intensjon. For håndverkere som kjører Google Ads er det praktisk talt obligatorisk - en Ads-kampanje uten landingsside brenner penger på besøkere som ikke konverterer fordi nettsiden ikke matcher annonsen.",
+      },
+      {
+        heading: "Anatomien av en konverterende håndverker-landingsside",
+        body:
+          "Klassisk struktur som virker. 1) Hero med tittel som matcher søkeordet (\"Baderomsrenovering Oslo - tilbud i dag\"), kort underrubrikk, og primærCTA. 2) Sosiale bevis: stjernerating, antall jobber, kjente kunder. 3) Tre-fire bullet points med konkrete fordeler. 4) Før/etter-bilder fra ekte prosjekter. 5) Pris-indikasjon eller \"fra X kr\"-anker. 6) FAQ med 4-6 vanlige spørsmål. 7) Skjema med 3 felter (navn, telefon, kort beskrivelse). 8) Sticky CTA i bunn på mobil. Ingen hovedmeny, ingen blogg-lenker, ingenting som distraherer.",
+      },
+      {
+        heading: "Tittelen er 80 % av jobben",
+        body:
+          "Den første tittelen besøkeren ser avgjør om de blir eller går. Sterke håndverker-landingsside-titler følger formelen [Hva] + [Hvor] + [Differensiering]: \"Baderomsrenovering Oslo - ferdig på 3-5 uker\", \"Akutt rørlegger Bergen - 30 min responstid\", \"Maler Trondheim - garantert prisfast tilbud\". Svake titler er generiske: \"Velkommen til Hansen Bygg AS\", \"Kvalitet siden 1995\", \"Vi gjør alt innenfor håndverk\". Tester viser at sterke titler gir 30-100 % høyere konverteringsrate enn generiske. Bruk 5-10 minutter på å skrive 5 versjoner av tittelen, velg den beste.",
+      },
+      {
+        heading: "Skjema-design - 3 felter slår 7 hver gang",
+        body:
+          "Studier på tvers av bransjer viser at hver ekstra skjemafelt senker konverteringsraten med 5-10 %. For håndverker-landingssider betyr det: maks 3-4 felter. Optimalt: navn, telefon, fritt felt. Spør IKKE om e-post hvis du har telefon - kunden vil ringes opp. Spør IKKE om budsjett - skremmer av prisbevisste kunder. Spør IKKE om adresse - du tar det i samtalen. Knappetekst: \"Be om tilbud\" eller \"Få gratis befaring\" - aldri \"Send\" eller \"Send inn\". Et 3-felts skjema konverterer typisk på 8-15 %; et 7-felts skjema på 2-5 %.",
+      },
+      {
+        heading: "Tillitssignaler over folden",
+        body:
+          "Folden er den delen av siden som er synlig før kunden scroller. Tillitssignaler som vises over folden er kraftigst. Effektive signaler for håndverker: stjernerating (\"4,9 av 5 stjerner - 127 anmeldelser\"), antall jobber (\"500+ baderom over 10 år\"), kjente kunder (logoer av sameier, kommuner), bilde av deg/teamet (ekte mennesker bygger tillit), garanti-merker (mesterbrev, sentralgodkjenning). Plasser disse direkte under tittelen, ikke gjemt i bunnen. Tillitssignaler over folden hever konvertering med 30-50 %.",
+      },
+      {
+        heading: "En landingsside per søkeintensjon",
+        body:
+          "Bygg ikke én generisk landingsside som dekker alt - bygg flere spesifikke. For en rørlegger i Oslo: \"Akutt rørlegger Oslo\" (kommersiell intensjon, høy hast), \"Baderomsrenovering Oslo\" (kommersiell, planleggingsfase), \"Vannlekkasje Oslo\" (akutt, panikk), \"Rørlegger Oslo pris\" (informasjons-tilstand, vurderer). Hver landingsside skreddersys til den intensjonen. Det høres som mye arbeid, men én godt strukturert mal kan templates til 10+ landingssider med kun tekst- og bildeendringer. Strategien er hvorfor SEO-tunge håndverker-bedrifter har 50-100 unike landingssider på nettsiden.",
+      },
+      {
+        heading: "Landingsside for Google Ads vs SEO",
+        body:
+          "Subtile forskjeller. Google Ads-landingssider trenger \"message match\" - annonseteksten skal speiles i landingsside-tittelen. Hvis annonsen sier \"Akutt rørlegger 30 min\", må landingssiden si akkurat det. Quality Score i Ads avhenger delvis av denne matchen. SEO-landingssider trenger derimot mer dybde - 800-1500 ord, FAQ-seksjoner, og ekte verdi for å rangere organisk. Du kan bygge én side som fungerer for begge, men optimalt har Google Ads slankere, mer fokuserte landingssider og SEO har dypere informasjons-rike sider.",
+      },
+      {
+        heading: "Vanlige landingsside-feil som dreper konvertering",
+        body:
+          "Hovedmeny øverst med 8 lenker - distraherer fra primær-CTA. Karusell med 5 hero-bilder - ingen ser bilde 2-5. Pop-up som dekker hele skjermen ved sidelast - irriterer mer enn den fanger leads. Lange tekstvegg uten luft - ingen leser. Skjema gjemt i bunnen av siden - ingen scroller dit. Generiske stockbilder av smilende mennesker i dress - bygger ingen tillit. Ingen telefonnummer synlig - du mister mobil-besøkere som vil ringe direkte. Disse feilene halverer typisk konverteringsraten.",
+      },
+      {
+        heading: "Hvor mye koster en konverterende landingsside?",
+        body:
+          "DIY med Squarespace, Webflow eller WordPress + Elementor: 0-1 000 kr og en helg av tiden din. Frilanser med erfaring: 8 000-25 000 kr engangs per side. Konverteringsfokusert byrå: 25 000-80 000 kr engangs. Vekst Systemet leverer hele nettsiden med dedikerte tjeneste-landingssider for hver hovedtjeneste, inkludert lokal SEO og anmeldelser, til 2 990 kr/mnd. For en håndverker som ønsker konverterende landingssider uten å bygge selv, er SaaS-modellen ofte raskere og rimeligere enn å hyre frilanser per side.",
+      },
+      {
+        heading: "Mål, mål, mål - landingssiden er aldri ferdig",
+        body:
+          "En landingsside er ikke statisk - den skal forbedres måned for måned basert på data. Mål 4 ting: konverteringsrate, bounce rate, tid på side, og scroll-dybde. Bruk Google Analytics og et heatmap-verktøy som Microsoft Clarity (gratis) for å se hvor folk klikker, hvor de scroller til, og hvor de forlater. Hver måned: identifiser ett problem (f.eks. \"folk forlater før de når skjemaet\"), gjør én endring, mål effekten i 30 dager. Over et år går typiske håndverker-landingssider fra 1-2 % konvertering til 5-10 % - en dobling eller tredobling i leads på samme trafikk.",
+      },
     ],
-    relatedTerms: ["konverteringsrate", "cta", "google-ads", "meta-tittel-og-beskrivelse"],
+    relatedTerms: [
+      "konverteringsrate",
+      "cta",
+      "google-ads",
+      "meta-tittel-og-beskrivelse",
+      "social-proof",
+      "a-b-test",
+      "google-analytics",
+      "konvertering",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
