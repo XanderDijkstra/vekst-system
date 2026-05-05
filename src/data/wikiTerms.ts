@@ -562,17 +562,84 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "responsivt-design",
     term: "Responsivt design",
-    shortDescription: "Teknikken som får nettsiden til å tilpasse seg mobil, nettbrett og PC automatisk.",
+    shortDescription:
+      "Responsivt design er teknikken som får én nettside til å tilpasse seg automatisk til mobil, nettbrett og PC. For håndverkere betyr det én side som ser like bra ut overalt - i 2026 er det ikke valgfritt.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Responsivt design er en designtilnærming der samme nettside automatisk legger om layout basert på skjermstørrelse. På PC vises kanskje tre kolonner, på mobil ligger de stablet oppå hverandre. Ingen separat mobilside - én nettside som tilpasser seg." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Før hadde mange bedrifter en egen mobilside (m.firma.no). Det er utdatert - Google forstår ikke at det er samme firma, og du må vedlikeholde to sider. Responsivt design gir én side som fungerer overalt: Google, Bing, iPhone, Android, nettbrett." },
-      { heading: "Hvordan fungerer det?", body: "Teknisk sett bruker nettsiden CSS-media queries som sier \"hvis skjermen er smalere enn 768 piksler, stable elementene vertikalt\". Designeren jobber ofte \"mobile first\" - lager mobilversjonen først, og legger til flere kolonner etter hvert som skjermen blir bredere. Alle moderne bygde nettsider er responsive som standard." },
+      {
+        heading: "Hva er responsivt design?",
+        body:
+          "Responsivt design (engelsk: responsive web design eller RWD) er en designtilnærming der nettsiden automatisk legger om layout basert på skjermstørrelse. Samme HTML, samme innhold - men på en PC vises kanskje tre kolonner side om side, mens på en mobil ligger samme tre kolonner stablet oppå hverandre. Ingen separat mobilside (m.firma.no), ingen app, ingen duplisering av arbeid - én nettside som tilpasser seg alt fra 320 px iPhone-skjerm til 4K skrivebordsmonitor. Begrepet ble myntet av Ethan Marcotte i 2010 og er i dag standarden for all moderne webutvikling.",
+      },
+      {
+        heading: "Hvorfor responsivt design er obligatorisk i 2026",
+        body:
+          "I Norge er nå 80-85 % av all webtrafikk fra mobil. For håndverker-søk er andelen enda høyere - kunden står ute i regnet og googler \"taktekker akutt Oslo\". En nettside som ikke er responsivt designet er praktisk talt ubrukelig på mobil: zooming, brutte bilder, knapper for små å trykke, tekst som krever sideveis scrolling. Verre: Google bruker mobilversjonen som hovedversjon for indeksering (mobile-first indexing). Hvis mobilversjonen er dårlig, faller du i søk på alle enheter. Responsivt design er ikke en bonus - det er fundamentalt obligatorisk.",
+      },
+      {
+        heading: "Hvordan responsivt design teknisk fungerer",
+        body:
+          "Teknisk er kjernen CSS-media queries: regler som sier \"hvis skjermen er smalere enn 768 piksler, gjør X\". Eksempel: en 3-kolonne-layout på desktop blir 1-kolonne på mobil. Bilder skalerer automatisk med max-width: 100 %. Tekstene endrer størrelse via clamp() eller relative enheter (rem, vw). Moderne CSS-rammeverk som Tailwind, Bootstrap og CSS Grid har responsivitet innebygd. En profesjonelt utviklet nettside i 2026 er aldri ikke-responsivt - hvis utvikleren leverer noe annet, leverer de feil produkt.",
+      },
+      {
+        heading: "Mobile-first vs desktop-first",
+        body:
+          "Det er to filosofier i responsivt design. \"Desktop-first\": designe for stort skjerm først, deretter krympe ned til mobil (gammel tilnærming, gjenstår på eldre nettsider). \"Mobile-first\": designe for mobil først, deretter utvide til større skjerm (moderne tilnærming, anbefalt). Mobile-first tvinger fokus på de viktigste elementene fordi mobilskjermen er begrenset. For håndverker-nettsider er mobile-first riktig valg: 80 % av trafikken er mobil, så design der først, så tilpass desktop. Resultatet er rene, fokuserte nettsider som konverterer bedre.",
+      },
+      {
+        heading: "Breakpoints: hvor layouten endrer seg",
+        body:
+          "Breakpoints er skjermstørrelsene der designet skifter. Vanlige norske breakpoints i 2026: mobil ≤ 640 px, nettbrett 641-1024 px, desktop 1025-1440 px, stor desktop ≥ 1441 px. På hver breakpoint kan layout endre seg - fra 1 kolonne til 2, fra 2 til 3, fra hamburger-meny til full meny. Tailwind CSS bruker disse breakpoint-navnene: sm (640), md (768), lg (1024), xl (1280), 2xl (1536). Når du tester nettsiden, sjekk på alle disse størrelsene - bruk Chrome DevTools' Device Toolbar eller åpne på faktiske enheter.",
+      },
+      {
+        heading: "Responsivt design vs adaptivt design",
+        body:
+          "Verdt å kjenne forskjellen. \"Responsivt design\" bruker en enkelt fleksibel layout som flyter mellom alle skjermstørrelser. \"Adaptivt design\" bruker forhåndsdefinerte layouts som hopper mellom et fast sett av størrelser - typisk en mobil-versjon, en nettbrett-versjon, en desktop-versjon. I 2026 er responsivt nesten alltid det rette valget - mer fleksibelt, lettere å vedlikeholde, og fungerer bedre på de mange skjermstørrelsene som finnes (foldable phones, store monitorer, etc). Adaptiv design hører til 2010-2012 og brukes sjelden i dag.",
+      },
+      {
+        heading: "Bilder i responsivt design",
+        body:
+          "Bilder er det mest tekniske utfordrende i responsivt design. Et bilde optimalisert for desktop (1920x1080, 800 KB) er overkill på mobil (375 px bredt skjerm, treigere nettverk). Moderne løsning: bruk srcset og picture-elementet for å levere ulike bildestørrelser per enhet. Bruk WebP eller AVIF format for 30-50 % mindre filstørrelse uten kvalitetstap. Last bilder lazy med loading=\"lazy\" - bilder lengre nede på siden lastes ikke før brukeren scroller dit. Disse tre teknikker hever sidehastighet kraftig på mobil, som er hovedproblemet for tregere brukervennlig nettside-opplevelse.",
+      },
+      {
+        heading: "Test responsivt design på riktig måte",
+        body:
+          "Tre nivåer av testing. 1) Chrome DevTools Device Toolbar - simuler iPhone, iPad, Galaxy og custom-størrelser fra desktop. Raskt og nyttig under utvikling. 2) BrowserStack eller LambdaTest - faktisk emulering av ekte enheter (iOS Safari, Android Chrome). For viktig sjekk når du er nær lansering. 3) Test på dine egne enheter - din egen iPhone, en ansatt sin Android, en gammel iPad. Den ekte testen er hva ekte folk opplever på ekte enheter med ekte nettverk. For håndverker-nettsider, test på 4G/5G på telefon, ikke bare WiFi.",
+      },
+      {
+        heading: "Vanlige feil i responsivt design",
+        body:
+          "Knapper som er for små på mobil - mindre enn 44x44 px er for vanskelig å treffe. Tekst i 12 px på mobil - krever zoom, frustrerende. Skjemaer som krever scroll horisontalt - skjuler felt og senker konvertering. Hover-effekter som ikke fungerer på berøringsskjerm - meny som krever \"hover\" forsvinner på mobil. Fast width på elementer - 600 px container på 375 px skjerm = sideveis scroll. Tunge bilder som ikke lazy-lastes - 8 sekunder lastetid på 4G. Disse er gratis å rette opp og gir typisk 30-100 % konverteringsforbedring.",
+      },
+      {
+        heading: "Responsivt design + sidehastighet = vinn",
+        body:
+          "Et perfekt responsivt design som tar 8 sekunder å laste er likevel dårlig. Responsivt design og sidehastighet må jobbe sammen. Optimalisering: komprimer alle bilder under 200 KB, bruk WebP/AVIF, lazy-load alt under folden, fjern unødvendige tredjeparts-skripter (chat-widgets, multiple analytics, fontene), bruk system-fonts der mulig. Mål med Google PageSpeed Insights og sikt mot LCP under 2,5 sekunder, INP under 200 ms, CLS under 0,1. Disse Core Web Vitals er nå direkte rangeringssignaler i Google.",
+      },
+      {
+        heading: "Tilgjengelighet (accessibility) i responsivt design",
+        body:
+          "Responsivt design og tilgjengelighet (a11y) går hånd i hånd. En knapp som er stor nok til berøringsskjerm er også lettere å treffe for folk med motoriske utfordringer. Tekst i tilstrekkelig størrelse er lettere å lese for synshemmede. Tilstrekkelig fargekontrast hjelper alle. Norge har lovkrav (WCAG 2.1 AA) for offentlige nettsider og store kommersielle aktører. For håndverkere er det praktisk best practice: bygg tilgjengelig, og du tjener både brukere og rangerer bedre. Bruk verktøy som Lighthouse i Chrome DevTools for å måle tilgjengelighet automatisk.",
+      },
+      {
+        heading: "Trenger du å bygge responsivt design selv?",
+        body:
+          "Nei. Alle moderne CMS og nettside-byggere har responsivt design innebygd: Squarespace, Webflow, Wix, WordPress med moderne tema. Det betyr at en håndverker som velger et anstendig tema får responsivt design gratis. Hvis du leier inn utvikler - sjekk at deres ferdige nettside fungerer på din egen iPhone før du betaler. Vekst Systemet leverer alle nettsider responsivt som standard, optimalisert for mobile-først, med rask sidehastighet. For en håndverker som ønsker en konverterende nettside uten å håndtere teknisk komplekistet, er dette ofte raskeste vei.",
+      },
     ],
-    relatedTerms: ["mobilvennlig-nettside", "sidehastighet"],
+    relatedTerms: [
+      "mobilvennlig-nettside",
+      "sidehastighet",
+      "konverteringsrate",
+      "seo",
+      "konvertering",
+      "landingsside",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
