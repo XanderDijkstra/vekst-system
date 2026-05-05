@@ -1000,17 +1000,87 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "cta",
     term: "Call-to-action (CTA)",
-    shortDescription: "Knappen eller lenken som forteller besøkende hva de skal gjøre. \"Be om tilbud\", \"Ring nå\".",
+    shortDescription:
+      "En call-to-action (CTA) er knappen eller lenken som ber besøkende ta en konkret handling - typisk \"Be om tilbud\" eller \"Ring nå\". For håndverker-nettsider er CTA-en det enkeltelementet som mest påvirker konverteringsraten.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En call-to-action (CTA) er et tydelig handlingskall på nettsiden - som regel en knapp eller lenke. For håndverker-sider er de vanligste: \"Be om tilbud\", \"Ring nå\", \"Få gratis befaring\", \"Send forespørsel\". Plasseres synlig, ofte flere steder på siden, i farger som skiller seg ut." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Mange håndverker-nettsider mangler en tydelig CTA - eller gjemmer den nederst på siden. Resultatet: besøkende skjønner ikke hva de skal gjøre og drar. En tydelig CTA øverst (og gjentatt flere steder) kan løfte konverteringsraten med 20-50 % alene." },
-      { heading: "Hvordan fungerer det?", body: "Gode CTA-er er konkrete og korte. \"Send forespørsel\" virker bedre enn \"Kontakt oss\". \"Få gratis befaring i Oslo\" slår \"Les mer\". Test forskjellige formuleringer med A/B-test. Pass på kontrasten - en svak knapp i samme farge som bakgrunnen forsvinner." },
+      {
+        heading: "Hva er en call-to-action?",
+        body:
+          "En call-to-action (CTA, eller på norsk \"handlingskall\") er en visuell oppfordring som forteller besøkende på nettsiden hva neste skritt er. Som regel er det en knapp - tydelig farge, kontrasterende mot resten av siden, med kort tekst som beskriver handlingen. På håndverker-nettsider er de vanligste CTA-ene: \"Be om tilbud\", \"Ring nå\", \"Få gratis befaring\", \"Bestill demo\", \"Send forespørsel\". Skrives også som \"call-to-action\" eller \"call to action\" - alle tre stavemåtene er korrekte.",
+      },
+      {
+        heading: "Hvorfor en god CTA-knapp betyr alt",
+        body:
+          "Studier på tvers av bransjer viser at CTA-knappens design og tekst er det enkeltelementet som mest påvirker konverteringsraten på en nettside - mer enn fargevalg, fonts, layout eller bilder. En tydelig CTA over folden kan øke konvertering med 20-50 %. Kombinert med riktig tekst og plassering, doblet eller tredoblet. For håndverker-nettsider med 500-2 000 besøk i måneden er det forskjellen på 5 og 50 leads. Knappen er ikke en design-detalj - den er hovedmotoren bak inntektene fra nettsiden.",
+      },
+      {
+        heading: "Tekst på CTA-knapp - hva som virker",
+        body:
+          "Sterke CTA-tekster har tre egenskaper: bruk verb (handling), spesifiser fordel, og lov noe konkret. Sterke håndverker-CTA-er: \"Be om gratis tilbud\", \"Få befaring innen 48 timer\", \"Bestill akutt rørlegger nå\", \"Få prisestimat på 5 minutter\". Svake CTA-er: \"Kontakt oss\", \"Les mer\", \"Send\", \"Klikk her\", \"Mer informasjon\". Forskjellen er stor - sterke CTA-er konverterer typisk 50-150 % bedre enn generiske. Bruk 5 minutter på å teste 3-4 versjoner av CTA-teksten din. Det er den billigste markedsføringsforbedringen som finnes.",
+      },
+      {
+        heading: "Farge og kontrast på CTA-knappen",
+        body:
+          "CTA-knappen må stikke seg ut fra resten av siden. Det betyr ikke en spesifikk farge - det betyr kontrast. På en hvit/grå nettside fungerer oransje, gult, grønt eller rødt; på en mørk nettside fungerer lyse farger best. Hovedregelen: CTA-knappen skal være den mest visuelt fremtredende elementet over folden. Hvis du har 5 knapper i samme farge, er ingen av dem en CTA. Hvis du har én knapp i sterkt avvikende farge, er det åpenbart hva neste handling er. Test med \"squint test\" - se på siden med plissede øyne; CTA-knappen skal fortsatt være tydelig.",
+      },
+      {
+        heading: "Plassering: hvor CTA-en skal være",
+        body:
+          "Tre regler. 1) Primær CTA over folden - synlig før kunden scroller. På desktop typisk i hero-seksjonen; på mobil må den være innen første 600 piksler. 2) Repetert minst 2-3 ganger nedover siden - ulike kunder konverterer på ulike steder. 3) Sticky CTA på mobil - en fast knapp i bunnen av skjermen som alltid er synlig. Test viser at sticky mobile CTA øker konvertering med 20-40 %. Aldri gjem CTA-en i bunntekst - 70 % av besøkende scroller aldri til bunnen.",
+      },
+      {
+        heading: "Knapp som CTA vs lenke som CTA",
+        body:
+          "Knapper konverterer bedre enn tekstlenker som CTA. Visuelt signal: en knapp ser klikkbar ut, en lenke kan misforstås som tekst. Test viser typisk 2-4x bedre konvertering på knapp vs lenke for primær handling. For sekundære handlinger (les mer, se eksempel) kan tekstlenker være OK - men hovedhandlingen bør alltid være en tydelig knapp. Knappen skal også ha tilstrekkelig størrelse for tommelfingertrykk: minst 44x44 pixel ifølge Apples mobile guidelines. Mindre knapper er for vanskelig å treffe på mobil og senker konvertering.",
+      },
+      {
+        heading: "Primær CTA vs sekundær CTA",
+        body:
+          "En god side har én primær CTA og maksimalt én sekundær. Primær: \"Be om tilbud\" - sterk farge, stor knapp. Sekundær: \"Se prisliste\" eller \"Les anmeldelser\" - mindre fremtredende, mer lavmælt design. Hvis du har 3+ likeverdige CTA-er, skaper du valgparalys: kunden velger ingenting fordi de er usikre. Velg én primær handling per side og strukturer alt annet rundt den. På landingssider for kampanjer: kun én CTA, ikke to. På tjenestesider: én primær, eventuelt én sekundær.",
+      },
+      {
+        heading: "CTA på mobil - hva som er annerledes",
+        body:
+          "Mobile CTA-er trenger spesialbehandling. Telefonnummer skal være klikkbart med tel:-link - kunden skal kunne ringe med ett klikk. Bruk tydelig telefon-ikon ved siden av nummeret. Skjema-CTA-er skal være store og tommelvennlige, plassert sentrert på skjermen. Sticky bottom-bar med \"Ring oss\" og \"Send melding\" er en av de mest virksomme mobile CTA-mønstrene for håndverker-nettsider. På mobil er 60-80 % av all håndverker-trafikk - design CTA-en for mobil først, så tilpass for desktop.",
+      },
+      {
+        heading: "Vanlige CTA-feil håndverkere gjør",
+        body:
+          "Flere likeverdige CTA-er på samme side - skaper paralyse. Generisk \"Kontakt oss\" - ingen handlingsoppfordring. CTA gjemt under navigasjon eller hero-bilde - usynlig. Liten knapp i pastellfarge - smelter inn i bakgrunnen. Lang CTA-tekst (over 4 ord) - tar for mye plass og vannet ut. Telefonnummer som ikke er klikkbart på mobil - kunden må kopiere og lime inn. Disse feilene er gratis å rette opp og gir typisk 50-200 % konverteringsløft umiddelbart.",
+      },
+      {
+        heading: "Test CTA-en din - A/B testing",
+        body:
+          "Hvis nettsiden har nok trafikk (over 1 000 unike besøk per måned), test forskjellige CTA-tekster. Bruk Google Optimize-alternativer som Convert.com, Optimizely, eller Microsoft Clarity (gratis basics). Vanligste vinnende endringer: 1) Spesifisere fordel i teksten (\"Få tilbud i dag\" slår \"Be om tilbud\"). 2) Inkludere lokal referanse (\"Be om Oslo-tilbud\" slår generelt). 3) Endre fra passiv til aktiv (\"Få\" slår \"Send\"). 4) Legge til hastighet (\"Få tilbud på 5 minutter\"). Hver vinnende test gir typisk 10-30 % løft - kumulativt over flere tester gir det 50-150 % bedre konvertering.",
+      },
+      {
+        heading: "CTA-er for forskjellige håndverker-tjenester",
+        body:
+          "Tilpass CTA-en til tjenestens kjøpsfase. Akutt-tjenester (rørleggerbrudd, strømbrudd, taklekkasje): \"Ring akutt\" eller \"Få respons innen 30 min\" - hastighet er fordel. Planlagte tjenester (baderomsrenovering, kjøkken): \"Få gratis befaring\" eller \"Få prisestimat\" - befaringen er konvertering. Service/vedlikehold: \"Bestill årlig service\" eller \"Få vedlikeholdspakke\". Generiske CTA-er som \"Kontakt oss\" fungerer aldri like bra som spesifikke. Vurder hva kunden faktisk vil ha i akkurat den situasjonen, og formuler CTA-en deretter.",
+      },
+      {
+        heading: "Hvor mye en god CTA er verdt i kroner",
+        body:
+          "For en håndverker med 1 000 nettside-besøk i måneden og 2 % konverteringsrate er det 20 leads per måned. Hvis hver lead konverterer til oppdrag på 30 % og snittjobben er 25 000 kr - det er 150 000 kr i månedlig omsetning. Forbedrer du CTA-en og hever konvertering til 4 %, blir det 40 leads og 300 000 kr - en dobling. Bruker du 2-3 timer på å skrive om CTA-tekstene og teste, er det praktisk talt den billigste markedsføringsinnsatsen som finnes. Likevel er det grepene som flest håndverkere ignorerer.",
+      },
     ],
-    relatedTerms: ["konvertering", "konverteringsrate", "landingsside", "a-b-test"],
+    relatedTerms: [
+      "konvertering",
+      "konverteringsrate",
+      "landingsside",
+      "a-b-test",
+      "social-proof",
+      "mobilvennlig-nettside",
+      "google-analytics",
+      "click-through-rate",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
