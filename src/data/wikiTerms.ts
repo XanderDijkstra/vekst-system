@@ -549,17 +549,87 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "konverteringsrate",
     term: "Konverteringsrate",
-    shortDescription: "Andelen besøkende som gjør det du ønsker. 100 besøkende og 2 forespørsler = 2 % konverteringsrate.",
+    shortDescription:
+      "Konverteringsrate er andelen besøkende på nettsiden som gjør den ønskede handlingen - typisk fyller ut tilbudsskjemaet eller ringer. Beregningen er enkel: konverteringer ÷ besøk × 100.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Konverteringsrate er antall konverteringer delt på antall besøkende, i prosent. En håndverker-nettside med 500 besøk i måneden og 10 forespørsler har 2 % konverteringsrate. For håndverkere ligger sunne tall på 2-5 % for en generell nettside, 5-10 % for en godt treffende landingsside." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Konverteringsraten er ofte den billigste veien til flere leads. Øker du fra 2 % til 4 %, dobler du forespørslene uten å måtte skaffe én ekstra besøkende. Det betyr mer tilbake for hver krone i markedsføring, og bedre totaløkonomi." },
-      { heading: "Hvordan fungerer det?", body: "Forbedre konverteringsraten ved å (1) teste kortere skjemaer (2-3 felter vinner oftest), (2) legge til tillitssignaler (anmeldelser, logoer, antall utførte jobber), (3) synliggjøre telefonnummer og svartid øverst, og (4) skrive en tydelig, konkret CTA (\"Be om tilbud\" er bedre enn \"Kontakt oss\")." },
+      {
+        heading: "Hva er konverteringsrate?",
+        body:
+          "Konverteringsrate (engelsk: conversion rate) er den prosentvise andelen av besøkende på nettsiden som gjør den handlingen du ønsker. Beregningen er den samme uansett bransje: antall konverteringer delt på antall besøk, ganget med 100. En håndverkerside med 500 besøk i måneden og 10 utfylte tilbudsskjemaer har en konverteringsrate på (10 ÷ 500) × 100 = 2 %. Hva som regnes som en \"konvertering\" definerer du selv - typisk er det tilbudsskjema, telefonklikk på mobil, e-postregistrering eller chat-samtale.",
+      },
+      {
+        heading: "Hvordan beregne konverteringsrate riktig",
+        body:
+          "Formelen virker enkel, men det er to måter den kan beregnes feil. 1) Du teller alle besøk inkludert egen trafikk - filtrer bort interne IP-adresser i Google Analytics. 2) Du teller bare \"unike besøkende\" eller bare \"sesjoner\" - velg én og hold deg til det. For håndverkere anbefaler vi: konverteringer (tilbudsskjema-innsending) delt på unike besøkende per måned. Bruk Google Analytics' \"Conversions\"-rapport. Sett opp tilbudsskjema som mål én gang, så regner GA ut prosenten automatisk.",
+      },
+      {
+        heading: "Hva er en god konverteringsrate for håndverkere?",
+        body:
+          "Tallene varierer etter bransje og side-type, men for norske håndverker-nettsider ligger sunne tall på: 1-2 % for en generell hjemmeside (mange browser-besøk), 3-5 % for en kvalifisert tjenesteside (\"baderomsrenovering Oslo\"), 5-10 % for en optimalisert landingsside med tydelig CTA og kort skjema, 10-20 % for trafikk fra Google Bedriftsprofil-klikk (allerede høy intensjon). Hvis du ligger på 0-1 % har du et problem - det betyr enten feil trafikk, dårlig nettside, eller begge deler.",
+      },
+      {
+        heading: "Hvorfor konverteringsrate er den billigste vekstmotoren",
+        body:
+          "Du kan vokse på to måter: skaffe mer trafikk eller øke konverteringsraten. Trafikk koster - SEO tar måneder, Google Ads koster penger, lead-plattformer som Mittanbud krever løpende abonnement. Konverteringsrateoptimering (CRO) er ofte gratis - det er endringer på din egen nettside du kontrollerer. Doblet du konverteringsraten fra 2 % til 4 %, doblet du leads uten én ekstra krone i markedsføring. For en håndverker som får 1 000 besøk i måneden er det 20 nye leads vs 40 - typisk 200 000-400 000 kr ekstra i årlig omsetning.",
+      },
+      {
+        heading: "De 5 grepene som hever konverteringsrate raskest",
+        body:
+          "1) Telefonnummer synlig og klikkbart i header - 87 % av håndverker-besøk er mobil. 2) Kort skjema - 2-3 felter (navn, telefon, beskrivelse), aldri be om e-post hvis du har telefon. 3) Tillitssignaler over folden - stjernerating, antall utførte jobber, lokale anmeldelser. 4) Tydelig CTA-tekst - \"Be om tilbud\" eller \"Få gratis befaring\" slår \"Kontakt oss\" hver gang. 5) Last under 2,5 sekunder - tregge nettsider mister 50 % av besøkende før konvertering. Disse fem alene tar de fleste håndverker-nettsider fra 1 % til 4-5 %.",
+      },
+      {
+        heading: "Skjema-design avgjør halvparten av konverteringen",
+        body:
+          "Studier viser at hvert ekstra felt i et tilbudsskjema senker konverteringsraten med 5-10 %. En 7-felts skjema (navn, e-post, telefon, adresse, prosjekttype, budsjett, beskrivelse) har typisk 3-5 % konvertering. Et 3-felts skjema (navn, telefon, kort beskrivelse) har 8-15 %. Logikk: spør bare det du virkelig trenger for å ringe tilbake. Resten kan du spørre om i samtalen. E-post er ofte unødvendig for håndverkere - kunden vil ringes opp, ikke få e-post. Reduser, reduser, reduser.",
+      },
+      {
+        heading: "Tillitssignaler - social proof i praksis",
+        body:
+          "Tillitssignaler er alt som overbeviser besøkende om at du leverer. For håndverkere er de mest virkningsfulle: stjernevurdering fra Google Bedriftsprofil (synlig ÷ folden), 2-3 korte sitater fra anmeldelser, antall år i drift, antall utførte prosjekter, logoer av kjente kunder (sameier, kommuner, bedrifter), bilder av deg/teamet (ekte mennesker bygger tillit). Plasser disse umiddelbart under hovedtittelen, ikke gjemt i bunnen. Tillitssignaler over folden hever konverteringsrate med typisk 30-50 %.",
+      },
+      {
+        heading: "CTA - Call To Action - som faktisk konverterer",
+        body:
+          "CTA-knappen er der besøkende klikker. Tekst, farge, plassering og tydelighet avgjør om noen konverterer. Tekst-regler: bruk verb (\"Be om\", \"Få\", \"Bestill\"), spesifiser fordel (\"Be om tilbud\" ikke \"Kontakt oss\"), unngå \"Send\" (robotaktig). Farge: sterk kontrast til resten av siden - for de fleste håndverker-nettsider er oransje, gul eller grønn best. Plassering: én primær CTA over folden, gjentatt minst 2-3 ganger nedover siden. En klart definert CTA hever konvertering med 20-50 %.",
+      },
+      {
+        heading: "A/B-testing: når har du nok trafikk?",
+        body:
+          "A/B-testing betyr at du viser to versjoner av en side til ulike besøkende og måler hvilken konverterer best. For å få statistisk signifikante resultater trenger du minst 1 000 besøk per variant og 50-100 konverteringer. Mange håndverker-nettsider får ikke nok trafikk for ekte A/B-tester - du venter månedsvis på resultat. Bedre approach for små nettsider: gjør en stor endring (f.eks. nytt skjema), sammenlign konverteringsraten 30 dager før vs 30 dager etter. Mindre vitenskapelig, men praktisk og raskt.",
+      },
+      {
+        heading: "Konverteringsrate per kilde - ikke et samlet tall",
+        body:
+          "Den totale konverteringsraten på 3 % skjuler ofte at organisk Google-trafikk konverterer på 6 %, Facebook-annonser på 1,5 %, og direkte trafikk på 4 %. Disse kildene har forskjellig søkeintensjon og krever forskjellig optimalisering. I Google Analytics under \"Acquisition → Channels\" ser du konverteringsrate per kilde. Kanaler med høy konvertering bør få mer budsjett; kanaler med lav konvertering trenger enten bedre landingsside eller bedre målretting. Aldri optimaliser bare på \"den samlede raten\".",
+      },
+      {
+        heading: "Konverteringsrateoptimering (CRO) som disiplin",
+        body:
+          "CRO er fagfeltet rundt systematisk testing og forbedring av konverteringsrater. Sentrale metoder: heatmaps (Hotjar, Microsoft Clarity) for å se hvor folk klikker, scroll-maps for å se hvor de stopper, session recordings for å se hva som forvirrer, exit-intent popups for å fange folk som er på vei ut. For en håndverker er heatmaps gratis og verdifulle - du oppdager raskt at folk ikke ser ditt fine \"Be om tilbud\"-skjema fordi det ligger gjemt under fold-en eller har feil farge.",
+      },
+      {
+        heading: "Hva som ikke virker - vanlige misforståelser",
+        body:
+          "Pop-ups som blokkerer hele skjermen - irriterer mer enn de konverterer. Lange tekstblokker over folden - ingen leser, alle scroller. Generiske stockbilder av smilende mennesker i dress - bygger ingen tillit. Karuseller med 5 hero-bilder - ingen ser bilde 2-5. \"Vi ringer deg innen 24 timer\" som CTA - ingen vil vente 24 timer. Og verst av alt: en nettside som tar 6+ sekunder å laste, der 60 % av besøkende har gått før de en gang har sett skjemaet ditt. Fiks teknikken først, deretter optimaliser konvertering.",
+      },
     ],
-    relatedTerms: ["konvertering", "cta", "a-b-test", "social-proof", "bounce-rate"],
+    relatedTerms: [
+      "konvertering",
+      "cta",
+      "a-b-test",
+      "social-proof",
+      "bounce-rate",
+      "landingsside",
+      "google-analytics",
+      "click-through-rate",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
     ],
   },
   {
