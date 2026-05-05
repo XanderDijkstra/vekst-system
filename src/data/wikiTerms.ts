@@ -514,17 +514,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "schema-markup",
     term: "Schema markup",
-    shortDescription: "Usynlig kode på nettsiden som forteller Google hva som er hva - adresse, åpningstider, priser, anmeldelser.",
+    shortDescription:
+      "Schema markup (også kalt strukturert data) er usynlig kode på nettsiden som forteller Google hva innholdet faktisk er - adresse, telefonnummer, anmeldelser, priser. For håndverkere gir det rike søkeresultater med stjerner og kontaktinfo synlig direkte i Google.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Schema markup er strukturerte data (oftest JSON-LD) som legges inn i HTML-koden. De beskriver innholdet for søkemotorer: \"dette er en lokal bedrift\", \"dette er en anmeldelse med 5 stjerner\", \"dette er et telefonnummer\". Besøkende ser det ikke - men Google gjør det." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Google bruker schema for å vise såkalte \"rich snippets\" i treffene - stjerner, priser, kontaktinfo direkte i søkeresultatet. En håndverkerside med korrekt schema får ofte 20-30 % flere klikk enn samme plass uten. Det gjør også at Google forstår bedriften bedre og rangerer den mer presist." },
-      { heading: "Hvordan fungerer det?", body: "De viktigste typene for håndverkere er LocalBusiness (firma med adresse), Service (tjenestene dine), FAQPage (for ofte stilte spørsmål), Review (anmeldelser), og BreadcrumbList (navigasjon). De legges inn i sidens `<head>` som JSON. På moderne nettsider er det typisk automatisk - du leverer dataene, siden genererer schemaet." },
+      {
+        heading: "Hva er schema markup?",
+        body:
+          "Schema markup (også kalt strukturert data eller schema.org) er kode som legges inn i HTML-en på nettsiden for å beskrive innholdet for søkemotorer. Vanligvis i formatet JSON-LD (JavaScript Object Notation for Linked Data). Eksempel: i stedet for at Google må gjette at \"Storgata 14, 0184 Oslo\" er en adresse, sier schema-koden eksplisitt \"dette er adresse, type PostalAddress, gateadresse Storgata 14, postnummer 0184, by Oslo\". Besøkende ser ikke schema-koden - bare søkemotorer leser den.",
+      },
+      {
+        heading: "Hvorfor schema markup matters for håndverkere",
+        body:
+          "To direkte effekter. 1) Rich snippets: Google viser ekstra elementer i søketreffet ditt - stjernerating, åpningstider, telefonnummer, FAQ. Et søketreff med 4,9 stjerner ved siden av tittelen får 30-50 % høyere CTR enn ett uten. 2) Bedre forståelse: Google forstår eksakt hva nettsiden din handler om, hvor du er, hva du leverer. Det betyr mer presise rangeringer på relevante søk. Schema er praktisk talt et gratis SEO-løft - det krever ingen ekstra innhold, kun strukturert beskrivelse av eksisterende innhold.",
+      },
+      {
+        heading: "De viktigste schema-typene for håndverkere",
+        body:
+          "LocalBusiness: bedriftsnavn, adresse, telefon, åpningstider, geo-koordinater. Mest fundamentale - alle håndverker-nettsider trenger den. Service: hver tjeneste du leverer (rørleggerarbeid, baderomsrenovering, etc) markert eksplisitt. FAQPage: ofte stilte spørsmål med svar - kan vise utvidet FAQ direkte i SERP. Review og AggregateRating: stjernerating fra anmeldelser - gir stjerner i søketreffet. BreadcrumbList: navigasjonssti som vises som breadcrumb i SERP. Article: blogg- og kunnskapsbank-artikler. Av disse er LocalBusiness obligatorisk, AggregateRating er gull, FAQPage er ofte underutnyttet.",
+      },
+      {
+        heading: "Slik implementerer du schema",
+        body:
+          "Tre måter. 1) Manuell JSON-LD i sidens <head> - mest fleksibelt, krever kunnskap om JSON-format. 2) WordPress-plugin som Rank Math eller Yoast - automatisk generert basert på dine innstillinger. 3) Innebygd i CMS - moderne plattformer som Webflow og Squarespace genererer grunnleggende schema automatisk. For håndverkere uten teknisk bakgrunn er plugin- eller CMS-basert tilnærming raskest. Sjekk alltid implementeringen med Google Rich Results Test (search.google.com/test/rich-results) - du limer inn URL-en og ser hva Google forstår.",
+      },
+      {
+        heading: "LocalBusiness schema - byggesteinen",
+        body:
+          "Dette er den fundamentale schema-typen for alle lokale håndverkere. Den inkluderer: bedriftsnavn (name), adresse (address med streetAddress, postalCode, addressLocality, addressCountry), telefon (telephone), nettside (url), åpningstider (openingHoursSpecification), geo-koordinater (geo med latitude, longitude), prisnivå (priceRange), beskrivelse (description), og bilde (image). Spesifikkere subtyper for håndverkere: HomeAndConstructionBusiness, Plumber, Electrician, RoofingContractor, HousePainter. Bruk subtype hvis tilgjengelig - det er mer presis informasjon for Google.",
+      },
+      {
+        heading: "AggregateRating: stjernerating i SERP",
+        body:
+          "Den mest visuelt påvirkende schema-typen. Bruker du AggregateRating-schema og refererer til ekte anmeldelser, viser Google stjernerating direkte i søketreffet. CTR-løft typisk 30-50 % vs treff uten stjerner. Krav: må være ekte anmeldelser fra ekte kunder, ikke fabrikkert. Strukturen: ratingValue (gjennomsnittsstjerner), reviewCount (antall anmeldelser), bestRating (oftest 5), worstRating (oftest 1). Mange håndverkere har gode Google-anmeldelser men implementerer ikke AggregateRating-schema på sin egen nettside, og taper SERP-løftet.",
+      },
+      {
+        heading: "FAQPage schema - utvidet SERP-treff",
+        body:
+          "FAQPage-schema lar Google vise spørsmål-og-svar fra siden direkte i søketreffet. Brukeren kan klikke for å se svarene uten å klikke seg til nettsiden, men du får likevel synlighet og autoritet. Krav: ekte FAQ-innhold på siden, ikke fabrikkerte spørsmål. Bra implementering: hver FAQ-side eller artikkel med en FAQ-seksjon nederst får FAQPage-schema. Spørsmål bør være naturlige (\"Hvor lang tid tar baderomsrenovering?\") med konsise svar (40-100 ord). Google viser typisk 2-4 spørsmål i SERP, så fokuser på de viktigste først.",
+      },
+      {
+        heading: "Schema markup og lokal SEO",
+        body:
+          "For lokal SEO er schema kritisk. NAP-konsistens (navn, adresse, telefon) signaleres ekstra sterkt når det er strukturert. Hvis Google Bedriftsprofil sier \"Hansen Rørlegger AS, Storgata 14, 0184 Oslo, 22 12 34 56\" og nettsidens LocalBusiness-schema sier nøyaktig det samme, forsterkes tillitssignalet. Inkonsistens senker tillit. Sjekk at schema, Google Bedriftsprofil, Proff.no, 1881.no og andre kataloger har eksakt samme NAP. Nettsiden er sentralpunktet - sørg for at schema-en der er korrekt og ikke endres uten samtidig oppdatering av kataloger.",
+      },
+      {
+        heading: "Test alltid med Google Rich Results Test",
+        body:
+          "Etter implementering, test alltid med Google Rich Results Test (search.google.com/test/rich-results). Lim inn URL-en, og verktøyet viser: hvilke schema-typer Google fant, eventuelle feil eller advarsler, en forhåndsvisning av hvordan rich snippet kan se ut. Common feil: manglende obligatoriske felter (LocalBusiness uten address), forkert format (priser uten valuta-symbol), ikke-eksisterende egenskaper (skrivefeil i JSON-feltene). 90 % av schema-feil oppdages med dette gratis verktøyet på 2 minutter.",
+      },
+      {
+        heading: "Vanlige schema-feil håndverkere gjør",
+        body:
+          "Implementerer LocalBusiness men glemmer geo-koordinater - mister lokal SEO-løft. Bruker generisk LocalBusiness i stedet for spesifikk subtype (Plumber, Electrician) - mindre presis. Falske AggregateRating-verdier som ikke matcher ekte anmeldelser - brudd på Googles retningslinjer, kan føre til manuell handling. Manglende oppdatering når åpningstider endrer seg - schema viser feil info. Implementerer for mye - 10 schema-typer på samme side blir grumset, fokus på 3-4 viktigste. Test med Rich Results Test for å oppdage alle disse.",
+      },
+      {
+        heading: "Schema og JSON-LD: hvorfor JSON-LD vinner",
+        body:
+          "Schema kan implementeres i tre formater: Microdata (HTML-attributter), RDFa (XML-basert), JSON-LD (separat skript). I 2026 er JSON-LD klart anbefalt - Google foretrekker det, det er enklere å vedlikeholde (separat fra HTML-strukturen), og det kan legges hvor som helst på siden. Microdata og RDFa er fortsatt støttet, men ikke moderne praksis. Hvis du har valg, bruk JSON-LD i sidens <head>. De fleste plugin-er og moderne CMS genererer JSON-LD som standard.",
+      },
+      {
+        heading: "Hvor mye schema er verdt for håndverkere?",
+        body:
+          "Direkte tall fra håndverkerbransjen: nettsider som implementerer LocalBusiness + AggregateRating + FAQPage-schema ser typisk 25-50 % CTR-løft over 4-8 uker etter implementering. På 500 månedlige SERP-visninger er det forskjell på 10 og 25 klikk - over et år 180 ekstra klikk fra én side. Med 35 % konvertering og 18 000 kr snittjobb er det 1 134 000 kr i ekstra årlig omsetning fra én side. Schema er den enkleste \"skjulte\" SEO-investeringen - usynlig for besøkende, men dramatisk for synlighet og klikk.",
+      },
     ],
-    relatedTerms: ["seo", "local-seo", "google-bedriftsprofil"],
+    relatedTerms: [
+      "seo",
+      "local-seo",
+      "google-bedriftsprofil",
+      "meta-tittel-og-beskrivelse",
+      "click-through-rate",
+      "anmeldelser",
+      "nav-konsistens",
+    ],
     relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
