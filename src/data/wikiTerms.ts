@@ -116,17 +116,88 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "local-seo",
     term: "Lokal SEO",
-    shortDescription: "SEO rettet mot folk som søker på en tjeneste i et bestemt område - for eksempel \"elektriker Trondheim\".",
+    shortDescription:
+      "Lokal SEO (eller Local SEO) er alt du gjør for å rangere i Google når noen i nærområdet søker etter en tjeneste - for eksempel \"elektriker Trondheim\" eller \"rørlegger i nærheten\". For håndverkere er det den viktigste SEO-disiplinen.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Lokal SEO er alt du gjør for å bli funnet når noen i nærområdet ditt søker etter en tjeneste. Det inkluderer Google Bedriftsprofil, bystedsider på nettsiden, konsistent navn/adresse/telefon (NAP) på nett, og anmeldelser fra kunder i området." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Nesten alle håndverkerjobber er lokale. En kunde i Stavanger vil ha en rørlegger i Stavanger, ikke i Oslo. Lokal SEO er spesialvarianten som sørger for at du vinner nettopp disse søkene - ofte uten å konkurrere med store, landsdekkende aktører." },
-      { heading: "Hvordan fungerer det?", body: "Google ser på tre hovedting: hvor nær firmaet er søkeren, hvor relevant Bedriftsprofilen er, og hvor mye autoritet du har (anmeldelser, lenker). Har du en godt utfylt profil, aktivt innhold og 20+ anmeldelser med 4,5+ stjerner, plasserer Google deg i \"Local Pack\" - kartboksen øverst med tre bedrifter." },
+      {
+        heading: "Hva er lokal SEO?",
+        body:
+          "Lokal SEO (engelsk: Local SEO) er den delen av søkemotoroptimalisering som handler om å bli funnet når noen søker etter en tjeneste i et spesifikt geografisk område. \"Rørlegger Oslo\", \"elektriker Bergen\", \"maler i nærheten\", \"taktekker Trondheim døgnvakt\" - alle disse er lokale søk. Google håndterer dem helt annerledes enn vanlige søk: de viser \"Local Pack\" eller \"kartpakken\" med tre lokale bedrifter øverst, basert på Google Bedriftsprofil-data, før de organiske blå treffene. For en håndverker er lokal SEO 80-90 % av all SEO-innsats.",
+      },
+      {
+        heading: "Hvordan lokal SEO skiller seg fra vanlig SEO",
+        body:
+          "Vanlig SEO konkurrerer nasjonalt eller internasjonalt på autoritet og innholdsdybde. Lokal SEO konkurrerer i et avgrenset område - som regel mot 10-50 andre håndverkere i samme by. Det betyr to ting: først, du trenger ikke å være en stor merkevare for å rangere bra (lokale bedrifter slår nasjonale aktører i lokale søk). Andre: signalene som teller er andre - Google Bedriftsprofil, fysisk avstand til søkeren, anmeldelser fra lokale kunder, og NAP-konsistens på lokale kataloger. Backlinks fra utenlandske sider og generell innholdsmengde betyr lite.",
+      },
+      {
+        heading: "De tre rangeringsfaktorene Google bruker",
+        body:
+          "Google har vært åpen om at lokal rangering avhenger av tre signaler: relevans (hvor godt profilen og nettsiden din matcher søket), avstand (hvor nær søkeren du er fysisk), og prominens (hvor etablert bedriften er). Avstand kan du ikke påvirke - Google ser hvor søkeren er via GPS eller IP og foretrekker nære bedrifter. Relevans og prominens er fullt ut i din kontroll. Riktig kategorivalg, fullstendige tjenester og lokale bysider gir relevans. Anmeldelser, omtaler på andre nettsteder og lokale lenker gir prominens.",
+      },
+      {
+        heading: "Local Pack: kartpakken som vinner alt",
+        body:
+          "Local Pack (også kalt 3-pack eller kartpakken) er den boksen øverst i Google-treffet for lokale søk - tre lokale bedrifter med kart, stjernerating og avstand. Studier viser at over 60 % av klikk på lokale søk går til disse tre treffene; resten av første side får til sammen mindre. Å komme inn i Local Pack er målet for all lokal SEO. Det krever en optimalisert Google Bedriftsprofil med 30+ anmeldelser, riktig kategori, fullstendige tjenester, jevnlige bilder og et nettsted som backer opp profilen med tilsvarende informasjon.",
+      },
+      {
+        heading: "Google Bedriftsprofil: grunnmuren",
+        body:
+          "Du kan ikke gjøre lokal SEO uten en godt drevet Google Bedriftsprofil (tidligere Google Min Bedrift). Den er gratis, tar 30 minutter å sette opp, og er bokstavelig talt det viktigste verktøyet en lokal håndverker har. Verifisering, primærkategori, alle tjenester eksplisitt listet, 30+ bilder lastet opp jevnt over tid, ukentlige Google Posts, alle Q&A besvart av eieren, og 50-100+ Google-anmeldelser. Vår 10-punkts sjekkliste for Google Bedriftsprofil går gjennom hver detalj.",
+      },
+      {
+        heading: "Bysider på nettsiden",
+        body:
+          "Google rangerer bedre nettsider med tydelig lokalt innhold. For en håndverker som dekker flere byer eller bydeler betyr det egne, unike sider per område: \"Rørlegger Oslo\", \"Rørlegger Bærum\", \"Rørlegger Asker\". Hver side må være unik (ikke kopipasta), inneholde lokale referanser (gatenavn, lokale prosjekter, områder du jobber i), og lenke til Google Bedriftsprofil. Disse bysidene tar typisk 40-60 % av SEO-trafikken for etablerte håndverkere i flere kommuner. Google straffer kopipasta - hver side må stå på egne ben.",
+      },
+      {
+        heading: "NAP-konsistens og katalog-oppføringer",
+        body:
+          "NAP står for Name, Address, Phone - bedriftsnavn, adresse og telefonnummer. Google sammenligner disse opplysningene på tvers av alle steder du er oppført: Google Bedriftsprofil, nettsiden din, Proff.no, 1881.no, Gule Sider, Finn.no, Brønnøysundregistrene. Uoverensstemmelser senker tilliten. Det betyr: når du flytter eller endrer telefon, oppdater overalt - ikke bare ett sted. NAP-konsistens er et lokalt rangeringssignal i seg selv. Bygg ut katalog-oppføringene dine systematisk; det er gratis lokal SEO med vedvarende effekt.",
+      },
+      {
+        heading: "Anmeldelser - lokal SEO sin viktigste valuta",
+        body:
+          "Google bruker anmeldelser som primærsignal for prominens i lokal SEO. De ser tre ting: antall anmeldelser, gjennomsnittsstjerner, og hvor nye anmeldelsene er. 80 nye anmeldelser med 4,9 i snitt slår 200 gamle anmeldelser med 4,5. For å rangere stabilt i Local Pack i en konkurransesterk by trenger du flere anmeldelser enn topp-3 i samme kategori. Den eneste skalerbare måten å samle inn er systematisk - send SMS-link til kunden samme dag som jobben er ferdig. En anmeldelsesfunnel automatiserer dette og hever konverteringsraten fra 5 % til 30-40 %.",
+      },
+      {
+        heading: "Lokale backlinks - kvalitet over kvantitet",
+        body:
+          "Backlinks er fortsatt et SEO-signal, men for lokal SEO er lokale lenker viktigere enn nasjonale. Mål: lenker fra lokale aviser, kommunens håndverkerregister, lokale fagforeninger, leverandører i området (Maxbo, Würth, Optimera lokalt), samarbeidspartnere (en maler kan linke til en flislegger), eller lokale blogger. 10-15 kvalitetsbaserte lokale lenker over 6 måneder slår 100 kjøpte lenker fra utenlandske sider. Google er bra på å filtrere bort kjøpte lenker; ikke fall for \"500 backlinks for 99 kr\"-pakker.",
+      },
+      {
+        heading: "Hvor lang tid tar lokal SEO?",
+        body:
+          "Forventningene er typisk: 2-4 uker etter at Google Bedriftsprofil er optimalisert til du ser bevegelse i kartpakken. 6-12 uker før du rangerer stabilt for de viktigste lokale søkene i din primærby. 3-6 måneder før du dominerer flere byer eller bydeler. Etablerte konkurrenter med 100+ anmeldelser og 5+ års drift er vanskeligere å fortrenge - regn 9-12 måneder for å slå dem. Men når du først er på topp, blir du der lenge - lokal SEO er den mest stabile rangeringen som finnes.",
+      },
+      {
+        heading: "Vanlige feil som ødelegger lokal rangering",
+        body:
+          "Falske kategorier i Bedriftsprofilen for å dekke flere søk - Google straffer det. Keyword-stuffing i firmanavnet (\"Rørlegger Oslo Akutt 24/7 AS\") - profil suspendert. Bruk av virtuelle adresser eller postbokser - blir avslørt og straffet. Falske anmeldelser fra venner og familie - Google filtrerer dem og legger merke til mønsteret. Hyppig adresseendring - signaliserer ustabil drift. Kopipasta innhold mellom bysider - duplikat-straff. Gjør grunnarbeidet riktig, bygg jevnt over måneder, og du vinner.",
+      },
+      {
+        heading: "Lokal SEO vs Google Ads vs Mittanbud",
+        body:
+          "Lokal SEO er langsiktig og varig. Google Ads er rask og kontrollerbar. Mittanbud og Anbudstorget er enkleste-vei-inn. Det smarteste oppsettet for en håndverker som starter: bruk Mittanbud for å få leads umiddelbart, kjør Google Ads for kontrollerbar trafikk, mens du systematisk bygger lokal SEO i bakgrunnen. Etter 3-6 måneder begynner organisk lokal SEO å levere leads gratis - da reduserer du Mittanbud-bruken og lar Ads være supplement. Vekst Systemet leverer lokal SEO + Google Bedriftsprofil + nettside som fungerer sammen, ferdig satt opp.",
+      },
     ],
-    relatedTerms: ["seo", "google-bedriftsprofil", "google-maps", "nav-konsistens", "anmeldelser"],
+    relatedTerms: [
+      "seo",
+      "google-bedriftsprofil",
+      "google-maps",
+      "nav-konsistens",
+      "anmeldelser",
+      "anmeldelsesfunnel",
+      "backlinks",
+      "schema-markup",
+    ],
     relatedLinks: [
+      { label: "Lokal SEO for håndverkere — steg-for-steg", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
     ],
   },
   {
