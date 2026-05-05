@@ -19,27 +19,5 @@ export default defineConfig(({ mode }) => ({
     },
     dedupe: ["react", "react-dom", "react/jsx-runtime"],
   },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (!id.includes("node_modules")) return undefined;
-          if (id.includes("react-dom") || id.includes("/react/") || id.includes("scheduler")) {
-            return "react-vendor";
-          }
-          if (id.includes("react-router")) return "router";
-          if (id.includes("react-helmet")) return "helmet";
-          if (id.includes("framer-motion")) return "framer";
-          if (id.includes("recharts") || id.includes("d3-")) return "charts";
-          if (id.includes("@radix-ui")) return "radix";
-          if (id.includes("lucide-react")) return "icons";
-          if (id.includes("@supabase")) return "supabase";
-          if (id.includes("@tanstack")) return "tanstack";
-          return "vendor";
-        },
-      },
-    },
-    chunkSizeWarningLimit: 800,
-  },
 }));
 
