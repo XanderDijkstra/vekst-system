@@ -1559,17 +1559,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "anmeldelsesfunnel",
     term: "Anmeldelsesfunnel",
-    shortDescription: "Et automatisk system som ber fornøyde kunder om anmeldelse, og fanger opp misfornøyde før de publiserer.",
+    shortDescription:
+      "En anmeldelsesfunnel (engelsk: review funnel) er et automatisk system som ber fornøyde kunder om Google-anmeldelse og fanger opp misfornøyde internt - før de publiserer 1-stjernern offentlig.",
     category: "Anmeldelser",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En anmeldelsesfunnel er en automatisert prosess: etter hver fullført jobb får kunden en SMS eller e-post. Sier de at de er fornøyde, ledes de videre til Google-profilen. Sier de at noe ikke var bra, ledes de til et internt skjema - slik at du får sjansen til å rette opp før en dårlig anmeldelse havner offentlig." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Uten system blir det tilfeldig. Noen uker spør du, andre uker glemmer du. Med en anmeldelsesfunnel samler du jevnt og trutt 5-15 nye anmeldelser i måneden, og risikoen for negative offentlige anmeldelser går ned. Det gir raskt økt Google-synlighet og høyere konverteringsrate." },
-      { heading: "Hvordan fungerer det?", body: "Du registrerer kundens navn og telefon når jobben er ferdig. Systemet sender en automatisk melding samme kveld eller dagen etter: \"Takk for jobben! Hvordan var opplevelsen?\" Fornøyde får lenke til Google, misfornøyde får en egen kanal direkte til deg. Hele flyten tar 30 sekunder av din tid per jobb." },
+      {
+        heading: "Hva er en anmeldelsesfunnel?",
+        body:
+          "En anmeldelsesfunnel (engelsk: review funnel) er en automatisert prosess som systematiserer innsamling av kundeanmeldelser etter fullført jobb. I praksis: etter at du registrerer en jobb som ferdig, sendes automatisk en SMS eller e-post til kunden samme kveld eller dagen etter. Meldingen spør først hvor fornøyd kunden er. Fornøyde kunder ledes direkte til Google-profilen for å skrive offentlig anmeldelse. Misfornøyde kunder ledes til et internt skjema slik at du får mulighet til å rette opp problemet før de eventuelt går offentlig med en dårlig anmeldelse.",
+      },
+      {
+        heading: "Hvorfor anmeldelsesfunnel slår tilfeldig forespørsel",
+        body:
+          "Uten system blir anmeldelses-innsamling tilfeldig. Noen uker husker du å spørre, andre uker glemmer du. Konverteringen fra forespørsel til faktisk anmeldelse er typisk 5-10 % når du gjør det manuelt - kunden sier ja, men glemmer å gjennomføre. Med en strukturert anmeldelsesfunnel som sender automatiske påminnelser over 2-3 uker, hopper konverteringen til 30-40 %. Forskjell over et år: 15-30 anmeldelser uten system, 80-150 med system. Dette er nok til å rangere fra usynlig til topp-3 i Local Pack i de fleste norske byer.",
+      },
+      {
+        heading: "Hvordan funnelen teknisk fungerer",
+        body:
+          "Du registrerer kundens navn og telefon (og helst e-post) når jobben starter. Systemet venter til jobben er markert som ferdig - enten manuelt fra deg, eller automatisk via fakturering eller prosjektlukking. Innen 24 timer går første melding ut: \"Hei [navn], takk for at du valgte oss for [jobben]. Hvordan var opplevelsen?\" Med to tydelige veier - \"Fornøyd → del på Google\" og \"Ikke fornøyd → fortell oss hva som kunne vært bedre\". Kombineres med påminnelser etter 7 og 21 dager for de som ikke svarte først.",
+      },
+      {
+        heading: "Filtreringsfasen - lovlig og smart",
+        body:
+          "Det er noen som mener filtrering av anmeldelser er manipulasjon - det er ikke. Du tvinger ingen til å anmelde positivt; du gir misfornøyde en privat kanal å gi tilbakemelding først. Det er god kundeservice. Filtreringsfasen sier ikke \"5 stjerner kun\" - den sier \"hvor fornøyd er du?\" og lar misfornøyde varsle deg privat. Mange tar opp telefonen og kan løse problemet før kunden noen gang vurderer en offentlig anmeldelse. Resultatet: du får færre offentlige 1-2-stjerners, og de som er ekte er ofte de du ikke kunne reddet uansett.",
+      },
+      {
+        heading: "Tidspunktet er kritisk - 24 timer er gull",
+        body:
+          "Forskning viser at anmeldelses-konvertering er svært tidsfølsom. Innen 24 timer etter avsluttet jobb: 35-45 % konverteringsrate. 7 dager senere: 15-20 %. 30 dager senere: 5-10 %. Forklaringen er enkel - kunden har detaljene friskt i minnet, opplevelsen er nylig, og det er fortsatt en del av deres mentale dagsorden. Etter en uke har de glemt detaljene; etter en måned husker de bare overordnet om de var fornøyde. En god anmeldelsesfunnel sender første forespørsel innen 24 timer, helst samme kveld som jobben ble avsluttet.",
+      },
+      {
+        heading: "SMS slår e-post 3:1 i konvertering",
+        body:
+          "Direkte tall: SMS har typisk 30-40 % konvertering for anmeldelses-forespørsel. E-post: 10-15 %. Forklaring: SMS leses innen minutter (98 % åpningsrate), e-post drukner i innboksen og åpnes maks 25-30 % av gangene. SMS føles personlig; e-post føles markedsføring. SMS krever 30 sekunders innsats fra kunden; e-post krever ofte å bytte enhet (bilder, lenker som ikke åpner i mobile e-post-apper). Bruk SMS som hovedkanal - e-post som backup eller andre påminnelse.",
+      },
+      {
+        heading: "Hva meldingen skal si",
+        body:
+          "Personlig, kort, og med tydelig vei fremover. Sterk eksempel: \"Hei Kari, takk for at du valgte oss for baderomsoppussingen. Vi setter stor pris på tilbakemelding. Var du fornøyd? [Ja → Google-link] [Nei → Fortell oss]\". Svake eksempler: generiske \"Takk for handelen, vurder oss på Google\" - upersonlig, hopper rett til kravet. \"Vi vil gjerne ha en 5-stjerners anmeldelse\" - mainpulerende, mistenkelig. Personalisering med kundens navn og spesifikk jobb øker konvertering med 30-50 % over generiske maler.",
+      },
+      {
+        heading: "Direktelink til Google er gull",
+        body:
+          "Anmeldelsesfunnel uten direktelink til Google-profilen reduserer konverteringen kraftig. Direktelink betyr at kunden trykker, og er umiddelbart i Google-anmeldelses-skjemaet - ingen leting, ingen pålogging-friksjon. Direktelinken får du fra Google Bedriftsprofil-administrasjonsverktøyet (formatet g.page/r/...). Den åpner Google Maps-app på mobil hvis den er installert, eller browseren ellers. Bruk den i alle SMS-meldinger og e-poster. Forskjell på konvertering med direktelink vs uten: 35 % vs 12 %.",
+      },
+      {
+        heading: "Anmeldelsesfunnel og Google-retningslinjer",
+        body:
+          "Google har strenge regler mot anmeldelses-manipulasjon. Hva du IKKE kan gjøre: tilby kunden rabatt eller gave for anmeldelse (\"5-stjerners så får du 10 % på neste jobb\") - bryter Googles vilkår, kan føre til profil-suspensjon. Hva du KAN gjøre: spørre alle kunder om anmeldelse, ha en filtreringsfase som leder misfornøyde til private tilbakemelding-skjema, sende påminnelser. En anmeldelsesfunnel implementert riktig er fullstendig innenfor Googles regler - filtrering for kvalitet er god kundeservice, ikke svindel.",
+      },
+      {
+        heading: "Hvor mye en anmeldelsesfunnel er verdt",
+        body:
+          "Tall fra håndverkerbransjen: en bedrift som går fra ad hoc-forespørsel (15-25 anmeldelser i året) til systematisk anmeldelsesfunnel (80-150 anmeldelser i året) ser typisk: lokal SEO-rangering hopper fra side 2-3 til topp-3, månedlige Google Bedriftsprofil-klikk øker 100-200 %, konverteringsrate på nettsiden øker 30-50 % (mer tillit), og månedlig leads-volum dobles eller tredobles. For en håndverker med 18 000 kr snittjobb og 35 % konvertering er det 200 000-500 000 kr ekstra i månedlig omsetning - bare fra systematisk anmeldelsesinnsamling.",
+      },
+      {
+        heading: "Bygg det selv vs ferdig løsning",
+        body:
+          "Du kan bygge en enkel anmeldelsesfunnel manuelt: liste over fullførte jobber, send manuell SMS innen 24 timer, manuelt registrer hvem som ble bedt og hvem som svarte. Funker til ~5 jobber i uka. Med 10+ jobber i uka eller mer trengs automatisering: Mailchimp/Klaviyo for e-post-sekvenser eller dedikerte verktøy som Vekst Systemet sin anmeldelsesfunnel som integrerer med faktureringen og sender automatisk. Manuell innsamling tar typisk 5-10 minutter per kunde; automatisert tar 0 minutter. Forskjell over et år: 50-100 timer spart pluss bedre konvertering.",
+      },
+      {
+        heading: "Vanlige anmeldelsesfunnel-feil",
+        body:
+          "Sender for sent (over 7 dager etter jobb) - kunden har glemt. Sender til alle, også de som åpenbart var misfornøyd - generer offentlige 1-stjerners. Bruker generiske maler uten personalisering - lav konvertering. Lover noe (rabatt, gave) for anmeldelse - bryter Google-regler. Glemmer å følge opp dem som ikke svarte første gang - mister 60-70 % av potensielle anmeldelser. Svarer ikke på de positive anmeldelsene som kommer inn - Google belønner aktivitet. Disse feilene er gratis å rette opp og dobler typisk månedlige anmeldelser.",
+      },
     ],
-    relatedTerms: ["anmeldelser", "funnel", "automatisering", "google-bedriftsprofil"],
+    relatedTerms: [
+      "anmeldelser",
+      "funnel",
+      "automatisering",
+      "google-bedriftsprofil",
+      "social-proof",
+      "qr-kode-for-anmeldelser",
+      "automatisk-oppfolging",
+    ],
     relatedLinks: [
+      { label: "Slik får du flere 5-stjerners Google-anmeldelser", href: "/kunnskapsbank/fem-stjerners-google-anmeldelser-handverker" },
       { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Anmeldelsessystem (full pakke)", href: "/tjenester/anmeldelsessystem" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
     ],
   },
   {
