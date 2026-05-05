@@ -32,11 +32,6 @@ const websiteSchema = {
   url: SITE_URL,
   inLanguage: "nb-NO",
   publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/kunnskapsbank?q={search_term_string}` },
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const Index = () => {
