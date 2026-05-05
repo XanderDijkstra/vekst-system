@@ -24,17 +24,93 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "seo",
     term: "SEO (søkemotoroptimalisering)",
-    shortDescription: "Å gjøre nettsiden din slik at Google forstår hva firmaet ditt gjør, og viser det høyere opp i søkeresultatene.",
+    shortDescription:
+      "SEO - Search Engine Optimization eller søkemotoroptimalisering - er alt du gjør for å rangere høyere i Google og andre søkemotorer. For håndverkere er det den billigste veien til stabile, kvalifiserte leads.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "SEO står for \"Search Engine Optimization\" - søkemotoroptimalisering. Det handler om tre ting: teknisk kvalitet på nettsiden (fart, struktur), innhold som treffer det folk søker på, og tillit fra andre nettsider. Gjør du dette riktig, viser Google deg høyere i treffene når noen søker på \"rørlegger Bergen\" eller \"maler Oslo\"." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Rundt 80 % av nordmenn starter med Google når de trenger en håndverker. Treffer du pagina 1, får du forespørsler gratis. Ligger du på side 2 eller lenger ned, eksisterer du nesten ikke. For en lokal taktekker eller elektriker er SEO ofte den billigste veien til stabile leads." },
-      { heading: "Hvordan fungerer det?", body: "Google ser på hundrevis av signaler, men de tre viktigste for håndverkere er: (1) en tydelig nettside med egne sider per tjeneste og by, (2) en godt utfylt Google Bedriftsprofil med bilder og anmeldelser, (3) andre nettsider som lenker til deg. SEO tar 2-4 måneder før det løsner, men virker etterpå i årevis." },
+      {
+        heading: "Hva er SEO?",
+        body:
+          "SEO står for Search Engine Optimization, på norsk søkemotoroptimalisering. Det er samlebegrepet for alle tiltakene du gjør for at nettsiden din skal rangere høyere i Google, Bing og andre søkemotorer. SEO er ikke ett enkelt verktøy eller én plattform - det er en kombinasjon av teknisk optimalisering av nettsiden, innholdet på sidene dine, og hvor mange andre nettsteder som lenker til deg. Målet er enkelt: når noen søker etter tjenesten din, skal du være blant de første treffene. For håndverkere betyr det at en kunde som googler \"rørlegger Bergen\" eller \"maler Oslo\" finner ditt firma før konkurrentenes.",
+      },
+      {
+        heading: "Hvorfor SEO er kritisk for håndverkere",
+        body:
+          "Cirka 80 % av nordmenn starter på Google når de trenger en håndverker. De fleste klikker på et av de fem-seks første treffene på første side - alt etter det er praktisk talt usynlig. For en lokal rørlegger, elektriker eller maler betyr det at SEO-posisjon direkte oversetter til antall forespørsler i innboksen. I motsetning til Google Ads, Mittanbud eller Facebook-annonser er trafikken fra organisk SEO gratis - du betaler én gang for arbeidet, og avkastningen kommer i månedsvis og årevis etter. Det er den billigste skalerbare leadkanalen som finnes.",
+      },
+      {
+        heading: "De tre pilarene: teknisk, on-page og off-page SEO",
+        body:
+          "All SEO faller i tre kategorier. Teknisk SEO handler om at Google kan crawle og forstå nettsiden din: rask sidehastighet, mobilvennlig nettside, ren URL-struktur, fungerende sitemap. On-page SEO handler om innholdet på hver side: titler, meta-beskrivelse, overskrifter, brødtekst, interne lenker. Off-page SEO handler om autoritet utenfor din egen side: backlinks, omtaler, oppføringer i kataloger og NAP-konsistens. Et SEO-system som fungerer er aldri bare én av disse - du trenger alle tre.",
+      },
+      {
+        heading: "Teknisk SEO: grunnmuren mange glemmer",
+        body:
+          "En vakker nettside som tar 8 sekunder å laste rangerer ikke. Google bruker Core Web Vitals - LCP, INP og CLS - som direkte rangeringssignaler. Mål nettsiden i Google PageSpeed Insights og sikt mot LCP under 2,5 sekunder, INP under 200 ms og CLS under 0,1. Andre tekniske basics: HTTPS via gyldig SSL-sertifikat, et XML-sitemap registrert i Google Search Console, riktig oppsett av robots.txt, og strukturert data via schema markup. Mangler én av disse, taper du rangeringer på alt annet du gjør.",
+      },
+      {
+        heading: "On-page SEO: titler, beskrivelser og innhold",
+        body:
+          "Hver side på nettsiden din skal ha en unik tittel (under 60 tegn), en unik meta-beskrivelse (140-160 tegn) og en tydelig H1-overskrift som matcher søkeintensjonen. Brødteksten skal naturlig inneholde de søkeordene kundene faktisk skriver - for en flislegger i Oslo betyr det fraser som \"flislegger Oslo\", \"baderomsfliser Oslo\", \"kjøkkenfliser Oslo\". Ikke keyword-stuffing - bare naturlig norsk tekst som besvarer det folk lurer på. Hver tjenesteside og hver bysider skal være unik; kopipasta-innhold straffes av Google.",
+      },
+      {
+        heading: "Off-page SEO: backlinks og omtaler",
+        body:
+          "Google bruker lenker fra andre nettsider som tillitsstemmer. En lenke fra en lokal byggevarekjede, en bransjeorganisasjon eller en lokal nyhetsside teller mer enn ti tilfeldige lenker fra utenlandske blogger. For håndverkere er de viktigste off-page-signalene: oppføring i Proff.no, 1881.no, Gule Sider og Brønnøysundregistrene med konsistent NAP, en aktiv Google Bedriftsprofil med jevnt strømmende anmeldelser, og lenker fra leverandører eller samarbeidspartnere. Bygg dette over 3-6 måneder - ikke kjøp pakker med 100 lenker, det blir straffet.",
+      },
+      {
+        heading: "Lokal SEO er en egen disiplin",
+        body:
+          "Vanlig SEO er nasjonal eller global. Lokal SEO er rettet mot søkere som er fysisk i nærheten - typisk søk som \"rørlegger Trondheim\" eller \"elektriker i nærheten\". Google håndterer disse søkene annerledes: de viser kartpakken (Local Pack) med tre lokale bedrifter øverst, basert på Google Bedriftsprofil-data, ikke på nettsider alene. For håndverkere er lokal SEO 80 % av jobben - du konkurrerer aldri nasjonalt, du konkurrerer mot 10-30 andre i ditt område. Optimalisert Bedriftsprofil + bysider på nettsiden + lokale anmeldelser = lokal SEO i praksis.",
+      },
+      {
+        heading: "Søkeordsforskning: hva kundene faktisk googler",
+        body:
+          "SEO begynner med å forstå hvilke ord kundene bruker. \"Rørlegger Oslo\" er åpenbart, men hva med \"akutt rørlegger Oslo\", \"rørlegger billig Oslo\", \"rørlegger 24/7 Oslo\", \"rørlegger nær meg\"? Hvert av disse er en separat side på nettsiden din. Bruk gratis verktøy som Google Search Console, Google Trends, og Keyword Planner i Google Ads. Sjekk også \"folk spør også\"-boksen i Google-treff - der står direkte spørsmål du bør svare på som egne sider eller seksjoner. For håndverkere finner du ofte 30-80 unike søk verdt å rangere på.",
+      },
+      {
+        heading: "Innhold som rangerer i 2026",
+        body:
+          "Google har blitt strengere på innhold. Det som rangerer er sider som faktisk besvarer det brukeren søkte etter, skrevet av eller med tydelig referanse til personer som vet hva de snakker om (E-E-A-T: Experience, Expertise, Authoritativeness, Trustworthiness). For en håndverker betyr det: skriv som en fagperson, gi konkrete eksempler, vis bilder fra ekte prosjekter, link til relevante kilder. AI-generert tynt innhold blir straffet. Tunge, originale guider med 1500+ ord og praktiske tips rangerer best - akkurat slik som denne wiki-en.",
+      },
+      {
+        heading: "Hvor lang tid tar SEO å virke?",
+        body:
+          "SEO er ikke raskt. Forventningene er typisk: 2-4 uker før Google merker endringer på nye sider, 6-12 uker før du ser bevegelse i posisjon, 3-6 måneder før du rangerer stabilt på første side for de viktigste søkene, 6-12 måneder før SEO blir hovedkilden til leads. Det er treigt, men varig. Skrudde du av Google Ads i dag, stopper trafikken samme dag. Skrudde du av nye SEO-tiltak i dag, fortsetter eksisterende rangeringer å gi leads i flere år.",
+      },
+      {
+        heading: "Vanlige SEO-feil som ødelegger rangering",
+        body:
+          "Keyword-stuffing i titler (\"Billigste rørlegger Oslo 24/7 akutt nå\") - filtreres bort. Kopipasta-innhold mellom by-sider på nettsiden - Google straffer duplikate sider. Kjøpte backlinks fra lenkebørser - manuell straff fra Google, kan ta 6-18 måneder å rette opp. Tregge nettsider med svære bilder og 30 tredjepartsskripter - Core Web Vitals straffes. Gamle URL-er som returnerer 404 etter omstrukturering uten 301-redirect - tap av all akkumulert SEO-verdi. Mange håndverkere taper rangeringer på basics, ikke på avanserte feil.",
+      },
+      {
+        heading: "Måling: hvordan du vet om SEO virker",
+        body:
+          "Sett opp Google Search Console før du gjør noe annet - det er gratis og viser hvilke søkeord du rangerer på, hvor mange som klikker, og på hvilken posisjon. Kombiner med Google Analytics for å se hva besøkende gjør på nettsiden. Sjekk månedlig: hvilke søkeord vokser, hvilke synker, hvilke sider får flest klikk, hvilke har høyest CTR i søkeresultatet. Disse dataene viser hva som virker og hva som ikke virker - uten dem er all SEO-innsats gjetning.",
+      },
+      {
+        heading: "Skal du gjøre SEO selv eller leie inn?",
+        body:
+          "Grunnleggende SEO - Google Bedriftsprofil, søkeordsforskning, skriving av tjenestesider - kan en kompetent håndverker gjøre selv på 5-10 timer per måned. Teknisk SEO, lenkebygging og kontinuerlig analyse krever spesialist-kompetanse. SEO-byråer tar typisk 8 000-25 000 kr per måned. SaaS-løsninger som Vekst Systemet leverer en komplett SEO-pakke for håndverkere - lokal optimalisering, by-sider, anmeldelser og teknisk grunnmur - til 2 990 kr per måned, fast pris. Velger du selv, gjør først alle tre pilarene; bare on-page er ikke nok.",
+      },
     ],
-    relatedTerms: ["local-seo", "organisk-trafikk", "google-bedriftsprofil", "backlinks"],
+    relatedTerms: [
+      "local-seo",
+      "google-bedriftsprofil",
+      "organisk-trafikk",
+      "backlinks",
+      "schema-markup",
+      "meta-tittel-og-beskrivelse",
+      "sidehastighet",
+      "mobilvennlig-nettside",
+    ],
     relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
     ],
   },
   {
