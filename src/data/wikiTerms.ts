@@ -72,17 +72,93 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "google-bedriftsprofil",
     term: "Google Bedriftsprofil",
-    shortDescription: "Den gratis firmasiden som dukker opp høyre side i Google-søk, med kart, åpningstider og anmeldelser.",
+    shortDescription:
+      "Den gratis firmasiden som vises i Google-søk og Google Maps - tidligere Google My Business, fortsatt det viktigste lokale synlighetsverktøyet en håndverker har.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Google Bedriftsprofil (tidligere Google My Business) er den gratis profilen bedriften din har hos Google. Den vises i Google Maps og i sidefeltet på høyre side når noen søker på firmanavnet ditt eller tjenesten din pluss en by. Profilen viser adresse, åpningstider, telefon, bilder og anmeldelser." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "For de fleste håndverkere er Bedriftsprofilen den viktigste markedsføringskanalen. Den plasserer deg i kartet og i \"Local Pack\" øverst på siden - før de 10 blå treffene. En solid profil med bilder og anmeldelser henter inn flere forespørsler enn noen annen gratis kanal." },
-      { heading: "Hvordan fungerer det?", body: "Du oppretter profilen på google.com/business, bekrefter adressen (oftest med postkort eller videobekreftelse), og fyller inn kategori, tjenester, åpningstider og bilder. Jo mer komplett, jo bedre. Legg ut nye bilder ukentlig og svar på alle anmeldelser - Google belønner aktivitet." },
+      {
+        heading: "Hva er Google Bedriftsprofil?",
+        body:
+          "Google Bedriftsprofil er den gratis profilen bedriften din har hos Google. Tjenesten het tidligere Google Min Bedrift (engelsk: Google My Business), men ble omdøpt i 2022. De fleste norske håndverkere kjenner den fortsatt under det gamle navnet. Profilen vises i Google Maps og i en sidefelt-boks på høyre side når noen søker på firmanavnet ditt eller en kombinasjon av tjeneste og sted - for eksempel \"rørlegger Oslo\" eller \"elektriker Bergen\". Den viser adresse, åpningstider, telefonnummer, bilder, anmeldelser, tjenester og lenke til nettsiden din.",
+      },
+      {
+        heading: "Hvorfor er Bedriftsprofilen så viktig for håndverkere?",
+        body:
+          "For en lokal håndverkerbedrift er Google Bedriftsprofil den enkeltkanalen som gir mest avkastning per krone. Den plasserer deg i \"Local Pack\" - kartboksen med de tre øverste lokale treffene - før de 10 blå organiske resultatene. Studier viser at over 70 % av lokale søk leder til en handling (telefonsamtale, klikk til nettside eller veibeskrivelse) innen 24 timer. For en rørlegger, elektriker, maler eller flislegger er en velholdt profil ofte forskjellen på å bli ringt og å være usynlig.",
+      },
+      {
+        heading: "De tre rangeringsfaktorene Google bruker",
+        body:
+          "Google dokumenterer at lokal rangering avhenger av tre signaler: relevans (hvor godt profilen matcher søket), avstand (hvor nær søkeren er) og prominens (hvor etablert bedriften er, målt blant annet i anmeldelser, omtaler på andre nettsteder og lenker). Du kan ikke påvirke avstand, men relevans og prominens er fullt ut i din kontroll. Riktig kategori, fullstendige tjenester, bilder, anmeldelser og oppdateringer er alle relevans- og prominenssignaler.",
+      },
+      {
+        heading: "Slik oppretter og verifiserer du profilen",
+        body:
+          "Gå til google.com/business og logg inn med en Google-konto knyttet til bedriften. Skriv inn firmanavn, adresse, kategori og kontaktinfo. Verifisering er den viktigste delen - uten verifisering vises ikke profilen i søk. Standardmetoden er postkort som Google sender til bedriftsadressen (5-14 dager). Enkelte bransjer kan verifisere via telefon eller video. Bruker du hjemmeadresse som mobil håndverker, sett opp profilen som \"service-area business\" og angi arbeidsområdet i stedet for synlig adresse.",
+      },
+      {
+        heading: "Bedriftsnavn og kategori - to feil å aldri gjøre",
+        body:
+          "Bedriftsnavnet skal være det juridiske navnet, ikke en SEO-stuffet variant. \"Hansen Rørlegger AS\" er greit; \"Billigste rørlegger Oslo 24/7\" blir straffet og kan få profilen suspendert. Primærkategorien er det viktigste SEO-valget i hele profilen - velg den som best beskriver kjernevirksomheten. Sekundærkategorier dekker resten av tjenestene. En rørlegger kan ha \"Plumber\" som primær og \"Drain cleaner\", \"Bathroom remodeler\" som sekundær. Ikke legg til kategorier du ikke leverer - Google bruker det mot deg når søk havner feil.",
+      },
+      {
+        heading: "Tjenester - list dem alle, eksplisitt",
+        body:
+          "Tjenester-seksjonen er underutfylt hos de fleste norske håndverkerprofiler. Konkurrenten har 25 tjenester listet med navn og pris; du har \"rørleggerarbeid\". Hver tjeneste du legger inn kan vises som treff i relevante Google-søk. For en elektriker er det ikke én tjeneste - det er installasjon av varmepumpe, sikringsskap-oppgradering, utelys, smarthus, EV-lader, nytt anlegg, sjekk av eksisterende anlegg, og 15 andre. Bruk 30 minutter på å skrive opp alle tjenestene du faktisk gjør, med korte beskrivelser.",
+      },
+      {
+        heading: "Bilder - kvantitet slår kvalitet",
+        body:
+          "Bedrifter med 30+ bilder får i snitt 2-3 ganger flere klikk enn de med under 10. Bildene trenger ikke være profesjonelle - telefonbilder fra byggeplass holder. Last opp jevnt over tid (2-3 per uke), ikke alle på én gang - aktivitet er et signal i seg selv. Inkluder logo, cover-bilde, før/etter-bilder av jobber, bilder av teamet, bilder av bilen med logo, og bilder av verkstedet eller lageret. For taktekkere, malere, flisleggere og murere er før/etter-bilder særlig sterke - de konverterer kunder som allerede har vurdert deg.",
+      },
+      {
+        heading: "Anmeldelser - mengde, snitt og friskhet",
+        body:
+          "Google vekter tre ting med anmeldelser: antall, gjennomsnittsstjerner og hvor nye de er. 80 anmeldelser med 4,9 i snitt slår 30 anmeldelser med 4,9. Holder du deg under 4,5 i snitt blir du sortert ned. Gamle anmeldelser fra 2019-2022 hjelper mindre enn nye fra siste 12 måneder. Den eneste skalerbare måten å samle inn er systematisk: send en SMS med direktelink samme dag som jobben er fullført. Konverteringen innen 24 timer er mye høyere enn etter en uke. Svar på alle anmeldelser, både gode og dårlige - Google belønner aktive profiler.",
+      },
+      {
+        heading: "Innlegg (Google Posts) - ukentlig oppdatering",
+        body:
+          "Google Posts er småoppdateringer som vises på profilen din - sesongtilbud, nye prosjektbilder, varsel om hellighetsstid, informasjon om vakt. Aktive profiler rangerer høyere. Målet er ett innlegg i uken: et før/etter-bilde fra ukens jobb, to setninger om hva du gjorde, og en handlingsoppfordring. Bruker du 10 minutter på fredag ettermiddag på dette, holder profilen seg fersk i Googles øyne uten ekstra arbeid.",
+      },
+      {
+        heading: "Spørsmål og svar - svar selv før noen andre gjør det",
+        body:
+          "Bedriftsprofilen har en \"Spørsmål\"-seksjon der hvem som helst kan stille spørsmål. Eierens svar veier tyngst og får et grønt \"Eier\"-merke. Forhåndsfyll de vanligste selv: \"Kommer dere på kveldstid?\", \"Tar dere Vipps?\", \"Har dere fagbrev?\", \"Garanti på arbeidet?\". Det tar 15 minutter engangs og hindrer at tilfeldige folk svarer feil på vegne av bedriften din. Det er også et lett SEO-signal - hvert svar bidrar til relevans.",
+      },
+      {
+        heading: "NAP-konsistens og kobling til nettsiden",
+        body:
+          "Navn, adresse og telefon skal være identisk på Bedriftsprofilen, nettsiden din, Proff.no, 1881.no, Gule Sider, Finn.no og Brønnøysundregistrene. Google sammenligner disse signalene; uoverensstemmelser senker tilliten. Lenken fra profilen til nettsiden skal peke på en forside som åpner raskt, har klikkbart telefonnummer øverst og tydelig forklarer hva du leverer. En mobilvennlig nettside med god sidehastighet er en direkte forlengelse av profilen - flytter du folk fra Google til en treg nettside, taper du dem.",
+      },
+      {
+        heading: "Mål hva som virker - Insights-fanen",
+        body:
+          "I administrasjonsverktøyet (Google Business Profile Manager eller direkte i Google-søk) finnes en \"Performance\"-fane (tidligere Insights). Den viser hvor mange søk du vises for, hvor mange som klikker til nettsiden, hvor mange som ringer direkte fra profilen og hvor mange som ber om veibeskrivelse. Sjekk dette ukentlig de første tre månedene. Trendene avgjør hva som virker: flere søkevisninger betyr at kategoriene og tjenestene matcher mer trafikk; flere telefonklikk betyr at anmeldelsene bygger tillit. Uten måling er all aktivitet gjetting.",
+      },
+      {
+        heading: "Vanlige feil som kveler profilen",
+        body:
+          "Falske kategorier for å dekke flere søk - Google straffer det. Keyword-stuffing i firmanavnet (\"Billigste rørlegger Oslo 24/7 AS\") - profil suspendert. Falske anmeldelser fra venner og familie - Google filtrerer dem og mistanken sprer seg til ekte profiler. Hyppige adresseendringer - signaliserer ustabil drift. Profil opprettet og deretter glemt i 12 måneder - inaktivitet senker rangering. Alle disse setter deg flere måneder tilbake. Gjør grunnarbeidet riktig fra start, hold det aktivt, og du vil være i topp-3 i ditt område innen 6 måneder.",
+      },
     ],
-    relatedTerms: ["local-seo", "google-maps", "anmeldelser", "nav-konsistens"],
+    relatedTerms: [
+      "local-seo",
+      "google-maps",
+      "anmeldelser",
+      "anmeldelsesfunnel",
+      "nav-konsistens",
+      "schema-markup",
+      "seo",
+      "organisk-trafikk",
+    ],
     relatedLinks: [
-      { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
