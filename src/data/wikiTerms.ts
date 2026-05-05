@@ -477,17 +477,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "mobilvennlig-nettside",
     term: "Mobilvennlig nettside",
-    shortDescription: "En nettside som fungerer like godt på mobil som på PC. For håndverker-søk er dette obligatorisk.",
+    shortDescription:
+      "En mobilvennlig nettside (også kalt mobiltilpasset nettside) skalerer automatisk til mobilskjermen så teksten er lesbar, knappene er klikkbare og skjemaer fungerer uten zooming. For håndverkere i 2026 er det ikke en bonus - det er obligatorisk.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En mobilvennlig nettside skalerer innhold, bilder og knapper automatisk til skjermstørrelsen. Teksten er lesbar uten å zoome, knappene er store nok til å trykke med tommelen, og skjemaer fungerer uten problemer. Det er ikke én bestemt designstil - det er bare at siden skal være brukbar på mobilen." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "I 2026 søker 75-85 % av norske håndverker-kunder på mobil. Har du en nettside som krever zooming eller der kontaktskjemaet er brutt, går de rett til konkurrenten. Google rangerer dessuten mobilversjonen først (\"mobile-first indexing\") - er mobilen dårlig, faller du i alle søk." },
-      { heading: "Hvordan fungerer det?", body: "Test nettsiden din på en telefon: last inn forsiden og se om du enkelt kan finne telefonnummeret, fylle ut et skjema og bla gjennom bilder. Ingen kniping eller zooming skal være nødvendig. På tekniske termer realiseres dette gjennom \"responsivt design\" - CSS som tilpasser layout til skjermbredde." },
+      {
+        heading: "Hva er en mobilvennlig nettside?",
+        body:
+          "En mobilvennlig nettside (også kalt mobiltilpasset nettside) er en nettside som fungerer like godt på en telefonskjerm som på en datamaskin. Innholdet skalerer automatisk: teksten er lesbar uten å zoome, bildene tilpasses bredden, knappene er store nok til å trykke med tommelen, og kontaktskjemaer kan fylles ut uten at fingrene skjuler felter. Den vanligste tekniske implementasjonen kalles \"responsivt design\" - CSS-regler som endrer layout basert på skjermbredde. En brukervennlig nettside på mobil føles ikke som en nettside; den føles som en app.",
+      },
+      {
+        heading: "Hvorfor mobilvennlighet er kritisk for håndverkere",
+        body:
+          "I 2026 søker 75-85 % av norske håndverker-kunder på mobiltelefon. En typisk situasjon: kunden står ute i regnet og ser at takrenna er løsnet. De googler \"taktekker akutt Oslo\" på telefonen. Hvis nettsiden din krever zooming, har skjemaer som er brutt på mobil, eller knapper som er for små - kunden går til konkurrenten innen 30 sekunder. Mobilvennlighet er ikke et nice-to-have. Det er forskjellen på å fange opp leads og å miste dem til den nettsiden som virker bedre på 6-tommers skjerm.",
+      },
+      {
+        heading: "Mobile-first indexing: Google ser mobilversjonen først",
+        body:
+          "Siden 2020 bruker Google det som heter \"mobile-first indexing\" - de bruker mobilversjonen av nettsiden din som hovedversjonen for indeksering og rangering. Det betyr: hvis mobilversjonen mangler innhold, har dårlig sidehastighet eller er ødelagt, faller du i søk på alle enheter - også PC. Mange håndverker-nettsider er fortsatt designet \"PC først\" og henger seg deretter på en mobilversjon. Det er feil prioritering. Bygg for mobil først, så tilpass PC-versjonen - ikke omvendt.",
+      },
+      {
+        heading: "Slik tester du om nettsiden din er mobilvennlig",
+        body:
+          "Tre raske tester. 1) Google Mobile-Friendly Test (search.google.com/test/mobile-friendly) - gratis, viser direkte om Google anser siden mobilvennlig. 2) Åpne nettsiden på din egen telefon og test: kan du klikke telefonnummeret med ett trykk? Fyller du ut skjemaet uten zoom? Ser du tydelig hva firmaet leverer? 3) Google PageSpeed Insights - kjør på \"Mobile\"-fanen og se Core Web Vitals-score. Disse tre tar 10 minutter og avslører de fleste problemene. Hvis nettsiden din \"føles tregt\" på mobil, har du dokumenterte problemer.",
+      },
+      {
+        heading: "Mobilvennlig vs responsivt design",
+        body:
+          "Begrepene brukes ofte om hverandre, men de er forskjellige. \"Mobilvennlig\" beskriver opplevelsen - er nettsiden brukbar på mobil. \"Responsivt design\" beskriver teknikken - CSS som automatisk justerer layout basert på skjermbredde. Et godt responsivt design produserer en mobilvennlig nettside; men det er teknisk mulig å ha en \"responsiv\" nettside som likevel ikke føles bra på mobil (for små knapper, lav kontrast, treg lasting). Mål for opplevelsen, ikke teknikken alene. Kunder bryr seg ikke om CSS - de bryr seg om at de kan ringe deg på 5 sekunder.",
+      },
+      {
+        heading: "5 mobile UX-grep som hever konverteringsrate",
+        body:
+          "1) Telefonnummer i header som klikkbar tel:+47-link - ett trykk, samtale. 2) Skjema med kun 2-3 felt - lange skjemaer fungerer ikke på mobil. 3) Knapper minst 44x44 pixel (Apple's anbefaling) - mindre er for vanskelig å treffe. 4) Tekst minst 16px - mindre krever zoom. 5) CTA-knapp i sticky footer som alltid er synlig - kunden ser \"Be om tilbud\" konstant. Disse fem grepene tar mobile-konvertering fra 1-2 % til 5-10 %. For håndverker-nettsider hvor mobil er 80 % av trafikken, er det enormt.",
+      },
+      {
+        heading: "Sidehastighet på mobil - den glemte rangeringsfaktoren",
+        body:
+          "En \"mobilvennlig\" nettside som tar 8 sekunder å laste er ikke mobilvennlig. Brukere forlater før siden vises. Google bruker Core Web Vitals - LCP (Largest Contentful Paint), INP (Interaction to Next Paint) og CLS (Cumulative Layout Shift) - som direkte rangeringssignaler på mobil. Mål under 2,5 sekunder for LCP, 200 ms for INP, 0,1 for CLS. Vanligste årsaker til treg mobil: ukomprimerte bilder (over 200 KB), for mange tredjeparts-skripter (chat-widgets, analytics, fonts), tung CMS-tema. Optimaliser bilder, fjern unødvendige skripter, så lader nettsiden under 3 sekunder.",
+      },
+      {
+        heading: "Vanlige mobilfeil håndverker-nettsider gjør",
+        body:
+          "Telefonnummer er ikke klikkbart - kunden må kopiere og lime inn. Hamburger-meny gjemmer alt - ingen finner tjenestene. Pop-ups dekker hele skjermen - umulig å lukke på mobil. Hero-bilde er 4 MB ukomprimert - 5 sekunder lasting. Kontaktskjema har 8 felt - kunden gir opp ved felt 3. Telefonnummer i bunnteksten med liten font - ingen scroller helt ned. Karusell med 5 hero-bilder - ingen ser bilde 2-5. Disse er gratis å rette opp og gir typisk 50-200 % konverteringsløft over noen uker.",
+      },
+      {
+        heading: "AMP - er det fortsatt relevant?",
+        body:
+          "AMP (Accelerated Mobile Pages) var Googles initiativ for raskere mobilsider. I 2021 fjernet Google AMP-kravet for å vises i \"Top Stories\"-karusellen, og AMP har siden mistet relevans. I 2026 trenger de aller fleste norske håndverker-nettsider IKKE AMP - bedre sidehastighet og responsivt design er løsningen, ikke en separat AMP-versjon. Hvis nettsiden din fortsatt har AMP, vurder å fjerne det - det dobbel-vedlikeholdet er sjelden verdt det. Bare rene nyhetspublikasjoner og store mediekontoer trenger fortsatt AMP.",
+      },
+      {
+        heading: "Apper vs mobilvennlig nettside",
+        body:
+          "Noen håndverkere lurer på om de skal bygge en app i stedet for en god mobilnettside. Svaret er nesten alltid: nei. Apper koster 100 000-500 000 kr å bygge, krever løpende vedlikehold for iOS og Android, og folk laster ikke ned apper for engangs-håndverkertjenester. En mobilvennlig nettside fungerer i alle browsere, koster 1/100 av en app, og finner kunder via Google. Den eneste gode grunnen til å bygge app er hvis du har faste, gjentakende kunder som vil booke vedlikehold (f.eks. service-abonnementer). Ellers: mobilvennlig nettside vinner.",
+      },
+      {
+        heading: "Test nettsiden din nå - en sjekkliste",
+        body:
+          "Ta telefonen og åpne nettsiden din. Test disse 10 punktene: 1) Lader siden under 3 sekunder? 2) Er telefonnummer synlig over folden? 3) Er telefonnummer klikkbart? 4) Kan du fylle ut tilbudsskjema uten zoom? 5) Er knappene minst 44x44 pixel? 6) Er tekstene lesbare uten zoom? 7) Bla nedover - er det glatt eller hakker det? 8) Lukker pop-ups enkelt? 9) Fungerer hamburger-menyen? 10) Ser anmeldelses-stjernerating tydelig? Stryk på 3+ av disse betyr nettsiden trenger reparasjon. Stryk på 5+ betyr du taper leads daglig.",
+      },
+      {
+        heading: "Hvor mye koster en mobilvennlig nettside?",
+        body:
+          "Spennet er stort. DIY med Squarespace, Webflow eller Wordpress + responsivt tema: 500-2 000 kr setup + 100-300 kr/mnd. Frilanser eller liten utvikler: 15 000-40 000 kr engangs. Byrå med design og strategi: 40 000-150 000 kr engangs. SaaS for håndverkere som Vekst Systemet: 2 990 kr/mnd alt inkludert (nettside + lokal SEO + anmeldelser + tapt-anrop-SMS), ingen oppstartskostnad. For en bedrift som vil ha en optimalisert mobil-først nettside uten å håndtere selve byggingen, er SaaS ofte raskeste vei til en konverterende mobilvennlig nettside.",
+      },
     ],
-    relatedTerms: ["responsivt-design", "sidehastighet", "konvertering"],
+    relatedTerms: [
+      "responsivt-design",
+      "sidehastighet",
+      "konvertering",
+      "konverteringsrate",
+      "seo",
+      "google-analytics",
+      "landingsside",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
     ],
   },
   {
