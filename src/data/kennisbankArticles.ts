@@ -1255,4 +1255,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "video-for-handverkere",
+    title: "Video for håndverkere: Slik vinner du jobber med korte filmer",
+    description:
+      "En kort film fra et prosjekt selger jobben bedre enn ti bilder. Slik filmer håndverkere før-etter, befaringer og tidslapser som faktisk skaper leads.",
+    category: "Konvertering",
+    readTime: "10 min",
+    date: "2026-05-06",
+    sections: [
+      {
+        heading: "Hvorfor video slår bilder for håndverkere",
+        body:
+          "Et bilde av et nyflislagt bad gir ikke samme inntrykk som en 30-sekunders film der kameraet beveger seg gjennom rommet. Hjernen registrerer bevegelse som ekte, mens stillbilder kan stamme fra hvem som helst. For en flislegger, maler eller tømrer som konkurrerer på tillit gir video et reelt løft i konvertering. Tester på håndverker-nettsider viser typisk 25-40 % høyere konverteringsrate når en kort film erstatter eller supplerer galleribildene. Video gir også social proof på en helt annen måte enn et kundesitat - kunden ser at jobben er ekte, og at noen sto bak kameraet.",
+      },
+      {
+        heading: "Tre videotyper som faktisk skaper leads",
+        body:
+          "Glem reklamefilm. Tre formater fungerer for håndverkere. Før-etter-klipp på 30-60 sekunder der du panorerer fra det gamle baderommet til det nye - perfekt for rørlegger og flislegger. Tidslapser fra hele jobben komprimert til 30 sekunder - bra for taktekker, maler og tømrer som har prosjekter som strekker seg over flere dager. Befaringsvideo der du forklarer hva du ser på en kundes kjøkken eller terrasse før befaringen - den bygger tillit og kvalifiserer leadet før du har møtt kunden. Du trenger ikke alle tre. Velg én og bli god på den først.",
+      },
+      {
+        heading: "Utstyret du allerede har: telefonen er nok",
+        body:
+          "En iPhone fra de siste tre årene eller en mellomklasse-Android filmer i 4K og leverer mer enn nok kvalitet. Lyd er det eneste du må tenke på. En liten klips-mikrofon til 600-1 200 kr fjerner vindstøy og ekko fra tomme rom - kritisk når du filmer på en byggeplass. Et lite stativ til 300 kr holder telefonen stødig på tidslapser. Ingen behov for kamera, droner eller dyr lyssetting. En elektriker eller pusser som filmer med pannelys og en god mikrofon, vinner over en konkurrent som har leid inn et videobyrå for 40 000 kr - fordi det første ser ekte ut.",
+      },
+      {
+        heading: "Skript for et 60-sekunders før-etter-klipp",
+        body:
+          "Strukturen er enkel og fungerer hver gang. Sekund 0-5: vis problemet. Et bad med løse fliser, et tak som lekker, en vegg full av sprekker. Sekund 5-15: vis deg selv eller laget jobbe - hender, verktøy, materiale. Sekund 15-45: prosessen i klipp - tre-fire raske utdrag fra ulike dager. Sekund 45-60: ferdig resultat med en fornøyd kunde i bildet hvis mulig. Avslutt med en CTA: \"Trenger du noe lignende? Ring oss på...\" eller en lenke til skjemaet på landingssiden. En murer eller taktekker som følger denne strukturen treffer hver gang.",
+      },
+      {
+        heading: "Tidslapse som viser hele jobben på 30 sekunder",
+        body:
+          "Tidslapse er det enkleste videoformatet å lage og det mest delbare på sosiale medier. Sett telefonen på et stativ i hjørnet av rommet, start tidslapse-funksjonen, og la den gå hele dagen. På et bad-prosjekt over en uke ender du med 30-60 sekunder råmateriale du kan klippe ned. Flislegger, rørlegger og tømrer som jobber inne har enklest forhold - utvendig krever vær-bevisste plasseringer. Et godt tidslapse-klipp av en dusjnedfelling, en flislagt vegg eller et helt nytt kjøkken får ofte 5-10 ganger flere visninger enn et stillbilde av samme jobb.",
+      },
+      {
+        heading: "Befaringsvideo: bygg tillit før første møte",
+        body:
+          "En av de mest undervurderte videoene du kan lage er en kort befaringsvideo etter første kundemøte - før du sender tilbudet. Du går gjennom det du så, forklarer hvilke valg kunden har, og avslutter med din anbefaling. To-tre minutter, sendt sammen med tilbudet. Konverteringsraten på tilbud med video sammen er målt 30-50 % høyere enn tilbud med kun PDF. Det fungerer fordi kunden hører deg forklare og forstår at du har sett detaljene. En elektriker som filmer en tre-minutters gjennomgang av et sikringsskap som må byttes, lukker tilbudet i nesten halvparten av tilfellene mot 20-25 % uten.",
+      },
+      {
+        heading: "Hvor du publiserer: nettside, Google Bedriftsprofil, Instagram",
+        body:
+          "Tre kanaler dekker 90 % av effekten. Egen nettside: legg en kort video øverst på forsiden eller på hver tjeneste-side - dette løfter konverteringsraten direkte. Google Bedriftsprofil: last opp video under \"bilder og videoer\" - det styrker lokal SEO og er noe få konkurrenter gjør. Instagram: post hver video som reel - algoritmen prioriterer kort video og du når lokale kunder uten betalt synlighet. Drop YouTube hvis du ikke allerede har en strategi der - det krever volum og lang horisont. TikTok er bonus, ikke nødvendig for de fleste håndverkere de første tolv månedene.",
+      },
+      {
+        heading: "Vanlige feil som gjør video til bortkastet tid",
+        body:
+          "Den vanligste feilen er å filme uten å tenke på sluttbruken - et fem-minutters klipp uten klipping ser ingen. Den nest vanligste er manglende lyd - vindstøy fra en fasade-jobb gjør hele klippet ubrukelig. Den tredje er for mye tekst og effekter; håndverker-video skal se ekte ut, ikke som reklame. En maler eller pusser som filmer 30 sekunder rolig pensling med naturlig lyd, vinner over en konkurrent som har lagt på dramatisk musikk og overgangseffekter. Sist: glem ikke CTA. En video uten en klar oppfordring til handling er underholdning, ikke et lead-verktøy.",
+      },
+      {
+        heading: "Slik bygger du video inn i den daglige driften",
+        body:
+          "Det som skiller bedrifter som faktisk får ut video, fra de som planlegger det i månedsvis, er å bygge filmingen inn i jobben. Ett klipp per uke er nok - sett telefonen på et stativ ved oppstart, og film tre-fem korte snutter underveis. Klippingen kan settes ut til en frilanser for 300-800 kr per video, eller du kan bruke en gratis-app som CapCut på telefonen. Da går det fra idé til publisert film på under en time. Vekst Systemet hjelper håndverkere med å koble video direkte til lead-oppfølging og automatisering, slik at hver film blir en del av den faste kundestrømmen - ikke noe som tilfeldigvis ble laget.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Instagram for håndverkere", href: "/kunnskapsbank/instagram-for-handverkere" },
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
