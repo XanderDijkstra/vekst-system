@@ -1386,4 +1386,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
     ],
   },
+  {
+    slug: "markedsforingsbudsjett-handverker",
+    title: "Markedsføringsbudsjett for håndverkere: Slik fordeler du pengene",
+    description:
+      "Hvor mye bør en håndverkerbedrift bruke på markedsføring i 2026? Konkrete budsjettrammer, fordeling over Google, Facebook og SEO, og når du bør øke eller kutte.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-05-09",
+    sections: [
+      {
+        heading: "Hvor mye skal markedsføring egentlig koste?",
+        body:
+          "De fleste håndverkerbedrifter med 1 til 10 ansatte vi snakker med, har ingen klar tanke om hvor mye markedsføring egentlig skal koste. Noen bruker null kroner og lever utelukkende på henvisninger fra naboen og fra gamle kunder. Andre dumper 30 000 kroner i måneden på Google Ads uten å vite hva som faktisk gir jobber inn i kalenderen. Begge deler er problematisk på lengre sikt. Et fornuftig budsjett ligger et sted i mellom, og det avhenger mer av målene dine enn av hva andre i bransjen bruker.",
+      },
+      {
+        heading: "Tommelfinger-regelen: 3 til 8 prosent av omsetningen",
+        body:
+          "Tommelfinger-regelen i håndverksbransjen er at 3 til 8 prosent av omsetningen bør gå til markedsføring. En maler eller flislegger med 4 millioner i omsetning bør altså regne med 120 000 til 320 000 kroner i året, eller 10 000 til 27 000 kroner per måned. Bruker du under 3 prosent og opplever stille uker mellom oppdragene, sulter du sannsynligvis kanalen din. Bruker du over 8 prosent uten at omsetningen vokser, kaster du penger ut av vinduet. Etablerte bedrifter med god henvisningsmotor kan ligge nær 3 prosent, nyetablerte trenger ofte 7 til 8.",
+      },
+      {
+        heading: "Kostnadene du allerede har, men kanskje ikke teller med",
+        body:
+          "Det er to feil de fleste håndverkere gjør når de regner på markedsføring. Den første er å glemme at varebilen med logo, arbeidstøyet med navn på, og skiltet på byggeplassen også er markedsføring som koster penger - en innpakket varebil koster fort 25 000 til 50 000 kroner. Den andre er å glemme tiden din egen. Hvis du som rørlegger eller elektriker bruker fem timer i uken på å svare på Facebook-meldinger og ringe gamle kunder, er det en skjult kostnad på godt over 100 000 kroner i året. Tell det med før du sammenligner deg med andre.",
+      },
+      {
+        heading: "Slik fordeler du budsjettet over kanaler",
+        body:
+          "Et budsjett som er smurt tynt utover sju kanaler fungerer dårligere enn ett som er fokusert på to eller tre. For en typisk rørlegger eller taktekker er en god startfordeling 40 prosent på Google - altså Google Bedriftsprofil og Google Ads, 25 prosent på nettsiden og lokal SEO, 20 prosent på anmeldelsesfunnel og lead-oppfølging, og 15 prosent på Facebook eller Instagram. Tilpass etter hva som faktisk leverer betalte jobber for akkurat din bedrift, ikke etter hva som er nytt og spennende. En tømrer som lever av store oppussinger har en helt annen miks enn en murer som primært tar småjobber.",
+      },
+      {
+        heading: "Google Ads versus Facebook-annonser - hvor mye til hver?",
+        body:
+          "Google Ads og Facebook-annonser løser ulike problemer. Google fanger opp kunder som søker akkurat nå - typen \"rørlegger Bergen akutt lekkasje\" - og koster mellom 30 og 80 kroner per klikk i håndverksbransjen. Facebook bygger gjenkjennelse og fanger opp kunder før de har bestemt seg, og er billigere per visning, men gjerne dyrere per faktisk lead. En tømrer eller flislegger som ønsker større oppussingsprosjekter trenger ofte mer Facebook og retargeting. En akutt-rørlegger eller elektriker bør legge tyngden på Google. Tommelregel for nye annonsører: start med 70/30 til fordel for den kanalen som matcher kjøpsintensjonen din best.",
+      },
+      {
+        heading: "SEO og nettside er en investering, ikke en månedskostnad",
+        body:
+          "SEO og en god landingsside oppfører seg ikke som annonser. Du betaler én gang og høster i flere år. En fagside om badrenovering eller takomlegging på nettsiden din kan generere leads i 5 til 7 år etter at den ble publisert, mens en Google Ads-konto som slås av leverer null neste dag. Derfor er det fornuftig å regne SEO og innhold som en kapitalkostnad du investerer tidlig, ikke som en månedlig utgift som kan kuttes når det blir trangt. En investering på 40 000 til 80 000 kroner i fagsider og lokal SEO det første året, betaler seg ofte tilbake gang etter gang.",
+      },
+      {
+        heading: "Anmeldelser og henvisninger - kanalen som koster minst og gir mest",
+        body:
+          "Den billigste kanalen i håndverksbransjen er fortsatt fornøyde kunder som anbefaler deg videre. En systematisk anmeldelsesfunnel som spør hver kunde om tilbakemelding etter avsluttet jobb, koster typisk 500 til 1 500 kroner i måneden å drifte, og genererer en stødig strøm av nye Google-anmeldelser og henvisninger. Sammenlign det med en Facebook-kampanje på 8 000 kroner som gir kanskje tre leads, så ser du raskt hvor du bør starte hvis du ikke har dette på plass i dag. En maler eller pusser med 80 femstjerners anmeldelser på Google blir sjelden uten oppdrag - social proof er den sterkeste konvertering-driveren som finnes.",
+      },
+      {
+        heading: "Når bør du øke budsjettet?",
+        body:
+          "Tre signaler tilsier at det er på tide å øke budsjettet. Du sier nei til jobber fordi kalenderen er full, og kunden går rett til konkurrenten. Marginen din på prosjekter har økt nok til at du tåler mer aggressiv vekst. Eller du har akkurat ansatt en ny svenn eller lærling, og må fylle 1 500 til 1 700 ekstra timer i året. Da er det dyrere å la den ansatte gå tomgang i én uke enn å investere 15 000 ekstra kroner i flere leads. Vekst skal være en bevisst beslutning - ikke noe som skjer fordi du leste en blogg om Facebook-annonser.",
+      },
+      {
+        heading: "Når bør du kutte?",
+        body:
+          "Kutt budsjettet hvis du ser én av disse tre tingene. Kostnad per lead har doblet seg uten at antall vunnet jobber følger med. Kalenderen er booket åtte uker frem og du jobber kvelder for å holde tritt. Eller du har dårlig samvittighet for at du ikke rekker å følge opp leads ordentlig. Det siste er det viktigste - 30 nye leads i uken er verdiløse hvis 25 av dem aldri får svar innen 24 timer. Da er løsningen automatisering og bedre lead-oppfølging i en CRM, ikke mer trafikk inn på toppen av funnel. Mange håndverkere tjener mer på å kutte annonsebudsjettet med 30 prosent og oppgradere oppfølgingen.",
+      },
+      {
+        heading: "Slik måler du om budsjettet faktisk lønner seg",
+        body:
+          "Den eneste målingen som teller er kostnad per vunnet jobb, ikke kostnad per klikk eller per visning. Får du fire leads i måneden fra Google Ads til 8 000 kroner totalt, og vinner én jobb verdt 35 000 kroner, er kostnaden per jobb 8 000 - eller 23 prosent av jobbverdien. Det er for høyt for de fleste fag. Logg lead-kilden i en CRM eller et regneark, og følg konverteringsraten per kanal hver måned. Vekst Systemet samler annonser, oppfølging og rapportering på ett sted, slik at en taktekker eller elektriker kan se kostnad per vunnet jobb per kanal i sanntid - men det viktigste er at du måler i det hele tatt, uansett verktøy.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Facebook-annonser for håndverkere", href: "/kunnskapsbank/facebook-annonser-for-handverkere" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+      { label: "Komplett markedsføringsguide for håndverkere", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
