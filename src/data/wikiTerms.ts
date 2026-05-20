@@ -1075,17 +1075,84 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "domene-og-hosting",
     term: "Domene og hosting",
-    shortDescription: "Domenet er adressen (firma.no). Hosting er serveren som holder nettsiden i gang 24/7.",
+    shortDescription:
+      "Domenet er nettadressen (firma.no), og hosting (også kalt hosting-tjenester eller webhotell) er serveren som holder nettsiden tilgjengelig 24/7. For håndverkere er begge små løpende kostnader - men feil valg koster dyrt i SEO og driftssikkerhet.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Domenet er adressen folk skriver inn i nettleseren - for eksempel firmaditt.no. Hosting er tjenesten som kjører serveren der nettsiden faktisk ligger. Du leier begge: domenet for ~120 kr/år, hosting for 50-500 kr/mnd avhengig av leverandør." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Domenet er din digitale eiendom. Mist domenet, og du mister all SEO, alle eposter, alle visittkort. Velg derfor .no (stabilt, norsk-eid via Norid) og betal for minst 2-5 år av gangen. Hosting-valget påvirker sidehastighet og driftssikkerhet - kritisk for SEO." },
-      { heading: "Hvordan fungerer det?", body: "Et .no-domene kjøpes via en Norid-registrar (Domeneshop, one.com, osv.) - krever norsk organisasjonsnummer. Hosting kan være en tradisjonell webserver eller moderne plattform som Vercel/Netlify. For håndverker-nettsider anbefales moderne plattformer: raskere, billigere og krever mindre vedlikehold." },
+      {
+        heading: "Hva er et domene?",
+        body:
+          "Et domene er den navngitte adressen til en nettside - for eksempel firmaditt.no eller vekst-systemet.no. Det er det folk skriver inn i nettleseren eller deler i SMS, og det er nettside-identiteten din på internett. Hvert domene må registreres via en \"registrar\" - en autorisert leverandør (Domeneshop, one.com, osv.). For norske bedrifter er .no-domener det åpenbare valget: stabilt administrert av Norid, krever norsk organisasjonsnummer for registrering, har bedre tillit-signaler enn .com hos norske brukere. Kostnad: ca 120 kr/år.",
+      },
+      {
+        heading: "Hva er hosting?",
+        body:
+          "Hosting (norsk: webhotell eller hosting-tjenester) er tjenesten som faktisk holder nettsiden tilgjengelig på internett. Hostingleverandøren kjører en server som leverer HTML, CSS, bilder og data til hvem som helst som besøker domenet ditt. Uten hosting har domenet ingenting å peke til - det er bare et navn. Hosting koster 50-500 kr/mnd avhengig av leverandør og kapasitet. For en håndverker er hosting-valg viktig: det påvirker sidehastighet, driftssikkerhet og hvor lett det er å skalere når trafikken vokser.",
+      },
+      {
+        heading: "Hvorfor domene og hosting matters for håndverkere",
+        body:
+          "Domenet er din digitale eiendom - i samme kategori som telefonnummer og firmaadresse. Mister du kontroll over det, mister du alt: SEO-rangering, e-postadresser (post@firma.no), tillit fra eksisterende kunder som har visittkortet ditt. Hosting-valget påvirker SEO direkte: tregge servere senker rangering, ustabil oppetid gjør at Google ikke kan indeksere, dårlig sikkerhet kan føre til at nettsiden blir hacket og fjernet fra søket. Begge avgjørelser virker små, men feil valg kan koste 6-12 måneder av SEO-arbeid for å rette opp.",
+      },
+      {
+        heading: "Slik velger du riktig domenenavn",
+        body:
+          "Tre regler. 1) Inkluder firmanavnet hvis mulig - hansenrorlegger.no er bedre enn billigste-rorlegger.no fordi det bygger merkevare. 2) Hold det kort - 8-15 tegn er optimal. 3) Unngå spesialtegn (æ, ø, å) i selve domenet - de kan brukes (xn-- prefix) men SMS-deling og taleinngang sliter med dem. 4) Velg .no over .com for norske bedrifter - .no har bedre lokal SEO og høyere tillit hos norske kunder. 5) Kjøp varianter (.no, .com, vanlige skrivefeil) som forsikring mot kybersquatters. Engangs-investering på ~600 kr dekker 5 varianter for 1 år.",
+      },
+      {
+        heading: "Slik kjøper du et .no-domene",
+        body:
+          "Norge har en spesiell prosess - .no-domener kan ikke kjøpes på samme måte som .com. Du må gå via en Norid-registrar: Domeneshop (mest brukt), one.com, GoDaddy (gjennom partner). Krav: norsk organisasjonsnummer fra Brønnøysundregistrene. Privatperson kan ikke kjøpe .no-domener (kun .priv.no for personlige domener, og 5 .no via Hostpoint-løsning). Hvis du driver enkeltpersonforetak, registrer i ENK-navn. Pris: ca 120 kr/år, betal for 2-5 år av gangen for å sikre deg. Aldri la et domene utløpe - du kan miste det permanent.",
+      },
+      {
+        heading: "Hosting-valg: webhotell vs CDN vs moderne plattform",
+        body:
+          "Tre kategorier. 1) Tradisjonelt webhotell (Hostpoint, one.com, Domeneshop hosting) - 50-200 kr/mnd, fungerer for enkle nettsider, men ofte tregge og dårlig på sidehastighet. 2) CDN-basert hosting (Cloudflare, Bunny) - 30-100 kr/mnd, raskere ved geografisk distribusjon, men teknisk mer komplekst. 3) Moderne plattformer (Vercel, Netlify, Cloudflare Pages) - 0-200 kr/mnd, raskest, mest moderne, krever at nettsiden er bygget for det. For håndverkere som vil ha en moderne, rask, SEO-optimalisert nettside: moderne plattform er klart beste valg.",
+      },
+      {
+        heading: "Hostingleverandører anbefalt for håndverkere",
+        body:
+          "Konkrete anbefalinger. For enkle WordPress-nettsider: Hostpoint (norsk, stabilt), Domeneshop (norsk, billig), one.com (internasjonalt, billig). For moderne nettsider bygget i React/Next.js: Vercel (gratis tier for små bedrifter, $20/mnd for Pro). For statiske nettsider og kalkulator-baserte tjenester: Netlify eller Cloudflare Pages. For å hoste på egen server: ikke gjør det - administrasjons-byrden er ikke verdt det. For håndverkere er SaaS-løsninger som Vekst Systemet ofte enklere - hosting er inkludert i månedsprisen, ingen separat valg eller bekymring.",
+      },
+      {
+        heading: "Hva som skjer hvis hostingen går ned",
+        body:
+          "Når hosting er nede, er nettsiden din ikke tilgjengelig. Google merker det og rapporterer som \"site unavailable\". Korte utfall (under 1 time) er typisk uten konsekvens. Lange utfall (over 4 timer flere ganger) kan føre til at Google deindekserer sider midlertidig. Verre: hvis nettsiden er nede i en kritisk periode (mandag morgen når kunder ringer), mister du leads. Bra hosting har 99,9 %+ oppetid (under 9 timer nedetid per år). Sjekk leverandørens SLA før du velger. Vekst Systemet kjører 99,99 % oppetid på Vercel-infrastruktur.",
+      },
+      {
+        heading: "E-post-hosting - egen tjeneste eller inkludert?",
+        body:
+          "Domenenavnet ditt brukes også til e-postadressen din (post@firma.no, kontakt@firma.no). E-post-hosting er ofte SEPARAT fra nettside-hosting. Tre valg. 1) E-post inkludert hos webhotellet (Hostpoint, Domeneshop tilbyr 5-25 GB e-post for 50-100 kr/mnd ekstra). 2) Google Workspace (50-100 kr/bruker/mnd, profesjonell, integrert med Gmail). 3) Microsoft 365 (50-150 kr/bruker/mnd, integrert med Outlook). For håndverker: Google Workspace er ofte raskest å sette opp og enklest å vedlikeholde. Hold e-post og nettside-hosting separat - hvis ett går ned, fungerer fortsatt det andre.",
+      },
+      {
+        heading: "SSL-sertifikat - obligatorisk i 2026",
+        body:
+          "Alle nettsider trenger SSL-sertifikat (gir HTTPS i stedet for HTTP). Google rangerer ikke-HTTPS-nettsider ned, browsere viser \"ikke sikker\"-advarsler, og kunder mister tillit. Moderne hosting inkluderer SSL gratis via Let's Encrypt. Verifiser at hostingleverandøren din støtter dette - hvis ikke, bytt. Gamle SSL-sertifikater (kjøpt for år siden, gjelder ett spesifikt domene) er fortsatt funksjonelle, men Let's Encrypt med automatisk fornyelse er enklere og gratis. Når du flytter til ny hosting, sørg for at SSL aktiveres samme dag som domenet peker til ny server.",
+      },
+      {
+        heading: "Hva som skjer hvis du mister domenet",
+        body:
+          "Den mest katastrofale feilen en bedrift kan gjøre er å miste kontroll over hovedomenet sitt. Vanlig scenario: domenet utløper, registrar sender påminnelse til en gammel e-postadresse, ingen reagerer, domenet frigjøres etter 30-90 dager. Da kan hvem som helst kjøpe det. Resultatet: all SEO mistet (Google ser nytt eierskap som nytt nettsted), e-poster sluttet å fungere, kunder som har gamle visittkort kommer til en konkurrent eller spam-side. Forebygging: 1) Sett auto-fornyelse av domene. 2) Betal 5 år av gangen. 3) Bruk gjeldende e-postadresse hos registrar. 4) Sett kalenderpåminnelse 60 dager før utløp.",
+      },
+      {
+        heading: "Domene-flytting - når du bytter leverandør",
+        body:
+          "Du kan flytte domenet fra én registrar til en annen uten å miste det - kalles \"transfer\" eller \"flytting\". Prosess: 1) Be om \"auth code\" eller \"EPP code\" fra nåværende registrar. 2) Start transfer hos ny registrar. 3) Bekreft via e-post (innen 5 dager). 4) Vent 5-10 dager til transfer er fullført. Under prosessen fungerer alt som vanlig - nettsiden går ikke ned, e-poster fungerer. Domenet \"låses\" mot transfer 60 dager etter første kjøp - planlegg deretter. Hosting flyttes separat - typisk innen 24 timer ved å peke DNS til ny server.",
+      },
     ],
-    relatedTerms: ["ssl-sertifikat", "sidehastighet", "nav-konsistens"],
+    relatedTerms: [
+      "ssl-sertifikat",
+      "sidehastighet",
+      "nav-konsistens",
+      "seo",
+      "mobilvennlig-nettside",
+      "responsivt-design",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
     ],
   },
   {
