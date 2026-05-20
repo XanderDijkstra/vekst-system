@@ -2142,17 +2142,87 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "betalt-trafikk",
     term: "Betalt trafikk",
-    shortDescription: "Besøkende du skaffer ved å betale for annonser - Google Ads, Facebook Ads, Mittanbud-leads.",
+    shortDescription:
+      "Betalt trafikk er besøkende som kommer fra annonser du betaler for - Google Ads, Facebook Ads, Mittanbud, Anbudstorget. Forskjellen på betalt og organisk trafikk avgjør strategien din: betalt er rask men forsvinner; organisk er treig men varig.",
     category: "Leads",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Betalt trafikk er alle besøkende som kommer via annonser du betaler for. Det motsatte er organisk trafikk (gratis fra Google-søk) og direkte trafikk (noen skriver URL-en direkte). Typiske kanaler for håndverkere: Google Ads, Facebook/Instagram Ads, Mittanbud-leads og sponsede oppføringer på Finn.no." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Betalt trafikk gir leads umiddelbart - perfekt hvis du nettopp har startet eller trenger å fylle opp kalenderen. Ulempen: strømmen stopper når du slutter å betale. En sunn håndverkerbedrift bruker betalt trafikk som forsterker, ikke eneste kilde." },
-      { heading: "Hvordan fungerer det?", body: "Definer mål (leads, ikke klikk), sett et dagsbudsjett, og spor kostnad per lead (CPL). En bra håndverker-Ads-kampanje gir CPL på 200-500 kr. Høyere enn 800 kr betyr det er noe galt - oftest feil søkeord eller dårlig landingsside. Start smått, skaler når det virker." },
+      {
+        heading: "Hva er betalt trafikk?",
+        body:
+          "Betalt trafikk (engelsk: paid traffic eller paid media) er all trafikk til nettsiden din som kommer via annonser du betaler for. Det motsatte er organisk trafikk (gratis fra Google-søk), direkte trafikk (noen skriver URL-en), og referral trafikk (lenker fra andre nettsider). For håndverkere er de vanligste kildene til betalt trafikk: Google Ads (på topp av søkeresultater), Facebook/Instagram Ads (i sosiale feed), Mittanbud og Anbudstorget (per-lead-betaling), retargeting via Meta og Google, og sponsede oppføringer på Finn.no.",
+      },
+      {
+        heading: "Hvorfor håndverkere bruker betalt trafikk",
+        body:
+          "Hovedfordelen er hastighet. SEO og organisk trafikk tar 3-6 måneder å bygge. Betalt trafikk gir besøk samme dag du starter kampanjen. Det gjør det verdifullt i tre situasjoner: 1) Nystartet bedrift uten organisk synlighet. 2) Etablert bedrift som vil fylle kalenderen i en stille periode. 3) Strategisk skalering når du har overkapasitet og vil ha flere oppdrag. For nystartede håndverkere er betalt trafikk ofte den eneste måten å få leads de første 6-9 månedene mens SEO bygges. For etablerte bedrifter er betalt trafikk en justerbar krane.",
+      },
+      {
+        heading: "Hovedulempen: avhengighet",
+        body:
+          "Den største svakheten ved betalt trafikk: så snart du slutter å betale, stopper trafikken samme dag. Bygger ingen varig autoritet eller eierskap. For en bedrift som baserer 100 % av leadene på betalt trafikk, er det som å leie alle kundene - en eskalerende månedlig kostnad uten oppbygging av eiendel. Verre: prisene stiger over tid mens konkurrenter byr opp samme søkeord. Google Ads-kostnader i håndverkerbransjen har økt 8-12 % i året de siste fem årene. En sunn håndverkerbedrift bruker betalt trafikk som FORSTERKER på toppen av organisk SEO, ikke som hovedkilde.",
+      },
+      {
+        heading: "Kanaler for betalt trafikk - hva som virker for håndverkere",
+        body:
+          "Rangering etter ROI for typiske norske håndverkere. 1) Google Ads på spesifikke akutt-søkeord (\"akutt rørlegger Oslo\") - høyest intent, høyest konvertering. CPC 60-120 kr, CPA 800-1500 kr. 2) Retargeting via Meta - lave kostnader, høy konvertering på allerede engagerte besøkende. CPA 200-600 kr. 3) Facebook/Instagram Ads til kalde målgrupper - varierende, krever god kreativ. CPA 1000-3000 kr. 4) Mittanbud-leads - rask men dyr. 400-800 kr per lead, 1500-4000 kr per vunnet jobb. 5) Sponsede Finn.no-oppføringer - mindre populært i 2026. 6) TikTok Ads - eksperimentelt, kun for visuelle håndverker-prosjekter.",
+      },
+      {
+        heading: "Beregne CPL og CPA - de viktigste KPIene",
+        body:
+          "To tall avgjør om betalt trafikk lønner seg. CPL (Cost Per Lead) = total annonseringskostnad / antall leads generert. CPA (Cost Per Acquisition) = total annonseringskostnad / antall vunne oppdrag. Eksempel: 5 000 kr/mnd på Google Ads gir 12 leads, hvorav 4 blir oppdrag. CPL = 417 kr. CPA = 1 250 kr. Sammenlign mot snittjobb og marginer. Hvis snittjobb er 18 000 kr og 30 % margin, har du 5 400 kr i bidragsmargin per oppdrag - 1 250 kr CPA er sterk ROI (4,3x). Hvis CPA er over 50 % av bidragsmarginen, er kampanjen ulønnsom uansett volum.",
+      },
+      {
+        heading: "Slik velger du riktig kanal",
+        body:
+          "Sjekkliste per situasjon. Trenger akutt-jobber i dag? Google Ads på akutt-søk. Trenger leads neste uke til større prosjekter? Facebook Ads med god landingsside. Har eksisterende nettside-trafikk som ikke konverterer? Retargeting via Meta. Trenger garantert kort tid mellom betaling og lead? Mittanbud (men dyrt). Er nystartet uten egen kundebase? Mittanbud + Google Ads parallelt mens du bygger organisk. Har god organisk trafikk men vil eksperimentere med nye markeder? Facebook Ads. Strategien er ikke \"velg én kanal\" - det er å bruke ulike kanaler for ulike behov.",
+      },
+      {
+        heading: "Quality Score og Ad Rank - bedre annonse, lavere kostnad",
+        body:
+          "På Google Ads vurderer Google annonsen din på Quality Score (1-10) basert på CTR, annonsens relevans til søkeordet, og landingsside-opplevelse. Quality Score 8-10 gir 30-50 % rabatt på CPC vs Quality Score 3-4. Slik forbedrer du: skriv annonsetekst som tett matcher søkeordet, bruk dedikert landingsside (ikke generisk forside), inkluder negative keywords for å filtrere ut irrelevante søk, optimaliser landingsside for hastighet. Quality Score-forbedringer kan halvere kostnaden på samme kampanje - ofte den enkleste annonseringsoptimaliseringen.",
+      },
+      {
+        heading: "Sporing og tracking - kritisk for betalt trafikk",
+        body:
+          "Uten sporing er all betalt trafikk gjetning. Implementer minimum. 1) Google Analytics 4 koblet til Google Ads for konverteringssporing. 2) Conversion-pixel fra Meta hvis du bruker Facebook/Instagram Ads. 3) UTM-parametere på alle annonse-lenker (utm_source=google_ads, utm_medium=cpc). 4) Telefonsporing for å vite hvilke kampanjer genererer telefonanrop. CallRail eller lignende. Etter 1-2 måneders data ser du klart hvilke kampanjer genererer billigste leads og høyeste konvertering. Skift budsjett mot vinnende kampanjer. Uten data investerer du blindt.",
+      },
+      {
+        heading: "Mittanbud som betalt trafikk - vurdering",
+        body:
+          "Mittanbud og Anbudstorget er en form for betalt trafikk - du betaler per lead, og kvaliteten varierer mye. Fordeler: rask oppstart (få leads samme dag), ingen krav om markedsføringskompetanse, transparent kostnad per lead. Ulemper: høy konkurranse (3-5 håndverkere på samme lead), priskonkurranse senker marginene, bygger ingen egen merkevare. For nystartede håndverkere er Mittanbud nyttig de første 3-6 månedene. For etablerte bedrifter er det typisk dårligere ROI enn Google Ads eller egen SEO. Vurder Mittanbud som en av flere kanaler, ikke hovedkilde - vår sammenligning av Mittanbud-alternativer går i dybden.",
+      },
+      {
+        heading: "Sunn miks: betalt + organisk + anbefalinger",
+        body:
+          "Den smarteste håndverker-strategien har 3-4 lead-kilder samtidig. Tidlig fase (måned 1-6): 60-70 % betalt trafikk (Mittanbud, Google Ads) mens organisk SEO bygges. Modnings-fase (måned 6-18): 40 % organisk SEO, 30 % betalt, 30 % anbefalinger. Moden fase (måned 18+): 60 % organisk, 20 % betalt strategisk, 20 % anbefalinger og gjenkjøp. Betalt trafikk er aldri \"alt eller ingenting\" - det er en del av miksen. Bedriftene som vokser stabilt har diversifisert kildene; de som har problemer er overavhengige av én enkelt kanal (oftest Mittanbud).",
+      },
+      {
+        heading: "Vanlige feil med betalt trafikk",
+        body:
+          "1) Setter opp Google Ads-kampanje med bred matching uten negative keywords - brenner 70 % av budsjettet på irrelevante søk. 2) Sender all annonse-trafikk til hjemmesiden i stedet for dedikert landingsside - konverterer 1/3 så bra. 3) Måler kun klikk, ikke konverteringer - kan ikke optimalisere. 4) Pauser kampanjer i ferier i stedet for å skalere ned - mister momentum. 5) Skifter budsjett mellom kampanjer hver uke - Google trenger 2-4 uker for å optimalisere. 6) Bygger ikke organisk parallelt - blir 100 % avhengig av betalt. Disse er gratis å rette opp og kan halvere CPA.",
+      },
+      {
+        heading: "Hvor mye betalt trafikk-budsjett er riktig?",
+        body:
+          "Tommelfingerregel for håndverkere: 3-8 % av omsetning på markedsføring totalt, hvorav 30-60 % på betalt trafikk i tidlig fase. For en bedrift med 1,5 millioner omsetning er det 45 000-120 000 kr/år eller 4 000-10 000 kr/mnd totalt; av det 1 500-6 000 kr/mnd på betalt trafikk. Skaler med resultater - hvis CPA er sterk, øk budsjettet. Hvis CPA er svak, optimaliser før du skalerer. Aldri kjør betalt trafikk uten å vite hva CPA-en din er - det er det samme som å gamble. Vekst Systemet leverer integrert markedsføringsstack der betalt trafikk-strategien er en del av helheten.",
+      },
     ],
-    relatedTerms: ["google-ads", "organisk-trafikk", "retargeting", "konverteringsrate"],
+    relatedTerms: [
+      "google-ads",
+      "organisk-trafikk",
+      "retargeting",
+      "konverteringsrate",
+      "landingsside",
+      "click-through-rate",
+      "google-analytics",
+      "lead",
+    ],
     relatedLinks: [
-      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Facebook-annonser for håndverkere", href: "/kunnskapsbank/facebook-annonser-for-handverkere" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Mittanbud-alternativ", href: "/sammenlign/mittanbud-alternativ" },
     ],
   },
   {
