@@ -381,17 +381,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "google-maps",
     term: "Google Maps",
-    shortDescription: "Kart-tjenesten der Google viser de tre mest relevante bedriftene når noen søker etter en lokal tjeneste.",
+    shortDescription:
+      "Google Maps er kart-tjenesten der lokale bedrifter dukker opp først når noen søker etter en tjeneste i nærheten. For håndverkere er Maps-synligheten ofte viktigere enn vanlig SEO - kartpakken får 60-70 % av lokale søk-klikk.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Google Maps er kartfunksjonen som vises øverst i Google-søk når noen søker etter en lokal tjeneste. De tre mest relevante bedriftene i nærheten får en \"Local Pack\" med kart, anmeldelser og ringknapp. Tilsvarende dukker firmaet opp når noen søker i Maps-appen direkte." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Mange klikker aldri forbi Local Pack. For søk som \"elektriker i nærheten\" eller \"rørlegger Bergen\" får de tre bedriftene der 60-70 % av all trafikk. Er du ikke med, finnes du ikke for den søkeren. Og rekkefølgen bestemmes mye av anmeldelsesscore og profilkvalitet." },
-      { heading: "Hvordan fungerer det?", body: "Google rangerer ut fra nærhet, relevans (matching mellom søkeord og bedriftsprofil) og prominens (anmeldelser, lenker, generell autoritet). Du kan ikke betale deg inn - alt går via Bedriftsprofilen. Det viktigste du kan gjøre er å samle inn ekte anmeldelser fra ekte kunder og holde profilen oppdatert." },
+      {
+        heading: "Hva er Google Maps?",
+        body:
+          "Google Maps er Googles kart-tjeneste, brukt av over en milliard mennesker globalt og dominerende i Norge. To viktige funksjoner for håndverkere: 1) Maps-appen og web-versjonen der folk søker etter lokale bedrifter direkte (\"rørlegger nær meg\", \"maler Oslo\"). 2) Den \"Local Pack\"-boksen som vises øverst i vanlig Google-søk for lokale søk - en mini-Maps-visning med tre bedrifter, deres anmeldelser, åpningstider og ringknapp. Begge funksjonene henter data fra Google Bedriftsprofil. Synligheten i Google Maps er ofte forskjellen på å bli funnet og å være usynlig for lokale håndverker-kunder.",
+      },
+      {
+        heading: "Hvorfor Google Maps matters for håndverkere",
+        body:
+          "Studier viser at over 60 % av klikk på lokale søk går til Local Pack/Maps-treffene øverst, ikke til de tradisjonelle blå organiske treffene. For søk som \"elektriker i nærheten\" eller \"rørlegger Bergen\" får de tre bedriftene i Local Pack langt mest trafikk. Er du ikke blant disse tre, mister du flertallet av synligheten - selv om du rangerer på posisjon 1 i organiske treff. For en lokal håndverker er Maps-synligheten 70-80 % av all SEO-verdi. Det er der innsatsen bør konsentreres, ikke på generelle SEO-grep.",
+      },
+      {
+        heading: "Local Pack - kart-pakken på topp",
+        body:
+          "Local Pack (også kalt \"map pack\" eller \"3-pack\") er den boksen som vises øverst i Google-resultatet for lokale søk. Den inneholder typisk: et kart med pinner, tre lokale bedrifter med navn, stjernerating, antall anmeldelser, avstand, åpningstider og en \"Ring\"-knapp. Plassen er ettertraktet - det er bokstavelig talt det første kunden ser. Google velger de tre basert på Bedriftsprofil-kvalitet og søkerens lokasjon. Sjekk din egen: google \"[ditt fag] [din by]\" og se om du er blant de tre. Hvis ikke, er det din viktigste SEO-oppgave å komme inn.",
+      },
+      {
+        heading: "Slik fungerer Maps-rangering",
+        body:
+          "Google bruker tre signaler for Maps-rangering: relevans (hvor godt Bedriftsprofilen matcher søkeordet), avstand (hvor nær søkeren er fysisk), og prominens (hvor etablert bedriften er via anmeldelser, lenker, autoritet). Du kan ikke påvirke avstand - Google ser hvor søkeren er. Relevans og prominens er fullt i din kontroll. Riktig kategorivalg, alle tjenester eksplisitt listet, og lokale by-sider på nettsiden gir relevans. 80+ Google-anmeldelser med 4,7+ snitt gir prominens. Disse to faktorene er den eneste veien til Local Pack-rangering.",
+      },
+      {
+        heading: "Google Bedriftsprofil er motorn",
+        body:
+          "All Maps-synlighet styres av Google Bedriftsprofil. Det er ikke to separate tjenester - Maps er hvor Bedriftsprofilen vises. Det betyr: Maps-rangering er Bedriftsprofil-rangering. Hvis du vil komme inn i Local Pack, må Bedriftsprofilen være topp 3 for ditt fag i ditt område. Sjekk profilen din mot vår 10-punkts sjekkliste for Google Bedriftsprofil - hver mangel der senker Maps-rangeringen. Det er ingen separat \"Maps-strategi\" - alt går gjennom Bedriftsprofilen.",
+      },
+      {
+        heading: "Kan du betale for Maps-rangering?",
+        body:
+          "Det organiske Local Pack kan du IKKE betale for - alt er basert på Bedriftsprofil-kvalitet. Men Google har innført \"Local Services Ads\" i noen markeder (USA, Storbritannia, Tyskland) som er betalte Maps-treff på topp. I Norge er denne typen Local Services Ads ikke utbredt for håndverkere ennå (per 2026). Du kan kjøpe vanlige Google Ads som vises øverst og noen ganger ved siden av Maps - men selve Local Pack-rangeringen kan ikke kjøpes. Det er en av få seriøse SEO-områder hvor penger ikke direkte hjelper.",
+      },
+      {
+        heading: "Service-area businesses i Google Maps",
+        body:
+          "For mobile håndverkere uten fast kontor (\"service-area business\" i Maps-språk) gjelder spesielle regler. I stedet for en fast adresse vises et arbeidsområde - sirkel rundt din base-by eller spesifikke poststeder. Adressen din skjules for kunden. Konsekvens: du dukker opp i Maps-søk i hele arbeidsområdet, ikke kun nær én adresse. Service-area-bedrifter må være ekstra nøyaktige med arbeidsområdet - for stort (\"hele Norge\") gir dårlig rangering; for lite gir ikke nok synlighet. Sett arbeidsområdet til områder du faktisk dekker, ikke ønsketenkning.",
+      },
+      {
+        heading: "Slik kommer du i Local Pack for ditt fag",
+        body:
+          "Strategien er ikke hemmelig - alle topp-3-bedrifter har gjort det samme. 1) Sett opp komplett Google Bedriftsprofil med riktig primærkategori (Plumber, Electrician, etc), ikke generisk. 2) List opp alle tjenestene dine eksplisitt (20-40 stk for en typisk håndverker). 3) Bygg systematisk 80+ Google-anmeldelser med 4,7+ snitt via en anmeldelsesfunnel. 4) Last opp 30+ bilder over tid (jevnt, ikke alle på én gang). 5) Skriv ukentlige Google Posts for å holde profilen \"aktiv\". 6) Sørg for NAP-konsistens på tvers av kataloger. Gjør disse seks systematisk i 4-6 måneder og du er i Local Pack i de fleste byer.",
+      },
+      {
+        heading: "Hva som senker Maps-rangering",
+        body:
+          "Vanlige Maps-rangeringsfeil. 1) Feil eller for bred primærkategori (\"Building\" i stedet for \"Plumber\"). 2) Mangler tjenester-listen - bare 2-3 tjenester der konkurrenten har 30. 3) Få anmeldelser eller dårlig snitt (under 4,5 stjerner). 4) Stillestående profil - ingen nye bilder eller posts på 6+ måneder. 5) NAP-inkonsistens mot katalogene. 6) Suspendert profil pga vilkår-brudd. 7) Falske anmeldelser oppdaget. 8) Hyppige adresseendringer. Det er ikke nok å fikse én av disse - du må ha alle åtte på plass for å konkurrere i konkurransesterke områder.",
+      },
+      {
+        heading: "Google Maps-app vs Google-søk",
+        body:
+          "Folk bruker Google Maps på to måter: direkte fra Maps-appen, og via vanlige Google-søk som returnerer Local Pack. Begge typer søk henter fra samme database (Bedriftsprofilen din), men søkeren har litt forskjellig intensjon. Maps-app: typisk navigasjon eller \"finn ut hvor det er\". Vanlig søk: typisk \"finn beste alternativ\". For håndverkere er begge viktige - kunden googler først, men når de bestemt seg åpner de ofte Maps for veibeskrivelse eller ring-knapp. Begge gir leads til samme bedrift. Optimalisering for én optimaliserer for begge.",
+      },
+      {
+        heading: "Google Maps Insights - mål hva som virker",
+        body:
+          "I Google Bedriftsprofil → Performance ser du Maps-spesifikke tall: hvor mange visninger i Maps, hvor mange klikk-til-veibeskrivelse, hvor mange ringeklikk fra Maps. For håndverkere er ringeklikk det viktigste tallet - en direkte konvertering fra Maps til samtale. Mål månedlig. Trender å se etter: økning i Maps-visninger over tid (Bedriftsprofilen vokser i synlighet), forhold mellom visninger og ringeklikk (kvalitet av profilen), klikk-til-nettside vs ringeklikk (folk vil ringe på akutt-jobber, klikke for større prosjekter).",
+      },
+      {
+        heading: "Vanlige Google Maps-feil håndverkere gjør",
+        body:
+          "1) Tror Maps og Bedriftsprofil er to separate tjenester. 2) Lager flere Bedriftsprofiler (én per by) - Google avslører og suspenderer alle. 3) Bruker bedriftsadresse som er en virtuell mailbox-tjeneste - Google detekterer og fjerner. 4) Bruker keyword-stuffing i bedriftsnavnet (\"Hansen Rørlegger Oslo Akutt 24/7\") - får manuell suspensjon. 5) Ber alle ansatte gi 5-stjerners anmeldelse - filtreres bort. 6) Ignorerer dårlige anmeldelser - akkumulerer over tid. Disse er alle gratis å rette opp og kan løfte deg fra side 2 til Local Pack innen 3-6 måneder.",
+      },
     ],
-    relatedTerms: ["google-bedriftsprofil", "local-seo", "anmeldelser"],
+    relatedTerms: [
+      "google-bedriftsprofil",
+      "local-seo",
+      "anmeldelser",
+      "seo",
+      "nav-konsistens",
+      "anmeldelsesfunnel",
+      "schema-markup",
+    ],
     relatedLinks: [
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
       { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
