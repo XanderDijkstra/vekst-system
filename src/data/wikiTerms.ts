@@ -1905,17 +1905,84 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "a-b-test",
     term: "A/B-test",
-    shortDescription: "Å vise to versjoner av en side til halvparten av besøkende hver, og måle hvilken som konverterer best.",
+    shortDescription:
+      "En A/B-test (også kalt split-test eller A/B-testing) viser to versjoner av en nettside til halvparten av besøkende hver og måler hvilken konverterer best. For håndverkere er det forskjellen på å gjette og å vite hvilke endringer faktisk virker.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En A/B-test viser versjon A til halvparten av besøkende og versjon B til den andre halvparten, på samme tidspunkt. Etter nok data (oftest 500+ besøk per variant) kan du se hvilken versjon som ga flere konverteringer. Endringen kan være alt fra knappetekst til hel sidelayout." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Uten testing gjetter du. \"Jeg synes den nye knappen er finere\" er ikke data. Ved å A/B-teste kan du si sikkert at \"Be om tilbud\" gir 34 % flere klikk enn \"Kontakt oss\" - og bygge videre på det. Små forbedringer over tid gir store resultater." },
-      { heading: "Hvordan fungerer det?", body: "Bruk verktøy som Google Optimize (nedlagt, må bytte), Microsoft Clarity + annen løsning, eller VWO. Test én ting om gangen, aldri tre ting samtidig. For håndverker-sider med 500-2000 besøk i måneden tar en test typisk 2-4 uker før du har statistisk signifikans." },
+      {
+        heading: "Hva er en A/B-test?",
+        body:
+          "En A/B-test (også kalt split-test eller bucket-test) er en metode for å sammenligne to versjoner av en nettside, e-post eller annonse for å se hvilken som konverterer best. Halvparten av besøkende ser versjon A (kontroll), halvparten ser versjon B (variant). Etter nok data kan du si statistisk hvilken som virker bedre. Endringen kan være alt fra knappetekst (\"Be om tilbud\" vs \"Kontakt oss\") til hel sidelayout. A/B-testing er en av kjernepraksisene i moderne markedsføring - alle store selskaper bruker det systematisk.",
+      },
+      {
+        heading: "Hvorfor A/B-testing matters for håndverkere",
+        body:
+          "Uten testing er all optimalisering gjetning. \"Jeg synes den nye knappen er finere\" er ikke data. Med A/B-testing kan du si konkret: \"Knapp B med teksten 'Be om gratis befaring' fikk 47 % flere klikk enn knapp A med 'Kontakt oss', basert på 1 200 besøk over 4 uker.\" Det er data du kan bygge videre på. For håndverker-bedrifter som vil skalere fra 25 % til 50 % konverteringsrate gjennom optimalisering, er A/B-testing den eneste pålitelige veien. Magefølelse er ofte feil; data er pålitelig.",
+      },
+      {
+        heading: "Når du har nok trafikk for A/B-testing",
+        body:
+          "A/B-testing krever statistisk signifikant datamengde. Regel: minst 1 000 besøk per variant og 50-100 konverteringer per variant før resultatet er pålitelig. På en typisk håndverker-nettside med 500-2 000 månedlige besøk og 2-5 % konvertering er det 10-100 konverteringer per måned totalt - knapt nok for én test om gangen. Konklusjon: A/B-testing fungerer best for håndverkere med 1 500+ månedlige besøk. Under det, gjør \"sekvensiell testing\": endre, mål 30 dager før vs etter. Mindre vitenskapelig, men praktisk.",
+      },
+      {
+        heading: "Hva som er verdt å A/B-teste",
+        body:
+          "Prioritert liste etter potensiell effekt. 1) Hovedtittel/H1 på landingsside - kan gi 20-50 % konverteringsforskjell. 2) Primær CTA-tekst og farge - 15-40 % løft. 3) Skjemafelt-antall (3 vs 5 vs 7) - 30-60 % forskjell. 4) Plassering av social proof - 10-30 %. 5) Hero-bilde (stock vs ekte prosjekt) - 10-30 %. 6) Pris-display (vises eller skjules) - 10-25 %. 7) Sticky vs ikke-sticky CTA-bar - 10-20 %. Test stort til lite - start med høyimpact-elementer (overskrift, CTA), drop ikke ressursene på å teste tabarvariasjoner som gir 1-2 %.",
+      },
+      {
+        heading: "Slik setter du opp en A/B-test riktig",
+        body:
+          "Trinn 1: Definer hypotese - \"Hvis vi endrer CTA-teksten fra X til Y, vil konverteringen øke fordi Z.\" Trinn 2: Identifiser metric - hva måler du? (Tilbudsskjema-innsending er typisk hovedmetric for håndverker.) Trinn 3: Sett opp variantene - kun ÉN forskjell mellom A og B. Hvis du endrer 3 ting, vet du ikke hvilken som virket. Trinn 4: Kjør testen til du har statistisk signifikans (typisk 2-4 uker). Trinn 5: Erklær vinner med p-verdi under 0,05 (95 % konfidensnivå). Trinn 6: Implementer vinneren permanent. Trinn 7: Test neste hypotese.",
+      },
+      {
+        heading: "Verktøy for A/B-testing i 2026",
+        body:
+          "Google Optimize ble avviklet i 2023. Nåværende verktøy: VWO (Visual Website Optimizer) - profesjonelt, 1 500-5 000 kr/mnd. Optimizely - enterprise-pris, 5 000+ kr/mnd. Microsoft Clarity - gratis heatmaps og session recordings (ikke A/B-testing direkte, men kan kombineres med custom kode). Google Analytics 4 har ikke A/B-testing innebygd lenger. For håndverkere er VWO mest brukt. Alternativt: AB Tasty, Convert.com. For enkel testing kan du også implementere via JavaScript og dele kunder manuelt 50/50, men det er teknisk arbeid.",
+      },
+      {
+        heading: "Statistisk signifikans - hva tallene betyr",
+        body:
+          "Statistisk signifikans betyr at forskjellen du ser mellom A og B sannsynligvis ikke skyldes tilfeldighet. Standard markedsføringskrav: p-verdi under 0,05 (95 % konfidensnivå). I praksis: bruk A/B-test-verktøyets innebygde signifikans-måler. Vanlige feil: erklære vinner for tidlig basert på ufullstendige data (\"Versjon B fikk 8 vs 5 konverteringer etter 100 besøk!\"), eller stoppe testen så snart en variant viser bedre tall (peeking). Hold testen kjørende i hele den planlagte perioden uavhengig av tidlige resultater.",
+      },
+      {
+        heading: "Multivariat testing - lillebroren til A/B",
+        body:
+          "Multivariat testing (MVT) tester flere variabler samtidig - f.eks. både CTA-tekst OG hero-bilde i samme test. Krever betydelig mer trafikk (3-5x A/B-testing). For de fleste håndverkere med moderat trafikk er det for ressurskrevende - hold deg til klassisk A/B-testing av én variabel om gangen. MVT lønner seg først ved 10 000+ månedlige besøk og budsjett for spesialist-verktøy. For håndverkere med 500-2 000 besøk er fokuset på de største lekkasjene viktigere enn fancy testmetoder.",
+      },
+      {
+        heading: "Vanlige A/B-test-feil",
+        body:
+          "1) For lite data - stopper testen etter 50 besøk og deklarerer vinner. 2) Tester flere elementer samtidig uten MVT-oppsett - kan ikke isolere hva som virket. 3) Tester urealistiske forskjeller - varianter som er nesten identiske gir ingen signifikant forskjell uansett. 4) Glemmer å segmentere mobil vs desktop - resultat kan være motsatt. 5) Tester én gang og bygger ikke en lærings-bibliotek - hver test bør dokumenteres for fremtidig referanse. 6) Implementerer ikke vinneren - test gjennomført uten å handle på resultatet.",
+      },
+      {
+        heading: "Sekvensielle tester for små håndverker-nettsider",
+        body:
+          "Hvis du har under 1 500 månedlige besøk, er klassisk A/B-test upraktisk. Bruk i stedet sekvensiell testing. Steg 1: mål konverteringsrate i 30 dager med eksisterende setup (baseline). Steg 2: implementer endring. Steg 3: mål konverteringsrate i 30 dager med ny setup. Steg 4: sammenlign. Hvis forskjellen er over 30 %, sannsynligvis reell effekt. Hvis under 10 %, sannsynligvis tilfeldig variasjon. Mindre vitenskapelig enn A/B-test, men praktisk for små nettsider. Eksternalitet-risiko: sesong, markedsendringer, andre faktorer kan påvirke - kontroller for det.",
+      },
+      {
+        heading: "Iterer over tid - test-program",
+        body:
+          "Ett A/B-test gir ikke dramatisk endring. Programmatisk testing over tid gjør det. Plan: én test i måneden, dokumenter hypoteser og resultater, bygg lærings-bibliotek. Etter 12 måneder har du 12 vinnende endringer som hver gir 10-30 % forbedring. Stables, gir 50-200 % konverteringsforbedring over et år. Det er sånn bedrifter som Booking.com, Amazon og Airbnb skalerer - hundrevis av små A/B-tester månedlig, akkumulert over år. Håndverker-bedrifter med dedikert testing kan oppnå samme - bare i mindre skala. Konsistens slår engangs-innsats.",
+      },
+      {
+        heading: "Når A/B-testing IKKE er løsningen",
+        body:
+          "A/B-testing løser ikke alt. Hvis nettsiden er fundamentalt brutt (tar 8 sekunder å laste, ikke mobilvennlig, mangler tydelig CTA), fiks det fundamentalt FØRST. A/B-test å justere en knappetekst på en treig nettside er som å pusse messingbeslagene på et synkende skip. Andre situasjoner hvor A/B-test er upraktisk: for lite trafikk, for kort tidsfrist for resultat, og når valget mellom A og B er åpenbart (du trenger ikke A/B-teste om telefonnummer skal være synlig). Bruk A/B-test for å finne optimaliseringer der intuisjon ikke gir klart svar.",
+      },
     ],
-    relatedTerms: ["konverteringsrate", "cta", "click-through-rate", "google-analytics"],
+    relatedTerms: [
+      "konverteringsrate",
+      "cta",
+      "click-through-rate",
+      "google-analytics",
+      "landingsside",
+      "konvertering",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
