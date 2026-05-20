@@ -2637,17 +2637,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "automatisering",
     term: "Automatisering",
-    shortDescription: "Å la et system gjøre repetitive oppgaver for deg - sende SMS, registrere leads, oppdatere kalenderen.",
+    shortDescription:
+      "Automatisering betyr at et system gjør repetitive oppgaver for deg - sender SMS, registrerer leads, ber om anmeldelser, oppdaterer kalenderen. For håndverkere er god automatisering ofte forskjellen på å jobbe 60 timer og 40 timer i uka.",
     category: "Automatisering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Automatisering i markedsføringssammenheng betyr at oppgaver som ellers krever manuell innsats, skjer automatisk basert på regler. Eksempler for håndverkere: når et skjema fylles ut → SMS sendes til deg, når en faktura er betalt → anmeldelsesforespørsel sendes automatisk, når du misset et anrop → kunden får en SMS med \"ring deg tilbake straks\"." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Tid er den knappeste ressursen i en håndverkerbedrift. Hver gang du manuelt må åpne innboksen, kopiere en kundes detaljer, sende en oppfølgingsmelding eller registrere et lead, stjeles tid fra arbeidet eller familien. God automatisering frigjør 5-10 timer i uken - ofte uten at kunden merker forskjell." },
-      { heading: "Hvordan fungerer det?", body: "Start smått: ett område om gangen. Første automatisering er gjerne \"tapt anrop → SMS\", neste \"forespørsel → takk-for-henvendelsen-e-post\", så \"fullført jobb → anmeldelsesforespørsel\". Verktøy som Zapier, Make og dedikerte CRM-systemer gjør det teknisk enkelt - det vanskelige er å bestemme hva som skal automatiseres først." },
+      {
+        heading: "Hva er automatisering?",
+        body:
+          "Automatisering (engelsk: automation) i markedsføring og drift betyr at oppgaver som ellers krever manuell innsats utføres automatisk av et system basert på regler eller utløsere. Eksempler for håndverkere: når et skjema fylles ut på nettsiden → SMS sendes til deg innen sekunder. Når et anrop ikke besvares → kunden får automatisk SMS. Når en faktura er betalt → anmeldelsesforespørsel sendes til kunden 24 timer senere. Når en lead ikke har svart på 7 dager → automatisk oppfølgings-e-post sendes. Hver av disse var tidligere manuelle oppgaver; automatisering gjør dem usynlige.",
+      },
+      {
+        heading: "Hvorfor automatisering matters for håndverkere",
+        body:
+          "Tid er den knappeste ressursen i en håndverkerbedrift. Hver gang du manuelt åpner innboksen, kopierer kundedetaljer, sender en oppfølging eller registrerer et lead, stjeles tid fra det som faktisk genererer omsetning - tiden på byggeplassen, samtaler med kunder, eller familien. God automatisering frigjør 5-10 timer i uka per ansatt. For en bedrift med 3 ansatte er det 15-30 timer - hvilket tilsvarer en halv full ansatt-tid uten lønnsutgift. Det er en av de mest verdifulle investeringer en håndverkerbedrift kan gjøre.",
+      },
+      {
+        heading: "De 5 mest verdifulle automatiseringene for håndverkere",
+        body:
+          "Rangering etter ROI. 1) Tapt anrop → SMS - fanger 70-80 % av tapte anrop som ellers er borte. 2) Skjema-innsending → automatisk SMS-bekreftelse innen 5 sekunder - holder leads engasjert mens du er på jobb. 3) Anmeldelsesfunnel - automatisk SMS dag 1, 7 og 21 etter fullført jobb. 4) Faktura-påminnelse - automatisk når faktura er forfalt. 5) Sesongbasert markedsføring - automatisk e-postkampanje til tidligere kunder før hver sesong (vår-vask, vinterisolasjon, etc). Disse fem alene kan dobble antall vunne jobber uten ekstra markedsføring.",
+      },
+      {
+        heading: "Slik kommer du i gang med automatisering",
+        body:
+          "Start smått - ett område om gangen. Første: implementer tapt anrop → SMS (lavest hengende frukt, største effekt). Andre: skjema-innsending → automatisk SMS-bekreftelse. Tredje: anmeldelsesfunnel. Fjerde: lead-oppfølgings-sekvenser. Hver av disse tar 1-2 timer å sette opp, og påvirker leads umiddelbart. Hopp aldri rett til komplekse automatiseringer (markedsføringsautomatisering med 30 steg) - bygg fra grunnlaget. Velg verktøy som lar deg starte enkelt og skalere senere.",
+      },
+      {
+        heading: "Verktøy for håndverker-automatisering",
+        body:
+          "To kategorier. 1) Generelle automatiseringsverktøy: Zapier (8 000+ integrasjoner, 0-2 000 kr/mnd avhengig av volum), Make (tidligere Integromat, mer fleksibelt, 0-1 500 kr/mnd), n8n (åpen kildekode, kan selvhostes). Krever teknisk oppsett. 2) Dedikerte plattformer for håndverkere: Vekst Systemet (komplett pakke - tapt anrop → SMS, anmeldelsesfunnel, lead-oppfølging, CRM, ferdig satt opp). GoHighLevel (internasjonalt, kraftig men komplekst). For en typisk norsk håndverker som ikke er teknisk er en dedikert plattform raskere; for teknisk-tilpassede er Zapier/Make mer fleksibel.",
+      },
+      {
+        heading: "Automatisering vs personlig service - balansen",
+        body:
+          "En vanlig bekymring: \"Hvis alt er automatisert, mister jeg den personlige forbindelsen til kunden.\" Riktig svar: automatisering handler ikke om å erstatte mennesker, men om å fjerne repetitive ikke-personlige oppgaver. Kunden vil ikke ha personlig SMS-svar fra deg klokken 02:00 om at de har sendt et skjema - de vil ha bekreftelse innen sekunder uansett tid. Du svarer personlig dagen etter på de faktiske spørsmålene. Automatisering håndterer det repetitive (bekreftelser, påminnelser, statusoppdateringer); du håndterer det relasjonelle (faktiske samtaler, tilbud, problemer).",
+      },
+      {
+        heading: "Markedsføringsautomatisering - egen kategori",
+        body:
+          "Markedsføringsautomatisering (marketing automation) er en spesifikk underkategori. Inkluderer: e-postsekvenser til lead-pleie (nurturing), retargeting-kampanjer som tilpasser annonse-budskap basert på hva brukeren har sett, automatisk segmentering av kunder basert på atferd, og lifecycle-marketing (velkomst-serie for nye kunder, gjenaktivering for sovende kunder). For håndverkere som driver kompleks markedsføring kan dette være kraftig - men det er overdose for en typisk bedrift. Start med driftsautomatisering (tapt anrop, oppfølging, anmeldelser) før du legger til markedsføring.",
+      },
+      {
+        heading: "Vanlige automatiseringsfeil",
+        body:
+          "1) Bygger for komplekse sekvenser fra start - 15-steg-automatisering med betingede stier som ingen forstår. Start enkelt. 2) Automatiserer dårlige prosesser - dårlig prosess automatisert er bare rask dårlig. Fiks prosessen først. 3) Glemmer å teste - en automatisering som ikke virker er verre enn ingen (kunder venter på SMS som aldri kommer). 4) Setter opp og glemmer - automatiseringer trenger månedlig sjekk at de fortsatt virker. 5) For mye personalisering uten data - sender automatiserte meldinger med tomme placeholders som \"Hei [Navn]\". Sjekk alltid med testdata først.",
+      },
+      {
+        heading: "Hvor mye automatisering er verdt i kroner",
+        body:
+          "Konkret beregning for en typisk norsk håndverker (3 ansatte). Tidsbruk: 1 time per ansatt per dag på repetitive oppgaver = 15 timer/uke = 60 timer/mnd. Lønnskostnad: 60 timer × 500 kr/time = 30 000 kr/mnd i bortkastet tid. Automatisering eliminerer 60-80 % av dette = 18 000-24 000 kr/mnd spart. Pluss økt konvertering fra varme leads (5-15 % flere oppdrag) = 30 000-100 000 kr ekstra omsetning/mnd. Total verdi: 50 000-125 000 kr/mnd. Kostnad: 500-2 000 kr/mnd for verktøy. ROI: 25x-60x. Dette er hvorfor automatisering er en av de letteste investeringene en håndverker kan gjøre.",
+      },
+      {
+        heading: "Når automatisering går galt",
+        body:
+          "Bra automatisering er usynlig for kunden. Dårlig automatisering er synlig og pinlig. Typiske eksempler. \"Hei [Navn], takk for [Produkt]\" - placeholder-feil. Tre automatiserte SMS samme dag - oversending pga overlappende regler. Anmeldelsesforespørsel sendt til kunden som hadde dårlig opplevelse - ingen filtrering. Automatisk fakturapåminnelse sendt til kunde som allerede har betalt - ikke koblet til status. Disse er katastrofale for kundeforholdet. Sjekk hver automatisering månedlig, ha unntakshåndtering for kjente edge cases, og test grundig før implementering.",
+      },
+      {
+        heading: "Automatisering + menneskelig touch = ideal",
+        body:
+          "Den ideelle modellen: automatisering fanger inn alle leads, kvalifiserer dem grovt, og sender deg de varme. Du som menneske gjør det relasjonelle - kvalifiseringssamtale, tilbud, befaring. Automatisering tar over igjen for oppfølgings-touchpoints (tilbudspåminnelse, anmeldelsesforespørsel etter jobb). Kunden får raske respons og menneskelig kontakt der det betyr noe. Du frigjør tid fra repetitive oppgaver. Resultatet er bedre kundeopplevelse OG mer effektiv drift - ikke kompromiss. Det er grunntanken bak Vekst Systemet: automatiser det repetitive, frigjør deg til det viktige.",
+      },
+      {
+        heading: "Slik måler du automatiseringseffekten",
+        body:
+          "Etter implementering, mål tre tall månedlig. 1) Antall touchpoints håndtert av automatisering vs manuelt (\"hvor mange SMS sendte systemet vs jeg?\"). 2) Tid spart per uke (sjekk timeregistrering før vs etter). 3) Konverteringsrate på leads (bør gå opp med raskere respons). Hvis automatisering ikke gir målbar tidsbesparelse eller bedre konvertering etter 30 dager, er noe galt - enten dårlig oppsett, feil prioritering, eller verktøy som ikke passer. Iterer. God automatisering gir typisk merkbar effekt innen 14 dager, dramatisk effekt innen 90 dager.",
+      },
     ],
-    relatedTerms: ["automatisk-oppfolging", "crm", "tapt-anrop-sms", "anmeldelsesfunnel"],
+    relatedTerms: [
+      "automatisk-oppfolging",
+      "crm",
+      "tapt-anrop-sms",
+      "anmeldelsesfunnel",
+      "lead-oppfolging",
+      "lead",
+      "konverteringsrate",
+    ],
     relatedLinks: [
-      { label: "Alle tjenester", href: "/tjenester" },
+      { label: "Automatisering for håndverkere", href: "/tjenester/automatisering" },
+      { label: "Tapt anrop SMS for håndverkere", href: "/kunnskapsbank/tapt-anrop-sms-handverker" },
+      { label: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks" },
+      { label: "Markedsføringsautomatisering", href: "/tjenester/markedsforingsautomatisering" },
     ],
   },
   {
