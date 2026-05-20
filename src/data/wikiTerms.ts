@@ -2176,6 +2176,92 @@ export const wikiTerms: WikiTerm[] = [
     ],
   },
   {
+    slug: "varme-leads",
+    term: "Varme leads",
+    shortDescription:
+      "Varme leads er potensielle kunder som er nær kjøpsbeslutning - de har konkret behov, kvalifisert budsjett, og forventer respons snart. For håndverkere er evnen til å gjenkjenne og prioritere varme leads forskjellen på 25 % og 50 % konvertering.",
+    category: "Leads",
+    date: "2026-04-25",
+    sections: [
+      {
+        heading: "Hva er varme leads?",
+        body:
+          "I markedsføring deles leads i tre temperatur-kategorier basert på kjøpsklarhet. Varme leads (engelsk: hot leads) er kunder med konkret behov og nær kjøpsbeslutning - de har spurt om pris, bedt om befaring eller har tydelig timeline. Lunkne leads (warm leads) har vist interesse men ikke akutt - kanskje planlegger om noen måneder. Kalde leads (cold leads) er bredere markedsføringskontakter uten konkret interesse - meldt seg på nyhetsbrev, lastet ned en sjekkliste. For håndverkere er varme leads de som ringer eller fyller ut tilbudsskjema med konkrete spørsmål om jobb.",
+      },
+      {
+        heading: "Hvorfor varme leads er hele forretningen",
+        body:
+          "Varme leads konverterer typisk på 30-50 %. Lunkne på 5-15 %. Kalde på 0,5-3 %. Forskjellen er enorm. En håndverkerbedrift som får 20 varme leads i måneden vinner 6-10 oppdrag. Samme antall lunkne gir 1-3 oppdrag. Forstå dette: 90 % av forretningsverdien ligger i varme leads. Resten er nyttig markedsføring og kanskje fremtidige oppdrag, men ikke det som betaler regningene denne måneden. Strategien bør være: prioriter varme leads ALT først, kvalifiser raskt, og responder innen minutter - ikke timer eller dager.",
+      },
+      {
+        heading: "Slik kjenner du igjen en varm lead",
+        body:
+          "Konkrete signaler på varme leads. 1) Bruker spesifikk språk - \"vi trenger\", \"vi vil ha\", \"vi planlegger å starte\" - i stedet for \"vi lurer på\". 2) Spør om priser eller estimater - de har budsjett-fokus. 3) Spør om tilgjengelighet eller timing - de har konkret prosjekt-vindu. 4) Beskriver detaljer om jobben uoppfordret. 5) Stiller konkrete tekniske spørsmål om utførelse. 6) Nevner andre håndverkere de har vurdert - tydelig kjøpsfase. Tre eller flere av disse signaler = varm lead. Prioriter respons og oppfølging deretter.",
+      },
+      {
+        heading: "5-minutter regelen - kritisk for varme leads",
+        body:
+          "Studier viser konsekvent: varme leads konverterer 4 ganger oftere når responstid er under 5 minutter sammenlignet med 1 time, og 21 ganger oftere enn etter 24 timer. Forklaring: når en kunde har konkret behov og kontakter deg, kontakter de typisk 3-4 firmaer parallelt. Den første som responderer fanger oppmerksomheten. Etter 30 minutter har kunden allerede valgt en annen, eller mistet entusiasmen. For håndverkere som er ute på jobb hele dagen er den eneste skalerbare måten å håndtere dette: automatisk lead-oppfølging - SMS innen sekunder etter skjema-innsending, automatisk SMS ved tapt anrop.",
+      },
+      {
+        heading: "Lead-kvalifisering - skill varme fra lunkne",
+        body:
+          "I første samtale, still 3-4 spørsmål for å kvalifisere. 1) \"Hvor ligger jobben?\" - kvalifiserer geografi. 2) \"Når trenger du det utført?\" - kvalifiserer timeline. 3) \"Har du tenkt på budsjett?\" - kvalifiserer økonomisk evne. 4) \"Har du fått andre tilbud?\" - oppdaterer konkurransebilde. 5 minutter på kvalifisering filtrerer ut 20-30 % av leads som ikke er rette og lar deg fokusere på de varme. Husk: en lead som svarer presist på alle fire spørsmål er meget varm; en som svarer vagt er lunken.",
+      },
+      {
+        heading: "Lead-scoring - prioritering etter temperatur",
+        body:
+          "Lead-scoring er prosessen å rangere leads etter sannsynlighet for å konvertere. Enkel håndverker-versjon: gi poeng for hvert varmt signal. 5 poeng = klart varm. 3-4 poeng = lunken-men-lovende. 0-2 = kald. Poenger: bedt om tilbud (5), spurt om timing (4), nevnt konkurrent (3), bestilt befaring (5), fylte ut komplett skjema (3), oppgav budsjett (4), beskrev jobb detaljert (3). Lead med 15+ poeng = drop alt og responder umiddelbart. 8-14 = innen 2 timer. Under 8 = innen 24 timer. Slik organisering sikrer at varmeste leads får raskest respons.",
+      },
+      {
+        heading: "Konvertering av varme leads - oppfølgings-strategi",
+        body:
+          "Varme leads konverterer på prosess, ikke salgsteknikk. Etter første kvalifiserings-samtale: 1) Send tilbud innen 24 timer (gjerne samme dag for de varmeste). 2) Følg opp med SMS dag 2: \"Mottok du tilbudet?\" 3) Telefonsamtale dag 4-5: \"Har du spørsmål?\" 4) Siste touchpoint dag 7-10 hvis ikke svart: \"Skal jeg holde tilbudet aktivt?\" Strukturert oppfølging av varme leads konverterer 50-70 %. Manglende oppfølging (sender tilbud, venter på svar) konverterer 25-30 %. Forskjellen er bare flere touchpoints i kritiske første uke.",
+      },
+      {
+        heading: "Forskjell mellom B2C og B2B varme leads",
+        body:
+          "Håndverkere har to typer varme leads. B2C (privatkunder) - kortere beslutningssyklus, høyere emosjon, ofte ett kontaktpunkt før beslutning. B2B (sameier, kommuner, bedrifter) - lengre syklus (4-12 uker), flere beslutningstagere, mer formell anbudsprosess. Begge kan være \"varme\" men oppfølgingen er forskjellig. B2C-varme leads krever rask respons og personlig tone. B2B-varme leads krever mer dokumentasjon, referanser, og formelle tilbud. Mange håndverkere behandler begge likt - og taper begge typene.",
+      },
+      {
+        heading: "Hvor varme leads kommer fra",
+        body:
+          "Rangering etter varmhet. 1) Henvisning fra fornøyd kunde - 80 % varme (typisk allerede pre-solgt). 2) Direkte søk etter ditt firmanavn - 60-70 % varme (har allerede valgt deg). 3) Lokale Google-søk med høy intent (\"akutt rørlegger Oslo\") - 50-60 % varme. 4) Egen nettside fra organisk SEO - 40-50 % varme. 5) Mittanbud-leads - 10-30 % varme (priskonkurranse, ofte sammenligner mange). 6) Facebook Ads - 5-15 % varme (avbrudd-markedsføring). Strategien er åpenbar: investere i kanaler som genererer høyere prosent varme leads, selv om volumet er lavere.",
+      },
+      {
+        heading: "Slik genererer du mer varme leads",
+        body:
+          "Tre strategier som virker. 1) Egen nettside optimalisert for lokal SEO - kunder som søker \"akutt rørlegger Oslo\" og lander hos deg er allerede høyt kvalifiserte. 2) Anmeldelsesfunnel som bygger 80-150 Google-anmeldelser - skaper tillit som forhåndsvarmer leads før de tar kontakt. 3) Anbefalings-system - varmeste kilden som finnes. 4) Innholdsmarkedsføring (kunnskapsbank-artikler) som tiltrekker folk i undersøkelsesfasen, deretter konverterer dem til varme leads via god retargeting. Disse fire kanalene har høyest forhold av varme leads. Mittanbud og kalde Facebook Ads gir mest volum men lavest varmhet.",
+      },
+      {
+        heading: "Vanlige feil med varme leads",
+        body:
+          "1) Behandler alle leads likt - varme får ikke prioritet, taper de viktigste. 2) Glemmer å følge opp etter første samtale - 60 % av tap er pga manglende oppfølging. 3) Sender tilbud uten konteksten fra kvalifiserings-samtalen - generisk tilbud konverterer dårlig. 4) Responstid over 1 time - varme leads avkjøles raskt. 5) Ikke spør om konkurrent-situasjon - kommer overrasket når kunden bytter. 6) Ikke registrerer leads i CRM - mister oversikt og glemmer påminnelser. Fiks alle seks systematisk og varme-lead-konvertering kan dobles innen 90 dager.",
+      },
+      {
+        heading: "Bygg systemet for varme leads",
+        body:
+          "Den enkleste varm-lead-håndteringen krever: 1) Automatisk SMS-respons innen sekunder på alle nye leads (tapt anrop → SMS, skjema → SMS). 2) Kvalifiserings-mal med 3-4 spørsmål til første samtale. 3) Tilbudsmal som inkluderer fagspesifikt innhold og garantier. 4) Oppfølgings-sekvens i CRM med automatiske påminnelser dag 2, 5, 10. 5) Lead-score-system som flagger varmeste leads visuelt. Disse fem komponentene gjør forskjellen på 25 % og 50 % konvertering. Vekst Systemet leverer alt ferdig satt opp - tapt anrop → SMS, automatisk lead-oppfølging, CRM-integrasjon, alt-i-én-innboks - så håndverkeren ikke må bygge fra null.",
+      },
+    ],
+    relatedTerms: [
+      "lead",
+      "lead-oppfolging",
+      "automatisk-oppfolging",
+      "konverteringsrate",
+      "crm",
+      "tapt-anrop-sms",
+      "konvertering",
+      "funnel",
+    ],
+    relatedLinks: [
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Tapt anrop SMS for håndverkere", href: "/kunnskapsbank/tapt-anrop-sms-handverker" },
+      { label: "Lead-oppfølgingssystem", href: "/tjenester/lead-oppfolging" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
+  {
     slug: "funnel",
     term: "Funnel",
     shortDescription: "Reisen en kunde tar fra første besøk til betalt jobb, sett som en trakt der flere drar seg ut i hvert steg.",
