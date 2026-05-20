@@ -2264,17 +2264,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "funnel",
     term: "Funnel",
-    shortDescription: "Reisen en kunde tar fra første besøk til betalt jobb, sett som en trakt der flere drar seg ut i hvert steg.",
+    shortDescription:
+      "En funnel (\"trakt\") er kundereisen fra første kjennskap til betalt jobb, sett som en serie steg der noen faller fra på hvert nivå. For håndverkere er funnel-tankegangen forskjellen på å gjette og å vite hvor leads forsvinner.",
     category: "Leads",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En funnel (\"trakt\") beskriver kundereisen i trinn: besøker nettsiden → leser om tjenesten → fyller ut skjemaet → får tilbud → aksepterer. På hvert steg faller noen fra. Ved å måle hvor stort frafall du har i hvert ledd, ser du hvor problemene er." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Uten å tenke i funnel-termer blir optimalisering famling i mørket. Ser du at 1 000 kommer til nettsiden, 50 åpner kontaktsiden, men bare 5 fyller ut skjemaet - da er problemet skjemaet, ikke trafikken. Tenker du funnel, fokuserer du på det største frafallet først." },
-      { heading: "Hvordan fungerer det?", body: "Mål hvert steg: besøk (Google Analytics), visninger av kontaktside, antall skjemaer, antall tilbud sendt, antall vunnet. Se konverteringsraten mellom hvert steg. En typisk håndverker-funnel: 100 besøk → 10 skjemaer (10 %) → 8 tilbud (80 %) → 3 vunne (38 %). Svake ledd viser seg raskt." },
+      {
+        heading: "Hva er en funnel?",
+        body:
+          "En funnel (engelsk for \"trakt\", på norsk også kalt salgstrakt eller konverteringstrakt) er en modell som beskriver kundereisen fra første kontakt til betalt jobb. Visualisert som en trakt fordi flere er på toppen (mange besøker nettsiden) og færre er nederst (få blir betalende kunder). For en håndverker er en typisk funnel: besøk nettside → ser tjenesteside → leser anmeldelser → fyller ut tilbudsskjema → snakker med deg → får tilbud → signerer kontrakt → utfører jobb → betaler. Hvert steg har et frafall.",
+      },
+      {
+        heading: "AIDA-modellen og moderne funnel-tankegang",
+        body:
+          "Klassisk markedsføring bruker AIDA: Attention (oppmerksomhet) → Interest (interesse) → Desire (ønske) → Action (handling). Moderne versjon for håndverkere: Awareness (kjenner til deg) → Consideration (vurderer) → Conversion (kontakter) → Retention (gjenkjøp og henvisning). Tankegangen er den samme: kunden går gjennom faser, og forskjellig markedsføring fungerer i hver fase. Reklame som passer i awareness-fasen virker dårlig i conversion-fasen og omvendt. Forstå hvor kunden er i funnelen før du bestemmer hvilket budskap som skal sendes.",
+      },
+      {
+        heading: "Topp, midt og bunn av funnelen - TOFU MOFU BOFU",
+        body:
+          "Markedsføringsterminer du vil se. TOFU (Top Of Funnel) - folk som ikke kjenner deg ennå. Innhold: kunnskapsbank-artikler, generelle SEO-sider, sosiale medier. MOFU (Middle Of Funnel) - vurderer alternativer. Innhold: sammenligningssider, case studies, FAQ. BOFU (Bottom Of Funnel) - klar til å kjøpe. Innhold: tilbudsskjemaer, priseksempler, tilgjengelighet, telefonklick-CTA. Hver fase krever forskjellig innholdsstrategi. Håndverker-bedrifter som har innhold for alle tre fasene henter inn flere leads enn bedrifter som kun fokuserer på BOFU.",
+      },
+      {
+        heading: "Slik måler du funnel-frafall",
+        body:
+          "Sett opp måling for hvert steg. Eksempel: 1) Nettside-besøk (Google Analytics). 2) Tjenesteside-visninger. 3) Tilbudsskjema startet. 4) Tilbudsskjema fullført. 5) Telefonsamtale gjennomført. 6) Tilbud sendt. 7) Tilbud signert. 8) Faktura betalt. Mål frafallet mellom hvert steg. Typisk håndverker-funnel: 1 000 besøk → 100 tjenesteside (10 %) → 30 skjemaer startet (30 %) → 18 fullført (60 %) → 12 samtaler (67 %) → 10 tilbud (83 %) → 3 signert (30 %). De største lekkasjene avslører hvor du bør fokusere optimalisering.",
+      },
+      {
+        heading: "Optimaliser den svakeste delen først",
+        body:
+          "Funnel-optimalisering er ikke uniform - du fikser de største lekkasjene først. Hvis du har 60 % frafall mellom skjema startet og fullført, fiks skjemaet (færre felt, klarere knapp) - det er der maksimal gevinst ligger. Det nytter ikke å fokusere på 30 → 18 (60 %) lekkasje hvis du ikke har fikset 1 000 → 100 (10 %) først - større tall i nedre del overgår små % forbedringer øvre del. Etter hvert som du fikser, måler du om numer ble bedre, så går videre til neste lekkasje.",
+      },
+      {
+        heading: "Funnel for forskjellige håndverker-tjenester",
+        body:
+          "Funnelens form varierer etter tjenestetype. Akutt-jobber (vannlekkasje, strømbrudd) har kort funnel: besøk → ring umiddelbart. Få touchpoints, høyt konverteringstall (40-60 %). Store prosjekter (baderom, totaloppussing) har lang funnel: besøk → undersøkelse over uker → sammenligning av 3-4 firmaer → 2-3 befaringer → bestemmelse. Mange touchpoints, lavt konverteringstall (10-25 %). Begge er normale. Tilpass strategien: for akutt - fokuser på lokal SEO og Google Bedriftsprofil. For store prosjekter - fokuser på innhold, anmeldelser, og oppfølging.",
+      },
+      {
+        heading: "Lead-nurturing - holde lunkne i funnelen",
+        body:
+          "Mange håndverkere mister leads i midt-funnel-fasen (MOFU). Kunden vurderte, dro for å sammenligne, og glemte bort deg. Lead-nurturing (oppvarming) holder dem i funnelen via touchpoints over tid. Eksempel for et lunken baderoms-lead: dag 7 e-post med kundecase, dag 14 e-post med priseksempler, dag 21 personlig SMS \"Skal jeg holde tilbudet ditt aktivt?\". Bedrifter med strukturert nurturing konverterer 30-50 % flere MOFU-leads enn bedrifter uten. Vekst Systemet leverer automatisk lead-oppfølging som dekker dette.",
+      },
+      {
+        heading: "Funnel-leakage - skjulte lekkasjer å fange",
+        body:
+          "Funnel-frafall skjer ofte på uventede steder. Sjekk disse. 1) Tilbudsskjema som virker på desktop men brutt på mobil - taper 60 % av mobile leads usynlig. 2) Telefonnummer som ikke er klikkbart på mobil - taper 30-50 % av telefonklick-konverteringer. 3) Tilbud sendt på e-post som havner i spam - kunden mottar aldri tilbudet. 4) Tilbud uten oppfølging - 60 % av tap er manglende second touchpoint. 5) Faktura forsinket - tap av betalingsdato. Skjulte lekkasjer er ofte 30-50 % av totalt funnel-tap. Inspiser hvert steg med ekte test.",
+      },
+      {
+        heading: "Anmeldelsesfunnel - en spesiell underkategori",
+        body:
+          "Anmeldelsesfunnel (review funnel) er en annen type funnel: ikke for lead-konvertering, men for anmeldelses-innsamling etter fullført jobb. Reisen: kunde fornøyd → spørres om opplevelse → fornøyde leds til Google → misfornøyde filtreres til internt skjema. Mens lead-funnel handler om å vinne nye kunder, handler anmeldelses-funnel om å bygge social proof for å vinne fremtidige kunder. Begge er kritiske for håndverkere - vår anmeldelsesfunnel-side går i detalj.",
+      },
+      {
+        heading: "Funnel-analyse - praktiske verktøy",
+        body:
+          "Verktøy for å analysere funnel-data. 1) Google Analytics 4 → Reports → Engagement → Conversions → Funnel exploration. Lar deg bygge custom funneler med inntil 10 steg. 2) Microsoft Clarity → Session recordings - se faktisk brukeratferd. 3) Heatmap-verktøy som Hotjar - se hvor folk klikker og scroller. 4) Form analytics (FormKeep, Hotjar) - se hvor i skjemaet folk forlater. Disse verktøyene avslører funnel-svakheter konkret, ikke spekulativt. 2-3 timer studering gir typisk 5-8 forbedringspunkter.",
+      },
+      {
+        heading: "Sunne funnel-tall for norske håndverkere",
+        body:
+          "Benchmarks for typiske norske håndverker-funneler. Nettside besøk → tjenesteside-visning: 15-30 %. Tjenesteside → skjema startet: 20-40 %. Skjema startet → fullført: 50-70 %. Skjema → telefonsamtale: 70-90 %. Samtale → tilbud sendt: 70-90 %. Tilbud → signert: 25-45 %. Signert → utført og betalt: 95 %+. Hvis dine tall ligger under disse benchmarkene, har du forbedringsrom. Hvis over, bygger du bedre prosesser enn snittet - skaler det. Hver 5 % forbedring i hvert ledd akkumulerer dramatisk over hele funnelen.",
+      },
+      {
+        heading: "Hvorfor funnel-tankegang er det viktigste strategiske verktøyet",
+        body:
+          "Uten funnel-modell er markedsføring intuitiv og umålbar. Med funnel-modell er det datadrevet og forbedrbar. For en håndverker som vil skalere fra 1 mill til 5 mill omsetning, er funnel-tankegang den eneste måten å holde oversikten. Du kan ikke fikse det du ikke måler. Du kan ikke skalere det du ikke forstår. Bygg din egen funnel-modell med faktiske tall fra Google Analytics og CRM-et ditt, mål månedlig, optimaliser den svakeste delen, gjenta. Det er metoden alle store håndverkerbedrifter bruker - åpent eller skjult.",
+      },
     ],
-    relatedTerms: ["lead", "konvertering", "konverteringsrate", "anmeldelsesfunnel"],
+    relatedTerms: [
+      "lead",
+      "konvertering",
+      "konverteringsrate",
+      "anmeldelsesfunnel",
+      "lead-oppfolging",
+      "automatisk-oppfolging",
+      "varme-leads",
+      "google-analytics",
+    ],
     relatedLinks: [
       { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
