@@ -1059,17 +1059,83 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "ssl-sertifikat",
     term: "SSL-sertifikat",
-    shortDescription: "Sikkerhetslaget som gjør at nettsiden din kjører på https:// i stedet for http://. Obligatorisk i dag.",
+    shortDescription:
+      "SSL-sertifikat (også skrevet SSL sertifikat) gir nettsiden HTTPS-kryptering - hengelåsen i nettleseren. Obligatorisk i 2026: uten det ranker du dårligere og kunder ser \"Ikke sikker\"-advarsel.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Et SSL-sertifikat (Secure Sockets Layer) krypterer data som sendes mellom nettsiden og brukeren. Uten det sendes alt - inkludert skjemaer med navn og e-post - i klartekst. Med det vises hengelåsen i nettleseren og URL-en starter med https:// i stedet for http://." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Uten SSL viser nettleseren en stor advarsel - \"Ikke sikker\" - når noen prøver å besøke siden. 90 % av besøkende forsvinner umiddelbart. Google rangerer dessuten ned usikre sider. Det er ingen grunn til å ikke ha SSL; det er gratis." },
-      { heading: "Hvordan fungerer det?", body: "De fleste moderne webhoteller (Vercel, Netlify, one.com, osv.) installerer SSL-sertifikat automatisk, oftest fra Let's Encrypt - gratis og fornyes automatisk. Har du en eldre nettside uten SSL, ta kontakt med webhotellet ditt. Det tar vanligvis 15 minutter å få på plass." },
+      {
+        heading: "Hva er et SSL-sertifikat?",
+        body:
+          "SSL står for Secure Sockets Layer - en kryptografisk teknikk som beskytter dataoverføring mellom nettsiden og brukeren. Teknisk har SSL blitt erstattet av TLS (Transport Layer Security) for år siden, men begrepet \"SSL-sertifikat\" brukes fortsatt. Når en nettside har et gyldig SSL-sertifikat, kjører den på HTTPS i stedet for HTTP, og du ser hengelåsen i nettleserens adresselinje. Uten SSL sendes all data - inkludert kontaktskjemaer med navn, telefon og e-post - i klartekst som kan avlyttes av hvem som helst på samme nettverk.",
+      },
+      {
+        heading: "Hvorfor SSL er obligatorisk i 2026",
+        body:
+          "Tre grunner gjør SSL ikke-valgfritt. 1) Google straffer nettsider uten SSL i rangering siden 2014, og effekten har blitt sterkere over tid. En HTTP-nettside i 2026 rangerer praktisk talt ikke. 2) Moderne nettlesere (Chrome, Safari, Firefox, Edge) viser stor \"Ikke sikker\"-advarsel når brukeren besøker HTTP-sider - 90 % forlater umiddelbart. 3) Norske personvern-regler og GDPR krever at personopplysninger (kontaktinfo i tilbudsskjemaer) overføres kryptert. Uten SSL bryter du loven. Det er ikke en kostnadsspørsmål - SSL er gratis. Det er bare faktisk ikke valgfritt.",
+      },
+      {
+        heading: "Slik fungerer SSL teknisk",
+        body:
+          "Når en bruker besøker nettsiden din via HTTPS, skjer en \"TLS handshake\" på under 100 ms: 1) Browseren ber om SSL-sertifikatet fra serveren. 2) Serveren sender sertifikatet med en offentlig nøkkel. 3) Browseren validerer at sertifikatet er signert av en betrodd autoritet (Certificate Authority - typisk Let's Encrypt, DigiCert, Sectigo). 4) Browser og server forhandler om en delt sesjonsnøkkel for kryptering. 5) All videre kommunikasjon i sesjonen er kryptert. Brukeren ser bare hengelåsen - alt det tekniske skjer transparent.",
+      },
+      {
+        heading: "Let's Encrypt - gratis SSL for alle",
+        body:
+          "Let's Encrypt er en non-profit autoritet som gir gratis SSL-sertifikater. Etablert i 2016, brukt av over 350 millioner domener i 2026. For norske håndverkere er Let's Encrypt det åpenbare valget: gratis, automatisk fornyelse (sertifikater varer 90 dager, fornyes automatisk hver 60. dag), og støttes av alle moderne hostingleverandører. Alternativene (betalte SSL fra DigiCert, Sectigo, GeoTrust) gir verifisering av høyere nivå (\"Extended Validation\" med selskapsnavn i adresselinjen), men er overkill for de aller fleste håndverker-nettsider og koster 1000-5000 kr/år.",
+      },
+      {
+        heading: "Slik installerer du SSL",
+        body:
+          "De fleste moderne hostingleverandører installerer SSL automatisk. Hostpoint, Domeneshop, one.com, Vercel, Netlify, Cloudflare - alle har gratis SSL aktivert som standard. Sjekk at du har det aktivert. Vanlig prosess: logg inn på hosting-kontroll, finn \"SSL\" eller \"HTTPS\" innstillinger, slå på Let's Encrypt eller AutoSSL. Tar 15 minutter. Eldre hosting eller egen server kan kreve manuell oppsett - bytt isteden til en moderne leverandør. Som siste skritt: tving HTTP-trafikk til HTTPS via 301-redirect så alle besøkere automatisk ledes til den sikre versjonen.",
+      },
+      {
+        heading: "Hva som skjer hvis SSL-sertifikatet utløper",
+        body:
+          "SSL-sertifikater har utløpsdato. Let's Encrypt: 90 dager, fornyes automatisk. Betalte SSL: typisk 1 år. Hvis sertifikatet utløper og ikke fornyes, viser browseren en stor \"Tilkoblingen er ikke privat\"-advarsel som krever at brukeren klikker \"Avansert → Fortsett likevel\". I praksis flykter 95-98 % av besøkende. Hvis du har Let's Encrypt med automatisk fornyelse, skjer dette praktisk talt aldri. Hvis du har betalt SSL eller utdatert oppsett, sett en kalenderpåminnelse 30 dager før utløp. Mange håndverker-nettsider har mistet hele uker av trafikk pga utløpt SSL som ingen oppdaget.",
+      },
+      {
+        heading: "Mixed content - skjult feil etter SSL-aktivering",
+        body:
+          "Etter at du aktiverer HTTPS, oppstår ofte et problem kalt \"mixed content\". Nettsiden serveres via HTTPS, men noen ressurser (bilder, skripter, stylesheets) er fortsatt referert via HTTP. Browseren blokkerer disse for sikkerhet, og du ser tomme bildebokser eller manglende design. Fiks: gå gjennom nettsiden og bytt alle interne lenker fra http:// til https:// eller bruk relative URL-er (//bilde.jpg). For håndverkere som migrerte fra HTTP til HTTPS er dette den vanligste post-migration-feilen. Sjekk Chrome DevTools → Console for \"Mixed content\"-advarsler.",
+      },
+      {
+        heading: "SSL og SEO - direkte rangeringssignal",
+        body:
+          "Google har bekreftet siden 2014 at HTTPS er et rangeringssignal. Vekten har økt over tid - i 2026 er det praktisk talt obligatorisk. To nivåer av SEO-konsekvens: 1) Direkte: HTTPS gir liten rangeringsboost vs HTTP. 2) Indirekte: brukere flykter fra HTTP-sider med \"Ikke sikker\"-advarsel, så engagement-signaler blir dramatisk dårligere (høy bounce rate, kort tid på siden, lav konvertering). Den indirekte effekten er størst - kombinasjonen av direkte boost og bedre engagement gjør HTTPS til en av de letteste SEO-investeringene som finnes. Migrasjon til HTTPS kan gi 10-30 % rangering-løft for tidligere HTTP-sider.",
+      },
+      {
+        heading: "Wildcard vs single-domain SSL",
+        body:
+          "Vanlig SSL dekker ett spesifikt domene (firma.no eller www.firma.no, men ikke begge). Wildcard SSL dekker domenet og alle subdomener (*.firma.no - som dekker www.firma.no, blogg.firma.no, demo.firma.no, etc). For en typisk håndverker som kun har www.firma.no holder vanlig SSL. Hvis du planlegger flere subdomener (blogg, kundeportal, app), vurder wildcard. Let's Encrypt støtter wildcard fra og med 2018, men oppsett er litt mer komplekst. Betalte wildcard koster 1000-3000 kr/år. For 95 % av håndverkere: vanlig single-domain SSL fra Let's Encrypt er riktig.",
+      },
+      {
+        heading: "EV-sertifikat - er det verdt det?",
+        body:
+          "Extended Validation (EV) SSL er den \"premium\"-versjonen som verifiserer selskapets identitet og tidligere viste selskapsnavnet i adresselinjen. Tre grunner til at EV er nesten alltid bortkastet penger i 2026: 1) Chrome og Safari sluttet å vise selskapsnavnet i adresselinjen i 2019-2020 - nå ser EV ut som vanlig SSL for brukerne. 2) Kostnad: 2000-6000 kr/år vs gratis Let's Encrypt. 3) Tar 1-3 uker å få utstedt pga manuell verifisering. EV var nyttig 2010-2018, men i 2026 er det legacy-teknologi. Hopp over det med mindre du er bank eller stort selskap.",
+      },
+      {
+        heading: "SSL-feilsøking - vanlige problemer",
+        body:
+          "Hvis nettsiden viser \"Ikke sikker\"-advarsel etter at du har aktivert SSL: 1) Sjekk at sertifikatet er for riktig domene (firma.no vs www.firma.no - vanlig feil). 2) Sjekk at sertifikatet ikke har utløpt. 3) Sjekk for mixed content (HTTP-ressurser på HTTPS-side). 4) Sjekk at HTTP til HTTPS-redirect fungerer på alle URL-er. Verktøy: ssllabs.com/ssltest gir gratis grundig SSL-analyse - kjør det på domenet ditt og sikt mot A+ score. Vanlige feil oppdages og forklares konkret. SSL-feil rammer ofte stille - du ser dem ikke før noen påpeker det. Sjekk hver 6. måned.",
+      },
+      {
+        heading: "Hvor mye SSL faktisk koster håndverker-bedriften",
+        body:
+          "Tre scenarier. 1) Du bruker moderne hosting (Vercel, Netlify, Hostpoint moderne planer) - SSL er gratis og automatisk. Total kostnad: 0 kr/år. 2) Du bruker eldre hosting og må kjøpe betalt SSL - 500-2000 kr/år for grunnplan. 3) Du har eldre nettside-bygger uten SSL-støtte - må bytte til moderne plattform før du kan få SSL. Engangs migrasjons-kostnad: 5000-25000 kr avhengig av kompleksitet. Verdt det? Absolutt - en nettside uten SSL i 2026 mister 80 %+ av potensielle besøkere og rangerer praktisk talt ikke. Migrasjons-investeringen betales typisk tilbake innen 1-3 måneder via gjenfunnet trafikk.",
+      },
     ],
-    relatedTerms: ["domene-og-hosting", "sidehastighet"],
+    relatedTerms: [
+      "domene-og-hosting",
+      "sidehastighet",
+      "seo",
+      "konverteringsrate",
+      "mobilvennlig-nettside",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
     ],
   },
   {
