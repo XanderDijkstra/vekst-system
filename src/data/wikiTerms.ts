@@ -1562,17 +1562,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "konvertering",
     term: "Konvertering",
-    shortDescription: "Når en besøkende gjør det du ønsker - fyller ut et skjema, ringer, eller ber om tilbud.",
+    shortDescription:
+      "En konvertering er når en besøkende gjør den ønskede handlingen på nettsiden - fyller ut tilbudsskjema, ringer, eller starter en chat. For håndverkere er konvertering den ene metriken som direkte oversetter trafikk til kroner.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En konvertering er et målbart mål. På en håndverker-nettside er det vanligvis en innkommende forespørsel: kontaktskjema, ring-knapp, WhatsApp-melding, tilbudsforespørsel. Kan også være mindre mål (åpning av kontaktside) som ledd opp til hovedmålet." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Uten en tydelig konvertering vet du ikke om nettsiden virker. Du kan ha 1 000 besøk i måneden, men hvis ingen konverterer er det bortkastet. Å definere hva som er en konvertering er første steg - deretter handler alt om å øke antallet." },
-      { heading: "Hvordan fungerer det?", body: "I Google Analytics setter du opp \"events\" som teller hver konvertering: hver gang noen trykker \"send\" på kontaktskjemaet, klikker på telefonnummeret, eller åpner WhatsApp-chatten. Når tallene er på plass kan du følge med over tid og se hva som virker." },
+      {
+        heading: "Hva er en konvertering?",
+        body:
+          "En konvertering (engelsk: conversion) er enhver målbar handling en besøkende gjør som du har definert som verdifullt. På en håndverker-nettside er typiske konverteringer: utfylt tilbudsskjema, klikk på telefonnummeret (på mobil), start av chat-samtale, ring-knapp-trykk, nedlasting av sjekkliste eller mal, e-postregistrering. \"Konvertering\" er ikke et spesifikt fenomen - det er hva du selv definerer som måltavle. Den ene besøkende konverterer kanskje ved å fylle ut skjema; en annen ved å ringe. Begge er kvalifiserte leads.",
+      },
+      {
+        heading: "Hovedkonvertering vs mikrokonvertering",
+        body:
+          "Markedsføring skiller mellom to typer. Hovedkonvertering (primary/macro conversion) er den direkte forretningsverdien - typisk innsendt tilbudsskjema eller bestilt befaring. Mikrokonvertering (micro conversion) er små steg som leder mot hovedkonvertering - klikk til kontaktside, scroll til prislisten, åpning av FAQ-seksjon. For håndverker-nettsider er hovedkonverteringen klar: forespørsel fra kunden. Mikrokonverteringer er signaler du kan bruke for å forstå besøkende-atferd, men det er hovedkonverteringer som gir penger.",
+      },
+      {
+        heading: "Hvorfor måling av konverteringer er kritisk",
+        body:
+          "Uten konverteringsmåling vet du ikke om nettsiden virker. Du kan ha 1 000 månedlige besøk, høy rangering i Google, fin design - men hvis ingen konverterer, er det bortkastet. Konvertering er det eneste tallet som direkte sier om markedsføringsinvesteringen din lønner seg. For håndverkere som bruker 5 000-15 000 kr/mnd på markedsføring, betyr forskjellen på 2 % og 4 % konverteringsrate forskjell på 50 000-150 000 kr/år i omsetning. Det er stort nok til å avgjøre om bedriften vokser eller stagnerer.",
+      },
+      {
+        heading: "Slik definerer du konverteringer for håndverker-nettsiden",
+        body:
+          "Steg 1: List opp alle handlinger en besøkende kan gjøre som har forretningsverdi. For typisk håndverker: tilbudsskjema, telefonklikk, chat-start, WhatsApp-melding, nedlasting av prisliste eller sjekkliste. Steg 2: Velg den viktigste som hovedkonvertering. For håndverkere er det nesten alltid \"utfylt tilbudsskjema\" eller \"telefonsamtale\". Steg 3: Sett opp tracking i Google Analytics 4. Bruk \"Conversion event\" for hovedkonvertering. Steg 4: Verifiser at det fungerer - gjør én test-konvertering selv og sjekk at den registreres innen 24 timer.",
+      },
+      {
+        heading: "Slik måler du konverteringer i Google Analytics",
+        body:
+          "I GA4: Configure → Events → Mark as conversion. Vanligste events for håndverker-konvertering: form_submit (når noen sender et skjema), click på tel:-link (telefonklikk fra mobil), download_file (lastet ned PDF). Test alltid - gjør en test-konvertering på live-siden og sjekk at GA4 registrerer den. Bruk Google Tag Manager for mer kontroll. Etter at konverteringer måles, kan du se hvilke trafikkilder konverterer best (Source/Medium-rapporten) og hvilke sider som genererer flest konverteringer (Landing pages-rapporten).",
+      },
+      {
+        heading: "Konverteringssti - reisen fra besøk til lead",
+        body:
+          "Få besøkere konverterer på første besøk. Snittet er 2-7 besøk over flere uker før en kunde fyller ut tilbudsskjema. For håndverker-prosjekter (særlig høyere-verdi som baderom og kjøkken) kan beslutningen ta 2-8 uker. Konverteringssti er reisen: første besøk fra Google → tilbake via direkte trafikk en uke senere → klikk på kundecaser → leser om priser → kommer tilbake fra Google igjen → konverterer på besøk fem. Forstå denne stien ved å sjekke \"Path Exploration\" i GA4. Optimaliser hver berøringspunkt.",
+      },
+      {
+        heading: "Konverteringsrate per kilde - ulike kanaler konverterer ulikt",
+        body:
+          "Total konverteringsrate på 3 % skjuler ofte at organisk Google-trafikk konverterer på 6 %, Mittanbud-trafikk på 1 %, og direkte trafikk på 4,5 %. Disse forskjellene er kritiske. I GA4 under Acquisition → Channels ser du konverteringsrate per kilde. Kanaler som konverterer godt fortjener mer budsjett; kanaler som konverterer dårlig trenger enten bedre landingssider eller bedre målretting. For håndverkere er organisk Google-trafikk nesten alltid den best-konverterende kanalen - bedre intent. Mittanbud konverterer ofte dårligst pga priskonkurranse.",
+      },
+      {
+        heading: "Konvertering på mobil vs desktop",
+        body:
+          "Håndverker-trafikk er 75-85 % mobil, men konvertering varierer ofte. Mobil konvertering er typisk 30-50 % lavere enn desktop på samme nettside - mindre tålmodighet, brukervennlighet, og mindre skjerm gjør skjemautfylling vanskeligere. Strategien: 1) Optimaliser for mobil først (mobile-first design). 2) Gjør telefonnummer klikkbart (tel:-link). 3) Reduser skjemafelt til 2-3. 4) Vurder en \"ring nå\"-knapp som primær CTA på mobil i stedet for skjema. For håndverkere som har en mobil-spesifikk \"trykk for å ringe\"-CTA ser ofte konverteringen overskride desktop.",
+      },
+      {
+        heading: "Konverteringsoptimalisering - kontinuerlig prosess",
+        body:
+          "Konverteringsrateoptimering (CRO) er ikke et engangs-prosjekt. Det er løpende månedlig prosess: identifiser én svakhet, gjør én endring, mål 30 dagers effekt, behold eller revertere. Vanlige optimaliseringer som gir resultat: 1) Skriv om hovedoverskrift. 2) Endre CTA-tekst. 3) Reduser antall skjemafelt. 4) Legg til mer social proof over folden. 5) Forbedre sidehastighet. 6) Endre primær-CTA-farge. Hver endring kan gi 5-30 % løft. Stables over et år, går typiske håndverker-nettsider fra 1-2 % konvertering til 5-10 %.",
+      },
+      {
+        heading: "Konverteringsrate per landingsside",
+        body:
+          "Total konverteringsrate kan være misvisende - noen landingssider konverterer på 8 %, andre på 0,5 %, og snittet er 3 %. Sjekk per landingsside i GA4: Acquisition → Landing pages. Sortér på konverteringer per side. Identifiser \"vinnere\" (høy konvertering) og \"tapere\" (lav). Lær fra vinnerne - hva gjør de annerledes? Fiks taperne med samme mønster. For håndverker-nettsider er det typisk 3-5 sider som genererer 80 % av alle konverteringer. Fokuser optimalisering der; ignorer sider som ikke får trafikk eller ikke konverterer.",
+      },
+      {
+        heading: "Konvertering uten konvertering - skjult verdi",
+        body:
+          "Ikke alle leads er målbare som konverteringer. Eksempel: en kunde leser nettsiden tre ganger, bestemmer seg, og ringer direkte fra visittkortet de fant - aldri klikker på telefonklick-link i GA. Det er en \"unattributed conversion\" som ikke vises i tallene. Strategi: bruk unike telefonnumre per kanal (callRail), eller spør hver ny kunde \"hvor hørte du om oss?\". Mellom 20-40 % av faktiske leads til håndverkere er ikke attribuerte digitalt - de kommer fra anbefalinger, gamle visittkort, eller direkte. Inkluder dette i beregninger.",
+      },
+      {
+        heading: "Konvertering = penger - reelle tall for håndverkere",
+        body:
+          "Konkret beregning. Bedrift med 1 000 månedlige nettside-besøk og 3 % konverteringsrate har 30 leads/mnd. Hvis 35 % blir oppdrag og snittjobb er 18 000 kr, er det 189 000 kr/mnd = 2,27 mill/år i omsetning fra nettsiden alene. Øker du konverteringsraten til 5 % (gjennom CRO-arbeid over 6 måneder), blir det 50 leads/mnd = 315 000 kr/mnd = 3,78 mill/år. Forskjell: 1,5 mill ekstra omsetning ÅRLIG fra samme antall besøk. Det er hvorfor konverteringsoptimalisering er den enkleste skalerings-mekanikken som finnes for håndverkerbedrifter.",
+      },
     ],
-    relatedTerms: ["konverteringsrate", "cta", "landingsside", "lead"],
+    relatedTerms: [
+      "konverteringsrate",
+      "cta",
+      "landingsside",
+      "lead",
+      "social-proof",
+      "google-analytics",
+      "bounce-rate",
+      "a-b-test",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
     ],
   },
   {
