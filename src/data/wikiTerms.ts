@@ -1022,17 +1022,85 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "nav-konsistens",
     term: "NAP-konsistens",
-    shortDescription: "At firmanavn, adresse og telefonnummer er nøyaktig likt skrevet alle steder på nett.",
+    shortDescription:
+      "NAP-konsistens betyr at firmanavn (Name), adresse (Address) og telefonnummer (Phone) er nøyaktig likt overalt på nett - Google Bedriftsprofil, nettside, Proff.no, 1881.no, Brønnøysundregistrene. For lokal SEO er det blant de viktigste enkeltgrepene du kan ta.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "NAP står for Name, Address, Phone. NAP-konsistens betyr at de tre opplysningene skrives nøyaktig likt overalt på nett - nettsiden din, Google Bedriftsprofil, Finn.no, Proff.no, bransjeforeninger. Også små forskjeller (\"AS\" vs \"as\", \"+47 400 00 000\" vs \"40000000\") regnes som inkonsistens." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Google bruker NAP-data til å avgjøre at firmaet er ekte og at det er samme firma på tvers av kilder. Ser Google 15 ulike stavemåter av adressen din, blir algoritmen usikker og du rangerer lavere i lokale søk. Konsistent NAP er en av de letteste måtene å forbedre lokal SEO på." },
-      { heading: "Hvordan fungerer det?", body: "Velg én versjon av navn, adresse og telefon - og bruk den overalt. Lag et tekstdokument med den kanoniske versjonen. Når du registrerer firmaet på et nytt nettsted, kopier-lim. Eksisterende profiler bør rettes opp: start med Finn.no, Proff.no, 1881 og Brønnøysundregistrene - alle de andre henter ofte fra disse." },
+      {
+        heading: "Hva er NAP-konsistens?",
+        body:
+          "NAP står for Name, Address, Phone - navn, adresse og telefon. NAP-konsistens betyr at disse tre opplysningene skrives helt likt overalt på nett: bedriftens nettside, Google Bedriftsprofil, Proff.no, 1881.no, Gule Sider, Finn.no, Brønnøysundregistrene, sosiale medier, bransjeforeninger. \"Helt likt\" er nøkkelen - selv små forskjeller teller. \"Hansen Rørlegger AS\" vs \"Hansen Rørlegger A/S\" vs \"Hansen rørlegger\" - alle tre er teknisk samme firma, men Google ser tre ulike strenger og blir usikker på om det er én eller flere bedrifter.",
+      },
+      {
+        heading: "Hvorfor NAP-konsistens er kritisk for lokal SEO",
+        body:
+          "Google bygger tillit til at en lokal bedrift faktisk eksisterer ved å se konsistent NAP-data på tvers av mange uavhengige kilder. Ser Google samme \"Hansen Rørlegger AS, Storgata 14, +47 22 12 34 56\" på 15 forskjellige kataloger, er det høy tillit - dette er en ekte bedrift. Ser Google 15 ulike stavemåter eller tlf-nummer, er det lav tillit - kanskje en falsk bedrift eller dårlig vedlikeholdt. Lav tillit = lavere rangering i Local Pack og dårligere posisjoner på lokale søk. NAP-konsistens er gratis å fikse og gir typisk merkbar SEO-effekt innen 2-3 måneder.",
+      },
+      {
+        heading: "Den kanoniske versjonen - velg én og hold deg til den",
+        body:
+          "Det viktigste skrittet: bestem deg for én eksakt versjon av navn, adresse og telefon, og bruk den UFRAVIKELIG overalt. Lag et tekstdokument med den kanoniske versjonen - typisk: \"Hansen Rørlegger AS\\nStorgata 14, 0184 Oslo\\n+47 22 12 34 56\\npost@hansen-rorlegger.no\". Hver gang du registrerer firmaet på et nytt sted, kopier-lim denne teksten. Endrer du noe i denne kanoniske versjonen, må alle 15 katalogene oppdateres. Det er kjedelig arbeid, men engangs - gjort riktig én gang, hold de stabile i årevis.",
+      },
+      {
+        heading: "De viktigste norske katalogene å oppdatere",
+        body:
+          "Prioritert liste for håndverkere: 1) Google Bedriftsprofil (mest påvirkning på SEO). 2) Brønnøysundregistrene (offisielt registret, alle andre henter herfra). 3) Proff.no (mest leste norske bedriftskatalog). 4) 1881.no (Telenors katalog). 5) Gule Sider. 6) Finn.no Bedrift. 7) Yelp Norge (mindre brukt men finnes). 8) Bransjeforeninger (BNL, Rørentreprenørene, etc). 9) Lokale kommunale bedriftslister hvis tilgjengelig. 10) Sosiale medier (Facebook Business Page, LinkedIn Company Page). Hver av disse gir en oppføring med NAP - sørg for at de er identiske.",
+      },
+      {
+        heading: "Vanlige NAP-inkonsistens-feil",
+        body:
+          "1) Firmanavn-varianter: \"Hansen Rørlegger AS\" vs \"Hansen Rørlegger\" vs \"Hansen Rorlegger AS\" (uten ø). 2) Adresse-formater: \"Storgata 14\" vs \"Storg. 14\" vs \"Storgata 14, 1. etg\". 3) Telefon-formater: \"+47 22 12 34 56\" vs \"+4722123456\" vs \"22 12 34 56\" vs \"0047 22 12 34 56\". 4) Postnummer-rekkefølge: \"0184 Oslo\" vs \"Oslo 0184\". 5) Suffiks-variasjoner: \"AS\" vs \"A/S\" vs \"as\". Hver av disse oppfattes som potensielt forskjellig firma av Google. Standardiser én gang, hold dere strengt til den standarden.",
+      },
+      {
+        heading: "Slik finner du eksisterende NAP-feil",
+        body:
+          "Søk Google på firmanavnet ditt. Klikk gjennom hver oppføring som dukker opp. Skriv ned eksakt hva som står om Name, Address og Phone. Sammenlign mot din kanoniske versjon. Vanlige funnsteder: gamle Yellow Pages-oppføringer fra før 2015, leverandørers \"forhandler\"-lister med utdatert info, gamle nettsider hvor du har vært nevnt, sosial medie-profiler med gamle data. For håndverkere finner du typisk 10-30 inkonsistente oppføringer å rydde opp i hvis du ikke har vært systematisk fra start. Bruk 2-3 timer i blokk på dette.",
+      },
+      {
+        heading: "Verktøy for å automatisere NAP-håndtering",
+        body:
+          "I 2026 finnes betalte verktøy som overvåker NAP-konsistens på tvers av kataloger og sender varsler ved endringer. Yext, BrightLocal, og Whitespark er de mest brukte internasjonalt. For Norge fungerer Whitespark bra. Disse koster 100-400 USD/mnd for én bedrift. For en typisk norsk håndverker er det ofte for dyrt - bedre å gjøre engangs-rydding manuelt og sette en kalenderpåminnelse hver 6. måned for å sjekke. Når du vokser til 5+ ansatte og bygger flere lokasjoner, kan automatisering lønne seg.",
+      },
+      {
+        heading: "Hva som skjer når du flytter eller bytter telefon",
+        body:
+          "Den mest sårbare situasjonen for NAP-konsistens: bedriften endrer adresse eller telefonnummer. Da blir alle eksisterende oppføringer plutselig feil. Plan: oppdater katalogene I PRIORITERT REKKEFØLGE samme dag du flytter - Brønnøysundregistrene først (alt andre henter derfra), så Google Bedriftsprofil, så Proff, 1881, Gule Sider, Finn.no. Glem ikke nettsiden din og e-postsignaturer. Telefonsentral-folk glemmer ofte å oppdatere Finn.no Bedrift som henger igjen i 2-3 år. Sjekk 14 dager etter flytting at alt er riktig på de viktigste katalogene.",
+      },
+      {
+        heading: "NAP-konsistens og service-area bedrifter",
+        body:
+          "Hvis du er en mobil håndverker uten fast kontor (\"service-area business\" i Google-språk), er NAP litt annerledes. Da setter du adressen som skjult i Google Bedriftsprofil og angir arbeidsområdet i stedet. Konsekvens: i andre kataloger må du beslutte om du oppgir hjemmeadresse eller bare bydel/postnummer. Anbefaling: bruk hjemmeadresse hvor mulig (selv om Google skjuler den i Bedriftsprofil), så de tre NAP-feltene er identiske. Alternativt: bruk virtuell adresse fra en service som Regus eller WeWork hvis du vil holde hjemmeadresse helt privat.",
+      },
+      {
+        heading: "Hvor lang tid tar NAP-effekten å vise seg?",
+        body:
+          "Etter at du har oppdatert alle de viktigste katalogene, ser Google endringene over 2-8 uker. Lokal Pack-rangering reagerer raskest - typisk 1-3 uker. Organisk rangering på lokale søkeord reagerer saktere - 4-8 uker. Du kan ikke akselerere prosessen, men du kan akselerere oppdagelsen ved å sende en \"recrawl\"-forespørsel i Google Search Console for kontaktsiden din. Mål før og etter - bruk Search Console til å se om lokal-relaterte søkeord vokser i posisjon. Etter 8 uker bør du se merkbar forbedring hvis du gjorde noe meningsfullt.",
+      },
+      {
+        heading: "NAP-konsistens som backlink-strategi",
+        body:
+          "Hver katalog-oppføring med konsistent NAP gir også en backlink til nettsiden din. To fluer i ett smekk: SEO-tillit fra konsistens + autoritet fra backlinks. For en håndverker som ennå ikke har strukturert dette: gå gjennom de 15 viktigste norske katalogene, opprett oppføringer med konsistent NAP og lenke til nettsiden. Resultatet er typisk 10-15 nye kvalitetsbacklinks pluss bedre lokal SEO-tillit - alt gratis. Det er en av de raskeste og rimeligste lokale SEO-investeringene som finnes.",
+      },
+      {
+        heading: "Vedlikehold over tid",
+        body:
+          "NAP-konsistens er ikke en engangsjobb - det er løpende vedlikehold. Sett kalenderpåminnelse hver 6. måned: sjekk topp 10 katalogene. Sørg for at NAP fortsatt er korrekt. Spør deg selv: har vi byttet noe? Telefon, e-post, åpningstider? Oppdatere ASAP der det er endret. Spesielt etter endringer i bedriftsstrukturen (ny eier, fusjon, navnebytte, flytting) - gjør et fullstendig NAP-sjekk innen 30 dager. Mange håndverkere mister 20-40 % av lokal SEO-rangering i 6-12 måneder etter en stor endring fordi de glemmer å oppdatere alle steder.",
+      },
     ],
-    relatedTerms: ["local-seo", "google-bedriftsprofil", "backlinks"],
+    relatedTerms: [
+      "local-seo",
+      "google-bedriftsprofil",
+      "backlinks",
+      "seo",
+      "schema-markup",
+      "google-maps",
+    ],
     relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
