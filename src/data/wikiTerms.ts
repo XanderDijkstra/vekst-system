@@ -669,16 +669,84 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "sidehastighet",
     term: "Sidehastighet",
-    shortDescription: "Hvor fort nettsiden din laster inn. En treg side mister besøkende og straffes av Google.",
+    shortDescription:
+      "Sidehastighet er tiden det tar før nettsiden din er klar til bruk. Google måler den med Core Web Vitals og bruker den som direkte rangeringssignal. For håndverkere er treg sidehastighet en av de skjulte hovedårsakene til tapte leads.",
     category: "Teknisk",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Sidehastighet er tiden det tar før en nettside er klar til bruk etter at noen har klikket på lenken. Google måler dette via \"Core Web Vitals\" - LCP (når hovedinnholdet vises), INP (hvor raskt siden reagerer på klikk), og CLS (hvor stabilt layoutet er). Under 2,5 sekunder er bra; over 4 sekunder er dårlig." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Folk er utålmodige på mobil - og 70-80 % av håndverker-søk skjer på mobil. For hvert ekstra sekund siden bruker på å laste, mister du ca. 10 % av besøkende. En rask nettside gir flere leads, bedre plassering i Google og lavere kostnad per klikk i Google Ads." },
-      { heading: "Hvordan fungerer det?", body: "De største bremsene er oftest tunge bilder (ikke-komprimerte JPEG-er på flere MB), for mange skript (chatbots, analyseverktøy), og dårlig webhotell. Test siden på PageSpeed Insights (gratis fra Google) - du får en score fra 0-100 og konkrete forbedringspunkter." },
+      {
+        heading: "Hva er sidehastighet?",
+        body:
+          "Sidehastighet (engelsk: page speed eller site speed) er hvor lang tid det tar fra noen klikker på lenken til nettsiden din er ferdig lastet og bruksklar. I 2026 måles dette ikke som ett enkelt tall, men gjennom Googles Core Web Vitals: LCP (Largest Contentful Paint - når hovedinnholdet vises), INP (Interaction to Next Paint - hvor raskt siden reagerer på klikk og scroll), og CLS (Cumulative Layout Shift - hvor mye elementer hopper rundt under lasting). Disse tre samlet utgjør Googles offisielle vurdering av lastetid og brukervennlighet.",
+      },
+      {
+        heading: "Mål: Under 2,5 sekunder LCP, under 200 ms INP",
+        body:
+          "Googles målestokk for \"Good\" sidehastighet: LCP under 2,5 sekunder, INP under 200 millisekunder, CLS under 0,1. \"Needs improvement\" er 2,5-4,0 sek LCP, 200-500 ms INP. \"Poor\" er over 4 sek LCP eller 500 ms INP. Sjekk din egen score gratis i Google PageSpeed Insights (pagespeed.web.dev). For håndverkere er målet \"Good\" på alle tre - det er minimumskravet for å konkurrere i lokal SEO. Mange håndverker-nettsider sliter med LCP rundt 5-8 sekunder på mobil; det er kritisk dårlig.",
+      },
+      {
+        heading: "Hvorfor sidehastighet matters for håndverker-leads",
+        body:
+          "Sammenhengen er målbar: for hvert ekstra sekund nettsiden bruker på å laste, mister du 10-15 % av besøkende. En side som tar 5 sekunder å laste i stedet for 2 sekunder mister ca 40 % av trafikken før de en gang har sett innholdet. På 1 000 månedlige besøk er det 400 mistede potensielle leads. På håndverker-nettsider er hovedtrafikken mobil (75-85 %), og mobil-nettverk er typisk tregere - så sidehastighet rammer dobbelt hardt. Det er en av de skjulte konverteringsdreperne ingen ser med mindre de måler.",
+      },
+      {
+        heading: "De vanligste sidehastighetsproblemene",
+        body:
+          "På håndverker-nettsider er disse stedene flaskehalser ligger: 1) Ukomprimerte bilder - en 3 MB JPEG-fil på hero-bilde tar 6 sekunder å laste på 4G. 2) For mange tredjeparts-skripter - chat-widget, Google Analytics, Hotjar, Facebook Pixel, fontene fra Google. Hver av disse blokkerer eller forsinker hovedinnholdet. 3) Render-blocking CSS og JavaScript - filer som må lastes før siden kan vises. 4) Treg server / billig webhotell. 5) Ingen browser-cache - hver visning re-laster alt. 90 % av sidehastighetsproblemer ligger i 1-3 av disse fem.",
+      },
+      {
+        heading: "Slik fikser du bildene - størst sidehastighetsforbedring",
+        body:
+          "Bilder utgjør typisk 60-80 % av filstørrelsen på en håndverker-nettside. Fikser du dem, vinner du halve kampen. Tre grep: 1) Komprimere - bruk TinyPNG, Squoosh eller ImageOptim for å redusere filstørrelse 50-80 % uten synlig kvalitetstap. Sikt mot under 200 KB per bilde. 2) Konvertere til moderne format - WebP eller AVIF gir 30-50 % mindre filer enn JPEG. 3) Lazy-loading - bilder lenger nede på siden lastes ikke før brukeren scroller dit (loading=\"lazy\" attributt). Disse tre grepene alene løfter typisk LCP fra 6 sekunder til 2-3 sekunder.",
+      },
+      {
+        heading: "Tredjeparts-skripter - rydd opp i kjelleren",
+        body:
+          "Hvert ekstra skript du legger til nettsiden senker sidehastigheten. Vanlige skript: Google Analytics (~50ms), Google Tag Manager (~80ms), Facebook Pixel (~70ms), Chat-widget som Intercom (~150-300ms), Hotjar (~100ms), Cookie-banner (~80ms), Fonter fra Google (~200-400ms hvis ikke optimalisert). Til sammen kan disse legge til 1-2 sekunder på lastetiden. Rydd opp: bruk Google Tag Manager til å laste skript asynkront, last skript som ikke trengs umiddelbart med defer-attributt, droppe verktøy du faktisk ikke bruker. Mange håndverker-nettsider har 15-20 skript de aldri åpner; fjern dem.",
+      },
+      {
+        heading: "Webhotell - billig blir dyrt",
+        body:
+          "Webhotellets responstid avgjør første millisekund av enhver sidelast. Billige webhotell (50-100 kr/mnd) har ofte server-responstider på 500-1500 ms - før noe har begynt å laste i browseren. Bra webhotell (200-500 kr/mnd) gir 100-300 ms. Best: CDN-basert hosting (Vercel, Netlify, Cloudflare Pages) med statisk eller hybrid serving - 50-150 ms responstid og automatisk geografisk distribusjon. For en seriøs håndverkerbedrift er forskjellen på 1 og 5 sekunder i sidehastighet helt åpenbart verdt 200 kr/mnd ekstra i hosting.",
+      },
+      {
+        heading: "Browser-cache: kjapp gjentakende besøk",
+        body:
+          "Når en bruker besøker nettsiden andre gang, kan du la browseren huske CSS, JavaScript og bilder fra forrige besøk - kalt \"caching\". Setter du Cache-Control: max-age=31536000, immutable på hashede assets, sparer andre besøk 60-80 % av lastetiden. Tredje grep mange nettsider mangler: gzip- eller brotli-komprimering av tekst-filer. CSS og JS kan komprimeres 60-70 %. Sjekk i Chrome DevTools → Network om responsen har \"Content-Encoding: gzip\" eller \"br\". Hvis ikke, kontakt webhotellet eller bytt - dette burde være standard i 2026.",
+      },
+      {
+        heading: "Sjekk Core Web Vitals i Google Search Console",
+        body:
+          "I Google Search Console under \"Experience → Core Web Vitals\" ser du faktiske felt-data fra ekte besøkende - ikke teoretiske scores fra labverktøy. Dette er gull. Sjekk: er det \"Poor\" URLs i rapporten? Hvilke sider? På hvilken Web Vital (LCP, INP, CLS)? Verdt å fokusere på de sidene med flest besøk - hjemmeside, hovedtjenester, sammenligningssider. Fiks sidehastighet på de mest besøkte sidene først; det gir størst utbytte. Field data tar 28 dager å oppdatere - vær tålmodig med målinger etter endringer.",
+      },
+      {
+        heading: "Sidehastighet og Google Ads",
+        body:
+          "Sidehastighet påvirker ikke bare organisk SEO. På Google Ads inngår landingsside-opplevelsen (page experience) i Quality Score-beregningen. En treg landingsside straffes med høyere CPC. En rask landingsside får lavere CPC for samme posisjon. Forskjellen kan være 30-50 % av annonse-kostnaden. På 5 000 kr/mnd i Google Ads er det 1 500-2 500 kr spart hver måned - 18 000-30 000 kr per år. Sidehastighet er ikke bare et SEO-prosjekt; det er en direkte kostnadssparing på alle betalte kanaler.",
+      },
+      {
+        heading: "Vanlige sidehastighetsfeil håndverkere gjør",
+        body:
+          "Last opp originalt bilde fra DSLR-kamera (10 MB) direkte på nettsiden. Bruker karusell med 5-7 hero-bilder som alle lastes umiddelbart. Installerer 5 forskjellige analytics-verktøy (Google Analytics, Hotjar, Mixpanel, Microsoft Clarity, custom tracking). Velger \"billigste\" webhotell uten å sjekke responstid. Bygger nettsiden i WordPress med tunge tema og 30 plugin-er. Henger ferdig responsiv design men har ikke testet mobil-lastetiden. Disse er gratis å rette opp og gir typisk 2-5x bedre sidehastighet på 1-2 timer arbeid.",
+      },
+      {
+        heading: "Slik måler du sidehastighet riktig",
+        body:
+          "Tre verktøy gir komplett bilde. 1) PageSpeed Insights (pagespeed.web.dev) - synkron labtest med detaljerte forbedringspunkter. Bruk Mobile-fanen, ikke Desktop. 2) Chrome DevTools → Lighthouse - mer detaljert teknisk diagnose lokalt. 3) Google Search Console → Core Web Vitals - feltdata fra ekte besøkende over 28 dager. Bruk PageSpeed for diagnose, Search Console for å bekrefte effekt. Mål før og etter endringer - gjør én endring om gangen for å vite hva som virket. Sett deg et mål: alle nøkkelsider på \"Good\" innen 60 dager.",
+      },
     ],
-    relatedTerms: ["mobilvennlig-nettside", "responsivt-design", "bounce-rate"],
+    relatedTerms: [
+      "mobilvennlig-nettside",
+      "responsivt-design",
+      "bounce-rate",
+      "seo",
+      "konverteringsrate",
+      "google-analytics",
+      "landingsside",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
     ],
   },
