@@ -483,17 +483,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "backlinks",
     term: "Backlinks",
-    shortDescription: "Lenker fra andre nettsider til din nettside. Google ser dem som anbefalinger fra andre aktører.",
+    shortDescription:
+      "Backlinks (også kalt tilbakelenker eller backlink-tjenester) er lenker fra andre nettsider som peker til din. For Google er hver backlink en anbefaling, og kvalitetslenker er en av de tre viktigste rangeringsfaktorene for håndverker-SEO.",
     category: "SEO",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En backlink er en lenke fra en annen nettside som peker til din. Når lokalavisen lenker til deg, eller en bransjeforening har deg oppført som medlem, er det backlinks. Google teller hver backlink som en slags anbefaling - jo flere og bedre kilder, jo mer autoritet får du." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Backlinks er sammen med innhold og profilkvalitet den viktigste SEO-faktoren. En håndverkerbedrift som har 30 relevante backlinks (fra Finn.no, bransjeforbund, lokale medier, kunder) rangerer stort sett foran en identisk bedrift med 5 backlinks." },
-      { heading: "Hvordan fungerer det?", body: "Kvalitet slår kvantitet: én lenke fra en norsk bransjenettside er mer verdt enn 50 lenker fra tvilsomme \"lenkepakker\". Naturlige backlinks kommer fra å stå i register som Finn.no og Proff.no, være medlem i bransjeforbund, få omtale i lokalmedia, eller at kunder legger deg inn på sine egne sider." },
+      {
+        heading: "Hva er en backlink?",
+        body:
+          "En backlink (norsk: tilbakelenke eller bare \"back link\") er en hyperlenke fra en annen nettside som peker til din. Når lokalavisen skriver om bedriften din og legger inn en lenke, er det en backlink. Når en leverandør har deg oppført som forhandler med lenke til nettsiden din, er det en backlink. Når en kunde anbefaler deg på et sameie-forum, samme. Google bygde grunnlaget for hele søkemotoren sin på prinsippet: lenker er stemmer. Jo flere kvalitetsstemmer du har fra relevante kilder, jo mer autoritet får nettsiden din.",
+      },
+      {
+        heading: "Hvorfor backlinks fortsatt matters i 2026",
+        body:
+          "Selv om Google har modnet og introdusert dusinvis av rangeringssignaler, er backlinks fortsatt blant de tre viktigste sammen med innholdskvalitet og brukeropplevelse. Google har bekreftet dette gjentatte ganger. For håndverker-SEO betyr det: en håndverkerbedrift med 30 relevante norske backlinks rangerer praktisk talt alltid bedre enn en identisk bedrift med 5 backlinks. Forskjellen er ikke lineær - de første lenkene betyr mest, men du trenger en kritisk masse for å være konkurransedyktig lokalt.",
+      },
+      {
+        heading: "Kvalitet slår kvantitet - hver gang",
+        body:
+          "Den vanligste misforståelsen er at flere lenker = bedre. Det er feil. Google har siden 2012 (Penguin-oppdateringen) blitt aggressivt flink til å skille gode fra dårlige lenker. Én lenke fra Aftenposten, NRK eller en stor norsk bransjeforening kan være mer verdt enn 1 000 lenker fra automatiserte \"link farms\". Faktorer som avgjør lenkekvalitet: nettstedets autoritet (kjent merkevare?), tematisk relevans (snakker den om bygg/håndverk?), redaksjonell kontekst (skrevet av et menneske, ikke automatisk?), trafikkprofil (har siden ekte besøkere?).",
+      },
+      {
+        heading: "Backlinks for håndverkere i Norge - de viktigste kildene",
+        body:
+          "De mest verdifulle backlink-kildene for norske håndverkere: 1) Bransjeforbund som Byggenæringens Landsforening (BNL), Rørentreprenørene, Maler- og byggtapetsermesternes Landsforbund. 2) Lokale aviser og nyhetssider når du gjør noe nyhetsverdig. 3) Leverandører (Maxbo, Würth, Optimera) som kan ha forhandler-oversikter. 4) Mesterbrev-registeret hvis du er mester. 5) Sentralgodkjenning-registeret. 6) Lokale kommunale håndverker-lister. 7) Sameie-portaler og borettslag-blogger der du har vært leverandør. 8) Fag-blogger og påvirkere. Hver av disse gir én eller flere kvalitetslenker.",
+      },
+      {
+        heading: "Slik bygger du backlinks naturlig",
+        body:
+          "Naturlige backlinks bygges over tid gjennom genuin synlighet, ikke kjøp. Strategier som faktisk virker: 1) Opprett oppføringer på alle norske bedrifts-kataloger (Proff.no, 1881.no, Gule Sider, Finn.no Bedrift, Brønnøysundregistrene). 2) Bli medlem i bransjeforbund. 3) Skriv gjeste-artikler på fag-blogger. 4) Be tidligere kunder linke til deg på sine egne nettsider (sameie/borettslag/bedrift). 5) Vinn priser i bransjen (BNL, Norske Bygg-priser). 6) Gjør PR-stunts eller delta i lokalsaker. 7) Lag innhold som er verdt å lenke til (depth-piece guider, kalkulatorer). Mål: 5-10 nye kvalitetsbacklinks per kvartal.",
+      },
+      {
+        heading: "Backlink-tjenester og lenkepakker - unngå dem",
+        body:
+          "Du vil se annonser for \"backlink-tjenester\" - kjøp av 100, 500, 1 000 lenker for noen tusen kroner. Ikke gjør det. Disse lenkene kommer fra automatisk genererte nettsteder eller \"private blog networks\" som Google oppdager og straffer. Verste utfall: manuell handling fra Google som senker hele nettsiden i 6-18 måneder mens du sliter med å rydde opp. Når \"backlinks norge\" eller \"backlink tjenester\" lover deg autoritets-løft for under 5 000 kr, er det 95 % sjanse for at det er svindel som skader mer enn det hjelper. Bygg naturlig eller vent.",
+      },
+      {
+        heading: "NAP-konsistens som backlink-strategi",
+        body:
+          "Den enkleste og sikreste backlink-strategien for lokale håndverkere er katalog-oppføringer med konsistent NAP (Name, Address, Phone). Proff.no, 1881.no, Gule Sider, Finn.no, Brønnøysundregistrene, Gulesider, Yelp. Hver av disse gir en oppføring med lenke til nettsiden din. Sjekkliste: skriv ned eksakt firmanavn, adresse og telefonnummer slik du vil ha det. Verifiser at det er identisk på Google Bedriftsprofil og nettsiden din. Opprett oppføringer på alle 10-15 viktigste katalogene. Bruk eksakt samme NAP overalt. Dette gir 15-20 kvalitetsbacklinks gratis, og signaliserer NAP-konsistens til Google.",
+      },
+      {
+        heading: "Følge og no-follow lenker",
+        body:
+          "Backlinks deles i to typer: \"dofollow\" (sender SEO-autoritet videre) og \"nofollow\" (kun for navigasjon, sender ikke autoritet). Tidligere hadde dofollow-lenker overlegen verdi; i 2026 ser Google på begge typer som tillit-signaler, bare med forskjellig vekt. Lenker fra sosiale medier (Facebook, Instagram, LinkedIn) er nofollow men gir likevel synlighet og indirekte SEO-verdi. Lenker fra redaksjonelle artikler er som regel dofollow. Du trenger ikke obsesse over dofollow vs nofollow - kvalitetsblanding er sunt. Skadelige lenker fra spam-sider er det reelle problemet, ikke nofollow.",
+      },
+      {
+        heading: "Sjekk dine egne backlinks - gratis verktøy",
+        body:
+          "Tre gratis måter å se hvilke backlinks du har: 1) Google Search Console → Links → External links. Mest pålitelig kilde for hvilke lenker Google faktisk teller. 2) Ahrefs Free Backlink Checker - viser topp 100 backlinks. 3) Moz Link Explorer Free - viser noen lenker og en \"Domain Authority\"-score. For komplett bilde må du betale (Ahrefs/Semrush 1 000+ kr/mnd), men gratis-versjonene gir nok for håndverker-nivå. Sjekk: hvilke domener lenker til deg? Er de relevante og legitime? Mistenkelige spam-lenker kan disavow-eres via Google Search Console.",
+      },
+      {
+        heading: "Disavow-verktøy - når du må fjerne dårlige lenker",
+        body:
+          "Hvis Google Search Console viser at du har lenker fra mistenkelige nettsteder (kasino-sider, vietnamesisk spam, falske \"link farms\"), kan du \"disavow\" dem - fortelle Google at disse lenkene ikke skal telles. Verktøyet ligger på Google Search Console → Disavow Tool. Bruk det forsiktig - hvis du disavower legitime lenker ved en feil, mister du SEO-verdi. Tommelfingerregel: bare disavow åpenbar spam, og kun hvis du tror profilen din er straffet. Most håndverker-nettsider trenger aldri å bruke disavow. Det er kun for å rydde opp etter dårlige tidligere SEO-grep.",
+      },
+      {
+        heading: "Hvor mange backlinks trenger du?",
+        body:
+          "Avhenger av lokal konkurranse. For en rørlegger i Oslo som vil rangere i topp-3 lokalt: typisk 30-60 kvalitetsbacklinks fra norske kilder. For en taktekker i en mindre by: 15-25 kan være nok. Strategien: identifiser topp-3 konkurrenter i ditt fag og din by, bruk Ahrefs eller Moz til å sjekke deres backlinks, mål mot å ha 30-50 % flere kvalitetsbacklinks innen 12 måneder. Backlinks bygges sakte - 5-10 nye per kvartal er realistisk. Etter 2-3 år har du en backlink-portefølje konkurrenter ikke kan kopiere uten samme arbeid.",
+      },
+      {
+        heading: "Backlinks vs andre SEO-faktorer",
+        body:
+          "Backlinks er kraftige, men ikke alt. For en lokal håndverker i 2026 er prioriteringen typisk: 1) Google Bedriftsprofil først (gir lokal Pack-rangering). 2) Nettside med innhold som matcher søkene (on-page SEO). 3) Backlinks for autoritet (off-page SEO). 4) Sidehastighet og teknisk SEO. 5) Anmeldelser. Du kan ikke vinne lokal SEO med backlinks alene; like lite kan du vinne uten dem hvis konkurransen er hard. Bygg parallelt på alle fronter, ikke obsesse over én faktor. Vekst Systemet håndterer flere av disse samtidig - nettside, bedriftsprofil, anmeldelser, lokal SEO.",
+      },
     ],
-    relatedTerms: ["seo", "organisk-trafikk", "nav-konsistens"],
+    relatedTerms: [
+      "seo",
+      "organisk-trafikk",
+      "nav-konsistens",
+      "local-seo",
+      "google-bedriftsprofil",
+      "schema-markup",
+      "anmeldelser",
+    ],
     relatedLinks: [
-      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Slik får du flere kunder som håndverker", href: "/kunnskapsbank/flere-kunder-som-handverker" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
