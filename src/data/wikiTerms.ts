@@ -2757,17 +2757,84 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "qr-kode-for-anmeldelser",
     term: "QR-kode for anmeldelser",
-    shortDescription: "En kode du kan vise kunden som tar dem direkte til din Google-anmeldelsesside når de skanner.",
+    shortDescription:
+      "En QR-kode for anmeldelser er en skannbar kode kunden kan rette mobilkameraet mot for å åpne din Google Bedriftsprofils anmeldelses-side direkte. For håndverkere er det det enkleste grep som finnes for å fjerne friksjon og samle inn flere anmeldelser.",
     category: "Anmeldelser",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "En QR-kode er et kvadratisk mønster som mobilkameraet gjenkjenner og åpner en forhåndsbestemt URL. For anmeldelser peker koden direkte til din Google Bedriftsprofils \"Skriv en anmeldelse\"-side - ingen søking. Kunden peker kameraet, trykker på varselet, og er klar til å skrive." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Det vanskeligste med anmeldelser er å fjerne friksjon. Selv en fornøyd kunde gidder ikke å søke opp firmaet ditt, klikke seg inn på Google-profilen og så finne \"skriv anmeldelse\". En QR-kode på fakturaen, på bilen eller på et visittkort kutter denne reisen til ett klikk." },
-      { heading: "Hvordan fungerer det?", body: "Hent din Bedriftsprofils anmeldelses-URL fra Google (format: g.page/r/...). Legg den inn på et gratis QR-verktøy (qr-code-generator.com, Bitly, osv.). Skriv koden ut, legg den på visittkort, fakturaer, eller en klistrelapp på bilen. Vis den personlig på slutten av hver jobb: \"Takk, hvis du har et øyeblikk...\"" },
+      {
+        heading: "Hva er en QR-kode for anmeldelser?",
+        body:
+          "En QR-kode (Quick Response code) er et kvadratisk mønster av sorte ruter som inneholder data - vanligvis en URL. Når noen retter mobilkameraet mot koden, gjenkjenner telefonen den automatisk og tilbyr å åpne lenken. En QR-kode for anmeldelser peker direkte til din Google Bedriftsprofils \"Skriv en anmeldelse\"-side. Kunden skanner, klikker varselet, og er på Google-anmeldelses-skjemaet innen 5 sekunder. Ingen søking etter firmaet ditt på Google. Ingen leting i Bedriftsprofilen. Full friksjon eliminert.",
+      },
+      {
+        heading: "Hvorfor friksjon-fjerning matters for anmeldelser",
+        body:
+          "Den vanligste grunnen til at fornøyde kunder IKKE legger igjen anmeldelse er friksjon: de glemmer, eller de søker etter firmaet, finner ikke den riktige profilen, eller blir distrahert underveis. Hvert ekstra steg i prosessen fjerner 20-50 % av konverteringer. En typisk konvertering uten QR-kode: 5-10 % av kundene legger igjen anmeldelse. Med QR-kode + personlig oppfordring på stedet: 30-50 %. Forskjellen er ikke teknologi - det er at QR-koden eliminerer hele \"finn den riktige siden\"-friksjonen som drepte konverteringen.",
+      },
+      {
+        heading: "Slik lager du en QR-kode",
+        body:
+          "Steg 1: Hent din Bedriftsprofils anmeldelses-URL fra Google Bedriftsprofil → kortlenke for å be om anmeldelser. Formatet er g.page/r/... Steg 2: Gå til et gratis QR-kode-verktøy: qr-code-generator.com, Bitly, eller GoQR.me. Steg 3: Lim inn URL-en og generer koden. Steg 4: Last ned som PNG eller SVG i høy oppløsning (minst 600x600 piksler). Steg 5: Test den selv - skann med din egen telefon, sjekk at den åpner Google-anmeldelses-skjemaet riktig. Hele prosessen tar 5 minutter. Du har nå en gjenbrukbar gratis ressurs som bygger anmeldelser i årevis.",
+      },
+      {
+        heading: "Hvor du skal plassere QR-koden",
+        body:
+          "Effektive plasseringer for håndverkere. 1) Faktura - kunden ser den når de betaler, ofte mens de fortsatt er fornøyde. 2) Visittkort - hvert kort blir en anmeldelses-mulighet. 3) Klistremerke på bilen - synlig for alle som besøker arbeidsstedet. 4) Skilt på arbeidsstedet - midlertidig på stillas eller dør. 5) Takk-for-jobben-kort - liten kort som leveres når jobben er ferdig. 6) E-postsignatur (digital QR-kode). 7) Tilbudsdokumenter. 8) Etterregningsdokumentasjon. Velg 3-4 plasseringer; ikke alle steder samtidig - det blir overveldende.",
+      },
+      {
+        heading: "Den personlige sammenhengen er kritisk",
+        body:
+          "En QR-kode alene konverterer 5-10 % - bedre enn ingenting, men ikke transformativt. En QR-kode kombinert med personlig oppfordring konverterer 30-50 %. Forskjellen er den korte samtalen: \"Takk for tilliten. Hvis du har et øyeblikk - skann denne for å legge igjen en anmeldelse. Det betyr mye for en liten bedrift som oss.\" 15 sekunders direkte spørsmål mens kunden er fysisk til stede med deg er kraftig. Uten ord er QR-koden bare grafikk; med ord er den et øyeblikkelig handlings-utløsning. Bygg dette inn som siste-steg-rutine på hver fullført jobb.",
+      },
+      {
+        heading: "Design som virker",
+        body:
+          "QR-koden alene er ikke nok - kontekst hjelper. Bra design rundt koden inkluderer. 1) Tittel: \"Skann for å legge igjen en anmeldelse på Google\". 2) Logo i midten av QR-koden (de fleste verktøy lar deg legge til logo - bryter ikke skanning). 3) Stjerne-ikon ved siden av koden. 4) Tydelig handlingsoppfordring: \"30 sekunder - det betyr alt\". 5) Stort nok format - minst 3x3 cm i print. Mindre er vanskelig å skanne. Test alltid med faktiske telefoner før produksjon - noen utskrifter blir uskarpe og koden virker ikke.",
+      },
+      {
+        heading: "QR-kode for forskjellige plattformer",
+        body:
+          "Mens Google-anmeldelser er det viktigste for håndverkere, kan du også ha QR-koder for andre. Google Bedriftsprofil - hovedfokus, gir SEO-effekt. Facebook-side - sekundært, mindre SEO-verdi. Trustpilot - sjelden brukt for håndverkere. Mittanbud-profil - kun hvis du aktivt bruker plattformen. Anbefaling: ha én primær QR-kode (Google), eventuelt en sekundær (Facebook) for kunder som ikke har Google-konto. Ikke vis 4-5 QR-koder samtidig - kunden velger ingenting. Gjør valget enkelt: én tydelig handlingsoppfordring.",
+      },
+      {
+        heading: "Sporing og målinger",
+        body:
+          "Standard QR-koder gir ingen sporing - du vet ikke om skanninger faktisk skjer. For måling, bruk en QR-kode-tjeneste med sporing (Bitly, QR Code Monkey Pro). Da ser du hver gang noen skanner: tidspunkt, lokasjon, mobil-modell. Verdifullt for å se hvilke plasseringer fungerer best (faktura vs visittkort vs bil). Ulempe: tjenestene koster 100-500 kr/mnd. For håndverkere som vil starte enkelt: bruk gratis QR-kode først, mål effekt indirekte ved å sammenligne antall nye anmeldelser før vs etter implementering. Skift til sporet versjon senere hvis ønskelig.",
+      },
+      {
+        heading: "Kombinere QR-kode med anmeldelsesfunnel",
+        body:
+          "QR-kode + anmeldelsesfunnel er ideal-kombinasjonen. QR-kode dekker øyeblikket på stedet (fysisk møte med kunden). Anmeldelsesfunnel dekker oppfølgings-fasen (SMS dag 1, 7, 21 etter jobb). Sammen fanger de begge sannsynlige tidspunkter for når kunden vil anmelde. Resultat: enda høyere total konverteringsrate. Mange håndverkere bruker bare ett av to og taper potensial. Vekst Systemet kombinerer dette - inkluderer både QR-kode-mal og automatisk anmeldelses-SMS-sekvens som standard.",
+      },
+      {
+        heading: "Hva en kunde ser etter skanning",
+        body:
+          "Når QR-koden skannes på en moderne telefon (iPhone iOS 13+, Android 9+), åpnes Google-anmeldelses-skjemaet direkte. Kunden ser: stjernerating å velge (1-5), tekstfelt for kommentar, og send-knapp. Skjemaet er hostet av Google, så det er kjent og pålitelig. Ingen pålogging nødvendig hvis kunden allerede er logget inn på Google-konto (de fleste er). Tom Google-konto: kunden må logge inn eller opprette - en lite friksjons-barriere som kan stoppe noen. For aller fleste norske mobilbrukere er flyten sømløs på 30 sekunder fra skanning til signert anmeldelse.",
+      },
+      {
+        heading: "Vanlige QR-kode-feil",
+        body:
+          "1) Lager QR-kode med feil URL - peker til feil profil eller hjemmesiden i stedet for anmeldelses-skjemaet. Test alltid. 2) Print for liten - under 2x2 cm fungerer ikke pålitelig. 3) Lav kontrast - QR-koder må være sort på hvit/lys bakgrunn for å skannes. 4) Glemmer å oppdatere når Bedriftsprofilen flytter eller endrer URL. 5) Bruker QR-kode uten kontekst - kunden vet ikke hva koden er for. 6) Ingen personlig oppfordring sammen med koden. Disse er alle gratis å rette opp og kan doble eller tredoble konvertering.",
+      },
+      {
+        heading: "QR-kode i 2026 - har den fortsatt verdi?",
+        body:
+          "Ja. QR-koder fikk en stor renessanse under pandemien (2020-2022) for menyer, sjekkin-prosesser, etc. I 2026 er teknologien innebygd i alle moderne mobilkameraer - ingen separat app nødvendig. For håndverkere er QR-koder fortsatt den enkleste friksjons-fjerneren for anmeldelser. Alternativene (kort URL skrevet ut, manuell søking på Google) krever flere skritt. QR-kode er fortsatt et lavterskelverktøy som koster 0 kr, tar 5 minutter å lage, og virker for tiår fremover. Det er en av få gratis markedsføringsverktøy med vedvarende ROI.",
+      },
     ],
-    relatedTerms: ["anmeldelser", "anmeldelsesfunnel", "google-bedriftsprofil"],
+    relatedTerms: [
+      "anmeldelser",
+      "anmeldelsesfunnel",
+      "google-bedriftsprofil",
+      "social-proof",
+      "local-seo",
+      "lead",
+    ],
     relatedLinks: [
+      { label: "Slik får du flere 5-stjerners Google-anmeldelser", href: "/kunnskapsbank/fem-stjerners-google-anmeldelser-handverker" },
       { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Google Bedriftsprofil 10-punkts sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
     ],
   },
   {
