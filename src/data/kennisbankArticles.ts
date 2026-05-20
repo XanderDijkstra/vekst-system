@@ -1726,4 +1726,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "borettslag-og-sameier-handverker",
+    title: "Borettslag og sameier som kunde: slik vinner du fast leveranse",
+    description:
+      "Borettslag og sameier gir håndverkere stabile, gjentakende oppdrag - hvis du forstår hvordan styret tenker. Slik kommer du inn, leverer tilbud styret tør stå for, og blir der.",
+    category: "Leads",
+    readTime: "11 min",
+    date: "2026-05-20",
+    sections: [
+      {
+        heading: "Hvorfor borettslag og sameier er gull verdt",
+        body:
+          "De fleste håndverkere bygger virksomheten sin på enkeltkunder - villaeiere og sluttbrukere som handler én gang i året eller sjeldnere. Borettslag og sameier er en helt annen forretning. Et middels sameie på 60 leiligheter kjøper rørlegger-, maler- og elektrikertjenester for 300 000-700 000 kr i året, og pengene er forutsigbare. Vinner du ett ordentlig styre, har du grunnlast for to ansatte uten å selge en eneste ny jobb til neste vinter. En taktekker som leverer på ett OBOS-sameie i Oslo, har gjerne 4-6 års pipeline før neste store anbudsrunde. Det er ikke samme spill som å jakte privatkunder på Google Ads.",
+      },
+      {
+        heading: "Forstå hvem som faktisk bestemmer",
+        body:
+          "Et borettslag eller sameie har ikke én beslutningstaker - det har minst tre. Styreleder skal forsvare valget overfor beboerne på generalforsamlingen, vaktmesteren skal jobbe med deg i hverdagen, og forvalteren (OBOS, USBL, BBL eller en lokal forvalter) skriver kontrakt og betaler faktura. Hver av dem har egne hensyn. Styret er redd for klager fra beboerne, vaktmesteren vil ha en håndverker som svarer telefonen, og forvalteren vil ha riktige papirer. En maler som forstår at det ikke holder å imponere styreleder alene, vinner langt flere oppdrag enn en som behandler sameiet som én kunde.",
+      },
+      {
+        heading: "Slik kommer du på styrets shortlist",
+        body:
+          "Borettslagstyrer består ofte av folk som ikke har kjøpt håndverkertjenester før. De spør forvalter, vaktmester, nabosameier og Google. Det vil si: din lokal SEO, Google Bedriftsprofil og anmeldelser bestemmer om du i det hele tatt blir invitert til å gi tilbud. Send en kort presentasjon til de største forvaltningsselskapene i området med referanser fra tilsvarende eiendommer - ikke fra privatboliger. En tømrer som har levert ett synlig prosjekt på et OBOS-bygg, kan be om en skriftlig referanse fra styreleder og bruke den i alle senere tilbud. Det er den eneste social proof som teller for andre styrer.",
+      },
+      {
+        heading: "Tilbud styret tør legge fram for beboerne",
+        body:
+          "Et borettslagstilbud skal være lesbart for en revisor, en pensjonist og en ingeniør på samme tid. Det betyr faste poster, klare enhetspriser, hva som er inkludert, hva som ikke er det, og en realistisk timeplan. Aldri rundsum uten spesifikasjon - styret kan ikke forsvare en ukjent regning på neste generalforsamling. En flislegger som leverer tilbud på baderomsrehab i fellesarealer, lister poster som riving, membran, fall, fliser per kvadratmeter, sluk og tilbakemontering hver for seg. Beboerne kan diskutere hvert punkt, og styret slipper å forsvare en svart boks. Det vinner sjelden på pris alene - det vinner fordi tilbudet er trygt å si ja til.",
+      },
+      {
+        heading: "Befaring med flere beslutningstakere",
+        body:
+          "En befaring i et sameie er ikke som en privatbefaring. Du møter styreleder, vaktmester og kanskje to-tre interesserte beboere samtidig. Forbered deg som om det var et prosjektmøte. Møt opp i firmaklær, ta med målebånd, kamera og notatblokk, og still åpne spørsmål: hva har vært feil før, hva er budsjettet, når må jobben være ferdig. En rørlegger som tar 45 minutter på befaring i et sameie og dokumenterer alt med bilder, leverer et tilbud som tar høyde for skjulte stigeledninger og gamle koblinger som er typiske i 60-tallsbygg. Det skiller deg fra konkurrenten som ga rundsum etter ti minutter.",
+      },
+      {
+        heading: "Prisnivå og betalingsbetingelser",
+        body:
+          "Borettslag betaler ikke fra lommeboka - de betaler fra fellesbudsjettet etter formell faktura, ofte med 30 dagers forfall og noen ganger lengre. Det betyr at du må ha likviditet til å bære materialer i 60-90 dager på større prosjekter. Avtal akontofakturering på forhånd: 30 % ved oppstart, 40 % underveis, 30 % ved overlevering. En entreprenør som ikke avtaler dette skriftlig, kan vente fire måneder på siste utbetaling. Pris ligger erfaringsmessig 5-10 % over privatmarkedet, men volumet og forutsigbarheten gjør at marginen i praksis blir høyere. Du slipper å selge inn hvert oppdrag på nytt fra null.",
+      },
+      {
+        heading: "Gjennomføring blant 60 kunder samtidig",
+        body:
+          "I et borettslag jobber du ikke for én kunde - du jobber blant 60 kunder som alle har en mening. Et oppslag i oppgangen om hva som skjer denne uken, og når vannet er borte mellom 09 og 14, sparer styret for 20 telefoner og vaktmesteren for ti. Bruk SMS-varsling til beboere når det er aktuelt. En taktekker som skifter tak på et sameie, sender ukentlig oppdatering til styret og lar styret videresende. Det føles gammeldags, men det er det enkelte trekket som gjør forskjellen mellom et fornøyd sameie og et som klager til forvalter. Klager til forvalter koster deg neste oppdrag.",
+      },
+      {
+        heading: "Garantibefaring og oppfølging skaper låste kunder",
+        body:
+          "Det viktigste skjer etter at jobben er ferdig. Et sameie har lang hukommelse: dukker det opp en lekkasje eller en sprekk seks måneder senere, husker styret hvem som leverte og hvor raskt du kom tilbake. Avtal en formell 1-årskontroll i kontrakten og dukk opp uoppfordret. En elektriker som ringer styreleder seks måneder etter overlevering for å høre om alt fungerer, blir nesten alltid førstevalg når neste byggetrinn skal opp. Det er gratis lead-oppfølging i ren form. Håndverkerbedrifter som taper jobber i borettslagsmarkedet, taper dem nesten alltid på dårlig oppfølging, ikke på pris.",
+      },
+      {
+        heading: "Vedlikeholdsavtaler - veien fra prosjekt til abonnement",
+        body:
+          "Et engangsoppdrag i et sameie er fint. En vedlikeholdsavtale er gull. Tilby styret en fast avtale for periodisk vedlikehold - rørinspeksjon, ventilasjonssjekk, kontroll av tak og takrenner, sjekk av elektriske anlegg i fellesarealer. Pris det som et fast årlig beløp delt på 12, ikke som timepris. En murer som har vedlikeholdsavtale på tre borettslag à 35 000 kr i året, har 105 000 kr i grunnlast før januar starter. I tillegg står han først i køen når noe ekstra skal gjøres. Det er den klart høyeste marginen i håndverkerbransjen - du selger forutsigbarhet og fred, ikke timer.",
+      },
+      {
+        heading: "Slik bygger du en B2B-portefølje uten å miste oversikten",
+        body:
+          "Borettslagsmarkedet handler om å pleie 20-50 styrer og forvaltere over flere år. Det er ikke noe du gjør i hodet eller på en post-it-lapp. Hvert styre må følges opp etter befaring, etter tilbud, etter overlevering og før neste budsjettrunde - som regel om høsten. Vekst Systemet for håndverkere tagger hver lead med kilde (forvalter, anbefaling, Google Bedriftsprofil), automatiserer påminnelser om 1-årsbefaring, og holder kontaktlisten over styreledere oppdatert selv når styret skiftes ut. Du ser hvilke sameier som er modne for nytt tilbud, hvem som ikke har hørt fra deg på seks måneder, og hvilke vedlikeholdsavtaler som snart skal fornyes - i ett dashboard, ikke i tre Excel-ark.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Vedlikeholdsavtaler for håndverkere", href: "/kunnskapsbank/vedlikeholdsavtaler-for-handverkere" },
+      { label: "Tilbud som vinner jobben", href: "/kunnskapsbank/tilbud-som-vinner-jobben-handverker" },
+      { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+    ],
+  },
 ];
