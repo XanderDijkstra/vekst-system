@@ -1582,17 +1582,86 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "social-proof",
     term: "Social proof",
-    shortDescription: "Signaler som viser at andre har stolt på deg - anmeldelser, logoer, antall fornøyde kunder.",
+    shortDescription:
+      "Social proof (norsk: sosialt bevis) er signaler som viser at andre har stolt på deg - anmeldelser, kundesitater, logoer, antall utførte prosjekter. For håndverkertjenester er det den enkleste konverteringsdriveren som finnes.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Social proof er alt som gir nye kunder trygghet på at du leverer. De vanligste formene på en håndverker-nettside er: Google-anmeldelser, sitater fra faste kunder, antall utførte prosjekter (\"Over 400 bad renovert siden 2015\"), medlemskap i bransjeforening, og før/etter-bilder." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Håndverkertjenester er en tillitsbransje - du slipper noen inn i hjemmet ditt. En privatperson som vurderer å bruke 150 000 kr på baderom, trenger bevis for at du ikke er en plageånd. Nettsider med tydelig social proof konverterer 30-50 % bedre enn identiske sider uten." },
-      { heading: "Hvordan fungerer det?", body: "Plasser social proof høyt på siden (ikke gjemt nederst). Bruk ekte navn og by: \"Anne J., Bergen\" er mer troverdig enn \"Fornøyd kunde\". Koble til Google-anmeldelsene direkte - da kan de besøkende verifisere. Hvis du er ny, start med 2-3 korte sitater og voks derfra." },
+      {
+        heading: "Hva er social proof?",
+        body:
+          "Social proof (engelsk for \"sosialt bevis\") er det psykologiske fenomenet at folk stoler mer på tjenester andre allerede har stolt på. Begrepet ble myntet av psykologen Robert Cialdini og er en av de seks grunnpilarene i overtalelses-psykologi. For en håndverker er det alt som viser at andre kunder har valgt deg, vært fornøyde, og anbefaler videre: Google-anmeldelser, kundesitater, logoer av kjente kunder, antall utførte prosjekter (\"Over 400 bad renovert siden 2015\"), bransjepriser, medlemskap i fagforeninger, og før/etter-bilder.",
+      },
+      {
+        heading: "Hvorfor social proof matters spesielt for håndverkere",
+        body:
+          "Håndverkertjenester er en tillitsbransje. Kunden slipper noen inn i hjemmet sitt og betaler 30 000-300 000 kr basert på løfter om kvalitet og fullføring. Det er en stor tillit-investering. Studier viser at nettsider med tydelig social proof konverterer 30-50 % bedre enn identiske nettsider uten. For en bedrift med 1 000 månedlige besøk og 2 % konvertering er det forskjell på 20 leads og 30 leads - over et år 120 ekstra forespørsler. Social proof er den billigste konverteringsforbedringen som finnes - det er informasjon du allerede har.",
+      },
+      {
+        heading: "Typer social proof for håndverkere",
+        body:
+          "Syv kategorier som virker. 1) Anmeldelser med stjernerating (4,9 ★ av 127 anmeldelser). 2) Kundesitater med navn og by (\"Anne J., Bergen\" - mer troverdig enn \"Fornøyd kunde\"). 3) Antall jobber utført (\"500+ bad siden 2018\"). 4) Logoer av kjente kunder (sameier, kommuner, bedrifter). 5) Bransjepriser og sertifikater (mesterbrev, sentralgodkjenning). 6) Mediasitater (\"Som omtalt i Aftenposten\"). 7) Før/etter-bilder med kunde-historie. Bruk minst 3-4 av disse over folden på nettsiden - jo flere, jo sterkere tillit.",
+      },
+      {
+        heading: "Plassering: over folden er kritisk",
+        body:
+          "Det viktigste regelen for social proof: det må være synlig FØR kunden scroller. Folden er den delen av siden som vises på første skjermbilde uten å bla. Sosialt bevis gjemt nederst på siden mister 70-80 % av sin effekt fordi de fleste besøkere aldri ser det. Plasser stjernerating umiddelbart under hovedtittelen. Vis 2-3 korte sitater i hero-seksjonen. Sett logoer-rekken rett under fold. Hver besøkende skal se TILLIT-signal innen 5 sekunder. Dette ene grepet kan løfte konvertering med 20-40 %.",
+      },
+      {
+        heading: "Ekte vs falske social proof",
+        body:
+          "Bare ekte signaler virker - og falske kan straffes hardt. Bruk ekte navn og by på sitater. Koble til Google-anmeldelser direkte så besøkende kan verifisere. Vis bilder av ekte prosjekter, ikke stockbilder. Norge har strenge regler om markedsføring - falske kundesitater eller fabrikkerte stjernerating kan rapporteres til Forbrukertilsynet. Også: Google detekterer falske anmeldelser og kan suspendere hele Bedriftsprofilen din. Resultatet av falske social proof er ikke bare ineffektivt - det er aktivt skadelig. Bygg ekte signaler over tid.",
+      },
+      {
+        heading: "Anmeldelser - kraftigste form for social proof",
+        body:
+          "Av alle social proof-typer er Google-anmeldelser den klart sterkeste for håndverkere. Tre grunner: 1) Tredjeparts-verifisering - Google validerer at de er ekte. 2) Synlig stjernerating i hjernen - kunden kjenner Google-systemet. 3) Sosialt bevis-mengde - 80+ anmeldelser overgår nesten enhver annen signal. Du har allerede dette i Google Bedriftsprofil - sørg for at det vises på nettsiden via AggregateRating-schema og embedded reviews-widget. Mange håndverker-nettsider har sterke anmeldelser men viser dem ikke synlig - en alvorlig konverteringsfeil.",
+      },
+      {
+        heading: "Logoer og bransjesymboler",
+        body:
+          "Logo-rekke fra kjente kunder eller bransjeorganer er kraftig social proof. For håndverkere: vis logoer av sameier du har levert til, kommuner som er kunde, kjente bedrifter du har arbeidet for, bransjeforbund du er medlem av (BNL, Rørentreprenørene, Maler- og byggtapetsermestrenes Landsforbund), mesterbrev-sertifisering, sentralgodkjenning. Begrenset til 5-7 logoer for ikke å overvelde. Plassering: rett under hero-seksjonen eller i en \"betrodd av\"-rad. Bruk gråtonet versjon av logoene for å unngå at de overdøver din egen branding.",
+      },
+      {
+        heading: "Tall - presise vinner over runde",
+        body:
+          "Når du bruker tall som social proof, bruk presise heller enn avrundede. \"Vi har utført 487 baderomsprosjekter siden 2018\" er mer troverdig enn \"500+ baderomsprosjekter\". \"4,89 av 5 stjerner fra 127 kunder\" slår \"4,9 stjerner\". Hjernen oppfatter presise tall som basert på reelle data; runde tall som markedsføring. Andre kraftige tall: respons-tid (\"Snittsvar innen 23 minutter\"), år i drift (\"Driver siden 2012 - 14 år erfaring\"), garanti-vilkår (\"5 års garanti på alle baderom\"). Konkretiser - aldri \"mange fornøyde kunder\".",
+      },
+      {
+        heading: "Før/etter-bilder som social proof",
+        body:
+          "Visuell social proof er særlig kraftig for håndverkere fordi bildene formidler både kvalitet og endring. Slik gjør du det riktig: vis ekte prosjekter (ikke stockbilder), inkluder kunde-historie ved siden av bildet (\"Anna K., Bergen - rive vegg + nytt baderom, 4 uker\"), bygg ut en dedikert prosjekt-galleri-seksjon med 15-30 prosjekter. Lag bildene like (samme vinkel før og etter), god belysning, høy oppløsning men optimaliserte filer for sidehastighet. Den enkleste regelen: hvis kunden ikke kan tro hva øynene ser i etter-bildet, har du en kraftig social proof.",
+      },
+      {
+        heading: "Kundecaser - lengre social proof-format",
+        body:
+          "Dedikerte kundecase-sider (Norwegian: kundecase, engelsk: case study) er social proof i dybde. Format: navngitt kunde, type prosjekt, omfang, før-situasjon, utfordringer, prosess, resultat, kundesitat. 600-1000 ord, 5-10 bilder. Brukes på to måter: 1) Som egen seksjon på nettsiden under /kundecase. 2) Som proof-elementer plassert strategisk på tjenestesider. Kundecase-sider rangerer ofte i Google på relaterte søk - du får både SEO-verdi og social proof. 3-5 grundige cases er bedre enn 20 overfladiske. Bygg over tid, ett nytt kundecase per kvartal.",
+      },
+      {
+        heading: "Sosiale medier-integrasjon som social proof",
+        body:
+          "Vis nylig sosial-medier-aktivitet på nettsiden: Instagram-feed med siste 6-9 prosjektbilder, Facebook-anmeldelser, LinkedIn-anbefalinger. Dette er \"levende social proof\" - viser at bedriften er aktiv og engasjert. For håndverkere som har konsekvent Instagram-tilstedeværelse er det effektivt. Ulempen: tar sidehastighet og krever løpende vedlikehold. For håndverkere som ikke er aktive på sosiale medier - drop dette og fokuser på Google-anmeldelser i stedet. Halv-tomme sosiale feeds er negativ social proof.",
+      },
+      {
+        heading: "Slik bygger du social proof fra null",
+        body:
+          "Hvis du er nystartet og har ingen social proof ennå, start her: 1) Be eksisterende familie/venner/nettverk om kontakter til småjobber. 2) Tilby 10-20 første jobber til rabatt mot at kunden gir Google-anmeldelse. 3) Send hver kunde anmeldelses-link innen 24 timer etter ferdig jobb. 4) Etter 5-10 anmeldelser, vis dem proudly på nettsiden. 5) Etter 30 anmeldelser, legg til kvantitative tall (\"4,9 ★ av 31 kunder\"). 6) Etter 80+ anmeldelser, kombinere med før/etter-bilder og kundecase. Innen 6-12 måneder har en nystartet håndverker bygget sterk social proof - hvis prosessen er systematisk.",
+      },
     ],
-    relatedTerms: ["anmeldelser", "konverteringsrate", "landingsside"],
+    relatedTerms: [
+      "anmeldelser",
+      "konverteringsrate",
+      "landingsside",
+      "anmeldelsesfunnel",
+      "google-bedriftsprofil",
+      "cta",
+      "schema-markup",
+    ],
     relatedLinks: [
+      { label: "Slik får du flere 5-stjerners Google-anmeldelser", href: "/kunnskapsbank/fem-stjerners-google-anmeldelser-handverker" },
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
     ],
   },
   {
