@@ -1393,17 +1393,85 @@ export const wikiTerms: WikiTerm[] = [
   {
     slug: "bounce-rate",
     term: "Fluktrate (bounce rate)",
-    shortDescription: "Andelen besøkende som forlater nettsiden uten å klikke videre. En høy fluktrate betyr ofte at siden ikke leverer.",
+    shortDescription:
+      "Fluktrate (engelsk: bounce rate) er andelen besøkende som forlater nettsiden uten å klikke videre. For håndverker-nettsider er en høy fluktrate ofte den skjulte årsaken til at markedsføringspenger ikke konverterer til leads.",
     category: "Konvertering",
-    date: "2026-04-18",
+    date: "2026-04-25",
     sections: [
-      { heading: "Hva er det?", body: "Fluktrate (engelsk: bounce rate) er prosentandelen besøkende som kommer inn på én side, ikke gjør noe på siden og går. Ingen klikk videre, ingen interaksjon. For de fleste håndverker-nettsider ligger en sunn fluktrate på 40-60 %. Over 70 % er et tegn på at noe ikke stemmer." },
-      { heading: "Hvorfor er dette viktig for håndverkere?", body: "Høy fluktrate betyr at du betaler for Google Ads eller bygger SEO, og ingen gjør det du ønsker. De kommer, ser seg rundt 10 sekunder, og drar. Ofte er problemet: for treg side, feil målgruppe, eller en åpenbar ting som mangler (telefonnummer, adresse, prisindikasjon)." },
-      { heading: "Hvordan fungerer det?", body: "Google Analytics regner det automatisk. Filtrer etter landingsside for å se hvilke sider som lekker mest. Vanligste fikser: legg til et synlig telefonnummer øverst, reduser sidehastigheten, og pass på at hovedbudskapet matcher søkeordet de kom inn på." },
+      {
+        heading: "Hva er fluktrate?",
+        body:
+          "Fluktrate (engelsk: bounce rate) er prosentandelen av besøkende som kommer inn på én side, ikke gjør noe på siden, og forlater - ingen klikk videre, ingen scroll lenger ned, ingen interaksjon. Måles automatisk av Google Analytics og lignende verktøy. En fluktrate på 70 % betyr at 7 av 10 besøkende drar uten å gjøre noe. Begrepet stammer fra fysikk-analogien: besøkeren \"spretter\" inn i nettsiden og rett ut igjen. I 2026 har Google Analytics 4 erstattet det med \"engagement rate\" (omvendt), men begrepet fluktrate brukes fortsatt i daglig markedsføring.",
+      },
+      {
+        heading: "Hva er en god fluktrate for håndverker-nettsider?",
+        body:
+          "For typiske norske håndverker-nettsider ligger sunne tall i disse områdene: 1) Forside: 40-60 %. Folk lander, ser at de er på rett sted, klikker videre. 2) Spesifikk tjenesteside: 30-50 %. Dedikert innhold som matcher søkeintensjonen. 3) Landingsside fra Google Ads: 20-40 %. Skal være hyper-relevant. 4) Blogg/wiki-artikler: 60-80 %. Folk leser én artikkel og drar - normalt for informasjonsinnhold. Hvis dine tall ligger over disse områdene, er det signal om et problem - oftest treg sidehastighet, dårlig match mot søkeintensjonen, eller mangel av tydelig CTA.",
+      },
+      {
+        heading: "Hvorfor høy fluktrate dreper konvertering",
+        body:
+          "Direkte sammenheng: hvis 80 % av besøkende drar med en gang, har du bare 20 % igjen som potensielt kan konvertere. Selv om de 20 % konverterer på imponerende 10 %, er total konverteringsrate kun 2 %. Senker du fluktraten til 50 %, har du 50 % som kan konvertere - selv på samme 10 % konvertering blant engasjerte gir det 5 % total. Fluktrate er en av de mest oversette konverteringsmotorerene. For håndverkere som betaler for Google Ads er det dobbeltbelastning: du betaler per klikk, men 70-80 % av klikkene gir null verdi.",
+      },
+      {
+        heading: "Hvorfor besøkere flykter - de fem vanligste årsakene",
+        body:
+          "1) Treg sidehastighet - over 4 sekunder lasting mister 40-60 % av besøkene før de ser noe. 2) Feil match mot søket - kunden googlet \"akutt rørlegger Oslo\" og landet på en generell hjemmeside om bedriften. 3) Mangler synlig telefonnummer eller CTA - kunden vet ikke hva de skal gjøre. 4) Mobile-uvennlig layout - tekst som krever zoom, knapper som er for små. 5) Pop-ups som blokkerer innholdet umiddelbart. Disse er de fem dominantskyldige hos håndverker-nettsider. Fiks dem og fluktrate faller typisk 20-40 % på 30 dager.",
+      },
+      {
+        heading: "Slik måler fluktrate i Google Analytics",
+        body:
+          "I Google Analytics 4 (GA4) heter det \"Engagement rate\" - omvendt av fluktrate. Hvis engagement rate er 65 %, er fluktrate 35 %. Finn det under Reports → Engagement → Pages and screens. Filter per landingsside for å se hvilke sider lekker mest. Sammenlign mot benchmarks for samme sidetype. I gamle Universal Analytics (avviklet 2023) var bounce rate eksplisitt - hvis du fortsatt ser den definisjonen i guider, husk at GA4 jobber annerledes. En \"engagert sesjon\" i GA4 er definert som 10+ sekunders besøk, eller har konverteringshendelse, eller ser 2+ sider.",
+      },
+      {
+        heading: "Heatmaps - se hvorfor folk flykter",
+        body:
+          "Når du har identifisert sider med høy fluktrate, bruk heatmaps for å se hvorfor. Microsoft Clarity er gratis og viser: hvor folk klikker (klikk-heatmap), hvor de scroller til (scroll-heatmap), session recordings (faktiske skjermopptak av besøkene). Vanlige observasjoner: folk klikker på elementer som ikke er klikkbare (misvisende design), scroller ikke under fold (innholdet trekker ikke), eller forlater nettsiden umiddelbart etter en pop-up. Heatmaps avslører problemet konkret - bedre enn å gjette. 1-2 timer studering gir ofte 3-5 forbedringspunkter.",
+      },
+      {
+        heading: "Sidehastighet er den enkleste fluktrate-fikseren",
+        body:
+          "Studier konsistent viser: hvert ekstra sekund sidehastighet hever fluktrate med 10-15 %. En side som tar 3 sekunder å laste på mobil har typisk 30 % høyere fluktrate enn samme side på 1,5 sekunder. For håndverker-nettsider er sidehastighet ofte den raskeste fluktrate-fikseren - 1-2 timer med bildeoptimalisering, lazy-loading og rydding i tredjeparts-skripter kan halvere fluktrate. Sjekk Google PageSpeed Insights, fokuser på Core Web Vitals (LCP, INP, CLS), og fiks alt som rapporteres som \"Poor\". Måleffekten i Search Console etter 30 dager.",
+      },
+      {
+        heading: "CTA over folden - direkte fluktrate-reduksjon",
+        body:
+          "Folden er den delen av siden som er synlig før kunden scroller. Hvis hovedformålet med siden ikke er åpenbart over folden, drar besøkere. For håndverker-nettsider betyr det: synlig telefonnummer (klikkbart på mobil), tydelig overskrift som matcher søkeintensjonen, og en primær CTA-knapp som forteller hva de skal gjøre (\"Be om tilbud\", \"Ring nå\"). Plasser disse innen første 600 piksler. Hvis besøkeren må scrolle for å forstå hva nettsiden tilbyr, har du allerede mistet halvparten - flukten skjer i de første 5 sekundene.",
+      },
+      {
+        heading: "Match søkeintensjonen - dedikerte landingssider",
+        body:
+          "En vanlig årsak til høy fluktrate: nettsiden besvarer ikke det kunden søkte etter. Eksempel: kunden googler \"akutt rørlegger Oslo\" og lander på en hjemmeside som handler om bedriftens historie. Mismatch = flukt. Løsning: lag dedikerte landingssider for de viktigste søkeordene. \"Akutt rørlegger Oslo\"-trafikk sendes til en landingsside om akutt rørleggerarbeid - der overskrift, innhold og CTA matcher det kunden ventet. Dette ene grepet halverer typisk fluktrate fra Google Ads-kampanjer.",
+      },
+      {
+        heading: "Mobile vs desktop fluktrate - forskjell",
+        body:
+          "Mobile fluktrate er typisk 10-25 % høyere enn desktop på samme nettside. Forklaring: mindre tålmodighet, dårligere nettverk, mer distraksjoner. For håndverker-nettsider (75-85 % mobil-trafikk) er mobil-fluktrate det viktigste tallet. Sjekk separat for mobil i Google Analytics - sammenlign mobil vs desktop. Hvis mobil er over 70 % og desktop er 45 %, er det et tydelig mobil-spesifikt problem. Vanligste mobile-fluktrate-årsaker: tekst som krever zoom, knapper som er for små, pop-ups som dekker hele skjermen, treg lastetid på 4G.",
+      },
+      {
+        heading: "Pop-ups - en av de største fluktrate-driverne",
+        body:
+          "Aggressive pop-ups som dekker hele skjermen så snart siden lastes er en av de største fluktrate-drivere. Google har siden 2017 straffet \"intrusive interstitials\" i SEO-rangering. For håndverker-nettsider: nyhetsbrev-pop-up som dukker opp etter 2 sekunder = 40-60 % høyere fluktrate. Hvis du må ha pop-up, bruk \"exit intent\" - den dukker bare opp når musen beveger seg mot å lukke nettleseren. Det er mindre invasivt og påvirker fluktrate minimalt. Eller bedre: drop pop-ups helt og bruk i stedet inline kontaktskjemaer plassert i naturlig flyt.",
+      },
+      {
+        heading: "Fluktrate er ikke alltid dårlig",
+        body:
+          "Viktig nyanse: høy fluktrate på enkelte sidetyper er normalt og ikke et problem. Wiki-artikler, kunnskapsbank-innhold, og spesifikke FAQ-sider har naturlig høy fluktrate fordi folk leser ett svar og drar. Det er en suksess - de fikk det de søkte. Lav fluktrate på disse sidene er faktisk uvanlig. Hvor fluktrate skal være lav: forsiden (folk skal utforske), tjenestesider (folk skal lese mer), landingssider (folk skal konvertere). Ikke jakt fluktrate uniformt - vurder per sidetype og søkeintensjon. En kunde som leste timepris-kalkulator-svar og dro fornøyd er en god utfall, ikke en flukt.",
+      },
     ],
-    relatedTerms: ["sidehastighet", "konverteringsrate", "landingsside", "google-analytics"],
+    relatedTerms: [
+      "sidehastighet",
+      "konverteringsrate",
+      "landingsside",
+      "google-analytics",
+      "cta",
+      "mobilvennlig-nettside",
+      "konvertering",
+    ],
     relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
       { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
   {
