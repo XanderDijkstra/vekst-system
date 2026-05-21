@@ -1794,4 +1794,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
     ],
   },
+  {
+    slug: "for-og-etter-bilder-handverker",
+    title: "Før-og-etter-bilder for håndverkere: slik gjør du dem til salg",
+    description:
+      "Praktisk guide for håndverkere: rutine for bildetaking, lys og vinkel, samtykke fra kunden, publisering på Google Bedriftsprofil og Instagram, og hvordan du kobler bildene direkte til tilbudene dine.",
+    category: "Konvertering",
+    readTime: "10 min",
+    date: "2026-05-21",
+    sections: [
+      {
+        heading: "Hvorfor før-og-etter-bilder selger jobber",
+        body:
+          "Folk kjøper håndverk med øynene. En kunde som vurderer å bruke 80 000 kr på et nytt bad vil se hva du faktisk leverer - ikke lese tre avsnitt om hvor grundig du jobber. Maler, flislegger og taktekker som systematisk dokumenterer hver jobb, ser typisk en konverteringsrate som er 20-30 prosent høyere på tilbudene sine. Bildene er social proof, salgsmateriell og dokumentasjon i ett, og de koster deg fem minutter per oppdrag å produsere. Det er den billigste markedsføringen du har tilgang til.",
+      },
+      {
+        heading: "Slik bygger du en bilderutine som faktisk holder",
+        body:
+          "Du trenger ikke et speilreflekskamera. En vanlig mobil holder, men rutinen avgjør alt. Lag en regel: bilde av rommet før du flytter en eneste ting, bilde underveis ved hvert milepælpunkt, og bilde av sluttresultatet fra samme vinkel som førstebildet. En rørlegger som bruker fem minutter på dette per jobb, sitter på 200 ferdige caser etter ett år. Det er gull verdt for både nettside og lokal SEO. Skriv inn rutinen i sjekklisten for hvert prosjekt - hvis det ikke står der, blir det ikke gjort.",
+      },
+      {
+        heading: "Lys, vinkel og bakgrunn - de tre vanligste feilene",
+        body:
+          "De fleste håndverker-bilder er ubrukelige fordi de er tatt i halvmørke, fra magehøyde, med verktøykasser i bakgrunnen. Tre regler løser 90 prosent av problemene: skru på alt lys i rommet og åpne gardinene, hold telefonen i øyehøyde og hold den vannrett, og rydd vekk alt som ikke skal være med på bildet. En tømrer eller flislegger som tar 30 sekunder ekstra per bilde, får materiale som faktisk kan publiseres - ikke bilder som gjør både kunden og firmaet flau når de havner på nettsiden.",
+      },
+      {
+        heading: "Få kundens tillatelse fra dag én",
+        body:
+          "Mange håndverkere lar være å publisere de beste bildene fordi de glemte å spørre. Bygg det inn i tilbudet ditt: en setning om at dere tar dokumentasjonsbilder som kan brukes i markedsføring, og at kunden krysser av hvis hen ikke vil at adresse vises. Rundt 95 prosent sier ja når det står svart på hvitt fra start. Spør du etter at jobben er ferdig, må du ofte gå tilbake og hente bilder du allerede har - og en del kunder svarer aldri. Samtykke før spaden går i jorda er den enkleste vinningen i hele løpet.",
+      },
+      {
+        heading: "Hvor bildene skal jobbe for deg",
+        body:
+          "Bildene må jobbe for deg på tre steder samtidig. Last opp minst 10 nye bilder i måneden på Google Bedriftsprofil - det er den enkleste lokal SEO-gevinsten en elektriker eller maler har. Bygg et galleri på nettsiden sortert per fagområde, ikke kronologisk - en potensiell kunde leter etter bad eller fasade, ikke etter september 2025. Og post 2-3 ganger i uken på Instagram med fast format. Samme bilde kan gjenbrukes på alle tre flater - du trenger ikke produsere nytt innhold for hver kanal.",
+      },
+      {
+        heading: "Bygg et søkbart arkiv som hjelper salget",
+        body:
+          "Organiser bildene per prosjekttype, ikke per dato. Når du sender tilbud på et baderomsoppdrag i Asker, vil du raskt kunne legge ved tre referansebilder fra lignende bad. En flislegger som har et søkbart arkiv med 50 ferdige bad, kan vise potensielle kunder akkurat den stilen de spør om - og lukker tilbud raskere. Bruk en fast mappestruktur (fag, romtype, stil) eller et CRM som tagger bildene automatisk når du laster dem opp under et prosjekt. Det tar én ettermiddag å sette opp, og sparer deg timer hver uke.",
+      },
+      {
+        heading: "Slik kobler du bildene direkte til tilbudet",
+        body:
+          "Et tilbud uten bilder er en pris. Et tilbud med tre relevante referansebilder er bevis. Når en pusser eller murer sender tilbud på fasade-oppussing, bør de tre bildene være fra fasader i samme stil - ikke det første og beste fra mappen. Dette tar to minutter ekstra per tilbud, men løfter konverteringsraten merkbart - mange håndverkere melder 10-15 prosent flere ja-svar. Lag en sjekkliste i tilbudsmalen din med ett enkelt punkt: legg ved tre bilder fra lignende jobb. Den ene linjen alene kan være verdt 100 000 kr i året.",
+      },
+      {
+        heading: "Bruk video som forsterker - ikke erstatter",
+        body:
+          "Korte videoer på 15-30 sekunder slår stillbilder på Instagram og Facebook, men de er tyngre å produsere. Start enkelt: film tre klipp under jobben - før, underveis, etter - og sett dem sammen i en gratis app som CapCut. En taktekker som legger ut én slik video i uka, bygger gjenkjennelse i nærområdet på under et halvår. Stillbildene gjør grunnarbeidet, video er kremen på toppen. Ikke vent til du har tid til en proff videoproduksjon - de små klippene du tar mellom kaffekopper er det som faktisk havner ute.",
+      },
+      {
+        heading: "Mål effekten, ikke bare antall følgere",
+        body:
+          "Følgere på Instagram betaler ikke regningene. Det som teller er om bildene fører til flere forespørsler og høyere konvertering på tilbud. Spør hver ny kunde hvor de hørte om deg, og noter om de nevner bilder, Google Bedriftsprofil eller Instagram. Etter tre måneder ser du raskt hvilke flater som faktisk skaffer leads. En elektriker som oppdager at 40 prosent av nye forespørsler nevner bildegalleriet på nettsiden, vet hvor neste markedsføringskrone bør gå. Uten måling gjetter du - og du gjetter feil oftere enn du tror.",
+      },
+      {
+        heading: "Slik samler Vekst Systemet det hele",
+        body:
+          "Bildearkiv, automatiserte oppslag i Google Bedriftsprofil, kobling til tilbud og oppfølging av leads - i Vekst Systemet ligger det i samme flate. Du tar bildene på mobilen, systemet tagger dem til riktig prosjekt og fag, og de er klare til å legges ved neste tilbud eller publiseres direkte til Google og sosiale kanaler. Det er forskjellen mellom å samle bilder og å bruke dem aktivt i salget. En tømrer eller maler som flytter dette ett sted, frigjør 3-5 timer i uka - og slutter å sende tilbud uten bilder fordi det ble for travelt.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Google Bedriftsprofil-sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Instagram for håndverkere", href: "/kunnskapsbank/instagram-for-handverkere" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
