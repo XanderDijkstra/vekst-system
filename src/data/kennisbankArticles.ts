@@ -1862,4 +1862,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "markedsbudsjett-for-handverkere",
+    title: "Markedsbudsjett for håndverkere: Hvor mye bør du bruke i 2026?",
+    description:
+      "Hvor mye bør en håndverker bruke på markedsføring i 2026? Slik bygger du et budsjett som gir flere kunder per krone - uten å sløse på kanaler som ikke virker.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-05-22",
+    sections: [
+      {
+        heading: "Markedsføring er en investering, ikke en utgift",
+        body:
+          "For mange håndverkere starter samtalen feil sted: \"hva er det minste jeg kan komme unna med?\" Det riktige spørsmålet er hvor mye en ny kunde faktisk er verdt for deg. En rørlegger med snittjobb på 18 000 kr og 35 % bruttomargin har rundt 6 300 kr å spille med per kunde før jobben blir ulønnsom. En taktekker med snittjobb på 95 000 kr har mye mer å gå på. Budsjettet ditt skal følge denne verdien, ikke en fast prosentsats hentet fra en generell bransjerapport. Markedsføring som genererer en lead til lavere kost enn marginen din, er ikke en utgift - det er fortjent omsetning som ellers ville gått til en konkurrent.",
+      },
+      {
+        heading: "Tommelfingerregelen: 3-8 % av omsetningen",
+        body:
+          "En etablert håndverkerbedrift bruker typisk 3-5 % av omsetningen på markedsføring, mens vekstbedrifter ligger på 6-8 % eller mer. En elektriker med 4 millioner i omsetning lander dermed et sted mellom 120 000 og 320 000 kr i året. Det høres mye ut, men husk at lønnskostnader, abonnementer og tid brukt på sosiale medier teller inn. Tallet er bare et utgangspunkt - har du allerede full ordrebok seks måneder fram, kan 2 % holde i en periode. Skal du gå fra én til tre montører, må du sannsynligvis investere 8-10 % i en sesong for å bygge leadstrømmen som forsvarer den nye kapasiteten.",
+      },
+      {
+        heading: "Nystartede bør bruke mer - også prosentvis",
+        body:
+          "Den nystartede maleren eller flisleggeren som akkurat har levert inn enkeltpersonforetaket, har et grunnleggende problem: ingen kjenner navnet ditt, du har ingen anmeldelser, og Google har ingen historikk å rangere deg på. I de første 12 månedene er det normalt å bruke 10-15 % av planlagt omsetning på markedsføring og synlighet - inkludert nettside, Google Bedriftsprofil-oppsett og betalt annonsering for å få fart på leadstrømmen. Du bygger ikke bare etterspørsel; du bygger merkevare og lokal SEO som gir avkastning i mange år. En etablert tømrer med 100 anmeldelser kan senere kutte budsjettet til en tredjedel og fortsatt holde ordreboken full.",
+      },
+      {
+        heading: "Slik fordeler du kronene mellom kanaler",
+        body:
+          "Det finnes ingen universell fordeling, men en god startmal for en håndverker som vil ut av Mittanbud-avhengighet ser slik ut: 40 % på egen nettside og lokal SEO (utvikling, vedlikehold, innhold), 25 % på Google Ads for å fange høyintent søk som \"rørlegger akutt Bergen\", 15 % på Facebook- og Instagram-annonser med før- og etter-bilder for å bygge synlighet, 10 % på systemer som CRM, anmeldelsesfunnel og automatisering, og 10 % som buffer til testing. Det viktige er at minst halvparten går til kanaler du eier selv - nettside, anmeldelser og kundedatabase. Lead-plattformer kan ligge utenfor markedsbudsjettet, eller utgjøre en kontrollert post på 10-20 %.",
+      },
+      {
+        heading: "De usynlige kostnadene som spiser opp budsjettet",
+        body:
+          "Markedsføring er ikke bare det du betaler Google og Facebook. Tid teller. En murer eller pusser som bruker 4 timer i uken på å svare henvendelser, skrive innlegg og redigere bilder, koster bedriften 600-800 kr i timen i tapt fakturerbar tid. Det er 100 000-150 000 kr i året som ikke står oppført noe sted i regnskapet. Verktøy som CRM, planleggingssystem, e-postutsendelser og hosting legger på 1 000-3 000 kr i måneden. Innhold koster å produsere - en god landingsside med video og kundereferanser tar lett 20 000 kr enten i ekstern produksjon eller egen tid. Et reelt markedsbudsjett summerer alt dette, ikke bare annonsekontoen.",
+      },
+      {
+        heading: "Mål alt på kost per lead og kost per vunnet jobb",
+        body:
+          "Et budsjett uten måling er bare en utgift. For hver krone du legger inn, må du vite hvor mange leads den ga og hvor mange av leadene som ble til betalt jobb. En elektriker som bruker 8 000 kr på Google Ads og får 16 forespørsler, har en lead-kost på 500 kr. Hvis fire av disse blir kunder med snittjobb på 22 000 kr, er det 2 000 kr per vunnet jobb - utmerket avkastning. En annen kanal kan se billig ut per klikk, men gi leads av så dårlig kvalitet at kost per vunnet jobb passerer 5 000 kr. Uten skikkelig sporing av hvilke kanaler som leverer, bytter du om budsjettet på feil grunnlag - og det merkes på bunnlinjen ganske raskt.",
+      },
+      {
+        heading: "Når skal du skru opp - og når må du holde igjen?",
+        body:
+          "Tommelfingerregelen er enkel: så lenge en kanal gir leads med kost per vunnet jobb under bruttomarginen din, skal du investere mer. Ser en taktekker eller flislegger at Google Ads henter inn jobber for 3 500 kr i kostnad mens marginen per jobb er 28 000 kr, er det dumt å holde igjen. Skru opp budsjettet 20-30 % og overvåk om kvaliteten holder. Begynner kost per vunnet jobb å krype oppover - og det vil den, fordi de beste søkeordene blir dyrere når du går bredere - dropper du tilbake til forrige nivå. Budsjettøkning er en serie kontrollerte eksperimenter, ikke en permanent flytting av tallet.",
+      },
+      {
+        heading: "Fire feller som tømmer budsjettet uten å gi resultater",
+        body:
+          "Den første fellen er å fordele budsjettet jevnt over for mange kanaler. En liten håndverkerbedrift har ikke ressurser til å være sterk på fem plattformer samtidig - velg to og gjør dem ordentlig. Den andre er sporadisk innsats: 30 000 kr i Google Ads i mars og deretter helt mørkt før jul. Algoritmer hater dette og leadstrømmen kollapser hver gang. Den tredje er å investere i annonser uten først å fikse konvertering på nettsiden - du betaler for trafikk som faller fra på en treig landingsside med uklar CTA. Den fjerde er fraværende oppfølging: leads kommer inn, men ingen svarer raskt nok. Et tapt anrop som blir liggende i 3 timer er bortkastet markedsbudsjett. Fiks oppfølgingen først, deretter trafikken.",
+      },
+      {
+        heading: "Forutsigbar kostnad slår ad-hoc utgifter",
+        body:
+          "Det vanskeligste med markedsbudsjettet er ikke å sette tallet - det er å holde rytmen gjennom hele året. Travle perioder gjør at maleren eller rørleggeren skrur av annonsene, og rolige perioder kommer fordi nettopp det ble gjort tre måneder tidligere. En fast månedlig kostnad som dekker nettside, lokal SEO, anmeldelsesfunnel, lead-oppfølging og CRM gir forutsigbarhet uten å kreve at du følger med hver uke. Vekst Systemet leverer denne stacken for håndverkere på ett tydelig månedsbeløp uten oppstartskostnad og uten lang binding - et budsjett du kan sette én gang og forholde deg til, samtidig som du fortsatt kan supplere med Google Ads eller kampanjer i topp-sesong.",
+      },
+    ],
+    relatedLinks: [
+      { label: "ROAS for håndverkere", href: "/kunnskapsbank/roas-for-handverkere" },
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
