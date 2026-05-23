@@ -1925,4 +1925,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "linkedin-for-handverkere",
+    title: "LinkedIn for håndverkere: Slik bygger du B2B-pipeline",
+    description:
+      "Bør håndverkere være på LinkedIn? Hvilke jobber kommer faktisk derfra, hvordan poste, og når er det bortkastet tid. Konkret B2B-guide for håndverkerbedrifter.",
+    category: "Leads",
+    readTime: "11 min",
+    date: "2026-05-23",
+    sections: [
+      {
+        heading: "LinkedIn er ikke for alle håndverkere - men noen jobber kommer kun derfra",
+        body:
+          "LinkedIn høres ut som noe markedssjefer i Oslo gjør, ikke noe som tilhører en rørlegger fra Skien. Men hvis du jobber mot bedriftskunder, eiendomsforvaltere eller borettslag, er det her beslutningstakerne faktisk henger om dagen. En tømrer som tar mye butikkinnredning eller en elektriker som lever av servicekontrakter mot næringsbygg, har en helt annen kundereise enn maleren som maler stuer for privatpersoner. Privatkunden googler \"maler Bergen\" - bedriftskunden spør først en kollega på LinkedIn. Hvis 30-40 % av omsetningen din kommer fra B2B, fortjener LinkedIn 2-3 timer i uka. Hvis du bare gjør privatoppdrag, gå rett til Facebook eller Instagram i stedet.",
+      },
+      {
+        heading: "Hvilke jobber kommer faktisk fra LinkedIn?",
+        body:
+          "Forvent ikke at en huseier som trenger ny dusj plutselig finner deg her - de havner aldri på LinkedIn. Det du derimot kan vinne er rammeavtaler, serviceavtaler og større prosjekter. En taktekker har vunnet 1,2 millioner i rehabiliteringsjobber for et borettslag etter at styreleder så et innlegg om en lignende jobb. En entreprenør har plukket opp leveranser til skoler og barnehager via prosjektledere i kommunen. Eiendomsforvaltere som forvalter 50-200 bygg er gull verdt - én forvalter kan gi en rørlegger eller elektriker stabile oppdrag for 800 000 kr i året. Det er disse kundetypene som rettferdiggjør innsatsen, ikke enkeltprivatkunder.",
+      },
+      {
+        heading: "Bedriftsside eller personlig profil - svaret er begge",
+        body:
+          "En vanlig feil er å lage en LinkedIn-side for firmaet og deretter ikke gjøre noe mer. Bedriftssider får 30-40 % lavere rekkevidde enn personlige profiler i 2026 - LinkedIns algoritme prioriterer enkeltpersoner. Bygg derfor begge: en pen bedriftsside med tjenester, kontaktinfo og linker til nettsiden, og en personlig profil for daglig leder eller en av eierne. Den personlige profilen er motoren - det er der innleggene postes, det er der folk kommenterer, og det er der relasjoner faktisk bygges. Bedriftssiden fungerer som en katalog folk besøker etter at de har sett innleggene dine flere ganger, så den må ha CTA og lenker til konkrete tjenestesider på nettsiden din.",
+      },
+      {
+        heading: "Innholdet som faktisk får respons fra B2B-kunder",
+        body:
+          "Glem motiverende sitater og \"mandagsboost\"-innlegg. Det folk faktisk stopper opp ved er konkret fagstoff fra prosjekter. En flislegger som viser et bilde av et 800 kvm gulv i et legesenter med to setninger om dilatasjonsfuger og lydkrav, får mer engasjement enn 20 generiske innlegg. En murer som forklarer hvorfor en pussjobb tok tre uker ekstra på grunn av fukt i veggene, lærer forvalterne i nettverket noe nyttig. Skriv fra fagmannsperspektivet - hva som gikk galt, hva som overrasket deg, hva en innkjøper bør vite før de henter inn pris. Det er den typen kunnskap som bygger autoritet og som forvaltere husker når de skal bestille neste jobb.",
+      },
+      {
+        heading: "Posting-rytme: to ganger i uka, samme dager, hver uke",
+        body:
+          "Algoritmen belønner forutsigbarhet. Velg to faste dager - typisk tirsdag og torsdag mellom 07:30 og 09:00 når forvaltere og prosjektledere scroller før møtene starter - og hold på dem i minimum 12 uker. De første åtte ukene ser det ut som ingenting skjer. Du får 50 visninger og to likes per innlegg, og det føles bortkastet. Så kommer den ene kommentaren fra en eiendomssjef som har 80 bygg i porteføljen, og plutselig gir 16 ukers innsats deg en kunde på en halv million i året. Slutter du etter to måneder fordi det \"ikke virker\", mister du nettopp den effekten LinkedIn er bygget for: langsom akkumulering.",
+      },
+      {
+        heading: "Direkte outreach uten å være selger-aktig",
+        body:
+          "LinkedIn er ikke bare innlegg - direkte meldinger til relevante kontakter kan gi mer enn alle innleggene til sammen, hvis du gjør det riktig. En glassmester som vil inn hos eiendomsforvaltere kan søke opp 30 navngitte forvaltere i regionen, sende en connection request uten salgsbudskap, vente til de godtar, og deretter sende en kort melding: \"Hei. Vi har akkurat ferdigstilt fasadeglass på et næringsbygg i Drammen, ville bare si fra at vi tar denne typen jobber i ditt område hvis du noen gang trenger en alternativ leverandør.\" Ingen kalenderlink, ingen salgspitch. Cirka 1 av 10 vil svare. Av disse blir kanskje 2 av 10 til reell kunde over 12 måneder. Det er en lavkostnads B2B-funnel som koster deg én time i uka.",
+      },
+      {
+        heading: "LinkedIn Ads - sjelden lønnsomt for små håndverkerbedrifter",
+        body:
+          "LinkedIn Ads høres fristende ut, men kostnad per klikk ligger ofte på 80-150 kr i Norge - tre til fem ganger dyrere enn Google Ads. For en murer som primært vil ha lokale jobber er dette katastrofalt avkastningsmessig. Hvis du absolutt vil teste betalt LinkedIn, bruk det kun til retargeting av folk som har besøkt nettsiden din eller engasjert seg i innleggene dine - aldri som kald lead-kanal. 5 000-8 000 kr i måneden på sponset organisk innhold til en spisset målgruppe (for eksempel \"Property Manager\" i din region) kan funke for en entreprenør med snittjobb over 500 000 kr. For alle andre er det penger som hører bedre hjemme på Google.",
+      },
+      {
+        heading: "Mål LinkedIn med samme strenghet som alle andre kanaler",
+        body:
+          "Bare fordi LinkedIn føles \"mykt\" og langsiktig, betyr ikke det at du skal slippe målingen. Spør hver nye B2B-kunde hvor de hørte om deg, og logg svaret i CRM. Tagg LinkedIn-genererte leads separat med egen kilde-tag. Etter 12 måneder skal du kunne svare på: hvor mye omsetning kom fra LinkedIn-relaterte kontakter, hvor mye tid brukte vi på plattformen, og hva blir kost per vunnet jobb? En kjøkkenmontør som brukte 100 timer på LinkedIn i året og fikk inn 350 000 kr i ordre via plattformen, har en time-til-omsetning-ratio som gjerne slår både Google Ads og Mittanbud. Men du finner det ikke ut uten skikkelig sporing - og det er der de fleste håndverkere ryker.",
+      },
+      {
+        heading: "Faresignaler: når LinkedIn IKKE er for deg",
+        body:
+          "Hvis 90 % av kundene dine er privatpersoner som ikke leser bransjenyheter, er LinkedIn feil arena. En altmuligmann som lever av nabolagets oppdrag har null nytte av plattformen, og to timer i uka er to timer som heller burde gått til Google Bedriftsprofil og lokal SEO. En vindusvasker som primært tar villakunder bør investere i flyer-kampanjer og Facebook-annonser i stedet. LinkedIn er ikke en universalplattform - den er spisset mot B2B-pipeline. Ærlig svar på spørsmålet \"vil jeg ha flere bedriftskunder?\" må være ja før du investerer tid her. Hvis svaret er nei, dropp det og bruk timene på kanaler som passer kundeporteføljen din bedre.",
+      },
+      {
+        heading: "Bygg LinkedIn inn i en samlet leadstrategi",
+        body:
+          "LinkedIn alene gir treg avkastning. Kombinert med en nettside som rangerer lokalt, automatisert lead-oppfølging når innboksen vokser, og en anmeldelsesfunnel som styrker social proof folk søker opp etter at de har sett deg på LinkedIn, blir effekten en helt annen. Forvalteren som klikker seg fra et innlegg om butikkinnredning skal lande på en landingsside med tydelig CTA, gode case-bilder og rask responstid - ellers er innsatsen bortkastet. Vekst Systemet binder denne stacken sammen: nettside med konvertering, lokal SEO, anmeldelser og automatisering av oppfølging i ett system, så LinkedIn blir én av flere kilder som mater den samme motoren - i stedet for en frittstående kanal du må holde liv i alene.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Instagram for håndverkere", href: "/kunnskapsbank/instagram-for-handverkere" },
+      { label: "Markedsbudsjett for håndverkere", href: "/kunnskapsbank/markedsbudsjett-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
