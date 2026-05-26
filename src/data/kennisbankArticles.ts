@@ -2119,4 +2119,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "landingssider-per-tjeneste-handverker",
+    title: "Landingssider per tjeneste: Derfor er én nettside ikke nok",
+    description:
+      "Én tjenester-side rangerer dårlig og konverterer 1-2 %. Tjenestespesifikke landingssider gir flere lokale Google-treff og 4-8 % konverteringsrate - se oppskriften.",
+    category: "Konvertering",
+    readTime: "10 min",
+    date: "2026-05-26",
+    sections: [
+      {
+        heading: "Hvorfor én tjenester-side ikke vinner alle søk",
+        body:
+          "Den vanlige håndverker-nettsiden har én tjenester-side med en lang liste: bad, kjøkken, totalrenovering, lekkasje, dusjbrenne. Logisk for et menneske, dødt for Google. Søkemotorer rangerer per side, ikke per nettsted. Når en kunde i Bergen googler baderomsrenovering Bergen, konkurrerer den generelle tjenester-siden din mot bedrifter som har en egen side dedikert til baderomsrenovering med byen i URL og innhold. Du taper hver gang. Tjenestespesifikke landingssider er den enkleste måten en rørlegger, tømrer eller flislegger kan øke synligheten i Google og samtidig forbedre konverteringsraten på trafikken bedriften allerede får.",
+      },
+      {
+        heading: "Hva en tjenestespesifikk landingsside faktisk gjør",
+        body:
+          "En tjenestespesifikk landingsside er ikke bare en kopi av tjenester-siden med ett produkt løftet ut. Det er en side bygget med ett eneste mål: at en kunde som søker etter akkurat den tjenesten skal ringe eller fylle ut skjemaet. Tittelen matcher søket eksakt, bildene viser akkurat den jobben, prosessen står steg for steg, prisspennet er nevnt, og CTA-en er konkret. En elektriker som lager én side for elbillader-installasjon, én for sikringsskap-oppgradering og én for downlights, vinner tre forskjellige søk i stedet for å slåss på den ene elektrikertjenester-siden.",
+      },
+      {
+        heading: "Konverteringsraten du går glipp av med en samlet side",
+        body:
+          "Tallene er konsekvente. En generell tjenester-side på en håndverker-nettside konverterer typisk 1-2 % av besøkende til lead. En dedikert landingsside for én tjeneste konverterer 4-8 %. På 500 månedlige besøk er det forskjellen mellom 5-10 leads og 20-40. For en maler eller taktekker med jevn strøm av Google-trafikk gir utbygging av tjenestesider flere leads fra samme trafikkmengde - uten ekstra annonsekroner. Tapet på den generelle siden skyldes at den prøver å være alt for alle: en kunde som leter spesifikt etter takplater må scrolle gjennom info om hele virksomheten før de finner det de leter etter. Friksjonen koster jobber.",
+      },
+      {
+        heading: "Innholdsoppskriften som virker - per tjenesteside",
+        body:
+          "Oppskriften for en tjenestespesifikk landingsside er enkel og gjentakbar. H1 med tjenesten og gjerne byen, for eksempel baderomsrenovering Trondheim. Et kort avsnitt som beskriver hva tjenesten omfatter - 4-6 linjer, ikke en roman. Tre til fem bilder fra reelle prosjekter, ikke stockbilder. Prosessen i 4-5 steg: kontakt, befaring, tilbud, gjennomføring, etterservice. Pris eller prisspenn der det er mulig - vi gjør komplett baderomsrenovering fra 180 000 kr. Tre konkrete prosjektreferanser med kort beskrivelse. Til slutt en seksjon med vanlige spørsmål, og et tydelig CTA-skjema som spør om kun navn, telefon, kommune og en kort beskrivelse av jobben.",
+      },
+      {
+        heading: "Tjeneste pluss by - den sterke lokal SEO-kombinasjonen",
+        body:
+          "Tjeneste pluss by er en sterk lokal SEO-kombinasjon Google liker. En tømrer som dekker Drammen, Lier og Asker bør ikke ha én generell snekker-side; han bør ha Snekker Drammen, Snekker Lier og Snekker Asker - hver med tilpasset innhold, lokale prosjekter og bilder fra nærområdet. Lagt sammen rangerer dette i tre kommuner samtidig og dekker tre forskjellige søkeintensjoner. Viktig: ikke kopier samme tekst på tre sider med kun byen byttet ut. Google leser duplikat-innhold som spam og rangerer ingen av sidene godt. Hver side må ha unikt innhold, ekte lokale referanser og separate bilder.",
+      },
+      {
+        heading: "Praktisk eksempel: en rørlegger som doblet leadsene",
+        body:
+          "En rørlegger i Asker hadde én tjenester-side med 14 typer jobber listet opp. Trafikken var 320 besøk i måneden, leads 4-6. Vi delte tjenester opp i seks landingssider: lekkasjer, baderomsrenovering, varmtvannsbereder, vannrenseanlegg, drenering og service. Hver side fikk egne bilder, FAQ, prisspenn og CTA. Etter 4 måneder var Google-trafikken oppe i 580 besøk, leads i 18-24 per måned. Konverteringsraten var hevet fra 1,6 % til 3,8 %. Investeringen var én ukes arbeid med tekst og bilder. Tilbakebetalingen kom på første ekstra jobb - resten ble ren oppside i månedene som fulgte.",
+      },
+      {
+        heading: "Slik prioriterer du hvilke tjenester som får egen side først",
+        body:
+          "Bygg ut landingssidene i prioritert rekkefølge - ikke alle på en gang. Begynn med tjenesten som har høyest snittordreverdi og som du leverer best. For en maler er det ofte innvendig maling av hel leilighet. For en flislegger baderomsfliser. For en taktekker omtekking av betongtakstein. Gå til Google og søk på tjenesten i kommunen din - er konkurrentene synlige med dedikerte sider? Hvis ja, må du matche. Hvis nei, har du et åpent vindu og bør gripe det. Bygg én side i uka i 6-10 uker, så har du dekket de viktigste tjenestene dine. Etter det er resten finjustering.",
+      },
+      {
+        heading: "CTA og skjema må tilpasses tjenesten",
+        body:
+          "CTA og skjema må tilpasses tjenesten - ikke kopier samme felt på alle sider. På en akutt-tjeneste som lekkasje, strømbrudd eller taklekkasje skal telefonnummeret være øverst og stort, med kort tekst som ring oss nå - vi rykker ut i dag. På en planleggings-tjeneste som kjøkkenrenovering eller totalrenovering skal skjemaet ha felt for ønsket oppstart, omtrentlig budsjett og prosjekttype. Et skjema med 4 felt på en akutt-side skremmer bort kunden; samme skjema på en planleggings-side gir bedre kvalifiserte leads og enklere lead-oppfølging i etterkant. Tilpasningen er hele forskjellen på et skjema som ligger der og et som faktisk fyller innboksen.",
+      },
+      {
+        heading: "Bygg det inn i systemet - ikke som engangsprosjekt",
+        body:
+          "Tjenestesider er ikke et engangsprosjekt - de er en del av et levende system. Hver side trenger oppfølging: nye bilder fra ferdige prosjekter, oppdaterte prisspenn, anmeldelser fra kunder som tok akkurat den tjenesten, nye spørsmål i FAQ-en basert på hva kundene faktisk spør om. Vekst Systemet leverer dette ferdig satt opp: en mal for tjenestespesifikke landingssider, lokal SEO optimalisert for hver kommune du dekker, og automatisert oppfølging på hver lead som kommer inn - med sporing på hvilken side de fylte ut skjemaet på. Du får både synlighet og konvertering uten å bygge alt fra grunnen selv.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
