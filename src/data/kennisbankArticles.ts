@@ -2182,4 +2182,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "konkurranseanalyse-for-handverkere",
+    title: "Konkurranseanalyse for håndverkere: Kartlegg de tre nærmeste",
+    description:
+      "De fleste håndverkere aner ikke hvem de faktisk konkurrerer mot i Google. Slik finner du de tre nærmeste lokale konkurrentene og hva du må slå dem på.",
+    category: "SEO",
+    readTime: "10 min",
+    date: "2026-05-27",
+    sections: [
+      {
+        heading: "Konkurransen du tror du har, er ikke den ekte",
+        body:
+          "De fleste håndverkere har et bilde av konkurransen som ikke stemmer med virkeligheten. En maler i Trondheim tror han konkurrerer med Hansen Maler og Lillevik Bygg fordi det er navnene han hører nevnt blant kjentfolk. Men i Google er det helt andre tre bedrifter som dukker opp i kartpakken når en kunde søker maler Trondheim. Det er disse tre du faktisk slåss med om hver eneste lead, ikke de du møter på byggevarehuset. Skiftet fra antakelse til data er hele poenget med en konkurranseanalyse. Når du vet hvem de tre er, hva de gjør bedre enn deg og hvor de er svake, vet du nøyaktig hva du må fikse for å rangere over dem.",
+      },
+      {
+        heading: "Hva en konkurranseanalyse egentlig er for en håndverker",
+        body:
+          "En konkurranseanalyse for en håndverker er ikke et 40-siders dokument med markedsandeler og SWOT-matriser. Det er et enkelt regneark hvor du sammenligner deg med tre direkte konkurrenter på syv-åtte målbare punkter: antall anmeldelser, snittscore, anmeldelsesfrekvens, antall tjenestesider på nettsiden, sidehastighet, NAP-konsistens, antall bilder på Google Bedriftsprofil og om de annonserer på Google Ads. Disse tallene tar 90 minutter å hente inn for en rørlegger eller elektriker, og de forteller hvor hver enkelt konkurrent er sterk og hvor du har en åpning. Forskjellen fra fagprat på byggeplassen er at du måler det Google selv måler, ikke det du tror.",
+      },
+      {
+        heading: "Steg 1: Finn de tre du står ved siden av i Google Maps",
+        body:
+          "Åpne Google Maps i en privat nettleserfane så søkene ikke påvirkes av din egen lokasjonshistorikk. Søk etter primærtjenesten din pluss byen: elektriker Bergen, taktekker Kristiansand, flislegger Stavanger. De tre bedriftene som vises i den lokale kartboksen er konkurrentene som tar mesteparten av søketrafikken i området ditt. Skriv ned navnene. Gjenta søket med to-tre andre tjenester du leverer. En tømrer kan søke både snekker Bergen og hytterenovering Bergen og oppdage at det er ulike konkurrenter på de to søkene. Ikke ta med konkurrenter du ser i organiske treff under kartet ennå; kartpakken er der lokale håndverkerjobber faktisk fordeles.",
+      },
+      {
+        heading: "Steg 2: Sammenlign Google Bedriftsprofil punkt for punkt",
+        body:
+          "Klikk inn på hver av de tre konkurrentene og noter: antall anmeldelser, snittstjerner, dato for siste anmeldelse, hvor mange bilder de har lastet opp og hvor mange tjenestekategorier de bruker. En murer med 87 anmeldelser, snitt 4,7 og siste anmeldelse for tre dager siden er i en annen liga enn en med 12 anmeldelser fra 2023. Sjekk også om de svarer på anmeldelser, både gode og dårlige. Bedrifter som svarer fremstår mer profesjonelle og blir foretrukket av kundene som leser gjennom. Sammenlign med din egen profil i samme rad i regnearket. Forskjellen mellom deg og det beste tallet på hver kolonne er din kortsiktige handlingsliste.",
+      },
+      {
+        heading: "Steg 3: Mål anmeldelsessignalet - antall, snitt og frekvens",
+        body:
+          "Anmeldelser er det signalet Google vekter tyngst etter avstand og kategori. Tre tall teller: totalt antall, snittscore og frekvens. En flislegger med 200 anmeldelser i snitt 4,9 men ingen ny anmeldelse på et halvt år, har et synkende signal. En med 60 anmeldelser men en ny hver uke, har et stigende signal. Google ser dette og rangerer oppover. Sjekk dato for siste tre anmeldelser hos hver konkurrent og regn ut frekvensen, antall per måned siste halvår. Hvis du henter inn én anmeldelse i måneden mens konkurrenten henter åtte, vet du at en anmeldelsesfunnel ikke er valgfri. Det er den ene knappen du må trykke på først.",
+      },
+      {
+        heading: "Steg 4: Analyser nettsiden og konverteringen",
+        body:
+          "Gå inn på hver konkurrents nettside med både laptop og mobil. Test sidehastighet med en gratis tjeneste; alt over 3 sekunder på mobil er svakt. Tell antall tjenestesider de har. En taktekker med én generell side er svakere enn en med seks dedikerte sider for omtekking, taklekkasje, snørydding og service. Sjekk om de har tydelig telefonnummer øverst, et kort skjema, prosjektreferanser med før og etter-bilder og en synlig CTA. Test selv hvor mange klikk det tar å nå et skjema fra forsiden. Friksjon her er forskjellen på 1 % og 4 % konverteringsrate, og det er ofte enkelttingen som skiller en mobilvennlig landingsside som leverer leads fra en pen side som ikke gjør det.",
+      },
+      {
+        heading: "Steg 5: Sjekk lokale SEO-signaler og NAP-konsistens",
+        body:
+          "Søk konkurrentens navn på Proff.no, 1881.no og Gule Sider. Stemmer adresse og telefon med det som står på Google Bedriftsprofil og nettsiden deres? Hvis ja, har de NAP-konsistens på plass og Google stoler mer på dem. Hvis nei, har du en åpen flanke å utnytte. Sjekk om de er nevnt på lokale bygge-blogger, kommunens næringsregister eller faglig presse. Dette er backlinks som styrker lokal SEO. En elektriker eller rørlegger som ikke er nevnt utenfor sin egen nettside, har et svakere lokalt fotavtrykk enn det Google-resultatet alene viser. Backlinks er sjelden noe håndverkere jobber bevisst med, så her finnes ofte enklere gevinster enn folk tror.",
+      },
+      {
+        heading: "Lag en månedlig oppfølging, ikke et engangsprosjekt",
+        body:
+          "Konkurransebildet endrer seg. Konkurrenter får anmeldelser, oppdaterer nettsiden, starter Google Ads eller pauser dem. Hvis konkurranseanalysen er noe du gjør én gang i 2026 og glemmer, blir den verdiløs på fire måneder. Sett opp en månedlig rutine: 30 minutter den første mandagen i hver måned hvor du oppdaterer regnearket med nye tall fra de samme tre konkurrentene. Da ser du trender før de blir til problemer. Hvis en konkurrent plutselig har fått 15 nye anmeldelser på tre uker, vet du at de har slått på automatisering eller en anmeldelsesfunnel, og du må reagere før de stikker fra deg permanent. En pusser eller glassmester som overvåker dette jevnt, sover bedre om natta enn en som rangerer på flaks.",
+      },
+      {
+        heading: "Hold forspranget uten å bruke timer på det",
+        body:
+          "Konkurranseanalyse er ikke i seg selv en kunde-magnet, den er kartet som forteller hva som er. Det er handlingene som følger av analysen som bygger forspranget: flere anmeldelser, bedre tjenestesider, raskere svar på leads, sterkere lokal SEO. Vekst Systemet leverer denne delen ferdig satt opp. Du får en anmeldelsesfunnel som lukker frekvensgapet, automatisert lead-oppfølging som svarer raskere enn enhver konkurrent klarer over telefon, og en nettside med tjenestespesifikke landingssider og innebygde måltall som viser konverteringsraten din svart på hvitt. Du bruker konkurranseanalysen til å peke ut hvor du skal slå, og lar systemet utføre slagene mens du er på jobb. Det er måten en håndverkerbedrift med 1-10 ansatte realistisk kan holde forspranget over tid.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil-sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
