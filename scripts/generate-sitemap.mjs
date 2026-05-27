@@ -103,6 +103,7 @@ const DIENSTEN_PAGES = [
   "/tjenester/alt-i-en-innboks",
   "/tjenester/markedsforingskampanjer",
   "/tjenester/lead-oppfolging",
+  "/tjenester/lokal-seo",
   "/tjenester/digitalisering",
   "/tjenester/automatisering",
   "/tjenester/programvareintegrasjoner",

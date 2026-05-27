@@ -14,6 +14,7 @@ import ReviewFunnel from "./pages/systemen/ReviewFunnel";
 import AllInOneInbox from "./pages/systemen/AllInOneInbox";
 import MarketingCampagnes from "./pages/systemen/MarketingCampagnes";
 import LeadFollowUp from "./pages/systemen/LeadFollowUp";
+import LokalSeo from "./pages/systemen/LokalSeo";
 import DigitaliseringAannemers from "./pages/diensten/DigitaliseringAannemers";
 import AutomatiseringAannemers from "./pages/diensten/AutomatiseringAannemers";
 import SoftwareIntegraties from "./pages/diensten/SoftwareIntegraties";
@@ -96,6 +97,7 @@ const App = () => (
           <Route path="/tjenester/alt-i-en-innboks" element={<AllInOneInbox />} />
           <Route path="/tjenester/markedsforingskampanjer" element={<MarketingCampagnes />} />
           <Route path="/tjenester/lead-oppfolging" element={<LeadFollowUp />} />
+          <Route path="/tjenester/lokal-seo" element={<LokalSeo />} />
           <Route path="/tjenester/digitalisering" element={<DigitaliseringAannemers />} />
           <Route path="/tjenester/automatisering" element={<AutomatiseringAannemers />} />
           <Route path="/tjenester/programvareintegrasjoner" element={<SoftwareIntegraties />} />

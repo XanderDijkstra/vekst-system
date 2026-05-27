@@ -125,6 +125,7 @@ const TJENESTER = [
   ["alt-i-en-innboks", "Alt-i-én-innboks", "Ett sted for SMS, e-post, webchat og skjema-henvendelser. Aldri miss en kunde fordi meldingen havner i feil kanal."],
   ["markedsforingskampanjer", "Markedsføringskampanjer", "Ferdige SMS- og e-postkampanjer for gjenkjøp og anbefalinger. Aktiveres med ett klikk."],
   ["lead-oppfolging", "Lead-oppfølgingssystem", "Automatisk oppfølging av nye leads via SMS og e-post. Øk konverteringen med raske, personlige oppfølginger."],
+  ["lokal-seo", "Lokal SEO for håndverkere", "Kom inn i Googles kartpakke når noen søker «rørlegger Oslo» eller «elektriker Bergen». Komplett lokal SEO-stack til fast månedspris."],
   ["digitalisering", "Digitalisering for håndverkere", "Hvordan håndverkerbedrifter digitaliserer drift og markedsføring steg for steg."],
   ["automatisering", "Automatisering for håndverkere", "Tidsbesparende automatiseringer for oppfølging, fakturering og planlegging."],
   ["programvareintegrasjoner", "Programvareintegrasjoner", "Koble sammen nettside, CRM, faktura og kalender i én sømløs flyt."],

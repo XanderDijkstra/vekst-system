@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import PageShell from "@/components/PageShell";
 import { Link } from "react-router-dom";
 import {
-  Globe, PhoneOff, Star, BarChart3, MessageSquare, UserCheck,
+  Globe, PhoneOff, Star, BarChart3, MessageSquare, UserCheck, MapPin,
   Settings, Zap, Plug, Bot,
 } from "lucide-react";
 import { fadeInUp, systemEase } from "@/lib/animations";
@@ -20,6 +20,7 @@ const sections = [
       { icon: UserCheck, title: "Lead-oppfølging", href: "/tjenester/lead-oppfolging", description: "Automatisk oppfølging av nye leads via SMS og e-post." },
       { icon: Star, title: "Anmeldelsessystem", href: "/tjenester/anmeldelsesfunnel", description: "Samle Google-anmeldelser fra fornøyde kunder automatisk." },
       { icon: BarChart3, title: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer", description: "Nå målgruppen din automatisk med riktig budskap." },
+      { icon: MapPin, title: "Lokal SEO", href: "/tjenester/lokal-seo", description: "Bli funnet på Google i ditt arbeidsområde - uten å betale for annonser." },
       { icon: MessageSquare, title: "Alt-i-én innboks", href: "/tjenester/alt-i-en-innboks", description: "Alle meldinger på ett sted - SMS, e-post, WhatsApp og mer." },
     ],
   },
