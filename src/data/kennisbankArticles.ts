@@ -2303,4 +2303,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Automatisert lead-oppfølging", href: "/tjenester/lead-oppfolging" },
     ],
   },
+  {
+    slug: "sentralgodkjenning-for-handverkere",
+    title: "Sentralgodkjenning for håndverkere: lønner det seg å søke i 2026?",
+    description:
+      "Sentralgodkjenning er ikke for alle. Slik vurderer du om DiBK-stempelet lønner seg for håndverkerfirmaet ditt - krav, tiltaksklasser, kostnader og hva du faktisk får igjen.",
+    category: "Teknisk",
+    readTime: "11 min",
+    date: "2026-05-29",
+    sections: [
+      {
+        heading: "Hva sentralgodkjenning faktisk er - og hva det ikke er",
+        body:
+          "Sentralgodkjenning er en frivillig kvalitetsordning fra Direktoratet for byggkvalitet (DiBK) som dokumenterer at firmaet ditt har formell kompetanse, rutiner og økonomi for byggesaksarbeid. Den er ikke det samme som ansvarsrett. Ansvarsrett må du søke for hver enkelt byggesak hos kommunen, mens sentralgodkjenningen er en forhåndsgodkjenning som varer i tre år av gangen. En tømrer eller murer som er sentralgodkjent slipper å levere all dokumentasjon på nytt i hver byggesøknad, og kommunen behandler søknaden raskere. Ordningen er rettet mot firmaer som tar formelt ansvar i søknadspliktige tiltak - altså ikke deg som kun gjør vedlikeholdsarbeid uten søknad.",
+      },
+      {
+        heading: "Forskjellen på sentralgodkjenning, ansvarsrett og MVA-registrering",
+        body:
+          "Mange håndverkere blander sammen sentralgodkjenning, ansvarsrett og vanlig næringsdrift, og det gjør markedsføringen rotete. Ansvarsrett er prosjektspesifikk - du tar ansvar som søker, prosjekterende eller utførende i én konkret byggesak. Sentralgodkjenning er firmaets generelle stempel som varer i tre år og dekker tiltaksklasser du har dokumentert kompetanse i. MVA-registrering er noe helt annet og handler bare om at omsetningen passerer 50 000 kr. En elektriker eller rørlegger som har sentralgodkjenning, må fortsatt søke ansvarsrett i hver byggesak, men søknaden går mye raskere fordi kommunen allerede har ferdiglagde papirer fra DiBK.",
+      },
+      {
+        heading: "Krav for å bli sentralgodkjent",
+        body:
+          "Kravene fra DiBK er strenge, men håndterbare for en seriøs håndverkerbedrift. Du må dokumentere relevant utdanning på riktig nivå - fagbrev for tiltaksklasse 1, mesterbrev eller fagskole for tiltaksklasse 2, og ingeniør- eller arkitektutdanning for tiltaksklasse 3. I tillegg må firmaet ha minst to års praktisk erfaring innen fagområdet, et internt kvalitetssystem som dekker prosjektgjennomføring, avviksbehandling og dokumentkontroll, samt sunn økonomi uten forfalt skatt eller MVA. En typisk maler eller flislegger som har drevet i fem år med fagbrev, ryddig regnskap og en enkel KS-perm på Drive, har alt som skal til. Det er papirarbeidet, ikke kompetansen, som tar tid.",
+      },
+      {
+        heading: "Tiltaksklasser 1 til 3 - velg den du faktisk jobber i",
+        body:
+          "Tiltaksklassene er det viktigste å forstå før du søker. Tiltaksklasse 1 er små og oversiktlige tiltak - eneboliger, garasjer, tilbygg under 50 m². De fleste tømrere, murere, taktekkere og rørleggere holder seg her. Tiltaksklasse 2 dekker mer kompliserte prosjekter som leilighetsbygg, næringsbygg under 5 000 m² og brannskillevegger med høyere krav. Tiltaksklasse 3 er forbeholdt store og komplekse prosjekter som sykehus og høyhus, og krever ingeniørkompetanse i staben. Søk i den klassen du faktisk jobber i, ikke i den høyeste du tror du kan kvalifisere for. En søknad i feil klasse blir avvist og du må betale gebyret på nytt - rundt 16 000 kr ned i sluken.",
+      },
+      {
+        heading: "Hva det koster og hvor lang tid det tar",
+        body:
+          "Kostnaden er overkommelig sammenlignet med verdien av godkjenningen, men det er sjelden småpenger. Søknadsgebyret hos DiBK ligger rundt 16 000-32 000 kr avhengig av antall fagområder og tiltaksklasser, pluss et årlig vedlikeholdsgebyr på rundt 5 000-8 000 kr. Behandlingstiden er normalt 8-12 uker, så søk i januar-februar hvis du vil ha papirene klare før vårsesongen. Mange firmaer bruker konsulent for å sette opp KS-systemet første gang, og det koster typisk 25 000-60 000 kr. Det høres mye ut, men én ekstra borettslagsjobb i året dekker hele investeringen. Pusser- og taktekkerfirmaer som søker selv uten konsulent, klarer det på rundt 40-60 timer eget arbeid.",
+      },
+      {
+        heading: "Hva du faktisk får igjen for stempelet",
+        body:
+          "Den synlige gevinsten er DiBK-merket på nettsiden og i tilbudene dine, men effekten under overflaten er større. Boligselgere som skal selge med dokumentert renovering, forsikringsselskap som leter etter firmaer å sette på skadesaker, og styrer i borettslag og sameier filtrerer ofte på sentralgodkjenning før de i det hele tatt kontakter et håndverkerfirma. En elektriker eller rørlegger uten godkjenning kommer sjelden på short-listen til en større oppdragsgiver. I tillegg bruker DiBK selv en søkemotor på sentralgodkjenning.dibk.no der oppdragsgivere finner deg på fagområde og geografi, som fungerer som ekstra lokal SEO uten at du betaler en krone for det.",
+      },
+      {
+        heading: "Slik markedsfører du sentralgodkjenningen på nettsiden",
+        body:
+          "Sentralgodkjenning blir ofte stående gjemt nederst på Om oss-siden, og det er bortkastet. Plasser DiBK-merket i headeren på nettsiden, ved siden av CTA-knappen for tilbud, og i bunnteksten på tilbudsmalen. Skriv én setning på landingssiden for hver tjeneste der det er relevant - for eksempel at firmaet er sentralgodkjent i tiltaksklasse 1 for tømrerarbeid og våtromsarbeid. Legg det inn i Google Bedriftsprofil under fra eierne og i schema markup som credential. En tømrer som flytter sentralgodkjenningen fra Om oss til hero-seksjonen, ser typisk en økning i konvertering på skjema med 8-15 % fordi tilliten er bygd før kunden leser én setning om pris.",
+      },
+      {
+        heading: "Når det IKKE lønner seg å søke",
+        body:
+          "Sentralgodkjenning lønner seg ikke for alle. Driver du som altmuligmann med småjobber under søknadsgrensen, eller som vindusvasker, gulvlegger eller møbelsnekker som aldri leverer ansvarserklæring, betaler du for et stempel kunden din ikke etterspør. Det samme gjelder enkeltpersonforetak som tjener under 800 000 kr i året - kost-nytte holder rett og slett ikke. Sjekk hva konkurrentene i ditt fag og distrikt faktisk har: hvis ingen av de fem maler- eller flisleggerfirmaene i området har det, vinner du sjelden jobber kun på det. Bruk investeringen heller på Google Bedriftsprofil, anmeldelser og en nettside som konverterer hvis du fortsatt er liten.",
+      },
+      {
+        heading: "Fornyelse hvert tredje år - planlegg i god tid",
+        body:
+          "Sentralgodkjenningen er ikke evigvarende - den må fornyes hvert tredje år, og rundt 15-20 % av firmaer som søker fornyelse, får avslag eller utsettelse fordi de ikke har holdt KS-systemet oppdatert. Sett en kalenderpåminnelse seks måneder før utløp, og bruk de månedene til å oppdatere prosjektlisten, sjekke at avviksbehandlingen faktisk er logget, og rydde i økonomien. En murer eller taktekker som behandler fornyelse som en formalitet i siste liten, risikerer å være uten godkjenning i 2-3 måneder mens søknaden behandles på nytt - og det er nettopp i den perioden borettslagsanbudene kommer inn. Behandle fornyelsen som et eget prosjekt, ikke som et skjema du fyller ut kvelden før fristen.",
+      },
+      {
+        heading: "Sentralgodkjenning som del av en større tillitsstack",
+        body:
+          "Sentralgodkjenning er ett av flere tillitssignaler, ikke et markedsføringstriks alene. Kunden som vurderer deg, leser også anmeldelser, ser etter NAP-konsistens mellom nettside, Google Bedriftsprofil og fakturaen, og legger merke til hvor profesjonell tilbudsprosessen er. Hvis sentralgodkjenningen står alene mens nettsiden ser ut som 2014 og du har 11 anmeldelser med snitt 4,2, gir den lite avkastning. Vekst Systemet kobler sentralgodkjenningen sammen med en anmeldelsesfunnel, en konverteringsoptimalisert landingsside per tjeneste, CRM og automatisert lead-oppfølging - slik at hvert tillitssignal forsterker det neste i stedet for å henge i løse luften nederst på Om oss-siden.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Fakturaprogram for håndverkere", href: "/kunnskapsbank/fakturaprogram-for-handverkere" },
+      { label: "Borettslag og sameier som kunder", href: "/kunnskapsbank/borettslag-og-sameier-handverker" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadgenerering", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere - komplett guide", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
