@@ -2434,4 +2434,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "lavsesong-strategi-for-handverkere",
+    title: "Lavsesong som håndverker: Full kalender i januar og februar",
+    description:
+      "Januar og februar trenger ikke være døde måneder. Slik bruker du vedlikeholdsavtaler, gjenkjøp og smarte vinter-kampanjer til å holde kalenderen full hele lavsesongen.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-05-31",
+    sections: [
+      {
+        heading: "Lavsesong er ikke en naturlov - det er en planleggingsfeil",
+        body:
+          "De fleste håndverkere snakker om januar og februar som «døde måneder», men det er en planleggingsfeil, ikke en sesongregel. En tømrer eller maler som booker desember full med innendørs-jobber havner sjelden i situasjonen der telefonen står stille i januar. Det handler om hvilke jobber du selger på høsten, hvor godt du holder kontakten med tidligere kunder, og hvor mange leads du fanger opp før resten av bransjen begynner å lete etter arbeid i februar. Vi har sett rørleggere og flisleggere som fakturerte mer i februar enn i juni - ikke fordi de jobbet hardere, men fordi systemet rundt dem leverte jobber kontinuerlig gjennom hele vinteren.",
+      },
+      {
+        heading: "Når starter lavsesongen for ditt fag",
+        body:
+          "Lavsesong er ikke én universell måned. For en taktekker eller maler som jobber ute, faller volumet typisk 40-60 % fra midten av november til midten av mars. For en rørlegger handler det mer om ferieuker enn vær - juli og romjul er stille, mens januar faktisk er travel med frosne rør og lekkasjer. For en elektriker er etterspørselen jevnere, men nybygg bremser fra desember til mars. For en flislegger eller pusser er innendørs-jobber stabile gjennom hele vinteren. Kjenn årshjulet ditt: noter antall jobber du fakturerte hver måned siste tre år, så vet du nøyaktig hvilke uker du må fylle på forhånd.",
+      },
+      {
+        heading: "Innendørs-jobber: skiftet du må kommunisere før november",
+        body:
+          "Er du maler, tømrer eller flislegger, har du jobber som passer perfekt på vinteren - men kunden tenker ikke automatisk på det. En kjøkkenrenovering, et baderomsprosjekt eller maling av hele førsteetasjen er ideelt mellom desember og mars. Likevel ringer kunden i mai, fordi det er «vår-rengjøring». Skiftet ligger i hvordan du kommuniserer fra september: legg ut for-og-etter-bilder fra vinterprosjekter, send nyhetsbrev til tidligere kunder om at innendørs-jobber bookes nå for januar-mars med fastpris låst, og kjør Google Ads spesifikt på søk som «maler innendørs vinter». En enkel landingsside med dette budskapet kan øke bookingen for vintermånedene med 30-50 %.",
+      },
+      {
+        heading: "Vedlikeholdsavtaler er planlagt arbeid i de tomme ukene",
+        body:
+          "En rørlegger eller elektriker som har 20 vedlikeholdsavtaler med borettslag eller bedrifter vet at de første ukene av januar er fylt opp med årlig sjekk, filterskifte og elkontroll. Det er ikke flashy arbeid, men det betaler regningene mens konkurrentene venter på telefonen. Tilby vedlikeholdsavtaler aktivt til kunder du har fullført større prosjekter for - typisk 2 500-6 000 kr per år for privatkunder, mer for næring. Med 30 avtaler i porteføljen har du allerede sikret 75 000-180 000 kr i grunnomsetning før januar starter. Avtalene skal alltid forfalle i lavsesongen, ikke i juni - det er da du trenger jobben mest.",
+      },
+      {
+        heading: "Eksisterende kunder er gullet i januar",
+        body:
+          "En kunde du leverte et bad til i april har sannsynligvis tre nye prosjekter de tenker på - kjøkken, gang, kanskje en garasje. Men de ringer ikke deg automatisk. Send en SMS eller e-post i begynnelsen av januar: «Godt nyttår. Vi har ledige uker i januar og februar - har du tenkt på en oppussing, ligger prisene 10-15 % under høysesongnivå nå.» En slik kampanje sendt til 200 tidligere kunder gir typisk 8-15 nye forespørsler. Det krever ingen Google Ads, ingen lead-platform, ingen kostnad utover SMS-en. Et CRM som holder oversikt over hvem som er ferdig kunde og når jobben ble levert, gjør hele denne jobben mens du sover.",
+      },
+      {
+        heading: "Tilbudsbank: hva du gjør med «kanskje neste år»-leadsene",
+        body:
+          "Hver håndverker har en bunke leads som sa «kanskje til våren» eller «vi tar det neste år». De fleste går tapt fordi ingen følger opp før kunden allerede har valgt noen andre. Har du et system som logger hvert tilbud med en oppfølgingsdato, kan du i oktober trekke ut alle som sa «neste år» - og ringe dem før konkurrentene gjør det. En taktekker vi snakket med vant 12 jobber i februar fra en slik liste, til en snittordreverdi på 65 000 kr. Det er nesten 800 000 kr som lå begravd i CRM-en hans. Automatisert lead-oppfølging sørger for at slike lister aldri sovner inn.",
+      },
+      {
+        heading: "Google Ads i lavsesong - billigere klikk, høyere ROI",
+        body:
+          "I januar og februar er konkurransen om annonseplassene 30-50 % lavere enn i april. Klikkprisene for søk som «rørlegger akutt» eller «maler innendørs» faller, og samtidig er kundene som søker mer alvorlige - de som googler i februar har et reelt behov, ikke «kanskje til sommeren». En murer eller flislegger som kjører Google Ads på vinter-spesifikke søkeord med en god landingsside kan se kostnaden per lead halveres sammenlignet med høysesongen. Det krever at konverteringen på siden er bygget for det: tydelig CTA, mobilvennlig design og en automatisert oppfølging som tar over hvis kunden ikke ringer direkte. Kutter du markedsføringen i januar, gir du konkurrentene gratis plass.",
+      },
+      {
+        heading: "Beredskap på akuttoppdrag når andre stenger ned",
+        body:
+          "Vinter betyr akuttjobber: frosne rør, sprukne radiatorer, lekkende tak etter snølast, kortslutninger fra fukt. For en rørlegger, taktekker eller elektriker er dette de mest lønnsomme jobbene i året - kunden velger ikke på pris, de velger den som svarer. Men de fleste mister disse jobbene fordi de ikke tar telefonen mellom 18 og 22 eller i helgene. Tapt anrop → SMS som svarer automatisk innen 10 sekunder, kombinert med en kort beredskap-side på nettstedet som signaliserer at du tar akutt-henvendelser, fanger opp den typen jobber. Snittprisen på en vinter-akuttjobb ligger 25-40 % over en planlagt jobb, og kunden blir ofte en fast kunde etterpå.",
+      },
+      {
+        heading: "Bygg systemet før november - så jobber det for deg",
+        body:
+          "Forskjellen mellom håndverkere som har full kalender i januar og de som ikke har det, er sjelden faglig dyktighet - det er om systemet er på plass før lavsesongen treffer. Sett opp CRM-en i september slik at oppfølgingen på tidligere kunder rulles ut i begynnelsen av januar uten at du tenker på det. Skriv ferdig nyhetsbrev-malene i oktober. Sett opp landingssider for innendørs-jobber og vinter-Google-Ads i november. Aktiver tapt anrop → SMS slik at hver januar-forespørsel fanges automatisk. Vekst Systemet leverer hele denne stacken ferdig satt opp: CRM, automatisert oppfølging, landingssider og anmeldelsesfunnel - så lavsesongen blir måneden du tar igjen forsprang, ikke måneden du venter på våren.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Vedlikeholdsavtaler for håndverkere", href: "/kunnskapsbank/vedlikeholdsavtaler-for-handverkere" },
+      { label: "Gjenkjøp fra eksisterende kunder", href: "/kunnskapsbank/gjenkjop-fra-eksisterende-kunder" },
+      { label: "Automatisert lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+    ],
+  },
 ];
