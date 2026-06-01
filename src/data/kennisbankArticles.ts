@@ -2497,4 +2497,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
     ],
   },
+  {
+    slug: "retargeting-for-handverkere",
+    title: "Retargeting for håndverkere: Slik henter du tilbake besøkende som aldri ringte",
+    description:
+      "Rundt 95 % av besøkene på en håndverker-nettside ringer aldri. Retargeting på Facebook og Google henter dem tilbake til en brøkdel av prisen på nye klikk. Slik setter du det opp riktig.",
+    category: "Konvertering",
+    readTime: "10 min",
+    date: "2026-06-01",
+    sections: [
+      {
+        heading: "Hvorfor 95 % av nettside-besøkene aldri tar kontakt",
+        body:
+          "De fleste håndverkere måler nettsiden sin på konverteringsrate fra besøk til lead - og oppdager fort at 95 % av de som besøker aldri tar kontakt. En maler eller flislegger med 800 besøkende i måneden får kanskje 40 forespørsler. Resten - 760 personer - har sett tjenestene, sjekket prisene, kanskje lest en kundereferanse, og forsvunnet uten å trykke på telefonnummeret. Det er ikke fordi nettsiden er dårlig. Det er fordi kunden trenger flere berøringspunkter før de bestemmer seg, særlig på større jobber som bad, kjøkken eller takomlegging. Retargeting er den enkleste måten å fange opp den tapte trafikken, til en brøkdel av prisen på nye Google Ads-klikk.",
+      },
+      {
+        heading: "Hva retargeting faktisk er - i håndverker-kontekst",
+        body:
+          "Retargeting betyr at du viser annonser kun til personer som allerede har besøkt nettsiden din. En tømrer med 800 månedlige besøkende bygger opp et publikum på 9 000-10 000 personer over et år. Disse vises målrettede annonser på Facebook, Instagram og hele Google-nettverket - banner-annonser på VG, Finn, været og overalt ellers de surfer. Klikkprisen ligger typisk på 2-6 kr, mot 25-80 kr for et kaldt Google Ads-søk. Du betaler altså for å nå mennesker som allerede vet hvem du er. Det er ikke kald annonsering; det er en høflig påminnelse til en kunde som allerede har vurdert deg en gang.",
+      },
+      {
+        heading: "Pixelen og sporingen - det tekniske som må på plass",
+        body:
+          "For å bygge et retargeting-publikum trenger du to ting: Meta Pixel for Facebook og Instagram, og Google Ads-tag for resten av Google-nettverket. Begge er små kodebiter som ligger på alle sider av nettstedet - typisk via Google Tag Manager hvis du har det, eller direkte i header-en. Når en kunde besøker maleren-din.no/baderom, registreres besøket i begge plattformer, og du kan målrette annonser mot akkurat den siden. Uten pixel, ingen retargeting - så dette er steg én. Setter du opp pixelen feil, ser du bare en brøkdel av trafikken; sørg derfor for at samme pixel ligger på alle landingssider, ikke bare forsiden.",
+      },
+      {
+        heading: "Facebook-retargeting - billigst og enklest å komme i gang med",
+        body:
+          "Meta-plattformen (Facebook og Instagram) er der retargeting er enklest og billigst. Klikkprisen på en retargeting-annonse for en rørlegger eller elektriker ligger ofte på 1-3 kr - mot 8-15 kr for kald prospekting. Sett opp et publikum som heter «Nettside-besøkende siste 30 dager», og kjør én enkel kampanje med tre kreativ-varianter: et for-og-etter-bilde, en kundereferanse, og en tilbuds-annonse med fastpris-løfte. Med et budsjett på 1 500-3 000 kr per måned får du typisk 5 000-15 000 ekstra visninger mot alle som har vært innom siden. Vi ser konverteringsrater på 8-15 % på denne typen kampanjer for håndverkere.",
+      },
+      {
+        heading: "Google-retargeting - der intent allerede har vært høyest",
+        body:
+          "Google Display Network dekker over 90 % av norske nettsteder - VG, Finn, Aftenposten, været, YouTube, Gmail og tusenvis av blogger. En taktekker eller murer som har fått besøk gjennom Google Ads, kan fange tilbake disse menneskene mens de scroller VG eller leser om Premier League. Klikkprisen er 2-5 kr, og frekvensen kan styres slik at samme person ikke ser annonsen mer enn 3-4 ganger per uke. Spesielt verdifullt er YouTube-retargeting: korte 15-sekunders annonser der du selv forteller om en typisk jobb. For større prosjekter som kjøkken, bad eller takomlegging - der beslutningstiden er 4-12 uker - er retargeting på YouTube det enkleste verktøyet for å bygge tillit over tid.",
+      },
+      {
+        heading: "Segmentering - ikke alle besøk er like verdt å hente tilbake",
+        body:
+          "En besøkende som bare så forsiden i 8 sekunder er ikke samme målgruppe som en som leste hele baderom-siden, sjekket prisene og gikk inn på referansesiden. Bygg minst tre segmenter: «alle besøkende» (vid kampanje, lavt bud), «sett tjeneste-side» (høyere bud, mer spesifikk annonse), og «startet skjema men ikke fullført» (høyeste bud, sterkeste CTA). En flislegger eller pusser med en kunde som leste hele bad-siden uten å fylle ut skjemaet, er kanskje 30-50 sekunder unna å bli kunde - akkurat denne personen bør se en annonse med «Få fastpris på bad - svar innen 24 timer» de neste 7 dagene. Segmentering tredobler typisk ROI på retargeting-budsjettet.",
+      },
+      {
+        heading: "Kreativene som faktisk virker for håndverkere",
+        body:
+          "Det som virker best i retargeting for håndverkere er ikke flashy reklamevideo - det er tre konkrete bilder fra reelle jobber, koblet med en kort tekst og en tydelig CTA. En elektriker som viser «Før: gammel sikringsskap fra 1972. Etter: ny måler og jordfeilbryter» selger seg selv. En maler som viser «3 dager, 80 m² stue, fastpris 24 500 kr» gir kunden alt de trenger for å klikke. Unngå generisk «Vi er best i Oslo!»-tekst - ingen tror på det. Sett alltid telefonnummer og «svar innen 1 time»-løfte i annonsen, slik at de som er klare for å ringe gjør det direkte. Bytt kreativene hver 4. uke for å unngå annonsetretthet.",
+      },
+      {
+        heading: "Frekvens, budsjett og når retargeting begynner å irritere",
+        body:
+          "Den vanligste feilen er å vise annonsen for ofte. Ser kunden samme banner 15 ganger på én dag på VG, slutter den å virke - det blir irriterende, ikke overbevisende. Sett en frekvensbegrensning på maks 3-5 visninger per uke per person. Sett samtidig en utløpstid: de fleste håndverker-kunder bestemmer seg innen 4-8 uker, så det er liten verdi i å retargete noen som var innom for 6 måneder siden. Et fornuftig totalbudsjett ligger på 1 500-5 000 kr per måned for de fleste håndverkerbedrifter, fordelt mellom Facebook og Google. Det er billig sammenlignet med å betale 800-1 500 kr per lead på en lead-plattform.",
+      },
+      {
+        heading: "Slik måler du om retargeting faktisk lønner seg",
+        body:
+          "Retargeting måles på samme måte som all annen markedsføring: kostnad per lead, kostnad per vunnet jobb og ROAS. Sett opp konverteringssporing slik at hver utfylt skjema og hvert klikk på telefonnummer registreres i annonseplattformen. En typisk håndverkerbedrift ser kostnad per lead på 100-300 kr på retargeting - mot 400-800 kr på kald Google Ads. Du må også måle assistert konvertering: mange kunder ser en retargeting-annonse og googler senere bedriftsnavnet ditt direkte. Det teller ikke som retargeting-konvertering i rapporten, men retargeting var likevel utløseren. En rørlegger vi fulgte fikk 31 vunne jobber direkte fra retargeting på fire måneder - kostnad per jobb endte på 410 kr.",
+      },
+      {
+        heading: "Slik kobler du retargeting sammen med resten av lead-stack-en",
+        body:
+          "Retargeting alene gir ikke nye kunder; det henter tilbake besøkende. Det betyr at retargeting fungerer best når resten av lead-systemet er på plass: en mobilvennlig nettside som konverterer, automatisert lead-oppfølging når noen sender skjema, tapt anrop → SMS når de ringer mens du står i en sikringsskap, og en anmeldelsesfunnel som bygger social proof til neste besøker. Mangler en av delene, lekker leads gjennom hullene - du betaler for visninger uten å fange konverteringen. Vekst Systemet leverer hele denne stacken ferdig satt opp - nettside, retargeting-pixler, automatisering og anmeldelsesfunnel - til en fast månedspris, slik at du slipper å koble sammen fem ulike verktøy selv.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Google Ads for håndverkere", href: "/kunnskapsbank/google-ads-for-handverkere" },
+      { label: "Facebook-annonser for håndverkere", href: "/kunnskapsbank/facebook-annonser-for-handverkere" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Automatisert lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
