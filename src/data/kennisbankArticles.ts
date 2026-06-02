@@ -2565,4 +2565,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "google-analytics-for-handverkere",
+    title: "Google Analytics for håndverkere: Hva du faktisk trenger å se på",
+    description:
+      "Praktisk guide til Google Analytics 4 for håndverkerbedrifter. Hvilke fem tall som faktisk sier noe om nettsiden din - og hva du kan ignorere for å spare en time i uka.",
+    category: "Teknisk",
+    readTime: "10 min",
+    date: "2026-06-02",
+    sections: [
+      {
+        heading: "Derfor blir GA4 fort en tidstyv for en håndverkerbedrift",
+        body:
+          "Google Analytics 4 ble standardverktøyet i 2023, og siden den gang har de fleste håndverkerbedrifter satt opp en konto, sett på dashbordet noen ganger, og glemt det igjen. Problemet er ikke at verktøyet er dårlig - problemet er at det er bygget for nettbutikker som måler 50 000 økter i måneden. En typisk maler eller rørlegger har 800-2 000 økter i måneden, og 80 prosent av rapportene blir derfor meningsløse. Du trenger en knallhard prioritering på fem-seks tall, ellers ender du med å bruke en time i måneden på data som ikke fører til en eneste ny jobb.",
+      },
+      {
+        heading: "Konfigurer konverteringer først - alt annet er støy",
+        body:
+          "En konvertering på en håndverkernettside er ikke en sidevisning. Det er en utfylt tilbudsforespørsel, et klikk på telefonnummeret, eller en sendt e-post. Logg inn på GA4-administrasjonen og marker disse tre hendelsene som konvertering: form_submit på tilbudsskjemaet, click på tel:-lenken i headeren, og click på mailto:-lenken. En tømrer i Trondheim som gjorde dette i januar gikk fra å rapportere 12 000 økter i måneden til å rapportere 47 reelle henvendelser. Det første tallet sier ingenting om bedriften - det andre forteller deg hva markedsføringen faktisk leverer.",
+      },
+      {
+        heading: "De fem rapportene som faktisk betyr noe for en håndverker",
+        body:
+          "Du trenger fem rapporter, ikke femti. Trafikk per kanal viser hvor henvendelsene kommer fra - Google organisk, Google Maps, Google Ads, Facebook eller direkte. Landingsside-rapporten viser hvilke sider som faktisk drar inn varme leads. Konverteringsrate per kanal forteller om Google Ads-trafikken konverterer like bra som SEO-trafikken. Geografisk rapport viser hvilke kommuner du faktisk får henvendelser fra - en flislegger som tror han dekker hele Romerike, oppdager kanskje at 90 prosent av leadene kommer fra tre postnumre. Og sidehastighet-rapporten under Engasjement varsler deg om nettsiden plutselig blir treg på mobil.",
+      },
+      {
+        heading: "Koble GA4 til Google Bedriftsprofil og Google Ads",
+        body:
+          "Standardoppsettet i GA4 viser ikke trafikk fra Google Bedriftsprofil som egen kanal - den drukner i \"organic\" eller \"direct\". Bruk UTM-merking på lenken til nettsiden i Bedriftsprofilen: utm_source=google og utm_medium=gmb. Plutselig ser du at en murer i Stavanger får 38 prosent av leadene fra Bedriftsprofilen og bare 22 prosent fra vanlig Google-søk. Koble også GA4 til Google Ads-kontoen - da kan du importere konverteringene tilbake til Ads og la Googles algoritme optimalisere mot reelle henvendelser, ikke mot klikk. Det alene kan dra kostnad per lead ned 20-30 prosent på et par uker.",
+      },
+      {
+        heading: "Mål verdien av en lead, ikke bare et klikk",
+        body:
+          "GA4 forteller deg at du fikk 23 tilbudsforespørsler forrige måned. Men 8 av dem var søppel, 11 ga tilbud, 4 ble til oppdrag - og snittordreverdien var 84 000 kr. For å se det fulle bildet må du trekke ut konverteringene fra GA4 og legge dem inn i et CRM eller et regneark sammen med faktisk omsetning. En taktekker som gjorde dette i seks måneder oppdaget at leadene fra Facebook hadde 14 prosent lukkerate og en leadverdi på 1 200 kr, mens leadene fra Google Ads hadde 41 prosent lukkerate og en leadverdi på 6 800 kr. Det endret hele budsjettfordelingen samme uke.",
+      },
+      {
+        heading: "Tre vanlige feil som ødelegger tallene dine",
+        body:
+          "Tre feil ødelegger GA4-rapportene for nesten alle håndverkerbedrifter. For det første: ingen filtrering av interne klikk, så daglig leder som sjekker nettsiden ti ganger i uken blir registrert som unike økter - sett opp et IP-filter eller en intern-traffic-markør. For det andre: telefonnummeret står som ren tekst i stedet for klikkbar tel:-lenke, så mobiltrykk telles aldri som konvertering. For det tredje: tilbudsskjemaet sender deg til en bekreftelsesside som heter /takk - men /takk er ikke markert som konvertering, så GA4 vet ikke at noe verdifullt skjedde. Bruk en time på å fikse disse tre, så har du data du faktisk kan stole på.",
+      },
+      {
+        heading: "Hva du kan ignorere helt og holdent",
+        body:
+          "Det meste av det GA4 viser deg er irrelevant for en håndverkerbedrift med 1-10 ansatte. Demografi-rapportene (alder, kjønn) er for tynne datasett til å gi mening. Sanntidsrapporten er gøy de første ti minuttene, deretter en tidstyv. Hendelser-rapporten viser hundrevis av tekniske eventer som scroll og first_visit som ikke betyr noe for en elektriker. Brukerstrøm-visualiseringen ser proff ut, men en flislegger tar ikke beslutninger basert på et flytdiagram. Skjul standard-dashbordene og lag ett eget oversiktsbilde med trafikk per kanal, konverteringer per landingsside og geografisk fordeling. Resten kan du slå opp den dagen du har et konkret spørsmål.",
+      },
+      {
+        heading: "Sett opp et månedlig 15-minutters sjekk-rutine",
+        body:
+          "GA4 er bare nyttig hvis du ser på tallene jevnlig. Sett av 15 minutter den første mandagen i måneden og gå gjennom fire ting i samme rekkefølge hver gang: hvor mange konverteringer kom inn forrige måned, hvilken kanal leverte mest, hvilken landingsside hadde høyest konverteringsrate, og hva endret seg fra måneden før. Skriv ned tre tall i et regneark - ikke ti. En rørlegger i Drammen som har gjort dette i 14 måneder kan nå se eksakt hvilken måned Google Ads-budsjettet bør økes, og når lokal SEO bærer trafikken alene. Uten rutinen blir GA4 bare et sted du aldri logger inn.",
+      },
+      {
+        heading: "Når GA4 ikke er nok - og hva som tar over",
+        body:
+          "GA4 forteller hva som skjer på nettsiden, men ikke hva som skjer etter at telefonen ringer. For å se hele kjeden fra første Google-søk til betalt faktura må trafikkdataene snakke med leadsystemet, lead-oppfølgingen og fakturaprogrammet. En rørlegger som bare bruker GA4 vet at han fikk 30 leads, men ikke at 6 av dem faktisk ble store oppdrag verdt 480 000 kr. Vekst Systemet samler hele kjeden i én flate - du ser hvilken Google Ads-kampanje som ga oppdraget på 240 000 kr til den private kunden i Bærum, ikke bare at noen klikket på en annonse for tre uker siden.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lead-sporing for håndverkere", href: "/kunnskapsbank/lead-sporing-for-handverkere" },
+      { label: "ROAS for håndverkere", href: "/kunnskapsbank/roas-for-handverkere" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
