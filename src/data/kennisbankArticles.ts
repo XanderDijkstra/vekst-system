@@ -2691,4 +2691,62 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "hms-kort-for-handverkere-2026",
+    title: "HMS-kort for håndverkere 2026: regler, søknad og bøter",
+    description:
+      "HMS-kort er et lovkrav for alle på byggeplass i Norge. Slik søker du, hva det koster, hva en kontroll faktisk ser etter, og hvordan du unngår bøter på 7 000-25 000 kr per ansatt i 2026.",
+    category: "Teknisk",
+    readTime: "10 min",
+    date: "2026-06-04",
+    sections: [
+      {
+        heading: "Hvorfor HMS-kort er et lovkrav - og hvorfor brudd nå koster mer",
+        body:
+          "HMS-kort er et personlig ID-kort med bilde som alle som jobber på en bygge- eller anleggsplass i Norge skal ha synlig. Kravet kommer fra byggherreforskriften §15a og gjelder uavhengig av om du er tømrer med to lærlinger eller en entreprenør med 40 ansatte. Frem til 2024 ble det ofte gitt advarsel ved første kontroll. Etter at Arbeidstilsynet skrudde opp innsatsen mot arbeidskriminalitet ligger overtredelsesgebyret nå på 7 000-15 000 kr per ansatt uten kort - og kontrollene er blitt langt mer rutinemessige på små jobber, ikke bare store anleggsprosjekter. En rørlegger eller flislegger som har to mann på en privat bad-jobb risikerer altså opptil 30 000 kr i bot bare på den ene plassen.",
+      },
+      {
+        heading: "Hvem trenger HMS-kort - og hvem trenger det ikke",
+        body:
+          "Hovedregelen er enkel: alle som utfører bygge- eller anleggsarbeid på en byggeplass skal ha HMS-kort. Det gjelder også deg som er eier og daglig leder hvis du selv står med verktøyet i hånda. En maler, taktekker eller murer som kun gjør planlegging fra kontoret slipper. Personer som leverer materialer uten å delta i selve arbeidet er også unntatt. Der det ofte glipper er på små servicejobber - en elektriker som bytter et sikringsskap regnes som arbeid på bygge- og anleggsplass hvis det inngår i et oppdrag som krever søknad eller prosjektering. Lærlinger og innleide vikarer skal også ha eget kort i sitt eget navn, ikke firmaets generelle kort - feilen koster det samme som å mangle kort i det hele tatt.",
+      },
+      {
+        heading: "Slik søker du HMS-kort: steg for steg",
+        body:
+          "Søknadsprosessen går gjennom HMSkort.no, som er Arbeidstilsynets utpekte leverandør. Du logger inn med din BankID som arbeidsgiver og legger inn ansattlisten - navn, fødselsnummer, stillingstype og oppstartsdato. For hver ansatt trenger du gyldig oppholds- og arbeidstillatelse for utenlandske arbeidere, bekreftelse på arbeidsforholdet, og et passbilde lastet opp digitalt. Behandlingstiden ligger normalt på 5-10 arbeidsdager fra fullført søknad, men kan trekke ut til 3-4 uker ved kontroll av utenlandske dokumenter. En tømrer som nettopp ansatte en polsk fagarbeider bør altså aldri sette mannen ut på en jobb før kortet ligger fysisk i hånda. Du kan ikke kvittere det inn senere.",
+      },
+      {
+        heading: "Kostnader, leveringstid og fornyelse",
+        body:
+          "Kortet koster 159 kr per ansatt pluss porto - en bagatell sammenlignet med hva det erstatter i bøter. Hvert kort er gyldig i 2 år, eller frem til arbeidsforholdet opphører. En entreprenør med 8 ansatte betaler altså rundt 1 500 kr i 2-årsperioden, noe ingen reelt vurderer å spare på. Det det virkelig koster håndverkere er administrasjonstiden: hver gang noen slutter må du sperre kortet, hver gang noen ansettes må du søke nytt, og kort som er borte må fornyes på dagen. En murer-bedrift med høy turnover blant lærlinger bruker lett 30-50 timer i året på dette hvis det håndteres manuelt. Et CRM med automatisering rundt utløpsdatoer er den enkleste innsparingen.",
+      },
+      {
+        heading: "Kontroll på byggeplass - hva inspektøren faktisk ser etter",
+        body:
+          "Når Arbeidstilsynet eller Skatteetaten kommer på uanmeldt kontroll, sjekker de tre ting: at hver person på plassen har et synlig kort, at kortet matcher personen som bærer det, og at firmaet faktisk har et registrert arbeidsforhold som tilsvarer det de gjør. En flislegger som har leid inn en kompis for å hjelpe to dager uten formelt arbeidsforhold faller på alle tre punkter samtidig, ikke bare ett. Inspektørene kryssjekker også mot A-meldingen som arbeidsgivere sender til Skatteetaten månedlig - hvis kort, A-melding og fysisk tilstedeværelse ikke stemmer overens, åpnes det ofte en bredere kontroll. Det er sjelden det manglende kortet i seg selv som koster mest, men kjeden av spørsmål den utløser.",
+      },
+      {
+        heading: "Bøter, stansing og omdømmetap ved manglende kort",
+        body:
+          "Bøtene fra Arbeidstilsynet starter på 7 000 kr per overtredelse og kan klatre opp mot 15 000-25 000 kr per ansatt ved gjentakelse. I tillegg kan inspektøren stanse arbeidet på plassen til forholdet er rettet - noe som typisk koster mer enn boten selv. En taktekker som blir stanset midt i en taktekking i begynnelsen av november mister ofte hele sesongvinduet på den jobben, og må ta arbeidet opp igjen i mars. Det offentlig søkbare overtredelsesregisteret betyr også at sentralgodkjenning kan bli trukket, og bestillere som borettslag og kommuner kan utelukke firmaet fra anbudskonkurranser i opptil tre år. Den reelle kostnaden av ett manglende HMS-kort kan altså ligge på 200 000-500 000 kr i tapt omsetning, ikke bare 15 000 i bot.",
+      },
+      {
+        heading: "HMS-kort og underleverandører - ditt ansvar i kjeden",
+        body:
+          "Som hovedentreprenør har du ansvar for at også alle underleverandører på plassen har gyldige kort. En tømrer som leier inn en rørlegger til en bad-totalrenovering kan ikke skylde på underleverandøren hvis dennes mann mangler kort - byggherreforskriften §16 plasserer ansvaret tydelig hos den som styrer byggeplassen. I praksis betyr det at du må kreve at hver underleverandør sender deg en liste over hvem som kommer, med kortnummer, før de starter. Mange håndverkere bruker en standard underleverandøravtale med en klausul om at all dokumentasjon skal leveres på forhånd og at brudd fører til umiddelbar avslutning av oppdraget. Tilliten du gir en samarbeidspartner er fortsatt din risiko juridisk sett.",
+      },
+      {
+        heading: "Slik holder du oversikt når du har flere ansatte",
+        body:
+          "Med tre ansatte holder det med et regneark og en kalenderpåminnelse. Med ti ansatte begynner det å ramle gjennom sprekkene. De vanligste feilene er: kort som utløper midt i et prosjekt, lærlinger som blir glemt, og innleide vikarer som settes ut på plassen før papirene er i orden. Et enkelt system med tre kolonner - navn, kortnummer, utløpsdato - kombinert med en automatisk varsling 30 dager før utløp fanger 90 % av problemene. For større firmaer lønner det seg å koble HMS-kortregisteret til timeregistrering og CRM, slik at en ansatt uten gyldig kort fysisk ikke kan registreres på et oppdrag. Vekst Systemet kan kobles mot HMSkort-status via automatisering slik at fornyelser ligger i samme flate som resten av kundeoppfølgingen - varsel kommer lenge før noen står på en plass uten gyldig dokumentasjon.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Sentralgodkjenning for håndverkere", href: "/kunnskapsbank/sentralgodkjenning-for-handverkere" },
+      { label: "Dårlige betalere - håndverker", href: "/kunnskapsbank/darlige-betalere-handverker" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Kundekommunikasjon", href: "/tjenester/kundekommunikasjon" },
+      { label: "Personalkostnad-kalkulator", href: "/verktoy/personalkostnad-kalkulator" },
+    ],
+  },
 ];
