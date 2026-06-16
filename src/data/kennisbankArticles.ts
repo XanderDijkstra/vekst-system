@@ -3442,4 +3442,62 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "doffin-offentlige-anbud-handverker",
+    title: "Doffin og offentlige anbud: slik vinner du oppdrag for det offentlige",
+    description:
+      "Veiviser for håndverkere som vil inn på offentlige anbud via Doffin. Hvilke jobber lønner seg, hvordan svare på kravspesifikasjonen, og hva som faktisk avgjør.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-06-16",
+    sections: [
+      {
+        heading: "Hvorfor offentlige anbud kan være verdt jobben",
+        body:
+          "For en rørlegger eller elektriker som vil ha en mer forutsigbar pipeline, er offentlig sektor en av få steder hvor du kan låse inn rammeavtaler på 2 til 4 år. En kommune som inngår rammeavtale på rørleggertjenester kan generere mellom 500 000 og 4 millioner kroner i året for én leverandør, alt etter størrelse. Betalingen kommer alltid, og volumet er forutsigbart. Til gjengjeld er marginen ofte lavere enn på privatmarkedet - typisk 5 til 10 prosent på timepris - og dokumentasjonskravene er strenge. Det er en avveining hver håndverker bør gjøre bevisst, ikke automatisk.",
+      },
+      {
+        heading: "Slik fungerer Doffin i praksis",
+        body:
+          "Doffin er den offisielle databasen for offentlige anskaffelser i Norge, og alle oppdrag over 100 000 kroner skal kunngjøres der. Som tømrer eller maler oppretter du en gratis bruker, setter opp varsler på CPV-koder (felles europeisk klassifikasjon) som matcher faget ditt, og får e-post hver gang en relevant kunngjøring publiseres. Typisk får du mellom 5 og 30 dager på å levere tilbud, avhengig av kontraktens størrelse. Konkurransegrunnlaget - selve dokumentet du svarer på - lastes ned direkte fra Doffin, og selve tilbudet leveres elektronisk via Mercell eller en annen kvalifisert portal som byggherren har valgt.",
+      },
+      {
+        heading: "Krav til selskapet ditt før du kan delta",
+        body:
+          "De fleste offentlige anbud krever at du dokumenterer økonomisk soliditet, faglige kvalifikasjoner og HMS-systemer. I praksis betyr det attest for betalt skatt og MVA fra Skatteetaten, sentralgodkjenning eller faglig ansvarlig med svennebrev, et skriftlig HMS-system, gyldig ansvarsforsikring (minimum 10 millioner kroner per skade er vanlig krav), og som regel kredittvurdering tilsvarende AA eller bedre. Mange små håndverkerbedrifter blir avvist på første kvalifikasjonsrunde fordi én attest mangler eller er for gammel. Bygg derfor en mappe med oppdaterte attester du henter ned hver tredje måned, slik at du aldri må jage papirer i siste liten når fristen tikker.",
+      },
+      {
+        heading: "Velg riktige anbud - ikke kast bort tid",
+        body:
+          "Et anbudssvar tar typisk 8 til 25 timer å skrive godt, og hvis du regner 700 kroner i intern kostnad per time, koster hver innlevering deg 5 000 til 17 500 kroner i tapt produksjonstid. Da har du ikke råd til å bombe på alt. Vurder tre ting før du starter: matcher CPV-koden faget ditt, har dere kapasitet til volumet i avtalen, og er det rimelig sjanse for å vinne mot 3 til 5 andre tilbydere. En flislegger med to ansatte bør for eksempel ikke svare på en rammeavtale med Statsbygg som krever vakttelefon 24/7 - det er rett og slett ikke laget for dere, og innkjøperen ser det på første side.",
+      },
+      {
+        heading: "Slik bygger du et anbudssvar som leses",
+        body:
+          "Innkjøperen som leser ditt tilbud sitter med 8 til 20 lignende tilbud foran seg, og hver enkelt får sjelden mer enn 10 til 15 minutter. Strukturer derfor svaret nøyaktig etter kravspesifikasjonens punktrekkefølge - bruk samme overskrifter, samme nummerering, samme begreper. Sett inn et innholdsregister på side 1. Svar konkret: ikke skriv 'vi har god kompetanse', men 'tre svennebrev innenfor rørlegging, samlet 47 års erfaring, sist gjennomført rehabilitering av Lambertseter skole i 2024 til 2,8 millioner kroner'. Konkrete referansejobber med byggherre, sum og årstall gir poeng. Vage formuleringer gir null.",
+      },
+      {
+        heading: "Pris i offentlige anbud - billigst vinner ikke alltid",
+        body:
+          "Offentlige anbud bruker som regel en vektet tildeling, ikke ren laveste pris. Typisk fordeling er 50 til 60 prosent pris og 40 til 50 prosent kvalitet, hvor kvalitet brytes ned i kompetanse, gjennomføringsplan, miljø og garantibetingelser. Det betyr at en taktekker som ligger 8 prosent over billigste tilbyder fortsatt kan vinne hvis kvalitetsdelen er sterk nok. Beregn alltid timeprisen med påslag for administrasjon (typisk 7 til 12 prosent ekstra) og dokumentasjon (3 til 5 prosent), ellers spiser anbudsjobben opp marginen. Vinn aldri ved å underprise - du vil hate avtalen i to år, og kvaliteten dropper med deg.",
+      },
+      {
+        heading: "Etter du har vunnet - leveranseplikt og dokumentasjon",
+        body:
+          "En vunnet rammeavtale er starten, ikke slutten. Du må holde priser, leveringsfrister og kvalitetsnivå låst i hele avtaleperioden, ofte 2 + 1 + 1 år, og kommunen kan bøtelegge eller heve avtalen ved gjentatte avvik. Forvent månedlig rapportering på volum, faktura per oppdrag (ikke samlet per måned), og dokumentert HMS-runde to ganger i året. En entreprenør som tar inn 1,5 millioner kroner i året på en rammeavtale, må regne med rundt 60 timer årlig på ren administrasjon. Bygg denne timekostnaden inn i prisen fra dag én, ellers blir avtalen ulønnsom etter første runde av forlengelsen.",
+      },
+      {
+        heading: "Bygg en jevn anbudspipeline over tid",
+        body:
+          "De håndverkerne som virkelig lever av offentlige oppdrag, behandler anbudsarbeidet som en disiplin: faste tidsblokker i kalenderen, et mal-bibliotek med ferdige tekster på selskapsbeskrivelse, HMS, miljø og referanser som gjenbrukes på 60 til 70 prosent av hvert nytt anbud, og en strukturert oversikt over leverte tilbud, vinnersannsynlighet og resultater. Med systemet på plass kan en murer eller maler levere 1 til 2 kvalitetstilbud i uken uten å brenne hele virksomheten. Vekst Systemet brukes av flere som kombinerer privatkundepipeline med offentlige anbud - leadgenerering, lead-oppfølging og CRM kjører seg selv i bakgrunnen, mens du fokuserer på de store anbudene som faktisk flytter omsetningen.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Sentralgodkjenning for håndverkere", href: "/kunnskapsbank/sentralgodkjenning-for-handverkere" },
+      { label: "Tilbud som vinner jobben", href: "/kunnskapsbank/tilbud-som-vinner-jobben-handverker" },
+      { label: "Leadgenerering", href: "/tjenester/leadgenerering" },
+      { label: "Lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+    ],
+  },
 ];
