@@ -54,7 +54,7 @@ const KennisbankArticle = () => {
       "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
-      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/og-image.png` },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl },
     breadcrumb: {

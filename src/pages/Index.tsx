@@ -17,7 +17,7 @@ const organizationSchema = {
   "@type": "Organization",
   name: SITE_NAME,
   url: SITE_URL,
-  logo: `${SITE_URL}/logo.png`,
+  logo: `${SITE_URL}/og-image.png`,
   email: "info@vekst-systemet.no",
   telephone: "+4740185596",
   description: "Digitale systemer for moderne håndverkere. Nettsider, lokal SEO, automatiserte anmeldelser og lead-oppfølging for byggebransjen.",

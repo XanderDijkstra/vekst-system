@@ -17,6 +17,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import {
   loadContentData,
+  renderHomepage,
   renderWikiTerm,
   renderArticle,
   renderTrade,
@@ -268,7 +269,15 @@ async function build() {
   }
 
   const template = fs.readFileSync(path.join(DIST, "index.html"), "utf-8");
-  const routes = [...STATIC_ROUTES];
+  const routes = STATIC_ROUTES.map((r) => ({ ...r }));
+
+  // Answer-first body content + Service schema for the homepage (most-cited URL).
+  const home = routes.find((r) => r.path === "/");
+  if (home) {
+    const { head, body } = renderHomepage();
+    home.headExtra = head;
+    home.bodyHtml = body;
+  }
 
   for (const [slug, title, description] of TJENESTER) {
     routes.push({ path: `/tjenester/${slug}`, title: `${title} | Vekst Systemet`, description });

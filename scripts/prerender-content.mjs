@@ -131,6 +131,72 @@ const itemsBlock = (title, items = []) =>
 
 // ---------- per-type renderers ----------
 
+export function renderHomepage() {
+  const systems = [
+    ["Leadgenererende nettside", "/tjenester/leadgenerering", "Profesjonell, mobilvennlig nettside bygget for å konvertere besøk til forespørsler."],
+    ["Lokal SEO", "/tjenester/lokal-seo", "Kom inn i Googles kartpakke når noen søker «rørlegger Oslo» eller «elektriker Bergen»."],
+    ["5-stjerners anmeldelsesfunnel", "/tjenester/anmeldelsesfunnel", "Samle inn Google-anmeldelser automatisk fra fornøyde kunder."],
+    ["Tapt-anrop-til-SMS", "/tjenester/kundekommunikasjon", "Automatisk SMS-svar når du ikke rekker telefonen, så du aldri mister en lead."],
+    ["Lead-oppfølging", "/tjenester/lead-oppfolging", "Automatisk oppfølging av nye forespørsler via SMS og e-post."],
+    ["Markedsføringskampanjer", "/tjenester/markedsforingskampanjer", "Ferdige SMS- og e-postkampanjer for gjenkjøp og anbefalinger."],
+  ];
+
+  const body =
+    `<main><article>` +
+    `<h1>Vekst Systemet — digitale systemer for moderne håndverkere</h1>` +
+    p("Vekst Systemet bygger og drifter hele det digitale systemet håndverkerbedrifter i Norge trenger for å få flere kunder: en nettside som konverterer, lokal synlighet i Google, automatiske anmeldelser og oppfølging som fanger opp hver eneste forespørsel. Mindre administrasjon, mer tid på byggeplassen.") +
+    `<section><h2>Hvem er det for?</h2>` +
+    p("For rørleggere, elektrikere, malere, taktekkere, flisleggere, tømrere og 40+ andre håndverkerfag som vil ha en stabil kundestrøm uten å være avhengig av Mittanbud og betale per lead.") +
+    `</section>` +
+    `<section><h2>Hva er inkludert?</h2><ul>` +
+    systems
+      .map(
+        ([name, href, desc]) =>
+          `<li><a href="${esc(href)}"><strong>${esc(name)}</strong></a> — ${esc(desc)}</li>`,
+      )
+      .join("") +
+    `</ul></section>` +
+    `<section><h2>Hva koster det?</h2>` +
+    p("Fast månedspris på 2 990 kr for hele pakken — ingen oppstartskostnad og ingen lange bindinger. Se /priser for detaljer.") +
+    `</section>` +
+    `<nav aria-label="Hovedsider"><ul>` +
+    [
+      ["Tjenester", "/tjenester"],
+      ["Fagområder", "/fagomrader"],
+      ["Kunnskapsbank", "/kunnskapsbank"],
+      ["Wiki", "/wiki"],
+      ["Sammenlign", "/sammenlign"],
+      ["Priser", "/priser"],
+      ["Bestill demo", "/demo"],
+    ]
+      .map(([label, href]) => `<li><a href="${esc(href)}">${esc(label)}</a></li>`)
+      .join("") +
+    `</ul></nav>` +
+    `</article></main>`;
+
+  const head = ldJson({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Digitalt markedsføringssystem for håndverkere",
+    serviceType: "Markedsføring og digitalisering for håndverkerbedrifter",
+    provider: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    areaServed: { "@type": "Country", name: "Norge" },
+    offers: {
+      "@type": "Offer",
+      price: "2990",
+      priceCurrency: "NOK",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        price: "2990",
+        priceCurrency: "NOK",
+        unitText: "måned",
+      },
+    },
+  });
+
+  return { head, body };
+}
+
 export function renderWikiTerm(term, termBySlug) {
   const url = `${SITE_URL}/wiki/${term.slug}`;
   const crumbs = [
@@ -218,7 +284,7 @@ export function renderArticle(article) {
         "@type": "Organization",
         name: SITE_NAME,
         url: SITE_URL,
-        logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+        logo: { "@type": "ImageObject", url: OG_IMAGE },
       },
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
     }),

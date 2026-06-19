@@ -18,9 +18,36 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Vekst Systemet",
-      "description": "Digitale systemer for moderne håndverkere i Norge"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.vekst-systemet.no/#organization",
+          "name": "Vekst Systemet",
+          "url": "https://www.vekst-systemet.no/",
+          "logo": "https://www.vekst-systemet.no/og-image.png",
+          "image": "https://www.vekst-systemet.no/og-image.png",
+          "description": "Digitale systemer for moderne håndverkere i Norge: nettside, lokal SEO, anmeldelsesfunnel, tapt-anrop-SMS og automatisk lead-oppfølging.",
+          "email": "info@vekst-systemet.no",
+          "telephone": "+4740185596",
+          "areaServed": { "@type": "Country", "name": "Norge" },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "info@vekst-systemet.no",
+            "telephone": "+4740185596",
+            "areaServed": "NO",
+            "availableLanguage": ["Norwegian"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.vekst-systemet.no/#website",
+          "url": "https://www.vekst-systemet.no/",
+          "name": "Vekst Systemet",
+          "inLanguage": "nb-NO",
+          "publisher": { "@id": "https://www.vekst-systemet.no/#organization" }
+        }
+      ]
     }
     </script>
 
