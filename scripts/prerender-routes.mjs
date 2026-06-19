@@ -15,14 +15,18 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  loadContentData,
+  renderWikiTerm,
+  renderArticle,
+  renderTrade,
+} from "./prerender-content.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.join(__dirname, "..");
 const DIST = path.join(REPO_ROOT, "dist");
 const SITE_URL = "https://www.vekst-systemet.no";
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
-
-const read = (rel) => fs.readFileSync(path.join(REPO_ROOT, rel), "utf-8");
 
 const escape = (s) =>
   String(s)
@@ -167,41 +171,6 @@ const GUIDES = [
   ["markedsforing-for-handverkere", "Markedsføring for håndverkere 2026: Komplett guide | Vekst Systemet", "Hvordan får du flere kunder som håndverker? En ærlig gjennomgang av alle 5 markedsføringskanaler for håndverkere i Norge, med kostnader og konkrete anbefalinger for 2026."],
 ];
 
-// ---------- Data extractors ----------
-
-function extractTradeMetadata() {
-  const src = read("src/data/tradePages.ts");
-  const re = /slug:\s*"([a-z0-9-]+)",[\s\S]*?metaTitle:\s*"([^"]+)",\s*metaDescription:\s*"([^"]+)"/g;
-  const out = [];
-  let m;
-  while ((m = re.exec(src)) !== null) {
-    out.push([m[1], m[2], m[3]]);
-  }
-  return out;
-}
-
-function extractKennisbankMetadata() {
-  const src = read("src/data/kennisbankArticles.ts");
-  const re = /slug:\s*"([a-z0-9-]+)",\s*title:\s*"([^"]+)",\s*description:\s*"([^"]+)"/g;
-  const out = [];
-  let m;
-  while ((m = re.exec(src)) !== null) {
-    out.push([m[1], m[2], m[3]]);
-  }
-  return out;
-}
-
-function extractWikiMetadata() {
-  const src = read("src/data/wikiTerms.ts");
-  const re = /slug:\s*"([a-z0-9-]+)",\s*term:\s*"([^"]+)",\s*shortDescription:\s*"([^"]+)"/g;
-  const out = [];
-  let m;
-  while ((m = re.exec(src)) !== null) {
-    out.push([m[1], m[2], m[3]]);
-  }
-  return out;
-}
-
 // ---------- HTML templating ----------
 
 function injectMetadata(template, route) {
@@ -262,6 +231,20 @@ function injectMetadata(template, route) {
     `<meta name="twitter:description" content="${description}">`,
   );
 
+  // Per-page JSON-LD (Article / DefinedTerm / FAQPage / Service / BreadcrumbList)
+  if (route.headExtra) {
+    html = html.replace("</head>", `${route.headExtra}\n</head>`);
+  }
+  // Real answer-first body content injected into the SPA shell. React's
+  // createRoot() replaces #root on hydration, so JS clients are unaffected;
+  // crawlers without JS now receive the full text + structured data.
+  if (route.bodyHtml) {
+    html = html.replace(
+      /<div id="root">\s*<\/div>/,
+      `<div id="root">${route.bodyHtml}</div>`,
+    );
+  }
+
   return html;
 }
 
@@ -278,7 +261,7 @@ function writeRoute(template, route) {
   }
 }
 
-function build() {
+async function build() {
   if (!fs.existsSync(path.join(DIST, "index.html"))) {
     console.warn("dist/index.html not found - skipping prerender (run vite build first)");
     return;
@@ -299,24 +282,46 @@ function build() {
   for (const [slug, title, description] of GUIDES) {
     routes.push({ path: `/guide/${slug}`, title, description });
   }
-  for (const [slug, title, description] of extractTradeMetadata()) {
-    routes.push({ path: `/fagomrader/${slug}`, title, description });
-  }
-  for (const [slug, title, description] of extractKennisbankMetadata()) {
+
+  // Data-driven content routes: real body HTML + per-page JSON-LD.
+  const { wikiTerms, kennisbankArticles, trades } = await loadContentData();
+  const termBySlug = new Map(wikiTerms.map((t) => [t.slug, t]));
+  let withContent = 0;
+
+  for (const term of wikiTerms) {
+    const cleanTerm = term.term.replace(/\s*\(.*?\)\s*/g, "").trim();
+    const { head, body } = renderWikiTerm(term, termBySlug);
     routes.push({
-      path: `/kunnskapsbank/${slug}`,
-      title: `${title} | Kunnskapsbank | Vekst Systemet`,
-      description,
-      ogType: "article",
-    });
-  }
-  for (const [slug, term, description] of extractWikiMetadata()) {
-    const cleanTerm = term.replace(/\s*\(.*?\)\s*/g, "").trim();
-    routes.push({
-      path: `/wiki/${slug}`,
+      path: `/wiki/${term.slug}`,
       title: `${cleanTerm} | Wiki | Vekst Systemet`,
-      description,
+      description: term.shortDescription,
+      headExtra: head,
+      bodyHtml: body,
     });
+    withContent++;
+  }
+  for (const article of kennisbankArticles) {
+    const { head, body } = renderArticle(article);
+    routes.push({
+      path: `/kunnskapsbank/${article.slug}`,
+      title: `${article.title} | Kunnskapsbank | Vekst Systemet`,
+      description: article.description,
+      ogType: "article",
+      headExtra: head,
+      bodyHtml: body,
+    });
+    withContent++;
+  }
+  for (const trade of trades) {
+    const { head, body } = renderTrade(trade);
+    routes.push({
+      path: `/fagomrader/${trade.slug}`,
+      title: trade.metaTitle,
+      description: trade.metaDescription,
+      headExtra: head,
+      bodyHtml: body,
+    });
+    withContent++;
   }
 
   // Dedup by path
@@ -331,7 +336,12 @@ function build() {
     writeRoute(template, route);
   }
 
-  console.log(`Prerendered ${uniq.length} routes`);
+  console.log(
+    `Prerendered ${uniq.length} routes (${withContent} with full body content + JSON-LD)`,
+  );
 }
 
-build();
+build().catch((err) => {
+  console.error("Prerender failed:", err);
+  process.exit(1);
+});
