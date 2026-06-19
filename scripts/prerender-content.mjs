@@ -131,6 +131,134 @@ const itemsBlock = (title, items = []) =>
 
 // ---------- per-type renderers ----------
 
+// ---------- build-time FAQ extraction from bespoke .tsx pages ----------
+
+const unescapeJs = (s) =>
+  s.replace(/\\"/g, '"').replace(/\\n/g, " ").replace(/\\\\/g, "\\");
+
+/**
+ * Pull { question, answer } pairs out of a component's `faqs` array.
+ * The pages store each as a single double-quoted string (no concatenation),
+ * so a tolerant regex stays in sync with the source without duplicating it.
+ */
+export function extractFaqs(fileRelPath) {
+  let src;
+  try {
+    src = fs.readFileSync(path.resolve(fileRelPath), "utf-8");
+  } catch {
+    return [];
+  }
+  const re =
+    /question:\s*"((?:[^"\\]|\\.)*)"\s*,\s*answer:\s*"((?:[^"\\]|\\.)*)"/g;
+  const out = [];
+  let m;
+  while ((m = re.exec(src)) !== null) {
+    out.push({ question: unescapeJs(m[1]), answer: unescapeJs(m[2]) });
+  }
+  return out;
+}
+
+const faqSection = (faqs) =>
+  faqs.length
+    ? `<section><h2>Ofte stilte spørsmål</h2>${faqs
+        .map((f) => `<h3>${esc(f.question)}</h3>${p(f.answer)}`)
+        .join("")}</section>`
+    : "";
+
+const faqLd = (faqs) =>
+  faqs.length
+    ? ldJson({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      })
+    : "";
+
+const HUB_LINKS = [
+  ["Tjenester", "/tjenester"],
+  ["Sammenlign", "/sammenlign"],
+  ["Priser", "/priser"],
+  ["Bestill demo", "/demo"],
+];
+const hubNav = () =>
+  `<nav aria-label="Relaterte sider"><ul>${HUB_LINKS.map(
+    ([l, h]) => `<li><a href="${esc(h)}">${esc(l)}</a></li>`,
+  ).join("")}</ul></nav>`;
+
+export function renderComparison({ slug, title, description, faqs }) {
+  const url = `${SITE_URL}/sammenlign/${slug}`;
+  const crumbs = [
+    { name: "Hjem", href: "/" },
+    { name: "Sammenlign", href: "/sammenlign" },
+    { name: title },
+  ];
+  const body =
+    `<main>${breadcrumbNav(crumbs)}<article>` +
+    `<h1>${esc(title)}</h1>` +
+    p(description) +
+    faqSection(faqs) +
+    hubNav() +
+    `</article></main>`;
+  const head =
+    ldJson({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: title,
+      description,
+      url,
+      inLanguage: "nb",
+      image: OG_IMAGE,
+      author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+      publisher: {
+        "@type": "Organization",
+        name: SITE_NAME,
+        url: SITE_URL,
+        logo: { "@type": "ImageObject", url: OG_IMAGE },
+      },
+      mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    }) +
+    faqLd(faqs) +
+    ldJson(breadcrumbLd(crumbs));
+  return { head, body };
+}
+
+export function renderService({ slug, title, description, faqs }) {
+  const url = `${SITE_URL}/tjenester/${slug}`;
+  const crumbs = [
+    { name: "Hjem", href: "/" },
+    { name: "Tjenester", href: "/tjenester" },
+    { name: title },
+  ];
+  const body =
+    `<main>${breadcrumbNav(crumbs)}<article>` +
+    `<h1>${esc(title)}</h1>` +
+    p(description) +
+    faqSection(faqs) +
+    hubNav() +
+    `</article></main>`;
+  const head =
+    ldJson({
+      "@context": "https://schema.org",
+      "@type": "Service",
+      name: title,
+      description,
+      provider: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+      areaServed: { "@type": "Country", name: "Norge" },
+      offers: {
+        "@type": "Offer",
+        price: "2990",
+        priceCurrency: "NOK",
+      },
+    }) +
+    faqLd(faqs) +
+    ldJson(breadcrumbLd(crumbs));
+  return { head, body };
+}
+
 export function renderHomepage() {
   const systems = [
     ["Leadgenererende nettside", "/tjenester/leadgenerering", "Profesjonell, mobilvennlig nettside bygget for å konvertere besøk til forespørsler."],

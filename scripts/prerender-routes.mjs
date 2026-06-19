@@ -21,7 +21,39 @@ import {
   renderWikiTerm,
   renderArticle,
   renderTrade,
+  renderComparison,
+  renderService,
+  extractFaqs,
 } from "./prerender-content.mjs";
+
+// Bespoke (non-data-driven) pages whose FAQ content is extracted at build time.
+const COMPARISON_FILES = {
+  "mittanbud-alternativ": "src/pages/vergelijk/WerkspotAlternatief.tsx",
+  "mittanbud-priser": "src/pages/vergelijk/MittanbudPriser.tsx",
+  "mittanbud-vs-anbudstorget": "src/pages/vergelijk/MittanbudVsAnbudstorget.tsx",
+  "tripletex-vs-fiken": "src/pages/vergelijk/TripletexVsFiken.tsx",
+  "crm-for-handverkere": "src/pages/vergelijk/CrmForHandverkere.tsx",
+  "timeregistrering-for-handverkere": "src/pages/vergelijk/TimeregistreringForHandverkere.tsx",
+  "fakturaprogram-for-handverkere": "src/pages/vergelijk/FakturaprogramForHandverkere.tsx",
+};
+const SERVICE_FILES = {
+  leadgenerering: "src/pages/systemen/LeadGeneratie.tsx",
+  kundekommunikasjon: "src/pages/systemen/Klantcommunicatie.tsx",
+  anmeldelsesfunnel: "src/pages/systemen/ReviewFunnel.tsx",
+  "alt-i-en-innboks": "src/pages/systemen/AllInOneInbox.tsx",
+  markedsforingskampanjer: "src/pages/systemen/MarketingCampagnes.tsx",
+  "lead-oppfolging": "src/pages/systemen/LeadFollowUp.tsx",
+  "lokal-seo": "src/pages/systemen/LokalSeo.tsx",
+  digitalisering: "src/pages/diensten/DigitaliseringAannemers.tsx",
+  automatisering: "src/pages/diensten/AutomatiseringAannemers.tsx",
+  programvareintegrasjoner: "src/pages/diensten/SoftwareIntegraties.tsx",
+  "ai-losninger": "src/pages/diensten/AiOplossingen.tsx",
+  tilbudssystem: "src/pages/diensten/OfferteSysteem.tsx",
+  anmeldelsessystem: "src/pages/diensten/ReviewSysteem.tsx",
+  planleggingssystem: "src/pages/diensten/PlanningSysteem.tsx",
+  markedsforingsautomatisering: "src/pages/diensten/MarketingAutomatisering.tsx",
+};
+const stripBrand = (t) => t.replace(/\s*\|\s*Vekst Systemet\s*$/, "").trim();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.join(__dirname, "..");
@@ -280,13 +312,34 @@ async function build() {
   }
 
   for (const [slug, title, description] of TJENESTER) {
-    routes.push({ path: `/tjenester/${slug}`, title: `${title} | Vekst Systemet`, description });
+    const faqs = SERVICE_FILES[slug] ? extractFaqs(SERVICE_FILES[slug]) : [];
+    const { head, body } = renderService({ slug, title, description, faqs });
+    routes.push({
+      path: `/tjenester/${slug}`,
+      title: `${title} | Vekst Systemet`,
+      description,
+      headExtra: head,
+      bodyHtml: body,
+    });
   }
   for (const [slug, title, description] of VERKTOY) {
     routes.push({ path: slug ? `/verktoy/${slug}` : "/verktoy", title, description });
   }
   for (const [slug, title, description] of SAMMENLIGN) {
-    routes.push({ path: `/sammenlign/${slug}`, title, description });
+    const faqs = COMPARISON_FILES[slug] ? extractFaqs(COMPARISON_FILES[slug]) : [];
+    const { head, body } = renderComparison({
+      slug,
+      title: stripBrand(title),
+      description,
+      faqs,
+    });
+    routes.push({
+      path: `/sammenlign/${slug}`,
+      title,
+      description,
+      headExtra: head,
+      bodyHtml: body,
+    });
   }
   for (const [slug, title, description] of GUIDES) {
     routes.push({ path: `/guide/${slug}`, title, description });
@@ -345,8 +398,9 @@ async function build() {
     writeRoute(template, route);
   }
 
+  const contentCount = uniq.filter((r) => r.bodyHtml).length;
   console.log(
-    `Prerendered ${uniq.length} routes (${withContent} with full body content + JSON-LD)`,
+    `Prerendered ${uniq.length} routes (${contentCount} with full body content + JSON-LD)`,
   );
 }
 
