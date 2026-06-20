@@ -3704,4 +3704,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "tiktok-for-handverkere",
+    title: "TikTok for håndverkere: Slik bygger du jobbpipeline fra korte videoer",
+    description:
+      "TikTok er ikke bare for tenåringer. Slik bruker norske håndverkere plattformen til å bygge merkevare lokalt, generere leads, og rekruttere lærlinger - uten å danse foran kamera.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-06-20",
+    sections: [
+      {
+        heading: "Hvorfor TikTok faktisk fungerer for norske håndverkere",
+        body:
+          "TikTok har passert 2,2 millioner aktive brukere i Norge, og snittalderen har kravlet seg over 30 år. Det betyr at huseiere som planlegger bad-oppussing, taktekking eller nytt kjøkken faktisk scroller der hver kveld. Forskjellen fra Instagram er at TikTok-algoritmen distribuerer videoer basert på interesse, ikke på følgermassen din. En tømrer eller flislegger uten en eneste følger kan få 80 000 visninger på sin første gode video hvis innholdet treffer. For håndverkere som ikke har tid til å bygge en stor følgerflokk over år, er det den eneste sosiale plattformen der nybegynnere får organisk rekkevidde gratis fra dag én.",
+      },
+      {
+        heading: "Hvilke fag passer best (og hvilke sliter mer)",
+        body:
+          "Fag som har tydelig før-og-etter, fysisk håndverk eller overraskende detaljer fungerer best. Maler, flislegger, taktekker, murer, pusser, tømrer og gulvlegger har lett match - en flate som transformeres, en teknikk som er pen å se på, et resultat kunden umiddelbart skjønner verdien av. Rørlegger og elektriker har det vanskeligere fordi mye av jobben skjer i veggen, men kan utnytte løsninger på vanlige problemer (\"slik unngår du frosne rør\", \"derfor varmer pumpen dårlig\") som faktisk treffer huseiere. Smarthus-installatører og solcelleinstallatører har sterk traction fordi temaet er nytt og folk er nysgjerrige. Altmuligmann og vindusvasker bør tenke lokalt og humoristisk; nasjonal rekkevidde er ikke målet.",
+      },
+      {
+        heading: "Tre videoformater som leverer leads, ikke bare visninger",
+        body:
+          "Det første formatet er transformasjon - 30 sekunders speed-up av en hel jobb, fra tomt rom til ferdig resultat. Det andre er feilrettelser - du viser noe en annen håndverker har gjort galt, forklarer hvorfor det er feil, og hvordan det burde vært gjort. Det tredje er undervisning - du svarer på et konkret spørsmål huseiere stiller seg, for eksempel \"derfor sprekker fugene i baderommet etter to år\". Underholdningsvideoer om livet på byggeplass kan gi mange visninger, men de gir sjelden leads. Hold deg til formater som demonstrerer fagkunnskap, så bygger algoritmen rekkevidden og kundene konverterer av tillit i stedet for av underholdning.",
+      },
+      {
+        heading: "Algoritmen elsker dybde - bygg én tydelig nisje",
+        body:
+          "TikTok-algoritmen er en interessemotor. Den vil vise videoene dine til folk som har sett lignende videoer før, ikke til alle som bor i fylket. Det betyr at en maler som lager videoer om alt - kjøkken, fasader, treverk, biler, eget liv - vil få ujevn rekkevidde fordi algoritmen ikke klarer å plassere kontoen. En maler som bare lager videoer om fasademaling i 90 dager, vil derimot bli markert som \"fasade-konto\" og pushet til folk som har sett andre fasadevideoer. Velg én nisje per konto de første tre månedene, så kan du utvide senere. For en flislegger kan nisjen være badegulv. For en taktekker kan det være vurderinger av eksisterende tak. Snevert slår bredt på TikTok.",
+      },
+      {
+        heading: "Slik filmer du på byggeplass uten å miste hodet",
+        body:
+          "Den største innvendingen mot TikTok blant håndverkere er at \"jeg har ikke tid\". Det er feil hvis du planlegger riktig. Sett opp en billig mobilstativ (300 kr) på byggeplassen om morgenen, lås den fast med tape, og la den filme i bakgrunnen mens du jobber. På slutten av dagen har du 6-8 timer råopptak. Klipp 3-4 videoer på 30 sekunder ut av dette på 20 minutter samme kveld med CapCut eller TikToks innebygde editor. Én dag på byggeplass kan gi to ukers innhold. Husk å spørre kunden om tillatelse til filming av rommet - de fleste sier ja, særlig hvis du tilbyr en liten rabatt eller en gratis tilleggsbefaring som motytelse.",
+      },
+      {
+        heading: "Lyd, tekst og første tre sekunder",
+        body:
+          "TikTok rangerer videoer på fullføringsprosent. Hvis de fleste sveiper bort etter to sekunder, dør videoen. Derfor er åpningen alt. Start med en konkret påstand (\"Dette flislegger-trikset sparer deg 8 000 kroner\"), et visuelt sjokk (en tydelig før-tilstand), eller et spørsmål huseiere lurer på (\"Hvorfor blir taket grønt etter tre år?\"). Legg på undertekster - 70 prosent av brukere ser videoer uten lyd første gang. Bruk trendlyder bare hvis de passer, ellers er din egen stemme med tydelig norsk faglig forklaring sterkere. En 30-sekunders video med tre tydelige snitt, undertekster, og en konkret konklusjon til slutt fullføres oftere enn en sammenhengende monolog.",
+      },
+      {
+        heading: "Geo-tagging - TikToks skjulte lokal-SEO",
+        body:
+          "TikTok har bygget seg om til en lokal søkemotor det siste året. Stadig flere yngre brukere søker direkte i appen på \"rørlegger Bergen\" eller \"flislegger Trondheim\" i stedet for å gå til Google. Geo-tagg derfor hver video med byen eller området jobben gjøres i, og nevn stedsnavnet både i bildeteksten og muntlig i videoen. Skriv \"baderomsrenovering i Sandnes\" i stedet for bare \"baderomsrenovering\". Effekten er at TikTok serverer videoen din til brukere i samme geografi, og at lokale søk plukker deg opp. En entreprenør i Stavanger som geo-tagget alle sine 40 videoer det siste året, fikk over halvparten av sine TikTok-leads fra brukere innenfor 30 kilometers radius - akkurat den kundekretsen som faktisk kan bli til jobb.",
+      },
+      {
+        heading: "Fra TikTok-visning til faktisk lead",
+        body:
+          "En vanlig fallgruve er at videoene får god rekkevidde, men ingen leads ender opp i innboksen. Årsaken er nesten alltid at konverteringsstien er brutt. TikTok-bio må ha en klikkbar lenke til en landingsside laget spesifikt for TikTok-trafikk - ikke forsiden av nettsiden din. Landingssiden skal speile videoens tema (kommer kunden fra en flisleggervideo, skal landingssiden handle om fliselegging), ha tydelig CTA og et kort skjema med maks tre felter. Hver video bør ha en muntlig oppfordring til slutten: \"Lenke i bio for gratis befaring.\" Når disse to elementene er på plass, ligger konverteringsraten fra TikTok-besøk til lead typisk på 4-8 prosent, mot under 1 prosent uten dedikert landingsside.",
+      },
+      {
+        heading: "Rekruttering: TikTok er der neste generasjon lærlinger lever",
+        body:
+          "Bonus-effekten ingen snakker om: TikTok er den raskeste rekrutteringskanalen for lærlinger og unge svenner. Aldersgruppen 16-22 år bruker i snitt 95 minutter daglig på plattformen, og det er der de bestemmer seg for hvilket yrke de vil prøve. Maler-, rørlegger-, elektriker- og tømrer-konti som viser livet i bedriften, hvordan en typisk dag ser ut, og hva lærlingen faktisk lærer, får henvendelser fra 17-åringer som vil ha lærlingplass. For en bedrift som sliter med å fylle lærlingplasser via klassiske kanaler, kan TikTok løse rekruttering, merkevarebygging og leadgenerering samtidig. Du trenger ikke ansette en marketingbyrå - du trenger 30 minutter i uka og en jevn rytme.",
+      },
+      {
+        heading: "Anbefalt arbeidsflyt - 30 minutter i uka som faktisk gir avkastning",
+        body:
+          "Sett av to faste tidsblokker i uka. Mandag morgen: sett opp mobilstativet på første jobb, film bakgrunnsmateriale gjennom dagen. Onsdag kveld: 30 minutter klipp og publisering av tre videoer, planlagt utgivelse onsdag, fredag og lørdag morgen. Lørdag kveld: gjennomgang av forrige ukes resultater - hvilken video gav flest visninger, hvilken konverterte best til lead. Etter åtte uker har du 24 videoer, statistikk på hva som funker, og typisk 15-30 nye leads i måneden uten betalt annonsering. Du må fortsatt fange opp leadene raskt og følge dem opp systematisk - det er der CRM og automatisering kommer inn. Vekst Systemet leverer landingsside, lead-skjema, automatisert oppfølging og anmeldelsesfunnel i én stack, så TikTok-trafikken faktisk konverterer til signerte jobber.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Instagram for håndverkere", href: "/kunnskapsbank/instagram-for-handverkere" },
+      { label: "YouTube for håndverkere", href: "/kunnskapsbank/youtube-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
