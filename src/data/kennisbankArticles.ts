@@ -3903,4 +3903,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "timeregistrering-for-handverkere",
+    title: "Timeregistrering for håndverkere: slik gjør du det riktig",
+    description:
+      "Hvordan velge timeregistreringssystem som håndverker, hva loven krever av dokumentasjon, og hvorfor presis registrering henter inn 5-10 % høyere fakturert tid for bedrifter med 1-10 ansatte.",
+    category: "Teknisk",
+    readTime: "10 min",
+    date: "2026-06-23",
+    sections: [
+      {
+        heading: "Hvorfor unøyaktig timeregistrering koster deg 5-10 % av omsetningen",
+        body:
+          "Den vanligste lekkasjen i en håndverkerbedrift er ikke materialsvinn eller dårlige avtaler - det er timer som aldri kommer på fakturaen. En tømrer som glemmer to reisetimer på fredagen, et formannsmøte ingen registrerer, en kundetelefon tatt mens du står på bygg. Over et år forsvinner typisk 80-150 timer per ansatt. For en bedrift med 4 ansatte og 950 kr i timepris er det 300 000-570 000 kr i tapt fortjeneste. Et stramt system for timeregistrering tjener seg inn på under en måned, og frigir samtidig data du kan bruke til presis kalkyle på neste jobb.",
+      },
+      {
+        heading: "Tre typer systemer: papir, regneark og dedikert app",
+        body:
+          "Det finnes tre praktiske nivåer. Papir - en ringblokk i bilen - kan virke for enpersonsbedrifter, men dataene må overføres manuelt og forsvinner ved første rotete uke. Regneark fungerer for 2-3 ansatte hvis disiplinen er på plass, men gir ingen stedssporing, ingen automatisk overføring til lønn, og er fort utdatert. En dedikert app som Smartdok, Tripletex, Holte eller PowerOffice gir registrering i felt, kobling mot prosjekt og automatisk faktura. For en elektriker eller rørlegger med 3 ansatte koster en slik løsning typisk 150-300 kr per ansatt per måned - og spares inn på de første feilfakturaene som unngås.",
+      },
+      {
+        heading: "Hva loven krever - arbeidstidsregistrering og dokumentasjon",
+        body:
+          "Arbeidsmiljøloven § 10-7 krever at arbeidsgiver registrerer arbeidstiden til hver enkelt ansatt. Dette gjelder også håndverkerbedrifter med én ansatt. Det skal være mulig å se start og slutt på arbeidsdagen, pauser og eventuell overtid. Arbeidstilsynet kan be om innsyn med kort varsel, og bøtene starter på 30 000 kr ved manglende dokumentasjon. For en taktekker eller flislegger som kjører fastpris på prosjektet, må timene fortsatt registreres for hver ansatt - selv om kunden får én sum. Et digitalt system med tidsstempling oppfyller kravet automatisk, mens en utfylt papirloggbok må kunne fremvises i fem år.",
+      },
+      {
+        heading: "Per jobb eller per dag - velg modell som matcher hvordan du fakturerer",
+        body:
+          "Den viktigste beslutningen er om timene skal registreres per prosjekt eller bare per dag. Per dag er lettere for de ansatte og passer for håndverkere på fast lønn med få samtidige prosjekter. Per prosjekt er tyngre i starten, men gir avgjørende data: hva koster faktisk et bad å pusse opp, hva tar et tak å legge, hvor mye tid går til reise. En maler eller pusser som registrerer per jobb i seks måneder, oppdager ofte at lønnsomheten varierer 20-40 % mellom prosjekttyper - kunnskap som direkte påvirker hva du sier ja til neste gang og hvilken pris du legger inn.",
+      },
+      {
+        heading: "GPS-stempling og stedssporing - når det er nyttig, når det er overdrevet",
+        body:
+          "GPS-stempling låser timeregistreringen til en spesifikk byggeplass og fungerer som dokumentasjon overfor kunde og Arbeidstilsynet. For en murer eller entreprenør med ansatte spredt på flere byggeplasser gir det automatisk oversikt over hvem som er hvor. Bakdelen er at det oppleves som overvåking. Vær åpen med de ansatte om hvorfor systemet brukes - dokumentasjon og forenkling, ikke kontroll av lunsjpausen. Drøft det i ansattmøte, dokumenter det i arbeidsavtalen, og hold geofencen romslig nok til at folk ikke får alarm når de henter materialer på byggevarehuset 800 meter unna. Da fungerer det uten gnisninger.",
+      },
+      {
+        heading: "Integrasjon med faktura, lønn og prosjektregnskap",
+        body:
+          "Et timeregistreringssystem som ikke snakker med fakturaprogrammet, blir et dobbeltarbeid. Når en tømrer registrerer fire timer på prosjekt X mandag, skal de timene være tilgjengelig samme dag for fakturering, lønnsberegning og etterkalkyle. Standardintegrasjoner mot Tripletex, PowerOffice, Fiken og Visma løser dette. For en elektriker som driver med både fastpris og regningsarbeid betyr integrasjonen at fakturaen genereres med faktiske timer per kunde, lønnsslippen blir riktig uten manuelt arbeid, og prosjektregnskapet viser dekningsbidraget i sanntid. Tre systemer som ikke kobles sammen, koster typisk 5-8 timer admin per uke - mer enn nok til å betale for en samlet løsning.",
+      },
+      {
+        heading: "Slik får du de ansatte til å bruke systemet",
+        body:
+          "Det mest avanserte timeregistreringssystemet er verdiløst hvis de ansatte ikke registrerer i sanntid. To grep avgjør om det fungerer. Det første er at registreringen tar mindre enn 15 sekunder - et stempel inn og ut på telefonen, ikke et skjema med 12 felter. Det andre er at lønn beregnes ut fra registrerte timer. En flislegger eller rørlegger som vet at lønnsslippen følger appen direkte, fyller den inn nøyaktig. Sett opp varsler hvis dagen mangler registrering, ros offentlig de som er nøyaktige, og ikke straff når noen glemmer - rett heller fortløpende. Etter 4-6 uker er det vane.",
+      },
+      {
+        heading: "Vanlige feil som ødelegger dataene dine",
+        body:
+          "Den hyppigste feilen er at alle ansatte registrerer på samme «diverse»-prosjekt fordi det er enklest. Da forsvinner prosjektregnskapet. Lag tydelige prosjektkoder, og slett «diverse» fra valgmenyen. Den nest hyppigste er at reisetid ikke skilles fra arbeidstid. For en maler eller taktekker med daglig kjøring til byggeplass utgjør reisetid 30-60 minutter per dag - som skal være med i kalkylen din. Tredje feil er etterregistrering på fredag for hele uka; hukommelsen er upålitelig og timer blir glemt. Krev daglig registrering. Fjerde feil er manglende registrering av telefon og e-post utenfor kjernearbeidstid - småtid som likevel tilhører jobben.",
+      },
+      {
+        heading: "Anbefalt stack: timeregistrering inn i hele driftsflyten",
+        body:
+          "For en håndverkerbedrift med 1-10 ansatte er det enkleste oppsettet at lead, prosjekt, timeregistrering, faktura og lønn deler samme datakilde. En lead kommer inn via skjema på nettsiden, automatisk lead-oppfølging svarer kunden innen minutter, og når jobben vinnes opprettes prosjektet i CRM-et. Ansatte stempler timer mot prosjektet med app, GPS bekrefter byggeplass, og timene flyter rett til faktura og lønn. Etterkalkylen viser dekningsbidrag i sanntid, og du ser hvilke prosjekttyper du tjener mest på. Vekst Systemet kobler hele denne flyten ferdig satt opp - inkludert integrasjoner mot Tripletex og PowerOffice - til en fast månedspris, slik at du slipper å sette det sammen selv.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Fakturaprogram for håndverkere", href: "/kunnskapsbank/fakturaprogram-for-handverkere" },
+      { label: "Etterkalkyle for håndverkere", href: "/kunnskapsbank/etterkalkyle-for-handverkere" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Timepris-kalkulator", href: "/verktoy/timepris-kalkulator" },
+      { label: "Personalkostnad-kalkulator", href: "/verktoy/personalkostnad-kalkulator" },
+    ],
+  },
 ];
