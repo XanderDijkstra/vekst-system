@@ -4155,4 +4155,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Alt-i-en-innboks", href: "/tjenester/alt-i-en-innboks" },
     ],
   },
+  {
+    slug: "by-landingssider-for-handverkere",
+    title: "By-landingssider for håndverkere: ranger i flere byer i Google",
+    description:
+      "Slik bygger en håndverker landingssider per by uten duplicate-straff. Strukturen, innholdet og lenkene som lar deg rangere i Oslo, Bærum og Drammen samtidig.",
+    category: "SEO",
+    readTime: "10 min",
+    date: "2026-06-27",
+    sections: [
+      {
+        heading: "Hvorfor én side for alle byer ikke rangerer i Google",
+        body:
+          "En maler eller taktekker som tar oppdrag i Oslo, Bærum og Drammen og bare har én «områder vi dekker»-side med 50 byer i en liste, rangerer ingen steder. Google klarer ikke å avgjøre hvilket søk siden er relevant for, så den vises ikke topp for noen by. Dette er en av de vanligste lokal SEO-tabbene hos håndverkere som tar oppdrag i mer enn én kommune. Løsningen er en egen landingsside per by med ekte lokalt innhold, slik at Google forstår hvilken side som hører til hvilket søk. Det gjelder særlig for elektrikere, rørleggere og taktekkere med større fysisk dekningsområde enn én kommune.",
+      },
+      {
+        heading: "Når en by-landingsside faktisk er verdt jobben",
+        body:
+          "Ikke alle byer fortjener egen side. En tømrer som tar 3 jobber i året i Trondheim mens 80 % av omsetningen er i Oslo, brenner tid på en landingsside som aldri konverterer. Tommelfingerregelen: en by er verdt en egen side hvis du har gjort minst 5-10 jobber der det siste året, eller du aktivt vil ta flere oppdrag der. For en typisk håndverker med 1-10 ansatte betyr det 3-8 by-sider, ikke 50. Resten av området dekkes på en samleside med korte bymentions. Bedre å gjøre 5 by-sider grundig enn 30 overflatisk.",
+      },
+      {
+        heading: "Strukturen som unngår duplicate content",
+        body:
+          "Den klassiske feilen er å kopiere samme tekst og bare bytte ut «Oslo» med «Bærum». Google ser dette umiddelbart og rangerer enten bare én av sidene eller ingen av dem. Hver by-side må ha minst 60-70 % unikt innhold, og det betyr ekte lokal info: spesifikke bydeler, referansejobber gjort i området, kjøreavstand, og lokale særegenheter (verneverdige fasader i Bærum, sjøsalt-belastet taktekking i Kragerø). En URL-struktur som /malertjenester/oslo og /malertjenester/baerum gjør at sidene rangerer separat. Slurver du her, taper hele strukturen verdi - det er ikke verdt risikoen.",
+      },
+      {
+        heading: "Hva som må være unikt per by - og hva som kan resirkuleres",
+        body:
+          "Innhold som SKAL være unikt per by-side: en åpningsparagraf som nevner byen, bydeler og dekningsområde konkret, 2-3 referansejobber med adresse-spesifikke detaljer (et bilde fra et tak i Strømmen), priseksempler hvis det er lokale forskjeller, og minst tre by-spesifikke FAQ-er som «hvor mye koster en rørleggertime i Bærum?». Innhold som kan deles på tvers: generell tjenestebeskrivelse, faglige forklaringer og generelle prisspenn. Tommelfingerregelen: åpningen, eksemplene og FAQ-en er unike per by - resten kan resirkuleres. Det holder Google fornøyd uten at du må skrive 9 helt forskjellige tekster.",
+      },
+      {
+        heading: "NAP, kontoradresse og Google Bedriftsprofil",
+        body:
+          "NAP-konsistens betyr at navn, adresse og telefon må stemme overens på tvers av nettside, Google Bedriftsprofil og bransjekataloger - men det betyr ikke at du må ha kontor i hver by. Har du én adresse i Oslo og tar jobber i Bærum, oppgir du Oslo-adressen som hovedkontor og presiserer på Bærum-siden at du jobber der. Aldri fabrikker en falsk adresse per by; Google ser det og kan stenge profilen. Google Bedriftsprofil støtter «service area» som lar mobile håndverkere - rørleggere, elektrikere og taktekkere - angi flere byer uten å ha kontor der. Listen over byer i service area må matche by-landingssidene du har bygget, slik at signalene peker samme vei.",
+      },
+      {
+        heading: "Lokale anmeldelser - det sterkeste rangerings-signalet",
+        body:
+          "Anmeldelser fra kunder i en spesifikk by er det sterkeste lokale rangerings-signalet du har. En taktekker med 47 anmeldelser men ingen i Bærum, sliter med å rangere på «taktekker Bærum» selv med god landingsside. Etter hver fullført jobb i en ny by, gjør et ekstra push på anmeldelser via en anmeldelsesfunnel - SMS med direktelink samme dag eller dagen etter. Når kunden inkluderer «Bærum», «Strømmen» eller «Sandvika» i selve teksten, blir signalet enda sterkere. Bygg en kort SMS-mal som oppfordrer kunden til å nevne hvor jobben ble utført - det skjer ikke automatisk.",
+      },
+      {
+        heading: "Intern lenking - slik kobler du sidene sammen",
+        body:
+          "Sidene må kobles riktig for at Google skal forstå hierarkiet. En hovedside «Områder vi dekker» lenker til alle by-sidene. Hver by-side lenker tilbake til hovedsiden og til 2-3 nabobyer (en flislegger i Bærum kan lenke til Asker og Sandvika). Brødsmule-navigasjon må vises tydelig: Hjem > Områder > Bærum. Dette gir både Google og brukeren en logisk struktur. Pass på at en kunde som søker «rørlegger Bærum» faktisk lander på Bærum-siden - ikke på en generisk forside som ikke nevner Bærum. Konverteringsraten faller dramatisk hvis landingssiden ikke matcher søkeordet kunden brukte.",
+      },
+      {
+        heading: "Måling og tidshorisont - når begynner sidene å rangere",
+        body:
+          "Realistisk tidshorisont er 3-6 måneder før en ny by-landingsside rangerer i topp 10, og 6-12 måneder før den blir synlig i kartpakken på Google Maps. Bruk Search Console og egen lead-sporing til å se hvilke by-søk siden vises for, hvor mange klikk den får, og hvor mange som konverterer til lead. Får siden ingen impressions etter tre måneder, sjekk tre ting: er innholdet faktisk unikt nok, er siden lenket fra navigasjon og forside, og har den ekte lokale referanser. Mange håndverkere gir opp etter 6 uker - det er for tidlig. Lokal SEO bygges over kvartaler, ikke uker.",
+      },
+      {
+        heading: "Hele stacken satt sammen - uten å administrere det selv",
+        body:
+          "En komplett by-landingsside-struktur krever maler, tekst, lokale bilder, intern lenking, anmeldelses-flow og rapportering. Mange håndverkere som prøver dette alene ender med 6 halvferdige sider og ingenting som rangerer i Google. Vekst Systemet leverer hele stacken sammenstilt: en nettside med malstruktur for by-landingssider, en anmeldelsesfunnel som samler inn lokale anmeldelser per by, lead-sporing som viser hvilke byer som gir reelle henvendelser, og kobling mot Google Bedriftsprofil. Du sier hvilke byer du dekker - vi bygger sidene og kobler dem sammen til en lokal SEO-motor som vokser jevnt over måneder uten at du må styre det selv.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil-sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Markedsføring for håndverkere", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
