@@ -4218,4 +4218,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "ny-handverker-forste-kunder",
+    title: "Ny håndverker uten kunder: slik vinner du de første 10 jobbene",
+    description:
+      "Nystartet rørlegger, maler eller tømrer uten kunder? Slik bygger du de første ti jobbene med plattformleads, nettverk og lokal synlighet - før egen nettside gir avkastning.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-06-28",
+    sections: [
+      {
+        heading: "Hvorfor de første 30 dagene er hardere enn alt etterpå",
+        body:
+          "En nystartet rørlegger eller elektriker har ingen anmeldelser, ingen lokal SEO-historikk og ingen henvendelser i kalenderen den første mandagen. Det er den hardeste fasen i hele karrieren - ikke fordi faget er vanskelig, men fordi alle de etablerte signalene som vinner jobber, mangler. En kunde som søker «rørlegger Oslo» får 27 treff der konkurrentene har 50-200 anmeldelser. Du har null. Sannsynligheten for at en helt ukjent kunde velger deg fremfor en med 47 anmeldelser er nær null. Derfor må de første 30 dagene handle om kanaler som ikke krever historikk - nettverk, plattformer som selger leads ferdig, og synlighet på bil og i nabolaget.",
+      },
+      {
+        heading: "Nettverket ditt - billigste leadkilden uten en eneste krone",
+        body:
+          "De første 5-10 jobbene kommer nesten alltid fra noen du allerede kjenner. En tømrer som har jobbet 8 år som lønnsmottaker hos en større entreprenør, har en liste på 50-100 personer i mobilen som vet hva han kan og hvor flink han er. Send en personlig SMS til familie, venner, gamle kollegaer og kunder fra forrige jobb der det er greit kontraktsmessig: «Har startet for meg selv som tømrer i Oslo - hører gjerne fra deg hvis du eller noen du kjenner trenger hjelp.» En slik runde gir typisk 3-7 jobber til en ny maler eller flislegger, og det koster ingenting. Tidligere arbeidsgivere kan dessuten henvise småjobber de selv takker nei til - mange større håndverkerbedrifter sier nei til oppdrag under 30 000 kr som passer perfekt for en ny solo-selvstendig.",
+      },
+      {
+        heading: "Mittanbud og Anbudstorget - betalt strøm mens du bygger eget",
+        body:
+          "Mittanbud og Anbudstorget er ikke billige - hver vunnet jobb koster typisk 1 500-4 000 kr i lead-kostnad - men de første tre månedene er det den raskeste måten å fylle kalenderen. For en ny elektriker, flislegger eller taktekker som ikke kan vente i 4-6 måneder på at lokal SEO skal ta fart, er plattform-leads forskjellen på å overleve og bli tvunget tilbake i lønnet stilling. Regn dette som en bevisst, midlertidig kostnad: budsjetter 8 000-15 000 kr per måned i lead-kjøp første halvår, og bruk hver vunne jobb til å bygge anmeldelser og portefølje du eier selv. Jo flere fullførte jobber i de første månedene, jo raskere kan du trappe ned plattformbruken.",
+      },
+      {
+        heading: "Google Bedriftsprofil - første nettsynlighet gratis",
+        body:
+          "Sett opp Google Bedriftsprofil samme uka du registrerer firmaet i Brønnøysund. Det er gratis, tar 30-45 minutter, og er det første lokalt synlige signalet du eier. Verifisering tar 5-14 dager med postkort, så start dette først - alt annet kan vente. Fyll inn full firmainfo med NAP-konsistens mot Brønnøysund og Proff, tjenestebeskrivelser, åpningstider og minst 10 bilder fra jobber du har gjort (også fra tiden hos forrige arbeidsgiver hvis du har rettigheter til bildene). En rørlegger eller maler med ferdig utfylt profil og 3-5 anmeldelser kan begynne å vises i halen av kartpakken på Google Maps allerede etter 6-8 uker, mens nettsiden fortsatt er under bygging.",
+      },
+      {
+        heading: "Bil-branding og lokal synlighet - leads fra parkeringsplassen",
+        body:
+          "Den nystartede håndverkerens billigste reklamekanal er bilen. En flislegger eller gulvlegger som parkerer en blank, umerket varebil i Bærum hver dag, mister 10-30 potensielle leads i året som rett og slett ikke ser at det står en fagperson 10 meter unna. Folie på bil koster 8 000-18 000 kr engang, varer 5-7 år, og gir 200-400 daglige eksponeringer i nabolaget der du faktisk jobber. Telefonnummer stort og lesbart, fag tydelig (RØRLEGGER, ELEKTRIKER, TAKTEKKER), og nettsideadressen kun hvis siden er live og fungerer. Kombinert med en arbeidsuniform med samme logo blir hver jobb i seg selv en reklame for neste jobb i samme gate.",
+      },
+      {
+        heading: "De første 10 anmeldelsene - be om dem uten å virke desperat",
+        body:
+          "Mangel på anmeldelser er det største konverterings-problemet en ny håndverker har. Løsningen er ikke å vente til du har «mange nok» - den er å be om anmeldelse etter hver eneste fullført jobb fra første dag. Send en kort SMS samme dag eller dagen etter med direktelink til Google Bedriftsprofil: «Takk for jobben i dag. Hvis du var fornøyd, betyr en kort anmeldelse på Google enormt mye for en ny rørlegger som meg.» En semi-formell tone som åpent anerkjenner at du er ny, gir høyere svarprosent enn en generisk forespørsel. Med en enkel anmeldelsesfunnel oppnår en ny taktekker eller maler 30-40 % konverteringsrate på SMS-en, og kan ha 10-15 anmeldelser i løpet av første kvartal.",
+      },
+      {
+        heading: "Egen nettside - når den faktisk gir avkastning",
+        body:
+          "Egen nettside er grunnmuren, men den gir ingen leads i de første 4-6 månedene uansett hvor pen den er. Lokal SEO trenger tid. Vær derfor pragmatisk: den nye håndverkeren trenger en mobilvennlig landingsside med tydelig CTA (telefonnummer øverst, kort kontaktskjema uten unødvendige felt), navn på firma, fagområde, dekningsområde og en håndfull bilder fra reelle jobber. Det er nok i starten. Ikke bruk 60 000 kr på en designet nettside før Google Bedriftsprofil er verifisert og de første 10 anmeldelsene ruller inn. Når du har 15-20 anmeldelser og noen referansejobber dokumentert, lønner det seg å oppgradere til en konverteringsoptimalisert nettside med egen landingsside per tjeneste - da finnes det reelt søkevolum å fange opp.",
+      },
+      {
+        heading: "Slik unngår du å brenne lønnen på markedsføring som ikke virker",
+        body:
+          "De fleste nye håndverkere som mislykkes med markedsføring, gjør én av tre feil: de bruker 30 000 kr på en designet nettside som ingen finner i Google, de starter Google Ads før Google Bedriftsprofil er verifisert, eller de hyrer et byrå som lover «leads garantert» og leverer dyre, ukvalifiserte leads fra andre fylker. Måned én er ikke tid for Google Ads, Facebook-annonser eller retargeting - det er tid for plattform-leads, nettverk og bil-branding. Følg en enkel regel: alt markedsføringsbudsjett brukes på kanaler som leverer kvalifiserbar lead samme uke i de første tre månedene. En ny solo-rørlegger med 80 000 kr på konto har ikke råd til 6 måneders pay-off i fase 1.",
+      },
+      {
+        heading: "Tapt anrop - den vanligste lekkasjen for en ny håndverker",
+        body:
+          "Du står på en stige eller i et sikringsskap når den potensielle kunden ringer. En ny taktekker eller elektriker som ikke svarer telefonen mister typisk 4-8 av 10 førstegangsringere - kunden ringer rett og slett neste firma på listen. En automatisk tapt anrop-SMS som svarer i samme sekund («Takk for at du ringte, jeg står på jobb og ringer deg tilbake innen en time»), holder kunden varm til du faktisk kan ringe tilbake. Kombinert med automatisk lead-oppfølging på skjemaforespørsler fanger systemet alle ledige leads selv når du står midt i et tak. For en ny håndverker betyr dette ofte 15-30 % flere avtaler per måned uten å løfte en finger.",
+      },
+      {
+        heading: "Komplett oppsett uten å lære fag nummer to",
+        body:
+          "Den nye håndverkeren skal fakturere timer, ikke lære seg SEO, CRM, automatisering og konverteringsoptimering. En typisk solo-rørlegger eller elektriker har 30-50 timer per måned tilgjengelig på kveldstid og lørdager - de timene er bedre brukt på befaring og tilbud enn på å sette opp en anmeldelsesfunnel fra null. Vekst Systemet er bygget for nettopp denne fasen: nettside, Google Bedriftsprofil-hjelp, automatisk lead-oppfølging, tapt anrop-fanger og anmeldelsesfunnel ferdig konfigurert til en fast månedspris uten oppstartskostnad. Du fokuserer på de første 30 fullførte jobbene, vi sørger for at hver av dem genererer både en anmeldelse, en oppfølging og en åpning til gjenkjøp.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Mittanbud-svar som vinner jobben", href: "/kunnskapsbank/mittanbud-svar-som-vinner-jobben" },
+      { label: "Google Bedriftsprofil-sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Automatisert lead-oppfølging", href: "/tjenester/lead-oppfolging" },
+      { label: "Markedsføring for håndverkere", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
