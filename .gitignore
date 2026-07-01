@@ -27,3 +27,39 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Repo-root allowlist
+#
+# This repo's working tree is the user's HOME directory (C:\Users\info), so a
+# stray `git add`/`git add -A` would otherwise sweep in OneDrive, AppData,
+# Documents, NTUSER.DAT and whole unrelated projects (this is exactly how the
+# "agape-daily-verse" app leaked into history). Ignore EVERYTHING at the repo
+# root by default, then re-include only the real project files below.
+/*
+!/.gitignore
+!/.env.example
+!/CLAUDE.md
+!/README.md
+!/api/
+!/public/
+!/scripts/
+!/src/
+!/supabase/
+!/components.json
+!/eslint.config.js
+!/index.html
+!/package.json
+!/package-lock.json
+!/bun.lock
+!/bun.lockb
+!/playwright-fixture.ts
+!/playwright.config.ts
+!/postcss.config.js
+!/tailwind.config.ts
+!/tsconfig.app.json
+!/tsconfig.json
+!/tsconfig.node.json
+!/vercel.json
+!/vite.config.ts
+!/vitest.config.ts
