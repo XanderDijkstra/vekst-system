@@ -12,7 +12,7 @@
     "sitemap": "node scripts/generate-sitemap.mjs",
     "prerender": "node scripts/prerender-routes.mjs",
     "seed-articles": "node scripts/generate-articles-bulk.mjs",
-    "lint": "eslint .",
+    "lint": "eslint src",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

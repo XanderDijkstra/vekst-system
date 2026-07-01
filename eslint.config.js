@@ -23,4 +23,14 @@ export default tseslint.config(
       "@typescript-eslint/no-unused-vars": "off",
     },
   },
+  {
+    // Vendored shadcn/ui primitives: keep them byte-for-byte as generated so
+    // `npx shadcn add` stays a clean drop-in. Relax the two rules they trip
+    // (empty prop interfaces, and exporting variants alongside components).
+    files: ["src/components/ui/**/*.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/no-empty-object-type": "off",
+      "react-refresh/only-export-components": "off",
+    },
+  },
 );
