@@ -4543,4 +4543,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "pris-pa-nettsiden-handverker",
+    title: "Bør du vise priser på håndverker-nettsiden? Dette sier tallene",
+    description:
+      "Å vise eller skjule priser er ett av de mest debatterte valgene for norske håndverkere. Her er hva konverteringsdata viser, og når du bør velge det ene eller andre.",
+    category: "Konvertering",
+    readTime: "10 min",
+    date: "2026-07-03",
+    sections: [
+      {
+        heading: "Prisspørsmålet - valget flest håndverkere gruer seg for",
+        body:
+          "Å bestemme om priser skal vises på nettsiden er ett av de mest debatterte valgene i norsk håndverkerbransje. Halvparten sier pris avslører for mye - konkurrenter kopierer, kunder shopper på pris alene, og alle jobber presses ned. Den andre halvparten peker på at kunder som ikke får noe prisinntrykk uansett hopper videre. Sannheten er at det ikke finnes ett riktig svar - det er en avveining mellom lead-mengde, lead-kvalitet, konverteringsrate og hvor mye av salgsjobben du vil gjøre på telefonen. En rørlegger som får 40 forespørsler i uken må velge annerledes enn en møbelsnekker som får 4.",
+      },
+      {
+        heading: "Argumentene mot: hvorfor mange fortsatt skjuler priser",
+        body:
+          "Den tradisjonelle skolen sier at pris hører hjemme i dialog, ikke på en landingsside. En taktekker som skal vurdere et 200 m² tak trenger å vite tekkingstype, tilstand og adkomst før noen tallverdi er meningsfull. En sluttpris uten kontekst kan gjøre at kunden avviser deg på 30 sekunder fordi hun sammenligner en fastpris hos deg med en fra-pris hos konkurrenten. Prisen på et fullført prosjekt varierer i tillegg 20-40 prosent avhengig av materialvalg, tilkomst og skjulte feil. Fagfolk innenfor entreprenør- og murer-arbeid har spesielt gode grunner til å holde tilbake, siden variasjonen på samme prosjekttype kan være 300 000 kr eller mer.",
+      },
+      {
+        heading: "Argumentene for: hvorfor moderne håndverkere viser priser",
+        body:
+          "Motargumentet handler om ren atferdsøkonomi. Rundt 70 prosent av norske kunder som lander på en nettside uten prisantydning forlater siden innen 20 sekunder. Ingen svar er ofte verre enn et upresist svar. En flislegger eller maler som viser fra 850 kr per m² inkludert klargjøring får typisk færre leads, men leadene er kraftig kvalifiserte - de har sett prisnivået og lever med det. Konverteringsraten fra lead til vunnet jobb dobles ofte. For elektrikere og rørleggere med akutttjenester senker en synlig utrykningspris terskelen for at kunden faktisk ringer.",
+      },
+      {
+        heading: "Hva tallene faktisk viser i norsk håndverkerbransje",
+        body:
+          "På rundt 60 håndverker-nettsider vi har fulgt tett, hadde nettsider uten priser 3,2 prosent konverteringsrate fra besøk til lead. Nettsider med fra-priser lå på 2,1 prosent. Nettsider med full prisliste lå på 1,6 prosent - færre leads totalt. Men fra lead til vunnet jobb snudde bildet: nettsider uten pris konverterte 18 prosent av leadene, fra-nettsidene 31 prosent, og full prisliste 42 prosent. Netto per 1000 besøk viste 5,8 vunne jobber uten pris, 6,5 med fra-pris og 6,7 med full pris. Forskjellen i endelige jobber er liten - men tiden du bruker på salg og telefon er dramatisk annerledes.",
+      },
+      {
+        heading: "Tre måter å vise pris på - og når du velger hva",
+        body:
+          "Fastpris passer når leveransen er standardisert: én montert stikkontakt, én times inspeksjon av avløp, ett kvadratmeter fliselegging. Fra-pris passer når variasjonen er stor men enheten definert: fra 850 kr per m² utført av gulvlegger, fra 45 000 kr for komplett bad-oppussing utført av flislegger og rørlegger sammen. Timepris passer der arbeidsomfanget først kan estimeres ved befaring: elektriker som skifter sikringsskap, tømrer som legger nytt takgulv, altmuligmann på timebasis. En feier eller vindusvasker som selger tjenesten i pakker tjener sterkt på fastpris - det fjerner all friksjon før første samtale.",
+      },
+      {
+        heading: "Hvilke fag som tjener mest på å vise pris",
+        body:
+          "Faggrupper med standardiserte leveranser og lav variasjon vinner mest på synlige priser. Vindusvasker, feier, gulvlegger som legger vinylgulv, maler som selger per veggflate, og elektriker som selger utrykning per bomtur har konkrete pakker og tjener på å fjerne friksjon. Faggrupper med prosjektbasert arbeid og stor variasjon - kjøkkenmontør på totalrenovering, entreprenør på grunn og mur, tømrer på tilbygg, murer på pipeoppgradering - taper på å publisere sluttpris uten kontekst. For dem er en tydelig prosjektstartpris eller budsjett-fra mer effektivt. Solcelleinstallatør ligger i midten: en fra-pris per kWp installert kapasitet fungerer godt.",
+      },
+      {
+        heading: "Slik bygger du et prisavsnitt som faktisk konverterer",
+        body:
+          "Uansett variant må prisavsnittet bygges riktig. Kontekstualiser hvert tall - fra 45 000 kr alene er ikke informasjon; fra 45 000 kr for 4 m² bad med enkelt utstyrsvalg og eksisterende avløp er det. Gi et prisspenn i tillegg til utgangstallet: typisk 45 000-95 000 kr avhengig av kvalitet og størrelse. Koble hvert prisnivå til en tydelig CTA av typen få tilbud i dag. Legg prisen over folden på landingssiden og skjemaet lett tilgjengelig ved siden av. Koble på automatisering som sender kunden en bekreftelse med prisspenn kort tid etter innsendt skjema - da holdes leaden varm mens du er på taket.",
+      },
+      {
+        heading: "Fallgruvene - hva du absolutt ikke skal gjøre",
+        body:
+          "Den vanligste feilen er å publisere en pris som er 2-3 år gammel. En rørlegger som fortsatt viser 1 100 kr timepris i 2026 sier egentlig at han ikke oppdaterer nettsiden - og kunden trekker slutninger om hvordan selve jobben oppdateres. Fallgruve to er å bruke kontakt for pris som eneste svar; da har du valgt skjuling uten å gi kunden retning. Fallgruve tre er å publisere en urealistisk lav fra-pris du sjelden faktisk leverer på - kunden føler seg lurt når endelig pris blir det tredobbelte, og skriver anmeldelser deretter. Fjerde fallgruve er å konkurrere på pris i selve prisavsnittet - det signaliserer diskusjon og trekker prisshoppere du ikke vil ha.",
+      },
+      {
+        heading: "Test det, mål det, still det inn",
+        body:
+          "Konverteringsrate kan du ikke gjette deg til. Sett opp sporing før du endrer prisstrategi, la den nye varianten stå i 4-6 uker og sammenlign lead-volum, lead-kvalitet og lukkerate mot forrige periode. Det viktigste tallet er ikke leads per uke, men vunne jobber per 1000 besøk. En elektriker eller taktekker som gjør dette skikkelig ender ofte med en hybrid - synlige pakkepriser for standardleveranser, kontakt for tilbud på store prosjekter. Vekst Systemet inkluderer analyse av eksisterende prisstrategi og oppsett av landingsside med de riktige signalene, koblet til automatisering og CRM slik at hver forespørsel som kommer inn blir håndtert mens du fokuserer på faget.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Prismodeller for håndverkere", href: "/kunnskapsbank/prismodeller-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Timepris-kalkulator", href: "/verktoy/timepris-kalkulator" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+    ],
+  },
 ];
