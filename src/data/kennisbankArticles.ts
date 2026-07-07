@@ -4800,4 +4800,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "sesongkampanjer-for-handverkere",
+    title: "Sesongkampanjer for håndverkere: Slik utnytter du vår, sommer, høst og vinter",
+    description:
+      "Kalenderen bestemmer hva som selges når. En enkel plan for hvordan malere, taktekkere, rørleggere og elektrikere legger opp kampanjer for hver sesong - med kanaler, budsjett og tidspunkt som faktisk virker i Norge.",
+    category: "Automatisering",
+    readTime: "10 min",
+    date: "2026-07-07",
+    sections: [
+      {
+        heading: "Hvorfor sesongen er markedsføringsverktøyet du ikke bruker",
+        body:
+          "Håndverkere jobber ikke i et vakuum - kalenderen bestemmer hva som blir solgt når. En taktekker som kjører Google Ads på \"taklekkasje\" i februar kaster bort budsjettet; en maler som starter kampanjen sin først 15. mai har allerede tapt de tre beste ukene i året. Sesong er den enkleste konkurransefordelen du har, fordi de fleste av konkurrentene dine kjører den samme generiske markedsføringen året rundt. Bygger du en enkel årsplan der hver måned har én tydelig kampanje, får du to-tre ganger avkastningen per krone. Denne guiden viser hvordan du deler året i fire faser og hva du bør fokusere på i hver av dem.",
+      },
+      {
+        heading: "Vår: seks uker som avgjør halve året",
+        body:
+          "Fra midten av februar begynner søk etter \"male huset\", \"vaske taket\", \"vinduspuss\" og \"hagestue\" å stige kraftig. For malere, taktekkere og glassmestere er dette den viktigste seks-ukers-perioden i året. Feilen de fleste gjør er å starte kampanjen 15. april - da har halvparten av forespørslene allerede gått til konkurrenten. Start kampanjer 1. mars med Google Ads på lokale søk, ukentlige innlegg på Google Bedriftsprofil, og en e-post til eksisterende kunder om vårsjekk. Pris per lead er ofte 300-800 kr i denne perioden; venter du til mai stiger den til 1 500-2 500 kr fordi hele markedet er inne.",
+      },
+      {
+        heading: "Sommer: den korte gullperioden for utearbeid",
+        body:
+          "Juni, juli og august er den effektive utesesongen for tak, mur, terrasser og pusser. Utfordringen er at halve markedet ferierer selv - kunder tenker ikke på oppussing når de sitter på hytta. Løsningen er å legge opp kampanjen slik at den konverterer mellom 15. mai og 15. juni, når folk er tilbake på jobb og planlegger sommeren. Tømrere og entreprenører som bygger terrasser bør ha ferdigmontert kampanjen sin i mai. Bruk før- og etter-bilder fra fjorårets prosjekter i annonsene - visuell social proof gir høyest konverteringsrate i denne perioden, ofte 3-5 % mot 1-2 % for tekstannonser.",
+      },
+      {
+        heading: "Høst: den strategiske forberedelses-sesongen",
+        body:
+          "September til november handler om alt som må ordnes før vinteren: taksjekk før snø, varmepumpe-installasjon, tetting av vinduer, isolering av kaldloft. Elektrikere og rørleggere ser et hopp i akutt-oppdrag når temperaturen faller for første gang. Bruk høsten strategisk: kjør kampanje på \"vintersjekk\" eller \"vinterklargjøring\" med en fast pakkepris - typisk 1 500-3 500 kr - som lokker inn kunder som ikke visste de trengte hjelp. Rundt 30-50 % av disse blir større oppdrag når du er på befaring. En varmepumpe-sjekk blir plutselig fem nye varmepumper for hele borettslaget, eller en taksjekk avdekker et prosjekt på 80 000 kr.",
+      },
+      {
+        heading: "Vinter: den undervurderte innesesongen",
+        body:
+          "Desember til februar er dødtiden for utearbeid, men det er høysesong for bad, kjøkken og innvendige oppussinger. Flisleggere, rørleggere, kjøkkenmontører og elektrikere som legger opp kampanjen sin på \"bad-oppussing\" og \"kjøkkenrenovering\" i denne perioden får ofte de høyeste ordreverdiene i året - typisk 150 000-400 000 kr per prosjekt. Kunder planlegger, sparer og bestiller i januar-februar for å få jobben ferdig før våren. Investér i konvertering fremfor volum: færre leads, høyere kvalitet. En landingsside per tjeneste med tydelig CTA og finansieringsalternativ konverterer typisk 30-50 % bedre enn en generisk forside i denne perioden.",
+      },
+      {
+        heading: "Slik lager du et årshjul du faktisk følger",
+        body:
+          "Et årshjul trenger ikke være komplisert. Tegn opp 12 måneder på ett A4-ark. For hver måned skriver du fire ting: hovedkampanjen, budsjettet, kanalen som skal bære den, og én forberedelse som må være ferdig innen den 1. den måneden. Eksempel for en maler: mars = utvendig maling med Google Ads på 15 000 kr og en ferdig landingsside; august = innvendig maling med Facebook-annonser på 8 000 kr og før-og-etter-bilder; november = vedlikeholdsavtaler via e-post til eksisterende kunder. Ett A4 er nok. Detaljerte 40-siders markedsføringsplaner blir aldri fulgt av bedrifter med 1-10 ansatte.",
+      },
+      {
+        heading: "Riktig kanal per sesong",
+        body:
+          "Ikke alle kanaler passer like godt hele året. Google Ads virker best på akutte behov - taklekkasje, rørbrudd, varmepumpe som svikter - og gir høyest ROAS høst og tidlig vinter. Facebook-annonser og Instagram passer bedre for visuelle prosjekter kunden planlegger i god tid, altså bad, kjøkken og terrasser, og har best avkastning vinter og tidlig vår. Retargeting er verdifullt året rundt, men mest effektivt i vår- og høstkampanjene når trafikkvolumet er høyt. Nyhetsbrev til eksisterende kunder er dødsen effektive to ganger i året: mars for vårsjekk og september for høstsjekk - åpningsraten ligger ofte over 40 % når timingen matcher det kunden faktisk tenker på.",
+      },
+      {
+        heading: "Tre tall som avgjør om kampanjen virket",
+        body:
+          "Etter hver sesongkampanje bør du kjøre en enkel etterkalkyle med tre tall: antall leads, konverteringsrate til vunnet jobb, og snitt-prosjektstørrelse i kroner. Regneeksempel: en vårkampanje for maler som ga 42 leads, 18 vunnet (43 % konvertering), snitt 78 000 kr = 1 404 000 kr i omsetning på 18 000 kr budsjett. ROAS 78. Den dobler du neste år. En annen som ga 60 leads, 4 vunnet, snitt 22 000 kr = 88 000 kr på 20 000 kr - ROAS 4,4. Den må analyseres: feil målgruppe, feil landingsside eller feil pris. Uten disse tallene famler du blindt i mørket år etter år.",
+      },
+      {
+        heading: "Vanlige feil som spiser sesongen din",
+        body:
+          "Fire feil går igjen hos håndverkerbedrifter som prøver sesongkampanjer. Én: starter for sent - kampanjen er live først når konkurrentene har hentet inn de beste kundene. To: samme budskap hele året - \"vi er lokale og ærlige\" fungerer aldri like godt som \"boken taksjekk før snøen kommer\". Tre: ingen dedikert landingsside - trafikken fra en høstkampanje sendes til forsiden der besøkende ikke finner det de kom for, og konverteringsraten kollapser fra 8 % til 1 %. Fire: ingen automatisert lead-oppfølging - halvparten av leads glemmes fordi de kom inn under en travel arbeidsdag på taket. Alle fire kan løses med grunnleggende automatisering.",
+      },
+      {
+        heading: "Slik setter du kampanjeåret på autopilot",
+        body:
+          "Sesongkampanjer krever forberedelse: hver kampanje trenger en landingsside, en kanal, et budsjett og en oppfølgingsflyt. For en tømrer, maler eller rørlegger som allerede jobber fulltid blir dette raskt uoverkommelig. Vekst Systemet har ferdige markedsføringskampanjer bygget for norske håndverkere - vår-, sommer-, høst- og vinterpakker som aktiveres med ett klikk, komplett med landingsside, annonsetekst, e-postsekvens og automatisering av lead-oppfølging. Du velger kampanje, setter et budsjett, og systemet håndterer resten. Ingen konsulenttimer, ingen oppstartskostnad. Det betyr at du kan bruke tiden på jobbene mens markedsføringen kjører i takt med sesongen - året rundt.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lavsesong-strategi for håndverkere", href: "/kunnskapsbank/lavsesong-strategi-for-handverkere" },
+      { label: "Markedsbudsjett for håndverkere", href: "/kunnskapsbank/markedsbudsjett-for-handverkere" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
