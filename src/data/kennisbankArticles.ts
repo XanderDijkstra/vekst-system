@@ -4868,4 +4868,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "google-search-console-for-handverkere",
+    title: "Google Search Console for håndverkere: Slik bruker du dataene",
+    description:
+      "Google Search Console er gratis og forteller deg hva du faktisk rangerer på, hvorfor sider ikke vises og hvor du taper klikk. Slik bruker håndverkere det praktisk i 2026.",
+    category: "SEO",
+    readTime: "11 min",
+    date: "2026-07-08",
+    sections: [
+      {
+        heading: "Hvorfor Search Console er verktøyet ingen håndverker bør droppe",
+        body:
+          "Google Search Console er gratis, og det er den eneste kilden til hva Google faktisk viser om siden din i søkeresultatene. En rørlegger vi jobber med hadde tolv sider indeksert, men bare tre av dem fikk visninger - resten var usynlige for kunder. Uten Search Console hadde han aldri fått vite det. Verktøyet krever ingen teknisk bakgrunn: kan du logge inn på Google Bedriftsprofil, kan du bruke Search Console. Du får svar på tre spørsmål: hvilke søk finner deg, hvilke sider Google har indeksert, og hva som holder resten unna resultatene.",
+      },
+      {
+        heading: "Slik verifiserer du siden din på ti minutter",
+        body:
+          "Verifikasjon tar ti minutter hvis du har tilgang til domenenavnet. Gå til search.google.com/search-console, legg inn domenet ditt og velg \"Domene\" fremfor \"URL-prefiks\" - da fanger du opp både www og https-varianten i samme oversikt. Lim inn TXT-verifikasjonsnøkkelen hos domeneleverandøren; ligger siden hos Domeneshop, One.com eller Loopia finner du DNS-innstillinger under \"Mitt domene\" eller \"DNS-oppslag\". Data begynner å strømme inn etter 24 timer, men vent en uke før du trekker konklusjoner - trender krever volum. Er du en elektriker med helt ny side, kan det ta to måneder før du ser noe interessant her.",
+      },
+      {
+        heading: "Ytelsesrapporten viser hva du faktisk rangerer på",
+        body:
+          "Under \"Ytelse\" ser du hvilke søkeord som gir visninger, klikk og gjennomsnittsposisjon. En taktekker som trodde han rangerte på \"taktekker Oslo\", oppdaget her at 60 % av trafikken kom fra \"reparere lekkasje tak\" - et helt annet søk han ikke hadde tenkt på. Sorter etter visninger for å se hva Google matcher deg på, ikke bare det du selv har optimalisert for. Klikk deg inn på et enkeltsøk og se hvilke sider som rangerer - ofte er det ikke den landingssiden du hadde tenkt, og da vet du at det ligger en enkel SEO-gevinst i å bygge en bedre side rett på det søket.",
+      },
+      {
+        heading: "Indekseringsrapporten avslører hvorfor sider ikke vises",
+        body:
+          "Under \"Sider\" ser du hvor mange URL-er som er indeksert og hvor mange som er ekskludert. Skjulte problemer dukker opp her: en maler oppdaget at 40 av 60 tjenestesider var merket \"Duplikat uten valgt kanonisk versjon\" - hele /malertjenester/leilighet-oslo, /malertjenester/leilighet-bergen og resten manglet unikt innhold og ble derfor slått sammen av Google. Klikk på hver feilkategori og du får en liste over berørte URL-er. Fikser du dette med unike tekstavsnitt og lokal informasjon per side, dobler du ofte antall sider Google viser fram - uten å skrive én ny artikkel.",
+      },
+      {
+        heading: "Klikkfrekvens - der de fleste håndverkere taper penger",
+        body:
+          "Står du på plass 3 med 4 % CTR mens gjennomsnittet er 10 %, mister du to av tre klikk som burde vært dine. En flislegger vi jobbet med hadde plass 2 på \"flislegger Trondheim\" og fikk 500 visninger i måneden - men bare 15 klikk. Meta-tittelen var \"Startside — Firmanavn AS\". Vi endret den til \"Flislegger Trondheim — bad og kjøkken siden 2011\". CTR gikk fra 3 % til 12 % neste måned, og lead-strømmen fulgte etter. Sjekk CTR per side i Search Console og skriv om titler der tallet er lavt - det er den enkleste konverteringsjobben en håndverker kan gjøre uten å røre selve siden.",
+      },
+      {
+        heading: "Mobilvennlig og Core Web Vitals",
+        body:
+          "Under \"Nettstederfaring\" finner du Core Web Vitals - Googles tall for om siden føles rask og stabil. Er du langsom på mobil, straffer Google deg i rangeringen uansett hvor godt teksten er. Vanlige syndere hos håndverkere: 3 MB store før- og etter-bilder, autoplay-video i hero, chatte-widget som blokkerer klikk. En tømrer vi jobbet med gikk fra rødt til grønt ved bare å komprimere 24 galleribilder - sidehastighet ble halvert, og posisjonen på \"tømrer Bærum\" gikk fra 8 til 4 på seks uker. Kjør PageSpeed Insights parallelt for en konkret tiltaksliste per side.",
+      },
+      {
+        heading: "Sitemap-innsending og hvordan Google finner nye sider",
+        body:
+          "Send inn sitemap.xml under \"Områdekart\" hver gang du legger til nye sider eller endrer strukturen. Uten sitemap må Google gjette seg fram via lenker, og nye sider kan bruke uker på å bli indeksert. Har du 15 tjenestesider, 20 kunnskapsartikler og en portefølje, er sitemap-adressen typisk domene.no/sitemap.xml. Etter innsending ser du hvor mange URL-er Google har oppdaget og faktisk indeksert. Er tallet lavere enn det du forventer - for eksempel 40 av 60 - betyr det ekskluderte sider, og du sjekker indekseringsrapporten for å finne ut hvorfor akkurat de sidene falt ut.",
+      },
+      {
+        heading: "Lenker-rapporten viser hvor autoriteten din kommer fra",
+        body:
+          "Under \"Lenker\" ser du hvem som lenker til siden din utenfra - grunnlaget for hvorfor Google stoler på deg. En murer vi hjalp hadde 340 backlinks fra én katalog og null fra lokale nyhetssider - ingen reell autoritet, bare støy som Google filtrerer ut. Målet er kvalitet: kommunesider, lokale nyhetsartikler, faglag som Rørentreprenørene eller Elektroforeningen, og fornøyde kunder som skriver om deg på egen blogg. Ser du at én artikkel gir mange lenker inn, skriv flere av samme type. Ser du at konkurrentene ligger på 40 og du på 4, vet du hvor jobben ligger de neste seks månedene.",
+      },
+      {
+        heading: "Slik omsetter du dataene til konkrete nettside-endringer",
+        body:
+          "Search Console gir data, men noen må omsette dem til endringer på nettsiden. Ta ut en liste hver måned med tre bunker: fem sider som skal få ny meta-tittel (lav CTR, høyt visningsvolum), tre sider som må skrives om fra grunnen av (duplikat-varsel i indekseringsrapporten), og to nye artikler basert på søk du får visninger på uten å ha en dedikert landingsside. Send dette videre til nettsideleverandøren din - eller gjør det selv hvis du har en side du kan redigere. En kvartalsrytme på dette gir en jevn strøm av forbedringer uten at du må gjette hva som funker.",
+      },
+      {
+        heading: "Search Console kombinert med resten av lead-flyten",
+        body:
+          "Search Console gir deg SEO-tallene, men lead-siden av bildet ligger utenfor: hvor mange av klikkene ble til henvendelser, hvor lang tid tok det før noen svarte, og hvor mange endte som betalende kunder. Vekst Systemet kobler Search Console-dataene mot lead-oppfølgings-flyten og lead-sporing, så du ser hele reisen fra søk til signert tilbud i én oversikt. Får du plutselig 40 % flere leads fra \"elektriker Sørumsand\" én måned, vet du at det er en side du skal doble ned på - ikke gjette. Det er forskjellen på SEO som en teknisk øvelse og SEO som en salgskanal.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Håndverker-nettside som konverterer", href: "/kunnskapsbank/handverker-nettside-som-konverterer" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
