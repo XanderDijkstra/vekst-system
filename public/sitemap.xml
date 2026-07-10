@@ -22,6 +22,7 @@
   <url><loc>https://www.vekst-systemet.no/tjenester/alt-i-en-innboks</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.vekst-systemet.no/tjenester/markedsforingskampanjer</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.vekst-systemet.no/tjenester/lead-oppfolging</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vekst-systemet.no/tjenester/lokal-seo</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.vekst-systemet.no/tjenester/digitalisering</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.vekst-systemet.no/tjenester/automatisering</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.vekst-systemet.no/tjenester/programvareintegrasjoner</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -123,125 +124,126 @@
   <url><loc>https://www.vekst-systemet.no/nettsider-for-rorleggere</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.vekst-systemet.no/nettsider-for-takleggere</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- Kunnskapsbank articles (14) -->
+  <!-- Kunnskapsbank articles (79) -->
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/ai-verktoy-for-handverkere</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/akontofakturering-for-handverkere</loc><lastmod>2026-06-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/arkitekter-som-leadkilde-handverker</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/automatisert-lead-oppfolging-handverker</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/befaring-som-vinner-jobben-handverker</loc><lastmod>2026-04-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/bilbranding-for-handverkere</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/booking-system-for-handverkere</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/borettslag-og-sameier-handverker</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/by-landingssider-for-handverkere</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/byggblankett-3501-for-handverkere</loc><lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/casestudier-for-handverkere</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/chatbot-for-handverkere</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/crm-for-handverkere</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/darlige-betalere-handverker</loc><lastmod>2026-05-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/digital-signering-tilbud-handverker</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/doffin-offentlige-anbud-handverker</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/eiendomsmeglere-som-leadkilde-handverker</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/endringsmeldinger-og-tilleggsarbeid-handverker</loc><lastmod>2026-05-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/etterkalkyle-for-handverkere</loc><lastmod>2026-06-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/facebook-annonser-for-handverkere</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/fakturaprogram-for-handverkere</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/fdv-dokumentasjon-for-handverkere</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/fem-stjerners-google-anmeldelser-handverker</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/flere-kunder-som-handverker</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/for-og-etter-bilder-handverker</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/forsikringsoppdrag-for-handverkere</loc><lastmod>2026-05-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/gjenkjop-fra-eksisterende-kunder</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/google-ads-for-handverkere</loc><lastmod>2026-04-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/google-analytics-for-handverkere</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/google-search-console-for-handverkere</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/handverker-nettside-som-konverterer</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/henvisningsmotor-for-handverkere</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/lokal-seo-for-handverkere</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tapt-anrop-sms-handverker</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tilbud-som-vinner-jobben-handverker</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/timepris-for-handverkere-2026</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/svare-pa-darlige-anmeldelser-handverker</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/nyhetsbrev-for-handverkere</loc><lastmod>2026-05-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/hms-kort-for-handverkere-2026</loc><lastmod>2026-06-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/instagram-for-handverkere</loc><lastmod>2026-05-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/darlige-betalere-handverker</loc><lastmod>2026-05-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/vedlikeholdsavtaler-for-handverkere</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/reklamasjoner-handverker-handtering</loc><lastmod>2026-05-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/roas-for-handverkere</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/forsikringsoppdrag-for-handverkere</loc><lastmod>2026-05-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/telefonbehandling-for-handverkere</loc><lastmod>2026-05-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/endringsmeldinger-og-tilleggsarbeid-handverker</loc><lastmod>2026-05-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/lead-sporing-for-handverkere</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/borettslag-og-sameier-handverker</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/for-og-etter-bilder-handverker</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/markedsbudsjett-for-handverkere</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/linkedin-for-handverkere</loc><lastmod>2026-05-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/snittordreverdi-for-handverkere</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/klagehandtering-for-handverkere</loc><lastmod>2026-06-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/konkurranseanalyse-for-handverkere</loc><lastmod>2026-05-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/kostnadsoverslag-vs-fastpris-handverker</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/kundereise-for-handverkere</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/kvalifisere-leads-handverker</loc><lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/landingssider-per-tjeneste-handverker</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/konkurranseanalyse-for-handverkere</loc><lastmod>2026-05-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/whatsapp-business-for-handverkere</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sentralgodkjenning-for-handverkere</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tilbudsoppfolging-for-handverkere</loc><lastmod>2026-05-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/lavsesong-strategi-for-handverkere</loc><lastmod>2026-05-31</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/retargeting-for-handverkere</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/google-analytics-for-handverkere</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sms-markedsforing-for-handverkere</loc><lastmod>2026-06-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/hms-kort-for-handverkere-2026</loc><lastmod>2026-06-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/chatbot-for-handverkere</loc><lastmod>2026-06-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/youtube-for-handverkere</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/prismodeller-for-handverkere</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/prisjustering-handverker-uten-a-miste-kunder</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/booking-system-for-handverkere</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/personlig-merkevare-for-handverkere</loc><lastmod>2026-06-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/mittanbud-svar-som-vinner-jobben</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/etterkalkyle-for-handverkere</loc><lastmod>2026-06-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/rekruttering-for-handverkere</loc><lastmod>2026-06-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/ai-verktoy-for-handverkere</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/eiendomsmeglere-som-leadkilde-handverker</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/doffin-offentlige-anbud-handverker</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/akontofakturering-for-handverkere</loc><lastmod>2026-06-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/bilbranding-for-handverkere</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/arkitekter-som-leadkilde-handverker</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tiktok-for-handverkere</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/klagehandtering-for-handverkere</loc><lastmod>2026-06-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/byggblankett-3501-for-handverkere</loc><lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/timeregistrering-for-handverkere</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/kostnadsoverslag-vs-fastpris-handverker</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/lead-sporing-for-handverkere</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/linkedin-for-handverkere</loc><lastmod>2026-05-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/lokal-seo-for-handverkere</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/markedsbudsjett-for-handverkere</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/mersalg-for-handverkere</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/kundereise-for-handverkere</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/by-landingssider-for-handverkere</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/ny-handverker-forste-kunder</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/video-befaring-for-handverkere</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/digital-signering-tilbud-handverker</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/responstid-pa-leads-handverker</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/pris-pa-nettsiden-handverker</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/skjema-optimalisering-for-handverkere</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/prosjektstyring-for-handverkere</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/casestudier-for-handverkere</loc><lastmod>2026-07-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sesongkampanjer-for-handverkere</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/google-search-console-for-handverkere</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sluttbefaring-og-overtakelse-handverker</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/mittanbud-svar-som-vinner-jobben</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.vekst-systemet.no/kunnskapsbank/nabolagsmarkedsforing-for-handverkere</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/ny-handverker-forste-kunder</loc><lastmod>2026-06-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/nyhetsbrev-for-handverkere</loc><lastmod>2026-05-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/personlig-merkevare-for-handverkere</loc><lastmod>2026-06-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/pris-pa-nettsiden-handverker</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/prisjustering-handverker-uten-a-miste-kunder</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/prismodeller-for-handverkere</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/prosjektstyring-for-handverkere</loc><lastmod>2026-07-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/reklamasjoner-handverker-handtering</loc><lastmod>2026-05-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/rekruttering-for-handverkere</loc><lastmod>2026-06-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/responstid-pa-leads-handverker</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/retargeting-for-handverkere</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/roas-for-handverkere</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sentralgodkjenning-for-handverkere</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sesongkampanjer-for-handverkere</loc><lastmod>2026-07-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/skjema-optimalisering-for-handverkere</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sluttbefaring-og-overtakelse-handverker</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/sms-markedsforing-for-handverkere</loc><lastmod>2026-06-03</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/snittordreverdi-for-handverkere</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/svare-pa-darlige-anmeldelser-handverker</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tapt-anrop-sms-handverker</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/telefonbehandling-for-handverkere</loc><lastmod>2026-05-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tiktok-for-handverkere</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tilbud-som-vinner-jobben-handverker</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/tilbudsoppfolging-for-handverkere</loc><lastmod>2026-05-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/timepris-for-handverkere-2026</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/timeregistrering-for-handverkere</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/vedlikeholdsavtaler-for-handverkere</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/video-befaring-for-handverkere</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/whatsapp-business-for-handverkere</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vekst-systemet.no/kunnskapsbank/youtube-for-handverkere</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Wiki terms (37) -->
-  <url><loc>https://www.vekst-systemet.no/wiki/a-b-test</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/anmeldelser</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/anmeldelsesfunnel</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/automatisering</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/automatisk-oppfolging</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/backlinks</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/betalt-trafikk</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/bounce-rate</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/click-through-rate</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/crm</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/cta</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/domene-og-hosting</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/funnel</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/google-ads</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/google-analytics</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/google-bedriftsprofil</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/google-maps</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/konvertering</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/konverteringsrate</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/landingsside</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/lead</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/lead-oppfolging</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/local-seo</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/meta-tittel-og-beskrivelse</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/mobilvennlig-nettside</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/nav-konsistens</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/organisk-trafikk</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/qr-kode-for-anmeldelser</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/responsivt-design</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/retargeting</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/schema-markup</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/seo</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/sidehastighet</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/social-proof</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/ssl-sertifikat</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/tapt-anrop-sms</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.vekst-systemet.no/wiki/webchat</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <!-- Wiki terms (38) -->
+  <url><loc>https://www.vekst-systemet.no/wiki/a-b-test</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/anmeldelser</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/anmeldelsesfunnel</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/automatisering</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/automatisk-oppfolging</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/backlinks</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/betalt-trafikk</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/bounce-rate</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/click-through-rate</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/crm</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/cta</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/domene-og-hosting</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/funnel</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/google-ads</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/google-analytics</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/google-bedriftsprofil</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/google-maps</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/konvertering</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/konverteringsrate</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/landingsside</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/lead</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/lead-oppfolging</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/local-seo</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/meta-tittel-og-beskrivelse</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/mobilvennlig-nettside</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/nav-konsistens</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/organisk-trafikk</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/qr-kode-for-anmeldelser</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/responsivt-design</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/retargeting</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/schema-markup</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/seo</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/sidehastighet</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/social-proof</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/ssl-sertifikat</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/tapt-anrop-sms</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/varme-leads</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.vekst-systemet.no/wiki/webchat</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Nedlastinger (4) -->
   <url><loc>https://www.vekst-systemet.no/nedlastinger/google-anmeldelsesskript-handverkere</loc><lastmod>2026-04-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
