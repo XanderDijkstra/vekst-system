@@ -5130,4 +5130,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Alt i én innboks", href: "/tjenester/alt-i-en-innboks" },
     ],
   },
+  {
+    slug: "ehf-faktura-for-handverkere",
+    title: "EHF-faktura for håndverkere: krav, oppsett og fallgruver i 2026",
+    description:
+      "EHF-faktura er krav mot alle offentlige kunder og mange private storkunder. Slik setter du opp Peppol, unngår avvisninger og fakturerer feilfritt som håndverker i 2026.",
+    category: "Teknisk",
+    readTime: "10 min",
+    date: "2026-07-12",
+    sections: [
+      {
+        heading: "Hva EHF-faktura egentlig er - og hvorfor du ikke slipper unna",
+        body:
+          "EHF står for Elektronisk Handelsformat, et standardisert filformat for fakturaer som sendes gjennom Peppol-nettverket i stedet for som PDF på e-post. For en håndverker betyr det at fakturaen leveres direkte inn i kundens regnskapssystem uten manuell registrering. Alle statlige og kommunale kunder krever EHF - det gjelder både en tømrer som fakturerer skolen for vindusskifte, og en elektriker som gjør småjobber for kommunen. Fra 2026 krever også stadig flere private eiendomsforvaltere og borettslag EHF. Uten støtte for formatet mister du oppdrag før du får sende første tilbud. Setter du opp EHF én gang riktig, tar det under fem sekunder å sende resten av året.",
+      },
+      {
+        heading: "Hvem må sende EHF - og fra hvilke oppdrag det gjelder deg",
+        body:
+          "Kravet gjelder alltid mot offentlig sektor og en økende andel private storkunder. En rørlegger som får et rammeavtale-oppdrag på et sykehjem må levere EHF fra første regning. En taktekker som gjør et 15 000-kroners takrepair for en enkelt privatperson har ingen forpliktelse. Grensen går ikke på beløp, men på hvem kunden er: enhver kommune, fylkeskommune, statlig etat, offentlig eid selskap og de fleste større borettslag krever EHF. En pusser eller flislegger som primært jobber med privatkunder vil klare seg lenge på PDF, men i det øyeblikket du vinner ett offentlig oppdrag, må systemet være på plass.",
+      },
+      {
+        heading: "Peppol-nettverket - kanalen alle EHF-fakturaer går gjennom",
+        body:
+          "EHF-fakturaen sendes ikke som e-post. Den sendes gjennom Peppol - et europeisk nettverk der hvert firma har en unik elektronisk adresse knyttet til organisasjonsnummeret. Fakturaprogrammet ditt kobler seg til Peppol via en aksesspunkt-leverandør. Norske aktører som Visma, Tripletex, PowerOffice og Fiken leverer dette som standard, mens mindre systemer krever tilleggsmodul. Er du en maler eller elektriker med enkel regnskapsstruktur, kan du velge en gratis eller billig tjeneste som ligger på 0-99 kr i måneden. Er du en tømrerbedrift med flere ansatte og komplekse prosjekter, ligger prisen på 300-800 kr per måned inkludert Peppol og regnskap.",
+      },
+      {
+        heading: "Slik kobler du fakturaprogrammet ditt til EHF",
+        body:
+          "Oppsettet tar typisk 20-40 minutter. Steg én: sjekk at fakturaprogrammet støtter EHF-utgående - alle større norske systemer gjør det. Steg to: aktiver Peppol-tilknytning i innstillingene. Systemet registrerer deg som mottaker på ditt organisasjonsnummer og bekrefter innen et par timer. Steg tre: sett opp firmadata korrekt - foretaksnavn, organisasjonsnummer med MVA-suffiks, kontonummer i norsk 11-sifret format, KID-serie hvis du bruker det. En rørlegger som ikke satt inn KID-serien måtte manuelt legge til dette per faktura i to måneder før feilen ble oppdaget. Steg fire: send en testfaktura til deg selv eller til Skatteetatens EHF-testtjeneste før du sender første ekte faktura.",
+      },
+      {
+        heading: "Kundens organisasjonsnummer og elektronisk adresse - de to detaljene som må stemme",
+        body:
+          "Uten korrekt organisasjonsnummer på kunden går fakturaen aldri gjennom. Systemet sjekker automatisk mot Peppol-registeret om kunden er registrert som mottaker. Er de ikke det, får du en avvisning innen minutter. En taktekker som skulle fakturere et sameie oppdaget at sameiet ikke var Peppol-registrert - løsningen var å be forretningsføreren om Peppol-adressen deres, som viste seg å være registrert på forretningsførerens organisasjonsnummer, ikke sameiets. Slike detaljer stopper opptil 10-15 % av førstegangsfakturaer. Bygg en rutine der du sjekker Peppol-status før du sender tilbudet - da vet du på forhånd om kunden krever EHF eller aksepterer PDF.",
+      },
+      {
+        heading: "Prosjektreferanse og ordrenummer - kravene fra offentlige kunder",
+        body:
+          "Offentlige kunder krever nesten alltid at fakturaen inneholder en spesifikk prosjektreferanse eller ordrenummer - ofte et fem- til åttesifret tall du får utdelt før arbeidet starter. Uten dette avvises fakturaen automatisk i deres system, uten at noen leser den. En elektriker som fakturerte kommunen uten ordrenummer opplevde at fakturaen ble liggende urørt i 47 dager før noen tok kontakt - forsinket betaling med rentetap på over 900 kr. Legg inn en fast sjekkliste i fakturaprogrammet: ordrenummer utfylt før faktura sendes, korrekt kontaktperson, referanse til rammeavtale hvis relevant. Tre klikk ekstra som sparer flere uker i betalingstid.",
+      },
+      {
+        heading: "Vanlige feilmeldinger og hva de betyr i praksis",
+        body:
+          "Fire feilmeldinger dominerer hverdagen for norske håndverkere. 'Ugyldig mottaker' betyr at kundens organisasjonsnummer eller Peppol-adresse er feil - dobbeltsjekk mot Brønnøysundregisteret. 'Ugyldig KID' betyr at KID-nummeret ikke matcher kontonummeret ditt, typisk fordi du byttet bank og glemte å oppdatere. 'Manglende ordrereferanse' betyr at offentlig kunde krever ordrenummer du ikke la inn. 'Feil MVA-sats' betyr at du satte 25 % på en jobb som skulle vært 15 % eller motsatt - vanlig for tømrere og malere som gjør både nybygg og enkle vedlikeholdsjobber. Ha en liten intern feilliste med disse fire meldingene og hva du gjør ved hver - løser 80 % av alle EHF-problemer på minutter.",
+      },
+      {
+        heading: "Kredittnota, purring og avdrag - EHF-spesifikke fallgruver",
+        body:
+          "En kredittnota som skal reversere en EHF-faktura må også sendes som EHF, med referanse til det opprinnelige fakturanummeret. Sender du kredittnotaen som PDF, blir bokføringen hos kunden ute av balanse og de kan ikke ta imot den. Samme regel gjelder purringer: var opprinnelig faktura EHF, må purring også være EHF. Avdragsfakturaer skal ha eget fakturanummer og eget forfall, ikke bare 'avdrag 1 av 3' i teksten. En murer som samlet tre avdrag på én faktura fikk hele beløpet avvist av forretningsføreren fordi systemet forventet tre separate poster. Standarden aksepterer avdragsfakturering, men hver termin må være en selvstendig EHF-melding.",
+      },
+      {
+        heading: "Arkivering og bokføring - hvor lenge du må ta vare på hva",
+        body:
+          "EHF-fakturaer er regnskapsdokumenter og faller under bokføringsloven - de skal oppbevares i minimum fem år etter regnskapsårets slutt. Fakturaen skal lagres i sitt originale XML-format, ikke bare som PDF-utskrift. De fleste norske fakturaprogrammer arkiverer dette automatisk, men sjekk innstillingene. En flislegger som byttet regnskapssystem etter to år oppdaget at det gamle systemet ikke eksporterte XML-fakturaene ved overgang - fire måneders EHF-historikk var bare tilgjengelig som PDF. Løsningen er å ta månedlig eksport av rå EHF-filer til egen skyløsning eller ekstern harddisk. Fem års bevaringsplikt, og du vil ikke stå med tomme hender når Skatteetaten spør.",
+      },
+      {
+        heading: "Faktura som siste ledd i en samlet kundekommunikasjon",
+        body:
+          "EHF-fakturaen er ikke isolert - den er siste ledd i en kjede som starter med tilbud, går videre til bekreftelse, arbeidsordre, sluttbefaring og betaling. Når disse leddene ligger i ulike systemer, må du manuelt overføre kundedata mellom hver etappe, og feilene i EHF-fasen kommer typisk fra data som ble skrevet inn feil to steg tidligere. En taktekker som brukte fem forskjellige verktøy fant at 40 % av EHF-avvisningene skyldtes at kundeinformasjonen ble skrevet inn på nytt hver gang. En sammenhengende plattform der CRM, tilbud, arbeidsordre og faktura deler den samme kundeoppføringen fjerner denne feilkilden. Vekst Systemet er bygget rundt akkurat den logikken - én kundeoppføring, én dataflyt, én kilde til sannhet fra første kontakt til siste kvittering.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Fakturaprogram for håndverkere", href: "/kunnskapsbank/fakturaprogram-for-handverkere" },
+      { label: "Akontofakturering for håndverkere", href: "/kunnskapsbank/akontofakturering-for-handverkere" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Alt i én innboks", href: "/tjenester/alt-i-en-innboks" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+    ],
+  },
 ];
