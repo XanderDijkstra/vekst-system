@@ -5198,4 +5198,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
     ],
   },
+  {
+    slug: "arshjul-markedsforing-handverker",
+    title: "Årshjul for markedsføring: håndverkerens plan for 2026",
+    description:
+      "Fra januar-planlegging til desember-oppsummering. Årshjulet for norske håndverkere som gjør markedsføringen forutsigbar, sesongtilpasset og målbar i 2026.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-07-13",
+    sections: [
+      {
+        heading: "Hvorfor et årshjul slår improvisert markedsføring",
+        body:
+          "Improvisert markedsføring gir uforutsigbare resultater. En taktekker som lager kampanjer først når ordreboken tømmes, er alltid tre uker for sent. En rørlegger som venter til desember med å planlegge januar, mister høysesongen fordi Google Ads-kontoen ikke er varm. Et årshjul flytter deg fra reaktiv til proaktiv - du vet i februar hva du gjør i mai, ser høstens kampanjer allerede i juli, og rekker å bygge anmeldelser og innhold før etterspørselen topper. Investeringen er 3-4 timer i planleggingsfasen, og du sparer 20-30 timer i året på impulsive avgjørelser. Målet er ikke en perfekt plan, men et fundament du kan justere raskt uten å begynne fra null hver måned.",
+      },
+      {
+        heading: "Etterspørselens sesongmønster - kartet du planlegger etter",
+        body:
+          "Håndverkerbransjen har tydelige sesongmønstre du kan lese direkte ut fra Google-søk. Bad-oppussing topper i januar-mars når folk sitter inne og planlegger. Malerjobb utendørs topper i mai-juni, innendørs i oktober-november. Taktekkere har hovedsesong april til september, med akutt-jobber gjennom vinteren. Elektrikere fordeler seg jevnt, med varmepumpe-topp fra september. Rørleggere har lekkasje-topp i januar-februar under frost, og varmeanlegg-jobber i november. Flisleggere følger bad-sesongen tett. Tømrere har byggesesong mai-oktober. Kartlegg søketrenden for ditt eget fag og fylke i Google Trends før du legger planen - sesongene forskyves med 3-6 uker mellom Sørlandet og Nord-Norge.",
+      },
+      {
+        heading: "Q1 (januar-mars): innefase og planleggerne",
+        body:
+          "Første kvartal er innefasens gullalder. Folk sitter inne, bla-r i Pinterest og Instagram, og planlegger vårens prosjekter. Aktiver Google Ads på bad-oppussing, malerjobb innendørs og kjøkkenrenovering fra 2. januar - budsjett på 5 000-15 000 kr per måned dekker de fleste lokale markeder. Kjør en januar-kampanje mot eksisterende kunder med et \"planlegg våren nå\"-tilbud og 10 % rabatt ved booking før 1. mars. Ta før- og etterbilder fra desember-jobbene og publiser én per uke. Bruk januar til å oppdatere Google Bedriftsprofil, bygge nye landingssider per tjeneste og innhente ferske anmeldelser. En tømrer som planlegger Q1 riktig, sitter med fem-syv befaringer i uken innen midten av mars.",
+      },
+      {
+        heading: "Q2 (april-juni): høysesong for utejobber",
+        body:
+          "April til juni gir halvparten av årets omsetning for taktekkere, malere på fasade, flisleggere som legger terrasse og tømrere med utebygg. Trapp opp Google Ads-budsjettet 40-60 % fra 1. april og aktiver retargeting mot alle som besøkte tak- eller fasadesiden i mars. Skift ut annonsemateriell til vårbilder tatt i egen bydel - stockbilder virker fjernt i denne kategorien. Kjør en \"book før 15. mai\"-kampanje som fyller ordreboken tidlig. Vær ekstra rask på leads i denne perioden - responstid under fem minutter er ofte forskjellen mellom booket og tapt jobb når kunden har tre andre tilbud liggende. Be om anmeldelser etter hver fullført jobb; nye anmeldelser i denne sesongen jobber for deg gjennom hele sommeren.",
+      },
+      {
+        heading: "Q3 (juli-september): sommerlull og oppbygging",
+        body:
+          "Juli er lav. Ferier tømmer både din og kundens kalender. Motstå fristelsen til å skru av all markedsføring - Google Ads holder posisjonen billig i lavsesongen, og du bygger søkedata som Google-algoritmen bruker gjennom høsten. August er oppbygging: kampanje på \"gjør huset klart før høsten\", vindusskifte, isolering, taksjekk. September er høststart - varmepumpe topper for elektrikere, rørleggere får forberedelse-til-vinter-jobber, malere har innendørs-sesong igjen. Bruk juli-lullen til å produsere case-innhold, oppdatere kundereferanser og fornye før- og etterbildene. Alt du legger inn i juli, høster du fra september - da er du klar med ferskt materiell mens konkurrentene bruker samme bilde som i fjor.",
+      },
+      {
+        heading: "Q4 (oktober-desember): innefase og årsslutt",
+        body:
+          "Fjerde kvartal er innefase nummer to. Rørleggere får varmeanlegg-jobber, elektrikere får varmepumpe og belysning, malere jobber innendørs, flisleggere gjør bad-prosjekter for kunder som vil ha ferdig innen jul. Kjør en \"ferdig før jul\"-kampanje som løper hele oktober og halve november - urgency-vinkelen virker fordi den er ekte. Send nyhetsbrev til eksisterende kunder med \"nå-timer\"-tilbud og gavekort som kan brukes i januar. Desember er oppfølging: takk-kort til alle kunder fra året, oversikt over utført arbeid i deres bolig, og en invitasjon til å legge igjen anmeldelse. Sett av tre timer til å planlegge neste år før 20. desember - 2. januar er du klar til å eksekvere fra dag én.",
+      },
+      {
+        heading: "Alltid-på-aktiviteter parallelt med sesongkampanjene",
+        body:
+          "Sesongkampanjer er lag over en grunnmur. Grunnmuren består av aktiviteter som løper året rundt: Google Bedriftsprofil holdes oppdatert med nye innlegg annenhver uke, anmeldelser bygges systematisk med en anmeldelsesfunnel etter hver jobb, tapt anrop-SMS fanger opp alle missede anrop innen sekunder, og lead-oppfølging på nye forespørsler skjer innen fem minutter uansett måned. En elektriker som stopper anmeldelser i sommerferien, mister momentum i høstsesongen fordi Google-algoritmen leser passive profiler som mindre relevante. Et fakturaprogram med automatisk purring holder cashflowen jevn selv når du er på ferie. NAP-konsistens sjekkes én gang per kvartal, uansett sesong. Grunnmuren er kjedelig - og nettopp derfor undervurdert.",
+      },
+      {
+        heading: "Måling - tre KPIer per kvartal, ikke tretti",
+        body:
+          "Uten måling blir årshjulet en påstand, ikke en plan. Sett tre KPIer per kvartal og hold deg til dem: antall leads, konverteringsrate fra lead til vunnet jobb, og kostnad per vunnet jobb. Sjekk dem én gang per uke, ikke oftere - daglig sjekking gir støy, ikke innsikt. Bruk Google Analytics for trafikk og din CRM for lead-status. En taktekker med 40 leads i mai, 25 % konvertering og 1 200 kr per vunnet jobb vet med én gang om Q2-kampanjen virket. Ta en 20-minutters gjennomgang siste fredag i hvert kvartal: hva virket, hva justeres, hva legges inn i neste kvartal. Notér svaret i samme dokument som årshjulet - da har du historikk til neste års planlegging.",
+      },
+      {
+        heading: "Drift av årshjulet uten at det spiser tiden din",
+        body:
+          "Har du én person i firmaet som drifter alt, blir årshjulet oppgave nummer 47 og glipper. Løsningen er å automatisere det som kan automatiseres og standardisere resten. Sesongkampanjer settes opp én gang og aktiveres med ett klikk når datoen kommer. Nyhetsbrev bruker samme mal per kvartal - bare bildet og tilbudet byttes. Anmeldelser genereres automatisk gjennom en anmeldelsesfunnel du ikke tenker på. Vekst Systemet leverer hele årshjulet ferdig satt opp med sesongkampanjer per kvartal, én innboks for alle leads uansett kanal, og et dashboard som viser KPIene per kvartal - så du kan drifte planen på 30 minutter i uken og bruke resten av tida på å svinge hammeren.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Sesongkampanjer for håndverkere", href: "/kunnskapsbank/sesongkampanjer-for-handverkere" },
+      { label: "Markedsbudsjett for håndverkere", href: "/kunnskapsbank/markedsbudsjett-for-handverkere" },
+      { label: "Markedsføringskampanjer", href: "/tjenester/markedsforingskampanjer" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
