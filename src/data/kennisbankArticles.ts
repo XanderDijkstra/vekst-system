@@ -6027,4 +6027,62 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Alt-i-en-innboks", href: "/tjenester/alt-i-en-innboks" },
     ],
   },
+  {
+    slug: "ai-sok-optimalisering-for-handverkere",
+    title: "AI-søk for håndverkere: slik blir du funnet av AI Overviews og ChatGPT",
+    description:
+      "Google AI Overviews og ChatGPT-søk endrer hvordan kunder finner håndverkere. Her er praktisk oppskrift på å bli anbefalt av AI-verktøyene - uten å skrote SEO-arbeidet.",
+    category: "SEO",
+    readTime: "9 min",
+    date: "2026-07-26",
+    sections: [
+      {
+        heading: "Hvorfor AI-søk endrer regnestykket for håndverkerbedriften",
+        body:
+          "Google AI Overviews svarer nå direkte i toppen av søkeresultatet på spørsmål som «hvem er beste rørlegger i Trondheim» eller «hva koster nytt tak». ChatGPT-søk og Perplexity gjør det samme, med lenker til noen få kilder. For en tømrer eller taktekker som har brukt år på å bygge Google-posisjon, betyr det at kunden noen ganger aldri kommer til nettsiden - de får svaret rett i AI-boksen. Dette skremmer mange, men i praksis er det en åpning: bedriftene som blir sitert i AI-svarene, får både trafikk og troverdighet gratis. Nøkkelen er å forstå hvor AI-modellene henter svarene sine fra.",
+      },
+      {
+        heading: "Slik henter AI-modellene svar om lokale håndverkere",
+        body:
+          "Både Google AI Overviews og ChatGPT-søk bygger svarene sine på et lite sett tydelige kilder. For lokale håndverkersøk vekter de tre ting spesielt tungt: Google Bedriftsprofil med fullstendig fagliste og adresseinformasjon, anmeldelser på tvers av plattformer, og strukturert innhold på egne nettsider som svarer direkte på spørsmålet. En elektriker som mangler faggrupper i profilen sin blir nesten usynlig når AI-en skal svare «finn en elektriker i Bergen». En maler med 40 anmeldelser blir foretrukket over en med 5. Modellen prioriterer det den kan verifisere raskt og krysssjekke mellom flere kilder.",
+      },
+      {
+        heading: "Google Bedriftsprofil er fortsatt startpunktet",
+        body:
+          "Selv om AI-svarene ser nye ut, henter de fortsatt en stor del av lokal-informasjonen sin fra Google Bedriftsprofil og Google Maps. En flislegger eller kjøkkenmontør som har utfylt profilen med alle tjenestene, faste åpningstider, korrekt telefonnummer og et jevnt tilsig av anmeldelser, blir sitert langt oftere enn en konkurrent med tom profil. NAP-konsistens - navn, adresse, telefonnummer likt på tvers av nettside, profil og bransjekataloger - er ikke lenger bare et lokal SEO-signal. Det er selve sjekken AI-modellen bruker for å avgjøre om du er en reell bedrift. Bruk 30 minutter i uka de neste seks ukene på å rydde profilen, så merker du forskjell allerede før høsten.",
+      },
+      {
+        heading: "Innhold som AI-modeller faktisk siterer",
+        body:
+          "AI-modellene siterer sjelden markedsføringstekster. De siterer sider som svarer på et spesifikt spørsmål med et konkret svar. En rørlegger som skriver «vann-lekkasje i vegg - hva koster utbedring» og gir et faktisk prisintervall (12 000-45 000 kr avhengig av omfang), blir sitert. En som skriver «vi er markedets beste» blir det ikke. Struktur teller like mye: tydelig H2-spørsmål, kort avsnitt med faktisk svar, gjerne fulgt av en liten tabell. Schema markup for FAQ og LocalBusiness gjør at AI-modellen lettere plukker opp innholdet. En håndverker som produserer 10-15 slike sider over ett år, blir en fast kilde i AI-svar for hele fagområdet.",
+      },
+      {
+        heading: "Anmeldelser og social proof vekter tyngre enn før",
+        body:
+          "AI-modellene vil gjerne bekrefte at en bedrift faktisk finnes og at kunder er fornøyde. Anmeldelser er den enkleste sjekken de gjør. En taktekker med 80 anmeldelser og et snitt på 4,8 blir favorisert foran en med 12 anmeldelser og snitt 4,9 - volumet gir tillit. En systematisk anmeldelsesfunnel som sender SMS-forespørsel etter hver fullført jobb, dobler eller tredobler anmeldelsestempoet uten ekstra arbeid. Det samme gjelder omtaler i lokale medier og bransjekataloger. Alt AI-en kan krysssjekke, styrker sannsynligheten for at bedriften din blir nevnt i svaret. Social proof har alltid vært viktig; nå er det målbart avgjørende for om AI-en anbefaler deg.",
+      },
+      {
+        heading: "Egen nettside som «kilde» - hva som må stå der",
+        body:
+          "AI-svar lenker som regel til én til tre nettsider. Skal en pusser, murer eller solcelleinstallatør bli en av dem, må nettsiden fungere som et faktisk oppslagsverk for fagområdet. Det betyr tydelig lokal tilhørighet (byer og bydeler du dekker), tjenestesider med konkrete prisintervall, og en bedriftsside med organisasjonsnummer, adresse og faglig ansvarlig. Mobilvennlig design og god sidehastighet er fortsatt et absolutt krav - AI-modellen prioriterer sider som lastet raskt sist den crawlet dem. En landingsside per hovedtjeneste med tydelig CTA er fortsatt riktig - både for konvertering og fordi AI-modellen enklere kan koble søkeintent til riktig side.",
+      },
+      {
+        heading: "Slik måler du synligheten i AI-svar",
+        body:
+          "Du kan ikke forbedre det du ikke måler. Sett opp en enkel test: hver 14. dag skriver du inn de fem søkene kundene dine faktisk bruker («elektriker i Stavanger», «pris nytt bad Oslo», «taktekker priser Trondheim») i Google AI Overviews, ChatGPT-søk og Perplexity. Noter hvem som blir sitert. Etter tre måneder ser du et tydelig mønster - hvilke konkurrenter dominerer, og hvilke tema du selv er nesten inne på. Legg til Google Search Console-data for å se om AI-trafikken faktisk gir klikk. En tømrer eller flislegger som gjør dette som fast månedsritual, tar bedre beslutninger enn en som gjetter på hvordan AI-en oppfører seg.",
+      },
+      {
+        heading: "Praktisk 30-dagers oppskrift for håndverkerbedriften",
+        body:
+          "Uke 1: fullfør Google Bedriftsprofil og sjekk NAP-konsistens på nettside, Proff, Gule Sider og bransjekataloger. Uke 2: skriv fem spørsmål-og-svar-sider som direkte matcher det kundene faktisk googler i fagområdet ditt. Uke 3: legg til schema markup for LocalBusiness og FAQ på de nye sidene, og be nettsidesverktøyet om ny indeksering. Uke 4: kjør en anmeldelsesrunde på siste 20 kunder via anmeldelsesfunnel og mål baseline i AI-verktøyene. Dette er 4-6 timer arbeid i uka i én måned og gir varig avkastning. For håndverkere som ikke har tid til å bygge dette selv, leverer Vekst Systemet hele stacken - nettside, anmeldelsesfunnel, Google Bedriftsprofil-optimalisering og AI-klar innholdsproduksjon - som en samlet pakke.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Bedriftsprofil-sjekkliste", href: "/kunnskapsbank/google-bedriftsprofil-handverker-sjekkliste" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+    ],
+  },
 ];
