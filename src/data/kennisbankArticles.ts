@@ -6153,4 +6153,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "schema-markup-for-handverkere",
+    title: "Schema markup for håndverkere: slik får du stjerner og rich snippets i Google",
+    description:
+      "Schema markup er koden som lar Google vise stjerner, FAQ og åpningstider rett i søkeresultatet. Slik setter du opp LocalBusiness, Service, Review og FAQ-schema riktig - og hva det faktisk gir en håndverker i klikk.",
+    category: "SEO",
+    readTime: "10 min",
+    date: "2026-07-28",
+    sections: [
+      {
+        heading: "Hva schema markup er - og hvorfor Google bruker det",
+        body:
+          "Schema markup er en kort kode som ligger i bakgrunnen på nettsiden din, og som forteller Google eksakt hva den ser på: en bedrift, en tjeneste, en anmeldelse, et spørsmål og svar. Google gjetter fint uten koden, men når du har den, kan søkeresultatet ditt vises med stjerner, adresse, åpningstider og FAQ-bokser rett i trefflisten. En rørlegger i Bergen som la til korrekt schema markup rapporterte 34 prosent flere klikk uten å endre annonsebudsjett eller innhold. Google bruker markup som en sannhetskilde over det du skriver i vanlig tekst, fordi det er strukturert data den kan stole på.",
+      },
+      {
+        heading: "JSON-LD er formen Google faktisk vil ha",
+        body:
+          "Det finnes tre måter å legge inn schema på: microdata, RDFa og JSON-LD. Google anbefaler JSON-LD, og alle nye nettsider bør bruke det. Koden er et JavaScript-objekt som ligger i en script-tag inne i head-elementet, og som ikke påvirker hvordan siden ser ut for besøkende - kun hva Google leser i bakgrunnen. Bruker du WordPress, kan plugins som Rank Math eller Yoast generere JSON-LD automatisk. Er nettsiden bygget custom, må utvikleren legge det inn manuelt eller via et CMS-felt. Alt du limer inn må valideres før publisering. Det tar syv minutter og sparer deg for ukevis med tapt synlighet.",
+      },
+      {
+        heading: "LocalBusiness - grunnfjellet for enhver håndverkersnettside",
+        body:
+          "LocalBusiness er den viktigste schema-typen for en håndverker. Den forteller Google navn, adresse, telefon, åpningstider, e-post, prisklasse og hvilket geografisk område du dekker. Feltene må matche Google Bedriftsprofil og alle andre kataloger nøyaktig - NAP-konsistens er signalet Google måler for lokal SEO. En elektriker i Stavanger som la til priceRange, geo-koordinater og openingHoursSpecification steg fra plass 8 til plass 4 i kartpakken på \"elektriker Stavanger sentrum\" i løpet av seks uker. Uten LocalBusiness-schema blir du behandlet som en generisk nettside, ikke en lokal bedrift Google vil vise til folk som søker i nærheten.",
+      },
+      {
+        heading: "Service - én egen bit for hver tjeneste du selger",
+        body:
+          "Ved siden av LocalBusiness bør hver tjenesteside ha en Service-schema. Det er et objekt som beskriver hva du tilbyr, hvem du er (via provider som peker på LocalBusiness), og hvilket område du dekker (areaServed). En taktekker med separate landingssider for takomlegging, taksten og lekkasjer kan legge inn tre Service-blokker, én per side. Google forstår da at én bedrift dekker flere spesialiteter, og kan vise deg for søk der du ellers ville forsvunnet i mengden. Fyll ut serviceType, description og gjerne offers hvis du oppgir prisklasse. Jo mer strukturert data, jo tydeligere signal.",
+      },
+      {
+        heading: "Review og AggregateRating - stjernene som gir høyere klikkrate",
+        body:
+          "Stjerner i søkeresultatet er ikke magi - de kommer fra AggregateRating-schema. Den samler antall anmeldelser og gjennomsnittsscore fra egne kilder, og lar Google vise det ved siden av trefftittelen. En maler som viste 4,9 av 5 basert på 87 anmeldelser fikk klikkraten opp fra 3,1 til 6,4 prosent i løpet av åtte uker. Reglene er strenge: du kan ikke bruke anmeldelser hentet fra Google Bedriftsprofil, kun anmeldelser samlet på egen side, og de må være ekte og verifiserbare. En anmeldelsesfunnel som sender fornøyde kunder til nettsiden din bygger opp beholdningen som schema kan referere til.",
+      },
+      {
+        heading: "FAQPage - slik dobbler du plassen din i søkeresultatet",
+        body:
+          "FAQ-schema lar deg vise spørsmål og svar rett i trefflisten som en utvidbar liste. Har du et FAQ-avsnitt nederst på tjenestesiden, kan Google trekke ut tre til fem spørsmål og gjøre listen din dobbelt så høy visuelt. En flislegger som la til FAQ-schema på siden for baderomsfliser så det totale klikkarealet vokse fra 62 til 148 piksler høyde. Formuler spørsmålene slik kunder faktisk spør: \"Hva koster det å legge fliser på et 6 kvadratmeters bad?\" fungerer bedre enn \"Priser\". Svar konkret, med tall, i to til fire setninger. Google favoriserer FAQ-schema som gir reell verdi, ikke fluff.",
+      },
+      {
+        heading: "BreadcrumbList - hjelp Google forstå hierarki og struktur",
+        body:
+          "BreadcrumbList er den lille stien nederst i trefflisten som viser Hjem > Tjenester > Baderomsfliser i stedet for en lang, klumpete URL. Det virker kosmetisk, men det signaliserer struktur til Google og forbedrer klikkraten fordi brukeren umiddelbart ser hvor siden hører hjemme. En tømrer med tydelig breadcrumb-schema rangerte 12 prosent bedre for kategori-søk enn en konkurrent med samme innhold uten. Legg til én BreadcrumbList per side, med korrekt rekkefølge og fungerende lenker. WordPress-temaer gjør det ofte automatisk, men verifiser i Google Search Console at det leses riktig.",
+      },
+      {
+        heading: "Slik tester du at koden faktisk virker",
+        body:
+          "Publiser aldri schema uten å teste. Google har to verktøy: Rich Results Test som viser hvordan søkeresultatet ville sett ut, og Schema Markup Validator som fanger opp syntaksfeil i selve JSON-koden. Lim inn URL-en eller kildekoden, kjør testen og se om alle feltene er grønne. Er noe rødt, forteller feilmeldingen deg akkurat hva som mangler. En feier oppdaget etter to måneder at postnummerfeltet var skrevet som \"postCode\" (feil) istedenfor \"postalCode\" (riktig) - hele LocalBusiness-blokken var derfor ignorert av Google. Ti minutter validering hadde spart to måneder med tapt synlighet.",
+      },
+      {
+        heading: "Vanlige feil som gjør at Google ignorerer alt sammen",
+        body:
+          "Fem feil dukker opp igjen og igjen. Første: schema som ikke matcher det som faktisk står synlig på siden - Google straffer det som manipulasjon. Andre: åpningstider i schema som ikke matcher Google Bedriftsprofil, som gir NAP-inkonsistens. Tredje: AggregateRating uten reelle anmeldelser publisert på egen side, som fjerner stjernene umiddelbart. Fjerde: samme JSON-LD-blokk klippet inn på hver side uten tilpasning per tjeneste. Femte: å glemme å oppdatere schema når du bytter telefonnummer eller adresse. En glassmester mistet stjernene i seks måneder fordi anmeldelsene i schema pekte på en gammel nettsideversjon. Sjekk ett kvartal - koden må vedlikeholdes på lik linje med annen datakvalitet.",
+      },
+      {
+        heading: "Hva schema faktisk gir, og hvor det ikke hjelper",
+        body:
+          "Schema markup er ingen rangeringsmagi. Det gir deg ikke automatisk topp-plassering; det gjør deg mer synlig med rich snippets når du allerede rangerer noenlunde bra. Effekten er størst på klikkrate, ikke på selve plasseringen - typisk 20-40 prosent flere klikk fra samme posisjon. Har du ingen tilstedeværelse ennå, bygg lokal SEO, backlinks og innhold først. Ligger du derimot allerede på side 1 uten stjerner eller FAQ-bokser, er schema den enkleste optimaliseringen du kan gjøre neste uke. Vekst Systemet bygger dette inn i alle nettsider vi lager, sammen med anmeldelsesfunnel, lokal SEO og lead-oppfølging - så du slipper å bry deg om koden mens du fokuserer på jobben.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Google Search Console for håndverkere", href: "/kunnskapsbank/google-search-console-for-handverkere" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
