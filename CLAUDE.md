@@ -61,9 +61,20 @@ via direkte URL, men vises ikke i "Alle fagområder"-oversiktene.
 Produksjon bruker prosjektet **`qbymtcolzrjczxmzvyhd`**
 (`https://qbymtcolzrjczxmzvyhd.supabase.co`).
 
-⚠️ Dette er **ikke** samme prosjekt som BouwFlow (`wsdlmkbovtmwktomfdym`). Den
-gamle, arvede CLAUDE.md pekte feilaktig på BouwFlow sitt prosjekt — dobbeltsjekk
-alltid ref-en i `.env` før du kjører SQL.
+⚠️ **Dette Supabase-prosjektet deles med `bouw-flow-boost`** (aannemersysteem.com).
+Begge repoene har nøyaktig samme `.env`-commit (`4e43687`, 2026-03-17) — vekst-system
+arvet den fra forken og den ble aldri pekt om. Verifisert 2026-07-30.
+
+Konsekvens: **SQL du kjører "for vekst-systemet" treffer også BouwFlow sin
+database.** Sjekk alltid om en schema-endring påvirker begge sidene før du kjører
+den. Om de egentlig skal ha hver sin database, er det en oppgave som må gjøres
+bevisst (nytt prosjekt + ny `.env` + datamigrering) — ikke noe man fikser i
+forbifarten.
+
+Ref-en `wsdlmkbovtmwktomfdym` som den gamle, arvede CLAUDE.md nevnte, er **ikke**
+nettstedets database. Det er BouwFlow sitt separate outreach/CRM-prosjekt, og
+brukes bare av `scripts/build-outreach-*.py` og `supabase/outreach-google-maps-*.sql`
+i det repoet.
 
 SQL for schema-endringer ligger i `supabase/*.sql` og kjøres manuelt i SQL
 editoren. Ikke apply migrasjoner automatisk.
