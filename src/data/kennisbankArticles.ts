@@ -6289,4 +6289,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
     ],
   },
+  {
+    slug: "sponsing-av-lokal-idrett-for-handverkere",
+    title: "Sponsing av lokal idrett for håndverkere: Verdt pengene?",
+    description:
+      "Slik behandler du sponsing av idrettslag som en reell markedsføringskanal - med prising, målbare rettigheter, målgruppe og skattemessig håndtering.",
+    category: "Leads",
+    readTime: "10 min",
+    date: "2026-07-30",
+    sections: [
+      {
+        heading: "Sponsing er ikke veldedighet - det er markedsføring",
+        body:
+          "For mange håndverkerbedrifter starter sponsingen med en telefon fra en far på lag 2007. Du sier ja fordi han er en gammel kunde, betaler 10 000 kr og tenker aldri mer på hva du får igjen. Det er ikke sponsing - det er en gave med lavere skattefordel. Reell sponsing er kjøp av markedsplass med en definert pris og en definert leveranse, akkurat som Google Ads eller Facebook-annonser. Om du er rørlegger, elektriker eller taktekker: krev det samme regnskapet av en logo på en drakt som du krever av en digital kampanje. Uten det ender du fort med å bruke 30 000 kr i året på noe ingen kan spore.",
+      },
+      {
+        heading: "Hvor mye koster sponsing av et idrettslag?",
+        body:
+          "Prisene varierer enormt. En logo på junior-lagets treningsgenser i et bygdelag koster typisk 3 000-8 000 kr per sesong. Hovedsponsor på et A-lag i 3. divisjon fotball ligger fort på 40 000-80 000 kr. En LED-banner i en ishall der du får 30 sekunder eksponering per hjemmekamp - da snakker vi 100 000 kr og oppover per sesong. Merk at mange klubber selger \"pakker\" der du får logoen på 12 forskjellige steder for én pris. Del prisen på antall reelle eksponeringer for å se hva du faktisk betaler per tusen visninger, og sammenlign tallet med hva samme sum ville gitt deg på Facebook eller Google.",
+      },
+      {
+        heading: "Hva du får igjen: konkrete rettigheter du bør kreve",
+        body:
+          "En profesjonell sponsoravtale spesifiserer leveransen. Krav som bør stå svart på hvitt: logo på draktbryst med minimum størrelse, banner på hjemmekamper, plass på klubbens nettside med lenke tilbake (dette gir deg backlinks som hjelper på lokal SEO), omtale i minimum fire nyhetsbrev per sesong, og rett til å bruke klubbens spillerbilder i egne kanaler. En maler i Trondheim krevde at klubben skulle publisere en video-anbefaling én gang per sesong - det ga ham tre nye jobber året etter. Hvis klubben ikke vil eller kan levere dette skriftlig, er avtalen ikke moden nok. Da har du en gave, ikke en investering.",
+      },
+      {
+        heading: "Målgruppen som betyr noe: foreldrene, ikke spillerne",
+        body:
+          "Barna på laget kjøper ikke nytt tak eller nytt bad. Foreldrene gjør det - og det er dem du kjøper eksponering hos. 60-70 % av foreldre på en junior-tribune er huseiere i alderen 35-50 med hjem som trenger jevnlig arbeid av rørlegger, elektriker, flislegger eller tømrer. En sponsoravtale er verdiløs uten en plan for hvordan du snakker til den gruppen. Sørg for at logoen din alltid står ved siden av telefonnummer eller nettadresse, ellers har du kjøpt kjennskap uten en enkel vei til en lead. En QR-kode på LED-banneret som fører til en dedikert landingsside kan alene doble effekten.",
+      },
+      {
+        heading: "Hvor du bør sponse - og hvor du bør la være",
+        body:
+          "Sponsingen fungerer best i tettbygde områder med geografisk overlapp mellom klubben og markedet ditt. Om du er murer i Ålesund og sponser et lag i Molde, kaster du pengene. Prioriter idrettslag der klubbhuset ligger innenfor 15 minutters kjøring fra der du normalt tar jobber. Håndball, fotball og ishockey har typisk størst foreldrepublikum og gir mest for pengene. Unngå smale nisjeidretter med lite tilskuere, med mindre lagets styremedlemmer selv sitter på en portefølje av potensielle prosjekter - da er avtalen egentlig en form for nettverksbygging, ikke markedsføring, og du bør vurdere den etter en helt annen skala.",
+      },
+      {
+        heading: "Slik måler du effekten uten å bli lurt",
+        body:
+          "Klubbstyret vil fortelle deg at sponsingen \"skaper masse goodwill\". Det er verdiløst uten tall. Etabler minst tre målepunkter før sesongen starter: et unikt telefonnummer på skiltingen (spor med anropslogg), en kampanjekode kundene kan oppgi ved tilbud (10 % rabatt til støtte for laget), og et fast spørsmål i lead-registreringen med \"hvor har du hørt om oss\". Etter 12 måneder regner du: hvor mange lead kom via disse kildene, hva ble konverteringsraten, og hva var snittordreverdien. En sponsing som gir tre jobber à 45 000 kr i dekningsbidrag mot en investering på 20 000 kr er en klar seier - og tallene vinner over magefølelsen hver gang neste sesong skal budsjetteres.",
+      },
+      {
+        heading: "Skattemessig behandling: sponsing vs gave",
+        body:
+          "Skattemessig er sponsing en fradragsberettiget markedsføringskostnad hvis motytelsen er reell. En gave er ikke fradragsberettiget. Grensen går ved dokumenterbar leveranse - avtale på papir, faktura fra klubben som næringsdrivende, og synlig eksponering du kan vise til. Uten dette er risikoen at Skatteetaten omklassifiserer utgiften i en kontroll og du får et etterberegnet skattekrav pluss tilleggsskatt. En tømrer i Bergen fikk 65 000 kr strøket i fradrag over to år fordi han ikke kunne dokumentere motytelser. Be alltid om en formell sponsoravtale, ikke bare en kvittering - og oppbevar bilder av logoen din i bruk gjennom sesongen.",
+      },
+      {
+        heading: "Kombiner sponsing med resten av markedsføringen",
+        body:
+          "Logoen på en drakt gir 3-5 sekunder oppmerksomhet i beste fall. Den jobben er halvferdig hvis foreldrene som så deg spille i helgen ikke gjenkjenner navnet ditt når de søker på Google mandag morgen. Sørg for at Google Bedriftsprofil er oppdatert, at du har gode anmeldelser å vise til, og at nettsiden din matcher det inntrykket sponsoreksponeringen gir. Dette er social proof i praksis - sponsingen bygger kjennskap, mens de digitale kanalene bygger tillit. Uten begge er funnel din lekk. Vurder også retargeting mot besøkende fra klubbens nettside; da får du to eksponeringer for prisen av én.",
+      },
+      {
+        heading: "Når du bør si nei - de dårlige avtalene",
+        body:
+          "De fleste sponsorforespørsler som lander i innboksen din er dårlige avtaler. Kjenn igjen mønsteret: \"vi trenger 15 000 kr til nye drakter, du får logoen på ryggen\". Ingen konkret målgruppe, ingen definert leveranse, ingen måling. Det er en gave med markedsføringsmaske. Si nei uten dårlig samvittighet, eller kom med et motforslag: \"jeg kan bidra med 5 000 kr som gave, eller 15 000 kr som formell sponsing med disse konkrete rettighetene\". Klubber som ikke aksepterer det siste, er ikke klare til å håndtere sponsorer profesjonelt - og de blir like uklare når du prøver å kreve inn motytelsene senere på sesongen.",
+      },
+      {
+        heading: "Fra logo på draktene til komplett vekstsystem",
+        body:
+          "Sponsing er én kanal - og fungerer aldri isolert. En håndverksbedrift som skal vokse fra 3 til 10 ansatte trenger en helhet: nettside som fanger opp de som ser logoen, automatisert lead-oppfølging av tilbud som kommer inn, en anmeldelsesfunnel som gir stjerner å vise til, og lokal SEO som gjør at du dukker opp når foreldrene faktisk søker etter en elektriker eller rørlegger. Vekst Systemet samler dette i én stack - så pengene du bruker på sponsing faktisk konverterer til jobber i stedet for å forsvinne i luften rundt en fotballbane.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Markedsbudsjett for håndverkere", href: "/kunnskapsbank/markedsbudsjett-for-handverkere" },
+      { label: "Nabolagsmarkedsføring for håndverkere", href: "/kunnskapsbank/nabolagsmarkedsforing-for-handverkere" },
+      { label: "Leadgenerering", href: "/tjenester/leadgenerering" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
