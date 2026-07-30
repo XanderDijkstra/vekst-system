@@ -65,11 +65,14 @@ Produksjon bruker prosjektet **`qbymtcolzrjczxmzvyhd`**
 Begge repoene har nøyaktig samme `.env`-commit (`4e43687`, 2026-03-17) — vekst-system
 arvet den fra forken og den ble aldri pekt om. Verifisert 2026-07-30.
 
-Konsekvens: **SQL du kjører "for vekst-systemet" treffer også BouwFlow sin
-database.** Sjekk alltid om en schema-endring påvirker begge sidene før du kjører
-den. Om de egentlig skal ha hver sin database, er det en oppgave som må gjøres
-bevisst (nytt prosjekt + ny `.env` + datamigrering) — ikke noe man fikser i
-forbifarten.
+**Dette er bevisst og skal ikke "fikses".** Bekreftet av Xander 2026-07-30: det
+er samme produkt i to markeder — samme markedsføringsnettsted for håndverkere,
+ett i Nederland og ett i Norge. Ulik struktur foran, felles backend bak. Ikke
+foreslå å splitte databasene.
+
+Konsekvens du likevel må ta hensyn til: **SQL du kjører "for vekst-systemet"
+treffer også BouwFlow sin database.** Sjekk alltid om en schema-endring påvirker
+begge sidene før du kjører den.
 
 Ref-en `wsdlmkbovtmwktomfdym` som den gamle, arvede CLAUDE.md nevnte, er **ikke**
 nettstedets database. Det er BouwFlow sitt separate outreach/CRM-prosjekt, og
