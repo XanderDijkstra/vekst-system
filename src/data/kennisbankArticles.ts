@@ -6420,4 +6420,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "nps-og-kundetilfredshet-for-handverkere",
+    title: "NPS-måling for håndverkere: fang opp misnøye i tide",
+    description:
+      "Slik måler du kundetilfredshet systematisk som håndverker med NPS. Fang opp misnøye før den blir en dårlig anmeldelse, og gjør fornøyde kunder til henvisere.",
+    category: "Anmeldelser",
+    readTime: "9 min",
+    date: "2026-08-01",
+    sections: [
+      {
+        heading: "Kundetilfredshet du ikke måler, kan du ikke fikse",
+        body:
+          "De fleste håndverkere finner ut at en kunde var misfornøyd først når det ligger en ny anmeldelse på Google Bedriftsprofil. Da er skaden allerede offentlig. En maler med 60 oppdrag i året kan ha 10 misfornøyde kunder uten å vite det - bare to av dem skriver, resten forsvinner i stillhet. Det er 8 tapte muligheter til å rette opp forholdet og ofte 8 tapte henvisninger. Systematisk måling av kundetilfredshet snur dette. Du fanger opp signalene fra alle, ikke bare de mest sinte, og får sjansen til å handle før tilbakemeldingen blir en offentlig anmeldelse.",
+      },
+      {
+        heading: "NPS forklart på fem minutter",
+        body:
+          "Net Promoter Score er én skala fra 0 til 10 på ett spørsmål: hvor sannsynlig er det at du anbefaler oss til en venn eller kollega? Skårene deles i tre grupper - 9-10 er promoters, 7-8 er passives, 0-6 er detractors. NPS-verdien er prosent promoters minus prosent detractors. En rørlegger med 40 % promoters og 15 % detractors får NPS 25. Bransjesnittet i håndverk ligger mellom 20 og 40. Under 20 har du et problem å løse. Over 50 har du en henvisningsmaskin. Metoden er så enkel at den fungerer selv for en enmannsbedrift uten CRM.",
+      },
+      {
+        heading: "Timing - send når inntrykket er ferskt, men modnet",
+        body:
+          "Send for tidlig, og kunden har ikke rukket å bruke løsningen. Send for sent, og de har glemt detaljene. Fungerende tommelfingerregler: 3 dager etter maler er ferdig, 5-7 dager etter rørlegger har byttet varmtvannsbereder, 2 uker etter taktekker har levert (rekker en skikkelig regnskyll), én uke etter flislegger på bad. En elektriker som byttet sikringsskap får ærligere svar etter en uke enn samme dag. Bygg utsendelsen inn i sluttrutinen slik at ingen glemmes - det er den vanligste feilen når man kjører NPS manuelt.",
+      },
+      {
+        heading: "Spørsmålene som faktisk gir informasjon",
+        body:
+          "Selve NPS-spørsmålet er standardisert. Det viktige er oppfølgingsspørsmålet, og der gjør de fleste håndverkere det for smalt. Åpne spørsmål slår avkryssingslister hver gang. \"Hva var viktigst for skåren din?\" gir bedre svar enn \"Var du fornøyd med kvaliteten?\". Til de som svarte 9-10, spør \"Hva ville gjort at du ga oss 10?\" - du får konkrete forbedringer i stedet for høflig ros. Til detractors, be om én ting du kan gjøre annerledes neste gang. En tømrer som spurte slik i seks måneder oppdaget at det ikke var kvaliteten på arbeidet, men manglende beskjed om forsinkelser, som trakk skåren ned.",
+      },
+      {
+        heading: "Tolk skårene - og ikke la passives forsvinne i midten",
+        body:
+          "Detractors får all oppmerksomheten, men passives er ofte den største tapte gruppen. En kunde som ga 7 er ikke misfornøyd - de mangler bare grunnen til å anbefale deg videre. Det tar sjelden mye: en oppfølgings-SMS med et vedlikeholdstips, en oppmerksomhet i posten, en påminnelse et halvår etter jobben. En murer som konverterte 20 % av passives til promoters gjennom systematisk oppfølging, doblet henvisningsraten på ett år. Skåren i seg selv er ikke svaret - segmenteringen er det som gjør deg i stand til å prioritere hva du gjør med hver enkelt kunde.",
+      },
+      {
+        heading: "Behandle detractors som en dårlig anmeldelse som ikke er skrevet ennå",
+        body:
+          "Ringer du en detractor innen 24 timer, redder du forholdet i syv av ti tilfeller. Sender du e-post, redder du én av ti. Lytt uten å forsvare, still oppfølgingsspørsmål, og tilby konkret utbedring - ikke bare unnskyldning. En pusser som brukte 2 timer og 3 000 kr på å gjøre om en dårlig kant, fikk en femstjerners anmeldelse fra samme kunde tre uker senere. Kostnaden er alltid lavere enn tapet av omdømme. Bygg alerts inn i systemet: en skår under 6 skal trigge en telefon fra deg eller daglig leder, ikke havne i en rapport ingen leser.",
+      },
+      {
+        heading: "Løft promoters til anmeldelser og henvisninger",
+        body:
+          "Promoters er villige. De sier det med skåren. Men uten et system spør ingen dem videre. Automatiser flyten: skår 9 eller 10 utløser en SMS 2 dager senere med direkte lenke til Google Bedriftsprofil, og en påminnelse 5 dager etter det hvis anmeldelsen mangler. Til de som ga 10, still ett ekstra spørsmål: \"Kjenner du noen som trenger tak, bad eller annen fagjobb i tiden fremover?\" En taktekker som konverterte 30 % av promoters til anmeldelser og 8 % til henvisninger, bygde en pipeline som gjorde kald akkvisisjon nesten unødvendig etter 12 måneder.",
+      },
+      {
+        heading: "Vanlige feil som gjør målingen verdiløs",
+        body:
+          "Å måle uten å handle er den vanligste feilen. Å sende samme dato hver måned i stedet for fortløpende etter jobb er den nest vanligste. Å ikke lukke sløyfen - kunden vet ikke om du leste svaret - dreper svarraten over tid. En flislegger samlet 200 svar i to år uten å gjøre noe med dem, og kastet bort både tiden sin og kundenes tålmodighet. Data uten oppfølging er en kostnad, ikke en investering. Definer på forhånd hva som skjer med hver skår, hvem som er ansvarlig, og med hvilken frist. Uten dét er NPS-målingen bare et Excel-ark ingen åpner.",
+      },
+      {
+        heading: "Slik knytter du NPS til resten av markedsføringsstacken",
+        body:
+          "NPS blir kraftig først når den er koblet på anmeldelsesfunnel, lead-oppfølging og CRM. En detractor skal utløse en alert, en promoter skal utløse en anmeldelsesforespørsel, en passiv skal legges i en 6-måneders oppfølgingskampanje. Uten automatisering forsvinner alt sammen i støy. Vekst Systemet setter opp hele flyten - utsendelse etter fullført jobb, segmentering, alerts, direkte påkobling til Google Bedriftsprofil og henvisningsflyt - som én kobling i stedet for tre løsrevne verktøy. For en håndverksbedrift med 50-300 oppdrag i året er det forskjellen på å måle tilfredshet og faktisk bruke den til å vokse.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Fem stjerners Google-anmeldelser som håndverker", href: "/kunnskapsbank/fem-stjerners-google-anmeldelser-handverker" },
+      { label: "Slik svarer du på dårlige anmeldelser", href: "/kunnskapsbank/svare-pa-darlige-anmeldelser-handverker" },
+      { label: "Anmeldelsesfunnel", href: "/tjenester/anmeldelsesfunnel" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
