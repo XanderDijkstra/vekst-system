@@ -7176,4 +7176,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
     ],
   },
+  {
+    slug: "forste-ansatt-som-handverker",
+    title: "Første ansatt som håndverker: slik gjør du overgangen trygt",
+    description:
+      "Fra enmannsbedrift til arbeidsgiver: hva ansatt nummer én egentlig koster, hva du må ha på plass juridisk, og slik gjør du ansettelsen lønnsom fra dag én.",
+    category: "Teknisk",
+    readTime: "11 min",
+    date: "2026-08-13",
+    sections: [
+      {
+        heading: "Hvorfor ansettelse er det største spranget i håndverkerdrift",
+        body:
+          "Ingen beslutning endrer håndverkerfirmaet ditt mer enn den første ansatte. Fra å styre din egen timeplan og lønn, går du til å ha ansvar for en annens husleie, forsikring og skatt. En rørlegger som fakturerer 1 200 timer i året alene, blir plutselig ansvarlig for at 2 400 timer skal fylles med lønnsomme oppdrag. Det som virker som en dobling av kapasitet, viser seg ofte som en tredobling av administrasjon - og det er den innsikten underveis som drar mange nye arbeidsgivere ned det første halvåret.",
+      },
+      {
+        heading: "Regn ut ekte kostnad av ansatt nummer én (ikke bare lønn)",
+        body:
+          "En håndverker med 45 000 kroner i månedslønn koster ikke 45 000. Legg til feriepenger (12 prosent), arbeidsgiveravgift (14,1 prosent i sone 1), OTP (minimum 2 prosent), yrkesskadeforsikring (1-3 prosent av lønn), sykelønn de første 16 dagene, og et anslag på arbeidstøy, verktøy, bilbruk og opplæring. Realkosten blir typisk 65 000-72 000 kroner per måned - altså 780 000-865 000 kroner i året. Bruk en personalkostnad-kalkulator for å få det eksakte tallet før du signerer arbeidsavtalen, ikke etter.",
+      },
+      {
+        heading: "Timepris må opp - ellers taper firmaet på den nye",
+        body:
+          "Solo-håndverkeren kan gå med relativt lav timepris fordi det ikke er noen mellomledd - alt du fakturerer, går i egen lomme etter drift. Med en ansatt må hver time hun jobber dekke sin del av hennes lønn, sosiale kostnader, andel av admin, og et påslag for risiko. En elektriker som fakturerte 950 kroner alene, må typisk opp til 1 150-1 250 kroner når hun ansetter en montør - eller ta jobbene på fastpris med bedre margin. En timepris-kalkulator viser hva break-even faktisk er, ikke hva bransjegjennomsnittet sier.",
+      },
+      {
+        heading: "Faktureringsgrad og planlegging på to - den vanligste feilen",
+        body:
+          "En solo-håndverker fakturerer typisk 55-65 prosent av arbeidstiden - resten går til befaringer, tilbud, kjøring, materialkjøp og admin. Med en ansatt kan én person overta materialkjøpene og kjøringen mellom jobber, mens den andre står i lønnsomt arbeid - men bare hvis dere planlegger sekvensielt. Uten planlegging jobber begge halvt: to timer på jobb, en time i bilen, en time på Byggmakker. En taktekker som setter opp fast ukesplan der montøren har ferdiglaget rutebeskrivelse og materialkomponert bilen, ser faktureringsgraden gå fra 55 til 78 prosent i løpet av tre måneder.",
+      },
+      {
+        heading: "Ansettelsesavtale og prøvetid - dokumentene du må ha",
+        body:
+          "Skriftlig arbeidsavtale er et lovkrav senest én måned etter arbeidsstart - i praksis bør den signeres samme dag som ansettelse. Den må inneholde stillingstittel, arbeidsted, oppmøtetid, oppsigelsestid, lønn, feriepenger, prøvetid (typisk seks måneder), oppsigelsesvilkår og eventuelle klausuler. Bruk en mal fra Byggenæringens Landsforening eller Fellesforbundet - ikke skriv fra bunn. Prøvetidsperioden gir deg kort oppsigelsestid (typisk 14 dager) hvis kjemien eller kvaliteten ikke stemmer - en sikkerhetsventil du ikke skal droppe fordi det virker unødvendig for en du kjenner fra før.",
+      },
+      {
+        heading: "Yrkesskadeforsikring, OTP og fagforening - det lovpålagte",
+        body:
+          "Fra dag én må du ha yrkesskadeforsikring gjennom et forsikringsselskap (koster 1-3 prosent av lønnssum), obligatorisk tjenestepensjon (OTP) på minst 2 prosent, og du må registrere firmaet som arbeidsgiver hos Skatteetaten. Innmelding i Fellesforbundet eller Norsk Arbeidsmandsforbund er frivillig, men kan gi ansatte tariff-vilkår som du ellers må skrive inn manuelt. En pusser som glemte å tegne yrkesskadeforsikring, fikk et krav på 850 000 kroner da montøren falt fra stillaset i uke seks - forsikringen ville kostet 8 000 kroner i året. Ingen kortsiktig innsparing er verdt den risikoen.",
+      },
+      {
+        heading: "Hvem du skal ansette først - hjelper, montør eller kontorstøtte",
+        body:
+          "Standardvalget er en til av meg selv - en fagutdannet montør som kan overta halve oppdragsmengden. Men vurder alternativene: en hjelper eller lærling koster halvparten, tar over grovarbeid som frigjør din fagtid, og gir deg et rekrutteringsspor på lang sikt. En kontor-hjelper 20 timer i uka som svarer telefonen, skriver tilbud og fakturerer, kan gi deg 15-20 nye faktura-timer i uka - ofte høyere ROI enn en ny montør. Vurder hva som faktisk er flaskehalsen din: er du full på jobb, eller full på admin? Svaret bestemmer hvem du skal lyse ut.",
+      },
+      {
+        heading: "Onboarding første 30 dager - fra kaffe til produktiv",
+        body:
+          "En ny tømrer eller flislegger skal ikke bare hoppe i det - de første 30 dagene setter tonen. Uke én: kjør sammen, vis alle rutiner (kundekommunikasjon, materialkjøp, dokumentasjon), still som backup. Uke to: la vedkommende ha egne oppgaver på jobber der du er tilstede. Uke tre: gi solo-oppgaver på enklere jobber. Uke fire: full delegering på definerte oppdrag. En maler som gjorde dette systematisk med ny hjelper, hadde vedkommende i lønnsom drift etter fem uker - mot bransjegjennomsnittet på tolv uker.",
+      },
+      {
+        heading: "Delegering og sluttfase - la den nye faktisk jobbe",
+        body:
+          "Den vanligste feilen etter to måneder er at eieren ikke slipper taket. Du sjekker hvert tilbud, hver innkjøpsordre, hver kundemelding - og montøren blir aldri selvgående. Sett tydelige beslutningsgrenser: montøren kan bestille materialer opp til 15 000 kroner uten godkjenning, gjøre tilleggsarbeid opp til 8 000, og signere kundens overtakelsesprotokoll ved enkle oppdrag. En flislegger som tydeliggjorde disse grensene, frigjorde 12-15 timer i uka av egen tid - som gikk til nye tilbud og forretningsutvikling. Delegering er ikke å håpe det går bra; det er å definere grensene skriftlig.",
+      },
+      {
+        heading: "Fra én til fem: ett system som holder veksten sammen",
+        body:
+          "Ansatt nummer én er det største spranget, men to og tre kommer med sine egne vendinger: du må ha en formell arbeidsplan, en formann eller ansvarshavende, en fungerende CRM som holder oversikt over hvem som gjør hva, og en lead-oppfølging på tilbud som ikke drukner i telefonsvarer. Vekst Systemet knytter tilbud, arbeidsordre, timeføring og oppfølging sammen i én flyt bygget for norske håndverkerbedrifter - slik at én ny ansatt ikke betyr én ny fulltidsadministrator, men faktisk vekst du kjenner på bunnlinjen. Systemene du bygger nå på to ansatte, blir grunnmuren når firmaet har seks.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Rekruttering for håndverkere", href: "/kunnskapsbank/rekruttering-for-handverkere" },
+      { label: "Timepris for håndverkere 2026", href: "/kunnskapsbank/timepris-for-handverkere-2026" },
+      { label: "Timeregistrering for håndverkere", href: "/kunnskapsbank/timeregistrering-for-handverkere" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Personalkostnad-kalkulator", href: "/verktoy/personalkostnad-kalkulator" },
+    ],
+  },
 ];
