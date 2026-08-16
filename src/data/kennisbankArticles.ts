@@ -7370,4 +7370,72 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "kpi-dashboard-for-handverkere",
+    title: "KPI-dashboard for håndverkere: 10 tall du bør følge hver uke",
+    description:
+      "Slik setter du opp et enkelt KPI-dashboard som viser hvor mye du tjener, hvor leadene kommer fra, og hva som må fikses denne uken - uten fancy verktøy.",
+    category: "Automatisering",
+    readTime: "10 min",
+    date: "2026-08-16",
+    sections: [
+      {
+        heading: "Hvorfor du trenger tall, ikke magefølelse",
+        body:
+          "De fleste håndverkere driver på magefølelse. Du «vet» at det gikk bra denne måneden, men klarer ikke sette et tall på hvor mye du tjente på tømrer-jobben forrige uke eller hvor mange leads Facebook-annonsene ga i august. Uten tall styrer du blindt: du senker prisen når du burde hevet den, du dumper markedsføringskanaler som faktisk virker, og du fyller kalenderen med jobber som drenerer kontoen. En rørlegger som fulgte tallene sine i seks måneder oppdaget at 30 prosent av oppdragene ga null i timepris etter alle skjulte timer var lagt inn.",
+      },
+      {
+        heading: "De 10 tallene som betyr noe hver uke",
+        body:
+          "De ti tallene som betyr noe uke for uke er: omsetning så langt i måneden, antall nye leads, konvertering på tilbud, snittordreverdi, bruttomargin per prosjekt, fakturerte timer mot lønnstimer, utestående over 30 dager, kontantbeholdning, antall aktive prosjekter, og fordeling mellom leadskilder. Du trenger ingen dyre BI-verktøy - et Google Sheet med ti rader holder i årevis. Poenget er ikke perfeksjon, det er å se retningen. Beveger ett av tallene seg feil vei to uker på rad, er det tid for handling, ikke flere spørsmål.",
+      },
+      {
+        heading: "Leadskilde-fordeling: hvor kommer jobbene fra?",
+        body:
+          "Hvor kommer jobbene dine fra? Google-søk, Facebook-annonser, henvisninger fra tidligere kunder, Google Bedriftsprofil, Mittanbud, eller kalde treff? En elektriker som ikke vet dette, kutter feil budsjett når det strammer inn. Loggfør hver eneste henvendelse i én kolonne - telefon, skjema, e-post - og noter hvor de kom fra. Etter tre måneder ser du kanskje at 40 prosent kommer fra anmeldelser og henvisninger, 25 prosent fra Google Ads, 20 prosent fra lokal SEO, og 15 prosent fra andre kilder. Da vet du eksakt hvor du skal doble innsatsen og hva du kan skalere ned.",
+      },
+      {
+        heading: "Konverteringsrate på tilbud: hva vinner du?",
+        body:
+          "Konvertering på tilbud er tallet som avslører hvor god du er i salget. Hvis du sender 20 tilbud i måneden og vinner 6, ligger du på 30 prosent. Bransjesnittet for maler og tømrer ligger typisk på 25-40 prosent, men de beste ligger over 50 prosent fordi de har lead-oppfølging på plass og skriver tilbud kunden faktisk forstår. Følg dette tallet ukentlig. Faller raten under 20 prosent, er det sjelden prisen som er problemet - det er som regel responstid, formatet på tilbudet, eller at du bruker tid på feil kunder som aldri var reelle.",
+      },
+      {
+        heading: "Snittordreverdi og bruttomargin per prosjekt",
+        body:
+          "Snittordreverdi forteller om størrelsen på jobbene du tar, bruttomargin forteller om du faktisk tjener på dem. En flislegger med 45 000 kr per oppdrag og 35 prosent margin ligger sunt, mens en med 80 000 kr snitt og 15 prosent margin selger mye for lite. Beregn margin ved å trekke fra materialkostnad, underleverandør, og reelle timer per prosjekt. Mange oppdager at de store jobbene ser fine ut på papiret, men gir dårligere margin enn de små fordi de trekker ut i tid og genererer overraskelser. Følg begge tallene måned for måned og se hvor de trekker deg.",
+      },
+      {
+        heading: "Timepris-realisering: får du betalt for de timene du jobber?",
+        body:
+          "Timepris-realisering er forskjellen mellom timeprisen du fakturerer og timeprisen du faktisk får betalt for. En taktekker som fakturerer 1 250 kr per time, men bruker 45 minutter ubetalt hver dag på oppmøte, rydding og lagerkjøring, ender reelt på kanskje 950 kr per time. Loggfør fakturerte timer per uke og sammenlign med tilstedeværelsen. Målet er over 70 prosent på tvers av teamet. Faller du under 60 prosent, må du se på ruteplanlegging, forberedelse, eller om enkelte jobber tar mye lengre enn kalkulert. Etterkalkyle på hvert større prosjekt gjør dette tallet konkret og handlingsrettet.",
+      },
+      {
+        heading: "Kontantstrøm og utestående - den viktigste helsesjekken",
+        body:
+          "Kontantstrøm er det som knekker håndverksbedrifter, ikke ordreboka. Følg to tall hver uke: bankbeholdning i dag, og utestående over 30 dager. Har du 400 000 kr utestående og 80 000 på konto, er du én sen betaling fra å ikke få kjørt lønn. Automatisk purring og akontofakturering på prosjekter over fire uker fjerner det meste av dette. En murer som gikk fra manuell fakturering til automatisert oppfølging fikk utestående ned fra 380 000 til 90 000 på to måneder - uten å bytte kunder eller heve prisen. Kontantstrøm bygger seg med rutiner, ikke med håp.",
+      },
+      {
+        heading: "Slik samler du tallene uten regnskapsbyrå",
+        body:
+          "Du trenger ikke skreddersydd programvare. Et Google Sheet med ti rader og tolv kolonner (én per måned) holder i lang tid. Regnskapsprogrammet gir omsetning, faktura og utestående. CRM-et gir leads, tilbud og konverteringsrate. Kalender og timeregistrering gir fakturerte timer. Bruk 45 minutter på å bygge malen én gang, så tar oppdateringen 15-20 minutter i uka. En elektriker som kjørte dette i seks måneder oppdaget at Google Ads ga en lead til 380 kr mens en tilsvarende Facebook-annonse ga leads til 210 kr - han flyttet budsjettet og økte antall tilbud med 40 prosent på ett kvartal.",
+      },
+      {
+        heading: "Ukentlig rytme: 20 minutter tirsdag morgen",
+        body:
+          "Legg tallene inn tirsdag morgen, samme tid, hver uke. Mandag er alltid stressa, fredag glemmer du. Tirsdag har du oversikt over forrige uke og full uke foran deg. Skriv ned to observasjoner ved siden av tallene: hva som gikk bra, og hva som må fikses. Del skjermbilde med regnskapsføreren din en gang i måneden. Rytmen er viktigere enn detaljnivået - det er langt bedre å oppdatere ti tall i tjue minutter hver uke enn å bygge et perfekt dashboard du oppdaterer én gang i kvartalet og aldri ser på igjen.",
+      },
+      {
+        heading: "Fra dashboard til handling: hva gjør du med tallene?",
+        body:
+          "Tallene har verdi først når de utløser handling. Konverteringen faller fra 40 til 25 prosent - sjekk responstid og se hvor mange tilbud som ligger uten lead-oppfølging. Snittordreverdien synker - kanskje du har droppet mersalg av vedlikeholdsavtaler. Kontantbeholdningen faller tre uker på rad - sett opp automatisk purring i morgen. Vekst Systemet samler leads, tilbud, oppfølging og fakturering i én innboks, slik at du får tallene rett ut av systemet uten manuell logging. Men verktøyet er sekundært - vanen med å se på tallene hver tirsdag er det som faktisk endrer bedriften.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lead-sporing for håndverkere", href: "/kunnskapsbank/lead-sporing-for-handverkere" },
+      { label: "Etterkalkyle for håndverkere", href: "/kunnskapsbank/etterkalkyle-for-handverkere" },
+      { label: "Automatisering", href: "/tjenester/automatisering" },
+      { label: "Prosjektmargin-kalkulator", href: "/verktoy/prosjektmargin-kalkulator" },
+      { label: "Markedsføring for håndverkere - guide", href: "/guide/markedsforing-for-handverkere" },
+    ],
+  },
 ];
