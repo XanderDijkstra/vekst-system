@@ -7627,4 +7627,67 @@ export const kennisbankArticles: KennisbankArticle[] = [
       { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
     ],
   },
+  {
+    slug: "sokeordsanalyse-for-handverkere",
+    title: "Søkeordsanalyse for håndverkere: Finn ordene kundene faktisk googler",
+    description:
+      "Slik kartlegger du hvilke søk potensielle kunder faktisk gjør - og hvordan du bygger landingssider som rangerer på dem. Praktisk guide for norske håndverkerbedrifter i 2026.",
+    category: "SEO",
+    readTime: "10 min",
+    date: "2026-08-20",
+    sections: [
+      {
+        heading: "Derfor er søkeordsanalyse mer verdt enn ny nettside-design",
+        body:
+          "Mange rørleggere og elektrikere bruker 40 000-80 000 kr på ny nettside, og glemmer at siden må rangere på ord kundene faktisk googler. En pen side som ligger på \"profesjonell rørlegger med god service\" i stedet for \"rørlegger døgnvakt Oslo\" får null organisk trafikk. Søkeordsanalyse er kartleggingen av hvilke faktiske søkefraser potensielle kunder skriver inn i Google - og hvor mange som søker på hver frase. For en håndverkerbedrift kan riktig søkeordsvalg utgjøre forskjellen mellom 20 og 200 månedlige besøk på nettsiden, uten at du endrer én linje kode.",
+      },
+      {
+        heading: "Start med det du allerede vet: kundens egne ord",
+        body:
+          "Før du åpner et eneste verktøy, sett deg med de siste 20 kundene dine. Hva sto det i innkommende e-poster og SMS? Hva ringte de om? En taktekker i Bergen oppdaget at kundene skrev \"lekkasje under snø\" og \"isdemninger på tak\" - fraser han aldri hadde tenkt på. Skjemasvar, tapt anrop-logger og chattehistorikk er en gullgruve av naturlige søkefraser. Skriv ned hver setning ordrett i et regneark. Denne listen på 30-50 fraser er kjernen i lokal SEO-arbeidet ditt, og den er mer verdt enn hvilken som helst dyr keyword-tool.",
+      },
+      {
+        heading: "Bygg listen videre med gratis verktøy",
+        body:
+          "Google selv gir deg mesteparten du trenger. Skriv inn en av kundens fraser i søkefeltet og se hva som popper opp under \"folk spør også\" og i autocomplete. Bruk Google Search Console for nettsiden din: der ser du hvilke søk som allerede driver visninger, selv om ingen klikker. Ubersuggest og Google Keyword Planner (gratis med Google Ads-konto) gir volumtall - typisk 10-2 000 søk per måned for lokale håndverker-fraser. En flislegger i Trondheim fant slik at \"flislegger baderom Trondheim\" hadde rundt 210 søk i måneden, mens den offisielle listen han hadde jobbet mot inneholdt kun ord med under 20 søk.",
+      },
+      {
+        heading: "Skille intent: informasjon, sammenligning, kjøpsklar",
+        body:
+          "Ikke alle søk er like verdifulle. \"Hva koster nytt bad\" er en informasjonssøker - kanskje seks måneder unna kjøp. \"Rørlegger baderom Oslo pris\" er en sammenligner. \"Akutt rørlegger Sagene\" er kjøpsklar og trenger deg innen 30 minutter. En elektriker som rangerer bra på informasjonsfraser, men aldri på kjøpsklare, får trafikk uten leads. Merk hver frase i listen din med I, S eller K. K-fraser gir høyest konverteringsrate - ofte 8-15 % av besøk til lead - og skal ha de kraftigste landingssidene med tydelig CTA.",
+      },
+      {
+        heading: "Volum betyr lite - lokal konkurranse betyr alt",
+        body:
+          "En maler som ser \"maler Oslo\" med 1 900 månedlige søk, tenker jackpot. Realiteten er at topp-3 på det søket er dominert av firmaer med hundrevis av anmeldelser og år med backlinks. Å kjempe der er en femårsplan. Det smartere er å finne 15-25 mellomfraser med 40-200 søk hver, der konkurransen er tre-fire firmaer med middels sterke Google Bedriftsprofil-oppføringer. Summerer du volumet, snakker vi 1 500-4 000 månedlige søk du realistisk kan rangere på. En tømrer i Stavanger fikk førsteside på 18 slike fraser på ti måneder, mens hovedkonkurrenten fortsatt jager \"tømrer Stavanger\" som nummer 6.",
+      },
+      {
+        heading: "Long-tail: der en liten håndverker slår de store",
+        body:
+          "Long-tail betyr søkefraser på fire ord eller mer: \"elektriker installasjon varmepumpe Fredrikstad\" i stedet for \"elektriker Fredrikstad\". Volumet per frase er lavt - kanskje 20-80 månedlige søk - men konverteringsraten er tre-fem ganger høyere fordi søkeren vet nøyaktig hva de trenger. En altmuligmann som lagde 40 sider - én per long-tail-frase - endte med rundt 600 månedlige besøk fra samlet 40 fraser som ingen konkurrenter jaget. Denne strategien er en av få hvor en enmannsbedrift slår større entreprenører uten et markedsbudsjett de kan matche.",
+      },
+      {
+        heading: "Fra søkeord til landingsside: én side, ett søk",
+        body:
+          "En vanlig feil er å prøve å dekke fem søkeord på én side. Google sliter med å plassere den, og siden rangerer på ingen av dem skikkelig. Regel: én hovedfrase per landingsside, med to-tre nære varianter. \"Baderomsrenovering Oslo pris\" får sin egen side med prisintervaller, referanser og skjema. \"Baderomsrenovering Oslo tid\" får en annen med tidsestimat og prosess. Sidene skal være mobilvennlig, ha god sidehastighet (under 2 sekunder), tydelig CTA over folden, og telefonnummer klikkbart øverst. Denne strukturen alene løfter konverteringen med 20-40 % sammenlignet med generelle tjenestesider.",
+      },
+      {
+        heading: "Vedlikehold: kjør analysen på nytt hvert halvår",
+        body:
+          "Søkevaner endrer seg. For to år siden var \"solcellepaneler installasjon\" en nisje - nå er det topp-10 hos elektriker-firmaer. En pusser som la til \"diffusjonsåpen puss\" på analysen sin, fanget en trend før konkurrentene skjønte at etterspørselen fantes. Sett kalenderpåminnelse hver sjette måned: gå gjennom Google Search Console, sjekk nye \"folk spør også\"-forslag, spør de siste 20 kundene om hvilke ord de brukte. Slett fraser som ikke leverer, legg til nye du fanger opp. Denne halvårlige rutinen er forskjellen på en nettside som gradvis mister trafikk, og en som vokser jevnt uten at du fyrer opp Google Ads.",
+      },
+      {
+        heading: "Vekst Systemet-stacken: søkeord, side og oppfølging i én flyt",
+        body:
+          "Selv den beste søkeordsanalysen er verdiløs hvis leadet som lander på siden aldri får svar. Vekst Systemet knytter søkeordoptimalisert landingsside sammen med automatisk lead-oppfølging, tapt anrop-håndtering og en samlet innboks der forespørselen ikke drukner. For en rørlegger eller taktekker betyr det at hver krone du putter inn i SEO faktisk konverterer til booket befaring - ikke bare et klikk i statistikken. Vi setter opp søkeordsstrategien, bygger landingssidene og kobler oppfølgingen sammen til én månedspris, uten oppstartskostnader eller lang binding.",
+      },
+    ],
+    relatedLinks: [
+      { label: "Lokal SEO for håndverkere", href: "/kunnskapsbank/lokal-seo-for-handverkere" },
+      { label: "Landingssider per tjeneste", href: "/kunnskapsbank/landingssider-per-tjeneste-handverker" },
+      { label: "Leadgenerering-nettside", href: "/tjenester/leadgenerering" },
+      { label: "Markedsføring for håndverkere 2026", href: "/guide/markedsforing-for-handverkere" },
+      { label: "Leadverdi-kalkulator", href: "/verktoy/leadverdi-kalkulator" },
+    ],
+  },
 ];
